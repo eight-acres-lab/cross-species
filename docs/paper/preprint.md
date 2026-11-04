@@ -2,6 +2,20 @@
 
 **Preprint — version 2 — 2026-10-26**
 
+**Zihui Zhang^1^, Wei Wang^2^, Ziyan Zhou^2^, Chen Peng^1,\*^, Zhi Wang^2,\*^**
+
+^1^ National Key Laboratory of Veterinary Public Health, College of Veterinary Medicine,
+China Agricultural University, Beijing, China
+
+^2^ Beijing Point Eight Intelligent Technology Co., Ltd., Beijing, China
+
+**\*Correspondence:** Chen Peng ([pengchenea@cau.edu.cn](mailto:pengchenea@cau.edu.cn));
+Zhi Wang ([witwang@pointeight.ai](mailto:witwang@pointeight.ai)).
+
+**Other author emails:** Zihui Zhang ([18322383991@163.com](mailto:18322383991@163.com));\
+Wei Wang ([mojie@pointeight.ai](mailto:mojie@pointeight.ai));
+Ziyan Zhou ([zy@pointeight.ai](mailto:zy@pointeight.ai)).
+
 ---
 
 ## Abstract
@@ -1048,24 +1062,10 @@ rows inherit that.
 
 ## 5. Data and code availability
 
-The analysis code, derived results, processed blood and macrophage response matrices,
-figure source data and manuscript are publicly available at
+Data and code are available at
 [https://github.com/eight-acres-lab/cross-species](https://github.com/eight-acres-lab/cross-species).
-The repository's `DATA_AVAILABILITY.md` maps the manuscript's figures, tables and supporting
-analyses to their data files and source studies. `REPRODUCING.md` gives commands for numerical
-verification and figure generation, and identifies the external inputs needed to rerun
-analyses whose large source matrices are not redistributed. A SHA-256 manifest records the
-released files.
-
-Primary data are available from GEO GSE249010 (the blood panel) and GSE330151 (the
-five-species hepatocyte panel); BioStudies S-DIXA-AN-004, S-DIXA-AN-005 and S-DIXA-AN-007
-(TG-GATEs); ArrayExpress E-MTAB-7022 and related accessions (the yeast panel); and the FAANG
-bone-marrow-derived macrophage series (PRJEB22535 and related projects; harmonised data in
-Supplementary Table S3 of PMC7386301). The LINCS L1000 Phase 2 analysis uses GEO GSE70138.
-The Rhaister checks use the data and model release of Svensson et al. [62], with derived
-benchmark results and analysis scripts included in the repository. GSE3284 [15], GSE3026 [16],
-GSE36177 [17] and GSE48119 [28] are cited as possible human comparators in the Discussion and
-were not analysed here.
+Primary-data accessions, provenance, reproduction instructions and limitations are documented
+in the repository.
 
 ---
 

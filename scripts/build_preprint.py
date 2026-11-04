@@ -88,12 +88,27 @@ def prepare(doc):
     date = blocks[1]["c"][0]["c"]
     doc["meta"] = {"title": {"t": "MetaInlines", "c": title},
                    "date": {"t": "MetaInlines", "c": date}}
+    # Author information lives in Markdown between the date and the first divider.
+    # Keep it in the title area and use names without affiliation marks in PDF metadata.
+    i = 2
+    author_blocks = []
+    while i < len(blocks) and blocks[i]["t"] != "HorizontalRule":
+        author_blocks.append(blocks[i])
+        i += 1
+    if author_blocks:
+        if author_blocks[0]["t"] != "Para":
+            raise ValueError("The author block must start with a paragraph of author names.")
+        names = author_blocks[0]["c"]
+        doc["meta"].update({
+            "author_line": {"t": "MetaInlines", "c": names},
+            "author_details": {"t": "MetaBlocks", "c": author_blocks[1:]},
+            "author_names": {"t": "MetaString", "c": plain(names)},
+        })
     result = []
     section_labels = {}
     figures = tables = 0
     references = False
     abstract = False
-    i = 2
     while i < len(blocks):
         b = copy.deepcopy(blocks[i])
         if b["t"] == "HorizontalRule":

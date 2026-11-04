@@ -55,7 +55,7 @@
 \usepackage{xurl}
 \usepackage[colorlinks=true,allcolors=LinkBlue,bookmarksnumbered=true]{hyperref}
 \usepackage{bookmark}
-\hypersetup{pdftitle={$title$},pdfcreator={Pandoc and LaTeX}}
+\hypersetup{pdftitle={$title$},pdfauthor={$author_names$},pdfcreator={Pandoc and LaTeX}}
 \urlstyle{same}
 % Mathematical Unicode in narrative text is explicitly mapped to the math font.
 \usepackage{newunicodechar}
@@ -86,6 +86,15 @@
 \thispagestyle{plain}
 {\fontsize{19}{22}\selectfont\bfseries\raggedright $title$\par}
 \vspace{7pt}
+$if(author_line)$
+{\fontsize{11.5}{14}\selectfont $author_line$\par}
+\vspace{4pt}
+{\fontsize{9.5}{11.8}\selectfont\setstretch{1.05}\setlength{\parskip}{3pt}
+\raggedright\hyphenpenalty=10000
+$author_details$
+\par}
+\vspace{5pt}
+$endif$
 {\small $date$\par}
 \vspace{11pt}
 $body$
