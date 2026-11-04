@@ -1,0 +1,71 @@
+{
+ "fig1": {
+  "Bos taurus": 0.34497104088465375,
+  "Macaca": 0.5336310035652585,
+  "Mus musculus": 0.2282918377055062,
+  "Oryctolagus cuniculus": 0.33437589804331463,
+  "Ovis aries": 0.2780208835999171,
+  "Pan troglodytes": 0.6755519972907172,
+  "Papio anubis": 0.5066175560156504,
+  "Rattus norvegicus": 0.20609555559025872,
+  "Sus scrofa": 0.26548615760273403
+ },
+ "baseline_raw": {
+  "Bos taurus": 0.75698322057724,
+  "Macaca": 0.7908247709274292,
+  "Mus musculus": 0.7498787641525269,
+  "Oryctolagus cuniculus": 0.715149998664856,
+  "Ovis aries": 0.7433438301086426,
+  "Pan troglodytes": 0.8283852934837341,
+  "Papio anubis": 0.8023630380630493,
+  "Rattus norvegicus": 0.745769202709198,
+  "Sus scrofa": 0.7552675008773804
+ },
+ "baseline_dev": {
+  "Bos taurus": -0.21857349574565887,
+  "Macaca": 0.0588672012090683,
+  "Mus musculus": -0.1907747983932495,
+  "Oryctolagus cuniculus": -0.22976773977279663,
+  "Ovis aries": -0.25687992572784424,
+  "Pan troglodytes": 0.19912298023700714,
+  "Papio anubis": 0.04831879958510399,
+  "Rattus norvegicus": -0.2192249298095703,
+  "Sus scrofa": -0.18183667957782745
+ },
+ "resp_amplitude": {
+  "Bos taurus": 0.4880744516849518,
+  "Homo sapiens": 0.7693678736686707,
+  "Macaca": 0.6604042053222656,
+  "Mus musculus": 0.3040142059326172,
+  "Oryctolagus cuniculus": 0.42226162552833557,
+  "Ovis aries": 0.41940391063690186,
+  "Pan troglodytes": 0.553905189037323,
+  "Papio anubis": 0.5882459282875061,
+  "Rattus norvegicus": 0.32148101925849915,
+  "Sus scrofa": 0.34260910749435425
+ },
+ "low_baseline_fraction": {
+  "Bos taurus": 0.4156720493018176,
+  "Homo sapiens": 0.27420235587799363,
+  "Macaca": 0.3611046103440206,
+  "Mus musculus": 0.4942273188236212,
+  "Oryctolagus cuniculus": 0.47156564474608004,
+  "Ovis aries": 0.41594508151961934,
+  "Pan troglodytes": 0.41867540369763634,
+  "Papio anubis": 0.3673453467509166,
+  "Rattus norvegicus": 0.4585381074966846,
+  "Sus scrofa": 0.38006084717996724
+ },
+ "group": {
+  "Papio anubis": "R",
+  "Pan troglodytes": "S",
+  "Bos taurus": "S",
+  "Homo sapiens": "S",
+  "Mus musculus": "R",
+  "Sus scrofa": "S",
+  "Rattus norvegicus": "R",
+  "Oryctolagus cuniculus": "S",
+  "Macaca": "R",
+  "Ovis aries": "S"
+ }
+}

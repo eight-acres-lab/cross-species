@@ -1,0 +1,163 @@
+{
+  "panel": "FAANG/Roslin bone-marrow-derived macrophages",
+  "accession": "PRJEB22535 and sibling projects",
+  "harmonised_table": "PMC7386301 Supplementary Table S3",
+  "journal_reference": "Frontiers in Cell and Developmental Biology 8:661",
+  "retrieved": "2026-10-05 from the Europe PMC supplementaryFiles endpoint",
+  "species": [
+    "Bos taurus",
+    "Bubalus bubalis",
+    "Capra hircus",
+    "Equus caballus",
+    "Mus musculus",
+    "Mus spretus",
+    "Ovis aries",
+    "Rattus norvegicus",
+    "Sus scrofa"
+  ],
+  "n_species": 9,
+  "n_genes_complete_in_all_species": 8294,
+  "n_genes_dropped_for_incomplete_species_coverage": 2477,
+  "pseudocount": 1.0,
+  "transform": "log2(TPM + pseudocount) stimulated minus the matched 0 h control",
+  "max_disagreement_with_published_log2fc": 0.000500023365020752,
+  "published_log2fc_rounding": "3 decimals, which bounds the agreement achievable",
+  "n_tasks": 1,
+  "single_task_consequence": "one response vector per species, so nothing here can be resampled over tasks and the residual-reproducibility arm cannot be run on this panel",
+  "stimulus_heterogeneity": "seven species receive LPS for 7 h; Mus musculus and Mus spretus receive Kdo2-lipid A (a defined TLR4 agonist) for 6 h. Both rodent rows therefore differ from the other seven in both agonist and timing, which is a confound specific to them",
+  "sanity_induced_genes_log2fc": {
+    "IL1B": {
+      "Bos taurus": 8.479226112365723,
+      "Bubalus bubalis": 9.381482124328613,
+      "Capra hircus": 6.980535984039307,
+      "Equus caballus": 8.25153636932373,
+      "Mus musculus": 8.155983924865723,
+      "Mus spretus": 8.13751220703125,
+      "Ovis aries": 8.940204620361328,
+      "Rattus norvegicus": 5.859707355499268,
+      "Sus scrofa": 3.42909836769104
+    },
+    "IL6": {
+      "Bos taurus": 5.424762725830078,
+      "Bubalus bubalis": 6.256640434265137,
+      "Capra hircus": 6.275304794311523,
+      "Equus caballus": 4.9939703941345215,
+      "Mus musculus": 7.686451435089111,
+      "Mus spretus": 8.298270225524902,
+      "Ovis aries": 4.554356098175049,
+      "Rattus norvegicus": 6.248859882354736,
+      "Sus scrofa": 0.3742551803588867
+    },
+    "CXCL8": null,
+    "SOD2": {
+      "Bos taurus": 4.909173011779785,
+      "Bubalus bubalis": 4.178609371185303,
+      "Capra hircus": 4.312351703643799,
+      "Equus caballus": 4.6135334968566895,
+      "Mus musculus": 3.338020086288452,
+      "Mus spretus": 3.5899903774261475,
+      "Ovis aries": 5.075847625732422,
+      "Rattus norvegicus": 1.7212116718292236,
+      "Sus scrofa": 3.264918327331543
+    },
+    "CCL5": {
+      "Bos taurus": 7.555431842803955,
+      "Bubalus bubalis": 0.0,
+      "Capra hircus": 3.089919090270996,
+      "Equus caballus": 4.879351615905762,
+      "Mus musculus": 7.3808369636535645,
+      "Mus spretus": 8.287335395812988,
+      "Ovis aries": 3.464590072631836,
+      "Rattus norvegicus": 7.988899230957031,
+      "Sus scrofa": 4.180046558380127
+    },
+    "NFKB1": {
+      "Bos taurus": 2.2203116416931152,
+      "Bubalus bubalis": 2.4542365074157715,
+      "Capra hircus": 2.119530439376831,
+      "Equus caballus": 1.7450240850448608,
+      "Mus musculus": 1.6988686323165894,
+      "Mus spretus": 2.108823537826538,
+      "Ovis aries": 1.9023642539978027,
+      "Rattus norvegicus": 1.5553933382034302,
+      "Sus scrofa": 0.8209513425827026
+    }
+  },
+  "sanity_housekeeping_genes_log2fc_all_nine_axis": {
+    "ACTB": null,
+    "GAPDH": null,
+    "RPL13A": null
+  },
+  "gene_axis_cost_by_species": {
+    "per_species_genes_with_a_missing_value": {
+      "Bos taurus": 438,
+      "Bubalus bubalis": 784,
+      "Capra hircus": 385,
+      "Equus caballus": 538,
+      "Mus musculus": 873,
+      "Mus spretus": 1400,
+      "Ovis aries": 593,
+      "Rattus norvegicus": 602,
+      "Sus scrofa": 396
+    },
+    "genes_regained_by_dropping_that_species": {
+      "Bos taurus": 22,
+      "Bubalus bubalis": 154,
+      "Capra hircus": 27,
+      "Equus caballus": 75,
+      "Mus musculus": 114,
+      "Mus spretus": 500,
+      "Ovis aries": 184,
+      "Rattus norvegicus": 64,
+      "Sus scrofa": 44
+    },
+    "species_costing_the_most": "Mus spretus",
+    "note": "the all-nine axis is the primary arm because more species is the point of this panel, but one species sets the cost and the eight-species axis is reported alongside so the difference is visible rather than implicit"
+  },
+  "eight_species_axis": {
+    "species": [
+      "Bos taurus",
+      "Bubalus bubalis",
+      "Capra hircus",
+      "Equus caballus",
+      "Mus musculus",
+      "Ovis aries",
+      "Rattus norvegicus",
+      "Sus scrofa"
+    ],
+    "n_genes": 8794,
+    "why": "Mus spretus is annotated from a de-novo Mouse Genomes Project assembly, so it is missing many genes the other eight have, including every housekeeping gene used as the negative control",
+    "sanity_housekeeping_genes_log2fc": {
+      "ACTB": {
+        "Bos taurus": -0.5024835467338562,
+        "Bubalus bubalis": -0.1630467176437378,
+        "Capra hircus": -0.4645594656467438,
+        "Equus caballus": -0.22307252883911133,
+        "Mus musculus": 1.1434279680252075,
+        "Ovis aries": -0.02261066623032093,
+        "Rattus norvegicus": 0.09598732739686966,
+        "Sus scrofa": 0.1459057331085205
+      },
+      "GAPDH": {
+        "Bos taurus": -0.2895635962486267,
+        "Bubalus bubalis": -0.4421527683734894,
+        "Capra hircus": -0.07914308458566666,
+        "Equus caballus": -0.026584520936012268,
+        "Mus musculus": -0.681309700012207,
+        "Ovis aries": -0.31390631198883057,
+        "Rattus norvegicus": 0.17472746968269348,
+        "Sus scrofa": -0.3176589906215668
+      },
+      "RPL13A": {
+        "Bos taurus": -0.5774665474891663,
+        "Bubalus bubalis": -0.5645673274993896,
+        "Capra hircus": -0.18359173834323883,
+        "Equus caballus": -0.4914368689060211,
+        "Mus musculus": -0.9607875943183899,
+        "Ovis aries": -0.13779695332050323,
+        "Rattus norvegicus": -0.40817463397979736,
+        "Sus scrofa": -0.23882143199443817
+      }
+    }
+  }
+}

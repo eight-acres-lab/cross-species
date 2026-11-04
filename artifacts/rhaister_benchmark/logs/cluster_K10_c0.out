@@ -1,0 +1,14 @@
+RESULT n_samples=696
+RESULT pdex_static/auprc_p05=0.424385
+RESULT pdex_static/pearson_delta_mean=0.442919
+RESULT pdex_static/pearson_delta_median=0.439349
+RESULT pdex_static/pearson_delta_std=0.059759
+RESULT state/de_overlap_mean=0.276545
+RESULT state/de_overlap_median=0.234375
+RESULT state/de_spearman_sig=0.749311
+RESULT state/pearson_delta_mean=0.533121
+RESULT state/pearson_delta_median=0.538636
+RESULT state/pr_auc_mean=0.406624
+RESULT state/pr_auc_median=0.387582
+RESULT state/spearman_lfc_sig_mean=0.527801
+RESULT state/spearman_lfc_sig_median=0.576923

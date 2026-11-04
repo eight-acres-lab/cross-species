@@ -1,0 +1,5189 @@
+{
+  "panel": "selenite",
+  "species": [
+    "candida_albicans",
+    "candida_glabrata",
+    "debaryomyces_hansenii",
+    "kluyveromyces_lactis",
+    "lachancea_thermotolerans",
+    "saccharomyces_cerevisiae",
+    "yarrowia_lipolytica"
+  ],
+  "contrasts": [
+    "t10",
+    "t20",
+    "t30",
+    "t40",
+    "t50",
+    "t60",
+    "t70",
+    "t80"
+  ],
+  "n_genes": 2295,
+  "window": 3,
+  "n_disjoint_pairs": 280,
+  "n_replicates": 4,
+  "anchor": "saccharomyces_cerevisiae",
+  "pairs": [
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.6415584415584416,
+      "pair_bound": 0.9508784146517422,
+      "pair_percent_of_bound": 67.47008152387299,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.922831195976177,
+      "anchor_percent_of_bound": 65.01730789078017
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.6558441558441558,
+      "pair_bound": 0.953021005151521,
+      "pair_percent_of_bound": 68.81738726628413,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.913696246442906,
+      "anchor_percent_of_bound": 65.66733773240821
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.638961038961039,
+      "pair_bound": 0.9570103549258339,
+      "pair_percent_of_bound": 66.76636628561423,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.922831195976177,
+      "anchor_percent_of_bound": 65.01730789078017
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6610389610389611,
+      "pair_bound": 0.9486993928928646,
+      "pair_percent_of_bound": 69.6784425067732,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9197428502700445,
+      "anchor_percent_of_bound": 65.23562535156807
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.638961038961039,
+      "pair_bound": 0.9496142742361716,
+      "pair_percent_of_bound": 67.28637682652689,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9072372266681247,
+      "anchor_percent_of_bound": 66.13485231459592
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6753246753246753,
+      "pair_bound": 0.9419356965667707,
+      "pair_percent_of_bound": 71.69541167047213,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.923266342524707,
+      "anchor_percent_of_bound": 77.36507672666512
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6311688311688312,
+      "pair_bound": 0.9414725313545952,
+      "pair_percent_of_bound": 67.04059971465152,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9120785617758576,
+      "anchor_percent_of_bound": 65.78380691590571
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.5649350649350648,
+      "pair_bound": 0.9359015571561095,
+      "pair_percent_of_bound": 60.362658937304566,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9120785617758576,
+      "anchor_percent_of_bound": 65.78380691590571
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.5545454545454546,
+      "pair_bound": 0.9378940996188792,
+      "pair_percent_of_bound": 59.12665990443895,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9120785617758576,
+      "anchor_percent_of_bound": 65.78380691590571
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t30"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.3844155844155844,
+      "pair_bound": 0.9167987164067174,
+      "pair_percent_of_bound": 41.930205347827616,
+      "anchor_spearman": 0.48571428571428577,
+      "anchor_bound": 0.9197248355032329,
+      "anchor_percent_of_bound": 52.8108263433513
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.6571428571428571,
+      "pair_bound": 0.9464170104943623,
+      "pair_percent_of_bound": 69.43481043304553,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.913696246442906,
+      "anchor_percent_of_bound": 78.17540206239073
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.6727272727272726,
+      "pair_bound": 0.9463915805416133,
+      "pair_percent_of_bound": 71.08339576967448,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8768235558296642,
+      "anchor_percent_of_bound": 81.4628792231575
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7,
+      "pair_bound": 0.9496574966748758,
+      "pair_percent_of_bound": 73.71078546222982,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8759688453026554,
+      "anchor_percent_of_bound": 81.54236513273733
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6714285714285714,
+      "pair_bound": 0.9323362495545958,
+      "pair_percent_of_bound": 72.01571018496088,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.812163308757503,
+      "anchor_percent_of_bound": 87.948532836145
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6883116883116883,
+      "pair_bound": 0.9361400270701882,
+      "pair_percent_of_bound": 73.52657384663688,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8535361597422507,
+      "anchor_percent_of_bound": 83.68546617889194
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6948051948051948,
+      "pair_bound": 0.9268148585177148,
+      "pair_percent_of_bound": 74.96698919096089,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8239038247988816,
+      "anchor_percent_of_bound": 86.69527835485829
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6116883116883116,
+      "pair_bound": 0.941362664571192,
+      "pair_percent_of_bound": 64.9790282438009,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9120785617758576,
+      "anchor_percent_of_bound": 65.78380691590571
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.551948051948052,
+      "pair_bound": 0.9357923404872823,
+      "pair_percent_of_bound": 58.98189460074482,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9120785617758576,
+      "anchor_percent_of_bound": 65.78380691590571
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.5597402597402598,
+      "pair_bound": 0.937784650426825,
+      "pair_percent_of_bound": 59.68750496028044,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9120785617758576,
+      "anchor_percent_of_bound": 65.78380691590571
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t40"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.39610389610389607,
+      "pair_bound": 0.9166917289772968,
+      "pair_percent_of_bound": 43.21015272449416,
+      "anchor_spearman": 0.48571428571428577,
+      "anchor_bound": 0.9197248355032329,
+      "anchor_percent_of_bound": 52.8108263433513
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.6935064935064935,
+      "pair_bound": 0.9429328830687369,
+      "pair_percent_of_bound": 73.5478108738243,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8759688453026554,
+      "anchor_percent_of_bound": 101.1125327645943
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.7181818181818181,
+      "pair_bound": 0.93962187785372,
+      "pair_percent_of_bound": 76.43306686539545,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8839683469383894,
+      "anchor_percent_of_bound": 100.1975114586335
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.7064935064935066,
+      "pair_bound": 0.9405795492343753,
+      "pair_percent_of_bound": 75.11257363277642,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8870554221252269,
+      "anchor_percent_of_bound": 99.84881030232272
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6467532467532467,
+      "pair_bound": 0.9317056024024746,
+      "pair_percent_of_bound": 69.41605213981151,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.812163308757503,
+      "anchor_percent_of_bound": 87.948532836145
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6649350649350649,
+      "pair_bound": 0.9355068069821133,
+      "pair_percent_of_bound": 71.07752289693155,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8535361597422507,
+      "anchor_percent_of_bound": 83.68546617889194
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6714285714285714,
+      "pair_bound": 0.9261879461228069,
+      "pair_percent_of_bound": 72.49377129548003,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8239038247988816,
+      "anchor_percent_of_bound": 86.69527835485829
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6155844155844156,
+      "pair_bound": 0.9479470422003153,
+      "pair_percent_of_bound": 64.93869258303286,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9197428502700445,
+      "anchor_percent_of_bound": 65.23562535156807
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.5948051948051949,
+      "pair_bound": 0.9488611980117864,
+      "pair_percent_of_bound": 62.68621754704807,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9072372266681247,
+      "anchor_percent_of_bound": 66.13485231459592
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6350649350649351,
+      "pair_bound": 0.9411887097140775,
+      "pair_percent_of_bound": 67.47477190391082,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.923266342524707,
+      "anchor_percent_of_bound": 77.36507672666512
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t50"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.3987012987012987,
+      "pair_bound": 0.9160716640291316,
+      "pair_percent_of_bound": 43.5229375994125,
+      "anchor_spearman": 0.48571428571428577,
+      "anchor_bound": 0.9197248355032329,
+      "anchor_percent_of_bound": 52.8108263433513
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.7012987012987012,
+      "pair_bound": 0.9390686268852849,
+      "pair_percent_of_bound": 74.68023967798581,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.9375233643770983,
+      "anchor_percent_of_bound": 94.47383599903827
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.7155844155844155,
+      "pair_bound": 0.9228938327745576,
+      "pair_percent_of_bound": 77.53702432197495,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8838789458925922,
+      "anchor_percent_of_bound": 100.20764606173985
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.7077922077922078,
+      "pair_bound": 0.9238344547756654,
+      "pair_percent_of_bound": 76.61461467834958,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8869657088649132,
+      "anchor_percent_of_bound": 99.85890963561276
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.6506493506493506,
+      "pair_bound": 0.9289142569934047,
+      "pair_percent_of_bound": 70.04406981062948,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8767348773796471,
+      "anchor_percent_of_bound": 81.47111888836282
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.6766233766233766,
+      "pair_bound": 0.9321198603828559,
+      "pair_percent_of_bound": 72.58973930085156,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8758802532946645,
+      "anchor_percent_of_bound": 81.55061283764479
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6779220779220779,
+      "pair_bound": 0.9096990647124369,
+      "pair_percent_of_bound": 74.52157578466615,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8238204984401625,
+      "anchor_percent_of_bound": 86.7040472576437
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.612987012987013,
+      "pair_bound": 0.9353120932269011,
+      "pair_percent_of_bound": 65.53823236393309,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.913603838835489,
+      "anchor_percent_of_bound": 65.67397973773629
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.5948051948051949,
+      "pair_bound": 0.9392273134244176,
+      "pair_percent_of_bound": 63.329205433404454,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9227378644962657,
+      "anchor_percent_of_bound": 65.02388414802373
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6441558441558441,
+      "pair_bound": 0.9244327703993622,
+      "pair_percent_of_bound": 69.68119962661684,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.923172967035803,
+      "anchor_percent_of_bound": 77.37290191449166
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t60"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.5805194805194805,
+      "pair_bound": 0.9204662738784268,
+      "pair_percent_of_bound": 63.067979457132644,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9119863177746393,
+      "anchor_percent_of_bound": 65.79046070165559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.6896103896103896,
+      "pair_bound": 0.9368262002901734,
+      "pair_percent_of_bound": 73.6113474833207,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.9375233643770983,
+      "anchor_percent_of_bound": 94.47383599903827
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.6792207792207793,
+      "pair_bound": 0.9239343242575825,
+      "pair_percent_of_bound": 73.51396753947418,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8758802532946645,
+      "anchor_percent_of_bound": 101.12275991867955
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.696103896103896,
+      "pair_bound": 0.9216284062595516,
+      "pair_percent_of_bound": 75.52977874554111,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8869657088649132,
+      "anchor_percent_of_bound": 99.85890963561276
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.6246753246753247,
+      "pair_bound": 0.9267209790104407,
+      "pair_percent_of_bound": 67.40705550254808,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.913603838835489,
+      "anchor_percent_of_bound": 78.18330921159082
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.6649350649350649,
+      "pair_bound": 0.9298940269294618,
+      "pair_percent_of_bound": 71.50654221650403,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8758802532946645,
+      "anchor_percent_of_bound": 81.55061283764479
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6636363636363637,
+      "pair_bound": 0.916657871485408,
+      "pair_percent_of_bound": 72.39738884922977,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8534498364869318,
+      "anchor_percent_of_bound": 83.69393065044562
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.5831168831168831,
+      "pair_bound": 0.9309808810709481,
+      "pair_percent_of_bound": 62.63467864625729,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9227378644962657,
+      "anchor_percent_of_bound": 65.02388414802373
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.5805194805194805,
+      "pair_bound": 0.9369845078975588,
+      "pair_percent_of_bound": 61.95614501909664,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9227378644962657,
+      "anchor_percent_of_bound": 65.02388414802373
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.5935064935064935,
+      "pair_bound": 0.9297431933290128,
+      "pair_percent_of_bound": 63.83552982855412,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9071454723003002,
+      "anchor_percent_of_bound": 66.14154160727342
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t70"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.535064935064935,
+      "pair_bound": 0.9163174206620115,
+      "pair_percent_of_bound": 58.39296765506944,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9119863177746393,
+      "anchor_percent_of_bound": 65.79046070165559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.6571428571428571,
+      "pair_bound": 0.9379529915236494,
+      "pair_percent_of_bound": 70.06138506742936,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.9375233643770983,
+      "anchor_percent_of_bound": 94.47383599903827
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.6454545454545455,
+      "pair_bound": 0.9250456094634815,
+      "pair_percent_of_bound": 69.77542932492848,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8758802532946645,
+      "anchor_percent_of_bound": 101.12275991867955
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.6714285714285714,
+      "pair_bound": 0.9217974134443818,
+      "pair_percent_of_bound": 72.8390600402876,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8838789458925922,
+      "anchor_percent_of_bound": 100.20764606173985
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.5844155844155844,
+      "pair_bound": 0.9278356159353088,
+      "pair_percent_of_bound": 62.98697467292864,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.913603838835489,
+      "anchor_percent_of_bound": 78.18330921159082
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.6,
+      "pair_bound": 0.9278106852592849,
+      "pair_percent_of_bound": 64.66836495123191,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8767348773796471,
+      "anchor_percent_of_bound": 81.47111888836282
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6012987012987013,
+      "pair_bound": 0.9140313083684342,
+      "pair_percent_of_bound": 65.78535065412942,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8120811697879206,
+      "anchor_percent_of_bound": 87.95742850092854
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.5428571428571428,
+      "pair_bound": 0.9321006416999735,
+      "pair_percent_of_bound": 58.24018550905352,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9227378644962657,
+      "anchor_percent_of_bound": 65.02388414802373
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.5597402597402598,
+      "pair_bound": 0.9342009207145893,
+      "pair_percent_of_bound": 59.916474853407664,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.913603838835489,
+      "anchor_percent_of_bound": 65.67397973773629
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.5688311688311689,
+      "pair_bound": 0.9299646508640981,
+      "pair_percent_of_bound": 61.166966755416595,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9196498311331452,
+      "anchor_percent_of_bound": 65.24222369080532
+    },
+    {
+      "window_a": [
+        "t10",
+        "t20",
+        "t80"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.548051948051948,
+      "pair_bound": 0.9228805040651985,
+      "pair_percent_of_bound": 59.38493072914995,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9119863177746393,
+      "anchor_percent_of_bound": 65.79046070165559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.9376623376623376,
+      "pair_bound": 0.9440841678055378,
+      "pair_percent_of_bound": 99.31978203192124,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9436629935357576,
+      "anchor_percent_of_bound": 99.91460397576944
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.9259740259740258,
+      "pair_bound": 0.9427746956743568,
+      "pair_percent_of_bound": 98.21795496024491,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9582378606414959,
+      "anchor_percent_of_bound": 98.39489562914407
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.922077922077922,
+      "pair_bound": 0.9485143112469283,
+      "pair_percent_of_bound": 97.21286343753184,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9684004100627326,
+      "anchor_percent_of_bound": 97.36232379290969
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9285714285714285,
+      "pair_bound": 0.9333229175071129,
+      "pair_percent_of_bound": 99.49090621835627,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.945512006866538,
+      "anchor_percent_of_bound": 99.71921414110928
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9038961038961039,
+      "pair_bound": 0.931306421732346,
+      "pair_percent_of_bound": 97.05678848587175,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9409566764968899,
+      "anchor_percent_of_bound": 106.27481848823518
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.8896103896103895,
+      "pair_bound": 0.9247210507716728,
+      "pair_percent_of_bound": 96.20310783106066,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9409566764968899,
+      "anchor_percent_of_bound": 106.27481848823518
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.696103896103896,
+      "pair_bound": 0.9404827416482953,
+      "pair_percent_of_bound": 74.01559489373516,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9119218953376302,
+      "anchor_percent_of_bound": 65.79510844816987
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6324675324675325,
+      "pair_bound": 0.9349176243311651,
+      "pair_percent_of_bound": 67.64954644212598,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9119218953376302,
+      "anchor_percent_of_bound": 65.79510844816987
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6077922077922078,
+      "pair_bound": 0.9369080719924899,
+      "pair_percent_of_bound": 64.87212843621222,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9119218953376302,
+      "anchor_percent_of_bound": 65.79510844816987
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.4454545454545455,
+      "pair_bound": 0.9158348667966361,
+      "pair_percent_of_bound": 48.63917738932951,
+      "anchor_spearman": 0.48571428571428577,
+      "anchor_bound": 0.919566855675435,
+      "anchor_percent_of_bound": 52.81989914235455
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.9597402597402598,
+      "pair_bound": 0.9597206737853867,
+      "pair_percent_of_bound": 100.00204079743284,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9962647898241853,
+      "anchor_percent_of_bound": 100.37492142791415
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.9545454545454546,
+      "pair_bound": 0.9611651728696545,
+      "pair_percent_of_bound": 99.31128192000172,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9962647898241853,
+      "anchor_percent_of_bound": 100.37492142791415
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.9532467532467532,
+      "pair_bound": 0.9558752975558306,
+      "pair_percent_of_bound": 99.72501179643427,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9951511437962565,
+      "anchor_percent_of_bound": 94.74511974737578
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9519480519480519,
+      "pair_bound": 0.9334079224633964,
+      "pair_percent_of_bound": 101.98628370709832,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.945512006866538,
+      "anchor_percent_of_bound": 105.76280287693407
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9259740259740258,
+      "pair_bound": 0.9313912430307209,
+      "pair_percent_of_bound": 99.4183736322163,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9409566764968899,
+      "anchor_percent_of_bound": 100.2019717174789
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.9129870129870129,
+      "pair_bound": 0.9248052722892427,
+      "pair_percent_of_bound": 98.72208132280916,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9409566764968899,
+      "anchor_percent_of_bound": 100.2019717174789
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7662337662337663,
+      "pair_bound": 0.9477883200076509,
+      "pair_percent_of_bound": 80.84439848631823,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9195848673478758,
+      "anchor_percent_of_bound": 77.6748008420089
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7532467532467532,
+      "pair_bound": 0.9487023227548596,
+      "pair_percent_of_bound": 79.39758712295139,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9070813918191479,
+      "anchor_percent_of_bound": 78.74549304260529
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7701298701298702,
+      "pair_bound": 0.9410311191219174,
+      "pair_percent_of_bound": 81.83893757397563,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.9231077543772814,
+      "anchor_percent_of_bound": 89.75890676277268
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.5025974025974026,
+      "pair_bound": 0.9159182789805166,
+      "pair_percent_of_bound": 54.873607627618256,
+      "anchor_spearman": 0.5428571428571429,
+      "anchor_bound": 0.919566855675435,
+      "anchor_percent_of_bound": 59.03400492380803
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.9467532467532468,
+      "pair_bound": 0.9579052419910268,
+      "pair_percent_of_bound": 98.83579348468744,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9999261579006786,
+      "anchor_percent_of_bound": 94.29267705493866
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.9493506493506494,
+      "pair_bound": 0.9448288366762173,
+      "pair_percent_of_bound": 100.47858537958466,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9977240293131481,
+      "anchor_percent_of_bound": 94.50079532575991
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.9506493506493506,
+      "pair_bound": 0.9396288701356066,
+      "pair_percent_of_bound": 101.17285460930479,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9966087521161995,
+      "anchor_percent_of_bound": 100.34027875799802
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.9454545454545454,
+      "pair_bound": 0.9268353375610354,
+      "pair_percent_of_bound": 102.0089013807465,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9596414016883635,
+      "anchor_percent_of_bound": 98.25098637869407
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9441558441558441,
+      "pair_bound": 0.9324779142668833,
+      "pair_percent_of_bound": 101.25235458237549,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9698188363023477,
+      "anchor_percent_of_bound": 97.21992474924468
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.9194805194805193,
+      "pair_bound": 0.9090869230730783,
+      "pair_percent_of_bound": 101.14330061775684,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9423349056120529,
+      "anchor_percent_of_bound": 106.11938431278773
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.7376623376623377,
+      "pair_bound": 0.9359234227819038,
+      "pair_percent_of_bound": 78.81652704766569,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9148773727365994,
+      "anchor_percent_of_bound": 65.58255979216844
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7207792207792209,
+      "pair_bound": 0.9398412020074052,
+      "pair_percent_of_bound": 76.69159632922134,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9240241309307107,
+      "anchor_percent_of_bound": 64.93336915299584
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7506493506493507,
+      "pair_bound": 0.9250369891176389,
+      "pair_percent_of_bound": 81.14803618451727,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9244598399889719,
+      "anchor_percent_of_bound": 77.26519675470546
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6558441558441558,
+      "pair_bound": 0.921067900053989,
+      "pair_percent_of_bound": 71.2047565446275,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9132575969042401,
+      "anchor_percent_of_bound": 65.69887861145415
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.9402597402597404,
+      "pair_bound": 0.9563478798289649,
+      "pair_percent_of_bound": 98.31775236725555,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9866667933973371,
+      "anchor_percent_of_bound": 95.5598332858303
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.9480519480519479,
+      "pair_bound": 0.941875094864957,
+      "pair_percent_of_bound": 100.6558038555926,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9844938657916936,
+      "anchor_percent_of_bound": 95.77074836306187
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.9441558441558441,
+      "pair_bound": 0.9381012216954658,
+      "pair_percent_of_bound": 100.6454124907156,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9833933775536694,
+      "anchor_percent_of_bound": 101.688705946713
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.9493506493506494,
+      "pair_bound": 0.9266137289693963,
+      "pair_percent_of_bound": 102.4537646778169,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9325135626589087,
+      "anchor_percent_of_bound": 101.10921498758057
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9454545454545454,
+      "pair_bound": 0.9309618918494474,
+      "pair_percent_of_bound": 101.55673972608126,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9569587052305325,
+      "anchor_percent_of_bound": 98.5264189252563
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9376623376623376,
+      "pair_bound": 0.9140724372705579,
+      "pair_percent_of_bound": 102.58074737076853,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9298392209067295,
+      "anchor_percent_of_bound": 107.54547426219055
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.7194805194805195,
+      "pair_bound": 0.9323010680271376,
+      "pair_percent_of_bound": 77.1725512449565,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9117712533906167,
+      "anchor_percent_of_bound": 65.80597905108013
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7129870129870131,
+      "pair_bound": 0.9383132083581474,
+      "pair_percent_of_bound": 75.98603607366796,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9117712533906167,
+      "anchor_percent_of_bound": 65.80597905108013
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7220779220779221,
+      "pair_bound": 0.9310616251694466,
+      "pair_percent_of_bound": 77.55425662039386,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.8963641746059667,
+      "anchor_percent_of_bound": 66.93707948153488
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6675324675324676,
+      "pair_bound": 0.9176168139482578,
+      "pair_percent_of_bound": 72.7463204014599,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9011474873055253,
+      "anchor_percent_of_bound": 66.5817758416027
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.9350649350649349,
+      "pair_bound": 0.951226194464756,
+      "pair_percent_of_bound": 98.30100774202137,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.99804079277863,
+      "anchor_percent_of_bound": 94.47080216352168
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.9415584415584415,
+      "pair_bound": 0.9368309179602669,
+      "pair_percent_of_bound": 100.50462933145586,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9958428163141342,
+      "anchor_percent_of_bound": 94.67931358353273
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.9415584415584415,
+      "pair_bound": 0.938240965112601,
+      "pair_percent_of_bound": 100.35358469403884,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9958428163141342,
+      "anchor_percent_of_bound": 94.67931358353273
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.9480519480519479,
+      "pair_bound": 0.9216512837399612,
+      "pair_percent_of_bound": 102.86449601685094,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9432632998099982,
+      "anchor_percent_of_bound": 99.95694129593114
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.9389610389610389,
+      "pair_bound": 0.9203729266698177,
+      "pair_percent_of_bound": 102.01962832158466,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9578319936494584,
+      "anchor_percent_of_bound": 98.4365889956067
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9480519480519479,
+      "pair_bound": 0.9111457372109432,
+      "pair_percent_of_bound": 104.05052774037841,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9451115299808666,
+      "anchor_percent_of_bound": 99.76146866774874
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.7129870129870131,
+      "pair_bound": 0.9273081644657215,
+      "pair_percent_of_bound": 76.88781791302442,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9222818794108129,
+      "anchor_percent_of_bound": 65.05603258553684
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.7272727272727273,
+      "pair_bound": 0.9293976447114995,
+      "pair_percent_of_bound": 78.25205189738617,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9131523674690801,
+      "anchor_percent_of_bound": 65.70644958879947
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7363636363636364,
+      "pair_bound": 0.925183156014146,
+      "pair_percent_of_bound": 79.59112004762628,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.919195372046799,
+      "anchor_percent_of_bound": 65.27448007750111
+    },
+    {
+      "window_a": [
+        "t10",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7129870129870131,
+      "pair_bound": 0.9181354329775947,
+      "pair_percent_of_bound": 77.6559739857477,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9115356457311015,
+      "anchor_percent_of_bound": 65.82298814203445
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "pair_spearman": 0.9571428571428571,
+      "pair_bound": 0.9576269464825108,
+      "pair_percent_of_bound": 99.94944906871807,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9977372047341988,
+      "anchor_percent_of_bound": 100.22679271205527
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "pair_spearman": 0.9558441558441559,
+      "pair_bound": 0.95980282283384,
+      "pair_percent_of_bound": 99.587554141798,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9977372047341988,
+      "anchor_percent_of_bound": 100.22679271205527
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "pair_spearman": 0.9493506493506494,
+      "pair_bound": 0.9539369832363134,
+      "pair_percent_of_bound": 99.51922045520193,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9783942510063467,
+      "anchor_percent_of_bound": 96.36781306588307
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9558441558441559,
+      "pair_bound": 0.9316613402462433,
+      "pair_percent_of_bound": 102.59566588772708,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9469094124465874,
+      "anchor_percent_of_bound": 105.6067229721837
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9376623376623376,
+      "pair_bound": 0.9296484344010314,
+      "pair_percent_of_bound": 100.86203590139638,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9423473495933417,
+      "anchor_percent_of_bound": 100.05409823288846
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.9272727272727272,
+      "pair_bound": 0.9230747872525964,
+      "pair_percent_of_bound": 100.45477788778365,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9423473495933417,
+      "anchor_percent_of_bound": 100.05409823288846
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7831168831168831,
+      "pair_bound": 0.9298064946964283,
+      "pair_percent_of_bound": 84.2236408955782,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8132239232728901,
+      "anchor_percent_of_bound": 101.8872422292708
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7987012987012986,
+      "pair_bound": 0.9335999512310934,
+      "pair_percent_of_bound": 85.55070055949442,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8546508035961025,
+      "anchor_percent_of_bound": 96.94853442892233
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7948051948051948,
+      "pair_bound": 0.9243000851276668,
+      "pair_percent_of_bound": 85.98995148804019,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8249797714052378,
+      "anchor_percent_of_bound": 100.43536305866907
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.5298701298701299,
+      "pair_bound": 0.9142044231839951,
+      "pair_percent_of_bound": 57.95969877554256,
+      "anchor_spearman": 0.5428571428571429,
+      "anchor_bound": 0.9209259160004412,
+      "anchor_percent_of_bound": 58.94688524075403
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "pair_spearman": 0.9337662337662337,
+      "pair_bound": 0.950064552485644,
+      "pair_percent_of_bound": 98.28450407114241,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9984766087629837,
+      "anchor_percent_of_bound": 100.15257154986371
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "pair_spearman": 0.9493506493506494,
+      "pair_bound": 0.9366072389915491,
+      "pair_percent_of_bound": 101.36059276808722,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.997578724336866,
+      "anchor_percent_of_bound": 100.24271524683363
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "pair_spearman": 0.9428571428571428,
+      "pair_bound": 0.9308831593169492,
+      "pair_percent_of_bound": 101.28630359464013,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9782388430402893,
+      "anchor_percent_of_bound": 96.38312254365377
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.9389610389610389,
+      "pair_bound": 0.9183527890542599,
+      "pair_percent_of_bound": 102.24404500671271,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9595016429304156,
+      "anchor_percent_of_bound": 104.22076995573434
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9441558441558441,
+      "pair_bound": 0.923943723975779,
+      "pair_percent_of_bound": 102.18759212878153,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9696775953390486,
+      "anchor_percent_of_bound": 103.12706045872382
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.9233766233766234,
+      "pair_bound": 0.9007668109567931,
+      "pair_percent_of_bound": 102.510062775938,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9421976673105918,
+      "anchor_percent_of_bound": 100.06999333254916
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.7675324675324675,
+      "pair_bound": 0.9210142730234518,
+      "pair_percent_of_bound": 83.3355671039556,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8778291546181738,
+      "anchor_percent_of_bound": 94.38868875707705
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7831168831168831,
+      "pair_bound": 0.9241926142461314,
+      "pair_percent_of_bound": 84.73524577511103,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.876973463853049,
+      "anchor_percent_of_bound": 94.48078678812443
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7818181818181819,
+      "pair_bound": 0.9019624970210657,
+      "pair_percent_of_bound": 86.67967730369195,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8248487317674019,
+      "anchor_percent_of_bound": 100.45131872798667
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6792207792207793,
+      "pair_bound": 0.9126381360780039,
+      "pair_percent_of_bound": 74.42388745003373,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9131245933185203,
+      "anchor_percent_of_bound": 78.22434304280685
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "pair_spearman": 0.9194805194805193,
+      "pair_bound": 0.9518563229310439,
+      "pair_percent_of_bound": 96.59866697624805,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9984766087629837,
+      "anchor_percent_of_bound": 100.15257154986371
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "pair_spearman": 0.9376623376623376,
+      "pair_bound": 0.9362463333747636,
+      "pair_percent_of_bound": 100.15124270580264,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.997578724336866,
+      "anchor_percent_of_bound": 100.24271524683363
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "pair_spearman": 0.92987012987013,
+      "pair_bound": 0.9326387546905698,
+      "pair_percent_of_bound": 99.70314070624715,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9782388430402893,
+      "anchor_percent_of_bound": 96.38312254365377
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.9324675324675323,
+      "pair_bound": 0.9213627096356553,
+      "pair_percent_of_bound": 101.20526072042446,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9449075536047378,
+      "anchor_percent_of_bound": 105.83045888299755
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9337662337662337,
+      "pair_bound": 0.9256862319490544,
+      "pair_percent_of_bound": 100.87286615467605,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9696775953390486,
+      "anchor_percent_of_bound": 103.12706045872382
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9246753246753248,
+      "pair_bound": 0.9088924880743745,
+      "pair_percent_of_bound": 101.7364910380532,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9421976673105918,
+      "anchor_percent_of_bound": 100.06999333254916
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.7337662337662337,
+      "pair_bound": 0.9227760509373808,
+      "pair_percent_of_bound": 79.51726023024267,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.9147441332524927,
+      "anchor_percent_of_bound": 90.57958378211559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7597402597402596,
+      "pair_bound": 0.9259355916130174,
+      "pair_percent_of_bound": 82.05109152535775,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.876973463853049,
+      "anchor_percent_of_bound": 94.48078678812443
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7662337662337663,
+      "pair_bound": 0.9127557807239843,
+      "pair_percent_of_bound": 83.94729262914129,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8545150510168742,
+      "anchor_percent_of_bound": 96.9639361630234
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6532467532467533,
+      "pair_bound": 0.9124167791545068,
+      "pair_percent_of_bound": 71.5952148372464,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9131245933185203,
+      "anchor_percent_of_bound": 78.22434304280685
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "pair_spearman": 0.9116883116883117,
+      "pair_bound": 0.9499497652485059,
+      "pair_percent_of_bound": 95.97226559130891,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9984766087629837,
+      "anchor_percent_of_bound": 94.42956746130007
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "pair_spearman": 0.9285714285714285,
+      "pair_bound": 0.9343710423285823,
+      "pair_percent_of_bound": 99.37930292202759,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.997578724336866,
+      "anchor_percent_of_bound": 94.51456008987171
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "pair_spearman": 0.92987012987013,
+      "pair_bound": 0.9364940776732301,
+      "pair_percent_of_bound": 99.29268663187304,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.997578724336866,
+      "anchor_percent_of_bound": 94.51456008987171
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.92987012987013,
+      "pair_bound": 0.919517230323136,
+      "pair_percent_of_bound": 101.1259059869227,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9449075536047378,
+      "anchor_percent_of_bound": 99.7830040896834
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.9246753246753248,
+      "pair_bound": 0.9182418332469963,
+      "pair_percent_of_bound": 100.70063148893784,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9595016429304156,
+      "anchor_percent_of_bound": 98.26529738683524
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9363636363636364,
+      "pair_bound": 0.909036009043658,
+      "pair_percent_of_bound": 103.00622055101296,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9467590055265983,
+      "anchor_percent_of_bound": 99.58787160759194
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.7272727272727273,
+      "pair_bound": 0.9209277407178729,
+      "pair_percent_of_bound": 78.97174719764773,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9147441332524927,
+      "anchor_percent_of_bound": 78.08584808803067
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.7402597402597402,
+      "pair_bound": 0.9209029956544684,
+      "pair_percent_of_bound": 80.3841168671247,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8778291546181738,
+      "anchor_percent_of_bound": 81.36955927334228
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7402597402597402,
+      "pair_bound": 0.907226208289716,
+      "pair_percent_of_bound": 81.59593864194714,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8130947509318475,
+      "anchor_percent_of_bound": 87.84778323400894
+    },
+    {
+      "window_a": [
+        "t10",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6922077922077923,
+      "pair_bound": 0.9160095203982693,
+      "pair_percent_of_bound": 75.56775085774535,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9131245933185203,
+      "anchor_percent_of_bound": 65.70844815595775
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "pair_spearman": 0.8805194805194804,
+      "pair_bound": 0.944921361380036,
+      "pair_percent_of_bound": 93.18441899053926,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9984636976483581,
+      "anchor_percent_of_bound": 100.15386662081559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "pair_spearman": 0.9233766233766234,
+      "pair_bound": 0.9281970346165708,
+      "pair_percent_of_bound": 99.48066939882665,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9977372047341988,
+      "anchor_percent_of_bound": 100.22679271205527
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "pair_spearman": 0.9155844155844156,
+      "pair_bound": 0.922524353946717,
+      "pair_percent_of_bound": 99.24772301862697,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9783942510063467,
+      "anchor_percent_of_bound": 96.36781306588307
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.92987012987013,
+      "pair_bound": 0.9277752262689728,
+      "pair_percent_of_bound": 100.22579861391448,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9977372047341988,
+      "anchor_percent_of_bound": 100.22679271205527
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.922077922077922,
+      "pair_bound": 0.9226691160969147,
+      "pair_percent_of_bound": 99.93592567382188,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9966219128094835,
+      "anchor_percent_of_bound": 94.60529923521575
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.9376623376623376,
+      "pair_bound": 0.8926784333968452,
+      "pair_percent_of_bound": 105.03920589795348,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9423473495933417,
+      "anchor_percent_of_bound": 100.05409823288846
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.8259740259740259,
+      "pair_bound": 0.9068284616289239,
+      "pair_percent_of_bound": 91.08382245638163,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8851227325770855,
+      "anchor_percent_of_bound": 106.52275759678665
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.8090909090909091,
+      "pair_bound": 0.9077527096539373,
+      "pair_percent_of_bound": 89.13120285802935,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8882138392151324,
+      "anchor_percent_of_bound": 106.15204371171427
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7974025974025974,
+      "pair_bound": 0.8938633828751186,
+      "pair_percent_of_bound": 89.20855386622347,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8249797714052378,
+      "anchor_percent_of_bound": 100.43536305866907
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7701298701298702,
+      "pair_bound": 0.9083406100356901,
+      "pair_percent_of_bound": 84.7842606199904,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.9244720479215047,
+      "anchor_percent_of_bound": 89.62644467556484
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "pair_spearman": 0.8688311688311688,
+      "pair_bound": 0.9515057750624002,
+      "pair_percent_of_bound": 91.31118187634652,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9971614916255065,
+      "anchor_percent_of_bound": 100.28465884396181
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "pair_spearman": 0.9181818181818181,
+      "pair_bound": 0.932546021006966,
+      "pair_percent_of_bound": 98.45967893255956,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9964359462104406,
+      "anchor_percent_of_bound": 100.35768017032242
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "pair_spearman": 0.9103896103896105,
+      "pair_bound": 0.9289527005020003,
+      "pair_percent_of_bound": 98.00171848336751,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9771182197501432,
+      "anchor_percent_of_bound": 96.493661032975
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.9259740259740258,
+      "pair_bound": 0.9328361275276342,
+      "pair_percent_of_bound": 99.26438295525757,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9964359462104406,
+      "anchor_percent_of_bound": 100.35768017032242
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.9194805194805193,
+      "pair_bound": 0.9290984713857512,
+      "pair_percent_of_bound": 98.96480812298759,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9953221088602532,
+      "anchor_percent_of_bound": 94.72884551281714
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9441558441558441,
+      "pair_bound": 0.9053002858998708,
+      "pair_percent_of_bound": 104.29200773060076,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9411183310550124,
+      "anchor_percent_of_bound": 100.18476016721311
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.8,
+      "pair_bound": 0.9163651514015712,
+      "pair_percent_of_bound": 87.30144296478409,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8759688453026554,
+      "anchor_percent_of_bound": 107.63592197521328
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.8051948051948051,
+      "pair_bound": 0.914078124239675,
+      "pair_percent_of_bound": 88.08818238206516,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8870554221252269,
+      "anchor_percent_of_bound": 106.29066903150482
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.8012987012987013,
+      "pair_bound": 0.909148309715775,
+      "pair_percent_of_bound": 88.13729209365296,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8535361597422507,
+      "anchor_percent_of_bound": 97.07514076751467
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7428571428571429,
+      "pair_bound": 0.9221264323133832,
+      "pair_percent_of_bound": 80.5591420900387,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9072372266681247,
+      "anchor_percent_of_bound": 78.73196704118561
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "pair_spearman": 0.8285714285714286,
+      "pair_bound": 0.9498395533502225,
+      "pair_percent_of_bound": 87.23277796222914,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9969902106133465,
+      "anchor_percent_of_bound": 94.57035112482188
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "pair_spearman": 0.8831168831168831,
+      "pair_bound": 0.93091300051615,
+      "pair_percent_of_bound": 94.86567301425954,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9962647898241853,
+      "anchor_percent_of_bound": 94.63921163203334
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "pair_spearman": 0.8870129870129868,
+      "pair_bound": 0.9330281786556208,
+      "pair_percent_of_bound": 95.06818843253627,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9962647898241853,
+      "anchor_percent_of_bound": 94.63921163203334
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.8870129870129868,
+      "pair_bound": 0.9312025990191096,
+      "pair_percent_of_bound": 95.25456521999935,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9962647898241853,
+      "anchor_percent_of_bound": 94.63921163203334
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.896103896103896,
+      "pair_bound": 0.9326041748507996,
+      "pair_percent_of_bound": 96.0861982252285,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9962647898241853,
+      "anchor_percent_of_bound": 94.63921163203334
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9311688311688312,
+      "pair_bound": 0.9056717304157099,
+      "pair_percent_of_bound": 102.81526958354081,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.945512006866538,
+      "anchor_percent_of_bound": 99.71921414110928
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.7610389610389611,
+      "pair_bound": 0.9147604659108834,
+      "pair_percent_of_bound": 83.19543633547254,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8758183813791043,
+      "anchor_percent_of_bound": 101.12990370441861
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.7844155844155845,
+      "pair_bound": 0.9115483850432982,
+      "pair_percent_of_bound": 86.05309353691905,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8838165089518119,
+      "anchor_percent_of_bound": 100.21472519954676
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7610389610389611,
+      "pair_bound": 0.9038686276076544,
+      "pair_percent_of_bound": 84.19796171632456,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8120238046202779,
+      "anchor_percent_of_bound": 87.96364222594825
+    },
+    {
+      "window_a": [
+        "t10",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7337662337662337,
+      "pair_bound": 0.9196248148223632,
+      "pair_percent_of_bound": 79.78973837368336,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9195848673478758,
+      "anchor_percent_of_bound": 65.24683270728748
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "pair_spearman": 0.7987012987012986,
+      "pair_bound": 0.9371803498427148,
+      "pair_percent_of_bound": 85.22386313747862,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9914011318416038,
+      "anchor_percent_of_bound": 95.10349671537224
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "pair_spearman": 0.8285714285714286,
+      "pair_bound": 0.9338202515535794,
+      "pair_percent_of_bound": 88.72922033902667,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9915714526607159,
+      "anchor_percent_of_bound": 95.08716092291118
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "pair_spearman": 0.8532467532467533,
+      "pair_bound": 0.914966823807985,
+      "pair_percent_of_bound": 93.25439251399739,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.9714736450805057,
+      "anchor_percent_of_bound": 102.93640028877266
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.835064935064935,
+      "pair_bound": 0.9329098722415569,
+      "pair_percent_of_bound": 89.51185531550608,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9928663585797538,
+      "anchor_percent_of_bound": 94.96314732688228
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.864935064935065,
+      "pair_bound": 0.915110400033596,
+      "pair_percent_of_bound": 94.517018373227,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.989572374743905,
+      "anchor_percent_of_bound": 101.05375064242205
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9077922077922078,
+      "pair_bound": 0.9081460396423434,
+      "pair_percent_of_bound": 99.9610380010824,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9629716043264167,
+      "anchor_percent_of_bound": 97.91120928395978
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.735064935064935,
+      "pair_bound": 0.9151625445439704,
+      "pair_percent_of_bound": 80.32069706603008,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.9322017987570745,
+      "anchor_percent_of_bound": 95.01314918027711
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.748051948051948,
+      "pair_bound": 0.9003161921979205,
+      "pair_percent_of_bound": 83.08769236125218,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.881931118366391,
+      "anchor_percent_of_bound": 100.42896403915336
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7402597402597402,
+      "pair_bound": 0.9083906743613861,
+      "pair_percent_of_bound": 81.49134080225507,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8709085860058311,
+      "anchor_percent_of_bound": 82.01615252888686
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.6753246753246753,
+      "pair_bound": 0.9153171913640002,
+      "pair_percent_of_bound": 73.78039893671291,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9175002242596836,
+      "anchor_percent_of_bound": 65.39507938367323
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "pair_spearman": 0.7675324675324675,
+      "pair_bound": 0.9266174321287862,
+      "pair_percent_of_bound": 82.83164560903619,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9914011318416038,
+      "anchor_percent_of_bound": 95.10349671537224
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "pair_spearman": 0.7987012987012986,
+      "pair_bound": 0.9232952053568512,
+      "pair_percent_of_bound": 86.50551785250555,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9915714526607159,
+      "anchor_percent_of_bound": 95.08716092291118
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "pair_spearman": 0.8311688311688311,
+      "pair_bound": 0.9102170697779851,
+      "pair_percent_of_bound": 91.31545196922808,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9906797777262074,
+      "anchor_percent_of_bound": 95.17274542750572
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.8051948051948051,
+      "pair_bound": 0.9223950868892467,
+      "pair_percent_of_bound": 87.29391739393404,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9928663585797538,
+      "anchor_percent_of_bound": 94.96314732688228
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.8415584415584414,
+      "pair_bound": 0.9098034322163038,
+      "pair_percent_of_bound": 92.49893018191678,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9906797777262074,
+      "anchor_percent_of_bound": 95.17274542750572
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.8701298701298701,
+      "pair_bound": 0.8924769635300147,
+      "pair_percent_of_bound": 97.49605935913964,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9528660256644035,
+      "anchor_percent_of_bound": 98.94960230109142
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.7051948051948052,
+      "pair_bound": 0.904847788526615,
+      "pair_percent_of_bound": 77.93518579993332,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.9322017987570745,
+      "anchor_percent_of_bound": 95.01314918027711
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.7337662337662337,
+      "pair_bound": 0.8892624241965246,
+      "pair_percent_of_bound": 82.5140266585776,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8788618764632347,
+      "anchor_percent_of_bound": 100.7796912614559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.7025974025974026,
+      "pair_bound": 0.8950634566072061,
+      "pair_percent_of_bound": 78.49693755352742,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8717583590776855,
+      "anchor_percent_of_bound": 81.93620478057977
+    },
+    {
+      "window_a": [
+        "t10",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.6714285714285714,
+      "pair_bound": 0.9012281476654475,
+      "pair_percent_of_bound": 74.50150920916622,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.908418045111512,
+      "anchor_percent_of_bound": 66.04888610797549
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "pair_spearman": 0.7467532467532467,
+      "pair_bound": 0.9206326548885952,
+      "pair_percent_of_bound": 81.11305228941836,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.991285238859764,
+      "anchor_percent_of_bound": 95.11461544022121
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "pair_spearman": 0.7766233766233767,
+      "pair_bound": 0.9173318855018572,
+      "pair_percent_of_bound": 84.66111217735539,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9914555397686835,
+      "anchor_percent_of_bound": 95.09827773791258
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "pair_spearman": 0.8077922077922077,
+      "pair_bound": 0.902288080247475,
+      "pair_percent_of_bound": 89.52708402959847,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9905639690693465,
+      "anchor_percent_of_bound": 95.18387224834909
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.7844155844155845,
+      "pair_bound": 0.9164375806616804,
+      "pair_percent_of_bound": 85.59400017721073,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9927502943155841,
+      "anchor_percent_of_bound": 94.97424964322592
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.8142857142857143,
+      "pair_bound": 0.9025687738000767,
+      "pair_percent_of_bound": 90.21868891578588,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9905639690693465,
+      "anchor_percent_of_bound": 95.18387224834909
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.8506493506493505,
+      "pair_bound": 0.8879442950576533,
+      "pair_percent_of_bound": 95.79985539454576,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.9382631704826199,
+      "anchor_percent_of_bound": 100.48962514133002
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.6896103896103896,
+      "pair_bound": 0.8990036156642826,
+      "pair_percent_of_bound": 76.70829989942028,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.932092826069164,
+      "anchor_percent_of_bound": 95.02425734242946
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.6974025974025975,
+      "pair_bound": 0.8866322247249545,
+      "pair_percent_of_bound": 78.6574836730011,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.870806778382559,
+      "anchor_percent_of_bound": 101.71191907341559
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.6701298701298701,
+      "pair_bound": 0.8893063735667052,
+      "pair_percent_of_bound": 75.35421875390449,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9083118527009694,
+      "anchor_percent_of_bound": 78.6388190533575
+    },
+    {
+      "window_a": [
+        "t10",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.6402597402597403,
+      "pair_bound": 0.8933942901445994,
+      "pair_percent_of_bound": 71.66597630214447,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9173929701589841,
+      "anchor_percent_of_bound": 65.4027248427705
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.6805194805194805,
+      "pair_bound": 0.9455960348042468,
+      "pair_percent_of_bound": 71.96725192067441,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9119218953376302,
+      "anchor_percent_of_bound": 78.3275100573451
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6025974025974027,
+      "pair_bound": 0.9400006606041037,
+      "pair_percent_of_bound": 64.10606160746053,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9119218953376302,
+      "anchor_percent_of_bound": 78.3275100573451
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.574025974025974,
+      "pair_bound": 0.9420019300933614,
+      "pair_percent_of_bound": 60.93681506247896,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9119218953376302,
+      "anchor_percent_of_bound": 78.3275100573451
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t40"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.3974025974025974,
+      "pair_bound": 0.9208141523794483,
+      "pair_percent_of_bound": 43.1577421324033,
+      "anchor_spearman": 0.5428571428571429,
+      "anchor_bound": 0.919566855675435,
+      "anchor_percent_of_bound": 59.03400492380803
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7376623376623377,
+      "pair_bound": 0.9494382534507588,
+      "pair_percent_of_bound": 77.69460888912829,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9197428502700445,
+      "anchor_percent_of_bound": 77.66145875186676
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7142857142857142,
+      "pair_bound": 0.9503538473166464,
+      "pair_percent_of_bound": 75.15997502430511,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9072372266681247,
+      "anchor_percent_of_bound": 78.73196704118561
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7545454545454545,
+      "pair_bound": 0.9426692894619275,
+      "pair_percent_of_bound": 80.04349595138997,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.923266342524707,
+      "anchor_percent_of_bound": 89.74348900293155
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t50"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.4402597402597402,
+      "pair_bound": 0.9175127322648022,
+      "pair_percent_of_bound": 47.98404695409473,
+      "anchor_spearman": 0.5428571428571429,
+      "anchor_bound": 0.9197248355032329,
+      "anchor_percent_of_bound": 59.023864736686754
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.7532467532467532,
+      "pair_bound": 0.9381219694963431,
+      "pair_percent_of_bound": 80.29305119580076,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9128746011257466,
+      "anchor_percent_of_bound": 78.24576490624948
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7415584415584415,
+      "pair_bound": 0.9420489518472652,
+      "pair_percent_of_bound": 78.71761229650735,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9220013360159831,
+      "anchor_percent_of_bound": 77.47122334683168
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7662337662337663,
+      "pair_bound": 0.9272099628713188,
+      "pair_percent_of_bound": 82.63864679160125,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.9224360912570897,
+      "anchor_percent_of_bound": 89.82426386225383
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t60"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6415584415584416,
+      "pair_bound": 0.9232315501520068,
+      "pair_percent_of_bound": 69.49052395932648,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9112583711686596,
+      "anchor_percent_of_bound": 78.38454349337454
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.7402597402597402,
+      "pair_bound": 0.9381396409865864,
+      "pair_percent_of_bound": 78.90720186189473,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9220013360159831,
+      "anchor_percent_of_bound": 77.47122334683168
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.7441558441558441,
+      "pair_bound": 0.9441894325883806,
+      "pair_percent_of_bound": 78.81425257173566,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9220013360159831,
+      "anchor_percent_of_bound": 77.47122334683168
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7324675324675325,
+      "pair_bound": 0.936892436068117,
+      "pair_percent_of_bound": 78.18053644893321,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9064213896525448,
+      "anchor_percent_of_bound": 78.80283082899432
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t70"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.6623376623376622,
+      "pair_bound": 0.9233634261755622,
+      "pair_percent_of_bound": 71.73098300860464,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9112583711686596,
+      "anchor_percent_of_bound": 78.38454349337454
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.735064935064935,
+      "pair_bound": 0.9324061960297766,
+      "pair_percent_of_bound": 78.83526924154637,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9041266601043777,
+      "anchor_percent_of_bound": 66.36238333362856
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.751948051948052,
+      "pair_bound": 0.9345071635423055,
+      "pair_percent_of_bound": 80.46466429403792,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.8951768636001517,
+      "anchor_percent_of_bound": 67.025860966398
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.751948051948052,
+      "pair_bound": 0.930269504989203,
+      "pair_percent_of_bound": 80.83120514165186,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9011009109741919,
+      "anchor_percent_of_bound": 66.58521733723832
+    },
+    {
+      "window_a": [
+        "t20",
+        "t30",
+        "t80"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7298701298701298,
+      "pair_bound": 0.9231830359177607,
+      "pair_percent_of_bound": 79.06017566110782,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.8935919672057754,
+      "anchor_percent_of_bound": 67.14473965966535
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7688311688311688,
+      "pair_bound": 0.9322615177008545,
+      "pair_percent_of_bound": 82.46947387973944,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8132239232728901,
+      "anchor_percent_of_bound": 101.8872422292708
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7727272727272727,
+      "pair_bound": 0.9360649903228583,
+      "pair_percent_of_bound": 82.5506007292027,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8546508035961025,
+      "anchor_percent_of_bound": 96.94853442892233
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.7896103896103897,
+      "pair_bound": 0.9267405692336876,
+      "pair_percent_of_bound": 85.20295925571818,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8249797714052378,
+      "anchor_percent_of_bound": 100.43536305866907
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.44935064935064933,
+      "pair_bound": 0.9166182511175134,
+      "pair_percent_of_bound": 49.02266006626145,
+      "anchor_spearman": 0.5428571428571429,
+      "anchor_bound": 0.9209259160004412,
+      "anchor_percent_of_bound": 58.94688524075403
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.8285714285714286,
+      "pair_bound": 0.9319947576629606,
+      "pair_percent_of_bound": 88.90301385912589,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8760350684396512,
+      "anchor_percent_of_bound": 94.5819931669217
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.8493506493506494,
+      "pair_bound": 0.9352109915958804,
+      "pair_percent_of_bound": 90.81914744193548,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8751811265147952,
+      "anchor_percent_of_bound": 94.67427981119992
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.838961038961039,
+      "pair_bound": 0.9127158432329984,
+      "pair_percent_of_bound": 91.91919316194763,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8231629257067914,
+      "anchor_percent_of_bound": 100.65703917119366
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6948051948051948,
+      "pair_bound": 0.9235187590261559,
+      "pair_percent_of_bound": 75.23455133037709,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9112583711686596,
+      "anchor_percent_of_bound": 78.38454349337454
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.8298701298701299,
+      "pair_bound": 0.9334226065888761,
+      "pair_percent_of_bound": 88.90615290568427,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.9128746011257466,
+      "anchor_percent_of_bound": 90.76508729124942
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.8623376623376624,
+      "pair_bound": 0.9366186005573807,
+      "pair_percent_of_bound": 92.06924374814746,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8751811265147952,
+      "anchor_percent_of_bound": 94.67427981119992
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.8428571428571429,
+      "pair_bound": 0.9232867272150972,
+      "pair_percent_of_bound": 91.28877498320014,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8527686136442902,
+      "anchor_percent_of_bound": 97.16251458066037
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.7272727272727273,
+      "pair_bound": 0.9229438144051061,
+      "pair_percent_of_bound": 78.79924172215176,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.9112583711686596,
+      "anchor_percent_of_bound": 78.38454349337454
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.8051948051948051,
+      "pair_bound": 0.9282854154553088,
+      "pair_percent_of_bound": 86.74000385968255,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.911854170429084,
+      "anchor_percent_of_bound": 78.3333275703064
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.8207792207792207,
+      "pair_bound": 0.9282604726933013,
+      "pair_percent_of_bound": 88.42121849676211,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8750558177582471,
+      "anchor_percent_of_bound": 81.62744590574803
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.8142857142857143,
+      "pair_bound": 0.9144744157860716,
+      "pair_percent_of_bound": 89.04412198188878,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8105259303002827,
+      "anchor_percent_of_bound": 88.12620146786502
+    },
+    {
+      "window_a": [
+        "t20",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.7688311688311688,
+      "pair_bound": 0.9233279014280681,
+      "pair_percent_of_bound": 83.26740344811995,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.9102397471283098,
+      "anchor_percent_of_bound": 65.91669962698546
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.9246753246753248,
+      "pair_bound": 0.9109509686899507,
+      "pair_percent_of_bound": 101.50659656305226,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8365427500644153,
+      "anchor_percent_of_bound": 112.70878180278788
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.9116883116883117,
+      "pair_bound": 0.9118794184126063,
+      "pair_percent_of_bound": 99.97904254439393,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8394642012401242,
+      "anchor_percent_of_bound": 112.31653970047542
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.8935064935064935,
+      "pair_bound": 0.8979269497606095,
+      "pair_percent_of_bound": 99.5077042452847,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.7797007367661823,
+      "anchor_percent_of_bound": 106.26787811025268
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.8714285714285716,
+      "pair_bound": 0.9124699914315532,
+      "pair_percent_of_bound": 95.5021622203057,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8737323772876722,
+      "anchor_percent_of_bound": 94.83126070520169
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.9116883116883117,
+      "pair_bound": 0.9128929766514662,
+      "pair_percent_of_bound": 99.8680387521905,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.841775900253735,
+      "anchor_percent_of_bound": 112.0080941463089
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.916883116883117,
+      "pair_bound": 0.9106146152031801,
+      "pair_percent_of_bound": 100.68838140474368,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8524297188633774,
+      "anchor_percent_of_bound": 110.60819701527309
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.890909090909091,
+      "pair_bound": 0.9057034801079843,
+      "pair_percent_of_bound": 98.36653060037602,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8202188617997084,
+      "anchor_percent_of_bound": 101.01833390583013
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.838961038961039,
+      "pair_bound": 0.9186324276474638,
+      "pair_percent_of_bound": 91.3271743639122,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8718237381586332,
+      "anchor_percent_of_bound": 81.93006028883168
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.8870129870129868,
+      "pair_bound": 0.9184506722163986,
+      "pair_percent_of_bound": 96.57709595578534,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8507033174841581,
+      "anchor_percent_of_bound": 110.83266321865507
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.9064935064935065,
+      "pair_bound": 0.9152256335948296,
+      "pair_percent_of_bound": 99.0459044435824,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8584720898739884,
+      "anchor_percent_of_bound": 109.8296792613888
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.8727272727272727,
+      "pair_bound": 0.9075148954922572,
+      "pair_percent_of_bound": 96.16671605746869,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.7887381210004135,
+      "anchor_percent_of_bound": 105.0502576850846
+    },
+    {
+      "window_a": [
+        "t20",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.8506493506493505,
+      "pair_bound": 0.9233346442441962,
+      "pair_percent_of_bound": 92.1279577184778,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.893214750904441,
+      "anchor_percent_of_bound": 79.96797114719065
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.896103896103896,
+      "pair_bound": 0.9163508880112393,
+      "pair_percent_of_bound": 97.79047609684915,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.889052841719189,
+      "anchor_percent_of_bound": 106.05186762959003
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "pair_spearman": 0.9116883116883117,
+      "pair_bound": 0.9014852575971255,
+      "pair_percent_of_bound": 101.13180487481092,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.841109047450518,
+      "anchor_percent_of_bound": 112.09689703315321
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9025974025974025,
+      "pair_bound": 0.9095702245189411,
+      "pair_percent_of_bound": 99.23339377943837,
+      "anchor_spearman": 0.8285714285714287,
+      "anchor_bound": 0.8305967166106037,
+      "anchor_percent_of_bound": 99.75616469477033
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.8467532467532467,
+      "pair_bound": 0.9165057356409935,
+      "pair_percent_of_bound": 92.38930143312604,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8750317610882795,
+      "anchor_percent_of_bound": 81.62969003517713
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.8467532467532467,
+      "pair_bound": 0.9143710612447284,
+      "pair_percent_of_bound": 92.60499185096323,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8847695228605241,
+      "anchor_percent_of_bound": 100.10678067331108
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "pair_spearman": 0.8896103896103895,
+      "pair_bound": 0.898621665265549,
+      "pair_percent_of_bound": 98.99721139568824,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8341436415757397,
+      "anchor_percent_of_bound": 106.18246565317294
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.8610389610389609,
+      "pair_bound": 0.9044837519379462,
+      "pair_percent_of_bound": 95.1967306426566,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8274015652396678,
+      "anchor_percent_of_bound": 86.32878450970927
+    },
+    {
+      "window_a": [
+        "t20",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.8311688311688311,
+      "pair_bound": 0.9107133246645908,
+      "pair_percent_of_bound": 91.26569345792154,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.8621959337590294,
+      "anchor_percent_of_bound": 69.5897506015948
+    },
+    {
+      "window_a": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "pair_spearman": 0.8363636363636363,
+      "pair_bound": 0.9079054420956622,
+      "pair_percent_of_bound": 92.12012590574517,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8847695228605241,
+      "anchor_percent_of_bound": 100.10678067331108
+    },
+    {
+      "window_a": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "pair_spearman": 0.8675324675324675,
+      "pair_bound": 0.8954115511208084,
+      "pair_percent_of_bound": 96.88645030841471,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8265950303066449,
+      "anchor_percent_of_bound": 107.15214261398465
+    },
+    {
+      "window_a": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.8402597402597403,
+      "pair_bound": 0.8981121790650077,
+      "pair_percent_of_bound": 93.55843956314058,
+      "anchor_spearman": 0.7142857142857143,
+      "anchor_bound": 0.8621959337590294,
+      "anchor_percent_of_bound": 82.84494119237476
+    },
+    {
+      "window_a": [
+        "t20",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.8129870129870129,
+      "pair_bound": 0.9022405737046231,
+      "pair_percent_of_bound": 90.10756517509152,
+      "anchor_spearman": 0.6,
+      "anchor_bound": 0.870815993623938,
+      "anchor_percent_of_bound": 68.90089346006087
+    },
+    {
+      "window_a": [
+        "t30",
+        "t40",
+        "t50"
+      ],
+      "window_b": [
+        "t60",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.6584415584415585,
+      "pair_bound": 0.8991808491130903,
+      "pair_percent_of_bound": 73.2268218446839,
+      "anchor_spearman": 0.7714285714285715,
+      "anchor_bound": 0.8646569480364342,
+      "anchor_percent_of_bound": 89.21787689099396
+    },
+    {
+      "window_a": [
+        "t30",
+        "t40",
+        "t60"
+      ],
+      "window_b": [
+        "t50",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.8454545454545455,
+      "pair_bound": 0.907212298563259,
+      "pair_percent_of_bound": 93.19257981769884,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8010890676924732,
+      "anchor_percent_of_bound": 110.56377142501451
+    },
+    {
+      "window_a": [
+        "t30",
+        "t40",
+        "t70"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.8805194805194804,
+      "pair_bound": 0.9021061305470465,
+      "pair_percent_of_bound": 97.60708310290767,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.808404754022802,
+      "anchor_percent_of_bound": 109.56322081318478
+    },
+    {
+      "window_a": [
+        "t30",
+        "t40",
+        "t80"
+      ],
+      "window_b": [
+        "t50",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9376623376623376,
+      "pair_bound": 0.9084008446776438,
+      "pair_percent_of_bound": 103.22120935445383,
+      "anchor_spearman": 0.8857142857142858,
+      "anchor_bound": 0.8112279391127533,
+      "anchor_percent_of_bound": 109.18192569686381
+    },
+    {
+      "window_a": [
+        "t30",
+        "t50",
+        "t60"
+      ],
+      "window_b": [
+        "t40",
+        "t70",
+        "t80"
+      ],
+      "pair_spearman": 0.9675324675324675,
+      "pair_bound": 0.9138696915843685,
+      "pair_percent_of_bound": 105.87203804243296,
+      "anchor_spearman": 1.0,
+      "anchor_bound": 0.8458410170472408,
+      "anchor_percent_of_bound": 118.22552700162439
+    },
+    {
+      "window_a": [
+        "t30",
+        "t50",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t80"
+      ],
+      "pair_spearman": 0.9792207792207792,
+      "pair_bound": 0.9212947220390141,
+      "pair_percent_of_bound": 106.28746217644262,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.7976143664606009,
+      "anchor_percent_of_bound": 118.20964898627066
+    },
+    {
+      "window_a": [
+        "t30",
+        "t50",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t60",
+        "t70"
+      ],
+      "pair_spearman": 0.9792207792207792,
+      "pair_bound": 0.9235833704417646,
+      "pair_percent_of_bound": 106.0240808312088,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.8078207002312098,
+      "anchor_percent_of_bound": 116.71614042414161
+    },
+    {
+      "window_a": [
+        "t30",
+        "t60",
+        "t70"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t80"
+      ],
+      "pair_spearman": 0.9883116883116884,
+      "pair_bound": 0.9146810634004513,
+      "pair_percent_of_bound": 108.04986873102033,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.7514940208504224,
+      "anchor_percent_of_bound": 125.46435722671032
+    },
+    {
+      "window_a": [
+        "t30",
+        "t60",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t70"
+      ],
+      "pair_spearman": 0.9857142857142858,
+      "pair_bound": 0.9145843568705369,
+      "pair_percent_of_bound": 107.77729558890954,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.7819584232527806,
+      "anchor_percent_of_bound": 120.57637782518638
+    },
+    {
+      "window_a": [
+        "t30",
+        "t70",
+        "t80"
+      ],
+      "window_b": [
+        "t40",
+        "t50",
+        "t60"
+      ],
+      "pair_spearman": 0.9766233766233766,
+      "pair_bound": 0.9034382160549822,
+      "pair_percent_of_bound": 108.10073774474252,
+      "anchor_spearman": 0.942857142857143,
+      "anchor_bound": 0.7623575103871416,
+      "anchor_percent_of_bound": 123.67650741426286
+    }
+  ],
+  "pair_structure": {
+    "mean_percent_of_bound": 84.4510994509781,
+    "min": 41.930205347827616,
+    "max": 108.10073774474252,
+    "mean_bound": 0.9254497896415452,
+    "n": 280,
+    "mean_spearman": 0.781256957328386,
+    "n_species_pairs": 21
+  },
+  "anchor_ranking": {
+    "mean_percent_of_bound": 88.75979119672546,
+    "min": 52.8108263433513,
+    "max": 125.46435722671032,
+    "mean_bound": 0.9133898924794935,
+    "n": 280,
+    "mean_spearman": 0.8102040816326532,
+    "overall": [
+      {
+        "species": "lachancea_thermotolerans",
+        "concordance": 0.5671861424075151
+      },
+      {
+        "species": "candida_glabrata",
+        "concordance": 0.5563146951675455
+      },
+      {
+        "species": "yarrowia_lipolytica",
+        "concordance": 0.4812889184081215
+      },
+      {
+        "species": "kluyveromyces_lactis",
+        "concordance": 0.4639331818471537
+      },
+      {
+        "species": "candida_albicans",
+        "concordance": 0.40125202000392085
+      },
+      {
+        "species": "debaryomyces_hansenii",
+        "concordance": 0.22201120564208432
+      }
+    ],
+    "per_contrast_order": {
+      "t10": [
+        "candida_glabrata",
+        "lachancea_thermotolerans",
+        "yarrowia_lipolytica",
+        "kluyveromyces_lactis",
+        "candida_albicans",
+        "debaryomyces_hansenii"
+      ],
+      "t20": [
+        "candida_glabrata",
+        "lachancea_thermotolerans",
+        "yarrowia_lipolytica",
+        "kluyveromyces_lactis",
+        "candida_albicans",
+        "debaryomyces_hansenii"
+      ],
+      "t30": [
+        "lachancea_thermotolerans",
+        "candida_glabrata",
+        "yarrowia_lipolytica",
+        "kluyveromyces_lactis",
+        "candida_albicans",
+        "debaryomyces_hansenii"
+      ],
+      "t40": [
+        "lachancea_thermotolerans",
+        "candida_glabrata",
+        "kluyveromyces_lactis",
+        "yarrowia_lipolytica",
+        "candida_albicans",
+        "debaryomyces_hansenii"
+      ],
+      "t50": [
+        "lachancea_thermotolerans",
+        "kluyveromyces_lactis",
+        "candida_glabrata",
+        "candida_albicans",
+        "yarrowia_lipolytica",
+        "debaryomyces_hansenii"
+      ],
+      "t60": [
+        "lachancea_thermotolerans",
+        "kluyveromyces_lactis",
+        "candida_glabrata",
+        "candida_albicans",
+        "yarrowia_lipolytica",
+        "debaryomyces_hansenii"
+      ],
+      "t70": [
+        "lachancea_thermotolerans",
+        "kluyveromyces_lactis",
+        "candida_glabrata",
+        "candida_albicans",
+        "yarrowia_lipolytica",
+        "debaryomyces_hansenii"
+      ],
+      "t80": [
+        "kluyveromyces_lactis",
+        "lachancea_thermotolerans",
+        "candida_glabrata",
+        "debaryomyces_hansenii",
+        "yarrowia_lipolytica",
+        "candida_albicans"
+      ]
+    },
+    "top_per_contrast": {
+      "t10": "candida_glabrata",
+      "t20": "candida_glabrata",
+      "t30": "lachancea_thermotolerans",
+      "t40": "lachancea_thermotolerans",
+      "t50": "lachancea_thermotolerans",
+      "t60": "lachancea_thermotolerans",
+      "t70": "lachancea_thermotolerans",
+      "t80": "kluyveromyces_lactis"
+    },
+    "n_distinct_winners": 3
+  }
+}

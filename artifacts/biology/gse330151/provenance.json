@@ -1,0 +1,481 @@
+{
+  "panel": "GSE330151, primary hepatocytes, NRF2 and UPR stress",
+  "species": [
+    "Homo sapiens",
+    "Macaca fascicularis",
+    "Canis lupus familiaris",
+    "Mus musculus",
+    "Rattus norvegicus"
+  ],
+  "ortholog_axis": "ref/orthologs_five_way.json",
+  "n_axis_genes": 13214,
+  "n_response_rows": 15,
+  "n_genes_finite_in_every_row": 6583,
+  "transform": "counts to CPM on the full transcriptome, then restricted to the axis, then per-donor log2(CPM + pseudocount) treated minus its own matched vehicle, averaged over donors",
+  "control_matching": "read from the GEO sample titles (\"Vehicle control, matched to X treatment\"), and the incubation in Sample_characteristics is checked to agree before any contrast is formed",
+  "design_as_read": {
+    "Homo sapiens": [
+      [
+        "CDDO",
+        "treated",
+        24.0
+      ],
+      [
+        "CDDO",
+        "vehicle",
+        24.0
+      ],
+      [
+        "KI696",
+        "treated",
+        24.0
+      ],
+      [
+        "KI696",
+        "vehicle",
+        24.0
+      ],
+      [
+        "THAP",
+        "treated",
+        8.0
+      ],
+      [
+        "THAP",
+        "vehicle",
+        8.0
+      ]
+    ],
+    "Macaca fascicularis": [
+      [
+        "CDDO",
+        "treated",
+        24.0
+      ],
+      [
+        "CDDO",
+        "vehicle",
+        24.0
+      ],
+      [
+        "KI696",
+        "treated",
+        24.0
+      ],
+      [
+        "KI696",
+        "vehicle",
+        24.0
+      ],
+      [
+        "THAP",
+        "treated",
+        8.0
+      ],
+      [
+        "THAP",
+        "vehicle",
+        8.0
+      ]
+    ],
+    "Canis lupus familiaris": [
+      [
+        "CDDO",
+        "treated",
+        24.0
+      ],
+      [
+        "CDDO",
+        "vehicle",
+        24.0
+      ],
+      [
+        "KI696",
+        "treated",
+        24.0
+      ],
+      [
+        "KI696",
+        "vehicle",
+        24.0
+      ],
+      [
+        "THAP",
+        "treated",
+        8.0
+      ],
+      [
+        "THAP",
+        "vehicle",
+        8.0
+      ]
+    ],
+    "Mus musculus": [
+      [
+        "CDDO",
+        "treated",
+        24.0
+      ],
+      [
+        "CDDO",
+        "vehicle",
+        24.0
+      ],
+      [
+        "KI696",
+        "treated",
+        24.0
+      ],
+      [
+        "KI696",
+        "vehicle",
+        24.0
+      ],
+      [
+        "THAP",
+        "treated",
+        8.0
+      ],
+      [
+        "THAP",
+        "vehicle",
+        8.0
+      ]
+    ],
+    "Rattus norvegicus": [
+      [
+        "CDDO",
+        "treated",
+        24.0
+      ],
+      [
+        "CDDO",
+        "vehicle",
+        24.0
+      ],
+      [
+        "KI696",
+        "treated",
+        24.0
+      ],
+      [
+        "KI696",
+        "vehicle",
+        24.0
+      ],
+      [
+        "THAP",
+        "treated",
+        8.0
+      ],
+      [
+        "THAP",
+        "vehicle",
+        8.0
+      ]
+    ]
+  },
+  "detection_filter": "matched-vehicle mean CPM >= 1.0",
+  "responses_armmean": "the same contrasts computed the way the blood panel was -- arm means then one log ratio -- so the two panels can be compared under identical arithmetic",
+  "pseudocount": 1.0,
+  "skipped": [],
+  "per_species": {
+    "Homo sapiens": {
+      "file": "GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+      "n_samples": 18,
+      "n_genes_in_file": 62703,
+      "axis_genes_found": 13209,
+      "axis_genes_missing": 5,
+      "median_library_size": 15933348.975000039
+    },
+    "Macaca fascicularis": {
+      "file": "GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+      "n_samples": 18,
+      "n_genes_in_file": 38550,
+      "axis_genes_found": 13214,
+      "axis_genes_missing": 0,
+      "median_library_size": 11681397.045500003
+    },
+    "Canis lupus familiaris": {
+      "file": "GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+      "n_samples": 18,
+      "n_genes_in_file": 31121,
+      "axis_genes_found": 13214,
+      "axis_genes_missing": 0,
+      "median_library_size": 11399021.479499998
+    },
+    "Mus musculus": {
+      "file": "GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+      "n_samples": 18,
+      "n_genes_in_file": 56953,
+      "axis_genes_found": 13208,
+      "axis_genes_missing": 6,
+      "median_library_size": 17118725.9614999
+    },
+    "Rattus norvegicus": {
+      "file": "GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+      "n_samples": 18,
+      "n_genes_in_file": 30452,
+      "axis_genes_found": 12863,
+      "axis_genes_missing": 351,
+      "median_library_size": 14874800.488000002
+    }
+  },
+  "sanity_pathway_and_housekeeping_genes": {
+    "NQO1": {
+      "CDDO": {
+        "Homo sapiens": 1.119783639907837,
+        "Macaca fascicularis": 1.6556743383407593,
+        "Canis lupus familiaris": 1.9247618913650513,
+        "Mus musculus": 3.237722635269165,
+        "Rattus norvegicus": 2.716327667236328
+      },
+      "KI696": {
+        "Homo sapiens": 1.2831982374191284,
+        "Macaca fascicularis": 2.5282604694366455,
+        "Canis lupus familiaris": 1.4841744899749756,
+        "Mus musculus": 3.243586778640747,
+        "Rattus norvegicus": 2.741605281829834
+      },
+      "THAP": {
+        "Homo sapiens": -0.6508954763412476,
+        "Macaca fascicularis": -0.7198927402496338,
+        "Canis lupus familiaris": -0.5833250284194946,
+        "Mus musculus": -0.2608223259449005,
+        "Rattus norvegicus": -1.1669418811798096
+      }
+    },
+    "HMOX1": {
+      "CDDO": {
+        "Homo sapiens": 0.23035971820354462,
+        "Macaca fascicularis": -0.5334739089012146,
+        "Canis lupus familiaris": 1.2130852937698364,
+        "Mus musculus": 1.4537849426269531,
+        "Rattus norvegicus": 1.22894287109375
+      },
+      "KI696": {
+        "Homo sapiens": 0.4512939155101776,
+        "Macaca fascicularis": 0.44271257519721985,
+        "Canis lupus familiaris": 0.21995428204536438,
+        "Mus musculus": 0.9786033034324646,
+        "Rattus norvegicus": 1.2817177772521973
+      },
+      "THAP": {
+        "Homo sapiens": -0.33775216341018677,
+        "Macaca fascicularis": 0.46382927894592285,
+        "Canis lupus familiaris": -0.016072409227490425,
+        "Mus musculus": 0.8678749799728394,
+        "Rattus norvegicus": 0.5429556965827942
+      }
+    },
+    "GCLM": {
+      "CDDO": {
+        "Homo sapiens": 0.9021227359771729,
+        "Macaca fascicularis": 0.7747440338134766,
+        "Canis lupus familiaris": 0.30804044008255005,
+        "Mus musculus": 2.3138458728790283,
+        "Rattus norvegicus": 3.53625750541687
+      },
+      "KI696": {
+        "Homo sapiens": 1.25919508934021,
+        "Macaca fascicularis": 0.8287521004676819,
+        "Canis lupus familiaris": 0.4635690748691559,
+        "Mus musculus": 2.112260103225708,
+        "Rattus norvegicus": 3.4171037673950195
+      },
+      "THAP": {
+        "Homo sapiens": 0.23559242486953735,
+        "Macaca fascicularis": -0.24799124896526337,
+        "Canis lupus familiaris": 0.07891816645860672,
+        "Mus musculus": 0.06375957280397415,
+        "Rattus norvegicus": -0.36897388100624084
+      }
+    },
+    "TXNRD1": {
+      "CDDO": {
+        "Homo sapiens": 1.0537914037704468,
+        "Macaca fascicularis": 0.9725224375724792,
+        "Canis lupus familiaris": 1.005359172821045,
+        "Mus musculus": 1.8776332139968872,
+        "Rattus norvegicus": 2.220089912414551
+      },
+      "KI696": {
+        "Homo sapiens": 1.197647213935852,
+        "Macaca fascicularis": 2.3556857109069824,
+        "Canis lupus familiaris": 0.8918008208274841,
+        "Mus musculus": 1.8347135782241821,
+        "Rattus norvegicus": 2.6525914669036865
+      },
+      "THAP": {
+        "Homo sapiens": 0.20123855769634247,
+        "Macaca fascicularis": -0.1853712946176529,
+        "Canis lupus familiaris": -0.31089797616004944,
+        "Mus musculus": 0.27465149760246277,
+        "Rattus norvegicus": -0.1020917296409607
+      }
+    },
+    "SRXN1": {
+      "CDDO": {
+        "Homo sapiens": 1.211939811706543,
+        "Macaca fascicularis": 2.411236524581909,
+        "Canis lupus familiaris": 1.2121258974075317,
+        "Mus musculus": 3.211111307144165,
+        "Rattus norvegicus": 2.2311432361602783
+      },
+      "KI696": {
+        "Homo sapiens": 1.6195050477981567,
+        "Macaca fascicularis": 3.3575541973114014,
+        "Canis lupus familiaris": 1.4675464630126953,
+        "Mus musculus": 2.7729601860046387,
+        "Rattus norvegicus": 2.612504720687866
+      },
+      "THAP": {
+        "Homo sapiens": -0.0409599244594574,
+        "Macaca fascicularis": -0.3217252492904663,
+        "Canis lupus familiaris": -0.20342648029327393,
+        "Mus musculus": 0.16084660589694977,
+        "Rattus norvegicus": 0.9018483757972717
+      }
+    },
+    "HSPA5": {
+      "CDDO": {
+        "Homo sapiens": -0.16753746569156647,
+        "Macaca fascicularis": -0.06888193637132645,
+        "Canis lupus familiaris": -0.12091603875160217,
+        "Mus musculus": -0.34703847765922546,
+        "Rattus norvegicus": -0.1329633593559265
+      },
+      "KI696": {
+        "Homo sapiens": -0.12998825311660767,
+        "Macaca fascicularis": 0.16411562263965607,
+        "Canis lupus familiaris": -0.031225962564349174,
+        "Mus musculus": -0.2807704508304596,
+        "Rattus norvegicus": -0.14030149579048157
+      },
+      "THAP": {
+        "Homo sapiens": 2.622339963912964,
+        "Macaca fascicularis": 3.151435136795044,
+        "Canis lupus familiaris": 0.47186267375946045,
+        "Mus musculus": 2.543755292892456,
+        "Rattus norvegicus": 2.6254138946533203
+      }
+    },
+    "DDIT3": {
+      "CDDO": {
+        "Homo sapiens": -0.41031700372695923,
+        "Macaca fascicularis": 0.04252650588750839,
+        "Canis lupus familiaris": -0.14002317190170288,
+        "Mus musculus": -0.6744105219841003,
+        "Rattus norvegicus": -0.4486774802207947
+      },
+      "KI696": {
+        "Homo sapiens": -0.02247943915426731,
+        "Macaca fascicularis": -0.13933537900447845,
+        "Canis lupus familiaris": -0.15276503562927246,
+        "Mus musculus": -0.6253263354301453,
+        "Rattus norvegicus": 0.07216700166463852
+      },
+      "THAP": {
+        "Homo sapiens": 2.57372784614563,
+        "Macaca fascicularis": 1.3061044216156006,
+        "Canis lupus familiaris": 1.0621082782745361,
+        "Mus musculus": 4.24802303314209,
+        "Rattus norvegicus": 2.735267162322998
+      }
+    },
+    "ATF3": {
+      "CDDO": {
+        "Homo sapiens": -0.03174507990479469,
+        "Macaca fascicularis": -0.1556294858455658,
+        "Canis lupus familiaris": -0.12817174196243286,
+        "Mus musculus": 0.010174605995416641,
+        "Rattus norvegicus": -0.5747270584106445
+      },
+      "KI696": {
+        "Homo sapiens": -0.22503456473350525,
+        "Macaca fascicularis": -0.6336569786071777,
+        "Canis lupus familiaris": -0.1950812041759491,
+        "Mus musculus": -0.050652142614126205,
+        "Rattus norvegicus": -0.09555117785930634
+      },
+      "THAP": {
+        "Homo sapiens": 2.742302179336548,
+        "Macaca fascicularis": 0.25964370369911194,
+        "Canis lupus familiaris": 0.9474277496337891,
+        "Mus musculus": 2.123845100402832,
+        "Rattus norvegicus": 1.3801875114440918
+      }
+    },
+    "XBP1": {
+      "CDDO": {
+        "Homo sapiens": -0.16868604719638824,
+        "Macaca fascicularis": -0.16454747319221497,
+        "Canis lupus familiaris": -0.14523476362228394,
+        "Mus musculus": -0.1759284883737564,
+        "Rattus norvegicus": -0.11718103289604187
+      },
+      "KI696": {
+        "Homo sapiens": -0.26463261246681213,
+        "Macaca fascicularis": -0.11979544162750244,
+        "Canis lupus familiaris": -0.1187882274389267,
+        "Mus musculus": -0.07991388440132141,
+        "Rattus norvegicus": 0.01658022589981556
+      },
+      "THAP": {
+        "Homo sapiens": 0.59600430727005,
+        "Macaca fascicularis": 0.6757001876831055,
+        "Canis lupus familiaris": 0.5432698130607605,
+        "Mus musculus": 0.35262176394462585,
+        "Rattus norvegicus": 0.1851811558008194
+      }
+    },
+    "HERPUD1": {
+      "CDDO": {
+        "Homo sapiens": -0.2771202027797699,
+        "Macaca fascicularis": -0.07683085650205612,
+        "Canis lupus familiaris": -0.1995834857225418,
+        "Mus musculus": -1.0942273139953613,
+        "Rattus norvegicus": -0.09150469303131104
+      },
+      "KI696": {
+        "Homo sapiens": -0.29712703824043274,
+        "Macaca fascicularis": 0.06394706666469574,
+        "Canis lupus familiaris": 0.03283584490418434,
+        "Mus musculus": -1.1963077783584595,
+        "Rattus norvegicus": -0.537233829498291
+      },
+      "THAP": {
+        "Homo sapiens": 3.108793020248413,
+        "Macaca fascicularis": 1.6892340183258057,
+        "Canis lupus familiaris": 0.5990631580352783,
+        "Mus musculus": 2.3509280681610107,
+        "Rattus norvegicus": 3.002434730529785
+      }
+    },
+    "ACTB": null,
+    "GAPDH": null,
+    "TBP": {
+      "CDDO": {
+        "Homo sapiens": 0.008641296066343784,
+        "Macaca fascicularis": 0.19518618285655975,
+        "Canis lupus familiaris": 0.0841405913233757,
+        "Mus musculus": -0.10413966327905655,
+        "Rattus norvegicus": 0.05414464697241783
+      },
+      "KI696": {
+        "Homo sapiens": 0.2225988805294037,
+        "Macaca fascicularis": 0.0581047385931015,
+        "Canis lupus familiaris": -0.07938496768474579,
+        "Mus musculus": -0.04526742175221443,
+        "Rattus norvegicus": 0.163474440574646
+      },
+      "THAP": {
+        "Homo sapiens": -0.04108535870909691,
+        "Macaca fascicularis": 0.12633870542049408,
+        "Canis lupus familiaris": -0.1234489306807518,
+        "Mus musculus": 0.4517399072647095,
+        "Rattus norvegicus": 0.3498818874359131
+      }
+    }
+  }
+}

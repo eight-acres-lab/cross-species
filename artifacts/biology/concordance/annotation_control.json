@@ -1,0 +1,61 @@
+{
+ "by_geneset": {
+  "all genes (25,638)": {
+   "Bos taurus": 0.34497104088465375,
+   "Macaca": 0.5336310035652585,
+   "Mus musculus": 0.2282918377055062,
+   "Oryctolagus cuniculus": 0.33437589804331463,
+   "Ovis aries": 0.2780208835999171,
+   "Pan troglodytes": 0.6755519972907172,
+   "Papio anubis": 0.5066175560156504,
+   "Rattus norvegicus": 0.20609555559025872,
+   "Sus scrofa": 0.26548615760273403
+  },
+  "expressed in all 10 species (log2TPM>0.5): 6,477": {
+   "Bos taurus": 0.4539084169599745,
+   "Macaca": 0.6776635713047452,
+   "Mus musculus": 0.3748023129171795,
+   "Oryctolagus cuniculus": 0.4546542978949017,
+   "Ovis aries": 0.4029039243857066,
+   "Pan troglodytes": 0.8297068609131707,
+   "Papio anubis": 0.6761382023493449,
+   "Rattus norvegicus": 0.36010681092739105,
+   "Sus scrofa": 0.4008832673231761
+  },
+  "expressed in all 10 species (log2TPM>1.0): 5,372": {
+   "Bos taurus": 0.47201007604599,
+   "Macaca": 0.6865104171964858,
+   "Mus musculus": 0.39437342683474225,
+   "Oryctolagus cuniculus": 0.48371362023883396,
+   "Ovis aries": 0.42973145180278355,
+   "Pan troglodytes": 0.8463132513893975,
+   "Papio anubis": 0.6901943220032586,
+   "Rattus norvegicus": 0.3651671525504854,
+   "Sus scrofa": 0.42298370599746704
+  },
+  "expressed in all 10 species (log2TPM>2.0): 2,973": {
+   "Bos taurus": 0.5275669097900391,
+   "Macaca": 0.7025641997655233,
+   "Mus musculus": 0.40392768051889205,
+   "Oryctolagus cuniculus": 0.5017606417338053,
+   "Ovis aries": 0.48605291379822624,
+   "Pan troglodytes": 0.8565282225608826,
+   "Papio anubis": 0.7062805559900072,
+   "Rattus norvegicus": 0.35689085059695774,
+   "Sus scrofa": 0.44987741774982876
+  }
+ },
+ "rbar_ci": [
+  0.23310446153498357,
+  0.26635867318966316
+ ],
+ "rho_ci": [
+  0.2200364018955561,
+  0.2537302084934156
+ ],
+ "asymptote_ci": [
+  0.48101053710731656,
+  0.5356873838292672
+ ],
+ "p_asymptote_above_macaque": 0.055
+}

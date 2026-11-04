@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Preserve deposited data bytes and their SHA-256 checksums.
+artifacts/** -text
+*.pdf binary
+*.png binary
+*.npy binary
+*.gz binary
