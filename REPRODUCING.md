@@ -41,6 +41,17 @@ This reads `docs/paper/preprint.md`, generates the editable LaTeX, and synchroni
 PDF copies. The TeX Gyre fonts used by the template are supplied by TeX distributions. For
 direct LaTeX editing, see `docs/paper/tex/README.md`.
 
+For the editable Word review copy, with Pandoc and `python-docx` installed:
+
+```bash
+python scripts/build_preprint_docx.py
+```
+
+This reads the same Markdown source and embeds the current five 600 dpi figure PNGs.
+It writes `docs/paper/preprint_review.docx`, with native Word text, four tables and six
+equations. Editing and comments are unrestricted. Pagination can differ from the LaTeX PDF.
+Save annotated copies separately: regeneration replaces the unannotated review copy.
+
 ## Recompute reliability from included matrices
 
 The blood response matrix is 388 rows by 25,638 genes; the matching gene axis and response

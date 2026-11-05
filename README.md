@@ -4,6 +4,7 @@ Data and code accompanying the manuscript. This repository contains the publicat
 snapshot, without the development repository's commit history or unrelated experiments.
 
 - [Read the manuscript](docs/paper/preprint.pdf) or its [Markdown source](docs/paper/preprint.md).
+- [Word review copy](docs/paper/preprint_review.docx): editable text, tables and equations for comments and tracked revisions.
 - [Data catalogue](DATA_AVAILABILITY.md): source studies, deposited results, and figure/table inputs.
 - [Reproduction guide](REPRODUCING.md): verification, plotting, and analysis prerequisites.
 - [SHA-256 inventory](DATA_MANIFEST.json): every file in this release.
@@ -37,7 +38,7 @@ vector PDF, editable SVG and 600 dpi RGB PNG in `docs/paper/tex/figures/`.
 | `artifacts/faang_bmdm/processed/` | Processed macrophage matrix, gene axis, metadata, and provenance |
 | `artifacts/lincs_scale/`, `artifacts/rhaister_benchmark/` | External benchmark results |
 | `scripts/`, `src/`, `tests/` | Analysis, plotting, validation, and regression tests |
-| `docs/paper/` | Manuscript, editable LaTeX, and figure files |
+| `docs/paper/` | Manuscript PDF, Word review copy, editable LaTeX, and figure files |
 
 The release includes the corrected handling of tied taxonomic ranks. Figure 4 and
 Tables 1/3 use the same current statistical sources. Teaching matrices are labelled
