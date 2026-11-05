@@ -553,56 +553,56 @@ z
 " clip-path="url(#pdf390fa20f)" style="fill: #e78a40; stroke: #e78a40; stroke-width: 0.85; stroke-linecap: round"/>
    </g>
    <g id="patch_64">
-    <path d="M 12.188976 158.740157
-L 217.417323 158.740157
-Q 221.102362 158.740157 221.102362 162.425197
+    <path d="M 14.173228 155.055118
+C 15.902269 155.055118 17.560725 155.742073 18.783342 156.96469
+C 20.005958 158.187306 20.692913 159.845762 20.692913 161.574803
+C 20.692913 163.303844 20.005958 164.9623 18.783342 166.184917
+C 17.560725 167.407533 15.902269 168.094488 14.173228 168.094488
+C 12.444188 168.094488 10.785731 167.407533 9.563115 166.184917
+C 8.340498 164.9623 7.653543 163.303844 7.653543 161.574803
+C 7.653543 159.845762 8.340498 158.187306 9.563115 156.96469
+C 10.785731 155.742073 12.444188 155.055118 14.173228 155.055118
+z
+" clip-path="url(#pdf390fa20f)" style="fill: #ffffff; stroke: #2585bd; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_65">
+    <path d="M 238.110236 155.055118
+C 239.839277 155.055118 241.497733 155.742073 242.72035 156.96469
+C 243.942966 158.187306 244.629921 159.845762 244.629921 161.574803
+C 244.629921 163.303844 243.942966 164.9623 242.72035 166.184917
+C 241.497733 167.407533 239.839277 168.094488 238.110236 168.094488
+C 236.381196 168.094488 234.722739 167.407533 233.500123 166.184917
+C 232.277506 164.9623 231.590551 163.303844 231.590551 161.574803
+C 231.590551 159.845762 232.277506 158.187306 233.500123 156.96469
+C 234.722739 155.742073 236.381196 155.055118 238.110236 155.055118
+z
+" clip-path="url(#pdf390fa20f)" style="fill: #ffffff; stroke: #e78a40; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_66">
+    <path d="M 12.188976 178.582677
+L 217.417323 178.582677
+Q 221.102362 178.582677 221.102362 182.267717
 L 221.102362 322.299213
 Q 221.102362 325.984252 217.417323 325.984252
 L 12.188976 325.984252
 Q 8.503937 325.984252 8.503937 322.299213
-L 8.503937 162.425197
-Q 8.503937 158.740157 12.188976 158.740157
+L 8.503937 182.267717
+Q 8.503937 178.582677 12.188976 178.582677
 z
 " clip-path="url(#pdf390fa20f)" style="fill: #ffffff; stroke: #b6d9ed; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_65">
-    <path d="M 236.125984 158.740157
-L 441.354331 158.740157
-Q 445.03937 158.740157 445.03937 162.425197
+   <g id="patch_67">
+    <path d="M 236.125984 178.582677
+L 441.354331 178.582677
+Q 445.03937 178.582677 445.03937 182.267717
 L 445.03937 322.299213
 Q 445.03937 325.984252 441.354331 325.984252
 L 236.125984 325.984252
 Q 232.440945 325.984252 232.440945 322.299213
-L 232.440945 162.425197
-Q 232.440945 158.740157 236.125984 158.740157
+L 232.440945 182.267717
+Q 232.440945 178.582677 236.125984 178.582677
 z
 " clip-path="url(#pdf390fa20f)" style="fill: #ffffff; stroke: #efcda9; stroke-width: 0.65; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_66">
-    <path d="M 22.677165 166.393701
-C 24.406206 166.393701 26.064662 167.080656 27.287279 168.303272
-C 28.509895 169.525889 29.19685 171.184345 29.19685 172.913386
-C 29.19685 174.642427 28.509895 176.300883 27.287279 177.523499
-C 26.064662 178.746116 24.406206 179.433071 22.677165 179.433071
-C 20.948125 179.433071 19.289668 178.746116 18.067052 177.523499
-C 16.844435 176.300883 16.15748 174.642427 16.15748 172.913386
-C 16.15748 171.184345 16.844435 169.525889 18.067052 168.303272
-C 19.289668 167.080656 20.948125 166.393701 22.677165 166.393701
-z
-" clip-path="url(#pdf390fa20f)" style="fill: #ffffff; stroke: #2585bd; stroke-width: 1.2; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_67">
-    <path d="M 246.614173 166.393701
-C 248.343214 166.393701 250.00167 167.080656 251.224287 168.303272
-C 252.446903 169.525889 253.133858 171.184345 253.133858 172.913386
-C 253.133858 174.642427 252.446903 176.300883 251.224287 177.523499
-C 250.00167 178.746116 248.343214 179.433071 246.614173 179.433071
-C 244.885133 179.433071 243.226676 178.746116 242.00406 177.523499
-C 240.781443 176.300883 240.094488 174.642427 240.094488 172.913386
-C 240.094488 171.184345 240.781443 169.525889 242.00406 168.303272
-C 243.226676 167.080656 244.885133 166.393701 246.614173 166.393701
-z
-" clip-path="url(#pdf390fa20f)" style="fill: #ffffff; stroke: #e78a40; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_68">
     <path d="M 34.015748 209.76378
@@ -1876,16 +1876,16 @@ L 428.031496 447.874016
     <text style="font-size: 7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="351.496063" y="149.906809" transform="rotate(-0 351.496063 149.906809)">TG-GATEs</text>
    </g>
    <g id="text_16">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="22.677165" y="175.788386" transform="rotate(-0 22.677165 175.788386)">2</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="14.173228" y="164.449803" transform="rotate(-0 14.173228 164.449803)">2</text>
    </g>
    <g id="text_17">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="34.015748" y="174.983386" transform="rotate(-0 34.015748 174.983386)">Quantify species redundancy</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="25.511811" y="163.644803" transform="rotate(-0 25.511811 163.644803)">Quantify species redundancy</text>
    </g>
    <g id="text_18">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="246.614173" y="175.739636" transform="rotate(-0 246.614173 175.739636)">3</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="238.110236" y="164.401053" transform="rotate(-0 238.110236 164.401053)">3</text>
    </g>
    <g id="text_19">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="257.952756" y="174.934636" transform="rotate(-0 257.952756 174.934636)">Estimate replicate ceiling</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="249.448819" y="163.596053" transform="rotate(-0 249.448819 163.596053)">Estimate replicate ceiling</text>
    </g>
    <g id="text_20">
     <text style="font-size: 7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="114.80315" y="191.689854" transform="rotate(-0 114.80315 191.689854)">Average subjects within each condition</text>

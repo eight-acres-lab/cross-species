@@ -236,10 +236,12 @@ def figure1(out):
     arrow(bg, (121, 49), (121, 55), color=ORANGE)
     label(bg, 43, 52, 'Blood panel', 6.2)
     label(bg, 124, 52, 'TG-GATEs', 6.2)
-    region(bg, 3, 56, 75, 59, 'white', '#B6D9ED')
-    region(bg, 82, 56, 75, 59, 'white', '#EFCDA9')
-    stage(bg, 6, 61, 2, 'Quantify species redundancy', BLUE)
-    stage(bg, 85, 61, 3, 'Estimate replicate ceiling', ORANGE)
+    # Every numbered heading sits 6 mm above its content area. The branch
+    # boxes group calculations; they do not enclose a different heading level.
+    stage(bg, 3, 57, 2, 'Quantify species redundancy', BLUE)
+    stage(bg, 82, 57, 3, 'Estimate replicate ceiling', ORANGE)
+    region(bg, 3, 63, 75, 52, 'white', '#B6D9ED')
+    region(bg, 82, 63, 75, 52, 'white', '#EFCDA9')
     label(bg, 40.5, 67, 'Average subjects within each condition', 7, ha='center')
     x = toy_responses()
     cells(bg, 12, 74, x, 2.5, vmin=-1.5, vmax=1.5)
