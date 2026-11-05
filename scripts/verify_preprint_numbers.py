@@ -18,6 +18,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+from functools import lru_cache
 import json
 import math
 import statistics as st
@@ -25,6 +26,8 @@ import sys
 from pathlib import Path
 
 import numpy as np
+
+from collect_preprint_datasets import collect_dataset_overview
 
 ROOT = Path(__file__).resolve().parents[1]
 BAND = (0.60, 0.78)
@@ -216,11 +219,11 @@ CHECKS: list[dict] = [
                       ["comparisons"] if "macrophage [pooled]" in c["label"]][0]["spearman_cross"]),
 
     # ---- 2.5 what the ordering survives --------------------------------------------
-    dict(claim="2.5 / Figure 2a: chimpanzee 0.676",
+    dict(claim="2.5 / Figure 3a: chimpanzee 0.676",
          paper=0.6756, tol=5e-4,
          get=lambda: load("artifacts/biology/concordance/reconstruct_metric_audit.json")
                      ["Pan troglodytes"]["r"]),
-    dict(claim="2.5 / Figure 2a: rat 0.206",
+    dict(claim="2.5 / Figure 3a: rat 0.206",
          paper=0.2061, tol=5e-4,
          get=lambda: load("artifacts/biology/concordance/reconstruct_metric_audit.json")
                      ["Rattus norvegicus"]["r"]),
@@ -294,8 +297,8 @@ CHECKS: list[dict] = [
          get=lambda: max(r["p_partial"] for r in
                          load("artifacts/biology/concordance/rho_double_centred.json")["double_centred"])),
 
-    # ---- 2.4 / Figure 3: the two cross-panel estimators --------------------------
-    # Figure 3 and the text use the same two-estimator artifact. The 2026-11-04
+    # ---- 2.4 / Figure 4: the two cross-panel estimators --------------------------
+    # Figure 4 and the text use the same two-estimator artifact. The 2026-11-04
     # correction averages tied ranks for taxonomy controls; these all/cross-order
     # estimates are unchanged and guard against restoring an older panel run.
     dict(claim="2.4: macrophage per-condition, all pairs +0.503",
@@ -419,6 +422,36 @@ CHECKS: list[dict] = [
          paper=0.5767, tol=1e-3,
          get=lambda: load("artifacts/rhaister_benchmark/donor_ceiling.json")["overall"]["ceiling_max"]),
 ]
+
+@lru_cache(maxsize=1)
+def overview_metadata():
+    return collect_dataset_overview()
+
+
+# Figure 2 uses source metadata, with the blood grid restricted to shared conditions.
+# These expected counts also prevent a stale provenance header from replacing the table.
+CHECKS.extend(dict(claim=f'Figure 2a: {name}, species', paper=n, tol=0,
+                   get=lambda i=i: overview_metadata()['datasets'][i]['n_species'])
+              for i, (name, n) in enumerate([
+                  ('blood', 10), ('TG-GATEs', 2), ('hepatocytes', 5), ('macrophages', 9),
+                  ('yeasts', 7), ('LINCS', 1), ('Parse PBMC', 1)]))
+CHECKS.extend(dict(claim=f'Figure 2b: {key}', paper=n, tol=0,
+                   get=lambda key=key: overview_metadata()['blood'][key])
+              for key, n in [('n_deposited_rows', 388), ('n_shared_rows', 387),
+                             ('n_excluded_rows', 1), ('n_shared_conditions', 9), ('n_subjects', 44)])
+CHECKS.extend(dict(claim=f'Figure 2b: dose row {i+1}, time column {j+1}', paper=n, tol=0,
+                   get=lambda i=i,j=j: overview_metadata()['blood']['counts'][i][j])
+              for i, row in enumerate([[43,44,43], [43,44,41], [43,44,42]])
+              for j, n in enumerate(row))
+CHECKS.extend(dict(claim=f'Figure 2b: {key}[{i}]', paper=n, tol=0,
+                   get=lambda key=key,i=i: overview_metadata()['blood'][key][i])
+              for key, ns in [('doses_ng_ml', [10,100,1000]), ('times_h', [2,6,24])]
+              for i, n in enumerate(ns))
+CHECKS.extend(dict(claim=f'Figure 2c: comparison {i+1}, {key}', paper=n, tol=0,
+                   get=lambda i=i,key=key: overview_metadata()['tggates']['comparisons'][i][key])
+              for i, counts in enumerate([(151,41), (138,34), (52,20), (138,53), (131,38), (135,61)])
+              for key, n in zip(['n_shared', 'n_in_band'], counts))
+
 
 # The 62 test perturbations of their split_0, read from splits/parse/split_0/split.toml on the
 # compute host. Held here so the comparison is against exactly the rows they scored, 62 x 12 =
@@ -552,7 +585,7 @@ def geneset_n(threshold: str) -> float:
 
 
 def xpanel(estimator: str, field: str) -> float:
-    """A cross-panel statistic from the artifact Figure 3 is now drawn from."""
+    """A cross-panel statistic from the artifact Figure 4 is now drawn from."""
     rows = load("artifacts/biology/concordance/rho_cross_panel_both_estimators.json")["comparisons"]
     hit = [r for r in rows if estimator in r.get("kind", "")]
     if len(hit) != 1:

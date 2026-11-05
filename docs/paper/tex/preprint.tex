@@ -252,14 +252,21 @@ subsection states what the design cannot settle.
 Figure~\ref{fig:1} gives a standalone overview of the framework. Matched response
 profiles enter two complementary calculations: species-pair redundancy
 with subject-split reliability, and replicate-based ceilings for
-comparisons across experimental boundaries. Figures 2--4 then report
-donor value and panel saturation, context transfer, and response
+comparisons across experimental boundaries. Figure~\ref{fig:2} summarises the data
+sources and the coverage of the two core analyses. Figures 3--5 then
+report donor value and panel saturation, context transfer, and response
 specificity.
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\linewidth]{figures/Fig1.pdf}
 \caption{Workflow for assessing cross-species transcriptomic agreement. \textbf{1}, Perturbation responses are constructed relative to controls on a common gene axis within each dataset, retaining subject and condition identities. The blood panel comprises ten species exposed to lipopolysaccharide (LPS); TG-GATEs provides human and rat hepatocytes and rat liver in vivo. \textbf{2}, For the blood panel, species-mean response profiles are correlated across genes to form the redundancy matrix, ρ. Subjects are split within each timepoint, both matrices are rebuilt, and the ranks of corresponding species pairs are compared to establish matrix reliability. \textbf{3}, For TG-GATEs boundary comparisons, A and B denote the two times, species or systems being compared; 1 and 2 identify replicates. Within-side replicate response correlations, \(\mathrm{rel}_A\) and \(\mathrm{rel}_B\), define the ceiling as \(\sqrt{\mathrm{rel}_A\mathrm{rel}_B}\); observed agreement averages all four cross-side replicate pairings. The fraction of ceiling is observed agreement divided by this ceiling. Control-disjoint contrasts are compared within ceiling bands. Ratios above one prompt inspection for sampling error or shared-control structure (Section~\ref{ceiling-normalisation-and-the-exceeds-unity-bound}). This profile-level ceiling and matrix reliability are different constructions. \textbf{4}, The framework supports panel design, tests of context reuse and response specificity, and comparisons of experimental boundaries. All displayed matrices and output miniatures are illustrative; they are not fitted or measured results. Blue-to-orange colours in the response-difference and correlation matrices denote negative-to-positive values; response matrices use arbitrary units, while correlation matrices span −1 to +1. Dataset-specific preprocessing and additional validation panels are described in Methods.}\label{fig:1}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/Fig2.pdf}
+\caption{Dataset scope and coverage of the analysed comparisons. \textbf{a}, Five primary panels and two external checks. Bars count species, not individuals. The primary panels comprise ex vivo blood (GSE249010), human and rat hepatocytes and rat liver (TG-GATEs, S-DIXA-AN-004/005/007), five-species hepatocytes (GSE330151), nine-species macrophages (FAANG, PRJEB22535 and related projects), and seven yeasts (E-MTAB-7022 and related accessions). The external checks use human LINCS L1000 profiles (GSE70138; MCF7 and PC3 cell lines) and the human Parse peripheral blood mononuclear cell (PBMC) release analysed with Rhaister. Blue, teal and purple bars distinguish core analyses, replication panels and external checks. \textbf{b}, Numbers of blood response profiles at each lipopolysaccharide (LPS) dose and time, restricted to conditions present in all ten species. The nine shared conditions contain 387 response profiles from 44 subjects; one deposited response lies outside this shared grid. A response profile is a subject-by-condition observation; subjects recur across cells, so these are not counts of independent individuals. \textbf{c}, Distinct TG-GATEs compounds shared by the two arms of six comparisons (grey), and the subsets with a finite fraction of ceiling and a ceiling in {[}0.60, 0.78) (orange; Table~\ref{tab:2}). All comparisons use high-dose arms. Time comparisons are within human or rat hepatocytes; the species comparison is between human and rat hepatocytes at 24 h; the system comparison is between rat hepatocytes and rat liver at 24 h. Compounds can recur across comparisons. Counts describe the analysed inputs rather than the full upstream repositories. Sources and counting definitions are deposited with the figure.}\label{fig:2}
 \end{figure}
 
 \subsection{Reliability of the redundancy
@@ -303,7 +310,7 @@ nulls of Section~\ref{reuse-of-the-matrix-across-contexts} are undecidable for e
 \subsection{Ceiling normalisation and the exceeds-unity
 bound}\label{ceiling-normalisation-and-the-exceeds-unity-bound}
 
-Figure~\ref{fig:2}a fixes the correlation unit that Sections 2.3, 2.5, 3.1 and 3.2
+Figure~\ref{fig:3}a fixes the correlation unit that Sections 2.3, 2.5, 3.1 and 3.2
 read values in: for each donor species, the agreement between its
 response and the held-out human response in the blood panel. The scale
 this section builds is the second one, and it is what Table~\ref{tab:2} below
@@ -413,12 +420,12 @@ size}\label{saturation-with-panel-size}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{figures/Fig2.pdf}
-\caption{Donor value, panel composition and the limits of pooling. \textbf{a}, Mean across-gene Pearson correlation between each donor species and the held-out human response, over nine endotoxin conditions in ex vivo blood (25,638 genes). Points and horizontal bars show estimates and 95\% stratified leave-one-subject-out jackknife intervals. Absolute values are low by 0.022 to 0.062 under the missing-value convention of Section~\ref{limitations}. \textbf{b, c}, Best (orange circles), mean (blue squares) and worst (grey triangles) equal-weight subsets at each size, enumerated among the six non-primate donors and all nine donors, respectively. Shading is the full range across subsets, not an uncertainty interval; both panels share the same vertical scale. \textbf{d}, The exchangeable-predictor expectation \(R(k)=k\bar{r}/\sqrt{k+k(k-1)\bar{\rho}}\), using measured mean donor--human \ensuremath{\bar{r}} = 0.276 and donor--donor \ensuremath{\bar{\rho}} = 0.265 for the six non-primate species, assumes unit variances and equal pair correlations. Blue squares are measured subset means. The grey region and dashed curve mark extrapolation beyond the six available donors. Horizontal references show the pool asymptote (0.536), one macaque (0.534) and one chimpanzee (0.676). The diamond marks the analytic crossing at k = 297, not a measured panel; this crossing disappears on the filtered gene axes of Section~\ref{controls-on-the-species-ordering}. All empirical panels use the same nine conditions and gene axis.}\label{fig:2}
+\includegraphics[width=\linewidth]{figures/Fig3.pdf}
+\caption{Donor value, panel composition and the limits of pooling. \textbf{a}, Mean across-gene Pearson correlation between each donor species and the held-out human response, over nine endotoxin conditions in ex vivo blood (25,638 genes). Points and horizontal bars show estimates and 95\% stratified leave-one-subject-out jackknife intervals. Absolute values are low by 0.022 to 0.062 under the missing-value convention of Section~\ref{limitations}. \textbf{b, c}, Best (orange circles), mean (blue squares) and worst (grey triangles) equal-weight subsets at each size, enumerated among the six non-primate donors and all nine donors, respectively. Shading is the full range across subsets, not an uncertainty interval; both panels share the same vertical scale. \textbf{d}, The exchangeable-predictor expectation \(R(k)=k\bar{r}/\sqrt{k+k(k-1)\bar{\rho}}\), using measured mean donor--human \ensuremath{\bar{r}} = 0.276 and donor--donor \ensuremath{\bar{\rho}} = 0.265 for the six non-primate species, assumes unit variances and equal pair correlations. Blue squares are measured subset means. The grey region and dashed curve mark extrapolation beyond the six available donors. Horizontal references show the pool asymptote (0.536), one macaque (0.534) and one chimpanzee (0.676). The diamond marks the analytic crossing at k = 297, not a measured panel; this crossing disappears on the filtered gene axes of Section~\ref{controls-on-the-species-ordering}. All empirical panels use the same nine conditions and gene axis.}\label{fig:3}
 \end{figure}
 
 What a new species adds depends on how much of its response the species
-already in the panel carry, so the saturation curve (Figure~\ref{fig:2}) is a
+already in the panel carry, so the saturation curve (Figure~\ref{fig:3}) is a
 consequence of the matrix measured in Section~\ref{reliability-of-the-redundancy-matrix}.
 
 Increments to the best panel are +0.069, +0.015, +0.009, +0.005 and
@@ -471,7 +478,7 @@ raises the residual sum of squares against the average panel from 3.0 ×
 \ensuremath{10^{-5}} to 5.5 × \ensuremath{10^{-3}} over nine points, a factor of 186. This is expected,
 since exchangeability is the form's premise.
 
-Panel size does buy insurance (Figure~\ref{fig:2}b, c), though the two readings
+Panel size does buy insurance (Figure~\ref{fig:3}b, c), though the two readings
 below come from different pools and the narrowing is not monotone in
 either. In the nine-donor pool the spread between the best and the worst
 panel of a given size narrows from 0.431 at k = 2 to 0.071 at k = 8. In
@@ -487,15 +494,15 @@ contexts}\label{reuse-of-the-matrix-across-contexts}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{figures/Fig3.pdf}
-\caption{Matrix reliability and transfer across contexts. \textbf{a}, Illustrative upper-triangle matrices, matched-pair vectors and a rank plot show how matrix agreement is computed. Self-correlations and duplicate pairs are omitted. Purple outlines identify pair A--C; the rank plot's diagonal denotes equal ranks. \textbf{b}, Measured split-half reliability within each blood timepoint. \textbf{c}, Measured agreement between blood timepoints. Numbers and heatmap colours encode Spearman coefficients; the three columns use all pairs, cross-order pairs, and partial correlation after removing ranked taxonomic distance. Panels b and c use 45 species pairs, including 35 cross-order pairs. \textbf{d}, Blood--macrophage agreement over ten shared pairs, six cross-order, shown for both estimators: pooling profiles before correlation, or correlating within conditions and then averaging. Grey circles, blue squares and purple diamonds correspond to the three analyses in b and c.~All empirical panels use the current two-estimator analysis. Asterisks mark nominal one-sided p \textless{} 0.05 under species-label Mantel permutations, without multiplicity adjustment. Neither cross-order blood--macrophage estimate is significant. The blood--hepatocyte comparison is reported in the text; its four cross-order pairs fall below the Methods floor of five.}\label{fig:3}
+\includegraphics[width=\linewidth]{figures/Fig4.pdf}
+\caption{Matrix reliability and transfer across contexts. \textbf{a}, Illustrative upper-triangle matrices, matched-pair vectors and a rank plot show how matrix agreement is computed. Self-correlations and duplicate pairs are omitted. Purple outlines identify pair A--C; the rank plot's diagonal denotes equal ranks. \textbf{b}, Measured split-half reliability within each blood timepoint. \textbf{c}, Measured agreement between blood timepoints. Numbers and heatmap colours encode Spearman coefficients; the three columns use all pairs, cross-order pairs, and partial correlation after removing ranked taxonomic distance. Panels b and c use 45 species pairs, including 35 cross-order pairs. \textbf{d}, Blood--macrophage agreement over ten shared pairs, six cross-order, shown for both estimators: pooling profiles before correlation, or correlating within conditions and then averaging. Grey circles, blue squares and purple diamonds correspond to the three analyses in b and c.~All empirical panels use the current two-estimator analysis. Asterisks mark nominal one-sided p \textless{} 0.05 under species-label Mantel permutations, without multiplicity adjustment. Neither cross-order blood--macrophage estimate is significant. The blood--hepatocyte comparison is reported in the text; its four cross-order pairs fall below the Methods floor of five.}\label{fig:4}
 \end{figure}
 
 Because the entire saturation curve is a function of ρ, the redundancy
 matrix is the object worth transferring. Raw matrix agreement is
 supported between neighbouring blood timepoints; the largest time gap
 lacks support after taxonomic controls, and cross-tissue transfer
-remains unestablished. The blood--macrophage comparison (Figure~\ref{fig:3}d)
+remains unestablished. The blood--macrophage comparison (Figure~\ref{fig:4}d)
 depends on which of two estimators is used, and their cross-order signs
 disagree, so we report both. Pooling conditions before computing ρ gives
 Spearman +0.333 between blood and macrophage over all ten shared pairs
@@ -527,7 +534,7 @@ control matched to each subject and timepoint, so the three timepoints
 are control-disjoint and serve as three contexts across all ten species:
 45 pairs, 35 of them spanning different taxonomic orders. Restricted to
 those 35, and again with a graded taxonomic distance partialled out of
-both sides, two of the three comparisons survive a Mantel null (Figure~\ref{fig:3}c, Table~\ref{tab:3}). The third survives neither: 2 h against 24 h falls to
+both sides, two of the three comparisons survive a Mantel null (Figure~\ref{fig:4}c, Table~\ref{tab:3}). The third survives neither: 2 h against 24 h falls to
 +0.084 restricted and +0.262 partialled, at p = 0.374 and 0.122.
 
 About half of this matrix is not pair-specific at all. Writing each
@@ -563,7 +570,7 @@ the two should be carried separately rather than as one matrix.
 \begin{table}[!htbp]
 \centering
 \small
-\caption{Agreement between timepoint redundancy matrices before and after double-centring. Spearman over species pairs with a one-sided Mantel p beneath; 45 pairs, 35 cross-order. Raw rows use \protect\path{rho_cross_panel_both_estimators.json}, as in Figure~\ref{fig:3}; double-centred rows use \protect\path{rho_double_centred.json}. Both use average ranks for tied taxonomic distances. Each row's p-values come from its own permutation run. Minimum attainable Monte Carlo p-values are rounded to 5 × \ensuremath{10^{-5}} or 2.5 × \ensuremath{10^{-4}}; they indicate simulation resolution.}\label{tab:3}
+\caption{Agreement between timepoint redundancy matrices before and after double-centring. Spearman over species pairs with a one-sided Mantel p beneath; 45 pairs, 35 cross-order. Raw rows use \protect\path{rho_cross_panel_both_estimators.json}, as in Figure~\ref{fig:4}; double-centred rows use \protect\path{rho_double_centred.json}. Both use average ranks for tied taxonomic distances. Each row's p-values come from its own permutation run. Minimum attainable Monte Carlo p-values are rounded to 5 × \ensuremath{10^{-5}} or 2.5 × \ensuremath{10^{-4}}; they indicate simulation resolution.}\label{tab:3}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.15}}
 >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.16}}
 >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.23}}
@@ -641,7 +648,7 @@ leaves the ordering intact at Spearman +0.967; mouse and rat
 reliabilities are 0.81 and 0.78, mid-pack among the nine, so their
 position is not an artefact of measurement.
 
-Figure~\ref{fig:2}a carries stratified leave-one-subject-out intervals, standard
+Figure~\ref{fig:3}a carries stratified leave-one-subject-out intervals, standard
 errors 0.007 to 0.014. Overlap between two intervals is not a test, so
 the ordering was checked by a paired jackknife on the difference, which
 separates 33 of the 36 species pairs: cow against rabbit, sheep against
@@ -673,8 +680,8 @@ components}\label{consensus-and-perturbation-specific-components}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\linewidth]{figures/Fig4.pdf}
-\caption{Separating common and condition-specific responses in the blood panel. \textbf{a}, Illustrative gene-by-condition matrices: rows g1--g5 denote genes and columns 1--4 denote conditions. Subtract each species' across-condition mean from every condition to obtain its residual. All three matrices use the same scale, from −2 (blue) to +2 (orange), in arbitrary units. \textbf{b}, An illustrative pairing map distinguishes matched donor--human conditions (blue diagonal) from mismatched conditions (grey off-diagonal). Four conditions are shown schematically; the empirical analysis uses nine. \textbf{c}, Measured matched recovery (blue circles; mean over conditions) and mismatched recovery (grey squares; median over different-condition pairings), connected within each donor row. Segments compare scores and do not indicate uncertainty. \textbf{d}, Recovery after mean subtraction on both sides, with rows aligned to c; orange circles denote positive estimates and grey squares negative estimates, without implying significance. Stems connect each estimate to zero. Recovery is 1 − SSE/Σy²: zero is the no-response prediction and negative values are worse than that baseline. The statistic is unbounded below; the residual target changes the denominator, so magnitudes in c and d are not comparable. Only the chimpanzee and the nine-species equal-weight mean retain positive residual recovery.}\label{fig:4}
+\includegraphics[width=\linewidth]{figures/Fig5.pdf}
+\caption{Separating common and condition-specific responses in the blood panel. \textbf{a}, Illustrative gene-by-condition matrices: rows g1--g5 denote genes and columns 1--4 denote conditions. Subtract each species' across-condition mean from every condition to obtain its residual. All three matrices use the same scale, from −2 (blue) to +2 (orange), in arbitrary units. \textbf{b}, An illustrative pairing map distinguishes matched donor--human conditions (blue diagonal) from mismatched conditions (grey off-diagonal). Four conditions are shown schematically; the empirical analysis uses nine. \textbf{c}, Measured matched recovery (blue circles; mean over conditions) and mismatched recovery (grey squares; median over different-condition pairings), connected within each donor row. Segments compare scores and do not indicate uncertainty. \textbf{d}, Recovery after mean subtraction on both sides, with rows aligned to c; orange circles denote positive estimates and grey squares negative estimates, without implying significance. Stems connect each estimate to zero. Recovery is 1 − SSE/Σy²: zero is the no-response prediction and negative values are worse than that baseline. The statistic is unbounded below; the residual target changes the denominator, so magnitudes in c and d are not comparable. Only the chimpanzee and the nine-species equal-weight mean retain positive residual recovery.}\label{fig:5}
 \end{figure}
 
 What crosses a species boundary is mostly the response shared across
@@ -697,7 +704,7 @@ where Table~\ref{tab:2}'s two columns are in-band medians, so the two are not th
 same ratio and should not be differenced.
 
 The blood panel uses a direct subtraction of each species'
-across-condition mean (Figure~\ref{fig:4}a), giving the pattern in Figure~\ref{fig:4}d. As
+across-condition mean (Figure~\ref{fig:5}a), giving the pattern in Figure~\ref{fig:5}d. As
 its caption explains, the sign is interpretable, while raw and residual
 recovery magnitudes are not comparable. After the across-condition
 consensus is removed, only the chimpanzee and the nine-species mean
@@ -1007,7 +1014,7 @@ design}\label{implications-for-study-design}
 \end{enumerate}
 
 Rule 2's percentages of the asymptote and rule 3's cross-context
-statements are correlations, in the unit of Figure~\ref{fig:2}a. The
+statements are correlations, in the unit of Figure~\ref{fig:3}a. The
 panel-composition figures inside those two rules --- the marginal values
 in rule 3, and the enumerated optima in rule 2 --- are instead computed
 on a recovery statistic, 1 − SSE/Σy² (the squared error against the sum
@@ -1102,7 +1109,7 @@ would detach it from the rest, and record the bias instead.
 \textbf{Any human data in hand outranks any animal here, and the
 manuscript's framing should not obscure it.} A held-out human condition
 predicted from that same human's average over its other conditions
-reaches 0.816 in the correlation unit Figure~\ref{fig:2}a uses, against 0.676 for
+reaches 0.816 in the correlation unit Figure~\ref{fig:3}a uses, against 0.676 for
 the chimpanzee and 0.642 for the nine-species equal weight. The same
 comparison in the recovery statistic gives 0.631, 0.479 and 0.352; we
 quote the correlation because the recovery statistic is unbounded below
@@ -1162,7 +1169,7 @@ and cannot recover from the deposited data what filter they applied.
 This matters because our own TG-GATEs pipeline refuses many-to-many
 pairings on the stated ground that paralogue expansion would otherwise
 appear as a species difference, and the blood panel --- which carries
-the reliability, Figure~\ref{fig:2}a, the saturation curve and every ρ result ---
+the reliability, Figure~\ref{fig:3}a, the saturation curve and every ρ result ---
 gets no such guard. Rebuilding it would mean reconstructing an orthology
 axis across ten genomes and redoing the preprocessing, which is a
 different study rather than a control, so we state the exposure instead
@@ -1282,7 +1289,7 @@ each side's profile is the mean over that side's subjects; the two
 profiles are correlated across genes by Pearson, over the positions
 finite in both, and the species' value is the mean of those correlations
 over the conditions present in all ten species. This is the quantity
-Figure~\ref{fig:2}a plots and the unit in which Sections 2.3, 2.5, 3.1 and 3.2
+Figure~\ref{fig:3}a plots and the unit in which Sections 2.3, 2.5, 3.1 and 3.2
 read values. Between two donor species rather than a species and human,
 the same statistic is an entry of ρ.
 
@@ -1364,7 +1371,7 @@ shuffle-corrected component is the matched value minus that median.
 
 \textbf{Consensus decomposition.} In TG-GATEs, each profile is split
 into its projection on the across-compound mean and the residual, and
-the two parts transferred separately. The blood control in Figure~\ref{fig:4}
+the two parts transferred separately. The blood control in Figure~\ref{fig:5}
 subtracts each species' across-condition mean profile directly from each
 condition, then predicts the human residual from the donor residuals.
 
@@ -1579,7 +1586,7 @@ silently.} Its preparation skips any subject-timepoint block that does
 not carry exactly one control rather than failing, and two blocks lack
 one, so human and rabbit contribute 41 response rows where cow and
 macaque contribute 45. Human is the held-out target, so the shortfall
-enters every comparison in Figure~\ref{fig:2}a. We have not assessed how much the
+enters every comparison in Figure~\ref{fig:3}a. We have not assessed how much the
 ordering moves without those rows.
 
 \textbf{The shuffle-corrected column carries four known biases.} The

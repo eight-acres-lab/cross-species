@@ -183,7 +183,7 @@ def prepare(doc):
             raise ValueError("Every manuscript table must have a numbered caption.")
         result.append(b)
         i += 1
-    assert figures == tables == 4, (figures, tables)
+    assert (figures, tables) == (5, 4), (figures, tables)
     doc["blocks"] = result
     return doc, section_labels
 
@@ -200,7 +200,7 @@ def polish(text, labels):
     for number, label in sorted(labels.items(), key=lambda x: -len(x[0])):
         text = re.sub(r"\bSection\s+" + re.escape(number) + r"(?!\d|\.\d)",
                       lambda _: r"Section~\ref{" + label + "}", text)
-    text = re.sub(r"\b(Figure|Table)\s+([1-4])(?!\d)", lambda m: m[1] + r"~\ref{"
+    text = re.sub(r"\b(Figure|Table)\s+([1-9]\d*)", lambda m: m[1] + r"~\ref{"
                   + ("fig:" if m[1] == "Figure" else "tab:") + m[2] + "}", text)
 
     bibliography_numbers = {int(n) for n in re.findall(r"\\bibitem\{ref(\d+)\}", text)}

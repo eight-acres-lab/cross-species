@@ -14,13 +14,18 @@ python scripts/make_preprint_figures.py
 ```
 
 The first command after installation verifies the original release checksums. Run it before
-editing or rebuilding outputs. The numerical verifier should report 101 agreements, zero
+editing or rebuilding outputs. The numerical verifier should report 140 agreements, zero
 disagreements and zero skips. It checks a registry of claims, not arbitrary prose changes.
 
-The figure generator writes `docs/paper/tex/figures/Fig1` through `Fig4` as vector PDFs, editable SVGs and
+The figure generator writes `docs/paper/tex/figures/Fig1` through `Fig5` as vector PDFs, editable SVGs and
 600 dpi RGB PNGs. Its illustrative matrices are identified in the manuscript legends. Font rendering and PDF
 metadata can differ across software versions; numerical source data are the reproducibility
 target.
+
+Figure 2 also exports `Fig2_source_data.json`, including metadata counts, their counting
+definitions and source hashes. The blood grid includes only conditions shared by all ten
+species (387 response rows); one of the 388 deposited rows lies outside that grid. TG-GATEs
+counts are distinct compounds per comparison and must not be summed as independent cohorts.
 
 ## Manuscript build
 

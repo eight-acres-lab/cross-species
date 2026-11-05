@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw a standalone workflow and three manuscript composites at 160 mm width.
+"""Draw a workflow, a dataset overview and three result composites at 160 mm width.
 
 Empirical marks read deposited JSON estimates, without rerunning or changing analyses.
 Teaching matrices and curves are explicitly illustrative and are never substituted for
@@ -15,12 +15,13 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib.colors import LinearSegmentedColormap, Normalize
+from matplotlib.colors import LinearSegmentedColormap, ListedColormap, Normalize
 from matplotlib.lines import Line2D
 from matplotlib.patches import Circle, FancyArrowPatch, FancyBboxPatch, Rectangle
 import numpy as np
 from PIL import Image
 
+from collect_preprint_datasets import collect_dataset_overview
 from plot_rho_phylogeny import collect
 from run_rho_reliability_and_phylogeny import centered_ranks
 
@@ -280,9 +281,9 @@ def figure1(out):
     stage(bg, 3, 138, 4, 'Compare transfer limits', PURPLE)
     # Four output objects teach the analysis; all miniatures are explicitly schematic.
     for i, (color, title, pointer) in enumerate([
-        (BLUE, 'Panel design', 'Donor value  ·  Fig. 2'),
-        (PURPLE, 'Context reuse', 'Time / tissue  ·  Fig. 3'),
-        (ORANGE, 'Response specificity', 'Shared / residual  ·  Fig. 4'),
+        (BLUE, 'Panel design', 'Donor value  ·  Fig. 3'),
+        (PURPLE, 'Context reuse', 'Time / tissue  ·  Fig. 4'),
+        (ORANGE, 'Response specificity', 'Shared / residual  ·  Fig. 5'),
         (TEAL, 'Boundary comparison', 'Fraction of ceiling  ·  Table 2'),
     ]):
         xx = 3 + i*39
@@ -315,6 +316,66 @@ def figure1(out):
 
 
 def figure2(out):
+    """Dataset scope and the actual input coverage of the two core analyses."""
+    data = collect_dataset_overview()
+    (out/'Fig2_source_data.json').write_text(json.dumps(data, indent=2)+'\n')
+    fig, bg = canvas(158)
+    panel(bg, PANEL_LEFT, 5, 'a')
+    label(bg, 7, 12, 'Dataset', 8)
+    label(bg, 56, 12, 'Species (n)', 8, ha='center')
+    label(bg, 99, 12, 'Biological system', 8, ha='center')
+    label(bg, 141, 12, 'Study role', 8, ha='center')
+    role_colours = {'Core analyses': BLUE, 'Replication': TEAL, 'External check': PURPLE}
+    a = axes(fig, 39, 17, 34, 56)
+    for i, row in enumerate(data['datasets']):
+        yy = 21+8*i
+        color = role_colours[row['role']]
+        label(bg, 7, yy, row['name'], 8)
+        label(bg, 99, yy, row['system'], 7, ha='center')
+        label(bg, 141, yy, row['role'], 7, ha='center')
+        a.barh(i, row['n_species'], height=.45, color=color, linewidth=0)
+        a.text(row['n_species']+.35, i, str(row['n_species']), va='center', fontsize=8)
+    a.set(xlim=(0, 12), ylim=(6.5, -.5))
+    a.set_xticks([0, 5, 10]); a.set_yticks([])
+    a.spines['left'].set_visible(False)
+
+    # Both lower panels start on one baseline after the same 12 mm content gutter.
+    lower = 79 + ROW_GAP
+    panel(bg, PANEL_LEFT, lower, 'b')
+    panel(bg, PANEL_RIGHT, lower, 'c')
+    blood = data['blood']
+    b = axes(fig, 26, 104, 42, 36)
+    seq = ListedColormap(['#C9E2EE'])
+    values = np.asarray(blood['counts'])
+    b.pcolormesh(values, cmap=seq, vmin=0, vmax=50, edgecolors='white', linewidth=1.5)
+    b.set(xlim=(0, len(blood['times_h'])), ylim=(len(blood['doses_ng_ml']), 0),
+          xlabel='Time (h)', ylabel='LPS dose (ng/ml)')
+    b.set_xticks(np.arange(len(blood['times_h']))+.5, [f'{v:g}' for v in blood['times_h']])
+    b.set_yticks(np.arange(len(blood['doses_ng_ml']))+.5, [f'{v:,.0f}' for v in blood['doses_ng_ml']])
+    b.tick_params(length=0)
+    for sp in b.spines.values(): sp.set_visible(False)
+    for i, j in np.ndindex(values.shape):
+        b.text(j+.5, i+.5, str(values[i,j]), fontsize=8, ha='center', va='center')
+
+    c = axes(fig, 114, 104, 41, 36)
+    rows = data['tggates']['comparisons']
+    y = np.arange(len(rows))[::-1]
+    c.barh(y, [r['n_shared'] for r in rows], color='#DCE4EA', height=.5, label='Shared')
+    c.barh(y, [r['n_in_band'] for r in rows], color=ORANGE, height=.5, label='In band')
+    for yy, row in zip(y, rows):
+        c.text(row['n_shared']+4, yy, str(row['n_shared']), fontsize=7, va='center')
+        c.text(row['n_in_band']/2, yy, str(row['n_in_band']), fontsize=7, va='center', ha='center')
+    c.set(xlim=(0, 180), ylim=(-.6, len(rows)-.4), xlabel='Compounds (n)')
+    c.set_yticks(y, [r['label'] for r in rows], fontsize=7)
+    c.set_xticks([0, 50, 100, 150]); c.tick_params(axis='y', length=0, pad=3)
+    c.spines['left'].set_visible(False)
+    fig.legend(*c.get_legend_handles_labels(), loc='center', ncol=2, frameon=False,
+               bbox_to_anchor=(129/160, 1-97/158), fontsize=7, handlelength=1.1,
+               columnspacing=1.2, handletextpad=.4)
+    save(fig, out, 2)
+
+
+def figure3(out):
     """Empirical donor ordering and panel choices, then explicitly marked extrapolation."""
     core = load('core_numbers'); c = core['collectible six']
     fig, bg = canvas(146)
@@ -393,7 +454,7 @@ def figure2(out):
           xlabel='Number of species (log scale)', ylabel='Correlation with human')
     d.set_xticks([1, 6, 20, 100, 400], ['1', '6', '20', '100', '400'])
     d.set_yticks([.2, .4, .6]); d.tick_params(axis='x', which='minor', bottom=False)
-    save(fig, out, 2)
+    save(fig, out, 3)
 
 
 def coefficient_heatmap(fig, bg, x, top, rows, names):
@@ -416,7 +477,7 @@ def coefficient_heatmap(fig, bg, x, top, rows, names):
     return mesh
 
 
-def figure3(out):
+def figure4(out):
     fig, bg = canvas(158)
     # Three content rows end at 43, 98 and 155 mm, separated by 12 mm gutters.
     middle_row, last_row = 43 + ROW_GAP, 98 + ROW_GAP
@@ -479,10 +540,10 @@ def figure3(out):
                         for _, _, c, m, l in cfg], loc='center',
                bbox_to_anchor=(111/160, 1-111/158), ncol=3, frameon=False,
                columnspacing=.8, handletextpad=.3, fontsize=7)
-    save(fig, out, 3)
+    save(fig, out, 4)
 
 
-def figure4(out):
+def figure5(out):
     fig, bg = canvas(140)
     # Two equal-width columns; both panel-letter columns share the same x positions.
     second_row = 51 + ROW_GAP
@@ -543,7 +604,7 @@ def figure4(out):
     fig.legend(*c.get_legend_handles_labels(), loc='center',
                bbox_to_anchor=(48/160, 1-68/140), ncol=2, frameon=False,
                handletextpad=.35, columnspacing=1, fontsize=7)
-    save(fig, out, 4)
+    save(fig, out, 5)
 
 
 def main():
@@ -552,7 +613,7 @@ def main():
     args = parser.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
     style()
-    for draw in (figure1, figure2, figure3, figure4): draw(args.out)
+    for draw in (figure1, figure2, figure3, figure4, figure5): draw(args.out)
 
 
 if __name__ == '__main__':

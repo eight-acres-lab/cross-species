@@ -22,8 +22,8 @@ python -m unittest discover -s tests -p 'test_*.py'
 python scripts/make_preprint_figures.py
 ```
 
-The deposited inputs support all 101 registered numerical checks and regeneration of
-the four manuscript figures. The verifier checks the registered claims against their
+The deposited inputs support all 140 registered numerical checks and regeneration of
+the five manuscript figures. The verifier checks the registered claims against their
 source artifacts; it does not parse every number in the prose. Figure outputs are
 vector PDF, editable SVG and 600 dpi RGB PNG in `docs/paper/tex/figures/`.
 
@@ -39,7 +39,7 @@ vector PDF, editable SVG and 600 dpi RGB PNG in `docs/paper/tex/figures/`.
 | `scripts/`, `src/`, `tests/` | Analysis, plotting, validation, and regression tests |
 | `docs/paper/` | Manuscript, editable LaTeX, and figure files |
 
-The release includes the corrected handling of tied taxonomic ranks. Figure 3 and
+The release includes the corrected handling of tied taxonomic ranks. Figure 4 and
 Tables 1/3 use the same current statistical sources. Teaching matrices are labelled
 as illustrative and are separate from empirical results.
 

@@ -27,13 +27,14 @@ Unless another directory is specified, the following filenames are under
 
 | Manuscript item | Deposited files | Analysis / plotting code |
 |---|---|---|
-| Figure 1; Figure 3a; Figure 4a/b | Illustrative inputs constructed in code; not empirical measurements | `scripts/make_preprint_figures.py` |
+| Figure 1; Figure 4a; Figure 5a/b | Illustrative inputs constructed in code; not empirical measurements | `scripts/make_preprint_figures.py` |
+| Figure 2 | Deposited response metadata for blood, hepatocytes, macrophages and yeasts; TG-GATEs compound-level results; LINCS and Parse scope annotations. Exact sources and counts: `docs/paper/tex/figures/Fig2_source_data.json` | `collect_preprint_datasets.py`, `make_preprint_figures.py` |
 | Table 1 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py` |
-| Figure 2a | `reconstruct_metric_audit.json`, `fig1_ci.json` | `make_preprint_figures.py`, `controls/run_fig1_intervals.py` |
-| Figure 2b-d; Section 2.3 | `core_numbers.json`, `collectible_panel.json`, `panel_blood.json`, `panel_hepatocyte.json`, `scaling_curve.json` | `make_preprint_figures.py`, `run_collectible_panel.py`, `run_panel_design.py` |
-| Figure 3b-d; Section 2.4 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py`, `plot_rho_phylogeny.py` |
+| Figure 3a | `reconstruct_metric_audit.json`, `fig1_ci.json` | `make_preprint_figures.py`, `controls/run_fig1_intervals.py` |
+| Figure 3b-d; Section 2.3 | `core_numbers.json`, `collectible_panel.json`, `panel_blood.json`, `panel_hepatocyte.json`, `scaling_curve.json` | `make_preprint_figures.py`, `run_collectible_panel.py`, `run_panel_design.py` |
+| Figure 4b-d; Section 2.4 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py`, `plot_rho_phylogeny.py` |
 | Table 3; Section 2.4 decomposition | `rho_cross_panel_both_estimators.json`, `rho_double_centred.json`, `rho_main_effects.json` | `controls/run_double_centred.py`, `controls/run_main_effects.py` |
-| Figure 4c/d | `reconstruct_specificity.json` | `run_reconstruction_specificity.py`, `make_preprint_figures.py` |
+| Figure 5c/d | `reconstruct_specificity.json` | `run_reconstruction_specificity.py`, `make_preprint_figures.py` |
 | Table 2 | `artifacts/biology/dili/matched_time_system.json`, `mismatch_controls.json`, `system_vs_species.json` | `run_matched_time_system.py`, `run_mismatch_controls.py`, `run_system_vs_species.py` |
 | Section 2.5 controls | `annotation_control.json`, `baseline_control.json`, `fig1_ci.json`, `fig1_paired.json`, `fig1_ceiling_control.json`, `curve_by_geneset.json`, `curve_param_ci.json`, `gap_ci.json` | Corresponding scripts in `scripts/controls/` |
 | Missing-value controls | `artifacts/gse249010_v1/na_audit.json`, `na_masked_fig1.json` | `controls/run_na_audit.py`, `controls/run_na_masked_fig1.py` |
@@ -44,8 +45,8 @@ Unless another directory is specified, the following filenames are under
 | Rhaister donor ceiling and sensitivity | `donor_ceiling.json`, `ceiling_saturation.json`, `depth_vs_ceiling.json` under `artifacts/rhaister_benchmark/` | Corresponding `run_rhaister_*.py` scripts |
 
 Script filenames in the table are relative to `scripts/`. The identifier bridge is
-`artifacts/reference/ensg_symbol_bridge.tsv`. All four figures use the deposited numerical
-results; the plotting step does not rerun the statistical analyses.
+`artifacts/reference/ensg_symbol_bridge.tsv`. The five figures use deposited results,
+metadata or explicitly illustrative inputs; plotting does not rerun statistical analyses.
 
 `core_numbers.json` and `reconstruct_metric_audit.json` are retained source-data summaries.
 Their exact original producing scripts are not available in this snapshot. The figures and

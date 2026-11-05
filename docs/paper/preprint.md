@@ -124,7 +124,8 @@ what the design cannot settle.
 
 Figure 1 gives a standalone overview of the framework. Matched response profiles enter
 two complementary calculations: species-pair redundancy with subject-split reliability,
-and replicate-based ceilings for comparisons across experimental boundaries. Figures 2–4
+and replicate-based ceilings for comparisons across experimental boundaries. Figure 2
+summarises the data sources and the coverage of the two core analyses. Figures 3–5
 then report donor value and panel saturation, context transfer, and response specificity.
 
 ![](tex/figures/Fig1.png)
@@ -151,6 +152,29 @@ in the response-difference and correlation matrices denote negative-to-positive 
 response matrices use arbitrary units, while
 correlation matrices span −1 to +1. Dataset-specific preprocessing and additional
 validation panels are described in Methods.
+
+![](tex/figures/Fig2.png)
+
+**Figure 2.** Dataset scope and coverage of the analysed comparisons. **a**, Five primary
+panels and two external checks. Bars count species, not individuals. The primary panels
+comprise ex vivo blood (GSE249010), human and rat hepatocytes and rat liver (TG-GATEs,
+S-DIXA-AN-004/005/007), five-species hepatocytes (GSE330151), nine-species macrophages
+(FAANG, PRJEB22535 and related projects), and seven yeasts (E-MTAB-7022 and related
+accessions). The external checks use human LINCS L1000 profiles (GSE70138; MCF7 and PC3
+cell lines) and the human Parse peripheral blood mononuclear cell (PBMC) release analysed
+with Rhaister. Blue, teal and purple bars distinguish core analyses, replication panels
+and external checks. **b**, Numbers of blood response profiles at each lipopolysaccharide
+(LPS) dose and time, restricted to conditions present in all ten species. The nine shared
+conditions contain 387 response profiles from 44 subjects; one deposited response lies
+outside this shared grid. A response profile is a subject-by-condition observation;
+subjects recur across cells, so these are not counts of independent individuals.
+**c**, Distinct TG-GATEs compounds shared by the two arms of six comparisons (grey),
+and the subsets with a finite fraction of ceiling and a ceiling in [0.60, 0.78)
+(orange; Table 2). All comparisons use high-dose arms. Time comparisons are within human
+or rat hepatocytes; the species comparison is between human and rat hepatocytes at 24 h;
+the system comparison is between rat hepatocytes and rat liver at 24 h. Compounds can recur
+across comparisons. Counts describe the analysed inputs rather than the full upstream
+repositories. Sources and counting definitions are deposited with the figure.
 
 ### 2.1 Reliability of the redundancy matrix
 
@@ -179,7 +203,7 @@ undecidable for exactly that reason.
 
 ### 2.2 Ceiling normalisation and the exceeds-unity bound
 
-Figure 2a fixes the correlation unit that Sections 2.3, 2.5, 3.1 and 3.2 read values in: for each
+Figure 3a fixes the correlation unit that Sections 2.3, 2.5, 3.1 and 3.2 read values in: for each
 donor species, the agreement between its response and the held-out human response in the blood
 panel. The scale this section builds is the second one, and it is what Table 2 below uses.
 
@@ -256,9 +280,9 @@ not separate in these data, rather than ordering them.
 
 ### 2.3 Saturation with panel size
 
-![](tex/figures/Fig2.png)
+![](tex/figures/Fig3.png)
 
-**Figure 2.** Donor value, panel composition and the limits of pooling. **a**, Mean
+**Figure 3.** Donor value, panel composition and the limits of pooling. **a**, Mean
 across-gene Pearson correlation between each donor species and the held-out human response,
 over nine endotoxin conditions in ex vivo blood (25,638 genes). Points and horizontal bars
 show estimates and 95% stratified leave-one-subject-out jackknife intervals. Absolute values
@@ -277,7 +301,7 @@ disappears on the filtered gene axes of Section 2.5. All empirical panels use th
 conditions and gene axis.
 
 What a new species adds depends on how much of its response the species already in the panel
-carry, so the saturation curve (Figure 2) is a consequence of the matrix measured in Section
+carry, so the saturation curve (Figure 3) is a consequence of the matrix measured in Section
 2.1.
 
 Increments to the best panel are +0.069, +0.015, +0.009, +0.005 and +0.003: the first step
@@ -324,7 +348,7 @@ factor of 186. This is expected, since exchangeability is the form's premise.
 
 
 
-Panel size does buy insurance (Figure 2b, c), though the two readings below come from different
+Panel size does buy insurance (Figure 3b, c), though the two readings below come from different
 pools and the narrowing is not monotone in either. In the nine-donor pool the spread between
 the best and the worst panel of a given size narrows from 0.431 at k = 2 to 0.071 at k = 8. In
 the six collectible species it is non-monotone, rising from 0.139 at k = 1 before falling, so
@@ -334,9 +358,9 @@ guess, while the full six-species panel reached 0.446, the one value it can take
 
 ### 2.4 Reuse of the matrix across contexts
 
-![](tex/figures/Fig3.png)
+![](tex/figures/Fig4.png)
 
-**Figure 3.** Matrix reliability and transfer across contexts. **a**, Illustrative
+**Figure 4.** Matrix reliability and transfer across contexts. **a**, Illustrative
 upper-triangle matrices, matched-pair vectors and a rank plot show how matrix agreement is
 computed. Self-correlations and duplicate pairs are omitted. Purple outlines identify pair
 A–C; the rank plot's diagonal denotes equal ranks. **b**, Measured split-half reliability
@@ -355,7 +379,7 @@ text; its four cross-order pairs fall below the Methods floor of five.
 Because the entire saturation curve is a function of ρ, the redundancy matrix is the object
 worth transferring. Raw matrix agreement is supported between neighbouring blood timepoints;
 the largest time gap lacks support after taxonomic controls, and cross-tissue transfer remains
-unestablished. The blood–macrophage comparison (Figure 3d) depends on which of two estimators
+unestablished. The blood–macrophage comparison (Figure 4d) depends on which of two estimators
 is used, and their cross-order signs disagree, so we report both.
 Pooling conditions before computing ρ gives Spearman +0.333 between blood and macrophage over
 all ten shared pairs (Mantel p = 0.203); computing ρ inside each condition and averaging gives
@@ -380,7 +404,7 @@ preparation subtracts a no-LPS control matched to each subject and timepoint, so
 timepoints are control-disjoint and serve as three contexts across all ten species: 45 pairs,
 35 of them spanning different taxonomic orders. Restricted to those 35, and again with a graded
 taxonomic distance partialled out of both sides, two of the three comparisons survive a Mantel
-null (Figure 3c, Table 3). The third survives neither: 2 h against 24 h falls to +0.084
+null (Figure 4c, Table 3). The third survives neither: 2 h against 24 h falls to +0.084
 restricted and +0.262 partialled, at p = 0.374 and 0.122.
 
 About half of this matrix is not pair-specific at all. Writing each entry as a per-species
@@ -409,7 +433,7 @@ be carried separately rather than as one matrix.
 
 **Table 3.** Agreement between timepoint redundancy matrices before and after
 double-centring. Spearman over species pairs with a one-sided Mantel p beneath; 45 pairs,
-35 cross-order. Raw rows use `rho_cross_panel_both_estimators.json`, as in Figure 3;
+35 cross-order. Raw rows use `rho_cross_panel_both_estimators.json`, as in Figure 4;
 double-centred rows use `rho_double_centred.json`. Both use average ranks for tied taxonomic
 distances. Each row's p-values come from its own permutation run. Minimum attainable
 Monte Carlo p-values are rounded to 5 × 10⁻⁵ or 2.5 × 10⁻⁴; they indicate simulation resolution.
@@ -468,7 +492,7 @@ the normalisation this paper applies everywhere else, leaves the ordering intact
 +0.967; mouse and rat reliabilities are 0.81 and 0.78, mid-pack among the nine, so their
 position is not an artefact of measurement.
 
-Figure 2a carries stratified leave-one-subject-out intervals, standard errors 0.007 to 0.014.
+Figure 3a carries stratified leave-one-subject-out intervals, standard errors 0.007 to 0.014.
 Overlap between two intervals is not a test, so the ordering was checked by a paired jackknife
 on the difference, which separates 33 of the 36 species pairs: cow against rabbit, sheep
 against pig and mouse against rat do not separate. The tiers are resolved and the ordering
@@ -491,9 +515,9 @@ not the drift of the point estimate toward zero, for which we have no explanatio
 
 ### 2.6 Consensus and perturbation-specific components
 
-![](tex/figures/Fig4.png)
+![](tex/figures/Fig5.png)
 
-**Figure 4.** Separating common and condition-specific responses in the blood panel.
+**Figure 5.** Separating common and condition-specific responses in the blood panel.
 **a**, Illustrative gene-by-condition matrices: rows g1–g5 denote genes and columns 1–4
 denote conditions. Subtract each species' across-condition mean from every condition to
 obtain its residual. All three matrices use the same scale, from
@@ -526,7 +550,7 @@ compounds, where Table 2's two columns are in-band medians, so the two are not t
 and should not be differenced.
 
 The blood panel uses a direct subtraction of each species' across-condition mean
-(Figure 4a), giving the pattern in Figure 4d. As its caption explains, the sign is
+(Figure 5a), giving the pattern in Figure 5d. As its caption explains, the sign is
 interpretable, while raw and residual recovery magnitudes are not comparable. After the
 across-condition consensus is removed, only the chimpanzee and the nine-species mean remain
 positive.
@@ -756,7 +780,7 @@ opposite verdicts; that reading was too general, and this is the measurement tha
    split across a boundary [55].
 
 Rule 2's percentages of the asymptote and rule 3's cross-context statements are correlations,
-in the unit of Figure 2a. The panel-composition figures inside those two rules — the marginal
+in the unit of Figure 3a. The panel-composition figures inside those two rules — the marginal
 values in rule 3, and the enumerated optima in rule 2 — are instead computed on a recovery
 statistic, 1 − SSE/Σy² (the squared error against the sum of squares of the target, taken about
 the origin rather than about its mean). That statistic is unbounded below, and its differences
@@ -831,7 +855,7 @@ panel's convention would detach it from the rest, and record the bias instead.
 
 **Any human data in hand outranks any animal here, and the manuscript's framing should not
 obscure it.** A held-out human condition predicted from that same human's average over its
-other conditions reaches 0.816 in the correlation unit Figure 2a uses, against 0.676 for the
+other conditions reaches 0.816 in the correlation unit Figure 3a uses, against 0.676 for the
 chimpanzee and 0.642 for the nine-species equal weight. The same comparison in the recovery
 statistic gives 0.631, 0.479 and 0.352; we quote the correlation because the recovery statistic
 is unbounded below and unfit for rankings (Section 3.1), and the ordering is the same
@@ -876,7 +900,7 @@ columns are human Ensembl gene identifiers on a matrix the submitters harmonised
 species. We did not build that axis, applied no orthology filter to it, and cannot recover from
 the deposited data what filter they applied. This matters because our own TG-GATEs pipeline
 refuses many-to-many pairings on the stated ground that paralogue expansion would otherwise
-appear as a species difference, and the blood panel — which carries the reliability, Figure 2a,
+appear as a species difference, and the blood panel — which carries the reliability, Figure 3a,
 the saturation curve and every ρ result — gets no such guard. Rebuilding it would mean
 reconstructing an orthology axis across ten genomes and redoing the preprocessing, which is a
 different study rather than a control, so we state the exposure instead of bounding it.
@@ -966,7 +990,7 @@ is gated on a finite check.
 **The species-to-human statistic.** For a species and a condition, each side's profile is the
 mean over that side's subjects; the two profiles are correlated across genes by Pearson, over
 the positions finite in both, and the species' value is the mean of those correlations over the
-conditions present in all ten species. This is the quantity Figure 2a plots and the unit in
+conditions present in all ten species. This is the quantity Figure 3a plots and the unit in
 which Sections 2.3, 2.5, 3.1 and 3.2 read values. Between two donor species rather than a
 species and human, the same statistic is an entry of ρ.
 
@@ -1032,7 +1056,7 @@ that median.
 
 **Consensus decomposition.** In TG-GATEs, each profile is split into its projection on the
 across-compound mean and the residual, and the two parts transferred separately. The blood
-control in Figure 4 subtracts each species' across-condition mean profile directly from
+control in Figure 5 subtracts each species' across-condition mean profile directly from
 each condition, then predicts the human residual from the donor residuals.
 
 **Prediction.** Leave-one-compound-out, with a held-out compound's endpoint predicted as the
@@ -1305,7 +1329,7 @@ it needs a replication panel with donor replication, not more species.
 skips any subject-timepoint block that does not carry exactly one control rather than failing,
 and two blocks lack one, so human and rabbit contribute 41 response rows where cow and macaque
 contribute 45. Human is the held-out target, so the shortfall enters every comparison in Figure
-2a. We have not assessed how much the ordering moves without those rows.
+3a. We have not assessed how much the ordering moves without those rows.
 
 **The shuffle-corrected column carries four known biases.** The shuffled arm discards the
 bound; the reliability floor is evaluated on centred vectors inside a per-mode loop; the

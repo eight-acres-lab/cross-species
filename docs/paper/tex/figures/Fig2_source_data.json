@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "name": "Blood",
+      "species": [
+        "Bos taurus",
+        "Homo sapiens",
+        "Macaca",
+        "Mus musculus",
+        "Oryctolagus cuniculus",
+        "Ovis aries",
+        "Pan troglodytes",
+        "Papio anubis",
+        "Rattus norvegicus",
+        "Sus scrofa"
+      ],
+      "n_species": 10,
+      "system": "Whole blood",
+      "role": "Core analyses",
+      "accession": "GSE249010",
+      "source": "artifacts/gse249010_v1/processed/response_metadata.tsv"
+    },
+    {
+      "name": "TG-GATEs",
+      "species": [
+        "Homo sapiens",
+        "Rattus norvegicus"
+      ],
+      "n_species": 2,
+      "system": "Hepatocytes / liver",
+      "role": "Core analyses",
+      "accession": "S-DIXA-AN-004/005/007"
+    },
+    {
+      "name": "Hepatocytes",
+      "species": [
+        "Canis lupus familiaris",
+        "Homo sapiens",
+        "Macaca fascicularis",
+        "Mus musculus",
+        "Rattus norvegicus"
+      ],
+      "n_species": 5,
+      "system": "Primary hepatocytes",
+      "role": "Replication",
+      "accession": "GSE330151",
+      "source": "artifacts/biology/gse330151/response_metadata.tsv"
+    },
+    {
+      "name": "Macrophages",
+      "species": [
+        "Bos taurus",
+        "Bubalus bubalis",
+        "Capra hircus",
+        "Equus caballus",
+        "Mus musculus",
+        "Mus spretus",
+        "Ovis aries",
+        "Rattus norvegicus",
+        "Sus scrofa"
+      ],
+      "n_species": 9,
+      "system": "Macrophages",
+      "role": "Replication",
+      "accession": "PRJEB22535 and related projects",
+      "source": "artifacts/faang_bmdm/processed/response_metadata.tsv"
+    },
+    {
+      "name": "Yeasts",
+      "species": [
+        "candida_albicans",
+        "candida_glabrata",
+        "debaryomyces_hansenii",
+        "kluyveromyces_lactis",
+        "lachancea_thermotolerans",
+        "saccharomyces_cerevisiae",
+        "yarrowia_lipolytica"
+      ],
+      "n_species": 7,
+      "system": "Yeast culture",
+      "role": "Replication",
+      "accession": "E-MTAB-7022 and related accessions",
+      "source": "artifacts/biology/selenite/response_metadata.tsv"
+    },
+    {
+      "name": "LINCS",
+      "species": [
+        "Homo sapiens"
+      ],
+      "n_species": 1,
+      "system": "MCF7 / PC3",
+      "role": "External check",
+      "accession": "GSE70138"
+    },
+    {
+      "name": "Parse PBMC",
+      "species": [
+        "Homo sapiens"
+      ],
+      "n_species": 1,
+      "system": "PBMCs",
+      "role": "External check",
+      "accession": "Parse / Rhaister release",
+      "n_cell_types": 18
+    }
+  ],
+  "blood": {
+    "source": "artifacts/gse249010_v1/processed/response_metadata.tsv",
+    "n_deposited_rows": 388,
+    "n_shared_rows": 387,
+    "n_excluded_rows": 1,
+    "n_shared_conditions": 9,
+    "n_subjects": 44,
+    "doses_ng_ml": [
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "times_h": [
+      2.0,
+      6.0,
+      24.0
+    ],
+    "counts": [
+      [
+        43,
+        44,
+        43
+      ],
+      [
+        43,
+        44,
+        41
+      ],
+      [
+        43,
+        44,
+        42
+      ]
+    ],
+    "counting_unit": "One subject response under one dose and time; not an independent subject."
+  },
+  "tggates": {
+    "ceiling_band": [
+      0.6,
+      0.78
+    ],
+    "upper_bound_inclusive": false,
+    "comparisons": [
+      {
+        "label": "Human, 24 vs 8 h",
+        "source": "artifacts/biology/dili/mismatch_controls.json",
+        "source_key": "human hepatocyte | time 24 hr vs 8 hr",
+        "n_shared": 151,
+        "n_in_band": 41
+      },
+      {
+        "label": "Rat, 24 vs 8 h",
+        "source": "artifacts/biology/dili/mismatch_controls.json",
+        "source_key": "rat hepatocyte | time 24 hr vs 8 hr",
+        "n_shared": 138,
+        "n_in_band": 34
+      },
+      {
+        "label": "Human, 24 vs 2 h",
+        "source": "artifacts/biology/dili/mismatch_controls.json",
+        "source_key": "human hepatocyte | time 24 hr vs 2 hr",
+        "n_shared": 52,
+        "n_in_band": 20
+      },
+      {
+        "label": "Rat, 24 vs 2 h",
+        "source": "artifacts/biology/dili/mismatch_controls.json",
+        "source_key": "rat hepatocyte | time 24 hr vs 2 hr",
+        "n_shared": 138,
+        "n_in_band": 53
+      },
+      {
+        "label": "Human vs rat",
+        "source": "artifacts/biology/dili/system_vs_species.json",
+        "source_key": "species_changed",
+        "n_shared": 131,
+        "n_in_band": 38
+      },
+      {
+        "label": "Culture vs liver",
+        "source": "artifacts/biology/dili/matched_time_system.json",
+        "source_key": "SYSTEM, TIME MATCHED: rat hep 24h vs rat liver 24h",
+        "n_shared": 135,
+        "n_in_band": 61
+      }
+    ],
+    "counting_unit": "Distinct compounds within each comparison."
+  },
+  "sources_sha256": {
+    "artifacts/gse249010_v1/processed/response_metadata.tsv": "797c92598ea250f5ba09043223949ebbc021cadc7ffa85e7d8ad95e3fa944a3d",
+    "artifacts/biology/gse330151/response_metadata.tsv": "a96b504dadb27769a88134f8472ecd55a72b3c6fd4d881b48f9d24f1352aa168",
+    "artifacts/faang_bmdm/processed/response_metadata.tsv": "b4349100b0205c241ad005b3cc5ecf0d723182e4d7e1807de8be13fccee35d1e",
+    "artifacts/biology/selenite/response_metadata.tsv": "bc96225f8a55b26b6445cec0881c45e37f60de0795375c113797c10dd973ff41",
+    "artifacts/lincs_scale/scale_test.json": "fd2527c3f20af70b1b3803787e601d623c29b110f046976e46417aabc19eb57b",
+    "artifacts/rhaister_benchmark/donor_ceiling.json": "f9090a7d76f2a954e4144817cee924a4c36ea76c32d46f3b5607d76304e01171",
+    "artifacts/biology/dili/mismatch_controls.json": "9a3c426eea36d318feac6482193f95222d55fed0b785bf7a007bca0d7c15aebf",
+    "artifacts/biology/dili/system_vs_species.json": "c08b5b9f86bc5f84f5f45e4605e9a4c564263f1a0290d55381181dde4f7c910a",
+    "artifacts/biology/dili/matched_time_system.json": "4f95587a4654a840d2afa03527de43948d8db7ac19937592da1902d94d5615a2"
+  }
+}
