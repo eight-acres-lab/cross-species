@@ -28,7 +28,7 @@ Unless another directory is specified, the following filenames are under
 | Manuscript item | Deposited files | Analysis / plotting code |
 |---|---|---|
 | Figure 1; Figure 4a; Figure 5a/b | Illustrative inputs constructed in code; not empirical measurements | `scripts/make_preprint_figures.py` |
-| Figure 2 | Deposited response metadata for blood, hepatocytes, macrophages and yeasts; TG-GATEs compound-level results; LINCS and Parse scope annotations. Exact sources and counts: `docs/paper/tex/figures/Fig2_source_data.json` | `collect_preprint_datasets.py`, `make_preprint_figures.py` |
+| Figure 2 | Deposited response metadata for blood, hepatocytes, macrophages and yeasts; TG-GATEs compound-level results; LINCS and Parse scope annotations. Exact sources and counts: `dataset_overview.json` | `collect_preprint_datasets.py`, `make_preprint_figures.py` |
 | Table 1 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py` |
 | Figure 3a | `reconstruct_metric_audit.json`, `fig1_ci.json` | `make_preprint_figures.py`, `controls/run_fig1_intervals.py` |
 | Figure 3b-d; Section 2.3 | `core_numbers.json`, `collectible_panel.json`, `panel_blood.json`, `panel_hepatocyte.json`, `scaling_curve.json` | `make_preprint_figures.py`, `run_collectible_panel.py`, `run_panel_design.py` |

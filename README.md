@@ -1,10 +1,8 @@
 # Reliability and limits of cross-species transcriptomic comparisons
 
-Data and code accompanying the manuscript. This repository contains the publication
-snapshot, without the development repository's commit history or unrelated experiments.
+Data and analysis code accompanying the manuscript. The current release contains
+numerical results, processed inputs, source metadata and reproduction instructions.
 
-- [Read the manuscript](docs/paper/preprint.pdf) or its [Markdown source](docs/paper/preprint.md).
-- [Word review copy](docs/paper/preprint_review.docx): editable text, tables and equations for comments and tracked revisions.
 - [Data catalogue](DATA_AVAILABILITY.md): source studies, deposited results, and figure/table inputs.
 - [Reproduction guide](REPRODUCING.md): verification, plotting, and analysis prerequisites.
 - [SHA-256 inventory](DATA_MANIFEST.json): every file in this release.
@@ -20,13 +18,15 @@ python -m pip install -r requirements.txt
 python scripts/verify_release.py
 python scripts/verify_preprint_numbers.py
 python -m unittest discover -s tests -p 'test_*.py'
-python scripts/make_preprint_figures.py
+python scripts/make_preprint_figures.py --out outputs/figures
 ```
 
 The deposited inputs support all 140 registered numerical checks and regeneration of
 the five manuscript figures. The verifier checks the registered claims against their
 source artifacts; it does not parse every number in the prose. Figure outputs are
-vector PDF, editable SVG and 600 dpi RGB PNG in `docs/paper/tex/figures/`.
+vector PDF, editable SVG and 600 dpi RGB PNG in the local, Git-ignored
+`outputs/figures/` directory. Rendered figures and manuscript documents are not
+part of the current release.
 
 ## Contents
 
@@ -38,7 +38,6 @@ vector PDF, editable SVG and 600 dpi RGB PNG in `docs/paper/tex/figures/`.
 | `artifacts/faang_bmdm/processed/` | Processed macrophage matrix, gene axis, metadata, and provenance |
 | `artifacts/lincs_scale/`, `artifacts/rhaister_benchmark/` | External benchmark results |
 | `scripts/`, `src/`, `tests/` | Analysis, plotting, validation, and regression tests |
-| `docs/paper/` | Manuscript PDF, Word review copy, editable LaTeX, and figure files |
 
 The release includes the corrected handling of tied taxonomic ranks. Figure 4 and
 Tables 1/3 use the same current statistical sources. Teaching matrices are labelled
@@ -47,4 +46,4 @@ as illustrative and are separate from empirical results.
 Large raw downloads, external model weights, and some intermediate matrices are obtained
 from their original providers; the exact limitations are listed in the reproduction guide.
 Primary data remain subject to their original providers' terms. Cite the source studies
-listed in the manuscript when using their data.
+linked in `DATA_AVAILABILITY.md` when using their data.

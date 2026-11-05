@@ -1,8 +1,0 @@
----
-# Used by scripts/build_preprint.py with preprint_template.tex.
-# The builder also fixes heading levels and binds figures/tables to their captions.
-papersize: a4
-fontsize: 11pt
-geometry: "margin=25mm,headheight=14pt,headsep=7mm"
-linestretch: 1.12
----

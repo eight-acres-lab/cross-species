@@ -1,4 +1,4 @@
-# Reproducing the publication snapshot
+# Reproducing the deposited analyses
 
 Run from the repository root. Use Python 3.12 or newer; the dependency versions used
 for the release checks are recorded in `requirements.txt`.
@@ -10,47 +10,26 @@ python -m pip install -r requirements.txt
 python scripts/verify_release.py
 python scripts/verify_preprint_numbers.py
 python -m unittest discover -s tests -p 'test_*.py'
-python scripts/make_preprint_figures.py
+python scripts/make_preprint_figures.py --out outputs/figures
 ```
 
 The first command after installation verifies the original release checksums. Run it before
 editing or rebuilding outputs. The numerical verifier should report 140 agreements, zero
 disagreements and zero skips. It checks a registry of claims, not arbitrary prose changes.
 
-The figure generator writes `docs/paper/tex/figures/Fig1` through `Fig5` as vector PDFs, editable SVGs and
-600 dpi RGB PNGs. Its illustrative matrices are identified in the manuscript legends. Font rendering and PDF
-metadata can differ across software versions; numerical source data are the reproducibility
-target.
+The figure generator writes `outputs/figures/Fig1` through `Fig5` as vector PDFs, editable
+SVGs and 600 dpi RGB PNGs. These local outputs are ignored by Git. The workflow and teaching
+matrices in Figure 1, Figure 4a and Figure 5a/b are illustrative inputs constructed in code;
+the empirical panels read the deposited results. Font rendering and PDF metadata can differ
+across software versions; numerical source data are the reproducibility target.
 
-Figure 2 also exports `Fig2_source_data.json`, including metadata counts, their counting
-definitions and source hashes. The blood grid includes only conditions shared by all ten
+Figure 2 also exports `outputs/figures/Fig2_source_data.json`, including metadata counts,
+their counting definitions and source hashes. The deposited copy is
+`artifacts/biology/concordance/dataset_overview.json`. The blood grid includes only conditions shared by all ten
 species (387 response rows); one of the 388 deposited rows lies outside that grid. TG-GATEs
 counts are distinct compounds per comparison and must not be summed as independent cohorts.
 Figure 4 uses all 388 deposited blood responses, including the single response outside
 Figure 2b's shared-condition grid. Figure 3 and Figure 5 use the nine shared conditions.
-
-## Manuscript build
-
-Install Pandoc and either XeLaTeX or Tectonic, then run:
-
-```bash
-python scripts/build_preprint.py
-```
-
-This reads `docs/paper/preprint.md`, generates the editable LaTeX, and synchronises the two
-PDF copies. The TeX Gyre fonts used by the template are supplied by TeX distributions. For
-direct LaTeX editing, see `docs/paper/tex/README.md`.
-
-For the editable Word review copy, with Pandoc and `python-docx` installed:
-
-```bash
-python scripts/build_preprint_docx.py
-```
-
-This reads the same Markdown source and embeds the current five 600 dpi figure PNGs.
-It writes `docs/paper/preprint_review.docx`, with native Word text, four tables and six
-equations. Editing and comments are unrestricted. Pagination can differ from the LaTeX PDF.
-Save annotated copies separately: regeneration replaces the unannotated review copy.
 
 ## Recompute reliability from included matrices
 
@@ -72,7 +51,8 @@ python scripts/run_collectible_panel.py artifacts/biology/concordance/collectibl
 
 These commands overwrite deposited outputs. Use a separate checkout when comparing reruns
 with the release. Defaults preserve the deposited seeds. Figures and Tables 1/3 use average
-ranks for tied taxonomic distances. The tests check tie handling and table/source agreement.
+ranks for tied taxonomic distances. The included tests check the analysis code, including
+tie handling. Manuscript-specific table checks remain in the development repository.
 
 ## Analyses requiring external inputs
 
