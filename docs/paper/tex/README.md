@@ -21,9 +21,16 @@ Use XeLaTeX, not pdfLaTeX. Check for missing-glyph and overfull-box warnings. Di
 to the generated TeX are overwritten by the Markdown build, so move lasting text changes
 back to `../preprint.md`.
 
-`figures/Fig1` through `Fig4` are 160 mm wide, in vector PDF, editable SVG and 300 dpi PNG.
+`figures/Fig1` through `Fig4` are 160 mm wide, in vector PDF, editable SVG and 600 dpi RGB PNG.
 Figure 1 is a standalone workflow; Figures 2–4 each contain four result/method panels.
 All diagrams and plots are scripted with NumPy/Matplotlib. Empirical panels read deposited
-JSON; teaching matrices and workflow miniatures are explicitly illustrative. Arial is used
+JSON; teaching matrices and workflow miniatures are identified as illustrative in the legends. Arial is used
 when installed, with Liberation Sans and DejaVu Sans fallbacks. See the root data catalogue
 for exact sources.
+
+Figure text is pure black: primary labels are 8 pt, compact labels and ticks are 7 pt,
+and panel letters are 8 pt bold upright lowercase. Letter columns and row spacing are
+consistent; panel descriptions and interpretation are in the manuscript legends.
+The [NC author instructions](https://mts-ncomms.nature.com/cgi-bin/main.plex?form_type=display_auth_instructions)
+recommend 8 pt at final size and editable vector figures. Use the PDFs for submission;
+SVG copies are editing aids and are not an accepted NC upload format.

@@ -25,7 +25,7 @@ python scripts/make_preprint_figures.py
 The deposited inputs support all 101 registered numerical checks and regeneration of
 the four manuscript figures. The verifier checks the registered claims against their
 source artifacts; it does not parse every number in the prose. Figure outputs are
-vector PDF, editable SVG and 300 dpi PNG in `docs/paper/tex/figures/`.
+vector PDF, editable SVG and 600 dpi RGB PNG in `docs/paper/tex/figures/`.
 
 ## Contents
 

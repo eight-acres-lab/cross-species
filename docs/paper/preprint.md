@@ -136,15 +136,19 @@ ten species exposed to lipopolysaccharide (LPS); TG-GATEs provides human and rat
 and rat liver in vivo. **2**, For the blood panel, species-mean response profiles are
 correlated across genes to form the redundancy matrix, ρ. Subjects are split within each
 timepoint, both matrices are rebuilt, and the ranks of corresponding species pairs are
-compared to establish matrix reliability. **3**, For TG-GATEs boundary comparisons, within-side
-replicate response correlations, $\mathrm{rel}_A$ and $\mathrm{rel}_B$, define the ceiling; observed agreement
-averages cross-side replicate pairings. Control-disjoint contrasts are compared within
+compared to establish matrix reliability. **3**, For TG-GATEs boundary comparisons, A and B
+denote the two times, species or systems being compared; 1 and 2 identify replicates.
+Within-side replicate response correlations, $\mathrm{rel}_A$ and $\mathrm{rel}_B$, define
+the ceiling as $\sqrt{\mathrm{rel}_A\mathrm{rel}_B}$; observed agreement averages all four
+cross-side replicate pairings. The fraction of ceiling is observed agreement divided by
+this ceiling. Control-disjoint contrasts are compared within
 ceiling bands. Ratios above one prompt inspection for sampling error or shared-control
 structure (Section 2.2). This profile-level ceiling and matrix reliability are different
 constructions. **4**, The framework supports panel design, tests of context reuse and response
 specificity, and comparisons of experimental boundaries. All displayed matrices and output
-miniatures are illustrative; they are not fitted or measured results. Blue-to-orange matrix
-colours denote negative-to-positive values; response matrices use arbitrary units, while
+miniatures are illustrative; they are not fitted or measured results. Blue-to-orange colours
+in the response-difference and correlation matrices denote negative-to-positive values;
+response matrices use arbitrary units, while
 correlation matrices span −1 to +1. Dataset-specific preprocessing and additional
 validation panels are described in Methods.
 
@@ -254,15 +258,16 @@ not separate in these data, rather than ordering them.
 
 ![](tex/figures/Fig2.png)
 
-**Figure 2.** Donor value, panel composition and the limits of pooling. **(a)** Mean
+**Figure 2.** Donor value, panel composition and the limits of pooling. **a**, Mean
 across-gene Pearson correlation between each donor species and the held-out human response,
 over nine endotoxin conditions in ex vivo blood (25,638 genes). Points and horizontal bars
 show estimates and 95% stratified leave-one-subject-out jackknife intervals. Absolute values
-are low by 0.022 to 0.062 under the missing-value convention of Section 3.2. **(b, c)** Best
+are low by 0.022 to 0.062 under the missing-value convention of Section 3.2. **b, c**, Best
 (orange circles), mean (blue squares) and worst (grey triangles) equal-weight subsets at each
 size, enumerated among the six non-primate donors and all nine donors, respectively. Shading
 is the full range across subsets, not an uncertainty interval; both panels share the same
-vertical scale. **(d)** The exchangeable-predictor expectation R(k), using measured mean
+vertical scale. **d**, The exchangeable-predictor expectation
+$R(k)=k\bar{r}/\sqrt{k+k(k-1)\bar{\rho}}$, using measured mean
 donor–human r̄ = 0.276 and donor–donor ρ̄ = 0.265 for the six non-primate species, assumes unit
 variances and equal pair correlations. Blue squares are measured subset means. The grey
 region and dashed curve mark extrapolation beyond the six available donors. Horizontal
@@ -331,17 +336,17 @@ guess, while the full six-species panel reached 0.446, the one value it can take
 
 ![](tex/figures/Fig3.png)
 
-**Figure 3.** Matrix reliability and transfer across contexts. **(a)** Illustrative
+**Figure 3.** Matrix reliability and transfer across contexts. **a**, Illustrative
 upper-triangle matrices, matched-pair vectors and a rank plot show how matrix agreement is
 computed. Self-correlations and duplicate pairs are omitted. Purple outlines identify pair
-A–C; the rank plot's diagonal denotes equal ranks. **(b)** Measured split-half reliability
-within each blood timepoint. **(c)** Measured agreement between blood timepoints. Numbers
+A–C; the rank plot's diagonal denotes equal ranks. **b**, Measured split-half reliability
+within each blood timepoint. **c**, Measured agreement between blood timepoints. Numbers
 and heatmap colours encode Spearman coefficients; the three columns use all pairs,
 cross-order pairs, and partial correlation after removing ranked taxonomic distance.
-Panels (b) and (c) use 45 species pairs, including 35 cross-order pairs. **(d)** Blood–macrophage
+Panels b and c use 45 species pairs, including 35 cross-order pairs. **d**, Blood–macrophage
 agreement over ten shared pairs, six cross-order, shown for both estimators: pooling profiles
 before correlation, or correlating within conditions and then averaging. Grey circles,
-blue squares and purple diamonds correspond to the three analyses in (b, c). All empirical
+blue squares and purple diamonds correspond to the three analyses in b and c. All empirical
 panels use the current two-estimator analysis. Asterisks mark nominal one-sided p < 0.05 under
 species-label Mantel permutations, without multiplicity adjustment. Neither cross-order
 blood–macrophage estimate is significant. The blood–hepatocyte comparison is reported in the
@@ -489,19 +494,20 @@ not the drift of the point estimate toward zero, for which we have no explanatio
 ![](tex/figures/Fig4.png)
 
 **Figure 4.** Separating common and condition-specific responses in the blood panel.
-**(a)** Illustrative gene-by-condition matrices: subtract each species' across-condition mean
-from every condition to obtain its residual. All three matrices use the same scale, from
-−2 (blue) to +2 (orange), in arbitrary units. **(b)** An illustrative pairing map distinguishes
+**a**, Illustrative gene-by-condition matrices: rows g1–g5 denote genes and columns 1–4
+denote conditions. Subtract each species' across-condition mean from every condition to
+obtain its residual. All three matrices use the same scale, from
+−2 (blue) to +2 (orange), in arbitrary units. **b**, An illustrative pairing map distinguishes
 matched donor–human conditions (blue diagonal) from mismatched conditions (grey off-diagonal).
-Four conditions are shown schematically; the empirical analysis uses nine. **(c)** Measured
+Four conditions are shown schematically; the empirical analysis uses nine. **c**, Measured
 matched recovery (blue circles; mean over conditions) and mismatched recovery (grey squares;
 median over different-condition pairings), connected within each donor row. Segments compare
-scores and do not indicate uncertainty. **(d)** Recovery after mean subtraction on both sides,
-with rows aligned to (c); orange circles denote positive estimates and grey squares negative
+scores and do not indicate uncertainty. **d**, Recovery after mean subtraction on both sides,
+with rows aligned to c; orange circles denote positive estimates and grey squares negative
 estimates, without implying significance. Stems connect each estimate to zero. Recovery is
 1 − SSE/Σy²: zero is the no-response prediction and negative values are worse than that
 baseline. The statistic is unbounded below; the residual target changes the denominator,
-so magnitudes in (c) and (d) are not comparable. Only the chimpanzee and the nine-species
+so magnitudes in c and d are not comparable. Only the chimpanzee and the nine-species
 equal-weight mean retain positive residual recovery.
 
 What crosses a species boundary is mostly the response shared across perturbations rather than
