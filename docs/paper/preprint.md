@@ -1132,10 +1132,11 @@ shapes innate immunity. *Nature* 2018;563:197–202.
 humans and in animals. *Regul Toxicol Pharmacol* 2000;32(1):56–67.
 
 [6] Monticello TM, Jones TW, Dambach DM, et al. Current nonclinical testing paradigm enables
-safe entry to First-In-Human clinical trials. *Toxicol Appl Pharmacol* 2017.
+safe entry to First-In-Human clinical trials: The IQ consortium nonclinical to clinical
+translational database. *Toxicol Appl Pharmacol* 2017;334:100–109.
 
 [7] Atkins JT, George GC, Hess K, et al. Pre-clinical animal models are poor predictors of
-human toxicities in phase 1 oncology clinical trials. *Br J Cancer* 2020.
+human toxicities in phase 1 oncology clinical trials. *Br J Cancer* 2020;123(10):1496–1501.
 
 [8] Spearman C. The proof and measurement of association between two things. *Am J Psychol*
 1904;15(1):72–101.
@@ -1144,7 +1145,7 @@ human toxicities in phase 1 oncology clinical trials. *Br J Cancer* 2020.
 microarray cross-platform reproducibility study. *BMC Bioinformatics* 2007;8:447.
 
 [10] Hsu A, Borst A, Theunissen FE. Quantifying variability in neural responses and its
-application for the validation of model predictions. *Network* 2004.
+application for the validation of model predictions. *Network* 2004;15(2):91–109.
 
 [11] Schoppe O, Harper NS, Willmore BDB, King AJ, Schnupp JWH. Measuring the performance of
 neural models. *Front Comput Neurosci* 2016;10:10.
@@ -1153,20 +1154,21 @@ neural models. *Front Comput Neurosci* 2016;10:10.
 organisms. *Proc Natl Acad Sci USA* 2023;120(6):e2202584120.
 
 [13] Sutherland JJ, Jolly RA, Goldstein KM, Stevens JL. Assessing concordance of drug-induced
-transcriptional response in rodent liver and cultured hepatocytes. *PLoS Comput Biol* 2016.
+transcriptional response in rodent liver and cultured hepatocytes. *PLoS Comput Biol*
+2016;12(3):e1004847.
 
 [14] El-Hachem N, Grossmann P, Blanchet-Cohen A, et al. Characterization of conserved
 toxicogenomic responses in chemically exposed hepatocytes across species and platforms.
-*Environ Health Perspect* 2016.
+*Environ Health Perspect* 2016;124(3):313–320.
 
 [15] Calvano SE, Xiao W, Richards DR, et al. A network-based analysis of systemic inflammation
 in humans. *Nature* 2005;437:1032–1037. (GSE3284.)
 
 [16] Talwar S, Munson PJ, Barb J, et al. Gene expression profiles of peripheral blood
-leukocytes after endotoxin challenge in humans. *Physiol Genomics* 2006. (GSE3026.)
+leukocytes after endotoxin challenge in humans. *Physiol Genomics* 2006;25(2):203–215. (GSE3026.)
 
 [17] Scicluna BP, van 't Veer C, Nieuwdorp M, et al. Role of tumor necrosis factor-α in the
-human systemic endotoxin-induced transcriptome. *PLoS One* 2013. (GSE36177.)
+human systemic endotoxin-induced transcriptome. *PLoS One* 2013;8(11):e79051. (GSE36177.)
 
 [18] Liu Z, Fang H, Borlak J, Roberts R, Tong W. In vitro to in vivo extrapolation for
 drug-induced liver injury using a pair ranking method. *ALTEX* 2017;34(3):399–407.
@@ -1179,13 +1181,14 @@ drug-induced gene expression changes from rat to human primary hepatocytes. *PLo
 2020;15(8):e0236392.
 
 [21] Thomas RS, Black MB, Li L, et al. A comprehensive statistical analysis of predicting in
-vivo hazard using high-throughput in vitro screening. *Toxicol Sci* 2012.
+vivo hazard using high-throughput in vitro screening. *Toxicol Sci* 2012;128(2):398–417.
 
 [22] Natsoulis G, Pearson CI, Gollub J, et al. The liver pharmacological and xenobiotic gene
 response repertoire. *Mol Syst Biol* 2008;4:175.
 
 [23] Prior H, Baldrick P, Beken S, et al. Opportunities for use of one species for longer-term
-toxicology testing during drug development. *Toxicol Res* 2020;9(6):758–770.
+toxicology testing during drug development: A cross-industry evaluation. *Regul Toxicol
+Pharmacol* 2020;113:104624. doi: [10.1016/j.yrtph.2020.104624](https://doi.org/10.1016/j.yrtph.2020.104624).
 
 [24] Nili H, Wingfield C, Walther A, et al. A toolbox for representational similarity analysis.
 *PLoS Comput Biol* 2014;10(4):e1003553.
@@ -1203,8 +1206,8 @@ Press, 2023, Chapter 3.
 [28] Cheng SC, Scicluna BP, Arts RJ, et al. Broad defects in the energy metabolism of
 leukocytes underlie immunoparalysis in sepsis. *Nat Immunol* 2016;17(4):406–413. (GSE48119.)
 
-[29] Kelley TL. *Statistical Method.* New York: Macmillan, 1923:199–206. (Section 54, formulas
-150–153.)
+[29] Kelley TL. *Statistical Method.* New York: Macmillan, 1923:196–200. (Sections 54–55,
+formulas 151–153.)
 
 [30] Gulliksen H. *Theory of Mental Tests.* New York: Wiley, 1950:88–95. (Chapter 9, equations
 2, 5 and 15.)
@@ -1248,15 +1251,15 @@ action in acute interspecies estimation models for aquatic species. *Environ Sci
 minority of chemicals. *Ecotoxicology* 2024;33(8):921–936.
 
 [43] Biehl M, Sadowski P, Bhanot G, et al. Inter-species prediction of protein phosphorylation
-in the sbv IMPROVER species translation challenge. *Bioinformatics* 2014;31(4):453–461.
+in the sbv IMPROVER species translation challenge. *Bioinformatics* 2015;31(4):453–461.
 
 [44] Rhrissorrakrai K, Belcastro V, Bilal E, et al. Understanding the limits of animal models
 as predictors of human biology: lessons learned from the sbv IMPROVER Species Translation
-Challenge. *Bioinformatics* 2014;31(4):471–483.
+Challenge. *Bioinformatics* 2015;31(4):471–483.
 
 [45] Hormoz S, Bhanot G, Biehl M, et al. Inter-species inference of gene set enrichment in lung
 epithelial cells from proteomic and large transcriptomic datasets. *Bioinformatics*
-2014;31(4):492–500.
+2015;31(4):492–500.
 
 [46] Normand R, Du W, Briller M, et al. Found In Translation: a machine learning model for
 mouse-to-human inference. *Nat Methods* 2018;15(12):1067–1073.
@@ -1281,7 +1284,7 @@ Acids Res* 2019;47(19):10010–10026.
 
 [52] Viñas Torné R, Wiatrak M, Piran Z, et al. Systema: a framework for evaluating genetic
 perturbation response prediction beyond systematic variation. *Nat Biotechnol*
-2025;44(6):1050–1059.
+2026;44(6):1050–1059.
 
 [53] Miller HE, Mejia GM, Leblanc FJA, et al. Deep learning perturbation models can outperform
 baselines on calibrated metrics. *Nat Biotechnol* 2026.
@@ -1315,6 +1318,7 @@ perturbation response. *arXiv* 2026. (arXiv:2604.27646 [q-bio.CB].)
 
 [62] Svensson V, Khan U, Heydari H, et al. Back to basics: observed statistics are sufficient
 to predict drug responses. *bioRxiv* 2026. (Posted 12 June 2026.)
+doi: [10.64898/2026.06.09.731197](https://doi.org/10.64898/2026.06.09.731197).
 
 ---
 
