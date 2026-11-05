@@ -27,9 +27,9 @@ Unless another directory is specified, the following filenames are under
 
 | Manuscript item | Deposited files | Analysis / plotting code |
 |---|---|---|
-| Figure 1a/c; Figure 2a; Figure 3a; Figure 4a/b | Illustrative inputs constructed in code; not empirical measurements | `scripts/make_preprint_figures.py` |
-| Figure 1b; Table 1 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py` |
-| Figure 1d | `reconstruct_metric_audit.json`, `fig1_ci.json` | `make_preprint_figures.py`, `controls/run_fig1_intervals.py` |
+| Figure 1; Figure 3a; Figure 4a/b | Illustrative inputs constructed in code; not empirical measurements | `scripts/make_preprint_figures.py` |
+| Table 1 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py` |
+| Figure 2a | `reconstruct_metric_audit.json`, `fig1_ci.json` | `make_preprint_figures.py`, `controls/run_fig1_intervals.py` |
 | Figure 2b-d; Section 2.3 | `core_numbers.json`, `collectible_panel.json`, `panel_blood.json`, `panel_hepatocyte.json`, `scaling_curve.json` | `make_preprint_figures.py`, `run_collectible_panel.py`, `run_panel_design.py` |
 | Figure 3b-d; Section 2.4 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py`, `plot_rho_phylogeny.py` |
 | Table 3; Section 2.4 decomposition | `rho_cross_panel_both_estimators.json`, `rho_double_centred.json`, `rho_main_effects.json` | `controls/run_double_centred.py`, `controls/run_main_effects.py` |

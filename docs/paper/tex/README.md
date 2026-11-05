@@ -21,7 +21,9 @@ Use XeLaTeX, not pdfLaTeX. Check for missing-glyph and overfull-box warnings. Di
 to the generated TeX are overwritten by the Markdown build, so move lasting text changes
 back to `../preprint.md`.
 
-`figures/Fig1` through `Fig4` are 160 mm wide, each with four panels, in vector PDF and
-300 dpi PNG. All diagrams and plots are scripted with NumPy/Matplotlib. Empirical panels
-read deposited JSON; teaching matrices are separately constructed and labelled illustrative.
-See the root data catalogue for their exact sources.
+`figures/Fig1` through `Fig4` are 160 mm wide, in vector PDF, editable SVG and 300 dpi PNG.
+Figure 1 is a standalone workflow; Figures 2–4 each contain four result/method panels.
+All diagrams and plots are scripted with NumPy/Matplotlib. Empirical panels read deposited
+JSON; teaching matrices and workflow miniatures are explicitly illustrative. Arial is used
+when installed, with Liberation Sans and DejaVu Sans fallbacks. See the root data catalogue
+for exact sources.

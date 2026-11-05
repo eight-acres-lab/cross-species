@@ -17,7 +17,7 @@ The first command after installation verifies the original release checksums. Ru
 editing or rebuilding outputs. The numerical verifier should report 101 agreements, zero
 disagreements and zero skips. It checks a registry of claims, not arbitrary prose changes.
 
-The figure generator writes `docs/paper/tex/figures/Fig1` through `Fig4` as vector PDFs and
+The figure generator writes `docs/paper/tex/figures/Fig1` through `Fig4` as vector PDFs, editable SVGs and
 300 dpi PNGs. Its illustrative matrices are labelled explicitly. Font rendering and PDF
 metadata can differ across software versions; numerical source data are the reproducibility
 target.

@@ -216,11 +216,11 @@ CHECKS: list[dict] = [
                       ["comparisons"] if "macrophage [pooled]" in c["label"]][0]["spearman_cross"]),
 
     # ---- 2.5 what the ordering survives --------------------------------------------
-    dict(claim="2.5 / Figure 1: chimpanzee 0.676",
+    dict(claim="2.5 / Figure 2a: chimpanzee 0.676",
          paper=0.6756, tol=5e-4,
          get=lambda: load("artifacts/biology/concordance/reconstruct_metric_audit.json")
                      ["Pan troglodytes"]["r"]),
-    dict(claim="2.5 / Figure 1: rat 0.206",
+    dict(claim="2.5 / Figure 2a: rat 0.206",
          paper=0.2061, tol=5e-4,
          get=lambda: load("artifacts/biology/concordance/reconstruct_metric_audit.json")
                      ["Rattus norvegicus"]["r"]),
