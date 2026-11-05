@@ -29,12 +29,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'artifacts/biology/concordance'
 MM = 1 / 25.4
 WIDTH = 160
-BLUE, ORANGE, PURPLE = '#2585BD', '#E78A40', '#8561AD'
-TEAL, GREY, INK = '#239E92', '#87929E', '#000000'
+BLUE, ORANGE, PURPLE = '#39A9E6', '#FFA657', '#B18BE3'
+TEAL, GREY, INK = '#46C7B4', '#A6AFBD', '#000000'
 LIGHT, LINE = '#F4F7FA', '#D7DFE6'
 MIN_TEXT, BODY_TEXT, PANEL_TEXT = 7, 8, 8
 PANEL_LEFT, PANEL_RIGHT, ROW_GAP = 3, 83, 12
-RESPONSE = LinearSegmentedColormap.from_list('response', [BLUE, '#FFFFFF', '#ED8866'])
+RESPONSE = LinearSegmentedColormap.from_list('response', ['#45AFE1', '#FFFFFF', '#FF9B75'])
 NAMES = {
     'Pan troglodytes': 'Chimpanzee', 'Macaca': 'Macaque',
     'Papio anubis': 'Baboon', 'Bos taurus': 'Cow', 'Ovis aries': 'Sheep',
@@ -177,6 +177,15 @@ def decomposition():
 
 
 def save(fig, out, n):
+    # One typographic hierarchy for all data axes, including schematic data axes.
+    # Diagram labels and legends remain regular; axes are 8 pt, ticks are 7 pt.
+    for ax in fig.axes[1:]:
+        for title in (ax.xaxis.label, ax.yaxis.label):
+            title.set_fontsize(BODY_TEXT)
+            title.set_fontweight('bold')
+        for tick in ax.get_xticklabels()+ax.get_yticklabels():
+            tick.set_fontsize(MIN_TEXT)
+            tick.set_fontweight('bold')
     # Fixed page boxes preserve the documented print size; never use bbox_inches='tight'.
     fig.savefig(out/f'Fig{n}.pdf', metadata={'CreationDate': None, 'ModDate': None})
     svg = out/f'Fig{n}.svg'
@@ -198,7 +207,7 @@ def figure1(out):
     fig, bg = canvas(174)
     stage(bg, 3, 5, 1, 'Construct response profiles', BLUE)
     # Input contexts have their own roles; they are not merged into one biological dataset.
-    region(bg, 3, 11, 41, 34, 'white', '#B6D9ED')
+    region(bg, 3, 11, 41, 36, '#F1F9FE', '#B6E1F5')
     label(bg, 7, 16, 'Experimental contexts', 8, weight='bold')
     for y, color, title, desc in [
         (23, BLUE, 'Blood panel', 'Species × dose × time'),
@@ -207,87 +216,78 @@ def figure1(out):
         bg.add_patch(Circle((8, y), 1.25, fc=color, ec='none'))
         label(bg, 11, y, title, 7, weight='bold')
         label(bg, 7, y+5, desc, 6.3)
-    arrow(bg, (45.5, 28), (51.5, 28))
-    # Treated and control matrices use the same gene axis before differencing.
+    arrow(bg, (45.5, 29), (51.5, 29))
+    # Stack treated and control profiles on the same horizontal gene axis.
     perturb = np.array([[2.1, 1.8, .4, .8, 1.2, 1.0],
                         [2.3, 1.4, .6, 1.1, 1.8, .6],
                         [1.8, 2.0, .2, 1.0, 1.4, .9]])
     control = np.array([[1., 1.1, 1.3, 1.4, 1.0, 1.2],
                         [1.2, 1.0, 1.1, 1.7, 1.3, 1.0],
                         [.9, 1.2, 1.4, 1.6, 1.1, 1.3]])
-    seq = LinearSegmentedColormap.from_list('expression', ['#F0F6FB', BLUE])
-    cells(bg, 54, 24, perturb, 2.1, vmin=0, vmax=2.5, cmap=seq)
-    cells(bg, 74, 24, control, 2.1, vmin=0, vmax=2.5, cmap=seq)
-    label(bg, 60.3, 19.5, 'Perturbed', 6.7, ha='center')
-    label(bg, 80.3, 19.5, 'Control', 6.7, ha='center')
-    operator(bg, 70.3, 27, '-')
-    label(bg, 70.5, 36, 'Gene alignment', 7, ha='center')
-    arrow(bg, (89, 28), (96, 28))
+    seq = LinearSegmentedColormap.from_list('expression', ['#F1FAFE', BLUE])
+    cells(bg, 66, 15, perturb, 3.6, vmin=0, vmax=2.5, cmap=seq)
+    cells(bg, 66, 32, control, 3.6, vmin=0, vmax=2.5, cmap=seq)
+    label(bg, 63, 20.4, 'Perturbed', 7, ha='right')
+    label(bg, 63, 37.4, 'Control', 7, ha='right')
+    operator(bg, 76.8, 29, '-')
+    label(bg, 76.8, 47, 'Gene alignment', 7, ha='center')
+    arrow(bg, (92, 29), (103, 29))
     # Actual analytical matrices are continuous responses; these values only teach the layout.
-    cells(bg, 100, 22, perturb-control, 3, vmin=-1.5, vmax=1.5)
-    label(bg, 109, 16, 'Response matrix', 7, weight='bold', ha='center')
-    label(bg, 109, 35, 'Genes', 6.5, ha='center')
-    label(bg, 122, 26, 'Subject ×\ncondition', 7)
-    colour_key(fig, 131, 38.5, 22, vmin=-1.5, vmax=1.5, title='Response (a.u.)')
+    cells(bg, 117, 19, perturb-control, 4.6, vmin=-1.5, vmax=1.5)
+    label(bg, 130.8, 12, 'Response matrix', 8, weight='bold', ha='center')
+    label(bg, 130.8, 36, 'Genes', 7, ha='center')
+    label(bg, 109.5, 25.9, 'Subject ×\ncondition', 7, ha='center', rotation=90)
+    colour_key(fig, 119, 44, 29, vmin=-1.5, vmax=1.5, title='Response (a.u.)')
     # A fork: species redundancy and profile-level ceilings are distinct constructions.
-    bg.plot([109, 109, 40], [43.5, 49, 49], color=BLUE, lw=.8)
-    bg.plot([109, 121], [49, 49], color=ORANGE, lw=.8)
-    arrow(bg, (40, 49), (40, 55), color=BLUE)
-    arrow(bg, (121, 49), (121, 55), color=ORANGE)
-    label(bg, 43, 52, 'Blood panel', 6.2)
-    label(bg, 124, 52, 'TG-GATEs', 6.2)
+    bg.plot([146.5, 154, 154, 40], [26, 26, 51, 51], color=LINE, lw=.8)
+    arrow(bg, (40, 51), (40, 55), color=BLUE)
+    arrow(bg, (121, 51), (121, 55), color=ORANGE)
+    label(bg, 43, 54, 'Blood panel', 7)
+    label(bg, 124, 54, 'TG-GATEs', 7)
     # Every numbered heading sits 6 mm above its content area. The branch
     # boxes group calculations; they do not enclose a different heading level.
     stage(bg, 3, 57, 2, 'Quantify species redundancy', BLUE)
     stage(bg, 82, 57, 3, 'Estimate replicate ceiling', ORANGE)
-    region(bg, 3, 63, 75, 52, 'white', '#B6D9ED')
-    region(bg, 82, 63, 75, 52, 'white', '#EFCDA9')
-    label(bg, 40.5, 67, 'Average subjects within each condition', 7, ha='center')
+    region(bg, 3, 63, 75, 52, 'white', '#B6E1F5')
+    region(bg, 82, 63, 75, 52, 'white', '#FFD7B1')
     x = toy_responses()
-    cells(bg, 12, 74, x, 2.5, vmin=-1.5, vmax=1.5)
+    cells(bg, 12, 73, x, 3.3, vmin=-1.5, vmax=1.5)
     for i, name in enumerate('ABCD'):
-        label(bg, 10, 75.25+2.5*i, name, 6, ha='right')
-    label(bg, 19.5, 87, 'Aligned genes', 6.2, ha='center')
-    label(bg, 19.5, 70.5, 'Species means', 6.3, ha='center')
-    arrow(bg, (30, 79), (44, 79), color=BLUE)
-    label(bg, 37, 73, 'Pearson', 6, ha='center')
-    label(bg, 37, 85, 'across genes', 6, ha='center')
-    cells(bg, 49, 74, np.corrcoef(x), 2.5)
-    label(bg, 54, 70.5, 'Redundancy', 7, ha='center')
-    label(bg, 54, 87, 'Species pairs', 6.2, ha='center')
-    bg.plot([7, 74], [92, 92], color=LINE, lw=.65)
+        label(bg, 10, 74.65+3.3*i, name, 7, ha='right')
+    label(bg, 21.9, 68, 'Species means', 7, ha='center')
+    arrow(bg, (35, 79.6), (49, 79.6), color=BLUE)
+    label(bg, 42, 74, 'Pearson', 7, ha='center')
+    cells(bg, 53, 73, np.corrcoef(x), 3.3)
+    label(bg, 59.6, 68, 'Redundancy', 7, ha='center')
+    bg.plot([8, 73], [91, 91], color=LINE, lw=.65)
     # Two compact reliability objects, not a second empirical heatmap.
     p, q = toy_contexts()
-    for mat, xx in [(p, 8), (q, 18)]:
+    for mat, xx, name in [(p, 15, 'Split 1'), (q, 48, 'Split 2')]:
         a = mat.copy(); a[np.tril_indices(4)] = np.nan
-        cells(bg, xx, 97, a, 1.6)
-    arrow(bg, (27, 101), (32, 101), color=BLUE)
-    label(bg, 35, 99, 'Subject splits', 7)
-    label(bg, 35, 105, 'Pair-rank agreement', 7)
+        cells(bg, xx, 97, a, 2.6)
+        label(bg, xx+5.2, 94, name, 7, ha='center')
+    arrow(bg, (30, 102), (43, 102), color=BLUE)
+    label(bg, 40.5, 111.5, 'Subject splits test pair-rank agreement', 7, ha='center')
     # The ceiling uses replicate response correlations within sides, not rho split halves.
-    label(bg, 119.5, 67, 'Replicate response profiles', 7, ha='center')
     reps = toy_replicates()
-    strips = [(90, 76, 'A1', reps[0]), (90, 87, 'A2', reps[1]),
-              (133, 76, 'B1', reps[2]), (133, 87, 'B2', reps[3])]
+    strips = [(89, 73, 'A1', reps[0]), (89, 95, 'A2', reps[1]),
+              (134, 73, 'B1', reps[2]), (134, 95, 'B2', reps[3])]
     for xx, yy, name, values in strips:
-        cells(bg, xx, yy, values[None, :], 2, vmin=-1.5, vmax=1.5)
-        label(bg, xx+6, yy-3 if yy == 76 else yy+5.5, name, 6.2, ha='center')
-    arrow(bg, (96, 79), (96, 85), color=BLUE)
-    arrow(bg, (139, 79), (139, 85), color=ORANGE)
-    label(bg, 89, 83, 'rel A', 6.5, ha='right')
-    label(bg, 146, 83, 'rel B', 6.5)
-    arrow(bg, (104, 77), (130, 77), color=GREY)
-    arrow(bg, (104, 88), (130, 88), color=GREY)
-    arrow(bg, (104, 77), (130, 88), color='#B7C1CA', lw=.55)
-    arrow(bg, (104, 88), (130, 77), color='#B7C1CA', lw=.55)
-    label(bg, 117, 82.5, 'All cross-side\npairings', 5.8, ha='center',
+        cells(bg, xx, yy, values[None, :], 2.6, vmin=-1.5, vmax=1.5)
+        label(bg, xx+7.8, yy-4 if yy == 73 else yy+6, name, 7, ha='center')
+    arrow(bg, (96.8, 77.5), (96.8, 92.5), color=BLUE)
+    arrow(bg, (141.8, 77.5), (141.8, 92.5), color=ORANGE)
+    label(bg, 94, 85, 'rel A', 7, ha='right')
+    label(bg, 144.5, 85, 'rel B', 7)
+    for start, end in [(74.3, 74.3), (96.3, 96.3), (74.3, 96.3), (96.3, 74.3)]:
+        arrow(bg, (107, start), (131.5, end), color=GREY, lw=.7)
+    label(bg, 119.3, 85, 'Agreement', 7, ha='center',
           bbox={'facecolor': 'white', 'edgecolor': 'none', 'pad': 1.2})
-    label(bg, 119.5, 99, 'Ceiling = √(rel A × rel B)', 8, ha='center')
-    label(bg, 119.5, 107, 'Fraction = agreement / ceiling', 7, ha='center')
+    label(bg, 119.5, 109, 'Fraction = agreement / √(rel A × rel B)', 7, ha='center')
     # Both constructions constrain interpretation, with different validation requirements.
     arrow(bg, (40, 115.5), (40, 121), color=BLUE)
     arrow(bg, (120, 115.5), (120, 121), color=ORANGE)
-    region(bg, 3, 122, 154, 9, 'white', '#D4C9E4')
+    region(bg, 3, 122, 154, 9, '#F9F5FD', '#DFD1F1')
     label(bg, 80, 126.5,
           'Reliability  |  Control independence  |  Context validation', 8, ha='center')
     stage(bg, 3, 138, 4, 'Compare transfer limits', PURPLE)
@@ -300,30 +300,30 @@ def figure1(out):
     ]):
         xx = 3 + i*39
         bg.plot([xx+1, xx+37], [144, 144], color=color, lw=1.6)
-        label(bg, xx+19, 163, title, 6.6, weight='bold', ha='center')
-        label(bg, xx+19, 168, pointer, 6.0, ha='center')
+        label(bg, xx+19, 165, title, 7, weight='bold', ha='center')
+        label(bg, xx+19, 170, pointer, 7, ha='center')
     # Equal-weight saturation under an illustrative exchangeable-donor model.
     k = np.arange(1, 18)
     expected = k*.3 / np.sqrt(k+k*(k-1)*.3)
-    bg.plot([13, 13, 32], [148, 158, 158], color=GREY, lw=.6)
-    bg.plot(13+19*(k-1)/16, 158-10*expected/.6, color=BLUE, lw=1.1)
+    bg.plot([9, 9, 36], [147, 160, 160], color=GREY, lw=.6)
+    bg.plot(9+27*(k-1)/16, 160-13*expected/.6, color=BLUE, lw=1.2)
     # Context reuse: match the same upper triangles, rather than implying a learned mapping.
-    for xx, mat in [(49, p), (64, q)]:
+    for xx, mat in [(44, p), (65, q)]:
         upper = mat.copy(); upper[np.tril_indices(4)] = np.nan
-        cells(bg, xx, 149, upper, 1.9)
-    arrow(bg, (58, 153), (63, 153), color=PURPLE)
+        cells(bg, xx, 149, upper, 2.5)
+    arrow(bg, (55, 154), (62, 154), color=PURPLE)
     # Specificity is a subtraction within species, using exactly the illustrated decomposition.
     response, shared, residual = decomposition()
-    cells(bg, 85, 150, response[:3], 1.2, vmin=-2, vmax=2)
-    operator(bg, 93, 152, '-')
-    cells(bg, 96, 150, shared[:3], 1.2, vmin=-2, vmax=2)
-    operator(bg, 104, 152, '=')
-    cells(bg, 107, 150, residual[:3], 1.2, vmin=-2, vmax=2)
+    cells(bg, 83, 149, response, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
+    operator(bg, 93, 153.75, '-')
+    cells(bg, 95.5, 149, shared, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
+    operator(bg, 105.5, 153.75, '=')
+    cells(bg, 108, 149, residual, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
     # A ceiling is an upper reference, with observed agreement expressed relative to it.
-    bg.plot([130, 151], [156, 156], color=GREY, lw=.7)
-    bg.plot([130, 144], [152, 152], color=TEAL, lw=1.5)
-    bg.plot([151, 151], [149, 158], color=INK, lw=.65, ls=(0, (2, 2)))
-    label(bg, 151, 147, 'Ceiling', 5.5, ha='center')
+    bg.plot([125, 152], [159, 159], color=GREY, lw=.7)
+    bg.plot([125, 145], [153, 153], color=TEAL, lw=1.5)
+    bg.plot([152, 152], [149, 160], color=INK, lw=.65, ls=(0, (2, 2)))
+    label(bg, 149, 147, 'Ceiling', 7, ha='center')
     save(fig, out, 1)
 
 
@@ -333,31 +333,39 @@ def figure2(out):
     (out/'Fig2_source_data.json').write_text(json.dumps(data, indent=2)+'\n')
     fig, bg = canvas(158)
     panel(bg, PANEL_LEFT, 5, 'a')
-    label(bg, 7, 12, 'Dataset', 8)
-    label(bg, 56, 12, 'Species (n)', 8, ha='center')
-    label(bg, 99, 12, 'Biological system', 8, ha='center')
-    label(bg, 141, 12, 'Study role', 8, ha='center')
+    label(bg, 7, 12, 'Dataset', 8, weight='bold')
+    label(bg, 56, 12, 'Species (n)', 8, ha='center', weight='bold')
+    label(bg, 99, 12, 'Biological system', 8, ha='center', weight='bold')
+    label(bg, 141, 12, 'Study role', 8, ha='center', weight='bold')
+    bg.plot([5, 157], [16, 16], color=INK, lw=.65)
     role_colours = {'Core analyses': BLUE, 'Additional panels': TEAL, 'External check': PURPLE}
+    role_fills = {'Core analyses': '#EAF6FE', 'Additional panels': '#EAFBF5',
+                  'External check': '#F5EDFC'}
+    for role, fill in role_fills.items():
+        indices = [i for i, r in enumerate(data['datasets']) if r['role'] == role]
+        top = 17+8*min(indices)
+        bg.add_patch(Rectangle((5, top), 152, 8*len(indices), fc=fill, ec='white', lw=1.5))
+        label(bg, 141, top+4*len(indices), role, 7, ha='center')
     a = axes(fig, 39, 17, 34, 56)
+    a.set_facecolor('none')
     for i, row in enumerate(data['datasets']):
         yy = 21+8*i
         color = role_colours[row['role']]
         label(bg, 7, yy, row['name'], 8)
         label(bg, 99, yy, row['system'], 7, ha='center')
-        label(bg, 141, yy, row['role'], 7, ha='center')
         a.barh(i, row['n_species'], height=.45, color=color, linewidth=0)
         a.text(row['n_species']+.35, i, str(row['n_species']), va='center', fontsize=8)
     a.set(xlim=(0, 12), ylim=(6.5, -.5))
     a.set_xticks([0, 5, 10]); a.set_yticks([])
     a.spines['left'].set_visible(False)
 
-    # Both lower panels start on one baseline after the same 12 mm content gutter.
-    lower = 79 + ROW_GAP
+    # More area for the two coverage plots, with shared top and bottom baselines.
+    lower = 87
     panel(bg, PANEL_LEFT, lower, 'b')
     panel(bg, PANEL_RIGHT, lower, 'c')
     blood = data['blood']
-    b = axes(fig, 26, 104, 42, 36)
-    seq = ListedColormap(['#C9E2EE'])
+    b = axes(fig, 23, 96, 50, 46)
+    seq = ListedColormap(['#A4DCF5'])
     values = np.asarray(blood['counts'])
     b.pcolormesh(values, cmap=seq, vmin=0, vmax=50, edgecolors='white', linewidth=1.5)
     b.set(xlim=(0, len(blood['times_h'])), ylim=(len(blood['doses_ng_ml']), 0),
@@ -369,11 +377,11 @@ def figure2(out):
     for i, j in np.ndindex(values.shape):
         b.text(j+.5, i+.5, str(values[i,j]), fontsize=8, ha='center', va='center')
 
-    c = axes(fig, 114, 104, 41, 36)
+    c = axes(fig, 112, 96, 43, 46)
     rows = data['tggates']['comparisons']
     y = np.arange(len(rows))[::-1]
-    c.barh(y, [r['n_shared'] for r in rows], color='#DCE4EA', height=.5, label='Shared')
-    c.barh(y, [r['n_in_band'] for r in rows], color=ORANGE, height=.5, label='In band')
+    c.barh(y, [r['n_shared'] for r in rows], color='#E3E8F0', height=.58, label='Shared')
+    c.barh(y, [r['n_in_band'] for r in rows], color=ORANGE, height=.58, label='In band')
     for yy, row in zip(y, rows):
         c.text(row['n_shared']+4, yy, str(row['n_shared']), fontsize=7, va='center')
         c.text(row['n_in_band']/2, yy, str(row['n_in_band']), fontsize=7, va='center', ha='center')
@@ -382,7 +390,7 @@ def figure2(out):
     c.set_xticks([0, 50, 100, 150]); c.tick_params(axis='y', length=0, pad=3)
     c.spines['left'].set_visible(False)
     fig.legend(*c.get_legend_handles_labels(), loc='center', ncol=2, frameon=False,
-               bbox_to_anchor=(129/160, 1-97/158), fontsize=7, handlelength=1.1,
+               bbox_to_anchor=(129/160, 1-89/158), fontsize=7, handlelength=1.1,
                columnspacing=1.2, handletextpad=.4)
     save(fig, out, 2)
 
@@ -473,7 +481,7 @@ def figure3(out):
 def coefficient_heatmap(fig, bg, x, top, rows, names):
     fields = [('spearman_all', 'p_all'), ('spearman_cross', 'p_cross'),
               ('partial_taxdist', 'p_partial')]
-    ax = axes(fig, x, top, 43, 27)
+    ax = axes(fig, x, top, 49, 34)
     values = np.array([[r[field] for field, _ in fields] for r in rows])
     mesh = ax.pcolormesh(values, cmap=RESPONSE, vmin=-1, vmax=1,
                         edgecolors='white', linewidth=1.5, shading='flat')
@@ -491,27 +499,26 @@ def coefficient_heatmap(fig, bg, x, top, rows, names):
 
 
 def figure4(out):
-    fig, bg = canvas(158)
-    # Three content rows end at 43, 98 and 155 mm, separated by 12 mm gutters.
-    middle_row, last_row = 43 + ROW_GAP, 98 + ROW_GAP
+    fig, bg = canvas(162)
+    middle_row, last_row = 52, 116
     panel(bg, PANEL_LEFT, 5, 'a')
     p, q = toy_contexts()
     idx = np.triu_indices(4, 1)
-    for mat, xx, name in [(p, 10, 'Context 1'), (q, 36, 'Context 2')]:
+    for mat, xx, name in [(p, 9, 'Context 1'), (q, 38, 'Context 2')]:
         upper = mat.copy(); upper[np.tril_indices(4)] = np.nan
-        cells(bg, xx, 18, upper, 3.9)
-        label(bg, xx+7.8, 9.5, name, 7, ha='center')
+        cells(bg, xx, 21, upper, 4.7)
+        label(bg, xx+9.4, 12, name, 7, ha='center')
         for j, letter in enumerate('ABCD'):
-            label(bg, xx+1.95+j*3.9, 15, letter, 7, ha='center')
-            label(bg, xx-1, 19.95+j*3.9, letter, 7, ha='right')
-        bg.add_patch(Rectangle((xx+2*3.9, 18), 3.9, 3.9, fill=False, ec=PURPLE, lw=1.1))
-    arrow(bg, (54, 24), (62, 24))
-    for yy, mat in [(19, p), (27, q)]:
-        cells(bg, 65, yy, mat[idx][None, :], 4)
+            label(bg, xx+2.35+j*4.7, 17.5, letter, 7, ha='center', weight='bold')
+            label(bg, xx-1, 23.35+j*4.7, letter, 7, ha='right', weight='bold')
+        bg.add_patch(Rectangle((xx+2*4.7, 21), 4.7, 4.7, fill=False, ec=PURPLE, lw=1.1))
+    arrow(bg, (60, 29), (67, 29))
+    for yy, mat in [(23, p), (33, q)]:
+        cells(bg, 70, yy, mat[idx][None, :], 4.2)
     for j, name in enumerate(['AB', 'AC', 'AD', 'BC', 'BD', 'CD']):
-        label(bg, 67+j*4, 15.7, name, 5.5, ha='center')
-    arrow(bg, (92, 24), (101, 24))
-    sc = axes(fig, 113, 11, 31, 21)
+        label(bg, 72.1+j*4.2, 19, name, 7, ha='center', weight='bold')
+    arrow(bg, (98, 29), (105, 29))
+    sc = axes(fig, 121, 14, 33, 25)
     # Use the same average-tie convention as the empirical analysis for this teaching example.
     ranks = [centered_ranks(m[idx])+(len(idx[0])+1)/2 for m in (p, q)]
     sc.plot([.5, 6.5], [.5, 6.5], color=LINE, lw=.75)
@@ -530,11 +537,11 @@ def figure4(out):
     assert len(rel) == 3 and len(times) == 3 and len(tissues) == 2
     panel(bg, PANEL_LEFT, middle_row, 'b')
     panel(bg, PANEL_RIGHT, middle_row, 'c')
-    coefficient_heatmap(fig, bg, 22, 62, rel, ['2 h', '6 h', '24 h'])
-    coefficient_heatmap(fig, bg, 108, 62, times, ['2 vs 6 h', '2 vs 24 h', '6 vs 24 h'])
-    colour_key(fig, 71, 73, 14, vmin=-1, vmax=1, title='Spearman r')
+    coefficient_heatmap(fig, bg, 22, 60, rel, ['2 h', '6 h', '24 h'])
+    coefficient_heatmap(fig, bg, 106, 60, times, ['2 vs 6 h', '2 vs 24 h', '6 vs 24 h'])
+    colour_key(fig, 24, 45.5, 27, vmin=-1, vmax=1, title='Correlation')
     panel(bg, PANEL_LEFT, last_row, 'd')
-    d = axes(fig, 47, 120, 96, 26)
+    d = axes(fig, 43, 126, 98, 23)
     cfg = [('spearman_all', 'p_all', GREY, 'o', 'All pairs'),
            ('spearman_cross', 'p_cross', BLUE, 's', 'Cross-order'),
            ('partial_taxdist', 'p_partial', PURPLE, 'D', 'Taxonomy adjusted')]
@@ -546,51 +553,52 @@ def figure4(out):
                    fontsize=7, va='center')
     d.set(xlim=(-.45, .80), ylim=(-.5, 1.5), xlabel='Matrix agreement (Spearman)')
     d.axvline(0, color=GREY, lw=.65)
-    d.set_yticks([1, 0], ['Pool profiles,\nthen correlate', 'Correlate per condition,\nthen average'], fontsize=7)
+    d.set_yticks([1, 0], ['Pool profiles,\nthen correlate', 'Correlate by condition,\nthen average'], fontsize=7)
     d.set_xticks([-.4, 0, .4, .8]); d.tick_params(axis='y', length=0)
     d.spines['left'].set_visible(False)
     fig.legend(handles=[Line2D([], [], marker=m, color=c, ls='', ms=3.4, label=l)
                         for _, _, c, m, l in cfg], loc='center',
-               bbox_to_anchor=(111/160, 1-111/158), ncol=3, frameon=False,
+               bbox_to_anchor=(80/160, 1-116/162), ncol=3, frameon=False,
                columnspacing=.8, handletextpad=.3, fontsize=7)
     save(fig, out, 4)
 
 
 def figure5(out):
-    fig, bg = canvas(140)
-    # Two equal-width columns; both panel-letter columns share the same x positions.
-    second_row = 51 + ROW_GAP
+    fig, bg = canvas(145)
+    # The decomposition uses two thirds of the top row; the result plots share a baseline.
+    second_row = 56 + ROW_GAP
     panel(bg, PANEL_LEFT, 5, 'a')
-    panel(bg, PANEL_RIGHT, 5, 'b')
+    panel(bg, 109, 5, 'b')
     for i, (v, title) in enumerate(zip(decomposition(), ['Response', 'Mean', 'Residual'])):
-        xx = 11+i*23
-        cells(bg, xx, 20.5, v, 3, vmin=-2, vmax=2)
-        label(bg, xx+6, 11, title, 8, ha='center')
+        xx = 12+i*32
+        cells(bg, xx, 20.5, v, 4.3, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.4)
+        label(bg, xx+8.6, 11, title, 8, ha='center')
         for j in range(4):
-            label(bg, xx+1.5+j*3, 17.2, str(j+1), 7, ha='center')
+            label(bg, xx+2.15+j*4.3, 17.2, str(j+1), 7, ha='center', weight='bold')
         if i == 0:
-            for j in range(5):label(bg, xx-1.5, 22+3*j, f'g{j+1}', 7, ha='right')
-    operator(bg, 28.5, 28, '-')
-    operator(bg, 51.5, 28, '=')
-    colour_key(fig, 27, 45, 26, vmin=-2, vmax=2, title='Response (a.u.)')
+            for j in range(5):
+                label(bg, xx-1.5, 22.65+4.3*j, f'g{j+1}', 7, ha='right', weight='bold')
+    operator(bg, 36.6, 31.25, '-')
+    operator(bg, 68.6, 31.25, '=')
+    colour_key(fig, 39, 51, 27, vmin=-2, vmax=2, title='Response (a.u.)')
     # The pairing map shows the control operation without pretending it is observed data.
     for i, j in np.ndindex(4, 4):
-        bg.add_patch(Rectangle((114+j*4.5, 20.5+i*4.5), 4.5, 4.5,
-                              fc=BLUE if i == j else '#E6EBF0', ec='white', lw=.8))
+        bg.add_patch(Rectangle((129+j*6, 20.5+i*6), 6, 6,
+                              fc=BLUE if i == j else '#E3E8F0', ec='white', lw=.8))
     for j in range(4):
-        label(bg, 116.25+j*4.5, 17.2, str(j+1), 7, ha='center')
-        label(bg, 112.5, 22.75+j*4.5, str(j+1), 7, ha='right')
-    label(bg, 123, 11, 'Human condition', 8, ha='center')
-    label(bg, 104, 29.5, 'Donor condition', 8, ha='center', rotation=90)
-    for xx, col, name in [(94, BLUE, 'Matched'), (122, '#D9E1E8', 'Mismatched')]:
-        bg.add_patch(Rectangle((xx, 45-1.1), 2.2, 2.2, fc=col, ec='none'))
-        label(bg, xx+4, 45, name, 7)
+        label(bg, 132+j*6, 17.2, str(j+1), 7, ha='center', weight='bold')
+        label(bg, 127.5, 23.5+j*6, str(j+1), 7, ha='right', weight='bold')
+    label(bg, 141, 11, 'Human condition', 8, ha='center', weight='bold')
+    label(bg, 120, 32.5, 'Donor condition', 8, ha='center', rotation=90, weight='bold')
+    for yy, col, name in [(49, BLUE, 'Matched'), (54, '#E3E8F0', 'Mismatched')]:
+        bg.add_patch(Rectangle((129, yy-1.1), 2.2, 2.2, fc=col, ec='none'))
+        label(bg, 133, yy, name, 7)
     panel(bg, PANEL_LEFT, second_row, 'c')
     panel(bg, PANEL_RIGHT, second_row, 'd')
     data = load('reconstruct_specificity')['blocks']; raw, res = data['raw'], data['residual']
     order = sorted(raw, key=lambda k: -raw[k]['matched']); yy = np.arange(len(order))[::-1]
-    c = axes(fig, 29, 75, 47, 52)
-    d = axes(fig, 100, 75, 55, 52)
+    c = axes(fig, 29, 80, 47, 52)
+    d = axes(fig, 100, 80, 55, 52)
     total = np.array([raw[k]['matched'] for k in order])
     mis = np.array([raw[k]['mismatched_median'] for k in order])
     c.hlines(yy, mis, total, color='#BAC6D1', lw=1)
@@ -615,7 +623,7 @@ def figure5(out):
         ax.tick_params(axis='y', length=0)
         ax.spines['left'].set_visible(False)
     fig.legend(*c.get_legend_handles_labels(), loc='center',
-               bbox_to_anchor=(48/160, 1-68/140), ncol=2, frameon=False,
+               bbox_to_anchor=(48/160, 1-73/145), ncol=2, frameon=False,
                handletextpad=.35, columnspacing=1, fontsize=7)
     save(fig, out, 5)
 
