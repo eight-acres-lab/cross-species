@@ -159,6 +159,15 @@ def toy_contexts():
     return np.corrcoef(x), np.corrcoef(z)
 
 
+def toy_replicates():
+    # A separate teaching example: both within-side correlations exceed the
+    # analysis's 0.10 reliability floor. Species in toy_responses are not replicates.
+    return np.array([[1.4, 0.8, -1.1, -0.6, 0.2, -0.5],
+                     [0.9, 1.1, -0.7, -1.2, 0.4, -0.2],
+                     [1.0, 0.5, -0.8, 0.1, 0.7, -0.4],
+                     [0.7, 0.7, -1.0, -0.2, 0.5, 0.1]])
+
+
 def decomposition():
     x = np.array([[1.7, 1.2, 0.8, 1.5], [-1.2, -0.4, -0.8, -1.6],
                   [0.8, -0.4, 0.5, -0.1], [-0.3, 0.9, -0.9, 0.3],
@@ -255,8 +264,9 @@ def figure1(out):
     label(bg, 35, 105, 'Pair-rank agreement', 7)
     # The ceiling uses replicate response correlations within sides, not rho split halves.
     label(bg, 119.5, 67, 'Replicate response profiles', 7, ha='center')
-    strips = [(90, 76, 'A1', x[0]), (90, 87, 'A2', x[1]),
-              (133, 76, 'B1', x[2]), (133, 87, 'B2', x[3])]
+    reps = toy_replicates()
+    strips = [(90, 76, 'A1', reps[0]), (90, 87, 'A2', reps[1]),
+              (133, 76, 'B1', reps[2]), (133, 87, 'B2', reps[3])]
     for xx, yy, name, values in strips:
         cells(bg, xx, yy, values[None, :], 2, vmin=-1.5, vmax=1.5)
         label(bg, xx+6, yy-3 if yy == 76 else yy+5.5, name, 6.2, ha='center')
@@ -325,7 +335,7 @@ def figure2(out):
     label(bg, 56, 12, 'Species (n)', 8, ha='center')
     label(bg, 99, 12, 'Biological system', 8, ha='center')
     label(bg, 141, 12, 'Study role', 8, ha='center')
-    role_colours = {'Core analyses': BLUE, 'Replication': TEAL, 'External check': PURPLE}
+    role_colours = {'Core analyses': BLUE, 'Additional panels': TEAL, 'External check': PURPLE}
     a = axes(fig, 39, 17, 34, 56)
     for i, row in enumerate(data['datasets']):
         yy = 21+8*i
@@ -438,14 +448,15 @@ def figure3(out):
     d.plot([r['k'] for r in core['spread_collectible six']],
            [r['mean'] for r in core['spread_collectible six']],
            's', color=BLUE, ms=3.4, mec='white', mew=.35)
-    d.axhline(c['asymptote'], color=BLUE, lw=.65, ls=(0, (4, 2)))
+    # The asymptote is only 0.0025 above macaque: a second horizontal line
+    # cannot be distinguished at print size. Report it in the caption instead.
     d.axhline(core['macaque'], color=PURPLE, lw=.7, ls=(0, (1, 2)))
     d.axhline(core['chimp'], color=GREY, lw=.7, ls=(0, (1, 2)))
     d.plot(core['k_to_match_macaque'], core['macaque'], 'D', color=PURPLE, ms=4,
            mec='white', mew=.3)
     d.legend(handles=[
         Line2D([], [], color=GREY, lw=.7, ls=':', label='Chimpanzee'),
-        Line2D([], [], color=BLUE, lw=.7, ls='--', label='Asymptote'),
+        Line2D([], [], color=BLUE, lw=1.2, ls='--', label='Pooling model'),
         Line2D([], [], color=PURPLE, lw=.7, ls=':', label='Macaque'),
     ], loc='upper left', frameon=True, facecolor='white', edgecolor='white',
        framealpha=1, fontsize=7, handlelength=1.8, labelspacing=.3)

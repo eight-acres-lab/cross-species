@@ -26,6 +26,8 @@ Figure 2 also exports `Fig2_source_data.json`, including metadata counts, their 
 definitions and source hashes. The blood grid includes only conditions shared by all ten
 species (387 response rows); one of the 388 deposited rows lies outside that grid. TG-GATEs
 counts are distinct compounds per comparison and must not be summed as independent cohorts.
+Figure 4 uses all 388 deposited blood responses, including the single response outside
+Figure 2b's shared-condition grid. Figure 3 and Figure 5 use the nine shared conditions.
 
 ## Manuscript build
 

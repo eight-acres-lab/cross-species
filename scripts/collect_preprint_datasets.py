@@ -27,11 +27,11 @@ def collect_dataset_overview():
     metadata = [
         ('Blood', BLOOD, 'Whole blood', 'Core analyses', 'GSE249010'),
         ('Hepatocytes', 'artifacts/biology/gse330151/response_metadata.tsv',
-         'Primary hepatocytes', 'Replication', 'GSE330151'),
+         'Primary hepatocytes', 'Additional panels', 'GSE330151'),
         ('Macrophages', 'artifacts/faang_bmdm/processed/response_metadata.tsv',
-         'Macrophages', 'Replication', 'PRJEB22535 and related projects'),
+         'Macrophages', 'Additional panels', 'PRJEB22535 and related projects'),
         ('Yeasts', 'artifacts/biology/selenite/response_metadata.tsv',
-         'Yeast culture', 'Replication', 'E-MTAB-7022 and related accessions'),
+         'Yeast culture', 'Additional panels', 'E-MTAB-7022 and related accessions'),
     ]
     for name, source, system, role, accession in metadata:
         rows = blood if source == BLOOD else read(source, table=True)

@@ -43,7 +43,7 @@
       ],
       "n_species": 5,
       "system": "Primary hepatocytes",
-      "role": "Replication",
+      "role": "Additional panels",
       "accession": "GSE330151",
       "source": "artifacts/biology/gse330151/response_metadata.tsv"
     },
@@ -62,7 +62,7 @@
       ],
       "n_species": 9,
       "system": "Macrophages",
-      "role": "Replication",
+      "role": "Additional panels",
       "accession": "PRJEB22535 and related projects",
       "source": "artifacts/faang_bmdm/processed/response_metadata.tsv"
     },
@@ -79,7 +79,7 @@
       ],
       "n_species": 7,
       "system": "Yeast culture",
-      "role": "Replication",
+      "role": "Additional panels",
       "accession": "E-MTAB-7022 and related accessions",
       "source": "artifacts/biology/selenite/response_metadata.tsv"
     },

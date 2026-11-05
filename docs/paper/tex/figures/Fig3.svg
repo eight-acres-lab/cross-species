@@ -1084,21 +1084,16 @@ z
     </g>
    </g>
    <g id="line2d_83">
-    <path d="M 272.125984 302.329555
-L 439.370079 302.329555
-" clip-path="url(#pff3d7eca01)" style="fill: none; stroke-dasharray: 2.6,1.3; stroke-dashoffset: 0; stroke: #2585bd; stroke-width: 0.65"/>
-   </g>
-   <g id="line2d_84">
     <path d="M 272.125984 302.871094
 L 439.370079 302.871094
 " clip-path="url(#pff3d7eca01)" style="fill: none; stroke-dasharray: 0.7,1.4; stroke-dashoffset: 0; stroke: #8561ad; stroke-width: 0.7"/>
    </g>
-   <g id="line2d_85">
+   <g id="line2d_84">
     <path d="M 272.125984 271.980527
 L 439.370079 271.980527
 " clip-path="url(#pff3d7eca01)" style="fill: none; stroke-dasharray: 0.7,1.4; stroke-dashoffset: 0; stroke: #87929e; stroke-width: 0.7"/>
    </g>
-   <g id="line2d_86">
+   <g id="line2d_85">
     <defs>
      <path id="mcce1a3525f" d="M -0 2.828427
 L 2.828427 0
@@ -1124,10 +1119,10 @@ L 439.370079 379.84252
    <g id="legend_2">
     <g id="patch_14">
      <path d="M 277.025984 290.9609
-L 337.323328 290.9609
-Q 338.723328 290.9609 338.723328 289.5609
-L 338.723328 262.852756
-Q 338.723328 261.452756 337.323328 261.452756
+L 342.385203 290.9609
+Q 343.785203 290.9609 343.785203 289.5609
+L 343.785203 262.852756
+Q 343.785203 261.452756 342.385203 261.452756
 L 277.025984 261.452756
 Q 275.625984 261.452756 275.625984 262.852756
 L 275.625984 289.5609
@@ -1135,7 +1130,7 @@ Q 275.625984 290.9609 277.025984 290.9609
 z
 " style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
     </g>
-    <g id="line2d_87">
+    <g id="line2d_86">
      <path d="M 278.425984 266.898947
 L 284.725984 266.898947
 L 291.025984 266.898947
@@ -1144,16 +1139,16 @@ L 291.025984 266.898947
     <g id="text_67">
      <text style="font-size: 7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="296.625984" y="269.348947" transform="rotate(-0 296.625984 269.348947)">Chimpanzee</text>
     </g>
-    <g id="line2d_88">
+    <g id="line2d_87">
      <path d="M 278.425984 275.568283
 L 284.725984 275.568283
 L 291.025984 275.568283
-" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #2585bd; stroke-width: 0.7"/>
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #2585bd; stroke-width: 1.2"/>
     </g>
     <g id="text_68">
-     <text style="font-size: 7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="296.625984" y="278.018283" transform="rotate(-0 296.625984 278.018283)">Asymptote</text>
+     <text style="font-size: 7px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="296.625984" y="278.018283" transform="rotate(-0 296.625984 278.018283)">Pooling model</text>
     </g>
-    <g id="line2d_89">
+    <g id="line2d_88">
      <path d="M 278.425984 284.237756
 L 284.725984 284.237756
 L 291.025984 284.237756

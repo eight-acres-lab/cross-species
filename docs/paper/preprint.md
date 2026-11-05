@@ -131,8 +131,8 @@ then report donor value and panel saturation, context transfer, and response spe
 ![](tex/figures/Fig1.png)
 
 **Figure 1.** Workflow for assessing cross-species transcriptomic agreement.
-**1**, Perturbation responses are constructed relative to controls on a common gene axis
-within each dataset, retaining subject and condition identities. The blood panel comprises
+**1**, Responses are calculated relative to controls on a common gene axis within each
+dataset. The blood panel comprises
 ten species exposed to lipopolysaccharide (LPS); TG-GATEs provides human and rat hepatocytes
 and rat liver in vivo. **2**, For the blood panel, species-mean response profiles are
 correlated across genes to form the redundancy matrix, ρ. Subjects are split within each
@@ -150,20 +150,20 @@ specificity, and comparisons of experimental boundaries. All displayed matrices 
 miniatures are illustrative; they are not fitted or measured results. Blue-to-orange colours
 in the response-difference and correlation matrices denote negative-to-positive values;
 response matrices use arbitrary units, while
-correlation matrices span −1 to +1. Dataset-specific preprocessing and additional
-validation panels are described in Methods.
+correlation matrices span −1 to +1.
 
 ![](tex/figures/Fig2.png)
 
-**Figure 2.** Dataset scope and coverage of the analysed comparisons. **a**, Five primary
-panels and two external checks. Bars count species, not individuals. The primary panels
+**Figure 2.** Dataset scope and coverage of the analysed comparisons. **a**, Five study
+panels and two external checks. Bars count species, not individuals. The study panels
 comprise ex vivo blood (GSE249010), human and rat hepatocytes and rat liver (TG-GATEs,
 S-DIXA-AN-004/005/007), five-species hepatocytes (GSE330151), nine-species macrophages
 (FAANG, PRJEB22535 and related projects), and seven yeasts (E-MTAB-7022 and related
 accessions). The external checks use human LINCS L1000 profiles (GSE70138; MCF7 and PC3
 cell lines) and the human Parse peripheral blood mononuclear cell (PBMC) release analysed
-with Rhaister. Blue, teal and purple bars distinguish core analyses, replication panels
-and external checks. **b**, Numbers of blood response profiles at each lipopolysaccharide
+with Rhaister. Blue, teal and purple bars distinguish core analyses, additional panels
+and external checks. Additional panels assess saturation or cross-context reuse.
+**b**, Numbers of blood response profiles at each lipopolysaccharide
 (LPS) dose and time, restricted to conditions present in all ten species. The nine shared
 conditions contain 387 response profiles from 44 subjects; one deposited response lies
 outside this shared grid. A response profile is a subject-by-condition observation;
@@ -203,9 +203,9 @@ undecidable for exactly that reason.
 
 ### 2.2 Ceiling normalisation and the exceeds-unity bound
 
-Figure 3a fixes the correlation unit that Sections 2.3, 2.5, 3.1 and 3.2 read values in: for each
-donor species, the agreement between its response and the held-out human response in the blood
-panel. The scale this section builds is the second one, and it is what Table 2 below uses.
+In the blood panel, raw agreement is the across-gene Pearson correlation between each donor
+species and the held-out human response, averaged over the nine shared conditions. This
+section defines a second scale, the fraction of a replicate-based ceiling, used in Table 2.
 
 The reliability in Section 2.1 is a special case of a construction that applies to any
 comparison; Svensson et al. [62] score perturbation-response models against a half-sample
@@ -285,8 +285,10 @@ not separate in these data, rather than ordering them.
 **Figure 3.** Donor value, panel composition and the limits of pooling. **a**, Mean
 across-gene Pearson correlation between each donor species and the held-out human response,
 over nine endotoxin conditions in ex vivo blood (25,638 genes). Points and horizontal bars
-show estimates and 95% stratified leave-one-subject-out jackknife intervals. Absolute values
-are low by 0.022 to 0.062 under the missing-value convention of Section 3.2. **b, c**, Best
+show estimates and approximate 95% stratified leave-one-subject-out jackknife intervals.
+Human, cow, macaque and rabbit each contribute five subjects; the other six species each
+contribute four. Subjects, not the repeated conditions, are the resampling units. The
+missing-value control in Section 3.2 increases these correlations by 0.022 to 0.062. **b, c**, Best
 (orange circles), mean (blue squares) and worst (grey triangles) equal-weight subsets at each
 size, enumerated among the six non-primate donors and all nine donors, respectively. Shading
 is the full range across subsets, not an uncertainty interval; both panels share the same
@@ -294,8 +296,9 @@ vertical scale. **d**, The exchangeable-predictor expectation
 $R(k)=k\bar{r}/\sqrt{k+k(k-1)\bar{\rho}}$, using measured mean
 donor–human r̄ = 0.276 and donor–donor ρ̄ = 0.265 for the six non-primate species, assumes unit
 variances and equal pair correlations. Blue squares are measured subset means. The grey
-region and dashed curve mark extrapolation beyond the six available donors. Horizontal
-references show the pool asymptote (0.536), one macaque (0.534) and one chimpanzee (0.676).
+region and dashed blue curve mark extrapolation beyond the six available donors. The pooling
+model approaches an asymptote of 0.536; horizontal references show one macaque (0.534)
+and one chimpanzee (0.676).
 The diamond marks the analytic crossing at k = 297, not a measured panel; this crossing
 disappears on the filtered gene axes of Section 2.5. All empirical panels use the same nine
 conditions and gene axis.
@@ -367,8 +370,10 @@ A–C; the rank plot's diagonal denotes equal ranks. **b**, Measured split-half 
 within each blood timepoint. **c**, Measured agreement between blood timepoints. Numbers
 and heatmap colours encode Spearman coefficients; the three columns use all pairs,
 cross-order pairs, and partial correlation after removing ranked taxonomic distance.
-Panels b and c use 45 species pairs, including 35 cross-order pairs. **d**, Blood–macrophage
-agreement over ten shared pairs, six cross-order, shown for both estimators: pooling profiles
+Panels b and c use 45 species pairs, including 35 cross-order pairs. Blood matrices use all
+388 deposited response profiles from 44 subjects, including the response outside the shared
+grid in Figure 2b. **d**, Blood–macrophage agreement over five shared species (ten pairs,
+six cross-order), shown for both estimators: pooling profiles
 before correlation, or correlating within conditions and then averaging. Grey circles,
 blue squares and purple diamonds correspond to the three analyses in b and c. All empirical
 panels use the current two-estimator analysis. Asterisks mark nominal one-sided p < 0.05 under

@@ -245,7 +245,8 @@ def main():
         raise SystemExit("Install XeLaTeX or Tectonic; editable preprint.tex has been generated.")
     log = (TEX / "preprint.log").read_text(errors="replace")
     errors = [line for line in log.splitlines() if any(s in line for s in
-              ("Missing character:", "Overfull ", "undefined references", "undefined citations"))]
+              ("Missing character:", "Overfull ", "Float too large for page",
+               "undefined references", "undefined citations"))]
     if errors:
         raise SystemExit("Fix layout/build warnings before publishing:\n" + "\n".join(errors))
     shutil.copyfile(TEX / "preprint.pdf", PAPER / "preprint.pdf")
