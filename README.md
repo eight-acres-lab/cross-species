@@ -5,7 +5,8 @@ numerical results, processed inputs, source metadata and reproduction instructio
 
 **Interpretation correction (2026-11-06):** historical injury-prediction p-values require
 recomputation with the corrected permutation procedure. The archived LINCS full-mean/half-sample
-ratio is excluded from ceiling inference. See [the correction notes](REPRODUCING.md#interpretation-corrections-2026-11-06)
+ratio is excluded from ceiling inference. TG-GATEs replicate-normalised scores are descriptive,
+not verified upper-bound fractions; phylogeny-adjusted Mantel p-values remain exploratory. See [the correction notes](REPRODUCING.md#interpretation-corrections-2026-11-06)
 before interpreting those outputs; numerical checksum and consistency checks do not validate inference.
 The [follow-up audit](artifacts/biology/reviewer_followup.json) records concentration-matched
 sensitivities, Holm correction for Table 3, and the three donor pairs per GSE330151 group.

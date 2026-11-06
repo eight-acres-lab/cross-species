@@ -14,7 +14,7 @@ Each control holds species and system fixed and changes one thing:
 import argparse, json, sys
 import numpy as np
 sys.path.insert(0, __file__.rsplit('/', 1)[0])
-from run_system_vs_species import compare, load, summarise   # noqa: E402
+from run_system_vs_species import compare, load, summarise, NORMALISATION_NOTE   # noqa: E402
 
 
 def main():
@@ -26,6 +26,7 @@ def main():
     ap.add_argument('--min-rel', type=float, default=0.10)
     ap.add_argument('--out', required=True)
     a = ap.parse_args()
+    print(NORMALISATION_NOTE)
 
     axis = json.load(open(a.axis))['axis']
     sets = {'human hepatocyte': (load(a.human_hep, 'homo_sapiens', axis), 'hr'),

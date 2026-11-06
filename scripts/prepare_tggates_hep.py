@@ -11,7 +11,9 @@ Three things here are easy to get wrong and each one is checked rather than assu
   value poisons comparisons, so every read goes through a finite check; two stray NaNs
   were enough to make a sorted 6,765-element array report a median below its own first
   quartile.
-* Probes that map to several genes are dropped rather than assigned to one of them.
+* Probes matching more than one gene on the selected axis are dropped. A probe with
+  one on-axis hit can still have off-axis annotations, so this is not proof of unique
+  genomic specificity.
 
 Output is gene x condition x replicate, where a condition is (compound, dose level, time).
 The matrix is already expressed as log2 ratio to the matched control, which was verified
@@ -45,7 +47,7 @@ def load_axis(path, species):
 
 
 def load_probe_map(path, axis_set):
-    """probe id -> gene, keeping only probes that name exactly one axis gene."""
+    """probe id -> gene, keeping exactly one on-axis hit (off-axis hits may exist)."""
     rd = csv.DictReader(open(path, encoding='utf-8', errors='replace'), delimiter='\t')
     id_col = rd.fieldnames[0]
     ens_col = next(c for c in rd.fieldnames if 'ensembl' in c.lower())

@@ -16,18 +16,18 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 7251,
-      "sha256": "28dedd55cd2fb35d3575175be93a68405cc87a2f4caf5c4873cf17cfb1a750df"
+      "bytes": 7523,
+      "sha256": "1baf12a3b2a636056f2c42ddce0eace799602efcfe55ae10fe86a9d99e7fe957"
     },
     {
       "path": "README.md",
-      "bytes": 3274,
-      "sha256": "de7e1693e77d4ba041e913047326bb1c90435c281562988c61b50ce34c8c95cf"
+      "bytes": 3419,
+      "sha256": "584aac3fd5ddb754d939545927bbaac4ba29ce50d83b19f8aa682a3d0ce70011"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 10132,
-      "sha256": "98b47efbea5a2b72210c10adcf03fb1203a9af2095b8677257352de74f3aeb7e"
+      "bytes": 11526,
+      "sha256": "6d2f3434701644e2198098306c76d7abc28abe36fb93414ee233115ca7f06a87"
     },
     {
       "path": "artifacts/biology/concordance/annotation_control.json",
@@ -228,6 +228,11 @@
       "path": "artifacts/biology/gse330151/response_metadata.tsv",
       "bytes": 1373,
       "sha256": "a96b504dadb27769a88134f8472ecd55a72b3c6fd4d881b48f9d24f1352aa168"
+    },
+    {
+      "path": "artifacts/biology/replicate_normalisation_audit.json",
+      "bytes": 11835,
+      "sha256": "6b775335cd44fdbf07b9c55dd1f1b1370276f6a183ab7a5c96774b1643399844"
     },
     {
       "path": "artifacts/biology/reviewer_followup.json",
@@ -470,6 +475,11 @@
       "sha256": "ae5997ab797c58fc987a7f9e830f9c485110c60714f1689c153d50f966ef1b77"
     },
     {
+      "path": "scripts/audit_replicate_normalisation.py",
+      "bytes": 5653,
+      "sha256": "90935c31b209d0e13c8bafcee166aacdd8f94105f4b1f518b00d871c66a1fe43"
+    },
+    {
       "path": "scripts/build_tggates_rat_human_ortholog_map.py",
       "bytes": 8034,
       "sha256": "d9abc30189349a2ad19492808b408acb435d20da48d59058b9f2fae07663b58a"
@@ -591,8 +601,8 @@
     },
     {
       "path": "scripts/make_preprint_figures.py",
-      "bytes": 37924,
-      "sha256": "300030355f99673059dfdbdc62a591ea4fceea9be449088dd94ae491634be2cd"
+      "bytes": 37911,
+      "sha256": "6fceaffe20341cf584ecbd137cf72df48d2f6d52d3f9f8655307f433fa2da3c5"
     },
     {
       "path": "scripts/make_rhaister_cluster_splits.py",
@@ -626,8 +636,8 @@
     },
     {
       "path": "scripts/prepare_tggates_hep.py",
-      "bytes": 8297,
-      "sha256": "eb2481037c243196e48b975b372b84d9be39b20755d51263cebce50cecbfc703"
+      "bytes": 8412,
+      "sha256": "dc1b1a2059c26d73b2c6acd5b14c15797f88c77f7bb40433091a2e6a991ed379"
     },
     {
       "path": "scripts/prepare_tggates_sample_metadata.py",
@@ -661,13 +671,13 @@
     },
     {
       "path": "scripts/run_matched_time_system.py",
-      "bytes": 5767,
-      "sha256": "3a96626116d4119da8489b93f132ed50db1f33882b80f3fe511cd9f7a0682be6"
+      "bytes": 5436,
+      "sha256": "a668c343ffea06550167cd9137b8ca456c47a3863a2dcb7cc2e1f966d1df9170"
     },
     {
       "path": "scripts/run_mismatch_controls.py",
-      "bytes": 2756,
-      "sha256": "2fcb29e7b76cd6ef889a2075d655e69f1e6788c0ac8c2df3a65a06a01968b410"
+      "bytes": 2806,
+      "sha256": "ff8c18cce5c52f6d6b593118f838a9565ed1eb44a2ee71abf6bb81c3708e16b8"
     },
     {
       "path": "scripts/run_panel_design.py",
@@ -696,8 +706,8 @@
     },
     {
       "path": "scripts/run_rho_reliability_and_phylogeny.py",
-      "bytes": 16100,
-      "sha256": "4c31f66cba9738fdd4a41a2590089f828c1de1ead9f24e3354b5adb7f6b2f68e"
+      "bytes": 16553,
+      "sha256": "c94f3434518f0a31bc8cdce191c1ee97352fe9199fefa61245d5d69d33d450d7"
     },
     {
       "path": "scripts/run_species_concordance.py",
@@ -706,8 +716,8 @@
     },
     {
       "path": "scripts/run_system_vs_species.py",
-      "bytes": 9190,
-      "sha256": "5cc92925763f6e6b5963a9bde9481d78383502c601cceff77d498b693f6efdac"
+      "bytes": 9666,
+      "sha256": "9a16ade09cf593f55b0cc4ec09d1ab3baf5603e80ed303839fda51cecde3205d"
     },
     {
       "path": "scripts/run_tggates_knn_validation.py",
@@ -763,6 +773,11 @@
       "path": "tests/test_pilot.py",
       "bytes": 2709,
       "sha256": "0f84ea32b2c4cd14d43f9a82e5420a4f8727dd67567eebd5b8ff1f957b932521"
+    },
+    {
+      "path": "tests/test_replicate_normalisation.py",
+      "bytes": 1538,
+      "sha256": "c988c2fd6435615eefe7a6471dc3559b95616d29b57dfca41876a2cd1752b159"
     },
     {
       "path": "tests/test_reviewer_followup.py",

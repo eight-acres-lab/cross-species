@@ -316,7 +316,7 @@ def figure1(out):
     label(bg, 109.5, 25.9, 'Subject ×\ncondition', 7, ha='center', rotation=90,
           rotation_mode='anchor')
     colour_key(fig, 119, 44, 29, vmin=-1.5, vmax=1.5, title='Response (a.u.)')
-    # A fork: species redundancy and profile-level ceilings are distinct constructions.
+    # A fork: species redundancy and profile-level normalisation are distinct constructions.
     bg.plot([146.5, 154, 154, 40], [26, 26, 51, 51], color=LINE, lw=.8)
     arrow(bg, (40, 51), (40, 55), color=INDIGO)
     arrow(bg, (121, 51), (121, 55), color=OCHRE)
@@ -325,7 +325,7 @@ def figure1(out):
     # Every numbered heading sits 6 mm above its content area. The branch
     # boxes group calculations; they do not enclose a different heading level.
     stage(bg, 3, 57, 2, 'Quantify species redundancy', INDIGO)
-    stage(bg, 82, 57, 3, 'Estimate replicate ceiling', OCHRE)
+    stage(bg, 82, 57, 3, 'Normalise with replicates', OCHRE)
     region(bg, 3, 63, 75, 52, 'white', '#9C9FC7')
     region(bg, 82, 63, 75, 52, 'white', '#D8BB7C')
     x = toy_responses()
@@ -346,7 +346,7 @@ def figure1(out):
         label(bg, xx+5.2, 94, name, 7, ha='center')
     arrow(bg, (30, 102), (43, 102), color=INDIGO)
     label(bg, 40.5, 111.5, 'Subject splits test pair-rank agreement', 7, ha='center')
-    # The ceiling uses replicate response correlations within sides, not rho split halves.
+    # The denominator uses replicate response correlations within sides, not rho split halves.
     reps = toy_replicates()
     strips = [(89, 73, 'A1', reps[0]), (89, 95, 'A2', reps[1]),
               (134, 73, 'B1', reps[2]), (134, 95, 'B2', reps[3])]
@@ -361,7 +361,7 @@ def figure1(out):
         arrow(bg, (107, start), (131.5, end), color=GREY, lw=.7)
     # Show all four cross-side pairings without masking their crossing.
     label(bg, 119.3, 102, 'Mean = agreement', 7, ha='center')
-    label(bg, 119.5, 109, 'Fraction = agreement / √(rel A × rel B)', 7, ha='center')
+    label(bg, 119.5, 109, 'Q = agreement / √(rel A × rel B)', 7, ha='center')
     # Both constructions constrain interpretation, with different validation requirements.
     arrow(bg, (40, 115.5), (40, 121), color=INDIGO)
     arrow(bg, (120, 115.5), (120, 121), color=OCHRE)
@@ -374,7 +374,7 @@ def figure1(out):
         (INDIGO, 'Panel design', 'Donor value  ·  Fig. 3'),
         (PETROL, 'Context reuse', 'Time / tissue  ·  Fig. 4'),
         (OCHRE, 'Response specificity', 'Shared / residual  ·  Fig. 5'),
-        (GREEN, 'Boundary comparison', 'Fraction of ceiling  ·  Table 2'),
+        (GREEN, 'Boundary comparison', 'Normalised score  ·  Table 2'),
     ]):
         xx = 3 + i*39
         bg.plot([xx+1, xx+37], [144, 144], color=color, lw=1.6)
@@ -397,11 +397,11 @@ def figure1(out):
     cells(bg, 95.5, 149, shared, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
     operator(bg, 105.5, 153.75, '=')
     cells(bg, 108, 149, residual, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
-    # A ceiling is an upper reference, with observed agreement expressed relative to it.
+    # The denominator is a scaling reference, not a verified upper bound.
     bg.plot([125, 152], [159, 159], color=GREY, lw=.7)
     bg.plot([125, 145], [153, 153], color=GREEN, lw=1.5)
     bg.plot([152, 152], [149, 160], color=INK, lw=.65, ls=(0, (2, 2)))
-    label(bg, 149, 147, 'Ceiling', 7, ha='center')
+    label(bg, 145, 147, 'Denominator', 7, ha='center')
     save(fig, out, 1)
 
 

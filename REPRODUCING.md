@@ -11,6 +11,7 @@ python scripts/verify_release.py
 python scripts/verify_preprint_numbers.py
 python -m unittest discover -s tests -p 'test_*.py'
 python scripts/audit_dose_and_multiplicity.py --out /tmp/reviewer_followup.json
+python scripts/audit_replicate_normalisation.py --out /tmp/replicate_normalisation_audit.json
 python scripts/make_preprint_figures.py --out outputs/figures
 ```
 
@@ -38,7 +39,8 @@ inference; passing it does not resolve the issues below.
   reduction after off-diagonal row adjustment, not an orthogonal variance decomposition.
 - High labels do not match actual human/rat concentrations. The new audit records all
   per-compound concentrations: 21 of 38 in-band species comparisons differ, and the other
-  17 retain a median 15.65% of their ceiling. After matching both concentration and ceiling,
+  17 have a median replicate-normalised score Q = 0.1565 (not a verified ceiling fraction).
+  After matching both concentration and the denominator band,
   the rat time–species sign-test p-values are 0.065 and 0.125 (nominal, exploratory).
 - `reviewer_followup.json` includes nominal and Holm-adjusted p-values for all 18 Table 3
   tests as one post-hoc family, plus the colleague's six-test sensitivity. Figure 4 now
@@ -49,6 +51,21 @@ inference; passing it does not resolve the issues below.
   profiles; the cross-tissue analysis did not estimate donor-level matrix reliability.
   The source study is not unreplicated. Re-estimation needs the donor-wise input arrays,
   which are not included in this snapshot.
+
+- TG-GATEs `frac` values are descriptive normalised scores. Averaging four cross-replicate
+  correlations and dividing by the geometric mean of within-side correlations needs equal
+  precision within each side for an attenuation interpretation. Independent errors alone
+  do not suffice. `replicate_normalisation_audit.json` reproduces an exact independent-error
+  example with Q = 1.333 and another inside the selected denominator band with Q = 1.031.
+  The archived calculation also masks each correlation separately; a joint-gene-mask
+  sensitivity analysis has not been run. The 17 equal-concentration compounds have a
+  median observed Pearson correlation of 0.100, calculated from archived scores.
+- Table 3's unrestricted species-label permutations do not preserve phylogenetic covariance.
+  Partial Mantel p-values are exploratory; neither residualising taxonomic distance nor
+  applying Holm establishes conditional independence from phylogeny. See Guillot & Rousset
+  (2013), https://doi.org/10.1111/2041-210X.12018. No calibrated phylogenetic null is provided.
+- The probe filter in `prepare_tggates_hep.py` keeps one on-axis annotation; off-axis
+  annotations can remain. It does not certify unique genomic probe specificity.
 
 ## Figure exports
 

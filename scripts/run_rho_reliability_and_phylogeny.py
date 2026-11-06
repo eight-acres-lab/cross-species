@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Does the species-pair redundancy matrix carry anything a phylogeny does not already give?
+"""Explore species-pair matrix agreement and sensitivity to taxonomy.
+
+Interpretation audit (2026-11-06): unrestricted species-label permutations do not
+preserve phylogenetic covariance. Partial Mantel p-values are exploratory and do not
+establish independence conditional on phylogeny. Holm adjustment cannot repair an
+uncalibrated null. See Guillot & Rousset (2013), doi:10.1111/2041-210X.12018.
+
+The original rationale for the archived calculation follows:
 
 The business case rests on rho being a measurable property of a context. An earlier check
 found the matrix measured in one context predicts another at Spearman +0.55 and +0.60, but
@@ -186,8 +193,9 @@ def compare(m1, m2, label, rng, n_perm=20000):
     # appears in n-1 of them, so shuffling pair values destroys a dependence the null
     # should preserve and returns p-values that are too small. The null here is Mantel's:
     # relabel the species of one matrix and read the same cells, which keeps each matrix's
-    # internal structure intact. Restriction and the taxonomic covariate stay on the true
-    # labels, because they define the hypothesis rather than the null.
+    # internal structure intact. Restriction and taxonomy stay on the true labels.
+    # This does NOT preserve the matrix's relationship with phylogeny; these p-values
+    # are not calibrated for a phylogeny-conditional independence hypothesis.
     sp = sorted({s for pr in pairs for s in pr})
     pos = {s: i for i, s in enumerate(sp)}
     n_sp = len(sp)

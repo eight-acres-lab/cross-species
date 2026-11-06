@@ -14,11 +14,19 @@ direction and aggregated scores does not itself establish a calibrated ceiling.
   aggregated   Pearson across GO biological process terms
 
 Cross-side values average the four replicate pairings. The Pearson denominator uses
-single-replicate reliability and requires the independent-error assumptions described
-in the manuscript; estimating both from two replicates does not remove their uncertainty.
+within-side replicate correlations. A ceiling interpretation additionally requires
+independent errors, equal replicate precision within each side and one common measured
+gene population. This archived implementation masks each correlation separately;
+its ratios are descriptive scores, not verified fractions of an attainable bound.
+See audit_replicate_normalisation.py for exact independent-error counterexamples.
 """
 import argparse, collections, itertools, json, math, re
 import numpy as np
+
+NORMALISATION_NOTE = (
+    "NOTE: replicate-normalised scores are descriptive, not verified noise ceilings. "
+    "Pairwise gene masks and unequal replicate precision can invalidate that interpretation."
+)
 
 ENS_VERSIONED = re.compile(r'^(ENS[A-Z]*G\d+)\.\d+$')
 SALT = re.compile(r',?\s*\b(hydrochloride|hydrobromide|sulfate|sulphate|sodium|potassium|'
@@ -152,6 +160,7 @@ def main():
     ap.add_argument('--min-rel', type=float, default=0.10)
     ap.add_argument('--out', required=True)
     a = ap.parse_args()
+    print(NORMALISATION_NOTE)
 
     axis = json.load(open(a.axis))['axis']
     H = load(a.human_hep, 'homo_sapiens', axis)

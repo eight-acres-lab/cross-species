@@ -66,3 +66,7 @@ The Rhaister log excerpts retain only `RESULT key=value` lines needed to reconst
 `all.json`; local paths and terminal diagnostics are omitted. A metadata provenance file
 replaces local absolute paths with source filenames. These export transformations are noted
 in the manifest and do not alter numerical results.
+
+The reproducible normalisation audit is `artifacts/biology/replicate_normalisation_audit.json`,
+built by `scripts/audit_replicate_normalisation.py`. It contains exact mathematical
+counterexamples and summaries of archived scores, not a reanalysis of raw expression data.

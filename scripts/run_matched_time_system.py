@@ -1,22 +1,16 @@
 #!/usr/bin/env python3
-"""The system penalty, finally measured without a time gap.
+"""Compare TG-GATEs arms at aligned sampling times using archived normalisation.
 
-The first round put rat hepatocytes at 24 hours against rat liver at 4 days, because the
-repeat-dose arm starts at day 4, and concluded that system and time could not be separated.
-That was wrong: TG-GATEs also ran a SINGLE-dose rat liver arm sampled at 3, 6, 9 and 24
-hours. The 24 hour cell matches the in vitro grid exactly, so species and time can both be
-held while only the system changes.
-
-Every row carries a compound-shuffled arm, because a large part of what crosses any of these
-boundaries is the generic response that a random other compound would also have produced.
-Rows are also reported inside a fixed ceiling band, since the ratio observed/ceiling tracks
-the ceiling and medians taken over different ceiling distributions are not comparable.
+The single-dose rat liver arm permits a 24-hour comparison with hepatocytes. High dose
+labels do not align actual exposure, and culture versus animal is not the only difference.
+Compound-shuffled scores and denominator-band summaries are descriptive. The four-pair
+normalisation is not a verified upper-bound fraction; see audit_replicate_normalisation.py.
 """
 import argparse, itertools, json, math, sys
 import numpy as np
 
 sys.path.insert(0, __file__.rsplit('/', 1)[0])
-from run_system_vs_species import load, pearson, direction   # noqa: E402
+from run_system_vs_species import load, pearson, direction, NORMALISATION_NOTE   # noqa: E402
 
 
 def one(A, B, da, ta, db, tb, label, draws, rng, min_rel=0.10):
@@ -84,6 +78,7 @@ def main():
     ap.add_argument('--seed', type=int, default=20261021)
     ap.add_argument('--out', required=True)
     a = ap.parse_args()
+    print(NORMALISATION_NOTE)
 
     axis = json.load(open(a.axis))['axis']
     H = load(a.human_hep, 'homo_sapiens', axis)
