@@ -436,6 +436,8 @@ def figure2(out):
     a.set(xlim=(0, 12), ylim=(6.5, -.5))
     a.set_xticks([0, 5, 10]); a.set_yticks([])
     a.spines['left'].set_visible(False)
+    # Stop the visible axis at the largest count; retain room for direct labels.
+    a.spines['bottom'].set_bounds(0, 10)
 
     # More area for the two coverage plots, with shared top and bottom baselines.
     lower = 78
@@ -562,7 +564,7 @@ def figure3(out):
     save(fig, out, 3)
 
 
-def coefficient_heatmap(fig, bg, x, top, rows):
+def coefficient_heatmap(fig, x, top, rows):
     fields = [('spearman_all', 'p_all'), ('spearman_cross', 'p_cross'),
               ('partial_taxdist', 'p_partial')]
     ax = axes(fig, x, top, 50, 40)
@@ -578,17 +580,7 @@ def coefficient_heatmap(fig, bg, x, top, rows):
     names = [' vs '.join(map(str, group))+' h' for group in time_groups]
     ax.set_yticks(np.arange(3)+.5, names, fontsize=7)
     ax.tick_params(axis='x', length=0, pad=3)
-    ax.tick_params(axis='y', length=0, pad=10)
-    # Match Figure 2b's time colours in a separate annotation strip. Never
-    # recolour coefficient cells by group: equal coefficients need equal colours.
-    for i, group in enumerate(time_groups):
-        gap = .2
-        width = (2-gap*(len(group)-1))/len(group)
-        for j, time in enumerate(group):
-            strip = Rectangle((x-2.6+j*(width+gap), top+i*40/3+.5), width,
-                              40/3-1, fc=BLOOD_TIME_COLOURS[time], ec='none')
-            strip.set_gid(f'time-group-{i}-{time}')
-            bg.add_patch(strip)
+    ax.tick_params(axis='y', length=0, pad=3)
     for sp in ax.spines.values(): sp.set_visible(False)
     for i, row in enumerate(rows):
         for j, (field, pfield) in enumerate(fields):
@@ -637,8 +629,8 @@ def figure4(out):
     assert len(rel) == 3 and len(times) == 3 and len(tissues) == 2
     panel(bg, PANEL_LEFT, middle_row, 'b')
     panel(bg, PANEL_RIGHT, middle_row, 'c')
-    coefficient_heatmap(fig, bg, 22, 66, rel)
-    coefficient_heatmap(fig, bg, 105, 66, times)
+    coefficient_heatmap(fig, 22, 66, rel)
+    coefficient_heatmap(fig, 105, 66, times)
     colour_key(fig, 24, 42, 27, vmin=-1, vmax=1, title='Correlation')
     panel(bg, PANEL_LEFT, last_row, 'd')
     d = axes(fig, 43, 136, 98, 25)
