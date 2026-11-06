@@ -40,9 +40,9 @@ Unless another directory is specified, the following filenames are under
 | Missing-value controls | `artifacts/gse249010_v1/na_audit.json`, `na_masked_fig1.json` | `controls/run_na_audit.py`, `controls/run_na_masked_fig1.py` |
 | Section 2.7 | All nine `artifacts/biology/dili/alt_prediction/pred_{endpoint}_{threshold}.json` files | `run_alt_prediction.py`; endpoints ALTIUL, ASTIUL, COMPOSITE; thresholds 1.5, 2.0, 3.0 |
 | Serum endpoints | `artifacts/biology/dili/rat_vivo_alt.json`, `rat_vivo_markers.json` | `build_vivo_markers.py`, `run_dili_concordance.py` |
-| LINCS construction check | `artifacts/lincs_scale/scale_test.json` | `run_lincs_scale_test.py` |
+| LINCS holdout comparison; historical ratio excluded from inference | `artifacts/lincs_scale/scale_test.json` | `run_lincs_scale_test.py` |
 | Rhaister panel-composition comparison | `artifacts/rhaister_benchmark/all.json`, `logs/*.out` | `make_rhaister_cluster_splits.py` constructs splits; the external Rhaister code evaluates them; `collect_rhaister_metrics.py` collects the metric lines |
-| Rhaister donor ceiling and sensitivity | `donor_ceiling.json`, `ceiling_saturation.json`, `depth_vs_ceiling.json` under `artifacts/rhaister_benchmark/` | Corresponding `run_rhaister_*.py` scripts |
+| Rhaister donor-consensus baseline and sensitivity | `donor_ceiling.json`, `ceiling_saturation.json`, `depth_vs_ceiling.json` under `artifacts/rhaister_benchmark/` | Corresponding `run_rhaister_*.py` scripts |
 
 Script filenames in the table are relative to `scripts/`. The identifier bridge is
 `artifacts/reference/ensg_symbol_bridge.tsv`. The five figures use deposited results,

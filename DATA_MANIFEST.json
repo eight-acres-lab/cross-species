@@ -16,18 +16,18 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 6906,
-      "sha256": "48f7c953520cb3327df307a7d50ebe5a2b15bc21cf0d82c78fd11253c8986dab"
+      "bytes": 6959,
+      "sha256": "cbf6113e3978878b8a106114ff97619d053ef4a68b996dc82d65a8f9de7c5924"
     },
     {
       "path": "README.md",
-      "bytes": 2529,
-      "sha256": "0ee5d319ac01cdbaba01c3226341fc812d953a433295e6321b7106c8dd400f5f"
+      "bytes": 3009,
+      "sha256": "8f15f70755afcd39dc6bf5542ee1dc5309ea414f0e74e5fb3f0675fdf71526b9"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 7509,
-      "sha256": "5a8338ea0a877a669bd46856e654d2109f4aed9d44879befb60117259a5bc502"
+      "bytes": 8975,
+      "sha256": "699eece91cb34c190afefa364b0e0c50d3e155bb33fc65ff5a158f64d55220a8"
     },
     {
       "path": "artifacts/biology/concordance/annotation_control.json",
@@ -141,48 +141,48 @@
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_ALTIUL_1.5.json",
-      "bytes": 11039,
-      "sha256": "daf06a896fe323f2a8bd142e4697148b60fdb79772fc4e0b5098111722f35b40"
+      "bytes": 11756,
+      "sha256": "28f307fb7138e058f5a347663978578c1fb2b48d5b8666bf18821f943e85bc04"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_ALTIUL_2.0.json",
-      "bytes": 11075,
-      "sha256": "0bcd8e436153c05f288eabd770c16f2d7aade8918f9ca779f6b4e9fdb197c1dd"
+      "bytes": 11792,
+      "sha256": "58c29c86802ad951f66aec79d8d33bd679c6e714c3b4be4d9cda6cab455f404c"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_ALTIUL_3.0.json",
-      "bytes": 11060,
-      "sha256": "dd7319f10ac37f43dffa9fa0025141c54df898ddc96219f5d8ca6e9e17691459"
+      "bytes": 11777,
+      "sha256": "e203519aea66fb56a0ad009f22e2a8e27d08336b42c2d904bd29a1ffcde16d9e"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_ASTIUL_1.5.json",
-      "bytes": 11077,
-      "sha256": "55b1084269fda5ada557eb446f8f35b85f2b8c3f1486269ff0613f8520d3451a"
+      "bytes": 11794,
+      "sha256": "13ea06131774affb08934545b7e08429557289cbf56a2163bba119a60cb7b04f"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_ASTIUL_2.0.json",
-      "bytes": 11058,
-      "sha256": "561c737418de9a1808d8f885dc14e881aec183166f07502aff04ba9f5c943463"
+      "bytes": 11775,
+      "sha256": "c3906b2bec2ab3ae1ed47763cb238030a5c52fb0b990989851c99751a0c08693"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_ASTIUL_3.0.json",
-      "bytes": 11033,
-      "sha256": "317480ba5e69b613727803d5456858ad670e4be0a331aa2791d010d031afc1ba"
+      "bytes": 11750,
+      "sha256": "79c534a60938f7563f338f288b02a18fcf5fb6016baf048f3dc019b7de808e4f"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_COMPOSITE_1.5.json",
-      "bytes": 11030,
-      "sha256": "43ffd671c264de72fc4b250e98297f53ade4687fcf6e4b12e3c22aab1b4d0dd9"
+      "bytes": 11747,
+      "sha256": "b455519f4baac4d549caa7e9129af07668e768a1139e0072713a254ebf07db16"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_COMPOSITE_2.0.json",
-      "bytes": 11067,
-      "sha256": "000e2bdaf8d0fbb9d6f5808bcaea77837422d4a50a46d8cefddbcdcff818095c"
+      "bytes": 11784,
+      "sha256": "3b7c0670fde7be3b1ff646543cf373c47898b7efa21287c14c8d8c8681c4a406"
     },
     {
       "path": "artifacts/biology/dili/alt_prediction/pred_COMPOSITE_3.0.json",
-      "bytes": 11066,
-      "sha256": "42274fa2b9dc2082abb4551e8666988f615caf982cd38b60bfdd3c1307f7e2ab"
+      "bytes": 11783,
+      "sha256": "67fbd06a76f26e8f4e33d77c44b276b2afc164274480b6482098f7bc2537dbff"
     },
     {
       "path": "artifacts/biology/dili/compound_intersection.json",
@@ -306,8 +306,8 @@
     },
     {
       "path": "artifacts/lincs_scale/scale_test.json",
-      "bytes": 5092,
-      "sha256": "fd2527c3f20af70b1b3803787e601d623c29b110f046976e46417aabc19eb57b"
+      "bytes": 5357,
+      "sha256": "bf3736cc31432b8f7ec904a24c437ba959db1b54060134aa0c573567fddd2541"
     },
     {
       "path": "artifacts/reference/ensg_symbol_bridge.tsv",
@@ -516,8 +516,8 @@
     },
     {
       "path": "scripts/controls/run_double_centred.py",
-      "bytes": 3278,
-      "sha256": "80af6894ab02137fdc76d16ec84a7ebdf1adf4f29dab093fa49e3f1079c7e3aa"
+      "bytes": 3427,
+      "sha256": "3479ac0290658e82d4882ff77225a1ab92cb3f1e7aaee603e5414696f73f7c33"
     },
     {
       "path": "scripts/controls/run_fig1_ceiling_control.py",
@@ -626,8 +626,8 @@
     },
     {
       "path": "scripts/run_alt_prediction.py",
-      "bytes": 13261,
-      "sha256": "6a6dd762f9e13752d4e525356954dedaf79c961adbd62c0017f94147c64ad01d"
+      "bytes": 13580,
+      "sha256": "f3fc34dd6f48f05679464e62f58a3e40bef568d9a2d266bff49cba0b622d4947"
     },
     {
       "path": "scripts/run_collectible_panel.py",
@@ -646,8 +646,8 @@
     },
     {
       "path": "scripts/run_lincs_scale_test.py",
-      "bytes": 9424,
-      "sha256": "1652944f0b10e9a00185e985c993386b1def95c0c1415a956a21ac9891200fc3"
+      "bytes": 9917,
+      "sha256": "46407edfe7550b4b97106456398f9d60dd206f8c9fd5f6e6b8cd6bcd9c0f78fa"
     },
     {
       "path": "scripts/run_matched_time_system.py",
@@ -671,18 +671,18 @@
     },
     {
       "path": "scripts/run_rhaister_ceiling_saturation.py",
-      "bytes": 3424,
-      "sha256": "fde4d5e881514119971991ff8f05c7750a0c70b0a1865fc879a372c53af7efaf"
+      "bytes": 3147,
+      "sha256": "71a8abc005d28985fbffdadd794d1f3f657186c421ad0a7ff3abbce8ec434378"
     },
     {
       "path": "scripts/run_rhaister_depth_vs_ceiling.py",
-      "bytes": 4396,
-      "sha256": "c5462b26c9a93d1d71a7a8c1f76b5f0d2fb544a13d8c3a980711ae4c4ef2feb3"
+      "bytes": 3909,
+      "sha256": "9b69b39737535f4595a42acda54ce2c5795f6456f8a626242254abd082dbf381"
     },
     {
       "path": "scripts/run_rhaister_donor_ceiling.py",
-      "bytes": 4690,
-      "sha256": "67e1cafc42da2f343be24759c36d58a42514b7abef474d2939616cc554768ed9"
+      "bytes": 3969,
+      "sha256": "296a98918e2df8f200e28034956649c118f03a438491c2b3511748119367f15d"
     },
     {
       "path": "scripts/run_rho_reliability_and_phylogeny.py",
@@ -706,8 +706,8 @@
     },
     {
       "path": "scripts/verify_preprint_numbers.py",
-      "bytes": 37588,
-      "sha256": "952d30ea7a5bc389aab1a9a95d2bd852cb948f1470246c487a7855b25aea32d5"
+      "bytes": 37787,
+      "sha256": "ab323af7e87fcca945bdd83743c5a2a5e491ad0ba3e25cd1e3928f345dbd865c"
     },
     {
       "path": "scripts/verify_release.py",
@@ -743,6 +743,11 @@
       "path": "src/cross_species/synthetic.py",
       "bytes": 942,
       "sha256": "a91a10a4991db89af3a5f53187b3eec45cc264159a3df9fe32bd38688eec8122"
+    },
+    {
+      "path": "tests/test_alt_prediction_statistics.py",
+      "bytes": 2519,
+      "sha256": "ff92e5c8e07af1c07b1818b2aef452b9dfe381e3860550d9fdcccbe1311d9580"
     },
     {
       "path": "tests/test_pilot.py",

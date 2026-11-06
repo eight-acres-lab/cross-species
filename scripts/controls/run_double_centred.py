@@ -1,7 +1,9 @@
-"""Separate species main effects from pair interactions and compare timepoints.
+"""Compare timepoints after subtracting off-diagonal species row means.
 
 Uses the same tie-aware Spearman/Mantel implementation as the primary rho analysis.
 Input and output paths are explicit so the deposited result can be regenerated.
+This is not an orthogonal additive-effects fit: excluding the diagonal leaves
+nonzero residual row means. Historical output keys are retained for compatibility.
 """
 import argparse
 import json
@@ -39,7 +41,7 @@ def double_centre(A):
 
 
 def additive_share(A):
-    """Fraction of off-diagonal variance explained by additive row/column effects."""
+    """Off-diagonal variance reduction, not an independent variance component."""
     n = len(A)
     mask = ~np.eye(n, dtype=bool) & np.isfinite(A)
     R, _, _ = double_centre(A)

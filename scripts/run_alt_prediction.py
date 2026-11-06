@@ -1,30 +1,19 @@
 #!/usr/bin/env python3
-"""Can a transcriptional profile predict rat liver injury at all, and does the species of the
-cells that produced the profile matter?
+"""Evaluate exploratory compound-held-out predictions of rat aminotransferase outcomes.
 
-The earlier result says cross-species AGREEMENT does not predict serum ALT. That leaves the
-prior question open: does EXPRESSION predict it? Without that, the negative is unreadable --
-a predictor cannot fail to transfer if it never worked.
+Similarity-weighted predictions use other compounds' log2 endpoints. Inputs are cultured
+human/rat hepatocytes at 24 h and high-dose rat liver at 4 days. Serum endpoints are maxima
+across doses and days: the legacy result label '(same animals)' denotes the same resource,
+not uniform individual-animal matching. The historical key is retained for compatibility.
+Response magnitude and changed-gene counts provide label-independent baselines.
 
-Four predictors, one target, leave-one-compound-out throughout:
-
-  rat liver in vivo    the same animals whose serum was measured. Not a fair comparison with
-                       the others and not meant to be; it is the within-system reference, and
-                       part of what it scores is frank injury showing up in both channels.
-  rat hepatocyte       same species, different system
-  human hepatocyte     different species, different system
-  both hepatocytes     does adding the human arm buy anything over the rat arm alone
-
-The predictor is deliberately simple, because 123 compounds against 5,000 genes will fit
-anything: a held-out compound's ALT is the similarity-weighted mean of the other compounds'
-ALT, with similarity the correlation between their response profiles. Two baselines that owe
-nothing to similarity are scored alongside, since if sheer response size predicts injury then
-none of this structure is doing work.
-
-Significance is by permuting the target, which keeps every other feature of the design.
+Permutation tests recompute label-dependent predictions after each target permutation.
+Historical outputs produced before 2026-11-06 held predictions fixed; their predictive
+p-values require recomputation. Bootstrap intervals remain conditional on fixed predictions.
 """
 import argparse, json, math, sys
 import numpy as np
+from scipy.stats import rankdata
 
 sys.path.insert(0, __file__.rsplit('/', 1)[0])
 from run_system_vs_species import bare, load   # noqa: E402
@@ -87,8 +76,8 @@ def spearman(a, b):
     m = np.isfinite(a) & np.isfinite(b)
     if m.sum() < 10:
         return float('nan')
-    x = np.argsort(np.argsort(a[m])).astype(float)
-    z = np.argsort(np.argsort(b[m])).astype(float)
+    x = rankdata(a[m], method='average')
+    z = rankdata(b[m], method='average')
     x -= x.mean()
     z -= z.mean()
     d = math.sqrt(float(x @ x) * float(z @ z))
@@ -101,7 +90,7 @@ def auc(score, label):
     npos, nneg = int(l.sum()), int((~l).sum())
     if npos == 0 or nneg == 0:
         return float('nan'), npos, nneg
-    r = np.argsort(np.argsort(s)).astype(float) + 1
+    r = rankdata(s, method='average')
     return float((r[l].sum() - npos * (npos + 1) / 2) / (npos * nneg)), npos, nneg
 
 
@@ -122,7 +111,12 @@ def boot_auc(pred, ybin, rng, n_boot=2000):
     return float(np.percentile(vals, 2.5)), float(np.percentile(vals, 97.5))
 
 
-def evaluate(name, pred, y, ybin, rng, n_perm, report):
+def evaluate(name, pred, y, ybin, rng, n_perm, report, *, predict_from_labels=None):
+    """Score predictions and test the full label-dependent prediction procedure.
+
+    Supply predict_from_labels for supervised predictors. Fixed scores are valid only
+    for label-independent baselines, such as the transcriptome response magnitude.
+    """
     sp = spearman(pred, y)
     au, npos, nneg = auc(pred, ybin)
     lo, hi = boot_auc(pred, ybin, rng)
@@ -130,19 +124,25 @@ def evaluate(name, pred, y, ybin, rng, n_perm, report):
     null_sp, null_au = [], []
     for _ in range(n_perm):
         p = rng.permutation(len(y))
-        null_sp.append(spearman(pred, y[p]))
-        null_au.append(auc(pred, ybin[p])[0])
+        perm_y = y[p]
+        perm_pred = pred if predict_from_labels is None else predict_from_labels(perm_y)
+        null_sp.append(spearman(perm_pred, perm_y))
+        null_au.append(auc(perm_pred, ybin[p])[0])
     null_sp = np.array([x for x in null_sp if np.isfinite(x)])
     null_au = np.array([x for x in null_au if np.isfinite(x)])
-    p_sp = float((np.abs(null_sp) >= abs(sp)).mean()) if null_sp.size and np.isfinite(sp) else float('nan')
-    p_au = float((null_au >= au).mean()) if null_au.size and np.isfinite(au) else float('nan')
+    p_sp = float((1 + (np.abs(null_sp) >= abs(sp)).sum()) / (1 + null_sp.size)) if null_sp.size and np.isfinite(sp) else float('nan')
+    p_au = float((1 + (null_au >= au).sum()) / (1 + null_au.size)) if null_au.size and np.isfinite(au) else float('nan')
     ci = f'[{lo:.3f}, {hi:.3f}]' if lo is not None else '[--]'
     print(f'  {name:34s} n={int(ok.sum()):3d}  rho {sp:+.3f} (p={p_sp:.3f})   '
           f'AUC {au:.3f} {ci} (p={p_au:.3f})   [{npos}+/{nneg}-]')
     report[name] = {'n': int(ok.sum()), 'spearman': sp, 'p_spearman': p_sp,
                     'auc': au, 'auc_ci95': [lo, hi], 'p_auc': p_au,
                     'n_pos': npos, 'n_neg': nneg,
-                    'auc_null_p95': float(np.percentile(null_au, 95)) if null_au.size else None}
+                    'auc_null_p95': float(np.percentile(null_au, 95)) if null_au.size else None,
+                    'permutation_method': ('recompute_predictions_per_label_permutation'
+                                           if predict_from_labels is not None
+                                           else 'fixed_label_independent_scores'),
+                    'interval_method': 'compound_bootstrap_of_fixed_predictions'}
 
 
 def main():
@@ -234,7 +234,9 @@ def main():
     print(f'\n--- leave-one-compound-out, similarity-weighted (power {a.power:g}) ---')
     for name, s in S.items():
         evaluate(name, loo_similarity_predict(s, y, a.power), y, ybin, rng, a.n_perm,
-                 report['results'])
+                 report['results'],
+                 predict_from_labels=lambda labels, similarity=s:
+                     loo_similarity_predict(similarity, labels, a.power))
 
     print('\n--- baselines that use no similarity structure ---')
     for lbl, X in P.items():

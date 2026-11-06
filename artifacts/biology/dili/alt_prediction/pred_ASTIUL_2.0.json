@@ -525,5 +525,12 @@
   0.22132030675705128,
   1.2624331576313474,
   0.38427089254241464
- ]
+ ],
+ "inference_audit_2026_11_06": {
+  "status": "historical_runs_not_recomputed",
+  "predictive_p_values": "Not valid for label-dependent predictors: permutations held predictions fixed. Recompute with corrected run_alt_prediction.py.",
+  "auc_and_spearman": "Historical point estimates use ordinal tie handling; reruns now use average ranks. Exact agreement is not guaranteed when ties occur.",
+  "auc_intervals": "Conditional compound bootstrap of fixed leave-one-out predictions; no refitting uncertainty.",
+  "in_vivo_label": "The legacy (same animals) key denotes the same resource. Profiles use high-dose/4-day liver; serum outcomes are maxima across doses and days, not uniformly individual-animal matched."
+ }
 }

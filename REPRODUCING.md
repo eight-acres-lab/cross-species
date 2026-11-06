@@ -15,7 +15,28 @@ python scripts/make_preprint_figures.py --out outputs/figures
 
 The first command after installation verifies the original release checksums. Run it before
 editing or rebuilding outputs. The numerical verifier should report 140 agreements, zero
-disagreements and zero skips. It checks a registry of claims, not arbitrary prose changes.
+disagreements and zero skips. It checks stored numerical expectations, including historical
+values whose interpretation has been withdrawn. It does not validate prose or statistical
+inference; passing it does not resolve the issues below.
+
+## Interpretation corrections (2026-11-06)
+
+- Historical injury-prediction permutations held label-dependent predictions fixed. Their
+  predictive p-values and null quantiles must not support inference. `run_alt_prediction.py`
+  now refits predictions after each permutation, uses average ranks for ties and includes the
+  Monte Carlo +1 correction. The deposited runs have **not** been recomputed with this change;
+  each carries an audit field. AUC intervals resample fixed predictions and omit refitting
+  uncertainty. Recalculation requires the original TG-GATEs prepared matrices listed below.
+- The LINCS `ceiling` block mixes full-mean correlations with half-sample reliabilities.
+  It is retained for provenance and marked invalid for ceiling inference. Above-one values
+  do not prove contamination. The separate compound/cluster holdout results are unaffected.
+- Rhaister `ceiling` files contain an empirical donor-consensus baseline, not an upper bound.
+  `depth_vs_ceiling` measures cells per pseudobulk, not reads per cell. In the donor-count
+  curve, k counts reference donors and excludes the target donor.
+- `rho_double_centred.json` retains historical key names: `additive_share` is variance
+  reduction after off-diagonal row adjustment, not an orthogonal variance decomposition.
+
+## Figure exports
 
 The figure generator writes `outputs/figures/Fig1` through `Fig5` as vector PDFs, editable
 SVGs and 600 dpi RGB PNGs. These local outputs are ignored by Git. The workflow and teaching

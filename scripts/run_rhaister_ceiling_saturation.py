@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
-"""Is the donor ceiling a limit of the data, or of the twelve donors that were collected?
+"""Measure donor-consensus agreement as reference donor count increases.
 
-A leave-one-donor-out ceiling is computed against the consensus of the other donors, and a
-consensus built from more donors is a better predictor. So the ceiling reported for a panel is
-conditioned on that panel's donor count, and the honest question is whether it has levelled off
-by the count in hand or is still climbing.
-
-This rebuilds the consensus from k = 2 to n-1 donors, drawn at random, and reports the curve.
-If the last steps are flat the ceiling is a property of the biology; if it is still rising, the
-number is a statement about twelve donors and has to be read that way.
+For each held donor, use k = 2 to n-1 other donors, with twelve random draws per
+eligible perturbation and k. Here k counts reference donors, excluding the target.
+A small final increment describes only the observed range; it does not establish
+an asymptote or an irreducible biological ceiling. Historical output keys remain.
 
 Run on the compute host:
     python3 run_rhaister_ceiling_saturation.py <delta.parquet> <out.json> [cell_type ...]

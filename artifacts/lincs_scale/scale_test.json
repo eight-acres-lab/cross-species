@@ -14,7 +14,9 @@
   "median": 0.7382651088299828,
   "max": 2.6791050504246567,
   "n_above_one": 471,
-  "pct_above_one": 24.63389121338912
+  "pct_above_one": 24.63389121338912,
+  "interpretation": "legacy_unmatched_averaging_not_a_valid_ceiling",
+  "audit_note": "Full replicate means were normalised by unextrapolated half-sample reliabilities. Above-one values do not establish shared-control contamination. Holdout scores are separate."
  },
  "splits": {
   "K=4": {

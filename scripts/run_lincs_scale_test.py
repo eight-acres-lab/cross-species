@@ -14,9 +14,11 @@ line A's response, targets are cell line B's response to the same unit. Whole CO
 held out, so no dose or timepoint of a held-out compound leaks into training. Clusters are
 built from the A side only, which is the model's input, so the grouping cannot see the target.
 
-It also tests, unprompted, a prediction the contamination detector makes: LINCS pools DMSO per
-plate, the same shared-control geometry that pushed the fraction of ceiling above 1 on two
-unrelated datasets.
+The historical `ceiling` calculation below divides full-mean agreement by unextrapolated
+half-sample reliability. Its averaging levels do not match, so above-one values are NOT
+evidence of shared-control contamination. It is retained solely to reproduce the archived
+artifact; the compound/cluster holdout analysis is separate. Cell-line-specific control
+pooling alone does not demonstrate shared errors between cell lines.
 """
 import csv, gzip, json, sys
 from collections import defaultdict
@@ -114,7 +116,9 @@ RA, RB = build(A, units), build(B, units)
 common = sorted(set(RA) & set(RB))
 log(f'{len(common):,} units present in both lines')
 
-# ---- ceiling from cross-plate replicates, and the above-one check ----
+# ---- historical ratio: not a matched-unit ceiling; retained for reproducibility ----
+log('WARNING: the archived ceiling ratio mixes full means and half-sample reliability; '
+    'do not interpret above-one values as contamination or latent correlation.')
 def sh(reps):
     if len(reps) < 2: return np.nan
     k = len(reps)//2
@@ -198,7 +202,8 @@ json.dump({'pair': [A, B], 'n_units': len(common), 'n_compounds': len(comps),
            'n_genes': int(len(lm)), 'plates': len(byplate),
            'ctrl_per_plate_median': float(np.median(cc)),
            'treated_per_plate_median': float(np.median(tc)),
-           'ceiling': {'n_usable': len(use), 'median': float(np.median(fv)),
+           'ceiling': {'interpretation': 'legacy_unmatched_averaging_not_a_valid_ceiling',
+                       'n_usable': len(use), 'median': float(np.median(fv)),
                        'max': float(fv.max()), 'n_above_one': above,
                        'pct_above_one': float(100*above/len(fv))},
            'splits': res}, open(OUT/'scale_test.json','w'), indent=1)

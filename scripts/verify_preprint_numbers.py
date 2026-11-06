@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Check every load-bearing number in the preprint against the artifact it came from.
+"""Check a registry of numerical expectations against deposited artifacts.
+
+This is not a manuscript parser or a validation of statistical interpretation. Some
+checks preserve historical values whose inferential use was withdrawn in the 2026-11-06
+review (including predictive permutation p-values and the unmatched LINCS ratio).
 
 One row per claim: where it appears, the value as written, the artifact, and how to reach
 the value inside it. The script loads each artifact, recomputes, and compares. Exit status
@@ -253,14 +257,14 @@ CHECKS: list[dict] = [
     # results and +0.02 in the README, against +0.010 on disk; the in vivo p bound was
     # quoted at 0.044 against a true maximum of 0.0445; and the hepatocyte comparison
     # count named no family.
-    dict(claim="2.7: in vivo ALT prediction, worst permutation p <= 0.045",
+    dict(claim="Historical only; inference withdrawn: worst fixed-prediction permutation p 0.045",
          paper=0.045, tol=1e-3,
          get=lambda: max(alt_run(e, th)["results"]["rat liver in vivo (same animals)"]["p_auc"]
                          for e in ALT_ENDPOINTS for th in ALT_THRESHOLDS)),
     dict(claim="2.7: hepatocyte arm-by-setting comparisons deposited = 45",
          paper=45, tol=0,
          get=lambda: float(len(hepatocyte_arms()))),
-    dict(claim="2.7: exactly one hepatocyte comparison clears its own null",
+    dict(claim="Historical only; inference withdrawn: one hepatocyte comparison clears the old null",
          paper=1, tol=0,
          get=lambda: float(sum(1 for auc, p95 in hepatocyte_arms() if auc > p95))),
     dict(claim="2.7 / Limitations: fraction of ceiling against log2 ALT, Spearman +0.010",
@@ -379,9 +383,9 @@ CHECKS: list[dict] = [
     dict(claim="2.2: LINCS, median 350 treated wells per plate",
          paper=350, tol=0, get=lambda: lincs("treated_per_plate_median")),
     dict(claim="2.2: LINCS, 1,785 compounds", paper=1785, tol=0, get=lambda: lincs("n_compounds")),
-    dict(claim="2.2: LINCS, 1,912 units with a ceiling",
+    dict(claim="2.2: LINCS, 1,912 units with the historical unmatched ratio",
          paper=1912, tol=0, get=lambda: lincs("ceiling", "n_usable")),
-    dict(claim="2.2: LINCS, 471 of them exceed the bound",
+    dict(claim="2.2: LINCS, 471 historical ratios exceed one; not a valid bound test",
          paper=471, tol=0, get=lambda: lincs("ceiling", "n_above_one")),
     dict(claim="2.2: LINCS, the worst reaches 2.68",
          paper=2.679, tol=5e-3, get=lambda: lincs("ceiling", "max")),
@@ -404,21 +408,21 @@ CHECKS: list[dict] = [
     dict(claim="Discussion: their reported score in the same unit is 0.4515",
          paper=0.4515, tol=5e-4,
          get=lambda: rh("split_0", "pdex_static/pearson_delta_mean")),
-    dict(claim="Discussion: the ceiling spans 0.032 to 0.577 across their cell types",
+    dict(claim="Discussion: donor-consensus agreement spans 0.032 to 0.577",
          paper=0.0321, tol=1e-3,
          get=lambda: load("artifacts/rhaister_benchmark/donor_ceiling.json")["overall"]["ceiling_min"]),
     dict(claim="Discussion: 1,619 units carry a cell count",
          paper=1619, tol=0, get=lambda: float(depth()["n_units"])),
     dict(claim="Discussion: cell counts span 2 to 3,074",
          paper=3074, tol=0, get=lambda: depth()["cells_range"][1]),
-    dict(claim="Discussion: pooled, cells and ceiling correlate +0.785",
+    dict(claim="Discussion: pooled, cells and donor-consensus agreement correlate +0.785",
          paper=0.785, tol=2e-3,
          get=lambda: depth()["spearman_cells_vs_ceiling_overall"]),
     dict(claim="Discussion: within a cell type the median correlation is +0.08",
          paper=0.079, tol=2e-3, get=lambda: depth()["within_median"]),
-    dict(claim="Discussion: the ceiling has levelled off by twelve donors",
+    dict(claim="Discussion: small final donor-consensus increment over the observed reference sizes",
          paper=0.0096, tol=1e-3, get=lambda: max_last_step()),
-    dict(claim="Discussion: the highest cell-type ceiling is 0.577",
+    dict(claim="Discussion: highest cell-type donor-consensus agreement is 0.577",
          paper=0.5767, tol=1e-3,
          get=lambda: load("artifacts/rhaister_benchmark/donor_ceiling.json")["overall"]["ceiling_max"]),
 ]
@@ -469,19 +473,17 @@ def depth():
 
 
 def max_last_step() -> float:
-    """Largest absolute final step of the donor-count curve, across cell types.
+    """Largest absolute last increment over the observed reference-donor counts.
 
-    The ceiling is measured against the consensus of the other donors, so a bigger panel
-    would give a better consensus and a higher ceiling. This asks whether that has stopped
-    mattering by the twelve donors in hand: if the step from eleven to twelve is within
-    noise, the number is a property of the data rather than of the collection.
+    This does not establish a population asymptote or an irreducible biological limit.
+    k excludes the held-out target donor; the final recorded step is k=10 to k=11.
     """
     cts = load("artifacts/rhaister_benchmark/ceiling_saturation.json")["cell_types"]
     return max(abs(v["last_step"]) for v in cts.values())
 
 
 def donor_ceiling_on_test() -> float:
-    """Leave-one-donor-out ceiling over exactly the perturbations their split_0 scored."""
+    """Donor-consensus baseline over the perturbations scored in split_0."""
     pc = load("artifacts/rhaister_benchmark/donor_ceiling.json")[
         "by_cell_type"]["B_Intermediate_Memory"]["per_cytokine"]
     hit = [pc[c]["mean"] for c in RHAISTER_TEST if c in pc]

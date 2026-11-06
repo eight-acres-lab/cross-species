@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
-"""Does the donor ceiling move with how many cells were sequenced behind each measurement?
+"""Associate cells per pseudobulk with leave-one-donor-out consensus agreement.
 
-This paper builds its scale on donor splits and says, in Section 2.2, that a split by cell
-climbs towards one as depth rises where a split by donor does not. That is the distinction the
-whole construction rests on, and in the manuscript it is an argument rather than a measurement.
-
-The Parse panel makes it testable. Each (cell type, donor, perturbation) measurement carries
-the number of cells behind it, and those counts vary several-fold across the panel. If the
-leave-one-donor-out agreement rises with cell count, then part of what is being called a
-ceiling is sequencing depth and a deeper experiment would raise it. If it does not, the
-ceiling is donor-to-donor biological variation and is not bought down by depth.
-
-Reported both ways; the correlation is whatever it is.
+Cell counts are median target_membership across donors in each cell-type/perturbation
+unit. They do not measure sequencing reads per cell. Pooled and within-cell-type
+correlations are observational: they cannot identify a causal effect of increasing
+cell numbers or separate sampling noise from donor-specific biology. Historical
+file names and JSON keys containing `depth` or `ceiling` are retained.
 
 Run on the compute host:
     python3 run_rhaister_depth_vs_ceiling.py <pdex.parquet> <donor_ceiling.json> <out.json>
@@ -67,8 +61,7 @@ c = np.array([r['ceiling'] for r in rows])
 m = np.array([r['median_cells'] for r in rows])
 overall = float(spearmanr(m, c).statistic)
 
-# Within a cell type the biology is held roughly fixed, so this is the cleaner test: across
-# perturbations of one cell type, does the one measured on more cells agree better?
+# Stratify by cell type; perturbation and other sources of confounding remain.
 within = {}
 for ct in sorted({r['cell_type'] for r in rows}):
     sel = [r for r in rows if r['cell_type'] == ct]

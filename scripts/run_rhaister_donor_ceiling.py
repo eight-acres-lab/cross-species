@@ -1,24 +1,14 @@
 #!/usr/bin/env python3
-"""The donor-level ceiling of the Parse PBMC panel, in the unit Rhaister reports.
+"""Leave-one-donor-out consensus agreement for the Parse PBMC panel.
 
-Svensson et al. score their model by the across-gene Pearson correlation between predicted and
-observed response, averaged over the held-out cell type's observations. That is a raw
-correlation: it says how close the prediction came, not how close anything could have come.
-This computes the second number from their own data.
+For each eligible cell type and perturbation, predict one donor from the mean of
+all other available donors and correlate across genes. This matches the row-wise
+unit used by Rhaister but is an empirical baseline, not a mathematical ceiling or
+an optimal predictor. Other information or estimators can improve on donor means.
+The reference uses the released donor panel, not a particular model training split.
+Historical file names and JSON keys containing `ceiling` are retained.
 
-MATCHING THE UNIT MATTERS. Their metric is row-wise: a row is one (donor, cytokine)
-observation, not a donor-averaged profile — n_samples is 744 for their own split against 90
-cytokines times 12 donors in the cell type, so the rows are per donor. A ceiling computed from
-two donor-half averages would therefore be in the wrong unit and would read far too high. The
-ceiling for a per-donor prediction is what the consensus of the other donors achieves on the
-held-out one: leave one donor out, average the rest, correlate across genes. No predictor
-without access to that donor can systematically beat its peers' consensus.
-
-Donors, not cells. A split by cell measures sequencing depth as much as biology and climbs
-towards one as depth rises; a donor split does not, which is why the ceiling it gives is below
-one and worth dividing by.
-
-Run on the compute host, where the panel lives:
+Run on the compute host:
     python3 run_rhaister_donor_ceiling.py <delta.parquet> <out.json>
 """
 import json, sys

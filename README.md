@@ -3,6 +3,11 @@
 Data and analysis code accompanying the manuscript. The current release contains
 numerical results, processed inputs, source metadata and reproduction instructions.
 
+**Interpretation correction (2026-11-06):** historical injury-prediction p-values require
+recomputation with the corrected permutation procedure. The archived LINCS full-mean/half-sample
+ratio is excluded from ceiling inference. See [the correction notes](REPRODUCING.md#interpretation-corrections-2026-11-06)
+before interpreting those outputs; numerical checksum and consistency checks do not validate inference.
+
 - [Data catalogue](DATA_AVAILABILITY.md): source studies, deposited results, and figure/table inputs.
 - [Reproduction guide](REPRODUCING.md): verification, plotting, and analysis prerequisites.
 - [SHA-256 inventory](DATA_MANIFEST.json): every file in this release.
@@ -21,8 +26,9 @@ python -m unittest discover -s tests -p 'test_*.py'
 python scripts/make_preprint_figures.py --out outputs/figures
 ```
 
-The deposited inputs support all 140 registered numerical checks and regeneration of
-the five manuscript figures. The verifier checks the registered claims against their
+The deposited inputs support 140 numerical consistency checks and regeneration of
+the five manuscript figures. The verifier includes archived values whose inferential use
+has been withdrawn. It checks stored expectations against their
 source artifacts; it does not parse every number in the prose. Figure outputs are
 vector PDF, editable SVG and 600 dpi RGB PNG in the local, Git-ignored
 `outputs/figures/` directory. Rendered figures and manuscript documents are not
