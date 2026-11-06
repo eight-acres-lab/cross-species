@@ -15,6 +15,7 @@ import argparse
 from io import BytesIO
 import json
 from pathlib import Path
+import re
 
 import matplotlib
 matplotlib.use('Agg')
@@ -33,15 +34,18 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'artifacts/biology/concordance'
 MM = 1 / 25.4
 WIDTH = 160
-BLUE, ORANGE, PURPLE = '#0F82BF', '#E4852B', '#68559D'
-TEAL, GREY, INK = '#009E8E', '#7C8797', '#000000'
+INDIGO, OCHRE, PETROL = '#4C54A0', '#CA9424', '#02779B'
+GREEN, GREY, INK = '#148843', '#7C8797', '#000000'
+PERIWINKLE, CORAL = '#6F78B9', '#F37252'
+# Categorical time colours are separate from the signed numerical colour scale.
+BLOOD_TIME_COLOURS = {2: PERIWINKLE, 6: OCHRE, 24: GREEN}
 LIGHT, LINE = '#F4F7FA', '#D7DFE6'
 MIN_TEXT, BODY_TEXT, PANEL_TEXT = 7, 8, 8
 PANEL_LEFT, PANEL_RIGHT, ROW_GAP = 3, 83, 12
 ALIGNMENT_DIR = None
 # Saturated endpoints keep zero white and retain the same linear, symmetric scale.
 # Black text remains legible even at the most saturated end of the map.
-RESPONSE = LinearSegmentedColormap.from_list('response', [BLUE, '#FFFFFF', '#F37252'])
+RESPONSE = LinearSegmentedColormap.from_list('response', [PERIWINKLE, '#FFFFFF', CORAL])
 NAMES = {
     'Pan troglodytes': 'Chimpanzee', 'Macaca': 'Macaque',
     'Papio anubis': 'Baboon', 'Bos taurus': 'Cow', 'Ovis aries': 'Sheep',
@@ -278,13 +282,13 @@ def save(fig, out, n):
 def figure1(out):
     """A single connected workflow, with no measured-result panels."""
     fig, bg = canvas(174)
-    stage(bg, 3, 5, 1, 'Construct response profiles', BLUE)
+    stage(bg, 3, 5, 1, 'Construct response profiles', INDIGO)
     # Input contexts have their own roles; they are not merged into one biological dataset.
-    region(bg, 3, 11, 41, 36, '#EDF6FC', '#67B7DD')
+    region(bg, 3, 11, 41, 36, '#F0F1F8', '#9C9FC7')
     label(bg, 7, 16, 'Experimental contexts', 8, weight='bold')
     for y, color, title, desc in [
-        (23, BLUE, 'Blood panel', 'Species × dose × time'),
-        (35, ORANGE, 'TG-GATEs', 'Human / rat; culture / liver'),
+        (23, INDIGO, 'Blood panel', 'Species × dose × time'),
+        (35, OCHRE, 'TG-GATEs', 'Human / rat; culture / liver'),
     ]:
         bg.add_patch(Circle((8, y), 1.25, fc=color, ec='none'))
         label(bg, 11, y, title, 7, weight='bold')
@@ -297,7 +301,7 @@ def figure1(out):
     control = np.array([[1., 1.1, 1.3, 1.4, 1.0, 1.2],
                         [1.2, 1.0, 1.1, 1.7, 1.3, 1.0],
                         [.9, 1.2, 1.4, 1.6, 1.1, 1.3]])
-    seq = LinearSegmentedColormap.from_list('expression', ['#EDF6FC', BLUE])
+    seq = LinearSegmentedColormap.from_list('expression', ['#F0F1F8', INDIGO])
     cells(bg, 66, 15, perturb, 3.6, vmin=0, vmax=2.5, cmap=seq)
     cells(bg, 66, 32, control, 3.6, vmin=0, vmax=2.5, cmap=seq)
     label(bg, 63, 20.4, 'Perturbed', 7, ha='right')
@@ -314,22 +318,22 @@ def figure1(out):
     colour_key(fig, 119, 44, 29, vmin=-1.5, vmax=1.5, title='Response (a.u.)')
     # A fork: species redundancy and profile-level ceilings are distinct constructions.
     bg.plot([146.5, 154, 154, 40], [26, 26, 51, 51], color=LINE, lw=.8)
-    arrow(bg, (40, 51), (40, 55), color=BLUE)
-    arrow(bg, (121, 51), (121, 55), color=ORANGE)
+    arrow(bg, (40, 51), (40, 55), color=INDIGO)
+    arrow(bg, (121, 51), (121, 55), color=OCHRE)
     # Dataset-to-branch assignments are stated in the caption; keep the fork
     # clear of the numbered headings immediately below it.
     # Every numbered heading sits 6 mm above its content area. The branch
     # boxes group calculations; they do not enclose a different heading level.
-    stage(bg, 3, 57, 2, 'Quantify species redundancy', BLUE)
-    stage(bg, 82, 57, 3, 'Estimate replicate ceiling', ORANGE)
-    region(bg, 3, 63, 75, 52, 'white', '#67B7DD')
-    region(bg, 82, 63, 75, 52, 'white', '#ECAE78')
+    stage(bg, 3, 57, 2, 'Quantify species redundancy', INDIGO)
+    stage(bg, 82, 57, 3, 'Estimate replicate ceiling', OCHRE)
+    region(bg, 3, 63, 75, 52, 'white', '#9C9FC7')
+    region(bg, 82, 63, 75, 52, 'white', '#D8BB7C')
     x = toy_responses()
     cells(bg, 12, 73, x, 3.3, vmin=-1.5, vmax=1.5)
     for i, name in enumerate('ABCD'):
         label(bg, 10, 74.65+3.3*i, name, 7, ha='right')
     label(bg, 21.9, 68, 'Species means', 7, ha='center')
-    arrow(bg, (35, 79.6), (49, 79.6), color=BLUE)
+    arrow(bg, (35, 79.6), (49, 79.6), color=INDIGO)
     label(bg, 42, 74, 'Pearson', 7, ha='center')
     cells(bg, 53, 73, np.corrcoef(x), 3.3)
     label(bg, 59.6, 68, 'Redundancy', 7, ha='center')
@@ -340,7 +344,7 @@ def figure1(out):
         a = mat.copy(); a[np.tril_indices(4)] = np.nan
         cells(bg, xx, 97, a, 2.6)
         label(bg, xx+5.2, 94, name, 7, ha='center')
-    arrow(bg, (30, 102), (43, 102), color=BLUE)
+    arrow(bg, (30, 102), (43, 102), color=INDIGO)
     label(bg, 40.5, 111.5, 'Subject splits test pair-rank agreement', 7, ha='center')
     # The ceiling uses replicate response correlations within sides, not rho split halves.
     reps = toy_replicates()
@@ -349,8 +353,8 @@ def figure1(out):
     for xx, yy, name, values in strips:
         cells(bg, xx, yy, values[None, :], 2.6, vmin=-1.5, vmax=1.5)
         label(bg, xx+7.8, yy-4 if yy == 73 else yy+6, name, 7, ha='center')
-    arrow(bg, (96.8, 77.5), (96.8, 92.5), color=BLUE)
-    arrow(bg, (141.8, 77.5), (141.8, 92.5), color=ORANGE)
+    arrow(bg, (96.8, 77.5), (96.8, 92.5), color=INDIGO)
+    arrow(bg, (141.8, 77.5), (141.8, 92.5), color=OCHRE)
     label(bg, 94, 85, 'rel A', 7, ha='right')
     label(bg, 144.5, 85, 'rel B', 7)
     for start, end in [(74.3, 74.3), (96.3, 96.3), (74.3, 96.3), (96.3, 74.3)]:
@@ -359,18 +363,18 @@ def figure1(out):
     label(bg, 119.3, 102, 'Mean = agreement', 7, ha='center')
     label(bg, 119.5, 109, 'Fraction = agreement / √(rel A × rel B)', 7, ha='center')
     # Both constructions constrain interpretation, with different validation requirements.
-    arrow(bg, (40, 115.5), (40, 121), color=BLUE)
-    arrow(bg, (120, 115.5), (120, 121), color=ORANGE)
-    region(bg, 3, 122, 154, 9, '#F5F1FB', '#B8A5D4')
+    arrow(bg, (40, 115.5), (40, 121), color=INDIGO)
+    arrow(bg, (120, 115.5), (120, 121), color=OCHRE)
+    region(bg, 3, 122, 154, 9, '#EEF7F9', '#8FBECC')
     label(bg, 80, 126.5,
           'Reliability  |  Control independence  |  Context validation', 8, ha='center')
-    stage(bg, 3, 138, 4, 'Compare transfer limits', PURPLE)
+    stage(bg, 3, 138, 4, 'Compare transfer limits', PETROL)
     # Four output objects teach the analysis; all miniatures are explicitly schematic.
     for i, (color, title, pointer) in enumerate([
-        (BLUE, 'Panel design', 'Donor value  ·  Fig. 3'),
-        (PURPLE, 'Context reuse', 'Time / tissue  ·  Fig. 4'),
-        (ORANGE, 'Response specificity', 'Shared / residual  ·  Fig. 5'),
-        (TEAL, 'Boundary comparison', 'Fraction of ceiling  ·  Table 2'),
+        (INDIGO, 'Panel design', 'Donor value  ·  Fig. 3'),
+        (PETROL, 'Context reuse', 'Time / tissue  ·  Fig. 4'),
+        (OCHRE, 'Response specificity', 'Shared / residual  ·  Fig. 5'),
+        (GREEN, 'Boundary comparison', 'Fraction of ceiling  ·  Table 2'),
     ]):
         xx = 3 + i*39
         bg.plot([xx+1, xx+37], [144, 144], color=color, lw=1.6)
@@ -380,12 +384,12 @@ def figure1(out):
     k = np.arange(1, 18)
     expected = k*.3 / np.sqrt(k+k*(k-1)*.3)
     bg.plot([9, 9, 36], [147, 160, 160], color=GREY, lw=.6)
-    bg.plot(9+27*(k-1)/16, 160-13*expected/.6, color=BLUE, lw=1.2)
+    bg.plot(9+27*(k-1)/16, 160-13*expected/.6, color=INDIGO, lw=1.2)
     # Context reuse: match the same upper triangles, rather than implying a learned mapping.
     for xx, mat in [(44, p), (65, q)]:
         upper = mat.copy(); upper[np.tril_indices(4)] = np.nan
         cells(bg, xx, 149, upper, 2.5)
-    arrow(bg, (55, 154), (62, 154), color=PURPLE)
+    arrow(bg, (55, 154), (62, 154), color=PETROL)
     # Specificity is a subtraction within species, using exactly the illustrated decomposition.
     response, shared, residual = decomposition()
     cells(bg, 83, 149, response, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
@@ -395,7 +399,7 @@ def figure1(out):
     cells(bg, 108, 149, residual, 1.9, vmin=-2, vmax=2, edge='#DCE3EC', linewidth=.3)
     # A ceiling is an upper reference, with observed agreement expressed relative to it.
     bg.plot([125, 152], [159, 159], color=GREY, lw=.7)
-    bg.plot([125, 145], [153, 153], color=TEAL, lw=1.5)
+    bg.plot([125, 145], [153, 153], color=GREEN, lw=1.5)
     bg.plot([152, 152], [149, 160], color=INK, lw=.65, ls=(0, (2, 2)))
     label(bg, 149, 147, 'Ceiling', 7, ha='center')
     save(fig, out, 1)
@@ -412,9 +416,9 @@ def figure2(out):
     label(bg, 99, 12, 'Biological system', 8, ha='center', weight='bold')
     label(bg, 141, 12, 'Study role', 8, ha='center', weight='bold')
     bg.plot([5, 157], [16, 16], color=INK, lw=.65)
-    role_colours = {'Core analyses': BLUE, 'Additional panels': TEAL, 'External check': PURPLE}
-    role_fills = {'Core analyses': '#E5F2FA', 'Additional panels': '#E2F3EE',
-                  'External check': '#EDE7F6'}
+    role_colours = {'Core analyses': INDIGO, 'Additional panels': GREEN, 'External check': PETROL}
+    role_fills = {'Core analyses': '#EBECF6', 'Additional panels': '#E7F3E9',
+                  'External check': '#E7F3F7'}
     for role, fill in role_fills.items():
         indices = [i for i, r in enumerate(data['datasets']) if r['role'] == role]
         top = 17+7*min(indices)
@@ -439,9 +443,12 @@ def figure2(out):
     panel(bg, PANEL_RIGHT, lower, 'c')
     blood = data['blood']
     b = axes(fig, 23, 87, 50, 53)
-    seq = ListedColormap(['#58B2D7'])
     values = np.asarray(blood['counts'])
-    b.pcolormesh(values, cmap=seq, vmin=0, vmax=50, edgecolors='white', linewidth=1.5)
+    # Hue identifies time, not count magnitude. The counts remain explicit text.
+    seq = ListedColormap([BLOOD_TIME_COLOURS[t] for t in blood['times_h']])
+    time_ids = np.broadcast_to(np.arange(len(blood['times_h'])), values.shape)
+    b.pcolormesh(time_ids, cmap=seq, vmin=-.5, vmax=len(blood['times_h'])-.5,
+                 edgecolors='white', linewidth=1.5)
     b.set(xlim=(0, len(blood['times_h'])), ylim=(len(blood['doses_ng_ml']), 0),
           xlabel='Time (h)', ylabel='LPS dose (ng/ml)')
     b.set_xticks(np.arange(len(blood['times_h']))+.5, [f'{v:g}' for v in blood['times_h']])
@@ -455,7 +462,7 @@ def figure2(out):
     rows = data['tggates']['comparisons']
     y = np.arange(len(rows))[::-1]
     c.barh(y, [r['n_shared'] for r in rows], color='#D1D9E3', height=.58, label='Shared')
-    c.barh(y, [r['n_in_band'] for r in rows], color=ORANGE, height=.58, label='In band')
+    c.barh(y, [r['n_in_band'] for r in rows], color=OCHRE, height=.58, label='In band')
     for yy, row in zip(y, rows):
         c.text(row['n_shared']+4, yy, str(row['n_shared']), fontsize=7, va='center')
         c.text(row['n_in_band']/2, yy, str(row['n_in_band']), fontsize=7, va='center', ha='center')
@@ -487,7 +494,7 @@ def figure3(out):
     y = np.arange(len(rows))[::-1]
     for yy, (name, v) in zip(y, rows):
         err = 1.96*ci[name]['se']
-        a.errorbar(v['r'], yy, xerr=err, fmt='o', color=BLUE,
+        a.errorbar(v['r'], yy, xerr=err, fmt='o', color=INDIGO,
                    ecolor=INK, markersize=3.7, elinewidth=.8, capsize=2,
                    markeredgecolor='white', markeredgewidth=.35)
         a.text(.96, yy, f"{v['r']:.3f}", fontsize=7, va='center', ha='right')
@@ -500,9 +507,9 @@ def figure3(out):
     def panel_spread(ax, key):
         d = core[key]; kk = np.array([r['k'] for r in d])
         ax.fill_between(kk, [r['worst'] for r in d], [r['best'] for r in d],
-                        color=BLUE, alpha=.12, linewidth=0)
-        configs = [('best', ORANGE, 'o', '-', 'Best'),
-                   ('mean', BLUE, 's', '-', 'Mean'),
+                        color=INDIGO, alpha=.12, linewidth=0)
+        configs = [('best', OCHRE, 'o', '-', 'Best'),
+                   ('mean', INDIGO, 's', '-', 'Mean'),
                    ('worst', GREY, '^', '--', 'Worst')]
         for field, col, mark, ls, name in configs:
             ax.plot(kk, [r[field] for r in d], color=col, marker=mark,
@@ -526,24 +533,24 @@ def figure3(out):
     d.axvspan(6, 400, color='#F2F4F7', zorder=0)
     d.axvline(6, color=GREY, lw=.65, ls=(0, (2, 2)))
     inside = k <= 6
-    d.plot(k[inside], expected[inside], color=BLUE, lw=1.3)
+    d.plot(k[inside], expected[inside], color=INDIGO, lw=1.3)
     # Include the exact endpoint so solid and dashed curves meet without a gap.
     ext = np.geomspace(6, 400, 400)
     d.plot(ext, ext*c['rbar']/np.sqrt(ext+ext*(ext-1)*c['rho']),
-           color=BLUE, lw=1.2, ls=(0, (3, 2)))
+           color=INDIGO, lw=1.2, ls=(0, (3, 2)))
     d.plot([r['k'] for r in core['spread_collectible six']],
            [r['mean'] for r in core['spread_collectible six']],
-           's', color=BLUE, ms=3.4, mec='white', mew=.35)
+           's', color=INDIGO, ms=3.4, mec='white', mew=.35)
     # The asymptote is only 0.0025 above macaque: a second horizontal line
     # cannot be distinguished at print size. Report it in the caption instead.
-    d.axhline(core['macaque'], color=PURPLE, lw=.7, ls=(0, (1, 2)))
+    d.axhline(core['macaque'], color=PETROL, lw=.7, ls=(0, (1, 2)))
     d.axhline(core['chimp'], color=GREY, lw=.7, ls=(0, (1, 2)))
-    d.plot(core['k_to_match_macaque'], core['macaque'], 'D', color=PURPLE, ms=4,
+    d.plot(core['k_to_match_macaque'], core['macaque'], 'D', color=PETROL, ms=4,
            mec='white', mew=.3)
     fig.legend(handles=[
         Line2D([], [], color=GREY, lw=.7, ls=':', label='Chimpanzee'),
-        Line2D([], [], color=BLUE, lw=1.2, ls='--', label='Pooling model'),
-        Line2D([], [], color=PURPLE, lw=.7, ls=':', label='Macaque'),
+        Line2D([], [], color=INDIGO, lw=1.2, ls='--', label='Pooling model'),
+        Line2D([], [], color=PETROL, lw=.7, ls=':', label='Macaque'),
     ], loc='center', bbox_to_anchor=(123/160, 1-second_row/149),
        ncol=3, frameon=False, fontsize=7, handlelength=1.1,
        columnspacing=.6, handletextpad=.3)
@@ -555,7 +562,7 @@ def figure3(out):
     save(fig, out, 3)
 
 
-def coefficient_heatmap(fig, bg, x, top, rows, names):
+def coefficient_heatmap(fig, bg, x, top, rows):
     fields = [('spearman_all', 'p_all'), ('spearman_cross', 'p_cross'),
               ('partial_taxdist', 'p_partial')]
     ax = axes(fig, x, top, 50, 40)
@@ -564,8 +571,24 @@ def coefficient_heatmap(fig, bg, x, top, rows, names):
                         edgecolors='white', linewidth=1.5, shading='flat')
     ax.set(xlim=(0, 3), ylim=(3, 0))
     ax.set_xticks(np.arange(3)+.5, ['All\npairs', 'Cross-\norder', 'Taxonomy\nadjusted'], fontsize=7)
+    time_groups = [tuple(int(t) for t in re.findall(r'(\d+)h', row['label']))
+                   for row in rows]
+    assert all(group and all(t in BLOOD_TIME_COLOURS for t in group)
+               and len(group) <= 2 for group in time_groups), time_groups
+    names = [' vs '.join(map(str, group))+' h' for group in time_groups]
     ax.set_yticks(np.arange(3)+.5, names, fontsize=7)
-    ax.tick_params(length=0, pad=3)
+    ax.tick_params(axis='x', length=0, pad=3)
+    ax.tick_params(axis='y', length=0, pad=10)
+    # Match Figure 2b's time colours in a separate annotation strip. Never
+    # recolour coefficient cells by group: equal coefficients need equal colours.
+    for i, group in enumerate(time_groups):
+        gap = .2
+        width = (2-gap*(len(group)-1))/len(group)
+        for j, time in enumerate(group):
+            strip = Rectangle((x-2.6+j*(width+gap), top+i*40/3+.5), width,
+                              40/3-1, fc=BLOOD_TIME_COLOURS[time], ec='none')
+            strip.set_gid(f'time-group-{i}-{time}')
+            bg.add_patch(strip)
     for sp in ax.spines.values(): sp.set_visible(False)
     for i, row in enumerate(rows):
         for j, (field, pfield) in enumerate(fields):
@@ -588,7 +611,7 @@ def figure4(out):
         for j, letter in enumerate('ABCD'):
             label(bg, xx+2.35+j*4.7, 14.5, letter, 7, ha='center', weight='bold')
             label(bg, xx-1, 20.35+j*4.7, letter, 7, ha='right', weight='bold')
-        bg.add_patch(Rectangle((xx+2*4.7, 18), 4.7, 4.7, fill=False, ec=PURPLE, lw=1.1))
+        bg.add_patch(Rectangle((xx+2*4.7, 18), 4.7, 4.7, fill=False, ec=PETROL, lw=1.1))
     arrow(bg, (60, 26), (67, 26))
     for yy, mat in [(20, p), (30, q)]:
         cells(bg, 70, yy, mat[idx][None, :], 4.2)
@@ -599,9 +622,9 @@ def figure4(out):
     # Use the same average-tie convention as the empirical analysis for this teaching example.
     ranks = [centered_ranks(m[idx])+(len(idx[0])+1)/2 for m in (p, q)]
     sc.plot([.5, 6.5], [.5, 6.5], color=LINE, lw=.75)
-    sc.scatter(*ranks, s=15, color=BLUE, edgecolors='white', linewidths=.35, zorder=3)
+    sc.scatter(*ranks, s=15, color=INDIGO, edgecolors='white', linewidths=.35, zorder=3)
     j = 1  # Pair A-C, also outlined in both matrices.
-    sc.scatter(ranks[0][j], ranks[1][j], s=26, facecolors='none', edgecolors=PURPLE, lw=.9)
+    sc.scatter(ranks[0][j], ranks[1][j], s=26, facecolors='none', edgecolors=PETROL, lw=.9)
     sc.set(xlim=(.5, 6.5), ylim=(.5, 6.5), xlabel='Rank in context 1', ylabel='Rank in context 2')
     sc.set_xticks([1, 3, 6]); sc.set_yticks([1, 3, 6])
     sc.tick_params(labelsize=7)
@@ -614,14 +637,14 @@ def figure4(out):
     assert len(rel) == 3 and len(times) == 3 and len(tissues) == 2
     panel(bg, PANEL_LEFT, middle_row, 'b')
     panel(bg, PANEL_RIGHT, middle_row, 'c')
-    coefficient_heatmap(fig, bg, 22, 66, rel, ['2 h', '6 h', '24 h'])
-    coefficient_heatmap(fig, bg, 105, 66, times, ['2 vs 6 h', '2 vs 24 h', '6 vs 24 h'])
+    coefficient_heatmap(fig, bg, 22, 66, rel)
+    coefficient_heatmap(fig, bg, 105, 66, times)
     colour_key(fig, 24, 42, 27, vmin=-1, vmax=1, title='Correlation')
     panel(bg, PANEL_LEFT, last_row, 'd')
     d = axes(fig, 43, 136, 98, 25)
     cfg = [('spearman_all', 'p_all', GREY, 'o', 'All pairs'),
-           ('spearman_cross', 'p_cross', BLUE, 's', 'Cross-order'),
-           ('partial_taxdist', 'p_partial', PURPLE, 'D', 'Taxonomy adjusted')]
+           ('spearman_cross', 'p_cross', INDIGO, 's', 'Cross-order'),
+           ('partial_taxdist', 'p_partial', PETROL, 'D', 'Taxonomy adjusted')]
     for yy, row in zip([1, 0], tissues):
         for j, (field, pfield, color, marker, _) in enumerate(cfg):
             v = row[field]; pos = yy + (1-j)*.23
@@ -662,14 +685,14 @@ def figure5(out):
     # The pairing map shows the control operation without pretending it is observed data.
     for i, j in np.ndindex(4, 4):
         bg.add_patch(Rectangle((129+j*6, 20.5+i*6), 6, 6,
-                              fc=BLUE if i == j else '#D1D9E3', ec='white', lw=.8))
+                              fc=INDIGO if i == j else '#D1D9E3', ec='white', lw=.8))
     for j in range(4):
         label(bg, 132+j*6, 17.2, str(j+1), 7, ha='center', weight='bold')
         label(bg, 127.5, 23.5+j*6, str(j+1), 7, ha='right', weight='bold')
     label(bg, 141, 11, 'Human condition', 8, ha='center', weight='bold')
     label(bg, 120, 32.5, 'Donor condition', 8, ha='center', rotation=90,
           rotation_mode='anchor', weight='bold')
-    for yy, col, name in [(49, BLUE, 'Matched'), (54, '#D1D9E3', 'Mismatched')]:
+    for yy, col, name in [(49, INDIGO, 'Matched'), (54, '#D1D9E3', 'Mismatched')]:
         bg.add_patch(Rectangle((129, yy-1.1), 2.2, 2.2, fc=col, ec='none'))
         label(bg, 133, yy, name, 7)
     panel(bg, PANEL_LEFT, second_row, 'c')
@@ -686,7 +709,7 @@ def figure5(out):
     mis = np.array([raw[k]['mismatched_median'] for k in order])
     c.hlines(yy, mis, total, color='#BAC6D1', lw=1)
     c.plot(mis, yy, 's', color=GREY, ms=3.2, label='Mismatched')
-    c.plot(total, yy, 'o', color=BLUE, ms=3.7, label='Matched', mec='white', mew=.3)
+    c.plot(total, yy, 'o', color=INDIGO, ms=3.7, label='Matched', mec='white', mew=.3)
     names = ['All nine (mean)' if k == 'uniform (all 9)' else NAMES[k.removeprefix('only ')]
              for k in order]
     c.set_yticks(yy, names, fontsize=7)
@@ -694,7 +717,7 @@ def figure5(out):
     c.set_xticks([-.1, 0, .2, .4])
     vals = [res[k]['residual_recovery'] for k in order]
     for y, v in zip(yy, vals):
-        col = ORANGE if v > 0 else GREY
+        col = OCHRE if v > 0 else GREY
         d.hlines(y, 0, v, color=col, lw=1.2)
         d.plot(v, y, 'o' if v > 0 else 's', color=col, ms=3.6, mec='white', mew=.3)
         d.text(v+(.017 if v > 0 else -.017), y, f'{v:+.3f}', ha='left' if v > 0 else 'right',
