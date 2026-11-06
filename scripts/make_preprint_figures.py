@@ -4,6 +4,10 @@
 Empirical marks read deposited JSON estimates, without rerunning or changing analyses.
 Teaching matrices and curves are explicitly illustrative and are never substituted for
 measurements. PDF/SVG elements, including matrix cells and type, remain editable vectors.
+
+Optional alignment QA: add the installed nature-figure skill's scripts directory to
+PYTHONPATH and pass --audit-dir PATH. Normal reproduction needs only this repository's
+dependencies. The audit helper is not needed to generate the figures.
 """
 from __future__ import annotations
 
@@ -29,11 +33,12 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'artifacts/biology/concordance'
 MM = 1 / 25.4
 WIDTH = 160
-BLUE, ORANGE, PURPLE = '#39A9E6', '#FFA657', '#B18BE3'
-TEAL, GREY, INK = '#46C7B4', '#A6AFBD', '#000000'
+BLUE, ORANGE, PURPLE = '#269DD3', '#F09A51', '#A380D3'
+TEAL, GREY, INK = '#37B6A1', '#8794A6', '#000000'
 LIGHT, LINE = '#F4F7FA', '#D7DFE6'
 MIN_TEXT, BODY_TEXT, PANEL_TEXT = 7, 8, 8
 PANEL_LEFT, PANEL_RIGHT, ROW_GAP = 3, 83, 12
+ALIGNMENT_DIR = None
 RESPONSE = LinearSegmentedColormap.from_list('response', ['#45AFE1', '#FFFFFF', '#FF9B75'])
 NAMES = {
     'Pan troglodytes': 'Chimpanzee', 'Macaca': 'Macaque',
@@ -81,6 +86,8 @@ def axes(fig, x, top, w, h):
 
 
 def label(ax, x, y, text, size=BODY_TEXT, *, weight='normal', ha='left', va='center', **kw):
+    if 'rotation' in kw:
+        kw.setdefault('rotation_mode', 'anchor')
     return ax.text(x, y, text, fontsize=max(size, MIN_TEXT), weight=weight, ha=ha, va=va,
                    color=INK, linespacing=1.25, **kw)
 
@@ -176,6 +183,65 @@ def decomposition():
     return x, shared, x-shared
 
 
+def audit_alignment(fig, out, n):
+    """Measure final geometry; QA stays optional for the public reproduction script."""
+    from audit_panel_alignment import (audit_layout_manifest, exit_code,
+                                       require_matplotlib_panel_alignment)
+    # The full-page drawing canvas and colour bars are not empirical plot areas.
+    # Panel a of Fig. 4 is a teaching schematic, while d spans both columns.
+    definitions = {
+        1: ([0], ['workflow'], [], []),
+        2: ([1, 2, 3], ['a', 'b', 'c'], [['b', 'c']], []),
+        3: ([1, 2, 3, 4], ['a', 'b', 'c', 'd'], [['a', 'b'], ['c', 'd']], [['b', 'd']]),
+        4: ([1, 2, 3, 5], ['a', 'b', 'c', 'd'], [['b', 'c']], []),
+        5: ([2, 3], ['c', 'd'], [['c', 'd']], []),
+    }
+    indices, ids, rows, columns = definitions[n]
+    report = require_matplotlib_panel_alignment(
+        fig, axes=[fig.axes[i] for i in indices], panel_ids=ids,
+        row_groups=rows, column_groups=columns, strict=True,
+        json_out=out/f'Fig{n}.alignment.json',
+    )
+    # Panel letters live on the physical canvas rather than on differently sized
+    # data axes. Attach their measured anchors, then check those too.
+    letters = {t.get_text(): t for t in fig.axes[0].texts
+               if t.get_text() in ('a', 'b', 'c', 'd') and t.get_fontweight() == 'bold'}
+    if n != 1:
+        for p in report['layout']['panels']:
+            text = letters[p['id']]
+            p['panel_label'] = p['id']
+            p['panel_label_anchor_pt'] = list(
+                text.get_transform().transform(text.get_position()) * 72 / fig.dpi)
+        report = audit_layout_manifest(report['layout'], require_panel_labels=True)
+        if exit_code(report, strict=True):
+            raise RuntimeError(f'Figure {n}: panel or label alignment failed: {report}')
+    # Schematic/hero panels do not pretend to share empirical axis geometry.
+    report['scope_notes'] = {
+        1: 'One continuous schematic; colour key excluded. Steps 2/3 use equal boxes.',
+        2: 'Inventory spans the full width; b/c share top/bottom edges.',
+        3: 'a needs room for species names and estimates; b/c share width, height and y scale.',
+        4: 'a is a teaching schematic; b/c share geometry and scale; d spans both columns.',
+        5: 'a/b are schematic matrices with different roles; c/d align donor rows but use different denominators.',
+    }[n]
+    # Check all visible letter rows/columns, including drawing-only panels.
+    letter_groups = {
+        2: [('y', 'bc'), ('x', 'ab')],
+        3: [('y', 'ab'), ('y', 'cd'), ('x', 'ac'), ('x', 'bd')],
+        4: [('y', 'bc'), ('x', 'abd')],
+        5: [('y', 'ab'), ('y', 'cd'), ('x', 'ac')],
+    }
+    report['canvas_letter_alignment'] = []
+    for coordinate, group in letter_groups.get(n, []):
+        index = 0 if coordinate == 'x' else 1
+        values = [letters[k].get_transform().transform(letters[k].get_position())[index]
+                  * 72 / fig.dpi for k in group]
+        deviation = max(values)-min(values)
+        assert deviation <= 1.5, (n, group, deviation)
+        report['canvas_letter_alignment'].append({
+            'letters': group, 'coordinate': coordinate, 'max_deviation_pt': deviation})
+    (out/f'Fig{n}.alignment.json').write_text(json.dumps(report, indent=2)+'\n')
+
+
 def save(fig, out, n):
     # One typographic hierarchy for all data axes, including schematic data axes.
     # Diagram labels and legends remain regular; axes are 8 pt, ticks are 7 pt.
@@ -186,13 +252,18 @@ def save(fig, out, n):
         for tick in ax.get_xticklabels()+ax.get_yticklabels():
             tick.set_fontsize(MIN_TEXT)
             tick.set_fontweight('bold')
+    if ALIGNMENT_DIR is not None:
+        audit_alignment(fig, ALIGNMENT_DIR, n)
     # Fixed page boxes preserve the documented print size; never use bbox_inches='tight'.
     fig.savefig(out/f'Fig{n}.pdf', metadata={'CreationDate': None, 'ModDate': None})
     svg = out/f'Fig{n}.svg'
     fig.savefig(svg, metadata={'Date': None})
     # Matplotlib leaves trailing spaces in multiline SVG path data. Normalize the
     # serializer output so the editable files also pass the repository whitespace check.
-    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
+    svg_text = svg.read_text().replace(
+        '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"\n'
+        '  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">\n', '')
+    svg.write_text('\n'.join(line.rstrip() for line in svg_text.splitlines())+'\n')
     preview = BytesIO()
     fig.savefig(preview, format='png', dpi=600)
     preview.seek(0)
@@ -236,14 +307,15 @@ def figure1(out):
     cells(bg, 117, 19, perturb-control, 4.6, vmin=-1.5, vmax=1.5)
     label(bg, 130.8, 12, 'Response matrix', 8, weight='bold', ha='center')
     label(bg, 130.8, 36, 'Genes', 7, ha='center')
-    label(bg, 109.5, 25.9, 'Subject ×\ncondition', 7, ha='center', rotation=90)
+    label(bg, 109.5, 25.9, 'Subject ×\ncondition', 7, ha='center', rotation=90,
+          rotation_mode='anchor')
     colour_key(fig, 119, 44, 29, vmin=-1.5, vmax=1.5, title='Response (a.u.)')
     # A fork: species redundancy and profile-level ceilings are distinct constructions.
     bg.plot([146.5, 154, 154, 40], [26, 26, 51, 51], color=LINE, lw=.8)
     arrow(bg, (40, 51), (40, 55), color=BLUE)
     arrow(bg, (121, 51), (121, 55), color=ORANGE)
-    label(bg, 43, 54, 'Blood panel', 7)
-    label(bg, 124, 54, 'TG-GATEs', 7)
+    # Dataset-to-branch assignments are stated in the caption; keep the fork
+    # clear of the numbered headings immediately below it.
     # Every numbered heading sits 6 mm above its content area. The branch
     # boxes group calculations; they do not enclose a different heading level.
     stage(bg, 3, 57, 2, 'Quantify species redundancy', BLUE)
@@ -281,8 +353,8 @@ def figure1(out):
     label(bg, 144.5, 85, 'rel B', 7)
     for start, end in [(74.3, 74.3), (96.3, 96.3), (74.3, 96.3), (96.3, 74.3)]:
         arrow(bg, (107, start), (131.5, end), color=GREY, lw=.7)
-    label(bg, 119.3, 85, 'Agreement', 7, ha='center',
-          bbox={'facecolor': 'white', 'edgecolor': 'none', 'pad': 1.2})
+    # Show all four cross-side pairings without masking their crossing.
+    label(bg, 119.3, 102, 'Mean = agreement', 7, ha='center')
     label(bg, 119.5, 109, 'Fraction = agreement / √(rel A × rel B)', 7, ha='center')
     # Both constructions constrain interpretation, with different validation requirements.
     arrow(bg, (40, 115.5), (40, 121), color=BLUE)
@@ -331,7 +403,7 @@ def figure2(out):
     """Dataset scope and the actual input coverage of the two core analyses."""
     data = collect_dataset_overview()
     (out/'Fig2_source_data.json').write_text(json.dumps(data, indent=2)+'\n')
-    fig, bg = canvas(158)
+    fig, bg = canvas(154)
     panel(bg, PANEL_LEFT, 5, 'a')
     label(bg, 7, 12, 'Dataset', 8, weight='bold')
     label(bg, 56, 12, 'Species (n)', 8, ha='center', weight='bold')
@@ -343,13 +415,13 @@ def figure2(out):
                   'External check': '#F5EDFC'}
     for role, fill in role_fills.items():
         indices = [i for i, r in enumerate(data['datasets']) if r['role'] == role]
-        top = 17+8*min(indices)
-        bg.add_patch(Rectangle((5, top), 152, 8*len(indices), fc=fill, ec='white', lw=1.5))
-        label(bg, 141, top+4*len(indices), role, 7, ha='center')
-    a = axes(fig, 39, 17, 34, 56)
+        top = 17+7*min(indices)
+        bg.add_patch(Rectangle((5, top), 152, 7*len(indices), fc=fill, ec='white', lw=1.5))
+        label(bg, 141, top+3.5*len(indices), role, 7, ha='center')
+    a = axes(fig, 39, 17, 34, 49)
     a.set_facecolor('none')
     for i, row in enumerate(data['datasets']):
-        yy = 21+8*i
+        yy = 20.5+7*i
         color = role_colours[row['role']]
         label(bg, 7, yy, row['name'], 8)
         label(bg, 99, yy, row['system'], 7, ha='center')
@@ -360,11 +432,11 @@ def figure2(out):
     a.spines['left'].set_visible(False)
 
     # More area for the two coverage plots, with shared top and bottom baselines.
-    lower = 87
+    lower = 78
     panel(bg, PANEL_LEFT, lower, 'b')
     panel(bg, PANEL_RIGHT, lower, 'c')
     blood = data['blood']
-    b = axes(fig, 23, 96, 50, 46)
+    b = axes(fig, 23, 87, 50, 53)
     seq = ListedColormap(['#A4DCF5'])
     values = np.asarray(blood['counts'])
     b.pcolormesh(values, cmap=seq, vmin=0, vmax=50, edgecolors='white', linewidth=1.5)
@@ -377,7 +449,7 @@ def figure2(out):
     for i, j in np.ndindex(values.shape):
         b.text(j+.5, i+.5, str(values[i,j]), fontsize=8, ha='center', va='center')
 
-    c = axes(fig, 112, 96, 43, 46)
+    c = axes(fig, 106, 87, 49, 53)
     rows = data['tggates']['comparisons']
     y = np.arange(len(rows))[::-1]
     c.barh(y, [r['n_shared'] for r in rows], color='#E3E8F0', height=.58, label='Shared')
@@ -386,11 +458,12 @@ def figure2(out):
         c.text(row['n_shared']+4, yy, str(row['n_shared']), fontsize=7, va='center')
         c.text(row['n_in_band']/2, yy, str(row['n_in_band']), fontsize=7, va='center', ha='center')
     c.set(xlim=(0, 180), ylim=(-.6, len(rows)-.4), xlabel='Compounds (n)')
-    c.set_yticks(y, [r['label'] for r in rows], fontsize=7)
+    # Wrapping the four time comparisons reserves width for the bars themselves.
+    c.set_yticks(y, [r['label'].replace(', ', '\n') for r in rows], fontsize=7)
     c.set_xticks([0, 50, 100, 150]); c.tick_params(axis='y', length=0, pad=3)
     c.spines['left'].set_visible(False)
     fig.legend(*c.get_legend_handles_labels(), loc='center', ncol=2, frameon=False,
-               bbox_to_anchor=(129/160, 1-89/158), fontsize=7, handlelength=1.1,
+               bbox_to_anchor=(130/160, 1-80/154), fontsize=7, handlelength=1.1,
                columnspacing=1.2, handletextpad=.4)
     save(fig, out, 2)
 
@@ -398,9 +471,9 @@ def figure2(out):
 def figure3(out):
     """Empirical donor ordering and panel choices, then explicitly marked extrapolation."""
     core = load('core_numbers'); c = core['collectible six']
-    fig, bg = canvas(146)
-    # Row 1's labels end at 71 mm; row 2 begins after the common 12 mm gutter.
-    second_row = 71 + ROW_GAP
+    fig, bg = canvas(149)
+    # Both rows have 48 mm plot areas; b/c have identical physical scales.
+    second_row = 68 + ROW_GAP
     panel(bg, PANEL_LEFT, 5, 'a')
     panel(bg, PANEL_RIGHT, 5, 'b')
     panel(bg, PANEL_LEFT, second_row, 'c')
@@ -408,7 +481,7 @@ def figure3(out):
     audit, ci = load('reconstruct_metric_audit'), load('fig1_ci')
     rows = sorted(((k, v) for k, v in audit.items() if k != 'uniform (all 9)'),
                   key=lambda kv: -kv[1]['r'])
-    a = axes(fig, 25, 12, 42, 50)
+    a = axes(fig, 25, 12, 42, 48)
     y = np.arange(len(rows))[::-1]
     for yy, (name, v) in zip(y, rows):
         err = 1.96*ci[name]['se']
@@ -438,13 +511,14 @@ def figure3(out):
         ax.set_xticks(kk); ax.set_yticks([.2, .4, .6])
         return ax
 
-    b = panel_spread(axes(fig, 96, 12, 59, 50), 'spread_collectible six')
-    panel_spread(axes(fig, 17, 91, 59, 43), 'spread_all nine')
+    b = panel_spread(axes(fig, 96, 12, 59, 48), 'spread_collectible six')
+    panel_spread(axes(fig, 17, 87, 59, 48), 'spread_all nine')
     # Same encodings in both subset panels. The envelope is the full enumeration, not a CI.
-    b.legend(loc='upper right', ncol=3, frameon=False, columnspacing=.6,
-             handletextpad=.3, handlelength=1.1, fontsize=7)
+    fig.legend(*b.get_legend_handles_labels(), loc='center', ncol=3, frameon=False,
+               bbox_to_anchor=(125/160, 1-5/149), columnspacing=.6,
+               handletextpad=.3, handlelength=1.1, fontsize=7)
 
-    d = axes(fig, 96, 91, 59, 43)
+    d = axes(fig, 96, 87, 59, 48)
     k = np.geomspace(1, 400, 600)
     expected = k*c['rbar']/np.sqrt(k+k*(k-1)*c['rho'])
     d.axvspan(6, 400, color='#F2F4F7', zorder=0)
@@ -464,12 +538,13 @@ def figure3(out):
     d.axhline(core['chimp'], color=GREY, lw=.7, ls=(0, (1, 2)))
     d.plot(core['k_to_match_macaque'], core['macaque'], 'D', color=PURPLE, ms=4,
            mec='white', mew=.3)
-    d.legend(handles=[
+    fig.legend(handles=[
         Line2D([], [], color=GREY, lw=.7, ls=':', label='Chimpanzee'),
         Line2D([], [], color=BLUE, lw=1.2, ls='--', label='Pooling model'),
         Line2D([], [], color=PURPLE, lw=.7, ls=':', label='Macaque'),
-    ], loc='upper left', frameon=True, facecolor='white', edgecolor='white',
-       framealpha=1, fontsize=7, handlelength=1.8, labelspacing=.3)
+    ], loc='center', bbox_to_anchor=(123/160, 1-second_row/149),
+       ncol=3, frameon=False, fontsize=7, handlelength=1.1,
+       columnspacing=.6, handletextpad=.3)
 
     d.set(xscale='log', xlim=(.9, 430), ylim=(.18, .74),
           xlabel='Number of species (log scale)', ylabel='Correlation with human')
@@ -481,7 +556,7 @@ def figure3(out):
 def coefficient_heatmap(fig, bg, x, top, rows, names):
     fields = [('spearman_all', 'p_all'), ('spearman_cross', 'p_cross'),
               ('partial_taxdist', 'p_partial')]
-    ax = axes(fig, x, top, 49, 34)
+    ax = axes(fig, x, top, 50, 40)
     values = np.array([[r[field] for field, _ in fields] for r in rows])
     mesh = ax.pcolormesh(values, cmap=RESPONSE, vmin=-1, vmax=1,
                         edgecolors='white', linewidth=1.5, shading='flat')
@@ -499,26 +574,26 @@ def coefficient_heatmap(fig, bg, x, top, rows, names):
 
 
 def figure4(out):
-    fig, bg = canvas(162)
-    middle_row, last_row = 52, 116
+    fig, bg = canvas(175)
+    middle_row, last_row = 58, 127
     panel(bg, PANEL_LEFT, 5, 'a')
     p, q = toy_contexts()
     idx = np.triu_indices(4, 1)
     for mat, xx, name in [(p, 9, 'Context 1'), (q, 38, 'Context 2')]:
         upper = mat.copy(); upper[np.tril_indices(4)] = np.nan
-        cells(bg, xx, 21, upper, 4.7)
-        label(bg, xx+9.4, 12, name, 7, ha='center')
+        cells(bg, xx, 18, upper, 4.7)
+        label(bg, xx+9.4, 9, name, 7, ha='center')
         for j, letter in enumerate('ABCD'):
-            label(bg, xx+2.35+j*4.7, 17.5, letter, 7, ha='center', weight='bold')
-            label(bg, xx-1, 23.35+j*4.7, letter, 7, ha='right', weight='bold')
-        bg.add_patch(Rectangle((xx+2*4.7, 21), 4.7, 4.7, fill=False, ec=PURPLE, lw=1.1))
-    arrow(bg, (60, 29), (67, 29))
-    for yy, mat in [(23, p), (33, q)]:
+            label(bg, xx+2.35+j*4.7, 14.5, letter, 7, ha='center', weight='bold')
+            label(bg, xx-1, 20.35+j*4.7, letter, 7, ha='right', weight='bold')
+        bg.add_patch(Rectangle((xx+2*4.7, 18), 4.7, 4.7, fill=False, ec=PURPLE, lw=1.1))
+    arrow(bg, (60, 26), (67, 26))
+    for yy, mat in [(20, p), (30, q)]:
         cells(bg, 70, yy, mat[idx][None, :], 4.2)
     for j, name in enumerate(['AB', 'AC', 'AD', 'BC', 'BD', 'CD']):
-        label(bg, 72.1+j*4.2, 19, name, 7, ha='center', weight='bold')
-    arrow(bg, (98, 29), (105, 29))
-    sc = axes(fig, 121, 14, 33, 25)
+        label(bg, 72.1+j*4.2, 16, name, 7, ha='center', weight='bold')
+    arrow(bg, (98, 26), (105, 26))
+    sc = axes(fig, 121, 11, 33, 23)
     # Use the same average-tie convention as the empirical analysis for this teaching example.
     ranks = [centered_ranks(m[idx])+(len(idx[0])+1)/2 for m in (p, q)]
     sc.plot([.5, 6.5], [.5, 6.5], color=LINE, lw=.75)
@@ -537,11 +612,11 @@ def figure4(out):
     assert len(rel) == 3 and len(times) == 3 and len(tissues) == 2
     panel(bg, PANEL_LEFT, middle_row, 'b')
     panel(bg, PANEL_RIGHT, middle_row, 'c')
-    coefficient_heatmap(fig, bg, 22, 60, rel, ['2 h', '6 h', '24 h'])
-    coefficient_heatmap(fig, bg, 106, 60, times, ['2 vs 6 h', '2 vs 24 h', '6 vs 24 h'])
-    colour_key(fig, 24, 45.5, 27, vmin=-1, vmax=1, title='Correlation')
+    coefficient_heatmap(fig, bg, 22, 66, rel, ['2 h', '6 h', '24 h'])
+    coefficient_heatmap(fig, bg, 105, 66, times, ['2 vs 6 h', '2 vs 24 h', '6 vs 24 h'])
+    colour_key(fig, 24, 42, 27, vmin=-1, vmax=1, title='Correlation')
     panel(bg, PANEL_LEFT, last_row, 'd')
-    d = axes(fig, 43, 126, 98, 23)
+    d = axes(fig, 43, 136, 98, 25)
     cfg = [('spearman_all', 'p_all', GREY, 'o', 'All pairs'),
            ('spearman_cross', 'p_cross', BLUE, 's', 'Cross-order'),
            ('partial_taxdist', 'p_partial', PURPLE, 'D', 'Taxonomy adjusted')]
@@ -549,8 +624,9 @@ def figure4(out):
         for j, (field, pfield, color, marker, _) in enumerate(cfg):
             v = row[field]; pos = yy + (1-j)*.23
             d.plot(v, pos, marker=marker, ms=3.4, color=color, mec='white', mew=.3)
-            d.text(v+.027, pos, f'{v:+.3f}'+('*' if row[pfield] < .05 else ''),
-                   fontsize=7, va='center')
+            offset = .027 if v >= 0 else -.027
+            d.text(v+offset, pos, f'{v:+.3f}'+('*' if row[pfield] < .05 else ''),
+                   fontsize=7, va='center', ha='left' if v >= 0 else 'right')
     d.set(xlim=(-.45, .80), ylim=(-.5, 1.5), xlabel='Matrix agreement (Spearman)')
     d.axvline(0, color=GREY, lw=.65)
     d.set_yticks([1, 0], ['Pool profiles,\nthen correlate', 'Correlate by condition,\nthen average'], fontsize=7)
@@ -558,7 +634,7 @@ def figure4(out):
     d.spines['left'].set_visible(False)
     fig.legend(handles=[Line2D([], [], marker=m, color=c, ls='', ms=3.4, label=l)
                         for _, _, c, m, l in cfg], loc='center',
-               bbox_to_anchor=(80/160, 1-116/162), ncol=3, frameon=False,
+               bbox_to_anchor=(80/160, 1-last_row/175), ncol=3, frameon=False,
                columnspacing=.8, handletextpad=.3, fontsize=7)
     save(fig, out, 4)
 
@@ -589,7 +665,8 @@ def figure5(out):
         label(bg, 132+j*6, 17.2, str(j+1), 7, ha='center', weight='bold')
         label(bg, 127.5, 23.5+j*6, str(j+1), 7, ha='right', weight='bold')
     label(bg, 141, 11, 'Human condition', 8, ha='center', weight='bold')
-    label(bg, 120, 32.5, 'Donor condition', 8, ha='center', rotation=90, weight='bold')
+    label(bg, 120, 32.5, 'Donor condition', 8, ha='center', rotation=90,
+          rotation_mode='anchor', weight='bold')
     for yy, col, name in [(49, BLUE, 'Matched'), (54, '#E3E8F0', 'Mismatched')]:
         bg.add_patch(Rectangle((129, yy-1.1), 2.2, 2.2, fc=col, ec='none'))
         label(bg, 133, yy, name, 7)
@@ -597,8 +674,12 @@ def figure5(out):
     panel(bg, PANEL_RIGHT, second_row, 'd')
     data = load('reconstruct_specificity')['blocks']; raw, res = data['raw'], data['residual']
     order = sorted(raw, key=lambda k: -raw[k]['matched']); yy = np.arange(len(order))[::-1]
-    c = axes(fig, 29, 80, 47, 52)
-    d = axes(fig, 100, 80, 55, 52)
+    c = axes(fig, 26, 80, 50, 52)
+    d = axes(fig, 102, 80, 53, 52)
+    # Matching light row bands help track the same donor across different targets.
+    for ax in (c, d):
+        for row in yy[::2]:
+            ax.axhspan(row-.5, row+.5, color='#F4F7FA', lw=0, zorder=0)
     total = np.array([raw[k]['matched'] for k in order])
     mis = np.array([raw[k]['mismatched_median'] for k in order])
     c.hlines(yy, mis, total, color='#BAC6D1', lw=1)
@@ -608,7 +689,7 @@ def figure5(out):
              for k in order]
     c.set_yticks(yy, names, fontsize=7)
     c.set(xlim=(-.12, .54), ylim=(-.6, 9.6), xlabel='Raw recovery')
-    c.set_xticks([-.1, .1, .3, .5])
+    c.set_xticks([-.1, 0, .2, .4])
     vals = [res[k]['residual_recovery'] for k in order]
     for y, v in zip(yy, vals):
         col = ORANGE if v > 0 else GREY
@@ -616,7 +697,8 @@ def figure5(out):
         d.plot(v, y, 'o' if v > 0 else 's', color=col, ms=3.6, mec='white', mew=.3)
         d.text(v+(.017 if v > 0 else -.017), y, f'{v:+.3f}', ha='left' if v > 0 else 'right',
                va='center', fontsize=7)
-    d.set(xlim=(-.51, .29), ylim=(-.6, 9.6), xlabel='Residual recovery')
+    # Reserve room for complete signed values inside the row bands.
+    d.set(xlim=(-.55, .33), ylim=(-.6, 9.6), xlabel='Residual recovery')
     d.set_xticks([-.4, -.2, 0, .2]); d.set_yticks(yy, [])
     for ax in [c, d]:
         ax.axvline(0, color=INK, lw=.6)
@@ -629,10 +711,16 @@ def figure5(out):
 
 
 def main():
+    global ALIGNMENT_DIR
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out', type=Path, default=ROOT/'docs/paper/tex/figures')
+    parser.add_argument('--audit-dir', type=Path,
+                        help='optional nature-figure alignment reports (helper on PYTHONPATH)')
     args = parser.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
+    if args.audit_dir is not None:
+        args.audit_dir.mkdir(parents=True, exist_ok=True)
+        ALIGNMENT_DIR = args.audit_dir
     style()
     for draw in (figure1, figure2, figure3, figure4, figure5): draw(args.out)
 
