@@ -296,7 +296,7 @@ CHECKS: list[dict] = [
          paper=0.6434, tol=5e-4, get=lambda: dc_partial(1)),
     dict(claim="2.4: double-centred partial, 6h vs 24h, +0.851",
          paper=0.8512, tol=5e-4, get=lambda: dc_partial(2)),
-    dict(claim="2.4: all three double-centred partials at Mantel p = 2.5e-4",
+    dict(claim="Historical nominal p: three row-adjusted partials at 2.5e-4; current Table 3 uses Holm correction",
          paper=0.00025, tol=1e-5,
          get=lambda: max(r["p_partial"] for r in
                          load("artifacts/biology/concordance/rho_double_centred.json")["double_centred"])),

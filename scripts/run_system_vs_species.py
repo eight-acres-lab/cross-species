@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
-"""Separate two confounded explanations for poor transfer: the species differ, or the
-system does (cells in a dish against a liver in an animal).
+"""Compare human/rat hepatocytes and rat hepatocytes/liver on a shared gene axis.
 
-Rat hepatocyte against human hepatocyte changes the species and holds the system fixed.
-Rat hepatocyte against rat liver changes the system and holds the species fixed. Both
-comparisons run on the same one-to-one ortholog axis, the same compounds and the same
-statistic, so the two numbers are directly comparable.
+These descriptive contrasts match the High dose label, not actual concentrations or
+intracellular exposure. They do not isolate a causal species or system effect. See
+audit_dose_and_multiplicity.py for the concentration-matched sensitivity analysis.
 
-Three statistics are reported for each comparison, because a single one would understate
-what transfers. Each is expressed as a fraction of its own empirical ceiling, obtained by
-applying that same statistic between the two replicates within each side -- which needs no
-assumption about how the statistic behaves, unlike correcting a correlation by formula.
+Three statistics are reported for each comparison. Only gene-level Pearson fractions
+are used for the manuscript's classical attenuation interpretation. Normalising the
+direction and aggregated scores does not itself establish a calibrated ceiling.
 
   gene level   Pearson across genes
   direction    fraction of responding genes that move the same way
   aggregated   Pearson across GO biological process terms
 
-Cross-side values average the four replicate pairings, so the ceiling is the
-single-replicate reliability and the disattenuation is the classical one.
+Cross-side values average the four replicate pairings. The Pearson denominator uses
+single-replicate reliability and requires the independent-error assumptions described
+in the manuscript; estimating both from two replicates does not remove their uncertainty.
 """
 import argparse, collections, itertools, json, math, re
 import numpy as np

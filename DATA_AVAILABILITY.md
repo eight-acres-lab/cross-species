@@ -33,9 +33,10 @@ Unless another directory is specified, the following filenames are under
 | Figure 3a | `reconstruct_metric_audit.json`, `fig1_ci.json` | `make_preprint_figures.py`, `controls/run_fig1_intervals.py` |
 | Figure 3b-d; Section 2.3 | `core_numbers.json`, `collectible_panel.json`, `panel_blood.json`, `panel_hepatocyte.json`, `scaling_curve.json` | `make_preprint_figures.py`, `run_collectible_panel.py`, `run_panel_design.py` |
 | Figure 4b-d; Section 2.4 | `rho_cross_panel_both_estimators.json` | `run_rho_reliability_and_phylogeny.py`, `plot_rho_phylogeny.py` |
-| Table 3; Section 2.4 decomposition | `rho_cross_panel_both_estimators.json`, `rho_double_centred.json`, `rho_main_effects.json` | `controls/run_double_centred.py`, `controls/run_main_effects.py` |
+| Table 3; Section 2.4 row adjustment and Holm sensitivity | `rho_cross_panel_both_estimators.json`, `rho_double_centred.json`, `rho_main_effects.json`, `artifacts/biology/reviewer_followup.json` | `controls/run_double_centred.py`, `controls/run_main_effects.py`, `audit_dose_and_multiplicity.py` |
 | Figure 5c/d | `reconstruct_specificity.json` | `run_reconstruction_specificity.py`, `make_preprint_figures.py` |
 | Table 2 | `artifacts/biology/dili/matched_time_system.json`, `mismatch_controls.json`, `system_vs_species.json` | `run_matched_time_system.py`, `run_mismatch_controls.py`, `run_system_vs_species.py` |
+| Table 2 concentration sensitivity; GSE330151 donor audit | `artifacts/biology/reviewer_followup.json`; source sample attributes and donor-count metadata | `audit_dose_and_multiplicity.py` |
 | Section 2.5 controls | `annotation_control.json`, `baseline_control.json`, `fig1_ci.json`, `fig1_paired.json`, `fig1_ceiling_control.json`, `curve_by_geneset.json`, `curve_param_ci.json`, `gap_ci.json` | Corresponding scripts in `scripts/controls/` |
 | Missing-value controls | `artifacts/gse249010_v1/na_audit.json`, `na_masked_fig1.json` | `controls/run_na_audit.py`, `controls/run_na_masked_fig1.py` |
 | Section 2.7 | All nine `artifacts/biology/dili/alt_prediction/pred_{endpoint}_{threshold}.json` files | `run_alt_prediction.py`; endpoints ALTIUL, ASTIUL, COMPOSITE; thresholds 1.5, 2.0, 3.0 |

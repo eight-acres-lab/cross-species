@@ -584,9 +584,10 @@ def coefficient_heatmap(fig, x, top, rows):
     for sp in ax.spines.values(): sp.set_visible(False)
     for i, row in enumerate(rows):
         for j, (field, pfield) in enumerate(fields):
-            val = row[field]; star = '*' if row[pfield] < .05 else ''
+            val = row[field]
             # Dark text on this bright, moderately saturated diverging palette is legible.
-            ax.text(j+.5, i+.5, f'{val:.3f}{star}', ha='center', va='center', fontsize=8)
+            # Table 3 reports multiplicity-adjusted inference; show coefficients here.
+            ax.text(j+.5, i+.5, f'{val:.3f}', ha='center', va='center', fontsize=8)
     return mesh
 
 
@@ -642,7 +643,7 @@ def figure4(out):
             v = row[field]; pos = yy + (1-j)*.23
             d.plot(v, pos, marker=marker, ms=3.4, color=color, mec='white', mew=.3)
             offset = .027 if v >= 0 else -.027
-            d.text(v+offset, pos, f'{v:+.3f}'+('*' if row[pfield] < .05 else ''),
+            d.text(v+offset, pos, f'{v:+.3f}',
                    fontsize=7, va='center', ha='left' if v >= 0 else 'right')
     d.set(xlim=(-.45, .80), ylim=(-.5, 1.5), xlabel='Matrix agreement (Spearman)')
     d.axvline(0, color=GREY, lw=.65)

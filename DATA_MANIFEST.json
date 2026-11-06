@@ -16,18 +16,18 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "bytes": 6959,
-      "sha256": "cbf6113e3978878b8a106114ff97619d053ef4a68b996dc82d65a8f9de7c5924"
+      "bytes": 7251,
+      "sha256": "28dedd55cd2fb35d3575175be93a68405cc87a2f4caf5c4873cf17cfb1a750df"
     },
     {
       "path": "README.md",
-      "bytes": 3009,
-      "sha256": "8f15f70755afcd39dc6bf5542ee1dc5309ea414f0e74e5fb3f0675fdf71526b9"
+      "bytes": 3274,
+      "sha256": "de7e1693e77d4ba041e913047326bb1c90435c281562988c61b50ce34c8c95cf"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 8975,
-      "sha256": "699eece91cb34c190afefa364b0e0c50d3e155bb33fc65ff5a158f64d55220a8"
+      "bytes": 10132,
+      "sha256": "98b47efbea5a2b72210c10adcf03fb1203a9af2095b8677257352de74f3aeb7e"
     },
     {
       "path": "artifacts/biology/concordance/annotation_control.json",
@@ -228,6 +228,11 @@
       "path": "artifacts/biology/gse330151/response_metadata.tsv",
       "bytes": 1373,
       "sha256": "a96b504dadb27769a88134f8472ecd55a72b3c6fd4d881b48f9d24f1352aa168"
+    },
+    {
+      "path": "artifacts/biology/reviewer_followup.json",
+      "bytes": 96531,
+      "sha256": "39150c3a0dcfe1d175778cbf090866fe33a1b4f7dd79e3203b2a60ba5f6ecb84"
     },
     {
       "path": "artifacts/biology/selenite/provenance.json",
@@ -460,6 +465,11 @@
       "sha256": "a02a1094b5f0e837dcb9a3ad414d0841368e113efb5d7433d04d917741577adf"
     },
     {
+      "path": "scripts/audit_dose_and_multiplicity.py",
+      "bytes": 9413,
+      "sha256": "ae5997ab797c58fc987a7f9e830f9c485110c60714f1689c153d50f966ef1b77"
+    },
+    {
       "path": "scripts/build_tggates_rat_human_ortholog_map.py",
       "bytes": 8034,
       "sha256": "d9abc30189349a2ad19492808b408acb435d20da48d59058b9f2fae07663b58a"
@@ -581,8 +591,8 @@
     },
     {
       "path": "scripts/make_preprint_figures.py",
-      "bytes": 37919,
-      "sha256": "20eda51af1670c3a0f33015fb4001ef9f588f5514c848aed719662cb04ca712e"
+      "bytes": 37924,
+      "sha256": "300030355f99673059dfdbdc62a591ea4fceea9be449088dd94ae491634be2cd"
     },
     {
       "path": "scripts/make_rhaister_cluster_splits.py",
@@ -696,8 +706,8 @@
     },
     {
       "path": "scripts/run_system_vs_species.py",
-      "bytes": 9319,
-      "sha256": "f661f1a6fab7d309c716ebceec42d717480e19827c460192c37a5038eb43932c"
+      "bytes": 9190,
+      "sha256": "5cc92925763f6e6b5963a9bde9481d78383502c601cceff77d498b693f6efdac"
     },
     {
       "path": "scripts/run_tggates_knn_validation.py",
@@ -706,8 +716,8 @@
     },
     {
       "path": "scripts/verify_preprint_numbers.py",
-      "bytes": 37787,
-      "sha256": "ab323af7e87fcca945bdd83743c5a2a5e491ad0ba3e25cd1e3928f345dbd865c"
+      "bytes": 37825,
+      "sha256": "c25e8b7822af7e2f35832082aeb26460371667496f052facb3e72be8281ac19f"
     },
     {
       "path": "scripts/verify_release.py",
@@ -753,6 +763,11 @@
       "path": "tests/test_pilot.py",
       "bytes": 2709,
       "sha256": "0f84ea32b2c4cd14d43f9a82e5420a4f8727dd67567eebd5b8ff1f957b932521"
+    },
+    {
+      "path": "tests/test_reviewer_followup.py",
+      "bytes": 1675,
+      "sha256": "8a3a804c8c5f2bf53a6cb3438f50e4f20e433e9afb904109cc0fc095c64eb49b"
     },
     {
       "path": "tests/test_rho_ranks.py",

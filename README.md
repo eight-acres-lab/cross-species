@@ -7,6 +7,8 @@ numerical results, processed inputs, source metadata and reproduction instructio
 recomputation with the corrected permutation procedure. The archived LINCS full-mean/half-sample
 ratio is excluded from ceiling inference. See [the correction notes](REPRODUCING.md#interpretation-corrections-2026-11-06)
 before interpreting those outputs; numerical checksum and consistency checks do not validate inference.
+The [follow-up audit](artifacts/biology/reviewer_followup.json) records concentration-matched
+sensitivities, Holm correction for Table 3, and the three donor pairs per GSE330151 group.
 
 - [Data catalogue](DATA_AVAILABILITY.md): source studies, deposited results, and figure/table inputs.
 - [Reproduction guide](REPRODUCING.md): verification, plotting, and analysis prerequisites.
@@ -23,6 +25,7 @@ python -m pip install -r requirements.txt
 python scripts/verify_release.py
 python scripts/verify_preprint_numbers.py
 python -m unittest discover -s tests -p 'test_*.py'
+python scripts/audit_dose_and_multiplicity.py --out /tmp/reviewer_followup.json
 python scripts/make_preprint_figures.py --out outputs/figures
 ```
 

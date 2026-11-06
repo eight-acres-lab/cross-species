@@ -10,6 +10,7 @@ python -m pip install -r requirements.txt
 python scripts/verify_release.py
 python scripts/verify_preprint_numbers.py
 python -m unittest discover -s tests -p 'test_*.py'
+python scripts/audit_dose_and_multiplicity.py --out /tmp/reviewer_followup.json
 python scripts/make_preprint_figures.py --out outputs/figures
 ```
 
@@ -35,6 +36,19 @@ inference; passing it does not resolve the issues below.
   curve, k counts reference donors and excludes the target donor.
 - `rho_double_centred.json` retains historical key names: `additive_share` is variance
   reduction after off-diagonal row adjustment, not an orthogonal variance decomposition.
+- High labels do not match actual human/rat concentrations. The new audit records all
+  per-compound concentrations: 21 of 38 in-band species comparisons differ, and the other
+  17 retain a median 15.65% of their ceiling. After matching both concentration and ceiling,
+  the rat time–species sign-test p-values are 0.065 and 0.125 (nominal, exploratory).
+- `reviewer_followup.json` includes nominal and Holm-adjusted p-values for all 18 Table 3
+  tests as one post-hoc family, plus the colleague's six-test sensitivity. Figure 4 now
+  displays coefficients without nominal significance stars. This is within-table
+  sensitivity analysis, not study-wide confirmatory error control.
+- GSE330151 has three paired donors per species–treatment group. The deposited response
+  metadata explicitly record those counts. Preprocessing averages the donor response
+  profiles; the cross-tissue analysis did not estimate donor-level matrix reliability.
+  The source study is not unreplicated. Re-estimation needs the donor-wise input arrays,
+  which are not included in this snapshot.
 
 ## Figure exports
 
