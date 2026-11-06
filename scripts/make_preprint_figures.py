@@ -33,13 +33,15 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'artifacts/biology/concordance'
 MM = 1 / 25.4
 WIDTH = 160
-BLUE, ORANGE, PURPLE = '#269DD3', '#F09A51', '#A380D3'
-TEAL, GREY, INK = '#37B6A1', '#8794A6', '#000000'
+BLUE, ORANGE, PURPLE = '#0F82BF', '#E4852B', '#68559D'
+TEAL, GREY, INK = '#009E8E', '#7C8797', '#000000'
 LIGHT, LINE = '#F4F7FA', '#D7DFE6'
 MIN_TEXT, BODY_TEXT, PANEL_TEXT = 7, 8, 8
 PANEL_LEFT, PANEL_RIGHT, ROW_GAP = 3, 83, 12
 ALIGNMENT_DIR = None
-RESPONSE = LinearSegmentedColormap.from_list('response', ['#45AFE1', '#FFFFFF', '#FF9B75'])
+# Saturated endpoints keep zero white and retain the same linear, symmetric scale.
+# Black text remains legible even at the most saturated end of the map.
+RESPONSE = LinearSegmentedColormap.from_list('response', [BLUE, '#FFFFFF', '#F37252'])
 NAMES = {
     'Pan troglodytes': 'Chimpanzee', 'Macaca': 'Macaque',
     'Papio anubis': 'Baboon', 'Bos taurus': 'Cow', 'Ovis aries': 'Sheep',
@@ -278,7 +280,7 @@ def figure1(out):
     fig, bg = canvas(174)
     stage(bg, 3, 5, 1, 'Construct response profiles', BLUE)
     # Input contexts have their own roles; they are not merged into one biological dataset.
-    region(bg, 3, 11, 41, 36, '#F1F9FE', '#B6E1F5')
+    region(bg, 3, 11, 41, 36, '#EDF6FC', '#67B7DD')
     label(bg, 7, 16, 'Experimental contexts', 8, weight='bold')
     for y, color, title, desc in [
         (23, BLUE, 'Blood panel', 'Species × dose × time'),
@@ -295,7 +297,7 @@ def figure1(out):
     control = np.array([[1., 1.1, 1.3, 1.4, 1.0, 1.2],
                         [1.2, 1.0, 1.1, 1.7, 1.3, 1.0],
                         [.9, 1.2, 1.4, 1.6, 1.1, 1.3]])
-    seq = LinearSegmentedColormap.from_list('expression', ['#F1FAFE', BLUE])
+    seq = LinearSegmentedColormap.from_list('expression', ['#EDF6FC', BLUE])
     cells(bg, 66, 15, perturb, 3.6, vmin=0, vmax=2.5, cmap=seq)
     cells(bg, 66, 32, control, 3.6, vmin=0, vmax=2.5, cmap=seq)
     label(bg, 63, 20.4, 'Perturbed', 7, ha='right')
@@ -320,8 +322,8 @@ def figure1(out):
     # boxes group calculations; they do not enclose a different heading level.
     stage(bg, 3, 57, 2, 'Quantify species redundancy', BLUE)
     stage(bg, 82, 57, 3, 'Estimate replicate ceiling', ORANGE)
-    region(bg, 3, 63, 75, 52, 'white', '#B6E1F5')
-    region(bg, 82, 63, 75, 52, 'white', '#FFD7B1')
+    region(bg, 3, 63, 75, 52, 'white', '#67B7DD')
+    region(bg, 82, 63, 75, 52, 'white', '#ECAE78')
     x = toy_responses()
     cells(bg, 12, 73, x, 3.3, vmin=-1.5, vmax=1.5)
     for i, name in enumerate('ABCD'):
@@ -359,7 +361,7 @@ def figure1(out):
     # Both constructions constrain interpretation, with different validation requirements.
     arrow(bg, (40, 115.5), (40, 121), color=BLUE)
     arrow(bg, (120, 115.5), (120, 121), color=ORANGE)
-    region(bg, 3, 122, 154, 9, '#F9F5FD', '#DFD1F1')
+    region(bg, 3, 122, 154, 9, '#F5F1FB', '#B8A5D4')
     label(bg, 80, 126.5,
           'Reliability  |  Control independence  |  Context validation', 8, ha='center')
     stage(bg, 3, 138, 4, 'Compare transfer limits', PURPLE)
@@ -411,8 +413,8 @@ def figure2(out):
     label(bg, 141, 12, 'Study role', 8, ha='center', weight='bold')
     bg.plot([5, 157], [16, 16], color=INK, lw=.65)
     role_colours = {'Core analyses': BLUE, 'Additional panels': TEAL, 'External check': PURPLE}
-    role_fills = {'Core analyses': '#EAF6FE', 'Additional panels': '#EAFBF5',
-                  'External check': '#F5EDFC'}
+    role_fills = {'Core analyses': '#E5F2FA', 'Additional panels': '#E2F3EE',
+                  'External check': '#EDE7F6'}
     for role, fill in role_fills.items():
         indices = [i for i, r in enumerate(data['datasets']) if r['role'] == role]
         top = 17+7*min(indices)
@@ -437,7 +439,7 @@ def figure2(out):
     panel(bg, PANEL_RIGHT, lower, 'c')
     blood = data['blood']
     b = axes(fig, 23, 87, 50, 53)
-    seq = ListedColormap(['#A4DCF5'])
+    seq = ListedColormap(['#58B2D7'])
     values = np.asarray(blood['counts'])
     b.pcolormesh(values, cmap=seq, vmin=0, vmax=50, edgecolors='white', linewidth=1.5)
     b.set(xlim=(0, len(blood['times_h'])), ylim=(len(blood['doses_ng_ml']), 0),
@@ -452,7 +454,7 @@ def figure2(out):
     c = axes(fig, 106, 87, 49, 53)
     rows = data['tggates']['comparisons']
     y = np.arange(len(rows))[::-1]
-    c.barh(y, [r['n_shared'] for r in rows], color='#E3E8F0', height=.58, label='Shared')
+    c.barh(y, [r['n_shared'] for r in rows], color='#D1D9E3', height=.58, label='Shared')
     c.barh(y, [r['n_in_band'] for r in rows], color=ORANGE, height=.58, label='In band')
     for yy, row in zip(y, rows):
         c.text(row['n_shared']+4, yy, str(row['n_shared']), fontsize=7, va='center')
@@ -498,7 +500,7 @@ def figure3(out):
     def panel_spread(ax, key):
         d = core[key]; kk = np.array([r['k'] for r in d])
         ax.fill_between(kk, [r['worst'] for r in d], [r['best'] for r in d],
-                        color=BLUE, alpha=.08, linewidth=0)
+                        color=BLUE, alpha=.12, linewidth=0)
         configs = [('best', ORANGE, 'o', '-', 'Best'),
                    ('mean', BLUE, 's', '-', 'Mean'),
                    ('worst', GREY, '^', '--', 'Worst')]
@@ -660,14 +662,14 @@ def figure5(out):
     # The pairing map shows the control operation without pretending it is observed data.
     for i, j in np.ndindex(4, 4):
         bg.add_patch(Rectangle((129+j*6, 20.5+i*6), 6, 6,
-                              fc=BLUE if i == j else '#E3E8F0', ec='white', lw=.8))
+                              fc=BLUE if i == j else '#D1D9E3', ec='white', lw=.8))
     for j in range(4):
         label(bg, 132+j*6, 17.2, str(j+1), 7, ha='center', weight='bold')
         label(bg, 127.5, 23.5+j*6, str(j+1), 7, ha='right', weight='bold')
     label(bg, 141, 11, 'Human condition', 8, ha='center', weight='bold')
     label(bg, 120, 32.5, 'Donor condition', 8, ha='center', rotation=90,
           rotation_mode='anchor', weight='bold')
-    for yy, col, name in [(49, BLUE, 'Matched'), (54, '#E3E8F0', 'Mismatched')]:
+    for yy, col, name in [(49, BLUE, 'Matched'), (54, '#D1D9E3', 'Mismatched')]:
         bg.add_patch(Rectangle((129, yy-1.1), 2.2, 2.2, fc=col, ec='none'))
         label(bg, 133, yy, name, 7)
     panel(bg, PANEL_LEFT, second_row, 'c')

@@ -581,8 +581,8 @@
     },
     {
       "path": "scripts/make_preprint_figures.py",
-      "bytes": 36868,
-      "sha256": "2bd0a6c5239d3a3919e3c30a991e6d63830cac25d493579ae9e8f38955093419"
+      "bytes": 37018,
+      "sha256": "c1e9efd5d6a7d2cd417044c3f20515057582a7611804a4978d0966c1a410e506"
     },
     {
       "path": "scripts/make_rhaister_cluster_splits.py",
