@@ -1,0 +1,34 @@
+{
+  "formal_specification_sha256": "0aad7ea40e8c4eb65a95141b3b2dd81582d14d5f07e846e74017aeccdb75d33f",
+  "modes": "All live, old, original-reference and evaluation-EMA modules use eval mode; live autograd remains enabled. This disables released0.1 dropout to preserve initial branch cancellation.",
+  "frozen_field_compatibility": "Detached require-grad parameter views with functional_call select the same forward CUDA kernels; old/reference original parameters remain frozen, outputs detach immediately.",
+  "loss_accumulation": "Two mean32-cell losses divided by2 then accumulated; native one-step MMD is computed within each microbatch32, matching the specified microbatch recipe.",
+  "counts": {
+    "fixed_unique_real_targets": 1152,
+    "total_optimizer_target_presentations_per_arm": 12800,
+    "unique_control_events_per_update": 8,
+    "generated_endpoints_per_witness_update": 64,
+    "native_unused_rollouts": 0,
+    "fit_condition_updates": {
+      "Givinostat+Carmofur": 10,
+      "Alvespimycin+Pirarubicin": 16,
+      "control+Givinostat": 11,
+      "control+Dasatinib": 7,
+      "Dacinostat+Danusertib": 13,
+      "Dacinostat+PCI-34051": 13,
+      "Givinostat+SRT2104": 9,
+      "Panobinostat+Alvespimycin": 14,
+      "Givinostat+Crizotinib": 15,
+      "Panobinostat+PCI-34051": 10,
+      "control+SRT2104": 10,
+      "Givinostat+Sorafenib": 15,
+      "Dacinostat+Dasatinib": 12,
+      "Panobinostat+SRT2104": 9,
+      "Givinostat+SRT1720": 14,
+      "Givinostat+Tanespimycin": 6,
+      "Givinostat+Cediranib": 7,
+      "control+Panobinostat": 9
+    }
+  },
+  "scope": "Witness-only paper-aligned sensitivity; omitted support/pathway and fixed64 reference pools; no complete reproduction and no equal-FLOPs assertion."
+}

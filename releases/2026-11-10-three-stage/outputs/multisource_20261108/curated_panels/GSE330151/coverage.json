@@ -1,0 +1,113 @@
+{
+  "arm_samples": 90,
+  "treated_observations": 45,
+  "source_perturbation_context_contrasts": 15,
+  "species": [
+    "human",
+    "mouse",
+    "rat",
+    "cyno",
+    "dog"
+  ],
+  "independent_perturbations": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "human_anchored_genes_before_missingness": 10150,
+  "fixed_complete_comparison_genes": 9637,
+  "verified_donors": 0,
+  "biological_independence_status": "Unverified; labelled arm replicates retained",
+  "per_contrast": [
+    {
+      "contrast_id": "GSE330151|cyno|CDDO",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|cyno|KI696",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9913
+    },
+    {
+      "contrast_id": "GSE330151|cyno|THAP",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|dog|CDDO",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|dog|KI696",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9913
+    },
+    {
+      "contrast_id": "GSE330151|dog|THAP",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|human|CDDO",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|human|KI696",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9913
+    },
+    {
+      "contrast_id": "GSE330151|human|THAP",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|mouse|CDDO",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|mouse|KI696",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9913
+    },
+    {
+      "contrast_id": "GSE330151|mouse|THAP",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|rat|CDDO",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    },
+    {
+      "contrast_id": "GSE330151|rat|KI696",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9913
+    },
+    {
+      "contrast_id": "GSE330151|rat|THAP",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9637
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "schema": "multisource_baseline_v1",
+  "frozen_utc": "2026-11-08T04:24:08.892796+00:00",
+  "dataset": "GSE330151",
+  "retrospective": true,
+  "prior_human_outcomes_inspected": true,
+  "scope": "Descriptive3-drug/2-pathway primary-hepatocyte panel and exploratory LOPO; no independent validation or stable population CI.",
+  "human_queries": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "source_order": [
+    "mouse",
+    "rat",
+    "cyno",
+    "dog"
+  ],
+  "source_subsets": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "global_gene_count": 9637,
+  "gene_axis_sha256": "33532b70138e51ebcb510d0ae7a75d546ecddfc4b48b9aa091290a4c82310abe",
+  "records": [
+    {
+      "perturbation": "CDDO",
+      "species": "human",
+      "contrast_id": "GSE330151|human|CDDO",
+      "treated_rows": [
+        0,
+        1,
+        2
+      ],
+      "vehicle_rows": [
+        6,
+        7,
+        8
+      ],
+      "time_h": 24.0,
+      "dose_value": 100.0,
+      "dose_unit": "nM"
+    },
+    {
+      "perturbation": "CDDO",
+      "species": "mouse",
+      "contrast_id": "GSE330151|mouse|CDDO",
+      "treated_rows": [
+        18,
+        19,
+        20
+      ],
+      "vehicle_rows": [
+        24,
+        25,
+        26
+      ],
+      "time_h": 24.0,
+      "dose_value": 100.0,
+      "dose_unit": "nM"
+    },
+    {
+      "perturbation": "CDDO",
+      "species": "rat",
+      "contrast_id": "GSE330151|rat|CDDO",
+      "treated_rows": [
+        36,
+        37,
+        38
+      ],
+      "vehicle_rows": [
+        42,
+        43,
+        44
+      ],
+      "time_h": 24.0,
+      "dose_value": 100.0,
+      "dose_unit": "nM"
+    },
+    {
+      "perturbation": "CDDO",
+      "species": "cyno",
+      "contrast_id": "GSE330151|cyno|CDDO",
+      "treated_rows": [
+        54,
+        55,
+        56
+      ],
+      "vehicle_rows": [
+        60,
+        61,
+        62
+      ],
+      "time_h": 24.0,
+      "dose_value": 100.0,
+      "dose_unit": "nM"
+    },
+    {
+      "perturbation": "CDDO",
+      "species": "dog",
+      "contrast_id": "GSE330151|dog|CDDO",
+      "treated_rows": [
+        72,
+        73,
+        74
+      ],
+      "vehicle_rows": [
+        78,
+        79,
+        80
+      ],
+      "time_h": 24.0,
+      "dose_value": 100.0,
+      "dose_unit": "nM"
+    },
+    {
+      "perturbation": "KI696",
+      "species": "human",
+      "contrast_id": "GSE330151|human|KI696",
+      "treated_rows": [
+        15,
+        16,
+        17
+      ],
+      "vehicle_rows": [
+        12,
+        13,
+        14
+      ],
+      "time_h": 24.0,
+      "dose_value": 10.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "KI696",
+      "species": "mouse",
+      "contrast_id": "GSE330151|mouse|KI696",
+      "treated_rows": [
+        33,
+        34,
+        35
+      ],
+      "vehicle_rows": [
+        30,
+        31,
+        32
+      ],
+      "time_h": 24.0,
+      "dose_value": 10.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "KI696",
+      "species": "rat",
+      "contrast_id": "GSE330151|rat|KI696",
+      "treated_rows": [
+        51,
+        52,
+        53
+      ],
+      "vehicle_rows": [
+        48,
+        49,
+        50
+      ],
+      "time_h": 24.0,
+      "dose_value": 10.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "KI696",
+      "species": "cyno",
+      "contrast_id": "GSE330151|cyno|KI696",
+      "treated_rows": [
+        69,
+        70,
+        71
+      ],
+      "vehicle_rows": [
+        66,
+        67,
+        68
+      ],
+      "time_h": 24.0,
+      "dose_value": 10.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "KI696",
+      "species": "dog",
+      "contrast_id": "GSE330151|dog|KI696",
+      "treated_rows": [
+        87,
+        88,
+        89
+      ],
+      "vehicle_rows": [
+        84,
+        85,
+        86
+      ],
+      "time_h": 24.0,
+      "dose_value": 10.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "THAP",
+      "species": "human",
+      "contrast_id": "GSE330151|human|THAP",
+      "treated_rows": [
+        9,
+        10,
+        11
+      ],
+      "vehicle_rows": [
+        3,
+        4,
+        5
+      ],
+      "time_h": 8.0,
+      "dose_value": 1.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "THAP",
+      "species": "mouse",
+      "contrast_id": "GSE330151|mouse|THAP",
+      "treated_rows": [
+        27,
+        28,
+        29
+      ],
+      "vehicle_rows": [
+        21,
+        22,
+        23
+      ],
+      "time_h": 8.0,
+      "dose_value": 1.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "THAP",
+      "species": "rat",
+      "contrast_id": "GSE330151|rat|THAP",
+      "treated_rows": [
+        45,
+        46,
+        47
+      ],
+      "vehicle_rows": [
+        39,
+        40,
+        41
+      ],
+      "time_h": 8.0,
+      "dose_value": 1.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "THAP",
+      "species": "cyno",
+      "contrast_id": "GSE330151|cyno|THAP",
+      "treated_rows": [
+        63,
+        64,
+        65
+      ],
+      "vehicle_rows": [
+        57,
+        58,
+        59
+      ],
+      "time_h": 8.0,
+      "dose_value": 1.0,
+      "dose_unit": "uM"
+    },
+    {
+      "perturbation": "THAP",
+      "species": "dog",
+      "contrast_id": "GSE330151|dog|THAP",
+      "treated_rows": [
+        81,
+        82,
+        83
+      ],
+      "vehicle_rows": [
+        75,
+        76,
+        77
+      ],
+      "time_h": 8.0,
+      "dose_value": 1.0,
+      "dose_unit": "uM"
+    }
+  ],
+  "feature_selection": "All90arms complete on same fresh five-way axis; never change axis by subset or response effect.",
+  "input_manifest_sha256": "99310f3332dee7a9479d826a92858174f8a79512fbb890cca82c2bdef457ecf0",
+  "panel_sha256": "4061c46753ec514bed7c15c9efd28211b8e29263c4f115ccc9ff57a7f8815f4c",
+  "training": "For each held perturbation, only other2 perturbations' human/source means fit scalar simplex weights and bestfixedsource. No intercept/gene-specific parameters.",
+  "simplex_ridge": 1.0,
+  "simplex_penalty": "Mean_task,gene MSE +1*||w-uniform||\u00b2, nonnegative sum1. Fixed without terminal tuning.",
+  "source_selection_visibility": "Bestfixedsource chooses using only historical source-copy losses before acquiring held source response. Heldhuman and unpurchased heldsource responses do not select its identity.",
+  "context_rule": {
+    "fixed_known_categories": [
+      "NRF2_24h",
+      "NRF2_24h",
+      "UPR_8h"
+    ],
+    "human_baseline": "Mean human history in exact known pathway/time category; if absent use all available history.",
+    "limitation": "Only3drugs with pathway/time confounding. This is not a validated strong molecular/context prior or causal factor attribution."
+  },
+  "context_selector": "Not estimated: outer history has2 tasks; deep/context-dependent source recommendation unsupported. Bestfixedhistory is a limited explicit before-measurement rule.",
+  "added_source_budget": "Each acquired source uses all3treated+3vehicle profiles. More sources therefore add nominal measured-profile budget.",
+  "fixed_total_budget": "Exact finite-record expected MSE for3treated+3vehicle profiles total across sources, independent without-replacement draws within each arm, balanced allocations, equal source weights. Four sources cannot satisfy this6-profile budget and are marked ineligible.",
+  "random_control": "Expected loss of uniformly choosing one source, mean of four single-source losses; not loss of their mean prediction.",
+  "phylogeny_proxy_control": "Fixed cyno single source, named control only; no fitted phylogenetic model.",
+  "oracle": "Best single source or subset chosen using heldhuman is terminal diagnostic only; excluded from deployable rankings.",
+  "primary": "Perperturbation gene MSE and equal-perturbation macro; Pearson/cosine secondary with undefined values preserved.",
+  "measurement_resampling": {
+    "draws": 2000,
+    "seed": 20261108,
+    "unit": "Labelled original samples resampled independently within treated/vehicle arms of each species\u00d7drug. Allmethods share sampled human/source arms.",
+    "fixed_estimator": true,
+    "paired_reference_controls": [
+      "best_fixed_source_history",
+      "uniform_random_single_source_expected_loss"
+    ],
+    "warning": "Biological IDs/independence unknown; percentile ranges are measured-arm sensitivity, not donor/generalization confidence intervals. No task/gene bootstrap or significance claim."
+  },
+  "device_requested": "cuda",
+  "precision": "Torch float64 batched resampling, CPU same-count first4draws allmethods parity guard rtol1e-10/atol1e-10.",
+  "code_sha256": {
+    "scripts/run_multisource_benchmark.py": "4fc8421804a98c0afd471e5169f397fd708b0b36ba63d68fd45266904e67d2c6",
+    "src/cross_species/multisource_models.py": "8b6f352056a49f431b9110988d1438c0c64ca1428ab183e675289d44106c3ca3",
+    "src/cross_species/multisource_data.py": "0a8b577b2391e9f6867262c7967730afc061f2a69736e8694bd7d81f96f15874"
+  }
+}

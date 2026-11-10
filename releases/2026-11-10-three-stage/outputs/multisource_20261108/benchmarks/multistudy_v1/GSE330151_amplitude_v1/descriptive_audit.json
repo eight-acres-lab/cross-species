@@ -1,0 +1,1088 @@
+{
+  "run_report_sha256": "9b0cdd957a71a981f8d996eeacfe5f3a90290c46e8b2e2015c5508100ea3f454",
+  "specification_sha256": "324cb12e2953956187a2ce53184481d735d444fcb219847e7c7f6f1c9c194b55",
+  "scope": "Terminal descriptive audit. No model fitting, hyperparameter selection or new biological replication.",
+  "cases": {
+    "GSE330151_LOPO": {
+      "maximum_mse_reconstruction_error": 5.551115123125783e-17,
+      "queries": [
+        "CDDO",
+        "KI696",
+        "THAP"
+      ],
+      "source_to_human_response_RMS": [
+        [
+          1.9321489376171135,
+          2.0053222376716127,
+          0.9584929632199565,
+          1.190414487587934
+        ],
+        [
+          1.4454026597356373,
+          1.6259966053603485,
+          1.4651814392635736,
+          0.9953635230784728
+        ],
+        [
+          0.8761072906852169,
+          1.056932937586891,
+          0.6913623989333371,
+          0.5709013136851389
+        ]
+      ],
+      "historical_source_selections": {
+        "raw": [
+          "cyno",
+          "cyno",
+          "cyno"
+        ],
+        "scaled": [
+          "cyno",
+          "cyno",
+          "cyno"
+        ],
+        "affine_gene_mean": [
+          "mouse",
+          "mouse",
+          "mouse"
+        ]
+      },
+      "known_control_selections": [
+        "cyno",
+        "cyno",
+        "cyno"
+      ],
+      "added_source_diagnostics": {
+        "raw": {
+          "edges": [
+            {
+              "before": "raw/equal/mouse",
+              "after": "raw/equal/mouse+rat",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.05537556121905497,
+                0.0352727815791605,
+                0.023656980890195967
+              ],
+              "macro_gain": 0.038101774562803815,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse",
+              "after": "raw/equal/mouse+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.0842669048756668,
+                0.0650129437534369,
+                0.07271159920181716
+              ],
+              "macro_gain": 0.07399714927697362,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse",
+              "after": "raw/equal/mouse+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.08373213047270493,
+                0.05069413744341428,
+                0.05514082231679879
+              ],
+              "macro_gain": 0.06318903007763933,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/rat",
+              "after": "raw/equal/mouse+rat",
+              "added_source": "mouse",
+              "gain_by_query": [
+                0.02945010593298207,
+                0.0398989828424061,
+                0.06571945159000694
+              ],
+              "macro_gain": 0.04502284678846504,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/rat",
+              "after": "raw/equal/rat+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.07370371217015614,
+                0.06964446960443291,
+                0.1110362950060447
+              ],
+              "macro_gain": 0.08479482559354458,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/rat",
+              "after": "raw/equal/rat+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.07036577163028812,
+                0.061712814659417664,
+                0.09729647999229668
+              ],
+              "macro_gain": 0.07645835542733416,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/cyno",
+              "after": "raw/equal/mouse+cyno",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.021561610736660027,
+                0.016834819506993615,
+                0.011255310361908827
+              ],
+              "macro_gain": 0.002176173044080805,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/cyno",
+              "after": "raw/equal/rat+cyno",
+              "added_source": "rat",
+              "gain_by_query": [
+                -0.006199348156097788,
+                0.016840144094744013,
+                0.007517535466325387
+              ],
+              "macro_gain": 0.0060527771349905375,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/cyno",
+              "after": "raw/equal/cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.007839032955510333,
+                0.028663444662685056,
+                0.016021773124950983
+              ],
+              "macro_gain": 0.01750808358104879,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/dog",
+              "after": "raw/equal/mouse+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.010494322825885118,
+                0.003296585276863065,
+                0.025628422111893367
+              ],
+              "macro_gain": 0.006143561520957105,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/dog",
+              "after": "raw/equal/rat+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.002064773617770972,
+                0.009689061229620849,
+                0.025721609087580283
+              ],
+              "macro_gain": 0.012491814644990702,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/dog",
+              "after": "raw/equal/cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.019441095269247116,
+                0.029444016742577128,
+                0.0479656617599539
+              ],
+              "macro_gain": 0.03228359125725938,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+rat",
+              "after": "raw/equal/mouse+rat+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.036328056925989866,
+                0.03335655749994407,
+                0.047673663493458446
+              ],
+              "macro_gain": 0.03911942597313079,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+rat",
+              "after": "raw/equal/mouse+rat+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.035895968319591784,
+                0.023554193839915256,
+                0.03730716583122923
+              ],
+              "macro_gain": 0.03225244266357876,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+cyno",
+              "after": "raw/equal/mouse+rat+cyno",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.007436713269378031,
+                0.003616395325667668,
+                -0.0013809548181627496
+              ],
+              "macro_gain": 0.003224051258960983,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/mouse+cyno",
+              "after": "raw/equal/mouse+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0186899136525464,
+                0.009944714469999054,
+                0.008438761341414747
+              ],
+              "macro_gain": 0.012357796487986733,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+dog",
+              "after": "raw/equal/mouse+rat+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.007539399065941824,
+                0.008132837975661479,
+                0.0058233244046264065
+              ],
+              "macro_gain": 0.007165187148743236,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+dog",
+              "after": "raw/equal/mouse+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.019224688055508275,
+                0.024263520780021676,
+                0.02600953822643312
+              ],
+              "macro_gain": 0.023165915687321025,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/rat+cyno",
+              "after": "raw/equal/mouse+rat+cyno",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.007925549311184207,
+                0.00361107073791727,
+                0.0023568200774206904
+              ],
+              "macro_gain": -0.000652552831948749,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/rat+cyno",
+              "after": "raw/equal/rat+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.012856537828739752,
+                0.01329687915172402,
+                0.015230327239245417
+              ],
+              "macro_gain": 0.01379458140656973,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/rat+dog",
+              "after": "raw/equal/mouse+rat+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.005019697377714266,
+                0.001740362022903695,
+                0.005730137428939491
+              ],
+              "macro_gain": 0.0008169340247096401,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/rat+dog",
+              "after": "raw/equal/rat+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.016194478368607775,
+                0.021228534096739256,
+                0.028970142252993436
+              ],
+              "macro_gain": 0.022131051572780155,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/cyno+dog",
+              "after": "raw/equal/mouse+cyno+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.010710730039623959,
+                -0.0018839106856923873,
+                0.0036722985783725903
+              ],
+              "macro_gain": -0.0029741140489812517,
+              "harmful_queries": 2
+            },
+            {
+              "before": "raw/equal/cyno+dog",
+              "after": "raw/equal/rat+cyno+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                -0.0011818432828683695,
+                0.0014735785837829765,
+                0.006726089580619821
+              ],
+              "macro_gain": 0.002339274960511476,
+              "harmful_queries": 1
+            },
+            {
+              "before": "raw/equal/mouse+rat+cyno",
+              "after": "raw/equal/mouse+rat+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.013289463707294925,
+                0.0074835548828016615,
+                0.010854902816317874
+              ],
+              "macro_gain": 0.01054264046880482,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+rat+dog",
+              "after": "raw/equal/mouse+rat+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.013721552313693007,
+                0.017285918542830472,
+                0.021221400478547092
+              ],
+              "macro_gain": 0.017409623778356857,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/mouse+cyno+dog",
+              "after": "raw/equal/mouse+rat+cyno+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0020362633241265554,
+                0.0011552357384702755,
+                0.0010351866567403778
+              ],
+              "macro_gain": 0.0014088952397790695,
+              "harmful_queries": 0
+            },
+            {
+              "before": "raw/equal/rat+cyno+dog",
+              "after": "raw/equal/mouse+rat+cyno+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.007492623432629034,
+                -0.0022022535310050884,
+                -0.0020186043455068525
+              ],
+              "macro_gain": -0.003904493769713658,
+              "harmful_queries": 3
+            }
+          ],
+          "harmful_macro_edges": 3,
+          "harmful_query_edges": 12,
+          "total_edges": 28
+        },
+        "scaled": {
+          "edges": [
+            {
+              "before": "scaled/equal/mouse",
+              "after": "scaled/equal/mouse+rat",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.00800812281828342,
+                0.0032570438688820716,
+                0.007605002842917069
+              ],
+              "macro_gain": 0.00629005651002752,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse",
+              "after": "scaled/equal/mouse+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.008365418173055118,
+                0.011772245160830287,
+                0.01661286876840881
+              ],
+              "macro_gain": 0.012250177367431406,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse",
+              "after": "scaled/equal/mouse+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.008983370422876905,
+                0.0020739980540232655,
+                0.004083541217155123
+              ],
+              "macro_gain": 0.005046969898018431,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/rat",
+              "after": "scaled/equal/mouse+rat",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0014914116168522965,
+                0.00100228419885081,
+                -0.006063157144266362
+              ],
+              "macro_gain": -0.002184094854089283,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/rat",
+              "after": "scaled/equal/rat+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.003677748332042239,
+                0.010811416534490553,
+                0.009958006430801525
+              ],
+              "macro_gain": 0.008149057099111439,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/rat",
+              "after": "scaled/equal/rat+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.003996047074009853,
+                0.0019228325592506243,
+                -0.002078522334052285
+              ],
+              "macro_gain": 0.001280119099736064,
+              "harmful_queries": 1
+            },
+            {
+              "before": "scaled/equal/cyno",
+              "after": "scaled/equal/mouse+cyno",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.001354265850264956,
+                0.003960057119981861,
+                -0.012302641252641355
+              ],
+              "macro_gain": -0.0032322833276414837,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/cyno",
+              "after": "scaled/equal/rat+cyno",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0034575987438578808,
+                0.0052539881636733884,
+                -0.005289343603065211
+              ],
+              "macro_gain": 0.0011407477681553528,
+              "harmful_queries": 1
+            },
+            {
+              "before": "scaled/equal/cyno",
+              "after": "scaled/equal/cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0031826684747992655,
+                0.00404601341432731,
+                -0.008496945776947429
+              ],
+              "macro_gain": -0.00042275462927361787,
+              "harmful_queries": 1
+            },
+            {
+              "before": "scaled/equal/dog",
+              "after": "scaled/equal/mouse+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.002082192500057204,
+                0.0018946695626483254,
+                -0.0033276769079723933
+              ],
+              "macro_gain": -0.0011717332817937573,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/dog",
+              "after": "scaled/equal/rat+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0024300185862114604,
+                0.003998263737906946,
+                0.00417841952800363
+              ],
+              "macro_gain": 0.0035355672840406784,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/dog",
+              "after": "scaled/equal/cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.0018367895751852312,
+                0.011678872963800796,
+                0.013007346118975222
+              ],
+              "macro_gain": 0.008841002885987083,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse+rat",
+              "after": "scaled/equal/mouse+rat+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.0029901079123399316,
+                0.008111279822902044,
+                0.00892749516919511
+              ],
+              "macro_gain": 0.0066762943014790285,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse+rat",
+              "after": "scaled/equal/mouse+rat+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.00325667736428922,
+                0.0006985615141560098,
+                0.0003987025726943094
+              ],
+              "macro_gain": 0.001451313817046513,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse+cyno",
+              "after": "scaled/equal/mouse+rat+cyno",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.002632812557568233,
+                -0.0004039214690461715,
+                -8.03707562966327e-05
+              ],
+              "macro_gain": 0.0007161734440751429,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/mouse+cyno",
+              "after": "scaled/equal/mouse+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.002770061541383907,
+                -0.0012359938110643037,
+                -0.0023758500159100637
+              ],
+              "macro_gain": -0.0002805940951968201,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/mouse+dog",
+              "after": "scaled/equal/mouse+rat+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.002281429759695735,
+                0.0018816073290148158,
+                0.003920164198456255
+              ],
+              "macro_gain": 0.002694400429055602,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse+dog",
+              "after": "scaled/equal/mouse+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.002152109291562121,
+                0.008462253295742718,
+                0.010153477535343625
+              ],
+              "macro_gain": 0.006922613374216155,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/rat+cyno",
+              "after": "scaled/equal/mouse+rat+cyno",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.002179052036554604,
+                -0.0016978525127376992,
+                -0.007093668405872777
+              ],
+              "macro_gain": -0.0036568576517216934,
+              "harmful_queries": 3
+            },
+            {
+              "before": "scaled/equal/rat+cyno",
+              "after": "scaled/equal/rat+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0010467267568644474,
+                -0.001270442498559246,
+                -0.004454768070483395
+              ],
+              "macro_gain": -0.0015594946040593978,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/rat+dog",
+              "after": "scaled/equal/mouse+rat+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0022307813265729295,
+                -0.0002219868462438046,
+                -0.0035859322375197678
+              ],
+              "macro_gain": -0.002012900136778834,
+              "harmful_queries": 3
+            },
+            {
+              "before": "scaled/equal/rat+dog",
+              "after": "scaled/equal/rat+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.0007284280148968335,
+                0.007618141476680683,
+                0.007581760694370415
+              ],
+              "macro_gain": 0.0053094433953159775,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/cyno+dog",
+              "after": "scaled/equal/mouse+cyno+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0017668727836803143,
+                -0.0013219501054097527,
+                -0.00618154549160399
+              ],
+              "macro_gain": -0.0030901227935646856,
+              "harmful_queries": 3
+            },
+            {
+              "before": "scaled/equal/cyno+dog",
+              "after": "scaled/equal/rat+cyno+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0013216570259230627,
+                -6.246774921316728e-05,
+                -0.0012471658966011767
+              ],
+              "macro_gain": 4.0077933695729e-06,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/mouse+rat+cyno",
+              "after": "scaled/equal/mouse+rat+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0014492036438674902,
+                -0.0010977939738871859,
+                -0.0017979137428573988
+              ],
+              "macro_gain": -0.00048216802429236483,
+              "harmful_queries": 2
+            },
+            {
+              "before": "scaled/equal/mouse+rat+dog",
+              "after": "scaled/equal/mouse+rat+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.001182634191918202,
+                0.0063149243348588485,
+                0.006730878853643402
+              ],
+              "macro_gain": 0.004742812460140151,
+              "harmful_queries": 0
+            },
+            {
+              "before": "scaled/equal/mouse+cyno+dog",
+              "after": "scaled/equal/mouse+rat+cyno+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0013119546600518159,
+                -0.0002657216318690536,
+                0.0004975655167560322
+              ],
+              "macro_gain": 0.0005145995149795982,
+              "harmful_queries": 1
+            },
+            {
+              "before": "scaled/equal/rat+cyno+dog",
+              "after": "scaled/equal/mouse+rat+cyno+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.001776575149551561,
+                -0.001525203988065639,
+                -0.004436814078246781
+              ],
+              "macro_gain": -0.0025795310719546605,
+              "harmful_queries": 3
+            }
+          ],
+          "harmful_macro_edges": 11,
+          "harmful_query_edges": 32,
+          "total_edges": 28
+        },
+        "affine_gene_mean": {
+          "edges": [
+            {
+              "before": "affine_gene_mean/equal/mouse",
+              "after": "affine_gene_mean/equal/mouse+rat",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.002682482849244522,
+                0.002385566988058793,
+                0.0
+              ],
+              "macro_gain": 0.0016893499457677718,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse",
+              "after": "affine_gene_mean/equal/mouse+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.006683219590819994,
+                0.012203939071281741,
+                0.011313214389113646
+              ],
+              "macro_gain": 0.010066791017071794,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse",
+              "after": "affine_gene_mean/equal/mouse+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.006639028533645577,
+                0.0001262312113341213,
+                0.000872991394972461
+              ],
+              "macro_gain": 0.0025460837133173867,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/rat",
+              "after": "affine_gene_mean/equal/mouse+rat",
+              "added_source": "mouse",
+              "gain_by_query": [
+                0.002155474298898674,
+                0.0013616085071166822,
+                0.0
+              ],
+              "macro_gain": 0.0011723609353384522,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/rat",
+              "after": "affine_gene_mean/equal/rat+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.006845901791934561,
+                0.012333225632150543,
+                0.011313214389113646
+              ],
+              "macro_gain": 0.010164113937732916,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/rat",
+              "after": "affine_gene_mean/equal/rat+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.006221939428017333,
+                -0.00015043475896729663,
+                0.000872991394972461
+              ],
+              "macro_gain": 0.0023148320213408325,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/cyno",
+              "after": "affine_gene_mean/equal/mouse+cyno",
+              "added_source": "mouse",
+              "gain_by_query": [
+                0.001351736154416333,
+                0.00752545664835734,
+                -0.01006455875290152
+              ],
+              "macro_gain": -0.0003957886500426157,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/cyno",
+              "after": "affine_gene_mean/equal/rat+cyno",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0020414269058767476,
+                0.008678701690168253,
+                -0.01006455875290152
+              ],
+              "macro_gain": 0.00021852328104782678,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/cyno",
+              "after": "affine_gene_mean/equal/cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.004751682053536245,
+                0.006330528400120994,
+                -0.009225438497927452
+              ],
+              "macro_gain": 0.0006189239852432624,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/dog",
+              "after": "affine_gene_mean/equal/mouse+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                0.0015102221475219169,
+                0.00587431777379796,
+                -0.0008562759400191355
+              ],
+              "macro_gain": 0.002176087993766914,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/dog",
+              "after": "affine_gene_mean/equal/rat+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.0016201415922395199,
+                0.006621610284438653,
+                -0.0008562759400191355
+              ],
+              "macro_gain": 0.0024618253122196793,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/dog",
+              "after": "affine_gene_mean/equal/cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.004954359103816246,
+                0.016757097385509234,
+                0.010423067309096118
+              ],
+              "macro_gain": 0.0107115079328072,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+rat",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.004105957055492167,
+                0.00940157965481525,
+                0.007680882441210429
+              ],
+              "macro_gain": 0.007062806383839282,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+rat",
+              "after": "affine_gene_mean/equal/mouse+rat+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.003831519651704772,
+                -0.00035607634728182513,
+                0.0005838515360875873
+              ],
+              "macro_gain": 0.0013530982801701781,
+              "harmful_queries": 1
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+cyno",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno",
+              "added_source": "rat",
+              "gain_by_query": [
+                0.00010522031391669434,
+                -0.00041679242840769737,
+                -0.003632331947903217
+              ],
+              "macro_gain": -0.00131463468746474,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+cyno",
+              "after": "affine_gene_mean/equal/mouse+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0025569320353016345,
+                -0.0017121247865945627,
+                -0.003063534251814881
+              ],
+              "macro_gain": -0.0007395756677026031,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+dog",
+              "after": "affine_gene_mean/equal/mouse+rat+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                -0.00012502603269628348,
+                0.0019032594294428468,
+                -0.0002891398588848737
+              ],
+              "macro_gain": 0.0004963645126205632,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+dog",
+              "after": "affine_gene_mean/equal/mouse+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.0026011230924760514,
+                0.010365583073353057,
+                0.007376688742326304
+              ],
+              "macro_gain": 0.006781131636051804,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/rat+cyno",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0005844704375437201,
+                -0.0015700374702186104,
+                -0.003632331947903217
+              ],
+              "macro_gain": -0.0019289466185551825,
+              "harmful_queries": 3
+            },
+            {
+              "before": "affine_gene_mean/equal/rat+cyno",
+              "after": "affine_gene_mean/equal/rat+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0021640670876596838,
+                -0.002134459636309441,
+                -0.003063534251814881
+              ],
+              "macro_gain": -0.0010113089334882128,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/rat+dog",
+              "after": "affine_gene_mean/equal/mouse+rat+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0002349454774138865,
+                0.0011559669188021537,
+                -0.0002891398588848737
+              ],
+              "macro_gain": 0.00021062719416779785,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/rat+dog",
+              "after": "affine_gene_mean/equal/rat+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.002788029451576912,
+                0.0103492007548084,
+                0.007376688742326304
+              ],
+              "macro_gain": 0.0068379729829038715,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/cyno+dog",
+              "after": "affine_gene_mean/equal/mouse+cyno+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0008430138638182774,
+                -0.0005171965383582167,
+                -0.0039026545067889495
+              ],
+              "macro_gain": -0.0017542883029884812,
+              "harmful_queries": 3
+            },
+            {
+              "before": "affine_gene_mean/equal/cyno+dog",
+              "after": "affine_gene_mean/equal/rat+cyno+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                -0.0005461880599998137,
+                0.00021371365373781814,
+                -0.0039026545067889495
+              ],
+              "macro_gain": -0.0014117096376836484,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+rat+cyno",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno+dog",
+              "added_source": "dog",
+              "gain_by_query": [
+                0.0018905864947275641,
+                -0.0017925769533524982,
+                -0.001438075947771289
+              ],
+              "macro_gain": -0.00044668880213207435,
+              "harmful_queries": 2
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+rat+dog",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno+dog",
+              "added_source": "cyno",
+              "gain_by_query": [
+                0.002165023898514959,
+                0.007965079048744578,
+                0.005658954957351553
+              ],
+              "macro_gain": 0.00526301930153703,
+              "harmful_queries": 0
+            },
+            {
+              "before": "affine_gene_mean/equal/mouse+cyno+dog",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno+dog",
+              "added_source": "rat",
+              "gain_by_query": [
+                -0.000561125226657376,
+                -0.0004972445951656329,
+                -0.0020068736438596246
+              ],
+              "macro_gain": -0.0010217478218942113,
+              "harmful_queries": 3
+            },
+            {
+              "before": "affine_gene_mean/equal/rat+cyno+dog",
+              "after": "affine_gene_mean/equal/mouse+rat+cyno+dog",
+              "added_source": "mouse",
+              "gain_by_query": [
+                -0.0008579510304758398,
+                -0.0012281547872616677,
+                -0.0020068736438596246
+              ],
+              "macro_gain": -0.001364326487199044,
+              "harmful_queries": 3
+            }
+          ],
+          "harmful_macro_edges": 10,
+          "harmful_query_edges": 33,
+          "total_edges": 28
+        }
+      }
+    }
+  }
+}

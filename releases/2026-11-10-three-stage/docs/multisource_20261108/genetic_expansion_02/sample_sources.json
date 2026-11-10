@@ -1,0 +1,93 @@
+[
+  {
+    "accession": "GSE69733",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69733&targ=all&form=text&view=full",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSE69733.soft",
+    "bytes": 7085779,
+    "sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "accession": "GSE171418",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171418&targ=all&form=text&view=full",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSE171418.soft",
+    "bytes": 6013101,
+    "sha256": "dc6869c2e05fa43ac17ec94a58d08eb389475b91a6bedd308a6546381f270d9b"
+  },
+  {
+    "accession": "GSE171714",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171714&targ=all&form=text&view=full",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSE171714.soft",
+    "bytes": 11248257,
+    "sha256": "5d5b9e1de06a93b7cf665d535e6d4d3d4aa9c4e7bf154f2e82558ab64094daf0"
+  },
+  {
+    "accession": "GSE196483",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196483&targ=all&form=text&view=full",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSE196483.soft",
+    "bytes": 2490247,
+    "sha256": "7ee0a0ebee16ecb262ded4ca09d078230cbe3a61706cd73c3fd62c38b446c268"
+  },
+  {
+    "accession": "GSE154148",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154148&targ=all&form=text&view=full",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSE154148.soft",
+    "bytes": 2220370,
+    "sha256": "794afeed766389fbf9c0e2d340d69b43647df9f176dfa472981a26752888cab9"
+  },
+  {
+    "accession": "SRX1737874",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737874",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737874.xml",
+    "bytes": 2517,
+    "sha256": "1d9f3d3f5800e227a38c83f025869ee81db5fff8283056a8b06d2f4c387b428c"
+  },
+  {
+    "accession": "SRX1737864",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737864",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737864.xml",
+    "bytes": 2517,
+    "sha256": "28d04e556b5efa5b4b142c255efa07481f77b09f83beb51f94d4ec890718b7bb"
+  },
+  {
+    "accession": "SRX1737998",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737998",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737998.xml",
+    "bytes": 2517,
+    "sha256": "3f557da0347663256de78741fa7bcc5bf963ff1365f91b5bd49b1651bb60d48e"
+  },
+  {
+    "accession": "SRX1737858",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737858",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737858.xml",
+    "bytes": 2516,
+    "sha256": "5348194adcd97221a983b05d03701682b9cc9977a8507e0599140ea5b16a85d4"
+  },
+  {
+    "accession": "SRX1737958",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737958",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737958.xml",
+    "bytes": 2516,
+    "sha256": "d725112a8b128f9ab8a8d3fcfa2a12e006e4b2c5ae4090d883f21a8bd6d94ef7"
+  },
+  {
+    "accession": "SRX1737900",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737900",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737900.xml",
+    "bytes": 2516,
+    "sha256": "fc9ce90427fcf3086aacf80cf2ce920737bd68dd2ec1989a2e2573e574b160a1"
+  },
+  {
+    "accession": "DRX080816",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/DRX080816",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/DRX080816.xml",
+    "bytes": 3037,
+    "sha256": "c053184aa4b1210c732b0d9d711fc7f7c84c33a43f2af659e1df1e4a43a4f804"
+  },
+  {
+    "accession": "DRX080815",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/DRX080815",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/DRX080815.xml",
+    "bytes": 3037,
+    "sha256": "38b73d76544aa359a51e71a0d287cf077633bae73d6b8ae2f7a595a8c087b6be"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "outer": 0,
+    "inner": 0,
+    "arm": "chemical_context",
+    "prediction_max_abs_difference": 1.2989609388114332e-14,
+    "row_loss_max_abs_difference": 3.2931990467943706e-14,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "outer": 0,
+    "inner": 0,
+    "arm": "source_plus_context",
+    "prediction_max_abs_difference": 1.049160758270773e-14,
+    "row_loss_max_abs_difference": 1.7763568394002505e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "stage": "final_external_prediction",
+    "arm": "chemical_context",
+    "max_abs_difference": 2.4424906541753444e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "stage": "final_external_prediction",
+    "arm": "source_plus_context",
+    "max_abs_difference": 7.105427357601002e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "stage": "external_cross_condition_diagnostic",
+    "arm": "fused_wrong_source_120",
+    "donor_indices": [
+      1,
+      2,
+      0
+    ],
+    "max_abs_difference": 7.993605777301127e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "stage": "external_cross_condition_diagnostic",
+    "arm": "fused_wrong_source_201",
+    "donor_indices": [
+      2,
+      0,
+      1
+    ],
+    "max_abs_difference": 8.215650382226158e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "stage": "simple_rules",
+    "zero_exact": true,
+    "copy_exact": true,
+    "human_mean_exact": true,
+    "scalar_formula_max_abs_difference": 0.0
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "type": "file",
+    "oid": "125e8ae16afe013323472cb9f8fd8962ed9f8397",
+    "size": 2814,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "18988479817ca244d0d5cdb04db533b8e9851bcb",
+    "size": 5614623998,
+    "lfs": {
+      "oid": "8cc99a14e832ed37f3c76f652105025787d97130385814431e42e552eca7ad4b",
+      "size": 5614623998,
+      "pointerSize": 135
+    },
+    "xetHash": "9da5e35338fd5ef4ff818c6e3db51889bb3df9ffab496fbd1dbebafdb33df40e",
+    "path": "GSE264667_hepg2_raw_singlecell_01.h5ad"
+  },
+  {
+    "type": "file",
+    "oid": "dc7284be294a3ec3888b38cb32bfdaecca56fe39",
+    "size": 9366776068,
+    "lfs": {
+      "oid": "f03f01359eab6cdc40f24e20b3f886ff4c50190bd74c90c5cbf9c9c72972eb79",
+      "size": 9366776068,
+      "pointerSize": 135
+    },
+    "xetHash": "721fda42dc8fea6bafd1ccbb6189f40829b8a476248cecb9d1ffe55f2054382c",
+    "path": "GSE264667_jurkat_raw_singlecell_01.h5ad"
+  },
+  {
+    "type": "file",
+    "oid": "4d947e7c97b2f909f99bfeb5cefec4e914edb52e",
+    "size": 10662212844,
+    "lfs": {
+      "oid": "dfd2898643aff82f939ae22876e81f25629b9b7240e2f07564046dfa6c0953b2",
+      "size": 10662212844,
+      "pointerSize": 136
+    },
+    "xetHash": "a555cab7402a5781b4b36fe57d7fafc13837a3a6b5ccf015699088d0eb676985",
+    "path": "K562_essential_normalized_singlecell_01.h5ad"
+  },
+  {
+    "type": "file",
+    "oid": "c8fb016f7e053f452890f2071ea1fe76bf1ad7d2",
+    "size": 22297813040,
+    "lfs": {
+      "oid": "2c53aadd1bbbaee7604b579b2592034a0b9d9bfa9eecfc6cdc622a9d2e205c77",
+      "size": 22297813040,
+      "pointerSize": 136
+    },
+    "xetHash": "077bfeb0e569727edc70605cf3afa074763a38359e1de99110c826a158eba4e1",
+    "path": "replogle.h5ad"
+  },
+  {
+    "type": "file",
+    "oid": "2b55595af8bf5da71ee8bdef3ce96489c2da6ea8",
+    "size": 8701143594,
+    "lfs": {
+      "oid": "91282e58371ae9d98a3283af0d69fc9e3b0984386437139e7d44dba2c60f232e",
+      "size": 8701143594,
+      "pointerSize": 135
+    },
+    "xetHash": "6b0dec2560bf9d1d588fad7d024b74503186be9ea31319147a675b140e37379e",
+    "path": "rpe1_normalized_singlecell_01.h5ad"
+  }
+]

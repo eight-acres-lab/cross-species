@@ -1,0 +1,372 @@
+{
+  "date": "2026-11-08",
+  "primary_targets": [
+    "SRSF1",
+    "SRSF5",
+    "SRSF7"
+  ],
+  "primary_human_models": [
+    "HepG2",
+    "K562"
+  ],
+  "mouse_cell_models": [
+    "P19"
+  ],
+  "mouse_measurement_compartments": [
+    "whole_cell",
+    "cytoplasmic"
+  ],
+  "entries": [
+    {
+      "perturb_id": "Perturb_8241",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737998",
+        "SRX1737999"
+      ],
+      "perturbs": [
+        "SRX1737874",
+        "SRX1737875"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8096",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX2244885",
+        "SRX2244886"
+      ],
+      "perturbs": [
+        "SRX2244538",
+        "SRX2244539"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8242",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737998",
+        "SRX1737999"
+      ],
+      "perturbs": [
+        "SRX1737864",
+        "SRX1737865"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_9926",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737900",
+        "SRX1737901"
+      ],
+      "perturbs": [
+        "SRX1737858",
+        "SRX1737859"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_9927",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737900",
+        "SRX1737901"
+      ],
+      "perturbs": [
+        "SRX1738058",
+        "SRX1738059"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_9928",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737900",
+        "SRX1737901"
+      ],
+      "perturbs": [
+        "SRX1737958",
+        "SRX1737959"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4693",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055008",
+        "SRX1055009"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4697",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055016",
+        "SRX1055017"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4699",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055020",
+        "SRX1055021"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4686",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055024",
+        "SRX1055025"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4690",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055032",
+        "SRX1055033"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4692",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055036",
+        "SRX1055037"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8163",
+      "target": "SRSF3",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "supplement_SRSF3_HepG2_only",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX2243864",
+        "SRX2243865"
+      ],
+      "perturbs": [
+        "SRX2244012",
+        "SRX2244013"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4695",
+      "target": "SRSF3",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "supplement_SRSF3_HepG2_only",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055012",
+        "SRX1055013"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4688",
+      "target": "SRSF3",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "supplement_SRSF3_HepG2_only",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055028",
+        "SRX1055029"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8214",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "sensitivity_alternative_HepG2_SRSF5_batch",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737964",
+        "SRX1737965"
+      ],
+      "perturbs": [
+        "SRX2244095",
+        "SRX2244096"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    }
+  ],
+  "primary_contrasts": 12,
+  "primary_unique_samples": 34,
+  "all_unique_samples": 46,
+  "technical_pairing": "Study describes whole-cell/cytoplasmic fractions from identical sample. A/B labels are aligned within target/control; physical aliquot/donor IDs unreported. Fraction-pair labels must not inflate independent sample count.",
+  "SRSF3_K562": "No released shRNA contrast in frozen catalog; official ENCORE reports shRNA NotSatisfied and a separate released CRISPR RNA-seq ENCSR914IEV. Excluded from same-mode primary rectangle.",
+  "SRSF5_HepG2_choice": "ENCSR781YNI/Perturb_8096 has direct reported KD67.0/74.9%; choose before expression outcome. ENCSR447UCG/Perturb_8214 retained separately as alternative batch.",
+  "SRSF5_K562_quality_flag": "ENCSR906RHU released shRNA reported KD23.1/20.5%; preserve as low efficacy and report SRSF1/SRSF7 subset sensitivity, do not assume equivalent perturbation strength.",
+  "claims_allowed": "Exploratory dependence on source measurement compartment in fixed observed tasks; human target context can be compared with study/batch limits.",
+  "claims_not_supported": [
+    "Two distinct mouse cell sources",
+    "General new-target source recommendation",
+    "Pure causal cell-compartment or cell-type effects",
+    "Independent-donor inference from replicate labels"
+  ],
+  "model_training_ready": false
+}

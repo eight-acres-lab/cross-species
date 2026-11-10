@@ -1,0 +1,18 @@
+{
+  "selections_sha256": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0",
+  "independent_metadata_checks": {
+    "rabbit2": {
+      "input_union": 124,
+      "null_target_union": 70,
+      "real_target_union": 70,
+      "global_pools_pairwise_disjoint": true
+    },
+    "rabbit1": {
+      "input_union": 128,
+      "null_target_union": 123,
+      "real_target_union": 123,
+      "global_pools_pairwise_disjoint": true
+    }
+  },
+  "no_expression_or_outcome_read": true
+}

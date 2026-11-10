@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-08",
+  "status": "metadata_gene_bridge_ready",
+  "original_training_axis_pairs": 10358,
+  "globally_unambiguous_id_pairs": 9779,
+  "training_axis_excluded_pairs": 579,
+  "exclusion_combination_counts": {
+    "human_entrez_maps_multiple_ensembl": 535,
+    "rat_ensembl_maps_multiple_entrez": 15,
+    "human_ensembl_maps_multiple_entrez": 19,
+    "rat_entrez_maps_multiple_ensembl": 6,
+    "human_entrez_maps_multiple_ensembl;rat_ensembl_maps_multiple_entrez": 4
+  },
+  "human_id_mapping_counts": {
+    "raw_rows": 91743,
+    "ensembl_ids_with_entrez": 31492,
+    "entrez_ids_with_ensembl": 28433,
+    "ensembl_ids_with_multiple_entrez": 784,
+    "entrez_ids_with_multiple_ensembl": 2543
+  },
+  "rat_id_mapping_counts": {
+    "raw_rows": 57760,
+    "ensembl_ids_with_entrez": 23497,
+    "entrez_ids_with_ensembl": 23793,
+    "ensembl_ids_with_multiple_entrez": 522,
+    "entrez_ids_with_multiple_ensembl": 312
+  },
+  "original_orthology_counts": {
+    "raw_rows": 47324,
+    "high_confidence_human_ids": 13733,
+    "human_partner_conflicts": 0,
+    "rat_partner_conflicts": 0,
+    "accepted_unique_pairs": 13733
+  },
+  "release116_orthology_counts": {
+    "raw_rows": 91806,
+    "high_confidence_human_ids": 13733,
+    "human_partner_conflicts": 0,
+    "rat_partner_conflicts": 0,
+    "accepted_unique_pairs": 13733
+  },
+  "original_vs_new_high_confidence_pair_overlap": 13733,
+  "panels": {
+    "GSE330151": {
+      "study": "GSE330151",
+      "manifest_sha256": "99310f3332dee7a9479d826a92858174f8a79512fbb890cca82c2bdef457ecf0",
+      "panel_file_sha256": "4061c46753ec514bed7c15c9efd28211b8e29263c4f115ccc9ff57a7f8815f4c",
+      "contrast_metadata_sha256": "24c8097517cebb52e73d3f31232f24adaf61442cc6040a02c6392ad6226edce9",
+      "axis_genes": 10150,
+      "human_rat_drug_complete_genes": null,
+      "selected_contrasts": [
+        "GSE330151|human|CDDO",
+        "GSE330151|human|KI696",
+        "GSE330151|human|THAP",
+        "GSE330151|rat|CDDO",
+        "GSE330151|rat|KI696",
+        "GSE330151|rat|THAP"
+      ],
+      "npz_members_read": [
+        "feature_ids",
+        "species_order",
+        "native_gene_ids"
+      ],
+      "expression_count_response_values_read": false,
+      "presence_rule": "Exact human/rat identifiers present on the panel axis. Value-finiteness remains a separate remote check across selected human/rat arms. Existing masks combine all species and are not used."
+    },
+    "GSE300171": {
+      "study": "GSE300171",
+      "manifest_sha256": "c3424a52433fc8186b0b7160f6c3b556ccbb7f73ab0e8acc2008cd6031be775e",
+      "panel_file_sha256": "928fa99ed4ca19209f73c18ba7f03957b4b62d260a3d881ef7dde49b5c1674e0",
+      "contrast_metadata_sha256": "a2b99884dd31fee3248401460deb83678e08c5502002b965c5aba2c93e18a252",
+      "axis_genes": 10316,
+      "human_rat_drug_complete_genes": null,
+      "selected_contrasts": [
+        "GSE300171|human|BOS",
+        "GSE300171|human|CPZ",
+        "GSE300171|human|FIA",
+        "GSE300171|rat|BOS",
+        "GSE300171|rat|CPZ",
+        "GSE300171|rat|FIA"
+      ],
+      "npz_members_read": [
+        "feature_ids",
+        "species_order",
+        "native_gene_ids"
+      ],
+      "expression_count_response_values_read": false,
+      "presence_rule": "Exact human/rat identifiers present on the panel axis. Value-finiteness remains a separate remote check across selected human/rat arms. Existing masks combine all species and are not used."
+    }
+  },
+  "panel_bridges": {
+    "GSE330151": {
+      "admitted_gene_pairs": 7435,
+      "fraction_of_training_axis": 0.717802664607067,
+      "human_rat_arm_finiteness_checked": false,
+      "file": "GSE330151_bridge.tsv",
+      "sha256": "a9eedb4a7f8bc7ce894d45d64e6d8cf04d6fed6d049eabb4c067262e70e5d747"
+    },
+    "GSE300171": {
+      "admitted_gene_pairs": 7528,
+      "fraction_of_training_axis": 0.7267812318980498,
+      "human_rat_arm_finiteness_checked": false,
+      "file": "GSE300171_bridge.tsv",
+      "sha256": "598fe1455af19297b9c7f7827e0b1e1f43f30fb0519a14177de486db19612b11"
+    }
+  },
+  "source_files": {
+    "rat_ensembl_to_entrez": {
+      "path": "/Users/zhi/train/artifacts/tg_gates_rat_human_v1/ortholog_map/biomart_raw/rat_ensembl_to_entrez.tsv",
+      "sha256": "7438654703ab53c909bff07d4bc61f2cf39e2b88faff328b92f2625ed9b77766",
+      "bytes": 1436544
+    },
+    "rat_to_human_homology": {
+      "path": "/Users/zhi/train/artifacts/tg_gates_rat_human_v1/ortholog_map/biomart_raw/rat_to_human_homology.tsv",
+      "sha256": "a483485d38b84d3f1cbfa564f32daa40bc150d1558917eb43b53962deb523f8f",
+      "bytes": 1820925
+    },
+    "human_ensembl_to_entrez": {
+      "path": "/Users/zhi/train/artifacts/tg_gates_rat_human_v1/ortholog_map/biomart_raw/human_ensembl_to_entrez.tsv",
+      "sha256": "1bd390e19458f0223ef019285410ad5639805182802474ac63efc9fff331a4d8",
+      "bytes": 1791412
+    },
+    "release116_rat.tsv": {
+      "path": "/Users/zhi/train/outputs/multisource_20261108/curated_panels/orthology_release_freeze/rat.tsv",
+      "sha256": "76b063f675bc401059a3db3066205ad95db41e5bddb7cbbdfd1154920d492ce9"
+    },
+    "release116_rat.query.xml": {
+      "path": "/Users/zhi/train/outputs/multisource_20261108/curated_panels/orthology_release_freeze/rat.query.xml",
+      "sha256": "cf14216c3d7d0dda30166486cf4c393e9e09c5391469732c261a28e32afee150"
+    },
+    "release116_registry.xml": {
+      "path": "/Users/zhi/train/outputs/multisource_20261108/curated_panels/orthology_release_freeze/registry.xml",
+      "sha256": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122"
+    },
+    "release116_registry_after.xml": {
+      "path": "/Users/zhi/train/outputs/multisource_20261108/curated_panels/orthology_release_freeze/registry_after.xml",
+      "sha256": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122"
+    }
+  },
+  "training_entrez_axis_sha256": "837c12e141fb5578ecbb90d6c39f8357563c5b7b7d25e0f691b6b1d499aa9e56",
+  "old_provenance_sha256": "c725203b218e5190249a52e5fc40502cf474fa81a26e391bd9faf1031736b40a",
+  "release116_manifest_sha256": "fdf6c89e1540d193676efc5095c1d189f1b601b560a1d6f98631644bb12042af",
+  "release_notes": {
+    "ensembl_to_entrez_retrieved_utc": "2026-09-23T17:26:25Z",
+    "ensembl_to_entrez_release_recorded": null,
+    "new_orthology_retrieved_utc": "2026-11-08T04:17:44.789081+00:00",
+    "new_orthology_release": 116,
+    "inference": "Old ID-mapping release was not saved; frozen bytes reproduce the bridge. New homology relation is independently required to agree with the old high-confidence relation."
+  },
+  "selection": "Only exact IDs, bidirectional cardinality, orthology consistency and identifier-axis presence; no global/multi-species masks, gene symbol/alias inference or response-magnitude selection.",
+  "expression_values_read": false,
+  "network_fetch_performed": false,
+  "limitations": [
+    "Exact bridge does not harmonize RMA log2 and RNA-seq transformed response scales or establish cell/exposure comparability.",
+    "Mapping excludes all globally ambiguous ID associations even if one candidate would match a panel; coverage is deliberately constrained.",
+    "Panel axes were originally curated through multi-species orthology. This bridge cannot recover extra human-rat native genes absent from those panel axes.",
+    "Human-rat arm finiteness remains unchecked here. The downstream remote preparation must verify or record missing values on all human/rat arms needed for all selected tasks.",
+    "If models are retrained on a shared axis, this is a new fixed-feature version, not application of the original 10358-feature weights."
+  ],
+  "files": {
+    "bridge.tsv": "92d72a5467811a5d64b0a40bbb5fd60640856a81911decc830bd4a49316219eb",
+    "training_axis_decisions.tsv": "8ccc33b529483f5b010472caef6e6f15b3586d087bf76b922c0d7ed0845fbb17",
+    "GSE330151_bridge.tsv": "a9eedb4a7f8bc7ce894d45d64e6d8cf04d6fed6d049eabb4c067262e70e5d747",
+    "GSE300171_bridge.tsv": "598fe1455af19297b9c7f7827e0b1e1f43f30fb0519a14177de486db19612b11"
+  },
+  "script_sha256": "1fb588db5668a13c9258282053c34f98c6aa8d91fdbefd8697b61b76a71fd055"
+}

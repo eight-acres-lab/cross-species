@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "checks_passed": 419313,
+  "checks_failed": 0,
+  "numeric_values_compared": 490550,
+  "max_abs_difference": 3.552713678800501e-15,
+  "retrieval": [
+    {
+      "regime": "source_exposure",
+      "all_query_arm_seed_rows": 46700,
+      "common_defined_conditions": 467,
+      "all_folds_all_seeds_all_five_arms_recomputed": true
+    },
+    {
+      "regime": "paired_exposure",
+      "all_query_arm_seed_rows": 20800,
+      "common_defined_conditions": 208,
+      "all_folds_all_seeds_all_five_arms_recomputed": true
+    }
+  ],
+  "measurement_reference": [
+    {
+      "task": "CDDO",
+      "human_reference_mean_mse": 0.4611497982577118,
+      "zero_mean_mse": 0.23608105660024328,
+      "V": 0.2049554658923164,
+      "reference_MSE_equals_2.25V": true,
+      "fixed_model_MSE_equals_mean_endpoint_MSE_plus_V": true
+    },
+    {
+      "task": "KI696",
+      "human_reference_mean_mse": 1.548453904304361,
+      "zero_mean_mse": 0.7338192732821555,
+      "V": 0.6882017352463827,
+      "reference_MSE_equals_2.25V": true,
+      "fixed_model_MSE_equals_mean_endpoint_MSE_plus_V": true
+    },
+    {
+      "task": "THAP",
+      "human_reference_mean_mse": 0.5074549765479487,
+      "zero_mean_mse": 0.4369786622310923,
+      "V": 0.22553554513242166,
+      "reference_MSE_equals_2.25V": true,
+      "fixed_model_MSE_equals_mean_endpoint_MSE_plus_V": true
+    }
+  ],
+  "all27_held_record_combinations_verified": true,
+  "production_functions_imported": false,
+  "metric_manifest_sha256": "33a9b37f94528ad6aa10b7a20274ed01ec583e3c621fc6feca15951d5a17e887",
+  "auditor_sha256": "f24b6aec7f667f789e3ef0787a217a5028ce5339c6b6e1f70f1fd713f26c292a",
+  "elapsed_seconds": 42.868449142202735,
+  "interpretation": [
+    "The human reference is a complementary2+2 measurement-record reference with unknown donor identity; it is not an independent biological positive control or noise ceiling.",
+    "All9partitions of each3+3task overlap and satisfy an exact complement algebra, rather than creating9 independent experiments.",
+    "High chance in exact-exposure retrieval must be reported next to accuracy; outcomes only enter scoring.",
+    "This check proves implementation and source correspondence, not generalization or mechanistic specificity."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "helper_module": "src/cross_species/named_gene_state.py",
+  "helper_sha256": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+  "helper_report_sha256": "e77a049440f544f4478d133c0fa05ef54bd27a1191bc2952cf0db06cc35edf97",
+  "original_probe_unchanged": true,
+  "biological_training_performed": false,
+  "optimizer_steps": 0,
+  "contract_sha256": "6b92821386ba729bb8a8cd546c8b68ba96a7e612900ef1cfc2d886ea9efd0fca"
+}

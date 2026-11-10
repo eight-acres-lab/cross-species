@@ -1,0 +1,72 @@
+{
+  "fold": 2,
+  "train_compounds": 101,
+  "test_compounds": 25,
+  "selected_alphas": {
+    "chemical_context": 10.0,
+    "source_plus_chemical_context": 1.0
+  },
+  "inner_trials": {
+    "chemical_context": [
+      {
+        "alpha": 0.001,
+        "inner_compound_macro_mse": 0.051903181906638146
+      },
+      {
+        "alpha": 0.01,
+        "inner_compound_macro_mse": 0.04826552121069224
+      },
+      {
+        "alpha": 0.1,
+        "inner_compound_macro_mse": 0.04385713178165929
+      },
+      {
+        "alpha": 1.0,
+        "inner_compound_macro_mse": 0.039912116831978636
+      },
+      {
+        "alpha": 10.0,
+        "inner_compound_macro_mse": 0.038606277080784755
+      },
+      {
+        "alpha": 100.0,
+        "inner_compound_macro_mse": 0.03973091585597661
+      },
+      {
+        "alpha": 1000.0,
+        "inner_compound_macro_mse": 0.04059487939411744
+      }
+    ],
+    "source_plus_chemical_context": [
+      {
+        "alpha": 0.001,
+        "inner_compound_macro_mse": 0.041095138732508515
+      },
+      {
+        "alpha": 0.01,
+        "inner_compound_macro_mse": 0.040667079961266055
+      },
+      {
+        "alpha": 0.1,
+        "inner_compound_macro_mse": 0.03874940009108119
+      },
+      {
+        "alpha": 1.0,
+        "inner_compound_macro_mse": 0.036293434098302525
+      },
+      {
+        "alpha": 10.0,
+        "inner_compound_macro_mse": 0.03647697681464654
+      },
+      {
+        "alpha": 100.0,
+        "inner_compound_macro_mse": 0.03916040876610018
+      },
+      {
+        "alpha": 1000.0,
+        "inner_compound_macro_mse": 0.04052855342876304
+      }
+    ]
+  },
+  "seconds": 3.9276359999999997
+}

@@ -1,0 +1,27 @@
+{
+  "checkpoint_sha256": "7d0744740d435f49c315b2d3d2b16e21004e2d463886d87fe3c18e8ccec6a2d9",
+  "source_commit": "8de47e7d3d443939f93f768f7902c66e0e82eda2",
+  "official_class_file": "/hy-tmp/cross-species-feedback-20261108/scdfm_source/src/models/origin/model.py",
+  "official_class_file_sha256": "7e64b7ccf856d4d2cfb207d740b8e3d17e89584cab91c90e69b04fc818c9f878",
+  "parameters": 60359169,
+  "trainable_parameters": 60359169,
+  "state_tensors": 219,
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "checkpoint_iteration": 30000,
+  "mask_sha256": "7dbf1cb2ae9784aa1999a55b0952995d5abecfda9ee0410c9570cf5ed7c163c4",
+  "mask_shape": [
+    5004,
+    5004
+  ],
+  "mask_provenance": "Reconstructed from official training cells with published/code k30, absolute positive/negative correlation; original mask bytes were absent from checkpoint.",
+  "architecture": {
+    "ntoken": 6000,
+    "d_model": 512,
+    "heads": 8,
+    "layers": 4,
+    "dropout": 0.1,
+    "fusion": "differential_perceiver",
+    "perturbation_function": "drug"
+  }
+}

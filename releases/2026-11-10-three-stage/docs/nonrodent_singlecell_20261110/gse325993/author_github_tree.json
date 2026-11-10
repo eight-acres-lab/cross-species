@@ -1,0 +1,1093 @@
+{
+  "sha": "4fd700f49c35ad41c161b80e6f021682c1826507",
+  "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/4fd700f49c35ad41c161b80e6f021682c1826507",
+  "tree": [
+    {
+      "path": "1.neural_differentiation_dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d16e28179614cfc6f75caa3654082ce8c97102e1",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/d16e28179614cfc6f75caa3654082ce8c97102e1"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c44a75e14e7233c8fb2cb1abe0d9d8a0c4f4aa2e",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/c44a75e14e7233c8fb2cb1abe0d9d8a0c4f4aa2e"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.1.download_ref_genomes.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "da18d2c2890cbc22d4a506d3f5570ec4f78c9803",
+      "size": 1161,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/da18d2c2890cbc22d4a506d3f5570ec4f78c9803"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.10.QC_and_filtering.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6cd6dfbeb7864830ba6f01f2173092515c50714",
+      "size": 41431,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/f6cd6dfbeb7864830ba6f01f2173092515c50714"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.2.run_liftoff.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "09a5963c5206998812a95203500f47caeb7d22e4",
+      "size": 684,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/09a5963c5206998812a95203500f47caeb7d22e4"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.3.filter_liftoff_gtfs.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cc6666d3b5fb41405250a55d415162e71cff7c50",
+      "size": 1984,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/cc6666d3b5fb41405250a55d415162e71cff7c50"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.4.remove_small_contigs.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e7a8216177e1aeada24d25fbfc4591d0e0618ef8",
+      "size": 1711,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/e7a8216177e1aeada24d25fbfc4591d0e0618ef8"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.5.create_STAR_indices.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "752775d8fe9a291680b9aa6770a058d22f05108b",
+      "size": 689,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/752775d8fe9a291680b9aa6770a058d22f05108b"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.6.download_FASTQ.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1cd73b442c95259b823d1143780afaaabf5b9c7",
+      "size": 926,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/f1cd73b442c95259b823d1143780afaaabf5b9c7"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.7.trimming.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c2fada9a13db86746ffa3e2f5f574b34d8eb3e0",
+      "size": 313,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/7c2fada9a13db86746ffa3e2f5f574b34d8eb3e0"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.8.mapping.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afc4fb4c97f3e3335ce7ef6357d08ccce5c2583c",
+      "size": 997,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/afc4fb4c97f3e3335ce7ef6357d08ccce5c2583c"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/1.1.9.download_cell_type_annotation_ref.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e28f50979b59a573c7b0bd499f23a1df56703f78",
+      "size": 992,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/e28f50979b59a573c7b0bd499f23a1df56703f78"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/gorGor6.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e83dc597d9ddf051bf7234b3649a214495eeed19",
+      "size": 1319,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/e83dc597d9ddf051bf7234b3649a214495eeed19"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/hg38.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dd2443118c37388e699f96ef5f5387e832647427",
+      "size": 1306,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/dd2443118c37388e699f96ef5f5387e832647427"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.1.mapping_and_QC/macFas6.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "83bd7853dd55df55a09de42717bc8de95f08be9a",
+      "size": 1319,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/83bd7853dd55df55a09de42717bc8de95f08be9a"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5855fbb6b81653495c3e732104b97e78cb886c18",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/5855fbb6b81653495c3e732104b97e78cb886c18"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/1.2.1.prepare_data.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bb7a2fb979ff5221395fdd3bc94d87bbb1dc762",
+      "size": 3035,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/1bb7a2fb979ff5221395fdd3bc94d87bbb1dc762"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/1.2.2.create_GRNBoost2_env.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3e1591481382333ebb1d83ae93e2a8ee7208b92a",
+      "size": 366,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/3e1591481382333ebb1d83ae93e2a8ee7208b92a"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/1.2.3.run_GRNBoost2.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bee2fbf293620abf372634579fa706d9af5a423f",
+      "size": 1092,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/bee2fbf293620abf372634579fa706d9af5a423f"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/1.2.4.prepare_data_for_Spearman.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa3baacfaae4b2f791d1cb26c956bb0793a37c0e",
+      "size": 921,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/fa3baacfaae4b2f791d1cb26c956bb0793a37c0e"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/1.2.5.run_correlatePairs.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5f1329318e293bd33a55a9b0afb84f2eca622cc3",
+      "size": 769,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/5f1329318e293bd33a55a9b0afb84f2eca622cc3"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/arboreto_with_multiprocessing.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ab35a596316a26bdf1b279948612fe039b1acf58",
+      "size": 5156,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/ab35a596316a26bdf1b279948612fe039b1acf58"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.2.network_inference/correlatePairs.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a3c58b4314ff4a17a7098ad32084c099d5d6464f",
+      "size": 750,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a3c58b4314ff4a17a7098ad32084c099d5d6464f"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3ecc340fb914b9d2da5d9d531558218dc9e7f29",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/f3ecc340fb914b9d2da5d9d531558218dc9e7f29"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis/1.3.1.CroCoNet_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd382ca76e5af3c710a536a07780fef6c8a0b360",
+      "size": 23094,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/fd382ca76e5af3c710a536a07780fef6c8a0b360"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis/1.3.2.CroCoNet_analysis_with_top50_pruning.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c431a20b0625abd5ecf1f11d7cfa3c17f2cd57f2",
+      "size": 4517,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/c431a20b0625abd5ecf1f11d7cfa3c17f2cd57f2"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis/1.3.3.dynamic_VS_top50_pruning.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3959a905664baad5a241c9fead921dddd2a04ff2",
+      "size": 18911,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/3959a905664baad5a241c9fead921dddd2a04ff2"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis/1.3.4.CroCoNet_analysis_with_cor_adj.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7fb18ca400eb48210321706db4b1e309598941c",
+      "size": 1742,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a7fb18ca400eb48210321706db4b1e309598941c"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis/1.3.5.cor_kIM_VS_cor_adj.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61a66dfd0eef26299c998e464c17236f8fd64df",
+      "size": 14842,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/e61a66dfd0eef26299c998e464c17236f8fd64df"
+    },
+    {
+      "path": "1.neural_differentiation_dataset/1.3.CroCoNet_analysis/1.3.6.CroCoNet_analysis_on_Spearman_networks.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2671a42a151adf3ea38b740fbeca7e4cc00cbef7",
+      "size": 4000,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/2671a42a151adf3ea38b740fbeca7e4cc00cbef7"
+    },
+    {
+      "path": "2.validations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d7f3721f53c32b3f951b0ce616fc94cd35f7cb6f",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/d7f3721f53c32b3f951b0ce616fc94cd35f7cb6f"
+    },
+    {
+      "path": "2.validations/2.1.regulator_interactions_and_module_overlaps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b77cffce663ed3989895aee0513b754c624df90a",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/b77cffce663ed3989895aee0513b754c624df90a"
+    },
+    {
+      "path": "2.validations/2.1.regulator_interactions_and_module_overlaps/2.1.1.get_regulator_interactions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a426f60c994c3145764cba2be9ff6270ed0f639e",
+      "size": 1791,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a426f60c994c3145764cba2be9ff6270ed0f639e"
+    },
+    {
+      "path": "2.validations/2.1.regulator_interactions_and_module_overlaps/2.1.2.calculate_module_overlaps.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c9fb9f3a3387c156c0e042edbb51a17da34459",
+      "size": 1986,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/e1c9fb9f3a3387c156c0e042edbb51a17da34459"
+    },
+    {
+      "path": "2.validations/2.1.regulator_interactions_and_module_overlaps/2.1.3.test_association.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ed494c0e14c50cf58d6c1df27235bbcb2f4ada",
+      "size": 4315,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/29ed494c0e14c50cf58d6c1df27235bbcb2f4ada"
+    },
+    {
+      "path": "2.validations/2.2.pathway_enrichment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99330936d79673c908746d552cfe1f81a7dca849",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/99330936d79673c908746d552cfe1f81a7dca849"
+    },
+    {
+      "path": "2.validations/2.2.pathway_enrichment/2.2.1.run_Reactome.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8401ea2b2b67a21068e96ee64cf5c975d377a47",
+      "size": 4927,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a8401ea2b2b67a21068e96ee64cf5c975d377a47"
+    },
+    {
+      "path": "2.validations/2.2.pathway_enrichment/2.2.2.summarize_Reactome_results.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "952ef95566df7fb56208ff5d6edde76db63e1c4b",
+      "size": 6622,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/952ef95566df7fb56208ff5d6edde76db63e1c4b"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e0c6f69b67d19f2ee2eb9bdaf3a79ae7c8692b0",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/8e0c6f69b67d19f2ee2eb9bdaf3a79ae7c8692b0"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.1.download_ATAC_seq_FASTQ.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69e3aecc23e8320703dd56c7e791d48f584141c3",
+      "size": 3561,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/69e3aecc23e8320703dd56c7e791d48f584141c3"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.10.liftOver_human_NPC_peaks_to_gorGor6.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae78322c62a8f5772aa14ae03f7752f1f94b06cd",
+      "size": 5891,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/ae78322c62a8f5772aa14ae03f7752f1f94b06cd"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.11.download_nanopore_FASTQ.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35d9607c10b6b2534be5944b0b0d6c70183d549e",
+      "size": 329,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/35d9607c10b6b2534be5944b0b0d6c70183d549e"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.12.create_minimap2_index.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b71cfed0e2af04d7eedbc9ca4c3a05d923e065b5",
+      "size": 279,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/b71cfed0e2af04d7eedbc9ca4c3a05d923e065b5"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.13.nanopore_mapping.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d096bb66d00d533cbde3f27e7bf90cb99740f3c5",
+      "size": 1988,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/d096bb66d00d533cbde3f27e7bf90cb99740f3c5"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.14.merge_BAMs.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7902d37014523b005728e9c77819b16e89e783a9",
+      "size": 1441,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/7902d37014523b005728e9c77819b16e89e783a9"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.15.reconstruct_nanopore_transcripts.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "299753d66e0a90e0c4bd73f7113d162a53088970",
+      "size": 847,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/299753d66e0a90e0c4bd73f7113d162a53088970"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.16.annotate_nanopore_transcripts.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968a715ab67399fa1a66ca2d1d94678a917070a4",
+      "size": 5550,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/968a715ab67399fa1a66ca2d1d94678a917070a4"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.17.identify_TSS.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "655f5c3f52ef6bb670062de77598c4a9d4745ae3",
+      "size": 18543,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/655f5c3f52ef6bb670062de77598c4a9d4745ae3"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.18.associate_peaks_to_gene.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf0451e8b2a5e00b65e6d4c496317677a270a40",
+      "size": 17288,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/ddf0451e8b2a5e00b65e6d4c496317677a270a40"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.19.get_binding_motifs.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928d74609f984ca80bc55b59cf0e2748cdccc134",
+      "size": 3158,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/928d74609f984ca80bc55b59cf0e2748cdccc134"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.2.ATAC_seq_trimming.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fd1d3ffc023ab9f734dc7f05403d7ef2d62721",
+      "size": 1309,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/62fd1d3ffc023ab9f734dc7f05403d7ef2d62721"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.20.run_cbust.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8321694211c9425d3cb3a6b90e41636098c58350",
+      "size": 1030,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/8321694211c9425d3cb3a6b90e41636098c58350"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.21.summarize_motif_scores_per_gene.Rmd",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0b648bb2d37569462fd7299887f228b47de8589c",
+      "size": 69393,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/0b648bb2d37569462fd7299887f228b47de8589c"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.22.binding_site_enrichment_across_module_types.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a1b73499305318c04c0c05e5539b289b57e6ce",
+      "size": 5607,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/52a1b73499305318c04c0c05e5539b289b57e6ce"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.23.binding_site_divergence_across_species.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c794c31c7fa55764525df319918779fa8dd01c",
+      "size": 6523,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/17c794c31c7fa55764525df319918779fa8dd01c"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.3.create_bwa_mem2_indices.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d149414062e5603e9307ed8c563a2e1d9372d0b",
+      "size": 426,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/9d149414062e5603e9307ed8c563a2e1d9372d0b"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.4.ATAC_seq_mapping.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78bc85f03fed9fdd3a0fb7c5a349cfddaf422423",
+      "size": 2510,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/78bc85f03fed9fdd3a0fb7c5a349cfddaf422423"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.5.calculate_coverage.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a0cc480dfa2b89a2a120fe5214d5ea47f531f6",
+      "size": 1554,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/85a0cc480dfa2b89a2a120fe5214d5ea47f531f6"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.6.name_sorting.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0364676722d6960da68bb507b75bffb554573ba",
+      "size": 564,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/d0364676722d6960da68bb507b75bffb554573ba"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.7.peak_calling_without_blacklist.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdfcb7a41f9e9046b02f7cdef2529f6af2cf76ab",
+      "size": 2273,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/cdfcb7a41f9e9046b02f7cdef2529f6af2cf76ab"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.8.create_blacklists.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe6a339812658a5756bc9f6a52ec3d391010ab6",
+      "size": 825,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/cbe6a339812658a5756bc9f6a52ec3d391010ab6"
+    },
+    {
+      "path": "2.validations/2.3.binding_site_enrichment_and_divergence/2.3.9.peak_calling_with_blacklist.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d049e3832ca5cf369c76a2d705c0b405f72b7317",
+      "size": 2571,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/d049e3832ca5cf369c76a2d705c0b405f72b7317"
+    },
+    {
+      "path": "2.validations/2.4.sequence_divergence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52b79d9d1c27f3f44d4e76606c5ed8bb63210992",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/52b79d9d1c27f3f44d4e76606c5ed8bb63210992"
+    },
+    {
+      "path": "2.validations/2.4.sequence_divergence/2.4.1.download_protein_alignments_and_phastCons_scores.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a39da1381f3ad5c9b60910e9fc997b0c52a35122",
+      "size": 1433,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a39da1381f3ad5c9b60910e9fc997b0c52a35122"
+    },
+    {
+      "path": "2.validations/2.4.sequence_divergence/2.4.2.calculate_sequence_divergence.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3a0a0149f4bdedfd928dcc13a88fa6751de28d0",
+      "size": 6695,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a3a0a0149f4bdedfd928dcc13a88fa6751de28d0"
+    },
+    {
+      "path": "2.validations/2.4.sequence_divergence/2.4.3.calculate_phastCons_scores.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d030c3da23d5340eb814e7d24e284e818c6fdf",
+      "size": 2692,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/65d030c3da23d5340eb814e7d24e284e818c6fdf"
+    },
+    {
+      "path": "2.validations/2.4.sequence_divergence/2.4.4.sequence_divergence_VS_network_divergence.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def7f0cb97a436928fc6e5b83bd0fc039cd9b7cf",
+      "size": 3914,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/def7f0cb97a436928fc6e5b83bd0fc039cd9b7cf"
+    },
+    {
+      "path": "2.validations/2.4.sequence_divergence/alignment_scoring_function.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02d30a1401e2adc8e73002bcc08af4fe00fc884d",
+      "size": 2203,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/02d30a1401e2adc8e73002bcc08af4fe00fc884d"
+    },
+    {
+      "path": "2.validations/2.5.expression_pattern_divergence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "085eaf0fe8c669cf10f1ea2ac7f2fcd86c6c6532",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/085eaf0fe8c669cf10f1ea2ac7f2fcd86c6c6532"
+    },
+    {
+      "path": "2.validations/2.5.expression_pattern_divergence/2.5.1.calculate_expression_pattern_divergence.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c6ea5d4bd894eacc65c04f8211c39f565abb55b",
+      "size": 6686,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/1c6ea5d4bd894eacc65c04f8211c39f565abb55b"
+    },
+    {
+      "path": "2.validations/2.5.expression_pattern_divergence/2.5.2.expression_pattern_divergence_VS_network_divergence.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da2a5ba11777aa6fcf329cccaee80d9c5a86efb5",
+      "size": 3182,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/da2a5ba11777aa6fcf329cccaee80d9c5a86efb5"
+    },
+    {
+      "path": "2.validations/2.5.expression_pattern_divergence/subsampling_helper_function.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6daffe12d27a46d10f7bd5daefe7c13dc18d7f72",
+      "size": 3804,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/6daffe12d27a46d10f7bd5daefe7c13dc18d7f72"
+    },
+    {
+      "path": "2.validations/2.6.ChIP_seq_enrichment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8b98639c251b1022575b311507025445903c628",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/a8b98639c251b1022575b311507025445903c628"
+    },
+    {
+      "path": "2.validations/2.6.ChIP_seq_enrichment/NANOG_ChIP_seq.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab697c9c20d20420975c735938729d4b0b65962",
+      "size": 9688,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/6ab697c9c20d20420975c735938729d4b0b65962"
+    },
+    {
+      "path": "2.validations/2.6.ChIP_seq_enrichment/PAX6_ChIP_seq.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13095633ab2ba02a08c35d01e3bb391067ced97a",
+      "size": 9993,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/13095633ab2ba02a08c35d01e3bb391067ced97a"
+    },
+    {
+      "path": "2.validations/2.6.ChIP_seq_enrichment/POU5F1_ChIP_seq.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03acb6ae3fc5304340cafe92a3df38992448fca",
+      "size": 9683,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/e03acb6ae3fc5304340cafe92a3df38992448fca"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ab2e2f6a5993355058d50f05dd5214c29652c22",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/2ab2e2f6a5993355058d50f05dd5214c29652c22"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.1.run_RepeatMasker_for_macFas6.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da0252141828fc72b2c54e59921bb5ee2bcbfe54",
+      "size": 371,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/da0252141828fc72b2c54e59921bb5ee2bcbfe54"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.2.get_LTR7_positions_and_info.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e03fa584af81c14f9dc464b6d4545e22cbb4ad",
+      "size": 6909,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/b3e03fa584af81c14f9dc464b6d4545e22cbb4ad"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.3.calculate_enrichment_near_POU5F1_module_members.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03615a6ddaab0037e7e2f1814d8528c51268e695",
+      "size": 6612,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/03615a6ddaab0037e7e2f1814d8528c51268e695"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.4.create_Ggorilla_BSgenome_package.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0661d48a47af74b1a62b54df14a7521c88f4f4a",
+      "size": 1837,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/c0661d48a47af74b1a62b54df14a7521c88f4f4a"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.5.get_CREs_near_SPP1_and_SCGB3A2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f01077d17fa02cb7f547c496749ab6f22605c32",
+      "size": 5113,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/8f01077d17fa02cb7f547c496749ab6f22605c32"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.6.get_POU5F1_motifs.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ad637c244b54f7cb866a4c06d05a036c7e05d96",
+      "size": 2007,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/7ad637c244b54f7cb866a4c06d05a036c7e05d96"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.7.indentify_POU5F1_motifs_near_SPP1_and_SCGB3A2.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "694d3c84933fd6424cacf9e86ef5b7498a11d259",
+      "size": 730,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/694d3c84933fd6424cacf9e86ef5b7498a11d259"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/2.7.8.plot_regions_near_SPP1_and_SCGB3A2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2919e80f913ddc641d19e29c4a691cf027f39c75",
+      "size": 14991,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/2919e80f913ddc641d19e29c4a691cf027f39c75"
+    },
+    {
+      "path": "2.validations/2.7.POU5F1_LTR7_enrichment/helper_functions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb2c81e214466cda41402effee1db0ada9a60887",
+      "size": 17593,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/fb2c81e214466cda41402effee1db0ada9a60887"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16edc3947d3e39435f0e2aea769f59a4426721dd",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/16edc3947d3e39435f0e2aea769f59a4426721dd"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.1.annotate_dCas9_cassette.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1f31df29685f743750f8181db36ea684b181f0bc",
+      "size": 5323,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/1f31df29685f743750f8181db36ea684b181f0bc"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.10.DE_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c84fa501d2f0eb4968229f5c64823220106a7d4b",
+      "size": 4388,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/c84fa501d2f0eb4968229f5c64823220106a7d4b"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.2.create_ref_genomes_with_dCas9_casette.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "913d12043542ef49b2140bb21b7ddb9f604c02a7",
+      "size": 3238,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/913d12043542ef49b2140bb21b7ddb9f604c02a7"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.3.download_FASTQ.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed0811651206fbc53df9fd6347cffa94f7b6fd13",
+      "size": 371,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/ed0811651206fbc53df9fd6347cffa94f7b6fd13"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.4.mapping.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a98dfea90a746335eeaf62643b86e631703383",
+      "size": 334,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/27a98dfea90a746335eeaf62643b86e631703383"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.5.species_demultiplexing.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c832fbeb19d35c3f574a24e00eac64ecfeae96be",
+      "size": 414,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/c832fbeb19d35c3f574a24e00eac64ecfeae96be"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.6.get_cells_per_species.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e239cc7bf01970da5d5a95d285d1dd996a78436",
+      "size": 3232,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/5e239cc7bf01970da5d5a95d285d1dd996a78436"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.7.individual_demultiplexing.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7392cbca73492278ef897ab7723722967b37208",
+      "size": 354,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/b7392cbca73492278ef897ab7723722967b37208"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.8.QC_and_filtering.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c00e4cf1abb799201d69270707c3daf1176394c",
+      "size": 26579,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/7c00e4cf1abb799201d69270707c3daf1176394c"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/2.8.9.stemness_scores_and_knockdown_efficiencies.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6105eaa1e2766464c9e425fdd8979e548452a3fb",
+      "size": 15196,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/6105eaa1e2766464c9e425fdd8979e548452a3fb"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/helper_functions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5441d9c7905b4588ef4edcf5a48c80d39fe694d4",
+      "size": 27191,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/5441d9c7905b4588ef4edcf5a48c80d39fe694d4"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/indiv_demultiplexing_per_lane_and_genome.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b61b313fe8c2cf85fc9c53e6bc0b6ad258ee49",
+      "size": 1742,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/25b61b313fe8c2cf85fc9c53e6bc0b6ad258ee49"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/load_genbank_seq.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec56b4db5ccaf098b51f7f471b7813bdea63c79",
+      "size": 493,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/3ec56b4db5ccaf098b51f7f471b7813bdea63c79"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/mapping_per_lane_and_genome.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad56a6386fefbbd489463050316cbfd9e46323c",
+      "size": 1112,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/3ad56a6386fefbbd489463050316cbfd9e46323c"
+    },
+    {
+      "path": "2.validations/2.8.POU5F1_CRISPRi/species_demultiplexing_per_lane_and_genome.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f468767a01aea919771b5aa0a074de90bd0ac89a",
+      "size": 2068,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/f468767a01aea919771b5aa0a074de90bd0ac89a"
+    },
+    {
+      "path": "3.brain_dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f9d4e1dbd20c976d5404e1c101d9ad2ad06b92b",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/7f9d4e1dbd20c976d5404e1c101d9ad2ad06b92b"
+    },
+    {
+      "path": "3.brain_dataset/3.1.data_preparation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f3f8a48779d8562ac513451db9516a17e446c96",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/3f3f8a48779d8562ac513451db9516a17e446c96"
+    },
+    {
+      "path": "3.brain_dataset/3.1.data_preparation/3.1.1.download_processed_data.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c5650f1ead7b50fcaba8af5dfbad4d5bc7b896c",
+      "size": 1243,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/4c5650f1ead7b50fcaba8af5dfbad4d5bc7b896c"
+    },
+    {
+      "path": "3.brain_dataset/3.1.data_preparation/3.1.2.filtering.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fac8648644e31913eb1060d5a003f682152c6866",
+      "size": 7103,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/fac8648644e31913eb1060d5a003f682152c6866"
+    },
+    {
+      "path": "3.brain_dataset/3.1.data_preparation/3.1.3.subsampling.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b90cfa6a79ef3c3bd7dfe0b29266554e0514b5",
+      "size": 3443,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a3b90cfa6a79ef3c3bd7dfe0b29266554e0514b5"
+    },
+    {
+      "path": "3.brain_dataset/3.2.network_inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34571153b783b9938c19e7e58c950d9c5eaf133d",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/34571153b783b9938c19e7e58c950d9c5eaf133d"
+    },
+    {
+      "path": "3.brain_dataset/3.2.network_inference/3.2.1.run_correlatePairs.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e6a7d9e63b57efb00c09bca25033df17300686b",
+      "size": 683,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/5e6a7d9e63b57efb00c09bca25033df17300686b"
+    },
+    {
+      "path": "3.brain_dataset/3.2.network_inference/correlatePairs.R",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a3c58b4314ff4a17a7098ad32084c099d5d6464f",
+      "size": 750,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/a3c58b4314ff4a17a7098ad32084c099d5d6464f"
+    },
+    {
+      "path": "3.brain_dataset/3.3.CroCoNet_analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "512df91c35d69b55dce0346a58b788c0c5f5c6fb",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/512df91c35d69b55dce0346a58b788c0c5f5c6fb"
+    },
+    {
+      "path": "3.brain_dataset/3.3.CroCoNet_analysis/3.3.1.CroCoNet_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "881c7916fcec3fddc3f3fe5689b51cf3e8ad9e3e",
+      "size": 22150,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/881c7916fcec3fddc3f3fe5689b51cf3e8ad9e3e"
+    },
+    {
+      "path": "3.brain_dataset/3.3.CroCoNet_analysis/3.3.2.CroCoNet_analysis_with_cor_kIM.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d241580a5f09b2e56a5d08505a2b9ca51e17eb",
+      "size": 1788,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/b6d241580a5f09b2e56a5d08505a2b9ca51e17eb"
+    },
+    {
+      "path": "3.brain_dataset/3.3.CroCoNet_analysis/3.3.3.cor_kIM_VS_cor_adj.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "212b89f4dd11014f422ee38bbc1273c4f1a13bdf",
+      "size": 5916,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/212b89f4dd11014f422ee38bbc1273c4f1a13bdf"
+    },
+    {
+      "path": "4.paper_figures_and_tables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c53692ae8299a9b4bda34c8ece682e41d5f86b4b",
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/trees/c53692ae8299a9b4bda34c8ece682e41d5f86b4b"
+    },
+    {
+      "path": "4.paper_figures_and_tables/figure2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5196a970685fff234faac96279761734a1ff7628",
+      "size": 26948,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/5196a970685fff234faac96279761734a1ff7628"
+    },
+    {
+      "path": "4.paper_figures_and_tables/figure3.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def7a6adc8fda819b17e30fab9b552e245c0d625",
+      "size": 20280,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/def7a6adc8fda819b17e30fab9b552e245c0d625"
+    },
+    {
+      "path": "4.paper_figures_and_tables/figure4.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96df01515a204e8d8f3d79946519aba90d36219c",
+      "size": 7181,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/96df01515a204e8d8f3d79946519aba90d36219c"
+    },
+    {
+      "path": "4.paper_figures_and_tables/helper_functions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e436ba11451f96480d115f3f9fc6f86cc7ed3ee",
+      "size": 52020,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/7e436ba11451f96480d115f3f9fc6f86cc7ed3ee"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS1.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c06e90b0549a24ba9868426c34690ae80c51d5dd",
+      "size": 19156,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/c06e90b0549a24ba9868426c34690ae80c51d5dd"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS10.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "207a3966b830edf5a7ef4a9b3854678b22c93a5b",
+      "size": 8912,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/207a3966b830edf5a7ef4a9b3854678b22c93a5b"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS11.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c176ac84e12b78fb61c0a297bd72954c3b882c38",
+      "size": 16392,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/c176ac84e12b78fb61c0a297bd72954c3b882c38"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS12_S13.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bc84dcba81979b14470f048b651ba6359cff0d",
+      "size": 13401,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/05bc84dcba81979b14470f048b651ba6359cff0d"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS14.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a37f214450a634f29167720c27ac7bc672661e",
+      "size": 6084,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/d3a37f214450a634f29167720c27ac7bc672661e"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "000190362f3afff229f872f7724388c878b4436b",
+      "size": 8727,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/000190362f3afff229f872f7724388c878b4436b"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS3.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603fce6e4db97866714b14c16bb4687896649f33",
+      "size": 13274,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/603fce6e4db97866714b14c16bb4687896649f33"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS4.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc571cfcddc359d04ae4ffdeebbac29250c4d127",
+      "size": 19356,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/cc571cfcddc359d04ae4ffdeebbac29250c4d127"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS5.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de281dc4c7022e2989f86a45085b67350ec90b0",
+      "size": 14462,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/9de281dc4c7022e2989f86a45085b67350ec90b0"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS6.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e38c34c0a6db9883aaaaed0dedce6e6f29cac2e",
+      "size": 4639,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/8e38c34c0a6db9883aaaaed0dedce6e6f29cac2e"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS7.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "987409a0775cf3563ef997451b56d73ac6b495c4",
+      "size": 6076,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/987409a0775cf3563ef997451b56d73ac6b495c4"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS8.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c508c867973cb6507ccbbf51c05b8ebd692a07",
+      "size": 1995,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/d8c508c867973cb6507ccbbf51c05b8ebd692a07"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.figureS9.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60339a6af9a62511ba8f73ad3a88709ba9d25f96",
+      "size": 7617,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/60339a6af9a62511ba8f73ad3a88709ba9d25f96"
+    },
+    {
+      "path": "4.paper_figures_and_tables/suppl.tables.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "607a77977dbb0842793f1beba4ac24528baa5c3d",
+      "size": 24699,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/607a77977dbb0842793f1beba4ac24528baa5c3d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "README.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83305ed2a59d7705bdec2e4600b9c4f0b9eabb81",
+      "size": 22343,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/83305ed2a59d7705bdec2e4600b9c4f0b9eabb81"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1898d7b34dc12e103d10dca29ecf5fca2e330015",
+      "size": 22119,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/1898d7b34dc12e103d10dca29ecf5fca2e330015"
+    },
+    {
+      "path": "pipeline.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c84a29543538dd28205b699e94b024fea098a3",
+      "size": 348593,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/34c84a29543538dd28205b699e94b024fea098a3"
+    },
+    {
+      "path": "sessionInfo.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba842dc8aec14d4c08d6c8878bde22035600cbab",
+      "size": 14539,
+      "url": "https://api.github.com/repos/Hellmann-Lab/CroCoNet-analyses/git/blobs/ba842dc8aec14d4c08d6c8878bde22035600cbab"
+    }
+  ],
+  "truncated": false
+}

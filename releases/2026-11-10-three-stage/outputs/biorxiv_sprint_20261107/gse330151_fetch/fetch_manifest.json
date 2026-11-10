@@ -1,0 +1,592 @@
+{
+  "accession": "GSE330151",
+  "updated_utc": "2026-11-07T13:56:37Z",
+  "scope": "Five deposited unnormalized gene-count matrices and five GEO series matrices; no FASTQ/CEL downloaded",
+  "per_file_cap_bytes": 30000000,
+  "total_cap_bytes": 150000000,
+  "transport": "Imported existing repository validator-checked curl resume implementation",
+  "budget": {
+    "stored_bytes": 3967237,
+    "partial_bytes": 0,
+    "pending_cache_bytes": 0,
+    "network_bytes": 10472,
+    "reserved_storage_bytes": 0,
+    "reserved_network_bytes": 0
+  },
+  "files": [
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151-GPL34284_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34284_series_matrix.txt.gz",
+      "kind": "metadata",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151-GPL34284_series_matrix.txt.gz",
+      "started_utc": "2026-11-07T13:54:20Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 4624,
+      "sha256": "ada5bb5536290e01ec573509e4f48dc6f345e940d3c65d5351e694eec359f695",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 64661
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34284_series_matrix.txt.gz",
+        "size": 4624,
+        "etag": null,
+        "last_modified": "Thu, 20 Aug 2026 04:21:23 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:22Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "supporting_metadata",
+        "bytes": 4624
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151-GPL34290_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34290_series_matrix.txt.gz",
+      "kind": "metadata",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151-GPL34290_series_matrix.txt.gz",
+      "started_utc": "2026-11-07T13:54:22Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 4632,
+      "sha256": "fef5745a217fdef7cd2731781f39c1ad4f5868dbf99b883e4820d0cf5a6027d2",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 64823
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34290_series_matrix.txt.gz",
+        "size": 4632,
+        "etag": null,
+        "last_modified": "Thu, 20 Aug 2026 04:21:23 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:24Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "supporting_metadata",
+        "bytes": 4632
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151-GPL34316_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34316_series_matrix.txt.gz",
+      "kind": "metadata",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151-GPL34316_series_matrix.txt.gz",
+      "started_utc": "2026-11-07T13:54:22Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 4638,
+      "sha256": "370e9a737a36e89f6097e7b9d42070ae2555a5cdeb7c6ee006e7c5ea8d4294b6",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 64931
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34316_series_matrix.txt.gz",
+        "size": 4638,
+        "etag": null,
+        "last_modified": "Thu, 20 Aug 2026 04:21:23 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:24Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "supporting_metadata",
+        "bytes": 4638
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151-GPL34842_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34842_series_matrix.txt.gz",
+      "kind": "metadata",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151-GPL34842_series_matrix.txt.gz",
+      "started_utc": "2026-11-07T13:54:24Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 4643,
+      "sha256": "6d8c204297d11e4ff927d45cf432e2cf37bbc40a0fe4e1a161e88a70e0132569",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 64985
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34842_series_matrix.txt.gz",
+        "size": 4643,
+        "etag": null,
+        "last_modified": "Thu, 20 Aug 2026 04:21:23 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:26Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "supporting_metadata",
+        "bytes": 4643
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151-GPL35351_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL35351_series_matrix.txt.gz",
+      "kind": "metadata",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151-GPL35351_series_matrix.txt.gz",
+      "started_utc": "2026-11-07T13:54:24Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 4634,
+      "sha256": "9e147f35f2c977032fe7a850989955758182e61d61caeac998ac382cb18587e8",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 64859
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL35351_series_matrix.txt.gz",
+        "size": 4634,
+        "etag": null,
+        "last_modified": "Thu, 20 Aug 2026 04:21:23 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:26Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "supporting_metadata",
+        "bytes": 4634
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+      "kind": "processed_matrix",
+      "expected_sample_columns": 18,
+      "species_tag": "cyno",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+      "started_utc": "2026-11-07T13:54:17Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 694923,
+      "sha256": "bd48ad04862777cb88c7f7c1016444789b357bc08d0d04e71a37dd0c3fb028ae",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 2854514
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+        "size": 694923,
+        "etag": null,
+        "last_modified": "Wed, 06 May 2026 21:48:15 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:20Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "inspected",
+        "format": "delimited",
+        "delimiter": ",",
+        "implicit_leading_identifier_header_added": false,
+        "preview_data_row_widths": [
+          19,
+          19,
+          19
+        ],
+        "header": [
+          "",
+          "CDDO_Cyno_1",
+          "CDDO_Cyno_2",
+          "CDDO_Cyno_3",
+          "CTRL1_Cyno_1",
+          "CTRL1_Cyno_2",
+          "CTRL1_Cyno_3",
+          "CTRL2_Cyno_1",
+          "CTRL2_Cyno_2",
+          "CTRL2_Cyno_3",
+          "Thap_Cyno_1",
+          "Thap_Cyno_2",
+          "Thap_Cyno_3",
+          "CTRL_cyno_1",
+          "CTRL_cyno_2",
+          "CTRL_cyno_3",
+          "Ki696_cyno_1",
+          "Ki696_cyno_2",
+          "Ki696_cyno_3"
+        ],
+        "column_count": 19,
+        "annotation_column_indices_heuristic": [
+          0
+        ],
+        "inferred_sample_columns": 18,
+        "expected_sample_columns": 18,
+        "expected_sample_count_matches_heuristic": true,
+        "count_method": "Header columns minus identifier/recognized annotation columns; verify aliases before modeling"
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+      "kind": "processed_matrix",
+      "expected_sample_columns": 18,
+      "species_tag": "dog",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+      "started_utc": "2026-11-07T13:54:20Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 648448,
+      "sha256": "f5b1c50bf25d67916f8449c36d4179e25fc218def0ee017df31e4ad3dd3218e9",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 2387289
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+        "size": 648448,
+        "etag": null,
+        "last_modified": "Wed, 06 May 2026 21:48:16 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:22Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "inspected",
+        "format": "delimited",
+        "delimiter": ",",
+        "implicit_leading_identifier_header_added": false,
+        "preview_data_row_widths": [
+          19,
+          19,
+          19
+        ],
+        "header": [
+          "",
+          "CDDO_Dog_1",
+          "CDDO_Dog_2",
+          "CDDO_Dog_3",
+          "CTRL1_Dog_1",
+          "CTRL1_Dog_2",
+          "CTRL1_Dog_3",
+          "CTRL2_Dog_1",
+          "CTRL2_Dog_2",
+          "CTRL2_Dog_3",
+          "Thap_Dog_1",
+          "Thap_Dog_2",
+          "Thap_Dog_3",
+          "CTRL_dog_1",
+          "CTRL_dog_2",
+          "CTRL_dog_3",
+          "Ki696_dog_1",
+          "Ki696_dog_2",
+          "Ki696_dog_3"
+        ],
+        "column_count": 19,
+        "annotation_column_indices_heuristic": [
+          0
+        ],
+        "inferred_sample_columns": 18,
+        "expected_sample_columns": 18,
+        "expected_sample_count_matches_heuristic": true,
+        "count_method": "Header columns minus identifier/recognized annotation columns; verify aliases before modeling"
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/soft/GSE330151_family.soft.gz",
+      "kind": "metadata",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151_family.soft.gz",
+      "started_utc": "2026-11-07T13:56:35Z",
+      "usable_for_training": true,
+      "status": "downloaded",
+      "bytes": 10472,
+      "sha256": "66e8de1570381cdab3628a4ea1de711e1a1153f24659f5badc5db623eeb252c3",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 392502
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/soft/GSE330151_family.soft.gz",
+        "size": 10472,
+        "etag": null,
+        "last_modified": "Thu, 20 Aug 2026 04:21:22 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:56:37Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "supporting_metadata",
+        "bytes": 10472
+      }
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+      "kind": "processed_matrix",
+      "expected_sample_columns": 18,
+      "species_tag": "human",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+      "started_utc": "2026-11-07T13:54:14Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 1022850,
+      "sha256": "2cc60e22ba41209fc7a30bade023eefe5984ce8e263a438c76fe189be7c67047",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 4405882
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+        "size": 1022850,
+        "etag": null,
+        "last_modified": "Wed, 06 May 2026 21:48:16 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:17Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "inspected",
+        "format": "delimited",
+        "delimiter": ",",
+        "implicit_leading_identifier_header_added": false,
+        "preview_data_row_widths": [
+          19,
+          19,
+          19
+        ],
+        "header": [
+          "",
+          "CDDO_Human_1",
+          "CDDO_Human_2",
+          "CDDO_Human_3",
+          "CTRL1_Human_1",
+          "CTRL1_Human_2",
+          "CTRL1_Human_4",
+          "CTRL2_Human_1",
+          "CTRL2_Human_2",
+          "CTRL2_Human_3",
+          "Thap_Human_1",
+          "Thap_Human_2",
+          "Thap_Human_4",
+          "CTRL_human_1",
+          "CTRL_human_2",
+          "CTRL_human_3",
+          "Ki696_human_1",
+          "Ki696_human_2",
+          "Ki696_human_3"
+        ],
+        "column_count": 19,
+        "annotation_column_indices_heuristic": [
+          0
+        ],
+        "inferred_sample_columns": 18,
+        "expected_sample_columns": 18,
+        "expected_sample_count_matches_heuristic": true,
+        "count_method": "Header columns minus identifier/recognized annotation columns; verify aliases before modeling"
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+      "kind": "processed_matrix",
+      "expected_sample_columns": 18,
+      "species_tag": "mouse",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+      "started_utc": "2026-11-07T13:54:14Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 895114,
+      "sha256": "ef344ff75779db709e56d3bc704037d0047974f6672841c5ea1734d94cfb94f5",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 4124780
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+        "size": 895114,
+        "etag": null,
+        "last_modified": "Wed, 06 May 2026 21:48:16 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:17Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "inspected",
+        "format": "delimited",
+        "delimiter": ",",
+        "implicit_leading_identifier_header_added": false,
+        "preview_data_row_widths": [
+          19,
+          19,
+          19
+        ],
+        "header": [
+          "",
+          "CDDO_Mouse_1",
+          "CDDO_Mouse_2",
+          "CDDO_Mouse_3",
+          "CTRL1_Mouse_1",
+          "CTRL1_Mouse_3",
+          "CTRL1_Mouse_4",
+          "CTRL2_Mouse_1",
+          "CTRL2_Mouse_2",
+          "CTRL2_Mouse_3",
+          "Thap_Mouse_1",
+          "Thap_Mouse_3",
+          "Thap_Mouse_4",
+          "CTRL_mouse_1",
+          "CTRL_mouse_2",
+          "CTRL_mouse_3",
+          "Ki696_mouse_1",
+          "Ki696_mouse_2",
+          "Ki696_mouse_3"
+        ],
+        "column_count": 19,
+        "annotation_column_indices_heuristic": [
+          0
+        ],
+        "inferred_sample_columns": 18,
+        "expected_sample_columns": 18,
+        "expected_sample_count_matches_heuristic": true,
+        "count_method": "Header columns minus identifier/recognized annotation columns; verify aliases before modeling"
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    },
+    {
+      "accession": "GSE330151",
+      "filename": "GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+      "kind": "processed_matrix",
+      "expected_sample_columns": 18,
+      "species_tag": "rat",
+      "path": "/Users/zhi/train/outputs/biorxiv_sprint_20261107/gse330151_fetch/GSE330151/GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+      "started_utc": "2026-11-07T13:54:17Z",
+      "usable_for_training": true,
+      "status": "cached",
+      "bytes": 672259,
+      "sha256": "c91f997bcfb7b82125cd16f8318ad6e15289d6ee43ed774a0e09393e82c49949",
+      "integrity": {
+        "status": "passed",
+        "check": "full_gzip_EOF_CRC",
+        "expanded_bytes": 2385789
+      },
+      "remote": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+        "size": 672259,
+        "etag": null,
+        "last_modified": "Wed, 06 May 2026 21:48:16 GMT",
+        "accept_ranges": "bytes",
+        "content_type": "application/x-gzip"
+      },
+      "resumed_from_bytes": 0,
+      "attempts": 1,
+      "failures": [],
+      "completed_utc": "2026-11-07T13:54:20Z",
+      "transport": "curl_resume",
+      "inspection": {
+        "status": "inspected",
+        "format": "delimited",
+        "delimiter": ",",
+        "implicit_leading_identifier_header_added": false,
+        "preview_data_row_widths": [
+          19,
+          19,
+          19
+        ],
+        "header": [
+          "",
+          "CDDO_Rat_1",
+          "CDDO_Rat_2",
+          "CDDO_Rat_3",
+          "CTRL1_Rat_1",
+          "CTRL1_Rat_2",
+          "CTRL1_Rat_3",
+          "CTRL2_Rat_1",
+          "CTRL2_Rat_2",
+          "CTRL2_Rat_3",
+          "Thap_Rat_1",
+          "Thap_Rat_2",
+          "Thap_Rat_3",
+          "CTRL_rat_1",
+          "CTRL_rat_2",
+          "CTRL_rat_3",
+          "Ki696_rat_1",
+          "Ki696_rat_2",
+          "Ki696_rat_3"
+        ],
+        "column_count": 19,
+        "annotation_column_indices_heuristic": [
+          0
+        ],
+        "inferred_sample_columns": 18,
+        "expected_sample_columns": 18,
+        "expected_sample_count_matches_heuristic": true,
+        "count_method": "Header columns minus identifier/recognized annotation columns; verify aliases before modeling"
+      },
+      "checked_utc": "2026-11-07T13:56:35Z"
+    }
+  ]
+}

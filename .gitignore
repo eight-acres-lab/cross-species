@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+datasets/
+external/
+# Manuscript files and locally rendered figures stay outside the data deposit.
+/docs/
+/outputs/
+/artifacts/gse249010_v1/data/GSE249010_processed_data_TPM.txt.gz
+/artifacts/gse249010_v1/na_cache/
+/artifacts/tg_gates_rat_human_v1/data/pairs_rat_X.tsv
+/artifacts/tg_gates_rat_human_v1/data/pairs_human_Y.tsv

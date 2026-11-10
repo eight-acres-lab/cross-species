@@ -1,0 +1,19 @@
+{
+  "scope": "count QC only, all1644 cells without condition comparisons",
+  "cells": 1644,
+  "full_deposited_axis_genes": 32738,
+  "coding_axis_genes": 19123,
+  "all_denominators_positive": true,
+  "coding_umi_sum_min_median_max": [
+    509,
+    1937.0,
+    5823
+  ],
+  "coding_fraction_of_deposited_umi_min_median_max": [
+    0.7374962109730221,
+    0.9439893043692024,
+    0.9846322722283205
+  ],
+  "h5ad_sha256_before": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0",
+  "h5ad_sha256_after": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0"
+}

@@ -1,0 +1,460 @@
+{
+  "schema_version": "gse325993_exp3_human_validation_v1",
+  "status": "passed",
+  "scope": "Input-only independent-screen validation; no models, tuning, new gene/cell selection, effects or scoring",
+  "script": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/prepare_gse325993_screen_validation.py",
+    "sha256": "b599c3eba714230b5335e455fc9ea7f3329c3b3fc8a1d64fe0be63764f159ec1",
+    "bytes": 14573
+  },
+  "exp2_reference_manifest": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized/manifest.json",
+    "sha256": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
+    "bytes": 9283
+  },
+  "source_files": [
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane1_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane1_count_matrix.h5ad",
+      "bytes": 24522754,
+      "sha256": "55d92ca8e22d49bab327330c2cbbcb7919032efaf83f72a10e686cefa8728baa",
+      "cells": 547,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane1",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane2_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane2_count_matrix.h5ad",
+      "bytes": 22713218,
+      "sha256": "3130d192d23ec9821abc69308441264d1b53c2b024298b08e1cd09149e79d953",
+      "cells": 484,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane2",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane3_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane3_count_matrix.h5ad",
+      "bytes": 26040142,
+      "sha256": "f15aa078568f6bb0d33985180cd90843447d314d40e87ee91a5a9303dce207c0",
+      "cells": 538,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane3",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane4_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane4_count_matrix.h5ad",
+      "bytes": 23186110,
+      "sha256": "c248d5fd1b9c04ff7b34d3cf65af7228c6ac0b4233e614421775a23277b7f433",
+      "cells": 582,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane4",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane5_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane5_count_matrix.h5ad",
+      "bytes": 24999918,
+      "sha256": "662771538f4b353a40cb398a705896e4aae746c6edc3976d8b96d3e577ef8304",
+      "cells": 546,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane5",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane6_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane6_count_matrix.h5ad",
+      "bytes": 25579822,
+      "sha256": "b53c205d2d20a94e78b9d389749c106d7cac347f4489963bf4e98ba60a5e4cdf",
+      "cells": 562,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane6",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane7_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane7_count_matrix.h5ad",
+      "bytes": 25246238,
+      "sha256": "262db110726bf57d01acd3b697d65a2f711e478e365e38fc4596f49ff9fdd196",
+      "cells": 574,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane7",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618470_HSapiens_exp3_chip1_lane8_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618470/suppl/GSM9618470_HSapiens_exp3_chip1_lane8_count_matrix.h5ad",
+      "bytes": 26510354,
+      "sha256": "62187f093235c8bf4f4384dd0c1d3ad569681cbdd707f583b9561656f1095172",
+      "cells": 599,
+      "genes": 36606,
+      "capture": "exp3_chip1_lane8",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane1_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane1_count_matrix.h5ad",
+      "bytes": 24068962,
+      "sha256": "44ca4eb9c526f67f4b066126d305044a6dba592a757e92db4e076ddb1120775b",
+      "cells": 482,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane1",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane2_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane2_count_matrix.h5ad",
+      "bytes": 21130162,
+      "sha256": "048e5a99656d6cfb3169999f87714453d71c41d86d6a6ee65fda2b695cc9ad9c",
+      "cells": 487,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane2",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane3_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane3_count_matrix.h5ad",
+      "bytes": 24056882,
+      "sha256": "2461d667c12bd2d51559a7f465fc806e191e801f6f588bad5e0a8eda9d33c669",
+      "cells": 495,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane3",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane4_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane4_count_matrix.h5ad",
+      "bytes": 21813858,
+      "sha256": "0df6e5f4d50616c01ec81908b337a7d5122999fc72c0d425a95c91f2419bc1ec",
+      "cells": 466,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane4",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane5_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane5_count_matrix.h5ad",
+      "bytes": 22446930,
+      "sha256": "443f7f3eadc86359fe564d205280787b4d1c45a8e35633ea90755c0a792e23a1",
+      "cells": 481,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane5",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane6_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane6_count_matrix.h5ad",
+      "bytes": 23127586,
+      "sha256": "404eaf63f4374900b5f460f489761010ffe85522ded41f8a3d45f888a7cd2bec",
+      "cells": 523,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane6",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane7_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane7_count_matrix.h5ad",
+      "bytes": 21342242,
+      "sha256": "a1e8e7aba7cdefac246bd80003534ef044be6680d03ccbb32eeb57992c02a8a3",
+      "cells": 430,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane7",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618474_HSapiens_exp3_chip2_lane8_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618474/suppl/GSM9618474_HSapiens_exp3_chip2_lane8_count_matrix.h5ad",
+      "bytes": 21484514,
+      "sha256": "14af7a8720d74675cc2c2100a35f3c0fe8f9131d2aad059a5e07783bc187d832",
+      "cells": 490,
+      "genes": 36606,
+      "capture": "exp3_chip2_lane8",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane1_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane1_count_matrix.h5ad",
+      "bytes": 26051538,
+      "sha256": "636f4d6cad978f5c01d5f8fecdf4ffcf95c858969e6215305d5ec06c3c6e8c54",
+      "cells": 489,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane1",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane2_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane2_count_matrix.h5ad",
+      "bytes": 26319986,
+      "sha256": "43d3b7c9e21374427edf688d20b10f8d4a339dbef3d370e7a0ab87989e43ab65",
+      "cells": 499,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane2",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane3_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane3_count_matrix.h5ad",
+      "bytes": 28123418,
+      "sha256": "7c934183018ae9855d1bbc17af2ab1cf2f5ad8d78aaa44c45d3b0b268eeb2ac1",
+      "cells": 561,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane3",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane4_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane4_count_matrix.h5ad",
+      "bytes": 28609354,
+      "sha256": "fa8d477e8214d56cbf804107a88327f652421103944ee432a75f8b50ee1f7129",
+      "cells": 589,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane4",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane5_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane5_count_matrix.h5ad",
+      "bytes": 28283682,
+      "sha256": "a43060538180c87bb38038a3a7f8746dc5d6cdebdf0597751a7423a9ef0e19a2",
+      "cells": 587,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane5",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane6_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane6_count_matrix.h5ad",
+      "bytes": 25325650,
+      "sha256": "652ce7cdb3838d95e3c87ea853b0e176e7725fa6a1c9643fc34cb1ea60dbca95",
+      "cells": 551,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane6",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    },
+    {
+      "file": "GSM9618478_HSapiens_exp3_chip3_lane7_count_matrix.h5ad",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618478/suppl/GSM9618478_HSapiens_exp3_chip3_lane7_count_matrix.h5ad",
+      "bytes": 26774046,
+      "sha256": "1eb7473f5086a57b143cad985faae7515800caeb79a1264b09e4db80407d1668",
+      "cells": 574,
+      "genes": 36606,
+      "capture": "exp3_chip3_lane7",
+      "exact_guide_and_author_demux_bridge": true,
+      "integer_nonnegative_counts": true
+    }
+  ],
+  "author_demux_metadata": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/audit/public_cell_guide_and_line_metadata.tsv.gz",
+    "sha256": "54bb8dc0136bff35b2c7486b87ba77721216dc7bf7f60b2ef5383208c6087122",
+    "bytes": 1039349
+  },
+  "native_counts": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/prepared/gse325993_exp3_human.native_counts.h5ad",
+    "sha256": "4bdf684b65c5aa4b0f8437b9fead59e1b5097e6610fd675a02efdaa9fc2fa16e",
+    "bytes": 135978088
+  },
+  "arrays": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/gse325993_exp3_human_arrays.npz",
+    "sha256": "0945f8471e951b5bc48142ea4f73d460523d26c76c95842c44f128b0301246ea",
+    "bytes": 51189112,
+    "shape": [
+      12136,
+      6357
+    ],
+    "dtype": "float32",
+    "use": "independent scorer only; inference reads only query_ntc artifact"
+  },
+  "cohort_metadata": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/cohort_metadata.npz",
+    "sha256": "d377498d558a32b26bf3965ceb41c3bba0b75e521f3acf262e39b112d992fd7d",
+    "bytes": 223754,
+    "contains_expression": false
+  },
+  "query_ntc": {
+    "expression": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/query_ntc_expression.npy",
+      "sha256": "1821801ce21c38774642a69be34b2c1155caa496500b840226b36fa1e5fa5b5c",
+      "bytes": 298041716
+    },
+    "metadata": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/query_ntc_metadata.npz",
+      "sha256": "cd42bf95d153efdc3cd7931df21adb806b55a7a205f6bf55ebc4292c4069ddd8",
+      "bytes": 215831
+    },
+    "cells": 11721,
+    "condition": "NTC",
+    "shape": [
+      11721,
+      6357
+    ],
+    "expression_dtype": "float32",
+    "metadata_contains_expression": false
+  },
+  "target_POU5F1": {
+    "expression": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/target_POU5F1_expression.npy",
+      "sha256": "c585349982746f3adc21a354388ccda51006ee4c865d194fe80e293efc872cdb",
+      "bytes": 10552748
+    },
+    "metadata": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/target_POU5F1_metadata.npz",
+      "sha256": "3f3f43938dceda196af0d15e5a1aa802c87269cabf24edd839bbaec053600e07",
+      "bytes": 48210
+    },
+    "cells": 415,
+    "condition": "POU5F1",
+    "shape": [
+      415,
+      6357
+    ],
+    "expression_dtype": "float32",
+    "metadata_contains_expression": false
+  },
+  "axis": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/state_observed_gene_axis.tsv",
+    "sha256": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+    "bytes": 267340,
+    "exact_exp2_axis": true,
+    "genes": 6357
+  },
+  "coding_mask": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/human.gencode32_coding_mask.tsv",
+    "sha256": "4375d81c3f4371a37a34d06892bbe0803b3279b81b8da80ecaa48a3ce7f9884f",
+    "bytes": 1409297,
+    "exact_exp2_mask": true,
+    "genes": 19394,
+    "GENCODE32_reference_protein_coding_genes": 19994,
+    "reference_coding_genes_missing_from_native_axis": 600,
+    "native_axis_features": 36606,
+    "output_axis_protein_coding": 6271,
+    "output_axis_lncRNA": 86
+  },
+  "normalization": {
+    "formula": "float32(log1p(10000*native_UMI/full_native_observed_GENCODE32_protein_coding_UMI_sum))",
+    "definition": "GENCODE32 gene_type==protein_coding, exact deposited gene IDs; macaque uses author's human-ID Liftoff GTF",
+    "zero_denominator_policy": "abort, never drop cells",
+    "exclude_five_insert_features": true,
+    "all6357_output_genes_retained": true,
+    "coding_reference": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.primary_assembly.annotation.gtf.gz",
+      "release": "GENCODE32 GRCh38.p13 primary assembly",
+      "source_bytes": 43107903,
+      "source_sha256": "0c36c37abb0c88637b04a8e401c93f0199a65bbdd0702c9e13bdfbadc053fe1e",
+      "gene_rows": 60668,
+      "protein_coding_gene_rows": 19994,
+      "table_sha256": "bff01f6276d5d834afe169f18eb50931ffe41569e748eac01c86f8ae85818d0c",
+      "rule": "only GTF feature gene; gene_type==protein_coding; exactstable ID, version suffix removed; preserve PAR_Ysuffix"
+    }
+  },
+  "eligibility": {
+    "all_public_exp3_human_cells": 12136,
+    "retained": 12136,
+    "excluded": 0,
+    "new_expression_filter": false,
+    "rule": "Exact author demux + same exp2 strict dominant guideUMI threshold + NTC/POU5F1 target identity",
+    "other_species_anomalies_not_in_scope": [
+      {
+        "species": "cynomolgus",
+        "individual": "QC-14K16S07",
+        "capture": "exp3_chip1_lane7",
+        "barcode": "CCAATCCTCACGATGT-1",
+        "dominant_guide": "macFas6_POU5F1_n10",
+        "condition": "POU5F1"
+      },
+      {
+        "species": "cynomolgus",
+        "individual": "QC-14K16S07",
+        "capture": "exp3_chip2_lane2",
+        "barcode": "TTCTCAACAGTAGAGC-1",
+        "dominant_guide": "hg38_FUBP1_n2",
+        "condition": "unresolved_other_dominant"
+      }
+    ]
+  },
+  "perline_condition_counts": [
+    {
+      "individual": "bv",
+      "cell_line": "63Ab2.2-02",
+      "condition": "NTC",
+      "n_cells": 7238
+    },
+    {
+      "individual": "bv",
+      "cell_line": "63Ab2.2-02",
+      "condition": "POU5F1",
+      "n_cells": 230
+    },
+    {
+      "individual": "cz",
+      "cell_line": "29B5-39s",
+      "condition": "NTC",
+      "n_cells": 4483
+    },
+    {
+      "individual": "cz",
+      "cell_line": "29B5-39s",
+      "condition": "POU5F1",
+      "n_cells": 185
+    }
+  ],
+  "capture_provenance": {
+    "n_public_captures": 23,
+    "missing_from_geo_and_author_capture_list": "exp3_chip3_lane8",
+    "missing_reason": "not stated; not inferred to have zero valid cells",
+    "author_capture_list": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/author_metadata/ids.txt",
+      "sha256": "1e9c2f15d42d99009c00e56c67cc445b3056a7dbd0261a6141bb5096bc5cebf2",
+      "bytes": 544
+    }
+  },
+  "reuse_audit": {
+    "exp3_duplicate_entire_count_vectors": 0,
+    "exp2_exp3_identical_entire_count_vectors": 0,
+    "exp2_exp3_overlap_full_capture_cell_ids": 0,
+    "bare_barcodes_shared_across_screens": 86,
+    "identity_rule": "experiment_chip_lane_barcode withspecies; barebarcode collisions do not constitute cell reuse"
+  },
+  "screen_limitations": [
+    "Same two human genotype lines, new screen; no new donors or new study",
+    "exp2 TF27 versus exp3 TF76 guide library; POU5F1 target same, guide composition changes",
+    "Frozen exp2 weights, hyperparameters and gene coordinates; these inputs do not authorize adaptation"
+  ],
+  "metadata_only_guide_composition": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/metadata_guide_composition.json",
+    "sha256": "9372ee832002599f18bd9b81c72a59ca16f4e1e70fc23891e9083f9063b24de5",
+    "bytes": 820
+  },
+  "pre_download_eligibility": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/metadata_eligibility_frozen_before_download.json",
+    "sha256": "a5346c4343b138e87a514d8caa6ef328b68369ba70bc9aab91f31ead88529492",
+    "bytes": 1051
+  },
+  "upstream_cohort_caveat": "Public NTCguide ID sets equal author's final RNA-effect-filtered lists acrossbothlines; comparison conditional on author-curated publiccohort. No exporter trace was found, so boundary inference remains explicit.",
+  "raw_exp2_and_exp3_sources_unchanged": true,
+  "array_roundtrip_exact": true,
+  "free_disk_bytes_after_preparation": 15785615360
+}

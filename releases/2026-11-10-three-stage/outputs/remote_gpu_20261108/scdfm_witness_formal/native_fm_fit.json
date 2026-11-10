@@ -1,0 +1,2012 @@
+{
+  "method": "native_fm",
+  "updates": 200,
+  "history": [
+    {
+      "update": 1,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.12719256430864334,
+      "native_or_nft_objective": 0.12719256430864334,
+      "reference_velocity_mse": 0.0,
+      "gradient_norm_before_clip": 0.839085578918457,
+      "eval_ema_decay": 0.1,
+      "elapsed_seconds": 1.1826021671295166
+    },
+    {
+      "update": 2,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.13504306972026825,
+      "native_or_nft_objective": 0.13501430302858353,
+      "reference_velocity_mse": 2.8767669391527306e-05,
+      "gradient_norm_before_clip": 1.0111050605773926,
+      "eval_ema_decay": 0.18181818181818182,
+      "elapsed_seconds": 2.3101341193541884
+    },
+    {
+      "update": 3,
+      "condition": "control+Givinostat",
+      "loss": 0.13698413968086243,
+      "native_or_nft_objective": 0.136972077190876,
+      "reference_velocity_mse": 1.2066274393873755e-05,
+      "gradient_norm_before_clip": 0.9543953537940979,
+      "eval_ema_decay": 0.25,
+      "elapsed_seconds": 3.4459721418097615
+    },
+    {
+      "update": 4,
+      "condition": "control+Dasatinib",
+      "loss": 0.11901525780558586,
+      "native_or_nft_objective": 0.11899717897176743,
+      "reference_velocity_mse": 1.80817232831032e-05,
+      "gradient_norm_before_clip": 0.7192607522010803,
+      "eval_ema_decay": 0.3076923076923077,
+      "elapsed_seconds": 4.572629565373063
+    },
+    {
+      "update": 5,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.09046132117509842,
+      "native_or_nft_objective": 0.0904388464987278,
+      "reference_velocity_mse": 2.2473849639936816e-05,
+      "gradient_norm_before_clip": 0.7552491426467896,
+      "eval_ema_decay": 0.35714285714285715,
+      "elapsed_seconds": 5.698899873532355
+    },
+    {
+      "update": 6,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.10872917994856834,
+      "native_or_nft_objective": 0.10869450494647026,
+      "reference_velocity_mse": 3.46746455761604e-05,
+      "gradient_norm_before_clip": 0.814669668674469,
+      "eval_ema_decay": 0.4,
+      "elapsed_seconds": 6.829264276660979
+    },
+    {
+      "update": 7,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.10441029071807861,
+      "native_or_nft_objective": 0.10436633229255676,
+      "reference_velocity_mse": 4.395916039356962e-05,
+      "gradient_norm_before_clip": 0.707844078540802,
+      "eval_ema_decay": 0.4375,
+      "elapsed_seconds": 7.9646200723946095
+    },
+    {
+      "update": 8,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.0995069295167923,
+      "native_or_nft_objective": 0.09945125132799149,
+      "reference_velocity_mse": 5.567788684857078e-05,
+      "gradient_norm_before_clip": 0.6896370649337769,
+      "eval_ema_decay": 0.47058823529411764,
+      "elapsed_seconds": 9.101809822022915
+    },
+    {
+      "update": 9,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10848607122898102,
+      "native_or_nft_objective": 0.10841335356235504,
+      "reference_velocity_mse": 7.271943468367681e-05,
+      "gradient_norm_before_clip": 0.533199667930603,
+      "eval_ema_decay": 0.5,
+      "elapsed_seconds": 10.235958927311003
+    },
+    {
+      "update": 10,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.12690609320998192,
+      "native_or_nft_objective": 0.12681295350193977,
+      "reference_velocity_mse": 9.313744521932676e-05,
+      "gradient_norm_before_clip": 0.9125785827636719,
+      "eval_ema_decay": 0.5263157894736842,
+      "elapsed_seconds": 11.365375470370054
+    },
+    {
+      "update": 11,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.14055819064378738,
+      "native_or_nft_objective": 0.14045003056526184,
+      "reference_velocity_mse": 0.0001081586378859356,
+      "gradient_norm_before_clip": 0.7155664563179016,
+      "eval_ema_decay": 0.55,
+      "elapsed_seconds": 12.495444723404944
+    },
+    {
+      "update": 12,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.13391666114330292,
+      "native_or_nft_objective": 0.13377416133880615,
+      "reference_velocity_mse": 0.00014249631203711033,
+      "gradient_norm_before_clip": 0.8790006041526794,
+      "eval_ema_decay": 0.5714285714285714,
+      "elapsed_seconds": 13.625869980081916
+    },
+    {
+      "update": 13,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.1149178259074688,
+      "native_or_nft_objective": 0.11476538702845573,
+      "reference_velocity_mse": 0.0001524390172562562,
+      "gradient_norm_before_clip": 0.5376245379447937,
+      "eval_ema_decay": 0.5909090909090909,
+      "elapsed_seconds": 14.755480531603098
+    },
+    {
+      "update": 14,
+      "condition": "control+Givinostat",
+      "loss": 0.1373775526881218,
+      "native_or_nft_objective": 0.13719545304775238,
+      "reference_velocity_mse": 0.00018210215057479218,
+      "gradient_norm_before_clip": 0.6977831125259399,
+      "eval_ema_decay": 0.6086956521739131,
+      "elapsed_seconds": 15.88928253389895
+    },
+    {
+      "update": 15,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.09434939548373222,
+      "native_or_nft_objective": 0.09414458274841309,
+      "reference_velocity_mse": 0.00020481163664953783,
+      "gradient_norm_before_clip": 0.5178250074386597,
+      "eval_ema_decay": 0.625,
+      "elapsed_seconds": 17.022791728377342
+    },
+    {
+      "update": 16,
+      "condition": "control+SRT2104",
+      "loss": 0.11217306554317474,
+      "native_or_nft_objective": 0.11194238066673279,
+      "reference_velocity_mse": 0.0002306845926796086,
+      "gradient_norm_before_clip": 0.648666501045227,
+      "eval_ema_decay": 0.64,
+      "elapsed_seconds": 18.156164092943072
+    },
+    {
+      "update": 17,
+      "condition": "control+SRT2104",
+      "loss": 0.13766690343618393,
+      "native_or_nft_objective": 0.1374015435576439,
+      "reference_velocity_mse": 0.0002653589763212949,
+      "gradient_norm_before_clip": 0.5721415281295776,
+      "eval_ema_decay": 0.6538461538461539,
+      "elapsed_seconds": 19.291532376781106
+    },
+    {
+      "update": 18,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.11600864306092262,
+      "native_or_nft_objective": 0.11572011932730675,
+      "reference_velocity_mse": 0.0002885261783376336,
+      "gradient_norm_before_clip": 0.43309587240219116,
+      "eval_ema_decay": 0.6666666666666666,
+      "elapsed_seconds": 20.435567520558834
+    },
+    {
+      "update": 19,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.103689044713974,
+      "native_or_nft_objective": 0.10336067155003548,
+      "reference_velocity_mse": 0.0003283732512500137,
+      "gradient_norm_before_clip": 0.4952981770038605,
+      "eval_ema_decay": 0.6785714285714286,
+      "elapsed_seconds": 21.571762966923416
+    },
+    {
+      "update": 20,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.10832647606730461,
+      "native_or_nft_objective": 0.10796679928898811,
+      "reference_velocity_mse": 0.0003596799651859328,
+      "gradient_norm_before_clip": 0.5378414988517761,
+      "eval_ema_decay": 0.6896551724137931,
+      "elapsed_seconds": 22.705834372900426
+    },
+    {
+      "update": 21,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.11121023073792458,
+      "native_or_nft_objective": 0.11081976816058159,
+      "reference_velocity_mse": 0.00039046369784045964,
+      "gradient_norm_before_clip": 0.30726316571235657,
+      "eval_ema_decay": 0.7,
+      "elapsed_seconds": 23.845694319345057
+    },
+    {
+      "update": 22,
+      "condition": "control+SRT2104",
+      "loss": 0.1158842220902443,
+      "native_or_nft_objective": 0.11546263843774796,
+      "reference_velocity_mse": 0.0004215830995235592,
+      "gradient_norm_before_clip": 0.6193678379058838,
+      "eval_ema_decay": 0.7096774193548387,
+      "elapsed_seconds": 24.980358955450356
+    },
+    {
+      "update": 23,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.11419312655925751,
+      "native_or_nft_objective": 0.11373774334788322,
+      "reference_velocity_mse": 0.00045538270205724984,
+      "gradient_norm_before_clip": 0.3738776445388794,
+      "eval_ema_decay": 0.71875,
+      "elapsed_seconds": 26.11521362606436
+    },
+    {
+      "update": 24,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.09929846227169037,
+      "native_or_nft_objective": 0.09878844395279884,
+      "reference_velocity_mse": 0.0005100171838421375,
+      "gradient_norm_before_clip": 0.32916727662086487,
+      "eval_ema_decay": 0.7272727272727273,
+      "elapsed_seconds": 27.257336030714214
+    },
+    {
+      "update": 25,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.10430613905191422,
+      "native_or_nft_objective": 0.10375722870230675,
+      "reference_velocity_mse": 0.0005489094473887235,
+      "gradient_norm_before_clip": 0.3393535912036896,
+      "eval_ema_decay": 0.7352941176470589,
+      "elapsed_seconds": 28.388396801427007
+    },
+    {
+      "update": 26,
+      "condition": "control+SRT2104",
+      "loss": 0.12085109204053879,
+      "native_or_nft_objective": 0.12026822194457054,
+      "reference_velocity_mse": 0.0005828651774208993,
+      "gradient_norm_before_clip": 0.4843170940876007,
+      "eval_ema_decay": 0.7428571428571429,
+      "elapsed_seconds": 29.51925543975085
+    },
+    {
+      "update": 27,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.10588780045509338,
+      "native_or_nft_objective": 0.10527201369404793,
+      "reference_velocity_mse": 0.0006157864700071514,
+      "gradient_norm_before_clip": 0.3282943069934845,
+      "eval_ema_decay": 0.75,
+      "elapsed_seconds": 30.655803421512246
+    },
+    {
+      "update": 28,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.11348439380526543,
+      "native_or_nft_objective": 0.11283901706337929,
+      "reference_velocity_mse": 0.0006453761598095298,
+      "gradient_norm_before_clip": 0.3671998977661133,
+      "eval_ema_decay": 0.7567567567567568,
+      "elapsed_seconds": 31.790619970299304
+    },
+    {
+      "update": 29,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.11649533361196518,
+      "native_or_nft_objective": 0.1157885380089283,
+      "reference_velocity_mse": 0.0007067941478453577,
+      "gradient_norm_before_clip": 0.394028902053833,
+      "eval_ema_decay": 0.7631578947368421,
+      "elapsed_seconds": 32.9254895336926
+    },
+    {
+      "update": 30,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.12764495611190796,
+      "native_or_nft_objective": 0.12692071869969368,
+      "reference_velocity_mse": 0.0007242417486850172,
+      "gradient_norm_before_clip": 0.5233842730522156,
+      "eval_ema_decay": 0.7692307692307693,
+      "elapsed_seconds": 34.05877240560949
+    },
+    {
+      "update": 31,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.12197251617908478,
+      "native_or_nft_objective": 0.12116853147745132,
+      "reference_velocity_mse": 0.0008039854001253843,
+      "gradient_norm_before_clip": 0.3063849210739136,
+      "eval_ema_decay": 0.775,
+      "elapsed_seconds": 35.191605096682906
+    },
+    {
+      "update": 32,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.12335462868213654,
+      "native_or_nft_objective": 0.12253941223025322,
+      "reference_velocity_mse": 0.0008152166847139597,
+      "gradient_norm_before_clip": 0.1857910007238388,
+      "eval_ema_decay": 0.7804878048780488,
+      "elapsed_seconds": 36.33737554680556
+    },
+    {
+      "update": 33,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12600774317979813,
+      "native_or_nft_objective": 0.12510111927986145,
+      "reference_velocity_mse": 0.0009066244529094547,
+      "gradient_norm_before_clip": 0.4541880786418915,
+      "eval_ema_decay": 0.7857142857142857,
+      "elapsed_seconds": 37.46812212280929
+    },
+    {
+      "update": 34,
+      "condition": "control+SRT2104",
+      "loss": 0.1348450854420662,
+      "native_or_nft_objective": 0.13392359763383865,
+      "reference_velocity_mse": 0.0009214901074301451,
+      "gradient_norm_before_clip": 0.45296725630760193,
+      "eval_ema_decay": 0.7906976744186046,
+      "elapsed_seconds": 38.603870389051735
+    },
+    {
+      "update": 35,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.1394020989537239,
+      "native_or_nft_objective": 0.13839898258447647,
+      "reference_velocity_mse": 0.0010031149722635746,
+      "gradient_norm_before_clip": 0.37779149413108826,
+      "eval_ema_decay": 0.7954545454545454,
+      "elapsed_seconds": 39.7366130836308
+    },
+    {
+      "update": 36,
+      "condition": "Givinostat+Tanespimycin",
+      "loss": 0.12099350988864899,
+      "native_or_nft_objective": 0.11994104459881783,
+      "reference_velocity_mse": 0.0010524610406719148,
+      "gradient_norm_before_clip": 0.4187222123146057,
+      "eval_ema_decay": 0.8,
+      "elapsed_seconds": 40.87024965137243
+    },
+    {
+      "update": 37,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.14732489734888077,
+      "native_or_nft_objective": 0.14628177881240845,
+      "reference_velocity_mse": 0.0010431137052364647,
+      "gradient_norm_before_clip": 0.3585384488105774,
+      "eval_ema_decay": 0.8043478260869565,
+      "elapsed_seconds": 42.00965911243111
+    },
+    {
+      "update": 38,
+      "condition": "control+Dasatinib",
+      "loss": 0.1181720457971096,
+      "native_or_nft_objective": 0.1171012669801712,
+      "reference_velocity_mse": 0.001070780330337584,
+      "gradient_norm_before_clip": 0.21801486611366272,
+      "eval_ema_decay": 0.8085106382978723,
+      "elapsed_seconds": 43.15192568860948
+    },
+    {
+      "update": 39,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.11809428036212921,
+      "native_or_nft_objective": 0.11697385832667351,
+      "reference_velocity_mse": 0.0011204234906472266,
+      "gradient_norm_before_clip": 0.22974389791488647,
+      "eval_ema_decay": 0.8125,
+      "elapsed_seconds": 44.28161970619112
+    },
+    {
+      "update": 40,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.12489630654454231,
+      "native_or_nft_objective": 0.12372271716594696,
+      "reference_velocity_mse": 0.0011735909502021968,
+      "gradient_norm_before_clip": 0.17222705483436584,
+      "eval_ema_decay": 0.8163265306122449,
+      "elapsed_seconds": 45.41166132129729
+    },
+    {
+      "update": 41,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.13796816021203995,
+      "native_or_nft_objective": 0.13679299503564835,
+      "reference_velocity_mse": 0.0011751705314964056,
+      "gradient_norm_before_clip": 0.2233428806066513,
+      "eval_ema_decay": 0.82,
+      "elapsed_seconds": 46.55060987081379
+    },
+    {
+      "update": 42,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.10608837381005287,
+      "native_or_nft_objective": 0.10496626421809196,
+      "reference_velocity_mse": 0.0011221105814911425,
+      "gradient_norm_before_clip": 0.22511781752109528,
+      "eval_ema_decay": 0.8235294117647058,
+      "elapsed_seconds": 47.68988479208201
+    },
+    {
+      "update": 43,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.0978754349052906,
+      "native_or_nft_objective": 0.09669392555952072,
+      "reference_velocity_mse": 0.0011815092875622213,
+      "gradient_norm_before_clip": 0.3131905794143677,
+      "eval_ema_decay": 0.8269230769230769,
+      "elapsed_seconds": 48.82866899296641
+    },
+    {
+      "update": 44,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12507740408182144,
+      "native_or_nft_objective": 0.12383808940649033,
+      "reference_velocity_mse": 0.0012393111246638,
+      "gradient_norm_before_clip": 0.28716886043548584,
+      "eval_ema_decay": 0.8301886792452831,
+      "elapsed_seconds": 49.96295529231429
+    },
+    {
+      "update": 45,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.11088627949357033,
+      "native_or_nft_objective": 0.10965866595506668,
+      "reference_velocity_mse": 0.001227615401148796,
+      "gradient_norm_before_clip": 0.10316124558448792,
+      "eval_ema_decay": 0.8333333333333334,
+      "elapsed_seconds": 51.0941587947309
+    },
+    {
+      "update": 46,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.12371531873941422,
+      "native_or_nft_objective": 0.1224268302321434,
+      "reference_velocity_mse": 0.0012884890311397612,
+      "gradient_norm_before_clip": 0.19131876528263092,
+      "eval_ema_decay": 0.8363636363636363,
+      "elapsed_seconds": 52.228078266605735
+    },
+    {
+      "update": 47,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.1283378228545189,
+      "native_or_nft_objective": 0.127015370875597,
+      "reference_velocity_mse": 0.0013224557624198496,
+      "gradient_norm_before_clip": 0.15921488404273987,
+      "eval_ema_decay": 0.8392857142857143,
+      "elapsed_seconds": 53.364706109277904
+    },
+    {
+      "update": 48,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10963643342256546,
+      "native_or_nft_objective": 0.10830135643482208,
+      "reference_velocity_mse": 0.0013350798981264234,
+      "gradient_norm_before_clip": 0.4106123745441437,
+      "eval_ema_decay": 0.8421052631578947,
+      "elapsed_seconds": 54.497253846377134
+    },
+    {
+      "update": 49,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.10201622173190117,
+      "native_or_nft_objective": 0.10066748410463333,
+      "reference_velocity_mse": 0.001348737336229533,
+      "gradient_norm_before_clip": 0.3029319941997528,
+      "eval_ema_decay": 0.8448275862068966,
+      "elapsed_seconds": 55.63164066709578
+    },
+    {
+      "update": 50,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.12560057640075684,
+      "native_or_nft_objective": 0.12421001493930817,
+      "reference_velocity_mse": 0.0013905636733397841,
+      "gradient_norm_before_clip": 0.28831106424331665,
+      "eval_ema_decay": 0.847457627118644,
+      "elapsed_seconds": 56.76680594496429
+    },
+    {
+      "update": 51,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.12396224588155746,
+      "native_or_nft_objective": 0.12258690595626831,
+      "reference_velocity_mse": 0.0013753395760431886,
+      "gradient_norm_before_clip": 0.15569362044334412,
+      "eval_ema_decay": 0.85,
+      "elapsed_seconds": 57.899838499724865
+    },
+    {
+      "update": 52,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.1299998089671135,
+      "native_or_nft_objective": 0.12857737392187119,
+      "reference_velocity_mse": 0.0014224305050447583,
+      "gradient_norm_before_clip": 0.24708569049835205,
+      "eval_ema_decay": 0.8524590163934426,
+      "elapsed_seconds": 59.041103303432465
+    },
+    {
+      "update": 53,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.09915086254477501,
+      "native_or_nft_objective": 0.09782201051712036,
+      "reference_velocity_mse": 0.0013288502232171595,
+      "gradient_norm_before_clip": 0.3407284617424011,
+      "eval_ema_decay": 0.8548387096774194,
+      "elapsed_seconds": 60.174185453914106
+    },
+    {
+      "update": 54,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.11856793239712715,
+      "native_or_nft_objective": 0.11717640981078148,
+      "reference_velocity_mse": 0.001391521014738828,
+      "gradient_norm_before_clip": 0.22506225109100342,
+      "eval_ema_decay": 0.8571428571428571,
+      "elapsed_seconds": 61.307943880558014
+    },
+    {
+      "update": 55,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.12153378874063492,
+      "native_or_nft_objective": 0.12011144682765007,
+      "reference_velocity_mse": 0.0014223397010937333,
+      "gradient_norm_before_clip": 0.09748107194900513,
+      "eval_ema_decay": 0.859375,
+      "elapsed_seconds": 62.45016662403941
+    },
+    {
+      "update": 56,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.11501183360815048,
+      "native_or_nft_objective": 0.11356572061777115,
+      "reference_velocity_mse": 0.0014461131067946553,
+      "gradient_norm_before_clip": 0.18883779644966125,
+      "eval_ema_decay": 0.8615384615384616,
+      "elapsed_seconds": 63.58307830709964
+    },
+    {
+      "update": 57,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.11872470751404762,
+      "native_or_nft_objective": 0.1172991432249546,
+      "reference_velocity_mse": 0.0014255644055083394,
+      "gradient_norm_before_clip": 0.1475471407175064,
+      "eval_ema_decay": 0.8636363636363636,
+      "elapsed_seconds": 64.71602052543312
+    },
+    {
+      "update": 58,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12201546877622604,
+      "native_or_nft_objective": 0.12055150046944618,
+      "reference_velocity_mse": 0.001463966618757695,
+      "gradient_norm_before_clip": 0.20732381939888,
+      "eval_ema_decay": 0.8656716417910447,
+      "elapsed_seconds": 65.85657417494804
+    },
+    {
+      "update": 59,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.1323801800608635,
+      "native_or_nft_objective": 0.1309201493859291,
+      "reference_velocity_mse": 0.0014600270660594106,
+      "gradient_norm_before_clip": 0.3270311653614044,
+      "eval_ema_decay": 0.8676470588235294,
+      "elapsed_seconds": 66.98833949770778
+    },
+    {
+      "update": 60,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.10691419243812561,
+      "native_or_nft_objective": 0.10545764863491058,
+      "reference_velocity_mse": 0.0014565438614226878,
+      "gradient_norm_before_clip": 0.15899047255516052,
+      "eval_ema_decay": 0.8695652173913043,
+      "elapsed_seconds": 68.12737595289946
+    },
+    {
+      "update": 61,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.12079499661922455,
+      "native_or_nft_objective": 0.1193084679543972,
+      "reference_velocity_mse": 0.001486529945395887,
+      "gradient_norm_before_clip": 0.16250666975975037,
+      "eval_ema_decay": 0.8714285714285714,
+      "elapsed_seconds": 69.26748068630695
+    },
+    {
+      "update": 62,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.09712326526641846,
+      "native_or_nft_objective": 0.09566868841648102,
+      "reference_velocity_mse": 0.0014545757439918816,
+      "gradient_norm_before_clip": 0.39338648319244385,
+      "eval_ema_decay": 0.8732394366197183,
+      "elapsed_seconds": 70.40089416690171
+    },
+    {
+      "update": 63,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12813372164964676,
+      "native_or_nft_objective": 0.12661755457520485,
+      "reference_velocity_mse": 0.0015161664923653007,
+      "gradient_norm_before_clip": 0.2805710434913635,
+      "eval_ema_decay": 0.875,
+      "elapsed_seconds": 71.54467870481312
+    },
+    {
+      "update": 64,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.13104216381907463,
+      "native_or_nft_objective": 0.12946318462491035,
+      "reference_velocity_mse": 0.0015789759927429259,
+      "gradient_norm_before_clip": 0.35210520029067993,
+      "eval_ema_decay": 0.8767123287671232,
+      "elapsed_seconds": 72.67806105222553
+    },
+    {
+      "update": 65,
+      "condition": "control+Panobinostat",
+      "loss": 0.1263677291572094,
+      "native_or_nft_objective": 0.12495789304375648,
+      "reference_velocity_mse": 0.001409835705999285,
+      "gradient_norm_before_clip": 0.25322362780570984,
+      "eval_ema_decay": 0.8783783783783784,
+      "elapsed_seconds": 73.80950662866235
+    },
+    {
+      "update": 66,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.10609473660588264,
+      "native_or_nft_objective": 0.10466243326663971,
+      "reference_velocity_mse": 0.001432299381121993,
+      "gradient_norm_before_clip": 0.16356870532035828,
+      "eval_ema_decay": 0.88,
+      "elapsed_seconds": 74.9458455182612
+    },
+    {
+      "update": 67,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.13457848131656647,
+      "native_or_nft_objective": 0.13292768597602844,
+      "reference_velocity_mse": 0.0016507940599694848,
+      "gradient_norm_before_clip": 0.1587536782026291,
+      "eval_ema_decay": 0.881578947368421,
+      "elapsed_seconds": 76.07744424138218
+    },
+    {
+      "update": 68,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.12076788023114204,
+      "native_or_nft_objective": 0.11915985867381096,
+      "reference_velocity_mse": 0.0016080227796919644,
+      "gradient_norm_before_clip": 0.11927429586648941,
+      "eval_ema_decay": 0.8831168831168831,
+      "elapsed_seconds": 77.21566641330719
+    },
+    {
+      "update": 69,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.0896444208920002,
+      "native_or_nft_objective": 0.08818333968520164,
+      "reference_velocity_mse": 0.0014610831858590245,
+      "gradient_norm_before_clip": 0.28469449281692505,
+      "eval_ema_decay": 0.8846153846153846,
+      "elapsed_seconds": 78.35085732024163
+    },
+    {
+      "update": 70,
+      "condition": "control+Panobinostat",
+      "loss": 0.10940936580300331,
+      "native_or_nft_objective": 0.10796572640538216,
+      "reference_velocity_mse": 0.001443640561774373,
+      "gradient_norm_before_clip": 0.2306261658668518,
+      "eval_ema_decay": 0.8860759493670886,
+      "elapsed_seconds": 79.48528928309679
+    },
+    {
+      "update": 71,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10236074775457382,
+      "native_or_nft_objective": 0.10075457394123077,
+      "reference_velocity_mse": 0.0016061748610809445,
+      "gradient_norm_before_clip": 0.41261211037635803,
+      "eval_ema_decay": 0.8875,
+      "elapsed_seconds": 80.62031165510416
+    },
+    {
+      "update": 72,
+      "condition": "control+Dasatinib",
+      "loss": 0.11648723483085632,
+      "native_or_nft_objective": 0.11499498039484024,
+      "reference_velocity_mse": 0.001492255018092692,
+      "gradient_norm_before_clip": 0.19449976086616516,
+      "eval_ema_decay": 0.8888888888888888,
+      "elapsed_seconds": 81.75605263747275
+    },
+    {
+      "update": 73,
+      "condition": "control+SRT2104",
+      "loss": 0.12645355984568596,
+      "native_or_nft_objective": 0.12487911060452461,
+      "reference_velocity_mse": 0.0015744449337944388,
+      "gradient_norm_before_clip": 0.28112179040908813,
+      "eval_ema_decay": 0.8902439024390244,
+      "elapsed_seconds": 82.89303959254175
+    },
+    {
+      "update": 74,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.09589539468288422,
+      "native_or_nft_objective": 0.0944196805357933,
+      "reference_velocity_mse": 0.001475716067943722,
+      "gradient_norm_before_clip": 0.32266491651535034,
+      "eval_ema_decay": 0.891566265060241,
+      "elapsed_seconds": 84.02939708344638
+    },
+    {
+      "update": 75,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.13825206458568573,
+      "native_or_nft_objective": 0.13677671551704407,
+      "reference_velocity_mse": 0.0014753490104340017,
+      "gradient_norm_before_clip": 0.2900509536266327,
+      "eval_ema_decay": 0.8928571428571429,
+      "elapsed_seconds": 85.16337813343853
+    },
+    {
+      "update": 76,
+      "condition": "control+Givinostat",
+      "loss": 0.12136638537049294,
+      "native_or_nft_objective": 0.11984198912978172,
+      "reference_velocity_mse": 0.0015243954840116203,
+      "gradient_norm_before_clip": 0.29433315992355347,
+      "eval_ema_decay": 0.8941176470588236,
+      "elapsed_seconds": 86.30204238463193
+    },
+    {
+      "update": 77,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.10460694506764412,
+      "native_or_nft_objective": 0.103105079382658,
+      "reference_velocity_mse": 0.0015018671401776373,
+      "gradient_norm_before_clip": 0.13745273649692535,
+      "eval_ema_decay": 0.8953488372093024,
+      "elapsed_seconds": 87.44657123275101
+    },
+    {
+      "update": 78,
+      "condition": "control+Panobinostat",
+      "loss": 0.09827438369393349,
+      "native_or_nft_objective": 0.09692832455039024,
+      "reference_velocity_mse": 0.001346059376373887,
+      "gradient_norm_before_clip": 0.18836258351802826,
+      "eval_ema_decay": 0.896551724137931,
+      "elapsed_seconds": 88.58123555127531
+    },
+    {
+      "update": 79,
+      "condition": "control+Panobinostat",
+      "loss": 0.11340272426605225,
+      "native_or_nft_objective": 0.11199752241373062,
+      "reference_velocity_mse": 0.0014052029582671821,
+      "gradient_norm_before_clip": 0.1845538467168808,
+      "eval_ema_decay": 0.8977272727272727,
+      "elapsed_seconds": 89.71306443121284
+    },
+    {
+      "update": 80,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.1240113154053688,
+      "native_or_nft_objective": 0.12246407940983772,
+      "reference_velocity_mse": 0.0015472337836399674,
+      "gradient_norm_before_clip": 0.23849210143089294,
+      "eval_ema_decay": 0.898876404494382,
+      "elapsed_seconds": 90.84647395368665
+    },
+    {
+      "update": 81,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.11086008697748184,
+      "native_or_nft_objective": 0.10930640995502472,
+      "reference_velocity_mse": 0.001553678943309933,
+      "gradient_norm_before_clip": 0.1565008908510208,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 91.98747644759715
+    },
+    {
+      "update": 82,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.10404440015554428,
+      "native_or_nft_objective": 0.10264481231570244,
+      "reference_velocity_mse": 0.001399585569743067,
+      "gradient_norm_before_clip": 0.2850223779678345,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 93.11873608827591
+    },
+    {
+      "update": 83,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.12131819874048233,
+      "native_or_nft_objective": 0.1197519451379776,
+      "reference_velocity_mse": 0.0015662514488212764,
+      "gradient_norm_before_clip": 0.19952593743801117,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 94.25316267926246
+    },
+    {
+      "update": 84,
+      "condition": "control+Panobinostat",
+      "loss": 0.112576674669981,
+      "native_or_nft_objective": 0.11124029010534286,
+      "reference_velocity_mse": 0.0013363829348236322,
+      "gradient_norm_before_clip": 0.12505096197128296,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 95.38891665823758
+    },
+    {
+      "update": 85,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.10762014240026474,
+      "native_or_nft_objective": 0.10621503740549088,
+      "reference_velocity_mse": 0.0014051080215722322,
+      "gradient_norm_before_clip": 0.28835755586624146,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 96.52031303942204
+    },
+    {
+      "update": 86,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.10342603921890259,
+      "native_or_nft_objective": 0.10200276598334312,
+      "reference_velocity_mse": 0.0014232733519747853,
+      "gradient_norm_before_clip": 0.3126137852668762,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 97.65707358438522
+    },
+    {
+      "update": 87,
+      "condition": "control+Givinostat",
+      "loss": 0.11837557330727577,
+      "native_or_nft_objective": 0.11693836748600006,
+      "reference_velocity_mse": 0.001437206577975303,
+      "gradient_norm_before_clip": 0.2597881257534027,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 98.79217066429555
+    },
+    {
+      "update": 88,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.11065524071455002,
+      "native_or_nft_objective": 0.10916504263877869,
+      "reference_velocity_mse": 0.001490197901148349,
+      "gradient_norm_before_clip": 0.38079187273979187,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 99.92655793577433
+    },
+    {
+      "update": 89,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.11575456336140633,
+      "native_or_nft_objective": 0.11423449963331223,
+      "reference_velocity_mse": 0.001520061050541699,
+      "gradient_norm_before_clip": 0.1639956533908844,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 101.05894785001874
+    },
+    {
+      "update": 90,
+      "condition": "control+Panobinostat",
+      "loss": 0.10751358792185783,
+      "native_or_nft_objective": 0.1061987653374672,
+      "reference_velocity_mse": 0.0013148220023140311,
+      "gradient_norm_before_clip": 0.16748952865600586,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 102.1921633630991
+    },
+    {
+      "update": 91,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.11347223445773125,
+      "native_or_nft_objective": 0.1121320128440857,
+      "reference_velocity_mse": 0.001340221264399588,
+      "gradient_norm_before_clip": 0.17639562487602234,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 103.32446172926575
+    },
+    {
+      "update": 92,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.13421058654785156,
+      "native_or_nft_objective": 0.1326439157128334,
+      "reference_velocity_mse": 0.0015666733961552382,
+      "gradient_norm_before_clip": 0.265593022108078,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 104.4578347504139
+    },
+    {
+      "update": 93,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12724558264017105,
+      "native_or_nft_objective": 0.1257593333721161,
+      "reference_velocity_mse": 0.0014862454845570028,
+      "gradient_norm_before_clip": 0.1788092851638794,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 105.59757292736322
+    },
+    {
+      "update": 94,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10942846164107323,
+      "native_or_nft_objective": 0.10796206817030907,
+      "reference_velocity_mse": 0.0014663920155726373,
+      "gradient_norm_before_clip": 0.31916993856430054,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 106.73648055363446
+    },
+    {
+      "update": 95,
+      "condition": "control+Givinostat",
+      "loss": 0.12083827331662178,
+      "native_or_nft_objective": 0.11940506845712662,
+      "reference_velocity_mse": 0.0014332043356262147,
+      "gradient_norm_before_clip": 0.30833184719085693,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 107.87113482505083
+    },
+    {
+      "update": 96,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.1064700335264206,
+      "native_or_nft_objective": 0.10503791645169258,
+      "reference_velocity_mse": 0.0014321177150122821,
+      "gradient_norm_before_clip": 0.35470062494277954,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 109.00504643656313
+    },
+    {
+      "update": 97,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10591919720172882,
+      "native_or_nft_objective": 0.104486845433712,
+      "reference_velocity_mse": 0.0014323515351861715,
+      "gradient_norm_before_clip": 0.4107802212238312,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 110.141686020419
+    },
+    {
+      "update": 98,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12266175076365471,
+      "native_or_nft_objective": 0.12110072374343872,
+      "reference_velocity_mse": 0.001561027194838971,
+      "gradient_norm_before_clip": 0.2102629840373993,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 111.27284852508456
+    },
+    {
+      "update": 99,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.11920085176825523,
+      "native_or_nft_objective": 0.1178373396396637,
+      "reference_velocity_mse": 0.0013635146897286177,
+      "gradient_norm_before_clip": 0.1540495753288269,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 112.41513657849282
+    },
+    {
+      "update": 100,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.12309281155467033,
+      "native_or_nft_objective": 0.12148340418934822,
+      "reference_velocity_mse": 0.0016094105667434633,
+      "gradient_norm_before_clip": 0.20279560983181,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 113.55040344689041
+    },
+    {
+      "update": 101,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.11861519142985344,
+      "native_or_nft_objective": 0.11722631379961967,
+      "reference_velocity_mse": 0.0013888757675886154,
+      "gradient_norm_before_clip": 0.09712740033864975,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 114.68670611549169
+    },
+    {
+      "update": 102,
+      "condition": "control+Panobinostat",
+      "loss": 0.1019768938422203,
+      "native_or_nft_objective": 0.10068095102906227,
+      "reference_velocity_mse": 0.0012959438026882708,
+      "gradient_norm_before_clip": 0.14057818055152893,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 115.8232193775475
+    },
+    {
+      "update": 103,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.1220613457262516,
+      "native_or_nft_objective": 0.12064924463629723,
+      "reference_velocity_mse": 0.0014121014392003417,
+      "gradient_norm_before_clip": 0.1578679382801056,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 116.96260021906346
+    },
+    {
+      "update": 104,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.11375169828534126,
+      "native_or_nft_objective": 0.11227007955312729,
+      "reference_velocity_mse": 0.0014816222828812897,
+      "gradient_norm_before_clip": 0.11763276159763336,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 118.09839410893619
+    },
+    {
+      "update": 105,
+      "condition": "control+Givinostat",
+      "loss": 0.11990924552083015,
+      "native_or_nft_objective": 0.11839273944497108,
+      "reference_velocity_mse": 0.001516509975772351,
+      "gradient_norm_before_clip": 0.29346469044685364,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 119.22969656996429
+    },
+    {
+      "update": 106,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.10932488366961479,
+      "native_or_nft_objective": 0.10783639922738075,
+      "reference_velocity_mse": 0.0014884843258187175,
+      "gradient_norm_before_clip": 0.13521361351013184,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 120.35949438344687
+    },
+    {
+      "update": 107,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.13394854217767715,
+      "native_or_nft_objective": 0.13255617767572403,
+      "reference_velocity_mse": 0.0013923703809268773,
+      "gradient_norm_before_clip": 0.35356438159942627,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 121.49031647015363
+    },
+    {
+      "update": 108,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.10338529199361801,
+      "native_or_nft_objective": 0.1020369678735733,
+      "reference_velocity_mse": 0.0013483220827765763,
+      "gradient_norm_before_clip": 0.24659046530723572,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 122.62146548647434
+    },
+    {
+      "update": 109,
+      "condition": "control+Dasatinib",
+      "loss": 0.12347403168678284,
+      "native_or_nft_objective": 0.12204068526625633,
+      "reference_velocity_mse": 0.0014333475264720619,
+      "gradient_norm_before_clip": 0.18356561660766602,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 123.7514694109559
+    },
+    {
+      "update": 110,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.10954226180911064,
+      "native_or_nft_objective": 0.10802577808499336,
+      "reference_velocity_mse": 0.001516483724117279,
+      "gradient_norm_before_clip": 0.2683764398097992,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 124.88297557551414
+    },
+    {
+      "update": 111,
+      "condition": "control+Panobinostat",
+      "loss": 0.11127574369311333,
+      "native_or_nft_objective": 0.109894510358572,
+      "reference_velocity_mse": 0.0013812345569022,
+      "gradient_norm_before_clip": 0.17010100185871124,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 126.01527834124863
+    },
+    {
+      "update": 112,
+      "condition": "control+Givinostat",
+      "loss": 0.12648595869541168,
+      "native_or_nft_objective": 0.12488536164164543,
+      "reference_velocity_mse": 0.0016005991492420435,
+      "gradient_norm_before_clip": 0.2433084100484848,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 127.14608756825328
+    },
+    {
+      "update": 113,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.12677418068051338,
+      "native_or_nft_objective": 0.12512682378292084,
+      "reference_velocity_mse": 0.0016473557334393263,
+      "gradient_norm_before_clip": 0.20841050148010254,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 128.2777389679104
+    },
+    {
+      "update": 114,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.11280573159456253,
+      "native_or_nft_objective": 0.11129510030150414,
+      "reference_velocity_mse": 0.0015106312930583954,
+      "gradient_norm_before_clip": 0.1849643737077713,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 129.40849270578474
+    },
+    {
+      "update": 115,
+      "condition": "control+SRT2104",
+      "loss": 0.1311367079615593,
+      "native_or_nft_objective": 0.12964192405343056,
+      "reference_velocity_mse": 0.0014947798918001354,
+      "gradient_norm_before_clip": 0.20584791898727417,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 130.54808437358588
+    },
+    {
+      "update": 116,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10264995321631432,
+      "native_or_nft_objective": 0.10113384202122688,
+      "reference_velocity_mse": 0.00151611038018018,
+      "gradient_norm_before_clip": 0.36020222306251526,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 131.68143638968468
+    },
+    {
+      "update": 117,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.12058417499065399,
+      "native_or_nft_objective": 0.11901378259062767,
+      "reference_velocity_mse": 0.0015703924000263214,
+      "gradient_norm_before_clip": 0.10958045721054077,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 132.81216446775943
+    },
+    {
+      "update": 118,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.12057623267173767,
+      "native_or_nft_objective": 0.11890222504734993,
+      "reference_velocity_mse": 0.0016740061691962183,
+      "gradient_norm_before_clip": 0.16650156676769257,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 133.94801705423743
+    },
+    {
+      "update": 119,
+      "condition": "control+SRT2104",
+      "loss": 0.14707503467798233,
+      "native_or_nft_objective": 0.14545328170061111,
+      "reference_velocity_mse": 0.0016217567608691752,
+      "gradient_norm_before_clip": 0.2124454826116562,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 135.08202586695552
+    },
+    {
+      "update": 120,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.11107080057263374,
+      "native_or_nft_objective": 0.10962901264429092,
+      "reference_velocity_mse": 0.001441789441742003,
+      "gradient_norm_before_clip": 0.11378790438175201,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 136.214548304677
+    },
+    {
+      "update": 121,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.11438027024269104,
+      "native_or_nft_objective": 0.11294586956501007,
+      "reference_velocity_mse": 0.00143439945532009,
+      "gradient_norm_before_clip": 0.2696242928504944,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 137.34693984594196
+    },
+    {
+      "update": 122,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.12656395509839058,
+      "native_or_nft_objective": 0.12488125637173653,
+      "reference_velocity_mse": 0.0016827023355290294,
+      "gradient_norm_before_clip": 0.24585382640361786,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 138.47629831079394
+    },
+    {
+      "update": 123,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.14223939180374146,
+      "native_or_nft_objective": 0.14048007130622864,
+      "reference_velocity_mse": 0.0017593257362022996,
+      "gradient_norm_before_clip": 0.09414993971586227,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 139.6138734491542
+    },
+    {
+      "update": 124,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.11345067620277405,
+      "native_or_nft_objective": 0.11179155111312866,
+      "reference_velocity_mse": 0.0016591245657764375,
+      "gradient_norm_before_clip": 0.18969203531742096,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 140.76953560020775
+    },
+    {
+      "update": 125,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.13186246901750565,
+      "native_or_nft_objective": 0.13034319877624512,
+      "reference_velocity_mse": 0.001519266632385552,
+      "gradient_norm_before_clip": 0.15674707293510437,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 141.91351722739637
+    },
+    {
+      "update": 126,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.12016930058598518,
+      "native_or_nft_objective": 0.11863825470209122,
+      "reference_velocity_mse": 0.0015310486778616905,
+      "gradient_norm_before_clip": 0.2681712210178375,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 143.05173915345222
+    },
+    {
+      "update": 127,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.1288057044148445,
+      "native_or_nft_objective": 0.12726984918117523,
+      "reference_velocity_mse": 0.001535854593385011,
+      "gradient_norm_before_clip": 0.1999516636133194,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 144.18861680664122
+    },
+    {
+      "update": 128,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.12323150411248207,
+      "native_or_nft_objective": 0.12150076031684875,
+      "reference_velocity_mse": 0.0017307456582784653,
+      "gradient_norm_before_clip": 0.29100707173347473,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 145.32494106702507
+    },
+    {
+      "update": 129,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.11946899443864822,
+      "native_or_nft_objective": 0.11770883947610855,
+      "reference_velocity_mse": 0.0017601558938622475,
+      "gradient_norm_before_clip": 0.1989496797323227,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 146.4644576990977
+    },
+    {
+      "update": 130,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.13387617468833923,
+      "native_or_nft_objective": 0.13212672993540764,
+      "reference_velocity_mse": 0.0017494456842541695,
+      "gradient_norm_before_clip": 0.1454787701368332,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 147.6059584999457
+    },
+    {
+      "update": 131,
+      "condition": "control+Givinostat",
+      "loss": 0.12603569403290749,
+      "native_or_nft_objective": 0.12429254874587059,
+      "reference_velocity_mse": 0.0017431436572223902,
+      "gradient_norm_before_clip": 0.2167016714811325,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 148.7473569046706
+    },
+    {
+      "update": 132,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.13681960850954056,
+      "native_or_nft_objective": 0.13505597040057182,
+      "reference_velocity_mse": 0.001763637876138091,
+      "gradient_norm_before_clip": 0.1625233143568039,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 149.88377962075174
+    },
+    {
+      "update": 133,
+      "condition": "Givinostat+Tanespimycin",
+      "loss": 0.1314450353384018,
+      "native_or_nft_objective": 0.12963753193616867,
+      "reference_velocity_mse": 0.0018075028201565146,
+      "gradient_norm_before_clip": 0.16086214780807495,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 151.01357934903353
+    },
+    {
+      "update": 134,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.12315115705132484,
+      "native_or_nft_objective": 0.12140320241451263,
+      "reference_velocity_mse": 0.0017479583038948476,
+      "gradient_norm_before_clip": 0.12548954784870148,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 152.15352778416127
+    },
+    {
+      "update": 135,
+      "condition": "control+Panobinostat",
+      "loss": 0.11180389672517776,
+      "native_or_nft_objective": 0.11027294769883156,
+      "reference_velocity_mse": 0.0015309502487070858,
+      "gradient_norm_before_clip": 0.15261389315128326,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 153.28209493961185
+    },
+    {
+      "update": 136,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.13302917405962944,
+      "native_or_nft_objective": 0.1314021497964859,
+      "reference_velocity_mse": 0.0016270281048491597,
+      "gradient_norm_before_clip": 0.18495109677314758,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 154.41152240429074
+    },
+    {
+      "update": 137,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.08971243724226952,
+      "native_or_nft_objective": 0.0881039910018444,
+      "reference_velocity_mse": 0.0016084469971247017,
+      "gradient_norm_before_clip": 0.3976912498474121,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 155.5493275905028
+    },
+    {
+      "update": 138,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.12859674915671349,
+      "native_or_nft_objective": 0.126787681132555,
+      "reference_velocity_mse": 0.0018090667435899377,
+      "gradient_norm_before_clip": 0.1498051881790161,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 156.67952135950327
+    },
+    {
+      "update": 139,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.12662959098815918,
+      "native_or_nft_objective": 0.12512879818677902,
+      "reference_velocity_mse": 0.0015007969341240823,
+      "gradient_norm_before_clip": 0.21593815088272095,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 157.80953901447356
+    },
+    {
+      "update": 140,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.1421959325671196,
+      "native_or_nft_objective": 0.1404089406132698,
+      "reference_velocity_mse": 0.0017869924195110798,
+      "gradient_norm_before_clip": 0.13888660073280334,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 158.94449212402105
+    },
+    {
+      "update": 141,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12523643299937248,
+      "native_or_nft_objective": 0.12344637140631676,
+      "reference_velocity_mse": 0.0017900613020174205,
+      "gradient_norm_before_clip": 0.15834204852581024,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 160.0783406542614
+    },
+    {
+      "update": 142,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.12900519371032715,
+      "native_or_nft_objective": 0.12716567516326904,
+      "reference_velocity_mse": 0.0018395152874290943,
+      "gradient_norm_before_clip": 0.23937161266803741,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 161.21271538548172
+    },
+    {
+      "update": 143,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.10946634039282799,
+      "native_or_nft_objective": 0.10793250054121017,
+      "reference_velocity_mse": 0.0015338411903940141,
+      "gradient_norm_before_clip": 0.3477938175201416,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 162.3401427352801
+    },
+    {
+      "update": 144,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10295828059315681,
+      "native_or_nft_objective": 0.10134699940681458,
+      "reference_velocity_mse": 0.0016112825251184404,
+      "gradient_norm_before_clip": 0.40954118967056274,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 163.46594824176282
+    },
+    {
+      "update": 145,
+      "condition": "Givinostat+Tanespimycin",
+      "loss": 0.13126984983682632,
+      "native_or_nft_objective": 0.12944244593381882,
+      "reference_velocity_mse": 0.0018274040194228292,
+      "gradient_norm_before_clip": 0.17028731107711792,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 164.59293023403734
+    },
+    {
+      "update": 146,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.13164502382278442,
+      "native_or_nft_objective": 0.12984024733304977,
+      "reference_velocity_mse": 0.0018047820776700974,
+      "gradient_norm_before_clip": 0.09908287227153778,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 165.7224682122469
+    },
+    {
+      "update": 147,
+      "condition": "control+SRT2104",
+      "loss": 0.12403314560651779,
+      "native_or_nft_objective": 0.12239627167582512,
+      "reference_velocity_mse": 0.0016368719516322017,
+      "gradient_norm_before_clip": 0.15624688565731049,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 166.85715138539672
+    },
+    {
+      "update": 148,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.1127220019698143,
+      "native_or_nft_objective": 0.11100927740335464,
+      "reference_velocity_mse": 0.0017127261380665004,
+      "gradient_norm_before_clip": 0.17180165648460388,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 167.98793646041304
+    },
+    {
+      "update": 149,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.09867020323872566,
+      "native_or_nft_objective": 0.09709955751895905,
+      "reference_velocity_mse": 0.001570648921187967,
+      "gradient_norm_before_clip": 0.3634774386882782,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 169.12228947225958
+    },
+    {
+      "update": 150,
+      "condition": "control+Dasatinib",
+      "loss": 0.13560114055871964,
+      "native_or_nft_objective": 0.13393805176019669,
+      "reference_velocity_mse": 0.0016630873433314264,
+      "gradient_norm_before_clip": 0.19143226742744446,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 170.2576987473294
+    },
+    {
+      "update": 151,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.10979187116026878,
+      "native_or_nft_objective": 0.10836129635572433,
+      "reference_velocity_mse": 0.00143057678360492,
+      "gradient_norm_before_clip": 0.23260509967803955,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 171.3877715980634
+    },
+    {
+      "update": 152,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.12505672127008438,
+      "native_or_nft_objective": 0.12329914420843124,
+      "reference_velocity_mse": 0.001757573219947517,
+      "gradient_norm_before_clip": 0.24456147849559784,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 172.51588917896152
+    },
+    {
+      "update": 153,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.12086309120059013,
+      "native_or_nft_objective": 0.11913362517952919,
+      "reference_velocity_mse": 0.0017294667195528746,
+      "gradient_norm_before_clip": 0.1470651626586914,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 173.65045041125268
+    },
+    {
+      "update": 154,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.13754837214946747,
+      "native_or_nft_objective": 0.13603752106428146,
+      "reference_velocity_mse": 0.0015108459047041833,
+      "gradient_norm_before_clip": 0.18498846888542175,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 174.77940471004695
+    },
+    {
+      "update": 155,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.12309439480304718,
+      "native_or_nft_objective": 0.12139952182769775,
+      "reference_velocity_mse": 0.0016948712873272598,
+      "gradient_norm_before_clip": 0.12384632974863052,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 175.91255121864378
+    },
+    {
+      "update": 156,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.12592626363039017,
+      "native_or_nft_objective": 0.12423934042453766,
+      "reference_velocity_mse": 0.0016869240207597613,
+      "gradient_norm_before_clip": 0.1491544246673584,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 177.04554785229266
+    },
+    {
+      "update": 157,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.11257720366120338,
+      "native_or_nft_objective": 0.11090835556387901,
+      "reference_velocity_mse": 0.0016688507166691124,
+      "gradient_norm_before_clip": 0.08971140533685684,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 178.17678105924278
+    },
+    {
+      "update": 158,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.136008869856596,
+      "native_or_nft_objective": 0.13453079015016556,
+      "reference_velocity_mse": 0.001478079764638096,
+      "gradient_norm_before_clip": 0.23536942899227142,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 179.3114294130355
+    },
+    {
+      "update": 159,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.11929698660969734,
+      "native_or_nft_objective": 0.11771810799837112,
+      "reference_velocity_mse": 0.0015788791351951659,
+      "gradient_norm_before_clip": 0.25625964999198914,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 180.44640513602644
+    },
+    {
+      "update": 160,
+      "condition": "Givinostat+Tanespimycin",
+      "loss": 0.10995284467935562,
+      "native_or_nft_objective": 0.10825029760599136,
+      "reference_velocity_mse": 0.0017025477718561888,
+      "gradient_norm_before_clip": 0.18275901675224304,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 181.57614266313612
+    },
+    {
+      "update": 161,
+      "condition": "Givinostat+Cediranib",
+      "loss": 0.13532474637031555,
+      "native_or_nft_objective": 0.13355997949838638,
+      "reference_velocity_mse": 0.0017647662898525596,
+      "gradient_norm_before_clip": 0.14174862205982208,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 182.71823855303228
+    },
+    {
+      "update": 162,
+      "condition": "Givinostat+Tanespimycin",
+      "loss": 0.12872830778360367,
+      "native_or_nft_objective": 0.12699975818395615,
+      "reference_velocity_mse": 0.001728548959363252,
+      "gradient_norm_before_clip": 0.24866731464862823,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 183.8507697666064
+    },
+    {
+      "update": 163,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12144634500145912,
+      "native_or_nft_objective": 0.11976268142461777,
+      "reference_velocity_mse": 0.0016836654976941645,
+      "gradient_norm_before_clip": 0.19843082129955292,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 184.9807595955208
+    },
+    {
+      "update": 164,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.13404042273759842,
+      "native_or_nft_objective": 0.13228274136781693,
+      "reference_velocity_mse": 0.0017576793325133622,
+      "gradient_norm_before_clip": 0.19314797222614288,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 186.12881990615278
+    },
+    {
+      "update": 165,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.10956928506493568,
+      "native_or_nft_objective": 0.10803670063614845,
+      "reference_velocity_mse": 0.0015325839631259441,
+      "gradient_norm_before_clip": 0.30506908893585205,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 187.2629598379135
+    },
+    {
+      "update": 166,
+      "condition": "Dacinostat+PCI-34051",
+      "loss": 0.10459723696112633,
+      "native_or_nft_objective": 0.10296406596899033,
+      "reference_velocity_mse": 0.0016331722144968808,
+      "gradient_norm_before_clip": 0.3450567126274109,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 188.39936116337776
+    },
+    {
+      "update": 167,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.1235601156949997,
+      "native_or_nft_objective": 0.12186818942427635,
+      "reference_velocity_mse": 0.00169192289467901,
+      "gradient_norm_before_clip": 0.09711048752069473,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 189.53824832476676
+    },
+    {
+      "update": 168,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.1118139997124672,
+      "native_or_nft_objective": 0.11032029613852501,
+      "reference_velocity_mse": 0.0014937046216800809,
+      "gradient_norm_before_clip": 0.2506675124168396,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 190.67722488660365
+    },
+    {
+      "update": 169,
+      "condition": "Panobinostat+SRT2104",
+      "loss": 0.11008241027593613,
+      "native_or_nft_objective": 0.10873555764555931,
+      "reference_velocity_mse": 0.0013468522811308503,
+      "gradient_norm_before_clip": 0.11149912327528,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 191.81017848756164
+    },
+    {
+      "update": 170,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.12751824408769608,
+      "native_or_nft_objective": 0.12583431228995323,
+      "reference_velocity_mse": 0.0016839309828355908,
+      "gradient_norm_before_clip": 0.19013570249080658,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 192.9525392279029
+    },
+    {
+      "update": 171,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.12612209096550941,
+      "native_or_nft_objective": 0.12437904998660088,
+      "reference_velocity_mse": 0.0017430443549528718,
+      "gradient_norm_before_clip": 0.17651312053203583,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 194.08134456630796
+    },
+    {
+      "update": 172,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.13123399764299393,
+      "native_or_nft_objective": 0.12943285703659058,
+      "reference_velocity_mse": 0.0018011396750807762,
+      "gradient_norm_before_clip": 0.184206023812294,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 195.21323629841208
+    },
+    {
+      "update": 173,
+      "condition": "Panobinostat+Alvespimycin",
+      "loss": 0.1345025822520256,
+      "native_or_nft_objective": 0.1330421231687069,
+      "reference_velocity_mse": 0.0014604602474719286,
+      "gradient_norm_before_clip": 0.24572786688804626,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 196.34718329645693
+    },
+    {
+      "update": 174,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.13845808058977127,
+      "native_or_nft_objective": 0.13671355694532394,
+      "reference_velocity_mse": 0.0017445188714191318,
+      "gradient_norm_before_clip": 0.24065735936164856,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 197.4756681136787
+    },
+    {
+      "update": 175,
+      "condition": "control+Givinostat",
+      "loss": 0.11894605681300163,
+      "native_or_nft_objective": 0.11725764721632004,
+      "reference_velocity_mse": 0.0016884109936654568,
+      "gradient_norm_before_clip": 0.2959509491920471,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 198.6058945991099
+    },
+    {
+      "update": 176,
+      "condition": "Givinostat+Tanespimycin",
+      "loss": 0.12954679876565933,
+      "native_or_nft_objective": 0.12771284580230713,
+      "reference_velocity_mse": 0.0018339555244892836,
+      "gradient_norm_before_clip": 0.23445747792720795,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 199.7505291486159
+    },
+    {
+      "update": 177,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.1153600849211216,
+      "native_or_nft_objective": 0.11355315893888474,
+      "reference_velocity_mse": 0.0018069278448820114,
+      "gradient_norm_before_clip": 0.25608038902282715,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 200.87913404218853
+    },
+    {
+      "update": 178,
+      "condition": "control+Dasatinib",
+      "loss": 0.12714426219463348,
+      "native_or_nft_objective": 0.12555160000920296,
+      "reference_velocity_mse": 0.0015926668420433998,
+      "gradient_norm_before_clip": 0.15291757881641388,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 202.00946029648185
+    },
+    {
+      "update": 179,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.12468219920992851,
+      "native_or_nft_objective": 0.12292872741818428,
+      "reference_velocity_mse": 0.0017534715007059276,
+      "gradient_norm_before_clip": 0.25814682245254517,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 203.1450852472335
+    },
+    {
+      "update": 180,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.09751332923769951,
+      "native_or_nft_objective": 0.09587453305721283,
+      "reference_velocity_mse": 0.0016387979267165065,
+      "gradient_norm_before_clip": 0.15781384706497192,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 204.28066090866923
+    },
+    {
+      "update": 181,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.13576076552271843,
+      "native_or_nft_objective": 0.13388242200016975,
+      "reference_velocity_mse": 0.001878347888123244,
+      "gradient_norm_before_clip": 0.21460916101932526,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 205.41847841627896
+    },
+    {
+      "update": 182,
+      "condition": "Givinostat+Sorafenib",
+      "loss": 0.1306067667901516,
+      "native_or_nft_objective": 0.1287572830915451,
+      "reference_velocity_mse": 0.0018494848627597094,
+      "gradient_norm_before_clip": 0.22021722793579102,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 206.55178998876363
+    },
+    {
+      "update": 183,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.13474040105938911,
+      "native_or_nft_objective": 0.13290945813059807,
+      "reference_velocity_mse": 0.0018309460720047355,
+      "gradient_norm_before_clip": 0.11025447398424149,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 207.68176769372076
+    },
+    {
+      "update": 184,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.09995248541235924,
+      "native_or_nft_objective": 0.09844520688056946,
+      "reference_velocity_mse": 0.0015072811511345208,
+      "gradient_norm_before_clip": 0.32400184869766235,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 208.81368217803538
+    },
+    {
+      "update": 185,
+      "condition": "control+Dasatinib",
+      "loss": 0.12253961712121964,
+      "native_or_nft_objective": 0.12092813849449158,
+      "reference_velocity_mse": 0.001611481187865138,
+      "gradient_norm_before_clip": 0.20699171721935272,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 209.95008769072592
+    },
+    {
+      "update": 186,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.14590558409690857,
+      "native_or_nft_objective": 0.14389877021312714,
+      "reference_velocity_mse": 0.0020068134763278067,
+      "gradient_norm_before_clip": 0.11877992004156113,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 211.07994666323066
+    },
+    {
+      "update": 187,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.1210549958050251,
+      "native_or_nft_objective": 0.11957311630249023,
+      "reference_velocity_mse": 0.0014818789786659181,
+      "gradient_norm_before_clip": 0.22943206131458282,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 212.21015832014382
+    },
+    {
+      "update": 188,
+      "condition": "Givinostat+Crizotinib",
+      "loss": 0.12426655739545822,
+      "native_or_nft_objective": 0.12241948768496513,
+      "reference_velocity_mse": 0.001847066800110042,
+      "gradient_norm_before_clip": 0.14361783862113953,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 213.3429460125044
+    },
+    {
+      "update": 189,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.1103319376707077,
+      "native_or_nft_objective": 0.10859993100166321,
+      "reference_velocity_mse": 0.00173200445715338,
+      "gradient_norm_before_clip": 0.3496958315372467,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 214.48200249299407
+    },
+    {
+      "update": 190,
+      "condition": "control+Givinostat",
+      "loss": 0.11917084455490112,
+      "native_or_nft_objective": 0.11741544678807259,
+      "reference_velocity_mse": 0.0017553942743688822,
+      "gradient_norm_before_clip": 0.2591820955276489,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 215.61496373917907
+    },
+    {
+      "update": 191,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.13308729231357574,
+      "native_or_nft_objective": 0.13125856965780258,
+      "reference_velocity_mse": 0.0018287242855876684,
+      "gradient_norm_before_clip": 0.13578970730304718,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 216.7479830691591
+    },
+    {
+      "update": 192,
+      "condition": "Panobinostat+PCI-34051",
+      "loss": 0.12300075963139534,
+      "native_or_nft_objective": 0.12147419899702072,
+      "reference_velocity_mse": 0.0015265627880580723,
+      "gradient_norm_before_clip": 0.23322804272174835,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 217.88578854873776
+    },
+    {
+      "update": 193,
+      "condition": "Dacinostat+Dasatinib",
+      "loss": 0.11308112740516663,
+      "native_or_nft_objective": 0.11159240081906319,
+      "reference_velocity_mse": 0.0014887253055348992,
+      "gradient_norm_before_clip": 0.34621936082839966,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 219.01688097324222
+    },
+    {
+      "update": 194,
+      "condition": "Alvespimycin+Pirarubicin",
+      "loss": 0.11668626591563225,
+      "native_or_nft_objective": 0.11496555805206299,
+      "reference_velocity_mse": 0.001720707688946277,
+      "gradient_norm_before_clip": 0.11782488226890564,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 220.1515232892707
+    },
+    {
+      "update": 195,
+      "condition": "Givinostat+Carmofur",
+      "loss": 0.11067677289247513,
+      "native_or_nft_objective": 0.10881737619638443,
+      "reference_velocity_mse": 0.0018593990826047957,
+      "gradient_norm_before_clip": 0.2084009349346161,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 221.28263510856777
+    },
+    {
+      "update": 196,
+      "condition": "Givinostat+SRT1720",
+      "loss": 0.13623589277267456,
+      "native_or_nft_objective": 0.1343979462981224,
+      "reference_velocity_mse": 0.0018379456596449018,
+      "gradient_norm_before_clip": 0.1564849466085434,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 222.41502385772765
+    },
+    {
+      "update": 197,
+      "condition": "control+SRT2104",
+      "loss": 0.12220396474003792,
+      "native_or_nft_objective": 0.12059007957577705,
+      "reference_velocity_mse": 0.0016138876671902835,
+      "gradient_norm_before_clip": 0.23131126165390015,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 223.55268467776477
+    },
+    {
+      "update": 198,
+      "condition": "control+Givinostat",
+      "loss": 0.13053643330931664,
+      "native_or_nft_objective": 0.1287761777639389,
+      "reference_velocity_mse": 0.0017602535081095994,
+      "gradient_norm_before_clip": 0.2900816798210144,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 224.68227514903992
+    },
+    {
+      "update": 199,
+      "condition": "Givinostat+SRT2104",
+      "loss": 0.11162566393613815,
+      "native_or_nft_objective": 0.10992439091205597,
+      "reference_velocity_mse": 0.0017012730822898448,
+      "gradient_norm_before_clip": 0.2646179795265198,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 225.81419417075813
+    },
+    {
+      "update": 200,
+      "condition": "Dacinostat+Danusertib",
+      "loss": 0.10232890024781227,
+      "native_or_nft_objective": 0.10083162039518356,
+      "reference_velocity_mse": 0.0014972800854593515,
+      "gradient_norm_before_clip": 0.23093785345554352,
+      "eval_ema_decay": 0.9,
+      "elapsed_seconds": 226.9544717874378
+    }
+  ],
+  "wall_seconds": 227.23478680849075,
+  "initial_live_old_velocity_max_difference": null,
+  "frozen_reference_sha256": "dc1dfc4ed40c83dd75410c8763790b8d867bc7a4e0744c2a2694ffe88d6c6f30",
+  "actual_gradient_receiving_parameters": 60094977,
+  "updated_parameter_witness": "t_embedder.mlp.0.weight",
+  "updated_parameter_l2_change": 0.00755774462595582
+}

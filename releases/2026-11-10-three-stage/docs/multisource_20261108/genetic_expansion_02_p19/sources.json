@@ -1,0 +1,20 @@
+[
+  {
+    "file": "PMC4782049.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4782049/",
+    "bytes": 253599,
+    "sha256": "db035e14e86f25b7be9d175634dc0b4ee064eb6e7aad4e180a05e87985734c09"
+  },
+  {
+    "file": "cuffdiff_manual.html",
+    "url": "http://cole-trapnell-lab.github.io/cufflinks/cuffdiff/",
+    "bytes": 42945,
+    "sha256": "7a4c0aa02d09cb0260375a451d067569d1ecba6419739cab8aa3bd03b91d56cb"
+  },
+  {
+    "file": "cuffnorm_manual.html",
+    "url": "http://cole-trapnell-lab.github.io/cufflinks/cuffnorm/",
+    "bytes": 16585,
+    "sha256": "54dce789f13a0173f69b710557431f6dbeb7a96a91bef232ae5c7b1904610e0b"
+  }
+]

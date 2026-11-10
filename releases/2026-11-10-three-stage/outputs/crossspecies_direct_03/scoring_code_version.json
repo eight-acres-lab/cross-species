@@ -1,0 +1,11 @@
+{
+  "reason": "Pearson scoring extension changed scorer signature; first scoring attempt failed before writing outputs because remote scorer module version lagged runner.",
+  "fit_functions_unchanged_ast": true,
+  "changed_functions": [
+    "score_predictions"
+  ],
+  "frozen_fit_module_sha256": "ad8b23a9e0982814eb838a8075a9da49c930d8cc1d63d3a78081e6df3b187065",
+  "scoring_module_sha256": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+  "frozen_fit_outputs_preserved": true,
+  "first_attempt_generated_scoring_outputs": false
+}

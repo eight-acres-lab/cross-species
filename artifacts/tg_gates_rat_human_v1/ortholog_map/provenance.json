@@ -1,0 +1,37 @@
+{
+  "purpose": "Rat->human one-to-one ortholog map over the Open TG-GATEs matrix columns, needed for a target-free (rat-side) responsive-gene panel. No such map existed in the repository.",
+  "source": "Ensembl BioMart, http://www.ensembl.org/biomart/martservice",
+  "retrieved_utc": "2026-09-23T17:26:25Z",
+  "queries": {
+    "rat_ensembl_to_entrez": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"0\" uniqueRows=\"1\" count=\"\" datasetConfigVersion=\"0.6\"><Dataset name=\"rnorvegicus_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"entrezgene_id\"/></Dataset></Query>",
+    "rat_to_human_homology": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"0\" uniqueRows=\"1\" count=\"\" datasetConfigVersion=\"0.6\"><Dataset name=\"rnorvegicus_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"hsapiens_homolog_ensembl_gene\"/><Attribute name=\"hsapiens_homolog_orthology_type\"/><Attribute name=\"hsapiens_homolog_orthology_confidence\"/></Dataset></Query>",
+    "human_ensembl_to_entrez": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"0\" uniqueRows=\"1\" count=\"\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"entrezgene_id\"/></Dataset></Query>"
+  },
+  "raw_files": {
+    "rat_ensembl_to_entrez": {
+      "path": "artifacts/tg_gates_rat_human_v1/ortholog_map/biomart_raw/rat_ensembl_to_entrez.tsv",
+      "sha256": "7438654703ab53c909bff07d4bc61f2cf39e2b88faff328b92f2625ed9b77766",
+      "bytes": 1436544
+    },
+    "rat_to_human_homology": {
+      "path": "artifacts/tg_gates_rat_human_v1/ortholog_map/biomart_raw/rat_to_human_homology.tsv",
+      "sha256": "a483485d38b84d3f1cbfa564f32daa40bc150d1558917eb43b53962deb523f8f",
+      "bytes": 1820925
+    },
+    "human_ensembl_to_entrez": {
+      "path": "artifacts/tg_gates_rat_human_v1/ortholog_map/biomart_raw/human_ensembl_to_entrez.tsv",
+      "sha256": "1bd390e19458f0223ef019285410ad5639805182802474ac63efc9fff331a4d8",
+      "bytes": 1791412
+    }
+  },
+  "filters": "hsapiens_homolog_orthology_type == ortholog_one2one AND hsapiens_homolog_orthology_confidence == 1; then the Entrez-level pair must be unique in both directions among the matrix columns",
+  "counts": {
+    "rat_matrix_genes": 14132,
+    "human_matrix_genes": 20414,
+    "biomart_homology_rows": 24001,
+    "biomart_one2one_high_confidence_rows": 13733,
+    "mapped_pairs": 10358
+  },
+  "output": "artifacts/tg_gates_rat_human_v1/ortholog_map/rat_to_human_one2one.tsv",
+  "output_sha256": "837c12e141fb5578ecbb90d6c39f8357563c5b7b7d25e0f691b6b1d499aa9e56"
+}

@@ -1,0 +1,10 @@
+{
+  "count": 2024,
+  "exact_one_hot_bijection": true,
+  "LPS_already_in_released_map": false,
+  "non-targeting_index": 2023,
+  "new_condition_columns": {
+    "LPS": 2024,
+    "unstimulated_assay_control": 2025
+  }
+}

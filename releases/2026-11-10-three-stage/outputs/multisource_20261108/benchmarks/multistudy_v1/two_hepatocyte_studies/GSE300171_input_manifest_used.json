@@ -1,0 +1,365 @@
+{
+  "dataset": "GSE300171",
+  "created_utc": "2026-11-08T05:52:56.272066+00:00",
+  "source_files": {
+    "GSE300171_normcounts_dog.csv.gz": {
+      "sha256": "a932a7830b3b4406b6338ca913c39ade233135b128d4c2b2dcc1821355947848",
+      "bytes": 2932958,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_normcounts_dog.csv.gz"
+    },
+    "GSE300171_normcounts_human.csv.gz": {
+      "sha256": "1ccba394623840592fca6a7f5cee11e2ecc4e69d1b995ca64694d5d8d7fb7d7c",
+      "bytes": 3449368,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_normcounts_human.csv.gz"
+    },
+    "GSE300171_normcounts_monkey.csv.gz": {
+      "sha256": "1a4bff4b4abb7f506336d9a63fcf3d7b3639f45e9737dc2b99a075858cb3c7c3",
+      "bytes": 3018341,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_normcounts_monkey.csv.gz"
+    },
+    "GSE300171_normcounts_rat.csv.gz": {
+      "sha256": "7006fe7ba76fc307702f0c4a5d9627f09b728b49b97fc0be0fbcd806969cf39a",
+      "bytes": 2579422,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_normcounts_rat.csv.gz"
+    },
+    "GSE300171_qc_hash_dog.csv.gz": {
+      "sha256": "923b0db060a28efc03a024985409ad8789b9ceab1a6e6c497cd5f1e04573c3c2",
+      "bytes": 736,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_qc_hash_dog.csv.gz"
+    },
+    "GSE300171_qc_hash_human.csv.gz": {
+      "sha256": "dccdf43ca35ac135e23eaa799f51968977be78a28eb0bcd2df09ca04d78d6036",
+      "bytes": 727,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_qc_hash_human.csv.gz"
+    },
+    "GSE300171_qc_hash_monkey.csv.gz": {
+      "sha256": "3fa3ff49e567727f142c5dc59a29bf1b55dfaef8194e6c42363eb274ebcc3538",
+      "bytes": 757,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_qc_hash_monkey.csv.gz"
+    },
+    "GSE300171_qc_hash_rat.csv.gz": {
+      "sha256": "3c7ebe0ac4b9cca5d1250eba5c9aedb8d3a3c77b57112bfc966c9a76d0420360",
+      "bytes": 699,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE300nnn/GSE300171/suppl/GSE300171_qc_hash_rat.csv.gz"
+    }
+  },
+  "GEO_metadata_sha256": "31eee90ec7779575088085c984060b282416032ff31da3bf57e7040b3b32a7ec",
+  "publication_xml_sha256": "be875c351bd7d0e51992f937a9836541f359a6b726ac2624ae79ba15d317418f",
+  "publication": {
+    "doi": "10.1021/acsptsci.5c00554",
+    "pmid": "41262563",
+    "pmcid": "PMC12624441"
+  },
+  "mapping": {
+    "release": 116,
+    "source_manifest_sha256": "fdf6c89e1540d193676efc5095c1d189f1b601b560a1d6f98631644bb12042af",
+    "pair_files": {
+      "rat": "76b063f675bc401059a3db3066205ad95db41e5bddb7cbbdfd1154920d492ce9",
+      "cyno": "321801fcc7219f2ce531ae891c810292ee618f3348b41b7fe943212ec69a2454",
+      "dog": "b11e3b4ffc1bdd133e3ea9f0617744ccb1b7ae3216a61a7be08e64c63b70b75b"
+    },
+    "filtering": {
+      "rat": {
+        "returned_rows": 91806,
+        "candidate_human_ids": 13733,
+        "human_conflicts": 0,
+        "partner_conflicts": 0,
+        "accepted_pairs": 13733
+      },
+      "cyno": {
+        "returned_rows": 88980,
+        "candidate_human_ids": 18309,
+        "human_conflicts": 0,
+        "partner_conflicts": 0,
+        "accepted_pairs": 18309
+      },
+      "dog": {
+        "returned_rows": 89759,
+        "candidate_human_ids": 13780,
+        "human_conflicts": 0,
+        "partner_conflicts": 0,
+        "accepted_pairs": 13780
+      }
+    },
+    "fourway_genes": 10316,
+    "rule": "Human anchored; high-confidence one-to-one; bidirectionally unique; same frozen release116 pair queries."
+  },
+  "script_sha256": "b6b2388ee51fe6c571eb8297780791e18e094c3ad2bac22baf81835f71095e23",
+  "hypothesis_or_performance_used_for_filtering": false,
+  "counts_audit": {
+    "human": {
+      "native_genes": 49164,
+      "samples": 23,
+      "native_missing_values": 0,
+      "mapped_axis_genes_present": 9947,
+      "count_measurement": "DESeq2 normalized counts",
+      "recomputed_library_size": false
+    },
+    "rat": {
+      "native_genes": 22333,
+      "samples": 22,
+      "native_missing_values": 0,
+      "mapped_axis_genes_present": 9566,
+      "count_measurement": "DESeq2 normalized counts",
+      "recomputed_library_size": false
+    },
+    "cyno": {
+      "native_genes": 27573,
+      "samples": 24,
+      "native_missing_values": 0,
+      "mapped_axis_genes_present": 9744,
+      "count_measurement": "DESeq2 normalized counts",
+      "recomputed_library_size": false
+    },
+    "dog": {
+      "native_genes": 24002,
+      "samples": 24,
+      "native_missing_values": 0,
+      "mapped_axis_genes_present": 9947,
+      "count_measurement": "DESeq2 normalized counts",
+      "recomputed_library_size": false
+    }
+  },
+  "compatibility_array_quantity": {
+    "arm_counts": "Author DESeq2 normalized counts",
+    "arm_logcpm": "log2(author DESeq2 normalized count + 1)"
+  },
+  "units": "log2(author DESeq2 normalized count + 1)",
+  "normalization": "Use deposited per-species DESeq2 normalization; log2(+1) only. No refit or CPM renormalization.",
+  "normalization_scope_warning": "Author normalization used all available within-species experimental conditions before downstream holdout; this is inherited retrospective preprocessing.",
+  "axis_rule": "Four-way release116 human-anchored map; one fixed complete axis across all93 arms for any source combination. Per-contrast masks also require all four species.",
+  "independence_status": "Each species derives from one reported supplier lot. Assay replicates and exact experiment identities remain distinct from independent donor replication.",
+  "independence_warning": "Preserve assay-level measurements and shared control references. No paired-donor or cross-species biological pairing is assumed.",
+  "study_transfer_warning": "This is a perfused 3D MPS with repeated ten-day exposures, unlike acute2D hepatocyte panels; study, culture system and perturbation differences remain coupled.",
+  "drug_concentrations": "Unresolved at the RNA-seq sample level; no highest-dose inference from paper-wide Table2.",
+  "culture_state_warning": "D4/D8/D14-versus-D0 are culture-state contrasts from a separate experiment and one process, not three independent drug perturbations.",
+  "files": {
+    "observation_metadata.json": "8a702bd950f8634c937dbe71a429e83fbf6a3884ff929039eaa2a10d6f776ee1",
+    "arm_metadata.json": "7713e9a6aaafa4f5fab320793402e30ebca2c0d5a4e0371689eb97f9baec6e04",
+    "contrast_metadata.json": "a2b99884dd31fee3248401460deb83678e08c5502002b965c5aba2c93e18a252",
+    "arm_metadata.tsv": "03923df0e7a85753122534bf68f59ada937a868343e7711ed08aaaf1746e6167",
+    "panel.npz": "928fa99ed4ca19209f73c18ba7f03957b4b62d260a3d881ef7dde49b5c1674e0",
+    "coverage.json": "59f6af6fdb0d71c93a7a9d1493512e28116ea563156eb1614f57afddeeba02b9",
+    "contrast_metadata.tsv": "043c8ab9456765726be983f70f20b70a0276e858a14cf0c077b40703fb752607",
+    "observation_metadata.tsv": "c260f01e3d8332cfeb25cd301a7d692fb732baf321808f056c41b6e8b9cfdeb8",
+    "fourway_axis.tsv": "e22aac82e7a04233117451395296bffe776fb5a841470cbece40574edd9ed9ad",
+    "curation_summary.json": "525131259b977b00a2f858bb18567cb86188b3be746e86e3eb6a11e069d4d993"
+  },
+  "coverage": {
+    "arm_samples": 93,
+    "treated_observations": 69,
+    "source_perturbation_context_contrasts": 24,
+    "species": [
+      "human",
+      "rat",
+      "cyno",
+      "dog"
+    ],
+    "independent_perturbations": [
+      "BOS",
+      "CPZ",
+      "FIA"
+    ],
+    "human_anchored_genes_before_missingness": 10316,
+    "fixed_complete_comparison_genes": 9046,
+    "verified_donors": 0,
+    "labelled_biological_source_units": 0,
+    "biological_independence_status": "Each species derives from one reported supplier lot. Assay replicates and exact experiment identities remain distinct from independent donor replication.",
+    "nonempty_source_ids": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ],
+    "perturbation_source_coverage": {
+      "BOS": [
+        "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+      ],
+      "CPZ": [
+        "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+      ],
+      "CULTURE_D14": [
+        "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+      ],
+      "CULTURE_D4": [
+        "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+      ],
+      "CULTURE_D8": [
+        "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+      ],
+      "FIA": [
+        "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+        "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+      ]
+    },
+    "per_contrast": [
+      {
+        "contrast_id": "GSE300171|cyno|BOS",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|cyno|CPZ",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|cyno|CULTURE_D14",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|cyno|CULTURE_D4",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|cyno|CULTURE_D8",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|cyno|FIA",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|dog|BOS",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|dog|CPZ",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|dog|CULTURE_D14",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|dog|CULTURE_D4",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|dog|CULTURE_D8",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|dog|FIA",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|human|BOS",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|human|CPZ",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|human|CULTURE_D14",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|human|CULTURE_D4",
+        "treated_replicates": 2,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|human|CULTURE_D8",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|human|FIA",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|rat|BOS",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|rat|CPZ",
+        "treated_replicates": 1,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|rat|CULTURE_D14",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|rat|CULTURE_D4",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|rat|CULTURE_D8",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      },
+      {
+        "contrast_id": "GSE300171|rat|FIA",
+        "treated_replicates": 3,
+        "control_replicates": 3,
+        "complete_fiveway_genes": 9046
+      }
+    ],
+    "culture_state_contrasts": [
+      "CULTURE_D4",
+      "CULTURE_D8",
+      "CULTURE_D14"
+    ],
+    "culture_state_is_independent_drug": false
+  }
+}

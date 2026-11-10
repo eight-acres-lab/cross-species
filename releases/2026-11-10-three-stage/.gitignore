@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+outputs/manuscript_rewrite_20261109/figures/
+docs/manuscript_rewrite_20261109/figures/three_stage/qa/

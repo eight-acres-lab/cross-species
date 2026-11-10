@@ -1,0 +1,10 @@
+{
+  "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.primary_assembly.annotation.gtf.gz",
+  "release": "GENCODE32 GRCh38.p13 primary assembly",
+  "source_bytes": 43107903,
+  "source_sha256": "0c36c37abb0c88637b04a8e401c93f0199a65bbdd0702c9e13bdfbadc053fe1e",
+  "gene_rows": 60668,
+  "protein_coding_gene_rows": 19994,
+  "table_sha256": "bff01f6276d5d834afe169f18eb50931ffe41569e748eac01c86f8ae85818d0c",
+  "rule": "only GTF feature gene; gene_type==protein_coding; exactstable ID, version suffix removed; preserve PAR_Ysuffix"
+}

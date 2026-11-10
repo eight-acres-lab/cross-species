@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69733/suppl/GSE69733_WholeCell_Gene_FPKMs.txt.gz",
+    "remote_path": "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/raw/GSE69733_WholeCell_Gene_FPKMs.txt.gz",
+    "local_expression_file_written": false,
+    "transfer_route": "local network stream via SSH stdin; no local expression persistence",
+    "max_bytes": 100000000,
+    "max_total_seconds": 180,
+    "http_status": 200,
+    "content_length": 1715069,
+    "bytes": 1715069,
+    "sha256": "368d0e6c94c6db29b45051b47b7bbaf28e2750c68c114960e00dd73c97a2fbc7",
+    "gzip_crc_valid": true,
+    "status": "complete_integrity_audited",
+    "elapsed_seconds": 2.639176959
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69733/suppl/GSE69733_Cyto_Gene_FPKMs.txt.gz",
+    "remote_path": "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/raw/GSE69733_Cyto_Gene_FPKMs.txt.gz",
+    "local_expression_file_written": false,
+    "transfer_route": "local network stream via SSH stdin; no local expression persistence",
+    "max_bytes": 100000000,
+    "max_total_seconds": 180,
+    "http_status": 200,
+    "content_length": 1671058,
+    "bytes": 1671058,
+    "sha256": "36cf85f12eb2ecdde8442447c0ce1cbdc6467af963d3944c3e856356b1c6bd7c",
+    "gzip_crc_valid": true,
+    "status": "complete_integrity_audited",
+    "elapsed_seconds": 2.674941584
+  }
+]

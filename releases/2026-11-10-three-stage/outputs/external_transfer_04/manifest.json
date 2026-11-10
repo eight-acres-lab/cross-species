@@ -1,0 +1,175 @@
+{
+  "scope": "Retrospective external-study transfer on three pre-inspected human/rat tasks; no independent prospective or previously unseen dataset claim.",
+  "training_rows": 678,
+  "training_compounds": 126,
+  "external_tasks": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "external_unique_measurement_columns": 36,
+  "shared_genes": 7307,
+  "id_bridge_candidates": 7435,
+  "nonfinite_genes_excluded": 128,
+  "context_feature_names": [
+    "time_h",
+    "log10_rat_M",
+    "log10_human_M"
+  ],
+  "nominal_category_handling": "No cross-study nominal-dose categories invented; models are refit on three transferable continuous context features using training labels only.",
+  "feature_selection": "Exact IDs and complete observation across required human/rat arms. No global multispecies mask, target variance, magnitude, differential expression or prediction-based filtering.",
+  "quantities": {
+    "train": "treatment-control RMA log2 condition means",
+    "external": "mean treated log2(CPM+1) minus mean matched vehicle log2(CPM+1)"
+  },
+  "response_reconstruction": [
+    {
+      "contrast": "GSE330151|human|CDDO",
+      "max_abs_difference": 0.0
+    },
+    {
+      "contrast": "GSE330151|rat|CDDO",
+      "max_abs_difference": 0.0
+    },
+    {
+      "contrast": "GSE330151|human|KI696",
+      "max_abs_difference": 0.0
+    },
+    {
+      "contrast": "GSE330151|rat|KI696",
+      "max_abs_difference": 0.0
+    },
+    {
+      "contrast": "GSE330151|human|THAP",
+      "max_abs_difference": 0.0
+    },
+    {
+      "contrast": "GSE330151|rat|THAP",
+      "max_abs_difference": 0.0
+    }
+  ],
+  "chemical_identity": [
+    {
+      "panel_perturbation": "CDDO",
+      "compound": "bardoxolone methyl",
+      "cid": 400769,
+      "study_name_evidence": "bardoxolone (CDDO-Me)",
+      "extra_required_exact_synonym": "CDDO-Me",
+      "excluded_related_cid": 400010,
+      "exclusion_reason": "Bardoxolone/CDDO free acid is a distinct structure; study explicitly specifies methyl ester CDDO-Me.",
+      "pubchem_title": "Bardoxolone Methyl",
+      "molecular_formula": "C32H43NO4",
+      "inchikey": "WPTTVJLTNAWYAO-KPOXMGGZSA-N",
+      "isomeric_smiles": "C[C@@]12CC[C@]3(CCC(C[C@H]3[C@H]1C(=O)C=C4[C@]2(CC[C@@H]5[C@@]4(C=C(C(=O)C5(C)C)C#N)C)C)(C)C)C(=O)OC",
+      "connectivity_smiles": "CC1(CCC2(CCC3(C(C2C1)C(=O)C=C4C3(CCC5C4(C=C(C(=O)C5(C)C)C#N)C)C)C)C(=O)OC)C",
+      "matched_synonym": "Bardoxolone methyl",
+      "matched_explicit_study_form": "CDDO-Me",
+      "fingerprint_set_bits": 89,
+      "descriptors": {
+        "MolecularWeight": 505.7,
+        "XLogP": 6.7,
+        "TPSA": 84.2,
+        "HBondDonorCount": 0.0,
+        "HBondAcceptorCount": 5.0,
+        "RotatableBondCount": 2.0,
+        "HeavyAtomCount": 37.0,
+        "Complexity": 1210.0,
+        "Charge": 0.0,
+        "CovalentUnitCount": 1.0
+      },
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/400769",
+      "experimental_lot_purity_stereochemistry_verified": false,
+      "same_cid_in_strict_training": false,
+      "same_inchikey_in_strict_training": false
+    },
+    {
+      "panel_perturbation": "KI696",
+      "compound": "KI696",
+      "cid": 118170767,
+      "study_name_evidence": "Ki696",
+      "extra_required_exact_synonym": "KI696",
+      "excluded_related_cid": 118169940,
+      "exclusion_reason": "KI696 isomer is a distinct stereoisomer name/structure, not the exact KI696 name returned by PubChem.",
+      "pubchem_title": "KI-696",
+      "molecular_formula": "C28H30N4O6S",
+      "inchikey": "ZDNGJXBUEQNFBQ-GCJKJVERSA-N",
+      "isomeric_smiles": "C[C@@H]1CN(S(=O)(=O)C2=CC=CC=C2O1)CC3=C(C=CC(=C3)[C@H](CC(=O)O)C4=CC5=C(C(=C4)OC)N(N=N5)C)C",
+      "connectivity_smiles": "CC1CN(S(=O)(=O)C2=CC=CC=C2O1)CC3=C(C=CC(=C3)C(CC(=O)O)C4=CC5=C(C(=C4)OC)N(N=N5)C)C",
+      "matched_synonym": "KI696",
+      "matched_explicit_study_form": "KI696",
+      "fingerprint_set_bits": 229,
+      "descriptors": {
+        "MolecularWeight": 550.6,
+        "XLogP": 3.5,
+        "TPSA": 132.0,
+        "HBondDonorCount": 1.0,
+        "HBondAcceptorCount": 9.0,
+        "RotatableBondCount": 7.0,
+        "HeavyAtomCount": 39.0,
+        "Complexity": 962.0,
+        "Charge": 0.0,
+        "CovalentUnitCount": 1.0
+      },
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/118170767",
+      "experimental_lot_purity_stereochemistry_verified": false,
+      "same_cid_in_strict_training": false,
+      "same_inchikey_in_strict_training": false
+    },
+    {
+      "panel_perturbation": "THAP",
+      "compound": "thapsigargin",
+      "cid": 446378,
+      "study_name_evidence": "thapsigargin",
+      "extra_required_exact_synonym": "thapsigargin",
+      "pubchem_title": "Thapsigargin",
+      "molecular_formula": "C34H50O12",
+      "inchikey": "IXFPJGBNCFXKPI-FSIHEZPISA-N",
+      "isomeric_smiles": "CCCCCCCC(=O)O[C@H]1[C@H]2C(=C([C@@H]1OC(=O)/C(=C\\C)/C)C)[C@H]3[C@]([C@H](C[C@]2(C)OC(=O)C)OC(=O)CCC)([C@](C(=O)O3)(C)O)O",
+      "connectivity_smiles": "CCCCCCCC(=O)OC1C2C(=C(C1OC(=O)C(=CC)C)C)C3C(C(CC2(C)OC(=O)C)OC(=O)CCC)(C(C(=O)O3)(C)O)O",
+      "matched_synonym": "thapsigargin",
+      "matched_explicit_study_form": "thapsigargin",
+      "fingerprint_set_bits": 96,
+      "descriptors": {
+        "MolecularWeight": 650.8,
+        "XLogP": 3.6,
+        "TPSA": 172.0,
+        "HBondDonorCount": 2.0,
+        "HBondAcceptorCount": 12.0,
+        "RotatableBondCount": 17.0,
+        "HeavyAtomCount": 46.0,
+        "Complexity": 1270.0,
+        "Charge": 0.0,
+        "CovalentUnitCount": 1.0
+      },
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/446378",
+      "experimental_lot_purity_stereochemistry_verified": false,
+      "same_cid_in_strict_training": false,
+      "same_inchikey_in_strict_training": false
+    }
+  ],
+  "input_provenance": {
+    "training_manifest": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6",
+    "panel_manifest": "99310f3332dee7a9479d826a92858174f8a79512fbb890cca82c2bdef457ecf0",
+    "bridge_audit": "c93ec6c52c0e1e46f8f2ef197fb79a015788f7d5b2e6c87379b1c50faa7f6982",
+    "bridge_tsv": "a9eedb4a7f8bc7ce894d45d64e6d8cf04d6fed6d049eabb4c067262e70e5d747",
+    "task_manifest": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe",
+    "chemical_manifest": "07b842de295155086a3164ee19fde94b2a9366dc1a84d7914961a523ce47d4eb"
+  },
+  "prepare_script_sha256": "af52378035b6cfd2dc64382852de6ca772c68636879a24e2721df51ece388d7a",
+  "limitations": [
+    "External human responses were examined in earlier project comparisons; this is a fixed subsequent external-study stress test.",
+    "Only three drugs and two pathway families; donor independence is unverified.",
+    "Microarray RMA and RNA-seq logCPM share log2 response form but have different measurement and low-expression behavior.",
+    "CDDO-Me100nM is below the minimum1uM TG training dose; all three molecular identities are absent from training.",
+    "Current common ID axis inherits the existing multi-species-curated panel axis; genes absent from that panel are not reconstructed."
+  ],
+  "files": {
+    "train.npz": "94942d2b046ba2048032c557aad5573f034f499d42ebea9177b180ba3095a12a",
+    "external_inputs.npz": "87a05f5fdde847463b1eff2fde39be3d4737cb35fcff17b88211d22e3967a67c",
+    "external_truth.npz": "eea375e65d72aa953331a547e1e294d823ca4e4657b44e49cd2e01087a78cb41",
+    "external_arms.npz": "9fb56df882b4e4c32c0705501c92d28a7ff39b5ed258149a372a10c3c7665ef4",
+    "axis.tsv": "33045f896bd7f91be164734bf632f08eb772802c24a2b32e6d50dab4160a7bc1",
+    "excluded_genes.json": "8eaecab530f384d50092f307605b2279e0a3035bf1d7d9e94b79b657105c6bd9",
+    "task_metadata.json": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP059321&result=read_run&fields=study_accession,sample_accession,experiment_accession,run_accession,sample_title,library_strategy,library_layout,read_count,base_count&format=tsv&download=false",
+  "bytes": 11322,
+  "sha256": "9a68543aa2aa1a7c771cb524ebdb64ddba638488675d99f86d53eaead8eed61c"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "checks_passed": 27261,
+  "checks_failed": 0,
+  "numeric_values_compared": 19843788,
+  "max_abs_difference": 3.552713678800501e-15,
+  "full_raw_and_response_reconstruction": true,
+  "all511_subsets_independently_scored": true,
+  "all500_unit_partitions_verified": true,
+  "independent_numerical_split_draws": 50,
+  "scope": "Data identity, missing mask, exact control correspondence, condition weighting, pooling and descriptive split sensitivity. Does not validate biological independence or orthology generation.",
+  "auditor_sha256": "84c2e5792d15f25185bafe25acf4ab96ee6361ac243531c9e1cb6d6dd7f9fab0",
+  "prepared_audit_sha256": "9dad20c8e15e70d873c80b8dfc87d9689ea274b39672a09335da406bfe8b9e49",
+  "analysis_report_sha256": "5f0e613cbfe4433c7edde9e33f8d86583639c0f8b2e99b52d6d18163b048d629",
+  "elapsed_seconds": 8.138358248397708
+}

@@ -1,0 +1,282 @@
+{
+  "scope": "Exact annotation-key audit over frozen catalog, before original sample adjudication; not dataset admission.",
+  "candidate_human_queries": 522,
+  "repeated_target_source_pairs": [
+    {
+      "human_context": "hepatoblastoma cell hepg2",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "embryonic carcinoma cell p19 (whole cell)"
+      ],
+      "target_count": 4,
+      "targets": [
+        "SRSF1",
+        "SRSF3",
+        "SRSF5",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "b-cells lymphoblastoid gm19238",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "embryonic carcinoma cell p19 (whole cell)"
+      ],
+      "target_count": 3,
+      "targets": [
+        "SRSF1",
+        "SRSF3",
+        "SRSF4"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "hct116",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "embryonic carcinoma cell p19 (whole cell)"
+      ],
+      "target_count": 3,
+      "targets": [
+        "SRSF1",
+        "SRSF4",
+        "SRSF6"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "k562",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "embryonic carcinoma cell p19 (whole cell)"
+      ],
+      "target_count": 3,
+      "targets": [
+        "SRSF1",
+        "SRSF5",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "hct116",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF6"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hct116",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (whole cell)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF6"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hek293t",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "3t3-l1",
+        "embryonic fibroblast"
+      ],
+      "target_count": 2,
+      "targets": [
+        "FTO",
+        "METTL3"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hela",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "3t3-l1",
+        "embryonic fibroblast"
+      ],
+      "target_count": 2,
+      "targets": [
+        "FTO",
+        "METTL3"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hepatoblastoma cell hepg2",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "3t3-l1",
+        "embryonic fibroblast"
+      ],
+      "target_count": 2,
+      "targets": [
+        "FTO",
+        "METTL3"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hepatoblastoma cell hepg2",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hepatoblastoma cell hepg2",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (whole cell)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "hepatoblastoma cell hepg2",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19",
+        "embryonic carcinoma cell p19 (cyto)"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF3",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "hepatoblastoma cell hepg2",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19",
+        "embryonic carcinoma cell p19 (whole cell)"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF3",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "k562",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "k562",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (whole cell)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "myoblasts c25cl48",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "embryonic carcinoma cell p19 (whole cell)"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF2"
+      ],
+      "same_p19_cell_distinct_compartments": true
+    },
+    {
+      "human_context": "myoblasts c25cl48",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (cyto)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF2"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    },
+    {
+      "human_context": "myoblasts c25cl48",
+      "human_state": "None",
+      "mode": "KD",
+      "mouse_annotation_keys": [
+        "embryonic carcinoma cell p19 (whole cell)",
+        "raw 264.7"
+      ],
+      "target_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF2"
+      ],
+      "same_p19_cell_distinct_compartments": false
+    }
+  ],
+  "main_observation": "Largest four-target rectangle is P19 cytoplasm versus whole-cell, one cell model. After removing compartment-only/source-synonym duplicates, this catalog has at most two common targets per exact human context and two apparent mouse cell-model keys."
+}

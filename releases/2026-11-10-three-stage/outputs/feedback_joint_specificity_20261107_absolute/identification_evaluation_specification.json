@@ -1,0 +1,51 @@
+{
+  "scope": "Secondary terminal evaluation of frozen joint OOF predictions after joint MSE inspection. Identification rules were fixed in the earlier specificity analysis; no model refitting or test-based gene selection.",
+  "source_rule_file": "outputs/feedback_specificity_20261107/specification.json",
+  "source_rule_sha256": "ceaa1eac05fb91d094af4dafddd5e8d91f8a79bdf5db2d4353f3087889a87425",
+  "inherited_rules": {
+    "similarity": "Pearson across all genes after subtracting outer-training human mean for the same time/nominal-dose stratum; unseen strata use global training human mean.",
+    "candidate_pool": "Unique compounds in the same outer-test fold and time/nominal-dose stratum, including the correct compound. Duplicate compound-stratum rows are rejected before fitting.",
+    "chance": "Per query: top1=1/K, rank=(K+1)/2, MRR=harmonic(K)/K; then rows within compound and compounds equally.",
+    "ties": "Absolute score tolerance 1e-10; uniform ordering in the true-score tie. Top1 fractional if tied for first; rank is mean tied rank; MRR is mean reciprocal of tied positions.",
+    "undefined": "Fewer than 2 candidates, candidate centred norm <=1e-12, or query centred norm <=1e-12 remains missing with reasons. Undefined candidate keeps its whole pool undefined, without shrinking K.",
+    "comparability": "Report each model's coverage and a common-defined query set for the four learned models. Zero response and training human context mean are separate references."
+  },
+  "model_intersection": "Common-defined queries for the two frozen joint procedures; report each model's full coverage separately.",
+  "model_context_inputs": [
+    "time_h",
+    "log10_rat_M",
+    "log10_human_M",
+    "dose_Low",
+    "dose_Middle",
+    "dose_High",
+    "is_lps"
+  ],
+  "candidate_exposure_scope": "Candidates share outer fold and nominal time/dose level. Their planned absolute rat and human concentrations can differ; this is not a candidate pool matched for full exposure context. The training human context mean uses these same nominal strata.",
+  "human_context_mean": "For each outer test fold, row-weighted human mean by time/nominal-dose from all other folds, with global training mean fallback. Store float32 then score float64, matching the earlier scorer's convention.",
+  "gene_axis": "Every supplied human target gene, unchanged; no test-based selection or weighting.",
+  "models": [
+    "chemical_context_plus_common",
+    "chemical_context_plus_common_residual"
+  ],
+  "references": [
+    "zero_response",
+    "training_human_context_mean"
+  ],
+  "rows": 678,
+  "compounds": 126,
+  "target_genes": 10358,
+  "input_hashes": {
+    "oof_predictions.npz": "13caaba6c9de545ab87645eca8812584a238842197ebf903c87628db46e3a249",
+    "report.json": "cea980dd21330d38b934ef1d9c80a400cd9ca234107ab15ac3f75c90509e24c6",
+    "specification.json": "f6f1fa1474c062b66710759b96a782545d167288e1da4c8d96da7ceac1294cfd"
+  },
+  "code_hashes": {
+    "scripts/audit_feedback_joint_identification.py": "bb671695e498e335093c7979e4626bccab5c4a34f3a1e3b0bc1b427ce904002b",
+    "scripts/run_feedback_specificity_benchmark.py": "17969c777a3493ae9691fe07b0d2664168ce1135641a3ad203b9a737bd84d273"
+  },
+  "limitations": [
+    "Known candidate human profiles enter terminal scoring; this is not identification without human candidate measurements.",
+    "Chance is calculated from each query's K before compound averaging; per-query candidates are dependent.",
+    "These descriptive retrieval metrics do not identify unique biological mechanisms or establish prospective validation."
+  ]
+}

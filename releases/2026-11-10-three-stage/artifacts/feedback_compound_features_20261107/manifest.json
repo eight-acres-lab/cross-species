@@ -1,0 +1,1114 @@
+{
+  "source": "PubChem PUG REST",
+  "date": "2026-11-07",
+  "seed_file": "artifacts/biology/dili/compound_druglikeness.json",
+  "seed_sha256": "9bbe137420d4c292b8b50e8db7ab28cf592a59ad14c61891d9669aa21150510a",
+  "verification": "Normalized exact matching of study compound name to CID synonyms; this validates the database name mapping, not the experimental reagent's stereochemistry/salt or purity.",
+  "fingerprint": "PubChem 881-bit substructure fingerprint, decoded from the 4-byte-length-prefixed base64 representation.",
+  "accepted": [
+    {
+      "compound": "WY-14643",
+      "cid": 5694,
+      "title": "Pirinixic Acid",
+      "inchikey": "SZRPDCCEHVWOJX-UHFFFAOYSA-N",
+      "matched_synonym": "WY-14643",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "acarbose",
+      "cid": 9811704,
+      "title": "Acarbose",
+      "inchikey": "CEMXHAPUFJOOSV-XGWNLRGSSA-N",
+      "matched_synonym": "Acarbose",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "acetaminophen",
+      "cid": 1983,
+      "title": "Acetaminophen",
+      "inchikey": "RZVAJINKPMORJF-UHFFFAOYSA-N",
+      "matched_synonym": "acetaminophen",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "acetazolamide",
+      "cid": 1986,
+      "title": "Acetazolamide",
+      "inchikey": "BZKPWHYZMXOIDC-UHFFFAOYSA-N",
+      "matched_synonym": "acetazolamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "adapin",
+      "cid": 6419921,
+      "title": "Doxepin Hydrochloride",
+      "inchikey": "MHNSPTUQQIYJOT-SJDTYFKWSA-N",
+      "matched_synonym": "Adapin",
+      "missing_descriptors": [
+        "XLogP"
+      ]
+    },
+    {
+      "compound": "ajmaline",
+      "cid": 6100671,
+      "title": "(+)-Ajmaline",
+      "inchikey": "CJDRUOGAGYHKKD-RQBLFBSQSA-N",
+      "matched_synonym": "ajmaline",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "allopurinol",
+      "cid": 135401907,
+      "title": "Allopurinol",
+      "inchikey": "OFCNXPDARWKPPY-UHFFFAOYSA-N",
+      "matched_synonym": "allopurinol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "allyl alcohol",
+      "cid": 7858,
+      "title": "Allyl Alcohol",
+      "inchikey": "XXROGKLTLUQVRX-UHFFFAOYSA-N",
+      "matched_synonym": "ALLYL ALCOHOL",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "alpidem",
+      "cid": 54897,
+      "title": "Alpidem",
+      "inchikey": "JRTIDHTUMYMPRU-UHFFFAOYSA-N",
+      "matched_synonym": "ALPIDEM",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "amiodarone",
+      "cid": 2157,
+      "title": "Amiodarone",
+      "inchikey": "IYIKLHRQXLHMJQ-UHFFFAOYSA-N",
+      "matched_synonym": "amiodarone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "amitriptyline",
+      "cid": 2160,
+      "title": "Amitriptyline",
+      "inchikey": "KRMDCWKBEZIMAB-UHFFFAOYSA-N",
+      "matched_synonym": "amitriptyline",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "aspirin",
+      "cid": 2244,
+      "title": "Aspirin",
+      "inchikey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+      "matched_synonym": "aspirin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "azathioprine",
+      "cid": 2265,
+      "title": "Azathioprine",
+      "inchikey": "LMEKQMALGUDUQG-UHFFFAOYSA-N",
+      "matched_synonym": "azathioprine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "bendazac",
+      "cid": 2313,
+      "title": "Bendazac",
+      "inchikey": "BYFMCKSPFYVMOU-UHFFFAOYSA-N",
+      "matched_synonym": "bendazac",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "benzbromarone",
+      "cid": 2333,
+      "title": "Benzbromarone",
+      "inchikey": "WHQCHUCQKNIQEC-UHFFFAOYSA-N",
+      "matched_synonym": "benzbromarone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "benziodarone",
+      "cid": 6237,
+      "title": "Benziodarone",
+      "inchikey": "CZCHIEJNWPNBDE-UHFFFAOYSA-N",
+      "matched_synonym": "BENZIODARONE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "bromobenzene",
+      "cid": 7961,
+      "title": "Bromobenzene",
+      "inchikey": "QARVLSVVCXYDNA-UHFFFAOYSA-N",
+      "matched_synonym": "BROMOBENZENE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "bromoethylamine",
+      "cid": 7851,
+      "title": "2-Bromoethylamine",
+      "inchikey": "IZQAUUVBKYXMET-UHFFFAOYSA-N",
+      "matched_synonym": "bromoethylamine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "bucetin",
+      "cid": 14130,
+      "title": "Bucetin",
+      "inchikey": "LIAWQASKBFCRNR-UHFFFAOYSA-N",
+      "matched_synonym": "Bucetin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "buspirone",
+      "cid": 2477,
+      "title": "Buspirone",
+      "inchikey": "QWCRAEMEVRGPNT-UHFFFAOYSA-N",
+      "matched_synonym": "buspirone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "buthionine sulfoximine",
+      "cid": 21157,
+      "title": "2-amino-4-(S-butylsulfonimidoyl)butanoic acid",
+      "inchikey": "KJQFBVYMGADDTQ-UHFFFAOYSA-N",
+      "matched_synonym": "BUTHIONINE SULFOXIMINE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "caffeine",
+      "cid": 2519,
+      "title": "Caffeine",
+      "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+      "matched_synonym": "caffeine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "captopril",
+      "cid": 44093,
+      "title": "Captopril",
+      "inchikey": "FAKRSMQSSFJEIM-RQJHMYQMSA-N",
+      "matched_synonym": "captopril",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "carbamazepine",
+      "cid": 2554,
+      "title": "Carbamazepine",
+      "inchikey": "FFGPTBGBLSHEPO-UHFFFAOYSA-N",
+      "matched_synonym": "carbamazepine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "carbon tetrachloride",
+      "cid": 5943,
+      "title": "Carbon Tetrachloride",
+      "inchikey": "VZGDMQKNWNREIO-UHFFFAOYSA-N",
+      "matched_synonym": "CARBON TETRACHLORIDE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "chloramphenicol",
+      "cid": 5959,
+      "title": "Chloramphenicol",
+      "inchikey": "WIIZWVCIJKGZOK-RKDXNWHRSA-N",
+      "matched_synonym": "chloramphenicol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "chlormadinone",
+      "cid": 5284533,
+      "title": "Chlormadinone",
+      "inchikey": "VUHJZBBCZGVNDZ-TTYLFXKOSA-N",
+      "matched_synonym": "Chlormadinone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "chlormezanone",
+      "cid": 2717,
+      "title": "Chlormezanone",
+      "inchikey": "WEQAYVWKMWHEJO-UHFFFAOYSA-N",
+      "matched_synonym": "chlormezanone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "chlorpheniramine",
+      "cid": 2725,
+      "title": "(+-)-Chlorpheniramine",
+      "inchikey": "SOYKEARSMXGVTM-UHFFFAOYSA-N",
+      "matched_synonym": "chlorpheniramine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "chlorpromazine",
+      "cid": 2726,
+      "title": "Chlorpromazine",
+      "inchikey": "ZPEIMTDSQAKGNT-UHFFFAOYSA-N",
+      "matched_synonym": "chlorpromazine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "chlorpropamide",
+      "cid": 2727,
+      "title": "Chlorpropamide",
+      "inchikey": "RKWGIWYCVPQPMF-UHFFFAOYSA-N",
+      "matched_synonym": "chlorpropamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "cimetidine",
+      "cid": 2756,
+      "title": "Cimetidine",
+      "inchikey": "AQIXAKUUQRKLND-UHFFFAOYSA-N",
+      "matched_synonym": "cimetidine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ciprofloxacin",
+      "cid": 2764,
+      "title": "Ciprofloxacin",
+      "inchikey": "MYSWGUAQZAJSOK-UHFFFAOYSA-N",
+      "matched_synonym": "ciprofloxacin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "clofibrate",
+      "cid": 2796,
+      "title": "Clofibrate",
+      "inchikey": "KNHUKKLJHYUCFP-UHFFFAOYSA-N",
+      "matched_synonym": "clofibrate",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "clomipramine",
+      "cid": 2801,
+      "title": "Clomipramine",
+      "inchikey": "GDLIGKIOYRNHDA-UHFFFAOYSA-N",
+      "matched_synonym": "clomipramine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "clozapine",
+      "cid": 135398737,
+      "title": "Clozapine",
+      "inchikey": "QZUDBNBUXVUHMW-UHFFFAOYSA-N",
+      "matched_synonym": "clozapine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "colchicine",
+      "cid": 6167,
+      "title": "Colchicine",
+      "inchikey": "IAKHMKGGTNLKSZ-INIZCTEOSA-N",
+      "matched_synonym": "colchicine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "coumarin",
+      "cid": 323,
+      "title": "Coumarin",
+      "inchikey": "ZYGHJZDHTFUPRJ-UHFFFAOYSA-N",
+      "matched_synonym": "coumarin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "cycloheximide",
+      "cid": 6197,
+      "title": "Cycloheximide",
+      "inchikey": "YPHMISFOHDHNIV-FSZOTQKASA-N",
+      "matched_synonym": "cycloheximide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "cyclophosphamide",
+      "cid": 2907,
+      "title": "Cyclophosphamide",
+      "inchikey": "CMSMOCZEIVJLDB-UHFFFAOYSA-N",
+      "matched_synonym": "cyclophosphamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "cyclosporine A",
+      "cid": 5284373,
+      "title": "Cyclosporin A",
+      "inchikey": "PMATZTZNYRCHOR-CGLBZJNRSA-N",
+      "matched_synonym": "Cyclosporine A",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "danazol",
+      "cid": 28417,
+      "title": "Danazol",
+      "inchikey": "POZRVZJJTULAOH-LHZXLZLDSA-N",
+      "matched_synonym": "danazol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "dantrolene",
+      "cid": 6914273,
+      "title": "Dantrolene",
+      "inchikey": "OZOMQRBLCMDCEG-VIZOYTHASA-N",
+      "matched_synonym": "dantrolene",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "diazepam",
+      "cid": 3016,
+      "title": "Diazepam",
+      "inchikey": "AAOVKJBEBIDNHE-UHFFFAOYSA-N",
+      "matched_synonym": "diazepam",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "diclofenac",
+      "cid": 3033,
+      "title": "Diclofenac",
+      "inchikey": "DCOPUUMXTXDBNB-UHFFFAOYSA-N",
+      "matched_synonym": "diclofenac",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "diethyl maleate",
+      "cid": 5271566,
+      "title": "Diethyl Maleate",
+      "inchikey": "IEPRKVQEAMIZSS-WAYWQWQTSA-N",
+      "matched_synonym": "DIETHYL MALEATE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "diltiazem",
+      "cid": 39186,
+      "title": "Diltiazem",
+      "inchikey": "HSUGRBWQSSZJOP-RTWAWAEBSA-N",
+      "matched_synonym": "diltiazem",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "disopyramide",
+      "cid": 3114,
+      "title": "Disopyramide",
+      "inchikey": "UVTNFZQICZKOEM-UHFFFAOYSA-N",
+      "matched_synonym": "disopyramide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "disulfiram",
+      "cid": 3117,
+      "title": "Disulfiram",
+      "inchikey": "AUZONCFQVSMFAP-UHFFFAOYSA-N",
+      "matched_synonym": "disulfiram",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "doxorubicin",
+      "cid": 31703,
+      "title": "Doxorubicin",
+      "inchikey": "AOJJSUZBOXZQNB-TZSSRYMLSA-N",
+      "matched_synonym": "doxorubicin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "enalapril",
+      "cid": 5388962,
+      "title": "Enalapril",
+      "inchikey": "GBXSMTUPTTWBMN-XIRDDKMYSA-N",
+      "matched_synonym": "enalapril",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "erythromycin ethylsuccinate",
+      "cid": 443953,
+      "title": "Erythromycin ethyl succinate",
+      "inchikey": "NSYZCCDSJNWWJL-YXOIYICCSA-N",
+      "matched_synonym": "erythromycin ethylsuccinate",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ethambutol",
+      "cid": 14052,
+      "title": "Ethambutol",
+      "inchikey": "AEUTYOVWOVBAKS-UWVGGRQHSA-N",
+      "matched_synonym": "ethambutol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ethanol",
+      "cid": 702,
+      "title": "Ethanol",
+      "inchikey": "LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+      "matched_synonym": "ethanol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ethinylestradiol",
+      "cid": 5991,
+      "title": "Ethinylestradiol",
+      "inchikey": "BFPYWIDHMRZLRN-SLHNCBLASA-N",
+      "matched_synonym": "ETHINYLESTRADIOL",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ethionamide",
+      "cid": 2761171,
+      "title": "Ethionamide",
+      "inchikey": "AEOCXXJPGCBFJA-UHFFFAOYSA-N",
+      "matched_synonym": "ethionamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ethionine",
+      "cid": 25674,
+      "title": "L-Ethionine",
+      "inchikey": "GGLZPLKKBSSKCX-YFKPBYRVSA-N",
+      "matched_synonym": "Ethionine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "etoposide",
+      "cid": 36462,
+      "title": "Etoposide",
+      "inchikey": "VJJPUSNTGOMMGY-MRVIYFEKSA-N",
+      "matched_synonym": "etoposide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "famotidine",
+      "cid": 5702160,
+      "title": "Famotidine",
+      "inchikey": "XUFQPHANEAPEMJ-UHFFFAOYSA-N",
+      "matched_synonym": "famotidine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "fenofibrate",
+      "cid": 3339,
+      "title": "Fenofibrate",
+      "inchikey": "YMTINGFKWWXKFG-UHFFFAOYSA-N",
+      "matched_synonym": "fenofibrate",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "fluphenazine",
+      "cid": 3372,
+      "title": "Fluphenazine",
+      "inchikey": "PLDUPXSUYLZYBN-UHFFFAOYSA-N",
+      "matched_synonym": "FLUPHENAZINE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "flutamide",
+      "cid": 3397,
+      "title": "Flutamide",
+      "inchikey": "MKXKFYHWDHIYRV-UHFFFAOYSA-N",
+      "matched_synonym": "flutamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "furosemide",
+      "cid": 3440,
+      "title": "Furosemide",
+      "inchikey": "ZZUFCTLCJUWOSV-UHFFFAOYSA-N",
+      "matched_synonym": "furosemide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "galactosamine",
+      "cid": 24154,
+      "title": "D-Galactosamine",
+      "inchikey": "MSWZFWKMSRAUBD-GASJEMHNSA-N",
+      "matched_synonym": "GALACTOSAMINE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "gemfibrozil",
+      "cid": 3463,
+      "title": "Gemfibrozil",
+      "inchikey": "HEMJJKBWTPKOJG-UHFFFAOYSA-N",
+      "matched_synonym": "gemfibrozil",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "glibenclamide",
+      "cid": 3488,
+      "title": "Glibenclamide",
+      "inchikey": "ZNNLBTZKUZBEKO-UHFFFAOYSA-N",
+      "matched_synonym": "Glibenclamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "griseofulvin",
+      "cid": 441140,
+      "title": "Griseofulvin",
+      "inchikey": "DDUHZTYCFQRHIY-RBHXEPJQSA-N",
+      "matched_synonym": "griseofulvin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "haloperidol",
+      "cid": 3559,
+      "title": "Haloperidol",
+      "inchikey": "LNEPOXFFQSENCJ-UHFFFAOYSA-N",
+      "matched_synonym": "haloperidol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "hexachlorobenzene",
+      "cid": 8370,
+      "title": "Hexachlorobenzene",
+      "inchikey": "CKAPSXZOOQJIBF-UHFFFAOYSA-N",
+      "matched_synonym": "HEXACHLOROBENZENE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "hydroxyzine",
+      "cid": 3658,
+      "title": "Hydroxyzine",
+      "inchikey": "ZQDWXGKKHFNSQK-UHFFFAOYSA-N",
+      "matched_synonym": "hydroxyzine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ibuprofen",
+      "cid": 3672,
+      "title": "Ibuprofen, (+-)-",
+      "inchikey": "HEFNNWSXXWATRW-UHFFFAOYSA-N",
+      "matched_synonym": "ibuprofen",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "imipramine",
+      "cid": 3696,
+      "title": "Imipramine",
+      "inchikey": "BCGWQEUPMDMJNV-UHFFFAOYSA-N",
+      "matched_synonym": "imipramine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "indomethacin",
+      "cid": 3715,
+      "title": "Indomethacin",
+      "inchikey": "CGIGDMFJXJATDK-UHFFFAOYSA-N",
+      "matched_synonym": "indomethacin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "iproniazid",
+      "cid": 3748,
+      "title": "Iproniazid",
+      "inchikey": "NYMGNSNKLVNMIA-UHFFFAOYSA-N",
+      "matched_synonym": "iproniazid",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "isoniazid",
+      "cid": 3767,
+      "title": "Isoniazid",
+      "inchikey": "QRXWMOHMRWLFEY-UHFFFAOYSA-N",
+      "matched_synonym": "isoniazid",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ketoconazole",
+      "cid": 47576,
+      "title": "Ketoconazole",
+      "inchikey": "XMAYWYJOQHXEEK-ZEQKJWHPSA-N",
+      "matched_synonym": "ketoconazole",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "labetalol",
+      "cid": 3869,
+      "title": "Labetalol",
+      "inchikey": "SGUAFYQXFOLMHL-UHFFFAOYSA-N",
+      "matched_synonym": "labetalol",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "lomustine",
+      "cid": 3950,
+      "title": "Lomustine",
+      "inchikey": "GQYIWUVLTXOXAJ-UHFFFAOYSA-N",
+      "matched_synonym": "lomustine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "lornoxicam",
+      "cid": 54690031,
+      "title": "Lornoxicam",
+      "inchikey": "WLHQHAUOOXYABV-UHFFFAOYSA-N",
+      "matched_synonym": "Lornoxicam",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "mefenamic acid",
+      "cid": 4044,
+      "title": "Mefenamic Acid",
+      "inchikey": "HYYBABOKPJLUIN-UHFFFAOYSA-N",
+      "matched_synonym": "mefenamic acid",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "meloxicam",
+      "cid": 54677470,
+      "title": "Meloxicam",
+      "inchikey": "ZRVUJXDFFKFLMG-UHFFFAOYSA-N",
+      "matched_synonym": "meloxicam",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "metformin",
+      "cid": 4091,
+      "title": "Metformin",
+      "inchikey": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+      "matched_synonym": "metformin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "methapyrilene",
+      "cid": 4098,
+      "title": "Methapyrilene",
+      "inchikey": "HNJJXZKZRAWDPF-UHFFFAOYSA-N",
+      "matched_synonym": "methapyrilene",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "methimazole",
+      "cid": 1349907,
+      "title": "Methimazole",
+      "inchikey": "PMRYVIKBURPHAH-UHFFFAOYSA-N",
+      "matched_synonym": "methimazole",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "methyldopa",
+      "cid": 38853,
+      "title": "Methyldopa",
+      "inchikey": "CJCSPKMFHVPWAR-JTQLQIEISA-N",
+      "matched_synonym": "methyldopa",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "methyltestosterone",
+      "cid": 6010,
+      "title": "Methyltestosterone",
+      "inchikey": "GCKMFJBGXUYNAG-HLXURNFRSA-N",
+      "matched_synonym": "methyltestosterone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "mexiletine",
+      "cid": 4178,
+      "title": "Mexiletine",
+      "inchikey": "VLPIATFUUWWMKC-UHFFFAOYSA-N",
+      "matched_synonym": "Mexiletine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "monocrotaline",
+      "cid": 9415,
+      "title": "Monocrotaline",
+      "inchikey": "QVCMHGGNRFRMAD-XFGHUUIASA-N",
+      "matched_synonym": "monocrotaline",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "moxisylyte",
+      "cid": 4260,
+      "title": "Moxisylyte",
+      "inchikey": "VRYMTAVOXVTQEF-UHFFFAOYSA-N",
+      "matched_synonym": "Moxisylyte",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "naproxen",
+      "cid": 156391,
+      "title": "Naproxen",
+      "inchikey": "CMWTZPSULFXXJA-VIFPVBQESA-N",
+      "matched_synonym": "NAPROXEN",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nefazodone",
+      "cid": 4449,
+      "title": "Nefazodone",
+      "inchikey": "VRBKIVRKKCLPHA-UHFFFAOYSA-N",
+      "matched_synonym": "nefazodone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nicotinic acid",
+      "cid": 938,
+      "title": "Nicotinic Acid",
+      "inchikey": "PVNIIMVLHYAWGP-UHFFFAOYSA-N",
+      "matched_synonym": "nicotinic acid",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nifedipine",
+      "cid": 4485,
+      "title": "Nifedipine",
+      "inchikey": "HYIMSNHJOBLJNT-UHFFFAOYSA-N",
+      "matched_synonym": "nifedipine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nimesulide",
+      "cid": 4495,
+      "title": "Nimesulide",
+      "inchikey": "HYWYRSMBCFDLJT-UHFFFAOYSA-N",
+      "matched_synonym": "nimesulide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nitrofurantoin",
+      "cid": 6604200,
+      "title": "Nitrofurantoin",
+      "inchikey": "NXFQHRVNIOXGAQ-YCRREMRBSA-N",
+      "matched_synonym": "nitrofurantoin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nitrofurazone",
+      "cid": 5447130,
+      "title": "Nitrofurazone",
+      "inchikey": "IAIWVQXQOWNYOU-FPYGCLRLSA-N",
+      "matched_synonym": "nitrofurazone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "nitrosodiethylamine",
+      "cid": 5921,
+      "title": "N-Nitrosodiethylamine",
+      "inchikey": "WBNQDOYYEUMPFS-UHFFFAOYSA-N",
+      "matched_synonym": "Nitrosodiethylamine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "omeprazole",
+      "cid": 4594,
+      "title": "Omeprazole",
+      "inchikey": "SUBDBMMJDZJVOS-UHFFFAOYSA-N",
+      "matched_synonym": "omeprazole",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "papaverine",
+      "cid": 4680,
+      "title": "Papaverine",
+      "inchikey": "XQYZDYMELSJDRZ-UHFFFAOYSA-N",
+      "matched_synonym": "papaverine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "pemoline",
+      "cid": 4723,
+      "title": "Pemoline",
+      "inchikey": "NRNCYVBFPDDJNE-UHFFFAOYSA-N",
+      "matched_synonym": "pemoline",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "penicillamine",
+      "cid": 5852,
+      "title": "Penicillamine",
+      "inchikey": "VVNCNSJFMMFHPL-VKHMYHEASA-N",
+      "matched_synonym": "penicillamine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "perhexiline",
+      "cid": 4746,
+      "title": "Perhexiline",
+      "inchikey": "CYXKNKQEMFBLER-UHFFFAOYSA-N",
+      "matched_synonym": "PERHEXILINE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phalloidin",
+      "cid": 441542,
+      "title": "Phalloidin",
+      "inchikey": "KPKZJLCSROULON-QKGLWVMZSA-N",
+      "matched_synonym": "PHALLOIDIN",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phenacetin",
+      "cid": 4754,
+      "title": "Phenacetin",
+      "inchikey": "CPJSUEIXXCENMM-UHFFFAOYSA-N",
+      "matched_synonym": "phenacetin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phenobarbital",
+      "cid": 4763,
+      "title": "Phenobarbital",
+      "inchikey": "DDBREPKUVSBGFI-UHFFFAOYSA-N",
+      "matched_synonym": "phenobarbital",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phenylanthranilic acid",
+      "cid": 4386,
+      "title": "N-Phenylanthranilic Acid",
+      "inchikey": "ZWJINEZUASEZBH-UHFFFAOYSA-N",
+      "matched_synonym": "Phenylanthranilic acid",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phenylbutazone",
+      "cid": 4781,
+      "title": "Phenylbutazone",
+      "inchikey": "VYMDGNCVAMGZFE-UHFFFAOYSA-N",
+      "matched_synonym": "phenylbutazone",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phenytoin",
+      "cid": 1775,
+      "title": "Phenytoin",
+      "inchikey": "CXOFVDLJLONNDW-UHFFFAOYSA-N",
+      "matched_synonym": "phenytoin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "phorone",
+      "cid": 10438,
+      "title": "Phorone",
+      "inchikey": "MTZWHHIREPJPTG-UHFFFAOYSA-N",
+      "matched_synonym": "PHORONE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "promethazine",
+      "cid": 4927,
+      "title": "Promethazine",
+      "inchikey": "PWWVAXIEGOYWEE-UHFFFAOYSA-N",
+      "matched_synonym": "promethazine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "propylthiouracil",
+      "cid": 657298,
+      "title": "Propylthiouracil",
+      "inchikey": "KNAHARQHSZJURB-UHFFFAOYSA-N",
+      "matched_synonym": "propylthiouracil",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "quinidine",
+      "cid": 441074,
+      "title": "Quinidine",
+      "inchikey": "LOUPRKONTZGTKE-LHHVKLHASA-N",
+      "matched_synonym": "quinidine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ranitidine",
+      "cid": 3001055,
+      "title": "Ranitidine",
+      "inchikey": "VMXUWOKSQNHOCA-UKTHLTGXSA-N",
+      "matched_synonym": "ranitidine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "rifampicin",
+      "cid": 135398735,
+      "title": "Rifampicin",
+      "inchikey": "JQXXHWHPUNPDRT-WLSIYKJHSA-N",
+      "matched_synonym": "Rifampicin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "simvastatin",
+      "cid": 54454,
+      "title": "Simvastatin",
+      "inchikey": "RYMZZMVNJRMUDD-HGQWONQESA-N",
+      "matched_synonym": "simvastatin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "sulfasalazine",
+      "cid": 5339,
+      "title": "Sulfasalazine",
+      "inchikey": "NCEXYHBECQHGNR-UHFFFAOYSA-N",
+      "matched_synonym": "sulfasalazine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "sulindac",
+      "cid": 1548887,
+      "title": "Sulindac",
+      "inchikey": "MLKXDPUZXIRXEP-MFOYZWKCSA-N",
+      "matched_synonym": "sulindac",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "sulpiride",
+      "cid": 5355,
+      "title": "Sulpiride",
+      "inchikey": "BGRJTUBHPOOWDU-UHFFFAOYSA-N",
+      "matched_synonym": "sulpiride",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "tacrine",
+      "cid": 1935,
+      "title": "Tacrine",
+      "inchikey": "YLJREFDVOIBQDA-UHFFFAOYSA-N",
+      "matched_synonym": "Tacrine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "tamoxifen",
+      "cid": 2733526,
+      "title": "Tamoxifen",
+      "inchikey": "NKANXQFJJICGDU-QPLCGJKRSA-N",
+      "matched_synonym": "tamoxifen",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "tannic acid",
+      "cid": 16129778,
+      "title": "Tannic Acid",
+      "inchikey": "LRBQNJMCXXYXIU-PPKXGCFTSA-N",
+      "matched_synonym": "TANNIC ACID",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "terbinafine",
+      "cid": 1549008,
+      "title": "Terbinafine",
+      "inchikey": "DOMXUEMWDBAQBQ-WEVVVXLNSA-N",
+      "matched_synonym": "terbinafine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "tetracycline",
+      "cid": 54675776,
+      "title": "Tetracycline",
+      "inchikey": "NWXMGUDVXFXRIG-WESIUVDSSA-N",
+      "matched_synonym": "tetracycline",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "theophylline",
+      "cid": 2153,
+      "title": "Theophylline",
+      "inchikey": "ZFXYFBGIUFBOJW-UHFFFAOYSA-N",
+      "matched_synonym": "theophylline",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "thioacetamide",
+      "cid": 2723949,
+      "title": "Thioacetamide",
+      "inchikey": "YUKQRDCYNOVPGJ-UHFFFAOYSA-N",
+      "matched_synonym": "THIOACETAMIDE",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "thioridazine",
+      "cid": 5452,
+      "title": "Thioridazine",
+      "inchikey": "KLBQZWRITKRQQV-UHFFFAOYSA-N",
+      "matched_synonym": "thioridazine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "ticlopidine",
+      "cid": 5472,
+      "title": "Ticlopidine",
+      "inchikey": "PHWBOXQYWZNQIN-UHFFFAOYSA-N",
+      "matched_synonym": "ticlopidine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "tiopronin",
+      "cid": 5483,
+      "title": "Tiopronin",
+      "inchikey": "YTGJWQPHMWSCST-UHFFFAOYSA-N",
+      "matched_synonym": "tiopronin",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "tolbutamide",
+      "cid": 5505,
+      "title": "Tolbutamide",
+      "inchikey": "JLRGJRBPOGGCBT-UHFFFAOYSA-N",
+      "matched_synonym": "tolbutamide",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "triazolam",
+      "cid": 5556,
+      "title": "Triazolam",
+      "inchikey": "JOFWLTCLBGQGBO-UHFFFAOYSA-N",
+      "matched_synonym": "triazolam",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "trimethadione",
+      "cid": 5576,
+      "title": "Trimethadione",
+      "inchikey": "IRYJRGCIQBGHIV-UHFFFAOYSA-N",
+      "matched_synonym": "trimethadione",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "valproic acid",
+      "cid": 3121,
+      "title": "Valproic Acid",
+      "inchikey": "NIJJYAXOARWZEE-UHFFFAOYSA-N",
+      "matched_synonym": "VALPROIC ACID",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "venlafaxine",
+      "cid": 5656,
+      "title": "Venlafaxine",
+      "inchikey": "PNVNVHUZROJLTJ-UHFFFAOYSA-N",
+      "matched_synonym": "venlafaxine",
+      "missing_descriptors": []
+    },
+    {
+      "compound": "vitamin A",
+      "cid": 445354,
+      "title": "Retinol",
+      "inchikey": "FPIPGXGPPPQFEQ-OVSJKPMPSA-N",
+      "matched_synonym": "Vitamin A",
+      "missing_descriptors": []
+    }
+  ],
+  "excluded": [
+    {
+      "compound": "LPS",
+      "cid_candidate": null,
+      "reason": "Biological reagent is not represented by a unique verified small-molecule structure; a name-matched PubChem record is insufficient"
+    },
+    {
+      "compound": "TNFalpha",
+      "cid_candidate": 44356648,
+      "reason": "Biological reagent is not represented by a unique verified small-molecule structure; a name-matched PubChem record is insufficient"
+    },
+    {
+      "compound": "acetamidofluorene",
+      "cid_candidate": null,
+      "reason": "CID properties unavailable"
+    },
+    {
+      "compound": "naphthyl isothiocyanate",
+      "cid_candidate": null,
+      "reason": "CID properties unavailable"
+    },
+    {
+      "compound": "tunicamycin",
+      "cid_candidate": null,
+      "reason": "CID properties unavailable"
+    }
+  ],
+  "api_errors": [],
+  "descriptor_handling": "Missing numerical descriptors remain NaN; any imputation must fit on training compounds only. Fingerprints are never imputed for missing identities.",
+  "features_sha256": "65b1bc2ed293135490382f51191939b48c0e7e33a84afaeebf97a487fd639412"
+}

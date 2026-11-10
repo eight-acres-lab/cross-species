@@ -1,0 +1,3616 @@
+{
+  "method": "native_fm",
+  "updates": 200,
+  "unique_generation_rollouts_per_update": 4,
+  "euler_steps": 20,
+  "initial_current_old_velocity_difference": 0.0,
+  "frozen_reference_sha256_before": "dc1dfc4ed40c83dd75410c8763790b8d867bc7a4e0744c2a2694ffe88d6c6f30",
+  "frozen_reference_sha256_after": "dc1dfc4ed40c83dd75410c8763790b8d867bc7a4e0744c2a2694ffe88d6c6f30",
+  "updated_parameter_witness": "t_embedder.mlp.0.weight",
+  "updated_parameter_l2_change": 0.03555823862552643,
+  "actual_gradient_receiving_parameters": 60094977,
+  "wall_seconds": 616.9899762608111,
+  "history": [
+    {
+      "update": 1,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.09510692581534386,
+      "old_policy_mean_reward": -0.10230588912963867,
+      "reward_std": 0.3437840938568115,
+      "advantages": [
+        0.5677092671394348,
+        0.5651994943618774,
+        -1.7313982248306274,
+        0.59848952293396
+      ],
+      "reference_velocity_mse": 0.0,
+      "gradient_norm": 0.7514139413833618,
+      "old_ema_decay": 0.001,
+      "method_diagnostic": 0.11979963257908821,
+      "elapsed_seconds": 3.422210516408086
+    },
+    {
+      "update": 2,
+      "condition": "control+Dasatinib",
+      "objective": 0.1061566211283207,
+      "old_policy_mean_reward": 0.08891558647155762,
+      "reward_std": 0.24901564419269562,
+      "advantages": [
+        0.5901201963424683,
+        0.698283314704895,
+        0.4353713095188141,
+        -1.723774790763855
+      ],
+      "reference_velocity_mse": 0.000456054272945039,
+      "gradient_norm": 0.6786598563194275,
+      "old_ema_decay": 0.002,
+      "method_diagnostic": 0.13653562776744366,
+      "elapsed_seconds": 6.418019168078899
+    },
+    {
+      "update": 3,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.08607772644609213,
+      "old_policy_mean_reward": -0.3200998306274414,
+      "reward_std": 0.27697259187698364,
+      "advantages": [
+        -1.5232796669006348,
+        0.4602355360984802,
+        -0.13925504684448242,
+        1.2022992372512817
+      ],
+      "reference_velocity_mse": 0.0015320340462494642,
+      "gradient_norm": 0.8038975596427917,
+      "old_ema_decay": 0.003,
+      "method_diagnostic": 0.11001680977642536,
+      "elapsed_seconds": 9.415423466823995
+    },
+    {
+      "update": 4,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.04491485748440027,
+      "old_policy_mean_reward": -0.5114138126373291,
+      "reward_std": 0.3404586613178253,
+      "advantages": [
+        0.48559775948524475,
+        1.3102089166641235,
+        -1.363058090209961,
+        -0.4327486455440521
+      ],
+      "reference_velocity_mse": 0.0036138095892965794,
+      "gradient_norm": 0.3644763231277466,
+      "old_ema_decay": 0.004,
+      "method_diagnostic": 0.07890885882079601,
+      "elapsed_seconds": 12.409835796803236
+    },
+    {
+      "update": 5,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.07333416305482388,
+      "old_policy_mean_reward": 0.023998260498046875,
+      "reward_std": 0.12692008912563324,
+      "advantages": [
+        0.9343253970146179,
+        -1.6838399171829224,
+        0.42238837480545044,
+        0.327126145362854
+      ],
+      "reference_velocity_mse": 0.006514656008221209,
+      "gradient_norm": 0.27371928095817566,
+      "old_ema_decay": 0.005,
+      "method_diagnostic": 0.0907136294990778,
+      "elapsed_seconds": 15.412202700041234
+    },
+    {
+      "update": 6,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.09483869187533855,
+      "old_policy_mean_reward": -0.11673903465270996,
+      "reward_std": 0.2408696413040161,
+      "advantages": [
+        -0.744692862033844,
+        1.4599100351333618,
+        -1.0839033126831055,
+        0.36868607997894287
+      ],
+      "reference_velocity_mse": 0.008819690672680736,
+      "gradient_norm": 0.4929972290992737,
+      "old_ema_decay": 0.006,
+      "method_diagnostic": 0.12957541272044182,
+      "elapsed_seconds": 18.416602795943618
+    },
+    {
+      "update": 7,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.06204994977451861,
+      "old_policy_mean_reward": -0.5475013256072998,
+      "reward_std": 0.4583985209465027,
+      "advantages": [
+        0.06144250929355621,
+        0.7785517573356628,
+        -1.6519756317138672,
+        0.8119813799858093
+      ],
+      "reference_velocity_mse": 0.009180867578834295,
+      "gradient_norm": 0.4023769795894623,
+      "old_ema_decay": 0.007,
+      "method_diagnostic": 0.07757880818098783,
+      "elapsed_seconds": 21.448017907328904
+    },
+    {
+      "update": 8,
+      "condition": "control+SRT2104",
+      "objective": 0.0849616788327694,
+      "old_policy_mean_reward": -0.0424349308013916,
+      "reward_std": 0.30941298604011536,
+      "advantages": [
+        -1.0177596807479858,
+        1.6585819721221924,
+        -0.37218159437179565,
+        -0.2686406373977661
+      ],
+      "reference_velocity_mse": 0.011326593346893787,
+      "gradient_norm": 0.5632022619247437,
+      "old_ema_decay": 0.008,
+      "method_diagnostic": 0.1255858950316906,
+      "elapsed_seconds": 24.451036325655878
+    },
+    {
+      "update": 9,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.09458673559129238,
+      "old_policy_mean_reward": -0.5454056262969971,
+      "reward_std": 0.14745093882083893,
+      "advantages": [
+        0.3374890089035034,
+        0.7170560359954834,
+        -1.7127004861831665,
+        0.6581555008888245
+      ],
+      "reference_velocity_mse": 0.013009299989789724,
+      "gradient_norm": 0.6978590488433838,
+      "old_ema_decay": 0.009000000000000001,
+      "method_diagnostic": 0.11890763975679874,
+      "elapsed_seconds": 27.45356341637671
+    },
+    {
+      "update": 10,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.1101843100041151,
+      "old_policy_mean_reward": -0.408674955368042,
+      "reward_std": 0.4449210464954376,
+      "advantages": [
+        0.13498835265636444,
+        -1.1385972499847412,
+        -0.5422168970108032,
+        1.5458258390426636
+      ],
+      "reference_velocity_mse": 0.011735992040485144,
+      "gradient_norm": 0.49116188287734985,
+      "old_ema_decay": 0.01,
+      "method_diagnostic": 0.1379379015415907,
+      "elapsed_seconds": 30.47786428965628
+    },
+    {
+      "update": 11,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.12676077522337437,
+      "old_policy_mean_reward": 0.11197042465209961,
+      "reward_std": 0.3152390718460083,
+      "advantages": [
+        0.1047898605465889,
+        -1.6602628231048584,
+        0.8783891201019287,
+        0.6770838499069214
+      ],
+      "reference_velocity_mse": 0.011199647560715675,
+      "gradient_norm": 0.5201676487922668,
+      "old_ema_decay": 0.011,
+      "method_diagnostic": 0.14159170910716057,
+      "elapsed_seconds": 33.49608528986573
+    },
+    {
+      "update": 12,
+      "condition": "control+SRT2104",
+      "objective": 0.10444031283259392,
+      "old_policy_mean_reward": -0.1814737319946289,
+      "reward_std": 0.41192519664764404,
+      "advantages": [
+        0.8956907391548157,
+        -0.38080063462257385,
+        -1.465383768081665,
+        0.950493574142456
+      ],
+      "reference_velocity_mse": 0.010860231006518006,
+      "gradient_norm": 0.37154605984687805,
+      "old_ema_decay": 0.012,
+      "method_diagnostic": 0.13975322246551514,
+      "elapsed_seconds": 36.512513807974756
+    },
+    {
+      "update": 13,
+      "condition": "control+Panobinostat",
+      "objective": 0.10453358851373196,
+      "old_policy_mean_reward": -0.02137017250061035,
+      "reward_std": 0.1563984602689743,
+      "advantages": [
+        -1.7182623147964478,
+        0.5458071827888489,
+        0.4170629680156708,
+        0.7553921341896057
+      ],
+      "reference_velocity_mse": 0.010162665974348783,
+      "gradient_norm": 0.4651598334312439,
+      "old_ema_decay": 0.013000000000000001,
+      "method_diagnostic": 0.13274345360696316,
+      "elapsed_seconds": 39.53568177577108
+    },
+    {
+      "update": 14,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.06408047582954168,
+      "old_policy_mean_reward": -0.5843856334686279,
+      "reward_std": 0.2570972740650177,
+      "advantages": [
+        0.6869040131568909,
+        1.0562268495559692,
+        -0.20441272854804993,
+        -1.5387181043624878
+      ],
+      "reference_velocity_mse": 0.008526849444024265,
+      "gradient_norm": 0.4021470546722412,
+      "old_ema_decay": 0.014,
+      "method_diagnostic": 0.09185009449720383,
+      "elapsed_seconds": 42.573906645178795
+    },
+    {
+      "update": 15,
+      "condition": "control+Givinostat",
+      "objective": 0.07929028663784266,
+      "old_policy_mean_reward": -0.15548300743103027,
+      "reward_std": 0.2571496367454529,
+      "advantages": [
+        -0.36446258425712585,
+        0.3524123728275299,
+        1.3734662532806396,
+        -1.3614161014556885
+      ],
+      "reference_velocity_mse": 0.008451107889413834,
+      "gradient_norm": 0.35729512572288513,
+      "old_ema_decay": 0.015,
+      "method_diagnostic": 0.11565589811652899,
+      "elapsed_seconds": 45.61044318974018
+    },
+    {
+      "update": 16,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.12289281003177166,
+      "old_policy_mean_reward": -0.1378166675567627,
+      "reward_std": 0.15974751114845276,
+      "advantages": [
+        0.12931780517101288,
+        -1.4822707176208496,
+        0.018484625965356827,
+        1.3344682455062866
+      ],
+      "reference_velocity_mse": 0.007048889878205955,
+      "gradient_norm": 0.32377612590789795,
+      "old_ema_decay": 0.016,
+      "method_diagnostic": 0.1526583544909954,
+      "elapsed_seconds": 48.64412862062454
+    },
+    {
+      "update": 17,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.07411457225680351,
+      "old_policy_mean_reward": -0.20431208610534668,
+      "reward_std": 0.10634481906890869,
+      "advantages": [
+        1.5241411924362183,
+        -1.222198247909546,
+        0.10410518199205399,
+        -0.406048059463501
+      ],
+      "reference_velocity_mse": 0.008660863270051777,
+      "gradient_norm": 0.2877550721168518,
+      "old_ema_decay": 0.017,
+      "method_diagnostic": 0.08094046916812658,
+      "elapsed_seconds": 51.67297663446516
+    },
+    {
+      "update": 18,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.07003011461347342,
+      "old_policy_mean_reward": -0.3552219867706299,
+      "reward_std": 0.08618705719709396,
+      "advantages": [
+        -0.07330744713544846,
+        1.5121736526489258,
+        -0.14344562590122223,
+        -1.295420527458191
+      ],
+      "reference_velocity_mse": 0.008723692037165165,
+      "gradient_norm": 0.6203736066818237,
+      "old_ema_decay": 0.018000000000000002,
+      "method_diagnostic": 0.1047191247344017,
+      "elapsed_seconds": 54.71084881387651
+    },
+    {
+      "update": 19,
+      "condition": "control+Dasatinib",
+      "objective": 0.09675861708819866,
+      "old_policy_mean_reward": -0.3032350540161133,
+      "reward_std": 0.3144620954990387,
+      "advantages": [
+        0.44423961639404297,
+        -1.7142770290374756,
+        0.4693910479545593,
+        0.8006463646888733
+      ],
+      "reference_velocity_mse": 0.006372796953655779,
+      "gradient_norm": 0.2800348699092865,
+      "old_ema_decay": 0.019,
+      "method_diagnostic": 0.11390235088765621,
+      "elapsed_seconds": 57.748651158995926
+    },
+    {
+      "update": 20,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.09502160735428333,
+      "old_policy_mean_reward": 0.32421350479125977,
+      "reward_std": 0.17956358194351196,
+      "advantages": [
+        -0.4498916566371918,
+        -1.1768587827682495,
+        1.5499181747436523,
+        0.07683225721120834
+      ],
+      "reference_velocity_mse": 0.005687932949513197,
+      "gradient_norm": 0.25371718406677246,
+      "old_ema_decay": 0.02,
+      "method_diagnostic": 0.11089286766946316,
+      "elapsed_seconds": 60.79179737903178
+    },
+    {
+      "update": 21,
+      "condition": "control+Panobinostat",
+      "objective": 0.08583690226078033,
+      "old_policy_mean_reward": -0.11069703102111816,
+      "reward_std": 0.06799478083848953,
+      "advantages": [
+        -0.37655168771743774,
+        -1.0425082445144653,
+        -0.22662706673145294,
+        1.6456869840621948
+      ],
+      "reference_velocity_mse": 0.004538447363302112,
+      "gradient_norm": 0.5343298316001892,
+      "old_ema_decay": 0.021,
+      "method_diagnostic": 0.08737729955464602,
+      "elapsed_seconds": 63.85195345245302
+    },
+    {
+      "update": 22,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.06074874009937048,
+      "old_policy_mean_reward": -0.5523471832275391,
+      "reward_std": 0.1285325586795807,
+      "advantages": [
+        -0.09280772507190704,
+        0.22848285734653473,
+        1.332834005355835,
+        -1.4685090780258179
+      ],
+      "reference_velocity_mse": 0.00491326826158911,
+      "gradient_norm": 0.25170838832855225,
+      "old_ema_decay": 0.022,
+      "method_diagnostic": 0.06978754885494709,
+      "elapsed_seconds": 66.90166535042226
+    },
+    {
+      "update": 23,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.09512115642428398,
+      "old_policy_mean_reward": -0.3743913173675537,
+      "reward_std": 0.5197076797485352,
+      "advantages": [
+        -1.578842043876648,
+        -0.03281348943710327,
+        0.48494991660118103,
+        1.1267056465148926
+      ],
+      "reference_velocity_mse": 0.006176310358569026,
+      "gradient_norm": 0.2880905270576477,
+      "old_ema_decay": 0.023,
+      "method_diagnostic": 0.10790191031992435,
+      "elapsed_seconds": 69.94709269609302
+    },
+    {
+      "update": 24,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.11261880211532116,
+      "old_policy_mean_reward": -0.1411731243133545,
+      "reward_std": 0.2062598615884781,
+      "advantages": [
+        0.8432867527008057,
+        0.5565788149833679,
+        -1.6987820863723755,
+        0.2989165186882019
+      ],
+      "reference_velocity_mse": 0.006191166932694614,
+      "gradient_norm": 0.35938557982444763,
+      "old_ema_decay": 0.024,
+      "method_diagnostic": 0.13000320456922054,
+      "elapsed_seconds": 72.99161519110203
+    },
+    {
+      "update": 25,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.055081903003156185,
+      "old_policy_mean_reward": 0.024259328842163086,
+      "reward_std": 0.1185261607170105,
+      "advantages": [
+        -1.3994114398956299,
+        -0.42419299483299255,
+        1.2218025922775269,
+        0.6018018126487732
+      ],
+      "reference_velocity_mse": 0.006983209052123129,
+      "gradient_norm": 0.5567544102668762,
+      "old_ema_decay": 0.025,
+      "method_diagnostic": 0.0916877007111907,
+      "elapsed_seconds": 76.02759482339025
+    },
+    {
+      "update": 26,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.04795878380537033,
+      "old_policy_mean_reward": 0.02721405029296875,
+      "reward_std": 0.2783348262310028,
+      "advantages": [
+        -0.8008080720901489,
+        -0.04586585983633995,
+        1.6471223831176758,
+        -0.800448477268219
+      ],
+      "reference_velocity_mse": 0.004785927594639361,
+      "gradient_norm": 0.494752436876297,
+      "old_ema_decay": 0.026000000000000002,
+      "method_diagnostic": 0.09415315091609955,
+      "elapsed_seconds": 79.11029246728867
+    },
+    {
+      "update": 27,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.07431009877473116,
+      "old_policy_mean_reward": -0.1268317699432373,
+      "reward_std": 0.295132040977478,
+      "advantages": [
+        0.0028127431869506836,
+        1.5672147274017334,
+        -0.39218586683273315,
+        -1.1778416633605957
+      ],
+      "reference_velocity_mse": 0.005493919481523335,
+      "gradient_norm": 0.2849121391773224,
+      "old_ema_decay": 0.027,
+      "method_diagnostic": 0.11021678894758224,
+      "elapsed_seconds": 82.2105916813016
+    },
+    {
+      "update": 28,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.07345080189406872,
+      "old_policy_mean_reward": -0.2889838218688965,
+      "reward_std": 0.32297810912132263,
+      "advantages": [
+        0.7021788954734802,
+        0.644142746925354,
+        0.37164971232414246,
+        -1.7179713249206543
+      ],
+      "reference_velocity_mse": 0.006571887992322445,
+      "gradient_norm": 0.28524476289749146,
+      "old_ema_decay": 0.028,
+      "method_diagnostic": 0.09810329414904118,
+      "elapsed_seconds": 85.31075684260577
+    },
+    {
+      "update": 29,
+      "condition": "control+Givinostat",
+      "objective": 0.10518487729132175,
+      "old_policy_mean_reward": -0.3079853057861328,
+      "reward_std": 0.4007163643836975,
+      "advantages": [
+        0.3423807919025421,
+        -1.504305124282837,
+        -0.10562796890735626,
+        1.2675522565841675
+      ],
+      "reference_velocity_mse": 0.008822642732411623,
+      "gradient_norm": 0.5316731333732605,
+      "old_ema_decay": 0.029,
+      "method_diagnostic": 0.12981939129531384,
+      "elapsed_seconds": 88.43888387642801
+    },
+    {
+      "update": 30,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.12148345820605755,
+      "old_policy_mean_reward": -0.48838019371032715,
+      "reward_std": 0.43144258856773376,
+      "advantages": [
+        -1.5980993509292603,
+        1.1551685333251953,
+        0.14492596685886383,
+        0.2980048656463623
+      ],
+      "reference_velocity_mse": 0.00654092594049871,
+      "gradient_norm": 0.2660389244556427,
+      "old_ema_decay": 0.03,
+      "method_diagnostic": 0.1426452249288559,
+      "elapsed_seconds": 91.51281761284918
+    },
+    {
+      "update": 31,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.07572836522012949,
+      "old_policy_mean_reward": -0.489840030670166,
+      "reward_std": 0.2561933994293213,
+      "advantages": [
+        1.1871243715286255,
+        0.7254046201705933,
+        -1.2972332239151,
+        -0.6152957677841187
+      ],
+      "reference_velocity_mse": 0.008457998046651483,
+      "gradient_norm": 0.27086177468299866,
+      "old_ema_decay": 0.031,
+      "method_diagnostic": 0.112570034340024,
+      "elapsed_seconds": 94.59865372627974
+    },
+    {
+      "update": 32,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.08859778195619583,
+      "old_policy_mean_reward": -1.3205313682556152,
+      "reward_std": 0.3349122107028961,
+      "advantages": [
+        -0.8319821953773499,
+        -0.6863002181053162,
+        1.6761524677276611,
+        -0.15787003934383392
+      ],
+      "reference_velocity_mse": 0.009139024070464075,
+      "gradient_norm": 0.34231632947921753,
+      "old_ema_decay": 0.032,
+      "method_diagnostic": 0.11280011665076017,
+      "elapsed_seconds": 97.67155004758388
+    },
+    {
+      "update": 33,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.08718115836381912,
+      "old_policy_mean_reward": -0.05325198173522949,
+      "reward_std": 0.2634616792201996,
+      "advantages": [
+        0.9044135212898254,
+        -0.7807344794273376,
+        1.0699304342269897,
+        -1.193609595298767
+      ],
+      "reference_velocity_mse": 0.008111135684885085,
+      "gradient_norm": 0.44071170687675476,
+      "old_ema_decay": 0.033,
+      "method_diagnostic": 0.11127619445323944,
+      "elapsed_seconds": 100.7444170601666
+    },
+    {
+      "update": 34,
+      "condition": "control+SRT2104",
+      "objective": 0.07498060911893845,
+      "old_policy_mean_reward": -0.23635125160217285,
+      "reward_std": 0.2963745594024658,
+      "advantages": [
+        0.4993894696235657,
+        1.1638567447662354,
+        -0.12093483656644821,
+        -1.542311429977417
+      ],
+      "reference_velocity_mse": 0.01113883382640779,
+      "gradient_norm": 0.3062424957752228,
+      "old_ema_decay": 0.034,
+      "method_diagnostic": 0.11936651729047298,
+      "elapsed_seconds": 103.82939347997308
+    },
+    {
+      "update": 35,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.12215710896998644,
+      "old_policy_mean_reward": -0.3362452983856201,
+      "reward_std": 0.19019487500190735,
+      "advantages": [
+        0.4024621546268463,
+        -1.1050454378128052,
+        -0.7363398671150208,
+        1.4389231204986572
+      ],
+      "reference_velocity_mse": 0.010424602311104536,
+      "gradient_norm": 0.4892929196357727,
+      "old_ema_decay": 0.035,
+      "method_diagnostic": 0.14279158785939217,
+      "elapsed_seconds": 106.91279332526028
+    },
+    {
+      "update": 36,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.09735151939094067,
+      "old_policy_mean_reward": -0.38675451278686523,
+      "reward_std": 0.1846621185541153,
+      "advantages": [
+        0.08513856679201126,
+        1.5716838836669922,
+        -0.558501660823822,
+        -1.098320722579956
+      ],
+      "reference_velocity_mse": 0.010591749334707856,
+      "gradient_norm": 0.579351544380188,
+      "old_ema_decay": 0.036000000000000004,
+      "method_diagnostic": 0.11380680091679096,
+      "elapsed_seconds": 109.99668350070715
+    },
+    {
+      "update": 37,
+      "condition": "control+Givinostat",
+      "objective": 0.10944618284702301,
+      "old_policy_mean_reward": -0.3183884620666504,
+      "reward_std": 0.13281936943531036,
+      "advantages": [
+        0.9632464647293091,
+        0.3835773468017578,
+        -1.6764177083969116,
+        0.3295938968658447
+      ],
+      "reference_velocity_mse": 0.010045490460470319,
+      "gradient_norm": 0.32831621170043945,
+      "old_ema_decay": 0.037,
+      "method_diagnostic": 0.13327336497604847,
+      "elapsed_seconds": 113.06585002876818
+    },
+    {
+      "update": 38,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.09349425509572029,
+      "old_policy_mean_reward": -0.6072359085083008,
+      "reward_std": 0.34287044405937195,
+      "advantages": [
+        -0.6024543046951294,
+        1.488663673400879,
+        0.273105263710022,
+        -1.1593146324157715
+      ],
+      "reference_velocity_mse": 0.009856927441433072,
+      "gradient_norm": 0.36031991243362427,
+      "old_ema_decay": 0.038,
+      "method_diagnostic": 0.09666881896555424,
+      "elapsed_seconds": 116.13077936973423
+    },
+    {
+      "update": 39,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.0982353463768959,
+      "old_policy_mean_reward": -0.05191373825073242,
+      "reward_std": 0.2868361473083496,
+      "advantages": [
+        0.5926975607872009,
+        1.1820299625396729,
+        -1.4678369760513306,
+        -0.3068905770778656
+      ],
+      "reference_velocity_mse": 0.009425464551895857,
+      "gradient_norm": 0.2950269281864166,
+      "old_ema_decay": 0.039,
+      "method_diagnostic": 0.11322245560586452,
+      "elapsed_seconds": 119.21329924557358
+    },
+    {
+      "update": 40,
+      "condition": "control+SRT2104",
+      "objective": 0.05576476873829961,
+      "old_policy_mean_reward": -0.6599912643432617,
+      "reward_std": 0.3505491316318512,
+      "advantages": [
+        0.1431208699941635,
+        -0.676488995552063,
+        -1.0328075885772705,
+        1.5661756992340088
+      ],
+      "reference_velocity_mse": 0.008456035517156124,
+      "gradient_norm": 0.5242273807525635,
+      "old_ema_decay": 0.04,
+      "method_diagnostic": 0.09669343940913677,
+      "elapsed_seconds": 122.26902760006487
+    },
+    {
+      "update": 41,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.07400822639465332,
+      "old_policy_mean_reward": -1.3159737586975098,
+      "reward_std": 0.7585596442222595,
+      "advantages": [
+        1.0331600904464722,
+        -1.0661325454711914,
+        -0.9307053089141846,
+        0.9636777639389038
+      ],
+      "reference_velocity_mse": 0.008885470451787114,
+      "gradient_norm": 0.8385040760040283,
+      "old_ema_decay": 0.041,
+      "method_diagnostic": 0.1028944831341505,
+      "elapsed_seconds": 125.33662434201688
+    },
+    {
+      "update": 42,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.076717100571841,
+      "old_policy_mean_reward": -0.571418046951294,
+      "reward_std": 0.3026091158390045,
+      "advantages": [
+        -0.534910261631012,
+        1.5713074207305908,
+        -1.1119838953018188,
+        0.0755867287516594
+      ],
+      "reference_velocity_mse": 0.009187851333990693,
+      "gradient_norm": 0.5564648509025574,
+      "old_ema_decay": 0.042,
+      "method_diagnostic": 0.11590887047350407,
+      "elapsed_seconds": 128.4280187143013
+    },
+    {
+      "update": 43,
+      "condition": "control+SRT2104",
+      "objective": 0.07464313227683306,
+      "old_policy_mean_reward": -0.756507396697998,
+      "reward_std": 0.5751689672470093,
+      "advantages": [
+        0.8182736039161682,
+        -1.6795427799224854,
+        0.16864101588726044,
+        0.6926282048225403
+      ],
+      "reference_velocity_mse": 0.011473229038529098,
+      "gradient_norm": 0.2121242731809616,
+      "old_ema_decay": 0.043000000000000003,
+      "method_diagnostic": 0.09663455281406641,
+      "elapsed_seconds": 131.5056909294799
+    },
+    {
+      "update": 44,
+      "condition": "control+Givinostat",
+      "objective": 0.11229085735976696,
+      "old_policy_mean_reward": -0.12381434440612793,
+      "reward_std": 0.3519417941570282,
+      "advantages": [
+        -1.0711369514465332,
+        -0.44781407713890076,
+        1.6244176626205444,
+        -0.10546670109033585
+      ],
+      "reference_velocity_mse": 0.007511567790061235,
+      "gradient_norm": 0.2861897945404053,
+      "old_ema_decay": 0.044,
+      "method_diagnostic": 0.13299663923680782,
+      "elapsed_seconds": 134.59603068884462
+    },
+    {
+      "update": 45,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.03732919250614941,
+      "old_policy_mean_reward": -0.24391889572143555,
+      "reward_std": 0.22921344637870789,
+      "advantages": [
+        1.4886573553085327,
+        -1.0640206336975098,
+        -0.7405763864517212,
+        0.31593963503837585
+      ],
+      "reference_velocity_mse": 0.007697632419876754,
+      "gradient_norm": 0.7440435290336609,
+      "old_ema_decay": 0.045,
+      "method_diagnostic": 0.08495388831943274,
+      "elapsed_seconds": 137.66859081294388
+    },
+    {
+      "update": 46,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.0859079658985138,
+      "old_policy_mean_reward": -0.5235984325408936,
+      "reward_std": 0.2925017178058624,
+      "advantages": [
+        1.2739388942718506,
+        -1.442908763885498,
+        0.45736902952194214,
+        -0.28839921951293945
+      ],
+      "reference_velocity_mse": 0.006818545400165021,
+      "gradient_norm": 0.3914680778980255,
+      "old_ema_decay": 0.046,
+      "method_diagnostic": 0.11773408576846123,
+      "elapsed_seconds": 140.7565690362826
+    },
+    {
+      "update": 47,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.07454797718673944,
+      "old_policy_mean_reward": -0.14862537384033203,
+      "reward_std": 0.10189534723758698,
+      "advantages": [
+        1.1159900426864624,
+        0.7246478796005249,
+        -1.4339520931243896,
+        -0.40668582916259766
+      ],
+      "reference_velocity_mse": 0.006571308360435069,
+      "gradient_norm": 0.4484131634235382,
+      "old_ema_decay": 0.047,
+      "method_diagnostic": 0.11438354663550854,
+      "elapsed_seconds": 143.84797840379179
+    },
+    {
+      "update": 48,
+      "condition": "control+Dasatinib",
+      "objective": 0.12910090014338493,
+      "old_policy_mean_reward": -0.5796709060668945,
+      "reward_std": 0.26791295409202576,
+      "advantages": [
+        0.569429874420166,
+        1.3433061838150024,
+        -1.0960354804992676,
+        -0.8167006373405457
+      ],
+      "reference_velocity_mse": 0.007279123528860509,
+      "gradient_norm": 0.39693179726600647,
+      "old_ema_decay": 0.048,
+      "method_diagnostic": 0.1277899146080017,
+      "elapsed_seconds": 146.94422511942685
+    },
+    {
+      "update": 49,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.12193583138287067,
+      "old_policy_mean_reward": 0.13872718811035156,
+      "reward_std": 0.2552734613418579,
+      "advantages": [
+        -0.5815216898918152,
+        1.4525737762451172,
+        -1.2001711130142212,
+        0.3291190564632416
+      ],
+      "reference_velocity_mse": 0.006422331323847175,
+      "gradient_norm": 0.44444596767425537,
+      "old_ema_decay": 0.049,
+      "method_diagnostic": 0.14024774357676506,
+      "elapsed_seconds": 150.03432927839458
+    },
+    {
+      "update": 50,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.09997455403208733,
+      "old_policy_mean_reward": -0.6659464836120605,
+      "reward_std": 0.4885864555835724,
+      "advantages": [
+        -1.0721385478973389,
+        1.3627196550369263,
+        -0.8343690633773804,
+        0.543787956237793
+      ],
+      "reference_velocity_mse": 0.007221270119771361,
+      "gradient_norm": 0.3541863262653351,
+      "old_ema_decay": 0.05,
+      "method_diagnostic": 0.13199518620967865,
+      "elapsed_seconds": 153.12350459769368
+    },
+    {
+      "update": 51,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.0877792863175273,
+      "old_policy_mean_reward": -0.28029346466064453,
+      "reward_std": 0.16505324840545654,
+      "advantages": [
+        -1.088795781135559,
+        -0.879574716091156,
+        0.7619370222091675,
+        1.2064334154129028
+      ],
+      "reference_velocity_mse": 0.005223016603849828,
+      "gradient_norm": 0.3713530898094177,
+      "old_ema_decay": 0.051000000000000004,
+      "method_diagnostic": 0.12987963296473026,
+      "elapsed_seconds": 156.23780530318618
+    },
+    {
+      "update": 52,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.06916775833815336,
+      "old_policy_mean_reward": -0.23163080215454102,
+      "reward_std": 0.29422566294670105,
+      "advantages": [
+        -1.564720630645752,
+        -0.1327202469110489,
+        1.0616340637207031,
+        0.6358067989349365
+      ],
+      "reference_velocity_mse": 0.009215886937454343,
+      "gradient_norm": 0.34502071142196655,
+      "old_ema_decay": 0.052000000000000005,
+      "method_diagnostic": 0.09426219016313553,
+      "elapsed_seconds": 159.3131072325632
+    },
+    {
+      "update": 53,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.0422867015004158,
+      "old_policy_mean_reward": -0.1917572021484375,
+      "reward_std": 0.2839779853820801,
+      "advantages": [
+        -1.1635291576385498,
+        1.5214483737945557,
+        0.18472032248973846,
+        -0.542639434337616
+      ],
+      "reference_velocity_mse": 0.009440629510208964,
+      "gradient_norm": 0.27280735969543457,
+      "old_ema_decay": 0.053,
+      "method_diagnostic": 0.07502584718167782,
+      "elapsed_seconds": 162.3933830941096
+    },
+    {
+      "update": 54,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.04769128281623125,
+      "old_policy_mean_reward": 0.17334461212158203,
+      "reward_std": 0.10549549758434296,
+      "advantages": [
+        1.280290126800537,
+        -0.15821191668510437,
+        0.3605692982673645,
+        -1.48264741897583
+      ],
+      "reference_velocity_mse": 0.007827907335013151,
+      "gradient_norm": 0.2465418577194214,
+      "old_ema_decay": 0.054,
+      "method_diagnostic": 0.088764114305377,
+      "elapsed_seconds": 165.4607777176425
+    },
+    {
+      "update": 55,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.10838906094431877,
+      "old_policy_mean_reward": 0.10092902183532715,
+      "reward_std": 0.11123616248369217,
+      "advantages": [
+        -0.07131603360176086,
+        0.5607398152351379,
+        1.088242530822754,
+        -1.5776662826538086
+      ],
+      "reference_velocity_mse": 0.008364832610823214,
+      "gradient_norm": 0.2651141285896301,
+      "old_ema_decay": 0.055,
+      "method_diagnostic": 0.12030190974473953,
+      "elapsed_seconds": 168.53793664928526
+    },
+    {
+      "update": 56,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.07720311544835567,
+      "old_policy_mean_reward": -0.4206256866455078,
+      "reward_std": 0.18586291372776031,
+      "advantages": [
+        0.4036744236946106,
+        -1.639913558959961,
+        0.18263940513134003,
+        1.0535997152328491
+      ],
+      "reference_velocity_mse": 0.008155231480486691,
+      "gradient_norm": 0.394951730966568,
+      "old_ema_decay": 0.056,
+      "method_diagnostic": 0.1097527053207159,
+      "elapsed_seconds": 171.64053577370942
+    },
+    {
+      "update": 57,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.0525991702452302,
+      "old_policy_mean_reward": -0.06789326667785645,
+      "reward_std": 0.0919768214225769,
+      "advantages": [
+        1.5546034574508667,
+        -0.08924692869186401,
+        -0.23622845113277435,
+        -1.2291280031204224
+      ],
+      "reference_velocity_mse": 0.008838482666760683,
+      "gradient_norm": 0.4650023579597473,
+      "old_ema_decay": 0.057,
+      "method_diagnostic": 0.08668116014450788,
+      "elapsed_seconds": 174.73162722028792
+    },
+    {
+      "update": 58,
+      "condition": "control+Givinostat",
+      "objective": 0.083491126075387,
+      "old_policy_mean_reward": -1.1985368728637695,
+      "reward_std": 0.8074144721031189,
+      "advantages": [
+        0.664256751537323,
+        -0.13788288831710815,
+        1.0406968593597412,
+        -1.567070722579956
+      ],
+      "reference_velocity_mse": 0.008807574165984988,
+      "gradient_norm": 0.5669492483139038,
+      "old_ema_decay": 0.058,
+      "method_diagnostic": 0.1190846636891365,
+      "elapsed_seconds": 177.83087664935738
+    },
+    {
+      "update": 59,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.08025959599763155,
+      "old_policy_mean_reward": -0.09506082534790039,
+      "reward_std": 0.5104604363441467,
+      "advantages": [
+        -0.26768550276756287,
+        1.1694519519805908,
+        -1.4883244037628174,
+        0.586557924747467
+      ],
+      "reference_velocity_mse": 0.010331286350265145,
+      "gradient_norm": 0.3518472909927368,
+      "old_ema_decay": 0.059000000000000004,
+      "method_diagnostic": 0.09893640130758286,
+      "elapsed_seconds": 180.92137930635363
+    },
+    {
+      "update": 60,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.08738178759813309,
+      "old_policy_mean_reward": -0.13248658180236816,
+      "reward_std": 0.23020026087760925,
+      "advantages": [
+        -0.5078020095825195,
+        -0.83822101354599,
+        1.7050387859344482,
+        -0.35901573300361633
+      ],
+      "reference_velocity_mse": 0.008502450538799167,
+      "gradient_norm": 0.5017864108085632,
+      "old_ema_decay": 0.06,
+      "method_diagnostic": 0.11986405402421951,
+      "elapsed_seconds": 184.00762917101383
+    },
+    {
+      "update": 61,
+      "condition": "control+Givinostat",
+      "objective": 0.11384348198771477,
+      "old_policy_mean_reward": -0.11524248123168945,
+      "reward_std": 0.16865065693855286,
+      "advantages": [
+        1.1890195608139038,
+        0.45332837104797363,
+        -1.5378793478012085,
+        -0.10446861386299133
+      ],
+      "reference_velocity_mse": 0.007735154707916081,
+      "gradient_norm": 0.5928548574447632,
+      "old_ema_decay": 0.061,
+      "method_diagnostic": 0.13786434940993786,
+      "elapsed_seconds": 187.1027128957212
+    },
+    {
+      "update": 62,
+      "condition": "control+Dasatinib",
+      "objective": 0.09891869314014912,
+      "old_policy_mean_reward": 0.23431921005249023,
+      "reward_std": 0.2779979407787323,
+      "advantages": [
+        -0.37701618671417236,
+        0.5627526044845581,
+        1.233978271484375,
+        -1.4197146892547607
+      ],
+      "reference_velocity_mse": 0.008339746156707406,
+      "gradient_norm": 0.29494088888168335,
+      "old_ema_decay": 0.062,
+      "method_diagnostic": 0.12843981012701988,
+      "elapsed_seconds": 190.20065247826278
+    },
+    {
+      "update": 63,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.0730282433796674,
+      "old_policy_mean_reward": 0.038518667221069336,
+      "reward_std": 0.22690193355083466,
+      "advantages": [
+        0.22406218945980072,
+        1.4379825592041016,
+        -0.3323831260204315,
+        -1.3296617269515991
+      ],
+      "reference_velocity_mse": 0.0066975022200495005,
+      "gradient_norm": 0.24372926354408264,
+      "old_ema_decay": 0.063,
+      "method_diagnostic": 0.10258043371140957,
+      "elapsed_seconds": 193.277262205258
+    },
+    {
+      "update": 64,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.10028582834638655,
+      "old_policy_mean_reward": -0.3612802028656006,
+      "reward_std": 0.1616704910993576,
+      "advantages": [
+        -0.2522348165512085,
+        -0.7381197214126587,
+        -0.7081955075263977,
+        1.6985499858856201
+      ],
+      "reference_velocity_mse": 0.0076500046998262405,
+      "gradient_norm": 0.5266594290733337,
+      "old_ema_decay": 0.064,
+      "method_diagnostic": 0.1399692613631487,
+      "elapsed_seconds": 196.35442995280027
+    },
+    {
+      "update": 65,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.0930798389017582,
+      "old_policy_mean_reward": -0.18819570541381836,
+      "reward_std": 0.2566123306751251,
+      "advantages": [
+        -1.6144648790359497,
+        0.1463933140039444,
+        1.1157026290893555,
+        0.35236892104148865
+      ],
+      "reference_velocity_mse": 0.00807852833531797,
+      "gradient_norm": 0.37036141753196716,
+      "old_ema_decay": 0.065,
+      "method_diagnostic": 0.13245905749499798,
+      "elapsed_seconds": 199.44316479563713
+    },
+    {
+      "update": 66,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.06260365108028054,
+      "old_policy_mean_reward": 0.010393619537353516,
+      "reward_std": 0.1615312099456787,
+      "advantages": [
+        0.22937162220478058,
+        -1.685550570487976,
+        0.8714965581893921,
+        0.5846824645996094
+      ],
+      "reference_velocity_mse": 0.008489558473229408,
+      "gradient_norm": 0.6076403856277466,
+      "old_ema_decay": 0.066,
+      "method_diagnostic": 0.08774156123399734,
+      "elapsed_seconds": 202.54890681244433
+    },
+    {
+      "update": 67,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.12418020702898502,
+      "old_policy_mean_reward": 0.34415555000305176,
+      "reward_std": 0.27157455682754517,
+      "advantages": [
+        -0.38216978311538696,
+        -0.7755472660064697,
+        -0.5567854046821594,
+        1.7145024538040161
+      ],
+      "reference_velocity_mse": 0.0068323805462569,
+      "gradient_norm": 0.30236124992370605,
+      "old_ema_decay": 0.067,
+      "method_diagnostic": 0.13757374696433544,
+      "elapsed_seconds": 205.6441436894238
+    },
+    {
+      "update": 68,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.08191405097022653,
+      "old_policy_mean_reward": -0.11579155921936035,
+      "reward_std": 0.3594413101673126,
+      "advantages": [
+        1.5673719644546509,
+        -1.207334280014038,
+        -0.08345150202512741,
+        -0.2765861749649048
+      ],
+      "reference_velocity_mse": 0.007505638990551233,
+      "gradient_norm": 0.30011898279190063,
+      "old_ema_decay": 0.068,
+      "method_diagnostic": 0.12526905164122581,
+      "elapsed_seconds": 208.77066107280552
+    },
+    {
+      "update": 69,
+      "condition": "control+SRT2104",
+      "objective": 0.10373757127672434,
+      "old_policy_mean_reward": -0.48667025566101074,
+      "reward_std": 0.4713606834411621,
+      "advantages": [
+        -0.40868857502937317,
+        0.23456023633480072,
+        1.45839524269104,
+        -1.2842669486999512
+      ],
+      "reference_velocity_mse": 0.009356579626910388,
+      "gradient_norm": 0.2875688076019287,
+      "old_ema_decay": 0.069,
+      "method_diagnostic": 0.12327160686254501,
+      "elapsed_seconds": 211.8867171984166
+    },
+    {
+      "update": 70,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.11283045820891857,
+      "old_policy_mean_reward": -0.35178303718566895,
+      "reward_std": 0.3439311683177948,
+      "advantages": [
+        -1.167279601097107,
+        1.5187418460845947,
+        -0.5409663915634155,
+        0.18950411677360535
+      ],
+      "reference_velocity_mse": 0.008841102244332433,
+      "gradient_norm": 0.2549765408039093,
+      "old_ema_decay": 0.07,
+      "method_diagnostic": 0.14260814897716045,
+      "elapsed_seconds": 214.97921494487673
+    },
+    {
+      "update": 71,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.1566152460873127,
+      "old_policy_mean_reward": 0.34354329109191895,
+      "reward_std": 0.19244635105133057,
+      "advantages": [
+        0.15700757503509521,
+        1.1119976043701172,
+        0.3477064371109009,
+        -1.6167116165161133
+      ],
+      "reference_velocity_mse": 0.006754447240382433,
+      "gradient_norm": 0.4354274868965149,
+      "old_ema_decay": 0.07100000000000001,
+      "method_diagnostic": 0.16790715232491493,
+      "elapsed_seconds": 218.07902322430164
+    },
+    {
+      "update": 72,
+      "condition": "control+SRT2104",
+      "objective": 0.10257384739816189,
+      "old_policy_mean_reward": 0.12702417373657227,
+      "reward_std": 0.352791965007782,
+      "advantages": [
+        -1.240708827972412,
+        0.2896638810634613,
+        1.4558863639831543,
+        -0.5048413872718811
+      ],
+      "reference_velocity_mse": 0.00846879929304123,
+      "gradient_norm": 0.2441667914390564,
+      "old_ema_decay": 0.07200000000000001,
+      "method_diagnostic": 0.13345318101346493,
+      "elapsed_seconds": 221.1788715077564
+    },
+    {
+      "update": 73,
+      "condition": "control+Dasatinib",
+      "objective": 0.0866399398073554,
+      "old_policy_mean_reward": -0.10582852363586426,
+      "reward_std": 0.2744494378566742,
+      "advantages": [
+        -0.5441173911094666,
+        1.6818543672561646,
+        -0.23333458602428436,
+        -0.9044024348258972
+      ],
+      "reference_velocity_mse": 0.008655353682115674,
+      "gradient_norm": 0.32529112696647644,
+      "old_ema_decay": 0.073,
+      "method_diagnostic": 0.10480533912777901,
+      "elapsed_seconds": 224.270620489493
+    },
+    {
+      "update": 74,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.07385817309841514,
+      "old_policy_mean_reward": -0.5837979316711426,
+      "reward_std": 0.43577873706817627,
+      "advantages": [
+        -1.2244701385498047,
+        1.3604217767715454,
+        0.49720054864883423,
+        -0.6331522464752197
+      ],
+      "reference_velocity_mse": 0.008836692897602916,
+      "gradient_norm": 0.34777170419692993,
+      "old_ema_decay": 0.074,
+      "method_diagnostic": 0.10843519028276205,
+      "elapsed_seconds": 227.359215663746
+    },
+    {
+      "update": 75,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.05190626415424049,
+      "old_policy_mean_reward": -0.2616555690765381,
+      "reward_std": 0.24180369079113007,
+      "advantages": [
+        -0.17473085224628448,
+        1.387804627418518,
+        0.20104815065860748,
+        -1.4141218662261963
+      ],
+      "reference_velocity_mse": 0.007451797486282885,
+      "gradient_norm": 0.5355613231658936,
+      "old_ema_decay": 0.075,
+      "method_diagnostic": 0.08234137296676636,
+      "elapsed_seconds": 230.4559590788558
+    },
+    {
+      "update": 76,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.07308563776314259,
+      "old_policy_mean_reward": -0.5915017127990723,
+      "reward_std": 0.1713196188211441,
+      "advantages": [
+        1.1755361557006836,
+        0.7968194484710693,
+        -0.8568817973136902,
+        -1.115473747253418
+      ],
+      "reference_velocity_mse": 0.008059170912019908,
+      "gradient_norm": 0.3541865348815918,
+      "old_ema_decay": 0.076,
+      "method_diagnostic": 0.11709596402943134,
+      "elapsed_seconds": 233.55373064428568
+    },
+    {
+      "update": 77,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.12261911481618881,
+      "old_policy_mean_reward": -0.17877864837646484,
+      "reward_std": 0.31292879581451416,
+      "advantages": [
+        0.6446580290794373,
+        1.244409203529358,
+        -1.2973926067352295,
+        -0.5916745662689209
+      ],
+      "reference_velocity_mse": 0.008004386094398797,
+      "gradient_norm": 0.19891391694545746,
+      "old_ema_decay": 0.077,
+      "method_diagnostic": 0.1350499615073204,
+      "elapsed_seconds": 236.6465412247926
+    },
+    {
+      "update": 78,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.0806087339296937,
+      "old_policy_mean_reward": -0.8340940475463867,
+      "reward_std": 0.3183196485042572,
+      "advantages": [
+        0.7721230387687683,
+        -0.6259898543357849,
+        -1.2975610494613647,
+        1.1514278650283813
+      ],
+      "reference_velocity_mse": 0.006099306629039347,
+      "gradient_norm": 0.5350874662399292,
+      "old_ema_decay": 0.078,
+      "method_diagnostic": 0.118897195905447,
+      "elapsed_seconds": 239.73969284072518
+    },
+    {
+      "update": 79,
+      "condition": "control+Givinostat",
+      "objective": 0.08664359524846077,
+      "old_policy_mean_reward": 0.12237739562988281,
+      "reward_std": 0.30206218361854553,
+      "advantages": [
+        -0.5561608076095581,
+        1.5391584634780884,
+        0.15498672425746918,
+        -1.1379843950271606
+      ],
+      "reference_velocity_mse": 0.007419564644806087,
+      "gradient_norm": 0.28473830223083496,
+      "old_ema_decay": 0.079,
+      "method_diagnostic": 0.12301420886069536,
+      "elapsed_seconds": 242.84412021934986
+    },
+    {
+      "update": 80,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.10711000300943851,
+      "old_policy_mean_reward": 0.09018540382385254,
+      "reward_std": 0.05261664092540741,
+      "advantages": [
+        0.12062342464923859,
+        0.1618880182504654,
+        -1.5384269952774048,
+        1.2559155225753784
+      ],
+      "reference_velocity_mse": 0.007674104999750853,
+      "gradient_norm": 0.45247820019721985,
+      "old_ema_decay": 0.08,
+      "method_diagnostic": 0.13383437134325504,
+      "elapsed_seconds": 245.94466069806367
+    },
+    {
+      "update": 81,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.0862799696624279,
+      "old_policy_mean_reward": -0.22393155097961426,
+      "reward_std": 0.37577083706855774,
+      "advantages": [
+        -1.6194356679916382,
+        0.9752799868583679,
+        0.6512135863304138,
+        -0.007057966198772192
+      ],
+      "reference_velocity_mse": 0.007069970830343664,
+      "gradient_norm": 0.3202265501022339,
+      "old_ema_decay": 0.081,
+      "method_diagnostic": 0.12698236107826233,
+      "elapsed_seconds": 249.04022734891623
+    },
+    {
+      "update": 82,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.03377778409048915,
+      "old_policy_mean_reward": 0.2400364875793457,
+      "reward_std": 0.2909865081310272,
+      "advantages": [
+        -0.3760144114494324,
+        -0.7319109439849854,
+        -0.6093133687973022,
+        1.7172387838363647
+      ],
+      "reference_velocity_mse": 0.008312028949148953,
+      "gradient_norm": 0.21873530745506287,
+      "old_ema_decay": 0.082,
+      "method_diagnostic": 0.08195852860808372,
+      "elapsed_seconds": 252.12553615681827
+    },
+    {
+      "update": 83,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.09325563535094261,
+      "old_policy_mean_reward": -0.163893461227417,
+      "reward_std": 0.2664564549922943,
+      "advantages": [
+        -0.2862858772277832,
+        -1.343345046043396,
+        0.18926963210105896,
+        1.4403613805770874
+      ],
+      "reference_velocity_mse": 0.011348173138685524,
+      "gradient_norm": 0.25370585918426514,
+      "old_ema_decay": 0.083,
+      "method_diagnostic": 0.11202315986156464,
+      "elapsed_seconds": 255.20660245977342
+    },
+    {
+      "update": 84,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.07148149702697992,
+      "old_policy_mean_reward": -0.6323764324188232,
+      "reward_std": 0.31939569115638733,
+      "advantages": [
+        -1.3623018264770508,
+        -0.3294093906879425,
+        0.2971407175064087,
+        1.3945704698562622
+      ],
+      "reference_velocity_mse": 0.009427697863429785,
+      "gradient_norm": 0.3701777160167694,
+      "old_ema_decay": 0.084,
+      "method_diagnostic": 0.0926102651283145,
+      "elapsed_seconds": 258.28527575172484
+    },
+    {
+      "update": 85,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.073723578825593,
+      "old_policy_mean_reward": 0.17898201942443848,
+      "reward_std": 0.14424465596675873,
+      "advantages": [
+        -1.4927901029586792,
+        1.292352557182312,
+        0.2948653995990753,
+        -0.09442782402038574
+      ],
+      "reference_velocity_mse": 0.009314360097050667,
+      "gradient_norm": 0.45246344804763794,
+      "old_ema_decay": 0.085,
+      "method_diagnostic": 0.11217732541263103,
+      "elapsed_seconds": 261.3839390464127
+    },
+    {
+      "update": 86,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.061843049712479115,
+      "old_policy_mean_reward": -0.12135124206542969,
+      "reward_std": 0.2564023733139038,
+      "advantages": [
+        0.039656125009059906,
+        -1.4721843004226685,
+        1.349475622177124,
+        0.08305255323648453
+      ],
+      "reference_velocity_mse": 0.0087193165672943,
+      "gradient_norm": 0.3688196837902069,
+      "old_ema_decay": 0.08600000000000001,
+      "method_diagnostic": 0.09029462561011314,
+      "elapsed_seconds": 264.46124985348433
+    },
+    {
+      "update": 87,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.046125905122607946,
+      "old_policy_mean_reward": 0.0520937442779541,
+      "reward_std": 0.14003364741802216,
+      "advantages": [
+        -0.41990557312965393,
+        0.31640467047691345,
+        -1.3106930255889893,
+        1.414193868637085
+      ],
+      "reference_velocity_mse": 0.009479686850681901,
+      "gradient_norm": 0.3566158711910248,
+      "old_ema_decay": 0.08700000000000001,
+      "method_diagnostic": 0.07143827341496944,
+      "elapsed_seconds": 267.54466169700027
+    },
+    {
+      "update": 88,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.07154000224545598,
+      "old_policy_mean_reward": -0.06692719459533691,
+      "reward_std": 0.25166988372802734,
+      "advantages": [
+        0.16519801318645477,
+        -1.6391174793243408,
+        0.42342543601989746,
+        1.0504939556121826
+      ],
+      "reference_velocity_mse": 0.006763270823284984,
+      "gradient_norm": 0.5117365121841431,
+      "old_ema_decay": 0.088,
+      "method_diagnostic": 0.11697386763989925,
+      "elapsed_seconds": 270.62538119684905
+    },
+    {
+      "update": 89,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.1270007509738207,
+      "old_policy_mean_reward": 0.24499773979187012,
+      "reward_std": 0.04405837133526802,
+      "advantages": [
+        -1.6017341613769531,
+        0.8651900887489319,
+        -0.07700836658477783,
+        0.8135524392127991
+      ],
+      "reference_velocity_mse": 0.006921987165696919,
+      "gradient_norm": 0.35886579751968384,
+      "old_ema_decay": 0.089,
+      "method_diagnostic": 0.1669430024921894,
+      "elapsed_seconds": 273.7185774240643
+    },
+    {
+      "update": 90,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.043749239295721054,
+      "old_policy_mean_reward": -0.10490751266479492,
+      "reward_std": 0.08644329756498337,
+      "advantages": [
+        0.7970876693725586,
+        0.9522659778594971,
+        -0.19700326025485992,
+        -1.552350401878357
+      ],
+      "reference_velocity_mse": 0.007919678464531898,
+      "gradient_norm": 0.4332908093929291,
+      "old_ema_decay": 0.09,
+      "method_diagnostic": 0.06465002056211233,
+      "elapsed_seconds": 276.8133783293888
+    },
+    {
+      "update": 91,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.12059552408754826,
+      "old_policy_mean_reward": 0.07746505737304688,
+      "reward_std": 0.28479835391044617,
+      "advantages": [
+        1.022720456123352,
+        -1.527099609375,
+        0.7481750845909119,
+        -0.24379591643810272
+      ],
+      "reference_velocity_mse": 0.008436917094513774,
+      "gradient_norm": 0.49420198798179626,
+      "old_ema_decay": 0.091,
+      "method_diagnostic": 0.1475079096853733,
+      "elapsed_seconds": 279.94815889466554
+    },
+    {
+      "update": 92,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.07717331917956471,
+      "old_policy_mean_reward": -0.1669001579284668,
+      "reward_std": 0.2648189663887024,
+      "advantages": [
+        -0.5229695439338684,
+        0.6408329606056213,
+        1.226733684539795,
+        -1.3445971012115479
+      ],
+      "reference_velocity_mse": 0.006170587381348014,
+      "gradient_norm": 0.36924996972084045,
+      "old_ema_decay": 0.092,
+      "method_diagnostic": 0.1208176463842392,
+      "elapsed_seconds": 283.0574453724548
+    },
+    {
+      "update": 93,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.06841870676726103,
+      "old_policy_mean_reward": 0.07452511787414551,
+      "reward_std": 0.29174450039863586,
+      "advantages": [
+        -1.6460864543914795,
+        0.9000219702720642,
+        0.057348161935806274,
+        0.6887163519859314
+      ],
+      "reference_velocity_mse": 0.008578048553317785,
+      "gradient_norm": 0.2503191828727722,
+      "old_ema_decay": 0.093,
+      "method_diagnostic": 0.10626030154526234,
+      "elapsed_seconds": 286.1457171663642
+    },
+    {
+      "update": 94,
+      "condition": "control+Dasatinib",
+      "objective": 0.11963514424860477,
+      "old_policy_mean_reward": -0.0585176944732666,
+      "reward_std": 0.21242080628871918,
+      "advantages": [
+        1.31102454662323,
+        -1.2499617338180542,
+        -0.6276839971542358,
+        0.5666211843490601
+      ],
+      "reference_velocity_mse": 0.009764140704646707,
+      "gradient_norm": 0.22185967862606049,
+      "old_ema_decay": 0.094,
+      "method_diagnostic": 0.15793418139219284,
+      "elapsed_seconds": 289.23138535860926
+    },
+    {
+      "update": 95,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.0825428906828165,
+      "old_policy_mean_reward": 0.20348048210144043,
+      "reward_std": 0.3293563723564148,
+      "advantages": [
+        -1.6228004693984985,
+        0.9208047389984131,
+        -0.01629638485610485,
+        0.7182921767234802
+      ],
+      "reference_velocity_mse": 0.0093028056435287,
+      "gradient_norm": 0.2605774700641632,
+      "old_ema_decay": 0.095,
+      "method_diagnostic": 0.11609126068651676,
+      "elapsed_seconds": 292.32721617259085
+    },
+    {
+      "update": 96,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.06869319314137101,
+      "old_policy_mean_reward": -0.6824147701263428,
+      "reward_std": 0.38520917296409607,
+      "advantages": [
+        -1.6396849155426025,
+        0.4071885645389557,
+        0.17805230617523193,
+        1.0544440746307373
+      ],
+      "reference_velocity_mse": 0.006664452375844121,
+      "gradient_norm": 0.31135252118110657,
+      "old_ema_decay": 0.096,
+      "method_diagnostic": 0.09255489893257618,
+      "elapsed_seconds": 295.3997911820188
+    },
+    {
+      "update": 97,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.09305337816476822,
+      "old_policy_mean_reward": -0.03556942939758301,
+      "reward_std": 0.30321767926216125,
+      "advantages": [
+        1.1981333494186401,
+        0.7714698910713196,
+        -1.101002812385559,
+        -0.8686003088951111
+      ],
+      "reference_velocity_mse": 0.010942364111542702,
+      "gradient_norm": 0.3610522150993347,
+      "old_ema_decay": 0.097,
+      "method_diagnostic": 0.12098623625934124,
+      "elapsed_seconds": 298.4789553117007
+    },
+    {
+      "update": 98,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.07888214662671089,
+      "old_policy_mean_reward": -0.07027506828308105,
+      "reward_std": 0.0855427160859108,
+      "advantages": [
+        1.7139731645584106,
+        -0.5818325877189636,
+        -0.3742891550064087,
+        -0.7578514218330383
+      ],
+      "reference_velocity_mse": 0.012951823882758617,
+      "gradient_norm": 0.5401955842971802,
+      "old_ema_decay": 0.098,
+      "method_diagnostic": 0.11474933847784996,
+      "elapsed_seconds": 301.5471351677552
+    },
+    {
+      "update": 99,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.10972972959280014,
+      "old_policy_mean_reward": -0.08267068862915039,
+      "reward_std": 0.18436381220817566,
+      "advantages": [
+        -0.8344891667366028,
+        0.7467287182807922,
+        1.213888168334961,
+        -1.1261277198791504
+      ],
+      "reference_velocity_mse": 0.008570943376980722,
+      "gradient_norm": 0.27737414836883545,
+      "old_ema_decay": 0.099,
+      "method_diagnostic": 0.13909197226166725,
+      "elapsed_seconds": 304.632444771938
+    },
+    {
+      "update": 100,
+      "condition": "control+SRT2104",
+      "objective": 0.11358874198049307,
+      "old_policy_mean_reward": -0.38187217712402344,
+      "reward_std": 0.10199127346277237,
+      "advantages": [
+        -0.3658648431301117,
+        1.1053946018218994,
+        -1.4567242860794067,
+        0.7171944975852966
+      ],
+      "reference_velocity_mse": 0.007657616981305182,
+      "gradient_norm": 0.18032190203666687,
+      "old_ema_decay": 0.1,
+      "method_diagnostic": 0.1387952696532011,
+      "elapsed_seconds": 307.71547060552984
+    },
+    {
+      "update": 101,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.07313018385320902,
+      "old_policy_mean_reward": -0.45659589767456055,
+      "reward_std": 0.19188424944877625,
+      "advantages": [
+        -0.6577986478805542,
+        -1.2073240280151367,
+        0.5046816468238831,
+        1.3604410886764526
+      ],
+      "reference_velocity_mse": 0.011802784400060773,
+      "gradient_norm": 0.15404000878334045,
+      "old_ema_decay": 0.101,
+      "method_diagnostic": 0.10863998159766197,
+      "elapsed_seconds": 310.78800618276
+    },
+    {
+      "update": 102,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.024168829899281263,
+      "old_policy_mean_reward": -0.4124746322631836,
+      "reward_std": 0.0659344494342804,
+      "advantages": [
+        0.6928007006645203,
+        0.426777720451355,
+        0.6019023060798645,
+        -1.7214807271957397
+      ],
+      "reference_velocity_mse": 0.008392311283387244,
+      "gradient_norm": 0.5397956967353821,
+      "old_ema_decay": 0.10200000000000001,
+      "method_diagnostic": 0.05913341883569956,
+      "elapsed_seconds": 313.8571322988719
+    },
+    {
+      "update": 103,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.08826128765940666,
+      "old_policy_mean_reward": 0.4057471752166748,
+      "reward_std": 0.22417286038398743,
+      "advantages": [
+        1.6317299604415894,
+        -0.10321063548326492,
+        -1.0426956415176392,
+        -0.4858236312866211
+      ],
+      "reference_velocity_mse": 0.00837564782705158,
+      "gradient_norm": 0.35271528363227844,
+      "old_ema_decay": 0.10300000000000001,
+      "method_diagnostic": 0.11420050635933876,
+      "elapsed_seconds": 316.9424029830843
+    },
+    {
+      "update": 104,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.11553641967475414,
+      "old_policy_mean_reward": -0.364060640335083,
+      "reward_std": 0.46504902839660645,
+      "advantages": [
+        1.3423888683319092,
+        0.39714932441711426,
+        -0.357153981924057,
+        -1.382384181022644
+      ],
+      "reference_velocity_mse": 0.009481711313128471,
+      "gradient_norm": 0.257399320602417,
+      "old_ema_decay": 0.10400000000000001,
+      "method_diagnostic": 0.14122885651886463,
+      "elapsed_seconds": 320.03239545226097
+    },
+    {
+      "update": 105,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.08214743668213487,
+      "old_policy_mean_reward": -0.3421783447265625,
+      "reward_std": 0.3185761570930481,
+      "advantages": [
+        0.9923833012580872,
+        0.6673077940940857,
+        -1.6012333631515503,
+        -0.05845769867300987
+      ],
+      "reference_velocity_mse": 0.008541586576029658,
+      "gradient_norm": 0.22554466128349304,
+      "old_ema_decay": 0.105,
+      "method_diagnostic": 0.10626816563308239,
+      "elapsed_seconds": 323.14516896754503
+    },
+    {
+      "update": 106,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.06820801552385092,
+      "old_policy_mean_reward": -0.2335827350616455,
+      "reward_std": 0.285230815410614,
+      "advantages": [
+        0.9195069670677185,
+        0.9545882344245911,
+        -1.4291596412658691,
+        -0.4449356198310852
+      ],
+      "reference_velocity_mse": 0.009480283129960299,
+      "gradient_norm": 0.26169154047966003,
+      "old_ema_decay": 0.106,
+      "method_diagnostic": 0.11371763236820698,
+      "elapsed_seconds": 326.2456079935655
+    },
+    {
+      "update": 107,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.07379155606031418,
+      "old_policy_mean_reward": -0.2625246047973633,
+      "reward_std": 0.26812171936035156,
+      "advantages": [
+        0.12745560705661774,
+        -0.1490982174873352,
+        1.4176454544067383,
+        -1.3960028886795044
+      ],
+      "reference_velocity_mse": 0.01004250894766301,
+      "gradient_norm": 0.40206336975097656,
+      "old_ema_decay": 0.107,
+      "method_diagnostic": 0.10909188725054264,
+      "elapsed_seconds": 329.4220325211063
+    },
+    {
+      "update": 108,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.07698446232825518,
+      "old_policy_mean_reward": -0.06204843521118164,
+      "reward_std": 0.2114524096250534,
+      "advantages": [
+        -1.202781319618225,
+        1.1683132648468018,
+        -0.7521770000457764,
+        0.7866449952125549
+      ],
+      "reference_velocity_mse": 0.008593972539529204,
+      "gradient_norm": 0.3945348262786865,
+      "old_ema_decay": 0.108,
+      "method_diagnostic": 0.10802069865167141,
+      "elapsed_seconds": 332.57515037897974
+    },
+    {
+      "update": 109,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.11077067442238331,
+      "old_policy_mean_reward": -0.39696764945983887,
+      "reward_std": 0.503167450428009,
+      "advantages": [
+        -0.3648267686367035,
+        -1.4435452222824097,
+        0.6336455941200256,
+        1.1747264862060547
+      ],
+      "reference_velocity_mse": 0.009469109354540706,
+      "gradient_norm": 0.4482142925262451,
+      "old_ema_decay": 0.109,
+      "method_diagnostic": 0.1242345329374075,
+      "elapsed_seconds": 335.6637120973319
+    },
+    {
+      "update": 110,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.04767449013888836,
+      "old_policy_mean_reward": -0.09671902656555176,
+      "reward_std": 0.33795759081840515,
+      "advantages": [
+        -1.39580237865448,
+        0.7198626399040222,
+        -0.46909889578819275,
+        1.1450386047363281
+      ],
+      "reference_velocity_mse": 0.008962099207565188,
+      "gradient_norm": 0.26047053933143616,
+      "old_ema_decay": 0.11,
+      "method_diagnostic": 0.08555455878376961,
+      "elapsed_seconds": 338.75314063206315
+    },
+    {
+      "update": 111,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.06701307184994221,
+      "old_policy_mean_reward": -0.5121331214904785,
+      "reward_std": 0.2861160635948181,
+      "advantages": [
+        -1.5085201263427734,
+        -0.25986334681510925,
+        0.671526312828064,
+        1.0968571901321411
+      ],
+      "reference_velocity_mse": 0.007713905768468976,
+      "gradient_norm": 0.3369649350643158,
+      "old_ema_decay": 0.111,
+      "method_diagnostic": 0.09767170622944832,
+      "elapsed_seconds": 341.8394177239388
+    },
+    {
+      "update": 112,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.07510477909818292,
+      "old_policy_mean_reward": -0.15729546546936035,
+      "reward_std": 0.4026089906692505,
+      "advantages": [
+        -1.0930676460266113,
+        1.628679871559143,
+        -0.32771551609039307,
+        -0.20789672434329987
+      ],
+      "reference_velocity_mse": 0.009009234490804374,
+      "gradient_norm": 0.24980607628822327,
+      "old_ema_decay": 0.112,
+      "method_diagnostic": 0.11523715779185295,
+      "elapsed_seconds": 344.9204014390707
+    },
+    {
+      "update": 113,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.08391949720680714,
+      "old_policy_mean_reward": -0.04490017890930176,
+      "reward_std": 0.40914344787597656,
+      "advantages": [
+        -1.4093067646026611,
+        -0.3989504277706146,
+        0.574097216129303,
+        1.2341599464416504
+      ],
+      "reference_velocity_mse": 0.009309524204581976,
+      "gradient_norm": 0.38308990001678467,
+      "old_ema_decay": 0.113,
+      "method_diagnostic": 0.10683567076921463,
+      "elapsed_seconds": 348.0026383558288
+    },
+    {
+      "update": 114,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.07167600374668837,
+      "old_policy_mean_reward": -0.5480289459228516,
+      "reward_std": 0.20519569516181946,
+      "advantages": [
+        0.036401115357875824,
+        -1.0940728187561035,
+        -0.5290982723236084,
+        1.586769938468933
+      ],
+      "reference_velocity_mse": 0.007079000119119883,
+      "gradient_norm": 0.448052316904068,
+      "old_ema_decay": 0.114,
+      "method_diagnostic": 0.08442008960992098,
+      "elapsed_seconds": 351.08789234329015
+    },
+    {
+      "update": 115,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.10884661972522736,
+      "old_policy_mean_reward": -0.5644919872283936,
+      "reward_std": 0.2927239239215851,
+      "advantages": [
+        1.6307108402252197,
+        -1.023641586303711,
+        -0.5336890816688538,
+        -0.07338017970323563
+      ],
+      "reference_velocity_mse": 0.0065738309640437365,
+      "gradient_norm": 0.43314722180366516,
+      "old_ema_decay": 0.115,
+      "method_diagnostic": 0.14569150656461716,
+      "elapsed_seconds": 354.1729817427695
+    },
+    {
+      "update": 116,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.08004715200513601,
+      "old_policy_mean_reward": -0.1518402099609375,
+      "reward_std": 0.192305326461792,
+      "advantages": [
+        -0.05607886239886284,
+        0.6824283003807068,
+        -1.603684902191162,
+        0.977335512638092
+      ],
+      "reference_velocity_mse": 0.007728440570645034,
+      "gradient_norm": 0.3159859776496887,
+      "old_ema_decay": 0.116,
+      "method_diagnostic": 0.10429603792726994,
+      "elapsed_seconds": 357.2468961775303
+    },
+    {
+      "update": 117,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.06974667310714722,
+      "old_policy_mean_reward": 0.2648656368255615,
+      "reward_std": 0.1486021876335144,
+      "advantages": [
+        -0.6807207465171814,
+        -1.2588557004928589,
+        0.7887563109397888,
+        1.1508201360702515
+      ],
+      "reference_velocity_mse": 0.009134987834841013,
+      "gradient_norm": 0.2963012456893921,
+      "old_ema_decay": 0.117,
+      "method_diagnostic": 0.09813840873539448,
+      "elapsed_seconds": 360.3193714246154
+    },
+    {
+      "update": 118,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.09740568324923515,
+      "old_policy_mean_reward": 0.1672050952911377,
+      "reward_std": 0.16868478059768677,
+      "advantages": [
+        -1.413346529006958,
+        -0.322014182806015,
+        0.42706626653671265,
+        1.3082945346832275
+      ],
+      "reference_velocity_mse": 0.009733285056427121,
+      "gradient_norm": 0.2231408953666687,
+      "old_ema_decay": 0.11800000000000001,
+      "method_diagnostic": 0.11906649731099606,
+      "elapsed_seconds": 363.388974561356
+    },
+    {
+      "update": 119,
+      "condition": "control+Dasatinib",
+      "objective": 0.1014479836449027,
+      "old_policy_mean_reward": 0.19541454315185547,
+      "reward_std": 0.2521004378795624,
+      "advantages": [
+        0.5170781016349792,
+        -0.34685778617858887,
+        -1.4257557392120361,
+        1.255535364151001
+      ],
+      "reference_velocity_mse": 0.007946972968056798,
+      "gradient_norm": 0.3188481330871582,
+      "old_ema_decay": 0.11900000000000001,
+      "method_diagnostic": 0.14373506978154182,
+      "elapsed_seconds": 366.46171202044934
+    },
+    {
+      "update": 120,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.08420111425220966,
+      "old_policy_mean_reward": -0.28977274894714355,
+      "reward_std": 0.2623927593231201,
+      "advantages": [
+        1.6762086153030396,
+        -0.8248192667961121,
+        -0.6945056319236755,
+        -0.15688374638557434
+      ],
+      "reference_velocity_mse": 0.01020867214538157,
+      "gradient_norm": 0.2189382165670395,
+      "old_ema_decay": 0.12,
+      "method_diagnostic": 0.1036533061414957,
+      "elapsed_seconds": 369.5452849268913
+    },
+    {
+      "update": 121,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.0832590265199542,
+      "old_policy_mean_reward": 0.1599438190460205,
+      "reward_std": 0.1289203017950058,
+      "advantages": [
+        -0.8927739858627319,
+        1.4195221662521362,
+        0.45876896381378174,
+        -0.985517144203186
+      ],
+      "reference_velocity_mse": 0.007420378387905657,
+      "gradient_norm": 0.8573839068412781,
+      "old_ema_decay": 0.121,
+      "method_diagnostic": 0.09768507443368435,
+      "elapsed_seconds": 372.6343248728663
+    },
+    {
+      "update": 122,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.07335789542412385,
+      "old_policy_mean_reward": -0.22114968299865723,
+      "reward_std": 0.15596319735050201,
+      "advantages": [
+        -1.0605864524841309,
+        1.4462924003601074,
+        0.4003947675228119,
+        -0.7861006259918213
+      ],
+      "reference_velocity_mse": 0.006599806132726371,
+      "gradient_norm": 0.27567633986473083,
+      "old_ema_decay": 0.122,
+      "method_diagnostic": 0.12206023093312979,
+      "elapsed_seconds": 375.73375385068357
+    },
+    {
+      "update": 123,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.09720109589397907,
+      "old_policy_mean_reward": 0.03801155090332031,
+      "reward_std": 0.20303791761398315,
+      "advantages": [
+        0.5920408964157104,
+        -1.0206494331359863,
+        -0.9064036011695862,
+        1.3350121974945068
+      ],
+      "reference_velocity_mse": 0.008568149991333485,
+      "gradient_norm": 0.29300791025161743,
+      "old_ema_decay": 0.123,
+      "method_diagnostic": 0.1242268905043602,
+      "elapsed_seconds": 378.8123861560598
+    },
+    {
+      "update": 124,
+      "condition": "control+SRT2104",
+      "objective": 0.0780237982980907,
+      "old_policy_mean_reward": 0.22766566276550293,
+      "reward_std": 0.4104696214199066,
+      "advantages": [
+        0.7616376280784607,
+        0.777068018913269,
+        0.1335086077451706,
+        -1.6722142696380615
+      ],
+      "reference_velocity_mse": 0.0090248454362154,
+      "gradient_norm": 0.2615692615509033,
+      "old_ema_decay": 0.124,
+      "method_diagnostic": 0.1074028592556715,
+      "elapsed_seconds": 381.8905533635989
+    },
+    {
+      "update": 125,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.07151173707097769,
+      "old_policy_mean_reward": -0.3979151248931885,
+      "reward_std": 0.13109324872493744,
+      "advantages": [
+        0.5974964499473572,
+        -1.5884491205215454,
+        1.053480863571167,
+        -0.06252812594175339
+      ],
+      "reference_velocity_mse": 0.006338854786008596,
+      "gradient_norm": 0.2369038611650467,
+      "old_ema_decay": 0.125,
+      "method_diagnostic": 0.11137216910719872,
+      "elapsed_seconds": 384.9611582560465
+    },
+    {
+      "update": 126,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.09887298196554184,
+      "old_policy_mean_reward": -0.28870248794555664,
+      "reward_std": 0.3080398738384247,
+      "advantages": [
+        -0.707452118396759,
+        -0.17265895009040833,
+        1.6809840202331543,
+        -0.8008729219436646
+      ],
+      "reference_velocity_mse": 0.007917100447230041,
+      "gradient_norm": 0.4597524106502533,
+      "old_ema_decay": 0.126,
+      "method_diagnostic": 0.10592652577906847,
+      "elapsed_seconds": 388.02963390853256
+    },
+    {
+      "update": 127,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.10000624414533377,
+      "old_policy_mean_reward": 0.18622231483459473,
+      "reward_std": 0.4658823609352112,
+      "advantages": [
+        1.2962883710861206,
+        -1.3973171710968018,
+        -0.3739388883113861,
+        0.47496771812438965
+      ],
+      "reference_velocity_mse": 0.010242282412946224,
+      "gradient_norm": 0.34292325377464294,
+      "old_ema_decay": 0.127,
+      "method_diagnostic": 0.12875980511307716,
+      "elapsed_seconds": 391.1021627848968
+    },
+    {
+      "update": 128,
+      "condition": "control+SRT2104",
+      "objective": 0.0652703857049346,
+      "old_policy_mean_reward": 0.09526371955871582,
+      "reward_std": 0.2812421917915344,
+      "advantages": [
+        -1.5658597946166992,
+        0.9946851134300232,
+        0.7287132740020752,
+        -0.15753857791423798
+      ],
+      "reference_velocity_mse": 0.010654071113094687,
+      "gradient_norm": 0.36811578273773193,
+      "old_ema_decay": 0.128,
+      "method_diagnostic": 0.11623490415513515,
+      "elapsed_seconds": 394.1813461408019
+    },
+    {
+      "update": 129,
+      "condition": "control+Panobinostat",
+      "objective": 0.06797534599900246,
+      "old_policy_mean_reward": -0.046797990798950195,
+      "reward_std": 0.43230757117271423,
+      "advantages": [
+        0.9081190228462219,
+        -1.5421788692474365,
+        -0.22801050543785095,
+        0.8620703816413879
+      ],
+      "reference_velocity_mse": 0.0065315429819747806,
+      "gradient_norm": 0.23404087126255035,
+      "old_ema_decay": 0.129,
+      "method_diagnostic": 0.08949557505548,
+      "elapsed_seconds": 397.26178877893835
+    },
+    {
+      "update": 130,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.07794057205319405,
+      "old_policy_mean_reward": -0.19740605354309082,
+      "reward_std": 0.25335004925727844,
+      "advantages": [
+        -1.5629711151123047,
+        0.8588833808898926,
+        -0.1810673326253891,
+        0.8851550221443176
+      ],
+      "reference_velocity_mse": 0.010147444438189268,
+      "gradient_norm": 0.2975011169910431,
+      "old_ema_decay": 0.13,
+      "method_diagnostic": 0.10684067942202091,
+      "elapsed_seconds": 400.3521619653329
+    },
+    {
+      "update": 131,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.12857111170887947,
+      "old_policy_mean_reward": -0.15343761444091797,
+      "reward_std": 0.34158414602279663,
+      "advantages": [
+        -1.4446393251419067,
+        1.0929832458496094,
+        -0.3961127698421478,
+        0.7477689385414124
+      ],
+      "reference_velocity_mse": 0.014922608155757189,
+      "gradient_norm": 0.21954941749572754,
+      "old_ema_decay": 0.131,
+      "method_diagnostic": 0.15363257564604282,
+      "elapsed_seconds": 403.44640269037336
+    },
+    {
+      "update": 132,
+      "condition": "control+Dasatinib",
+      "objective": 0.10868932120501995,
+      "old_policy_mean_reward": -0.47989869117736816,
+      "reward_std": 0.4511472284793854,
+      "advantages": [
+        0.7525825500488281,
+        -1.1701507568359375,
+        1.20261812210083,
+        -0.7850499749183655
+      ],
+      "reference_velocity_mse": 0.008212665910832584,
+      "gradient_norm": 0.38075706362724304,
+      "old_ema_decay": 0.132,
+      "method_diagnostic": 0.1153540201485157,
+      "elapsed_seconds": 406.5425273068249
+    },
+    {
+      "update": 133,
+      "condition": "control+SRT2104",
+      "objective": 0.10046526230871677,
+      "old_policy_mean_reward": -0.6019377708435059,
+      "reward_std": 0.2899150848388672,
+      "advantages": [
+        0.580380916595459,
+        0.36044546961784363,
+        0.7721450328826904,
+        -1.7129714488983154
+      ],
+      "reference_velocity_mse": 0.007201458443887532,
+      "gradient_norm": 0.25773078203201294,
+      "old_ema_decay": 0.133,
+      "method_diagnostic": 0.1414829958230257,
+      "elapsed_seconds": 409.63383855111897
+    },
+    {
+      "update": 134,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.10348823014646769,
+      "old_policy_mean_reward": -0.007769346237182617,
+      "reward_std": 0.19997158646583557,
+      "advantages": [
+        -1.2909239530563354,
+        0.449619323015213,
+        -0.5210120677947998,
+        1.3623167276382446
+      ],
+      "reference_velocity_mse": 0.010572983883321285,
+      "gradient_norm": 0.4505849778652191,
+      "old_ema_decay": 0.134,
+      "method_diagnostic": 0.1487429514527321,
+      "elapsed_seconds": 412.72238336503506
+    },
+    {
+      "update": 135,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.07952313870191574,
+      "old_policy_mean_reward": -0.6255519390106201,
+      "reward_std": 0.319951593875885,
+      "advantages": [
+        -0.5508585572242737,
+        -0.5745832920074463,
+        -0.6057395935058594,
+        1.7311815023422241
+      ],
+      "reference_velocity_mse": 0.007037317845970392,
+      "gradient_norm": 0.28340283036231995,
+      "old_ema_decay": 0.135,
+      "method_diagnostic": 0.07990069966763258,
+      "elapsed_seconds": 415.81788827106357
+    },
+    {
+      "update": 136,
+      "condition": "control+Dasatinib",
+      "objective": 0.06459989014547318,
+      "old_policy_mean_reward": -0.21750903129577637,
+      "reward_std": 0.3058328330516815,
+      "advantages": [
+        1.0181360244750977,
+        0.980370283126831,
+        -1.0356191396713257,
+        -0.9628871083259583
+      ],
+      "reference_velocity_mse": 0.00850348745007068,
+      "gradient_norm": 0.5792457461357117,
+      "old_ema_decay": 0.136,
+      "method_diagnostic": 0.10111163184046745,
+      "elapsed_seconds": 418.93408160004765
+    },
+    {
+      "update": 137,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.10411521792411804,
+      "old_policy_mean_reward": -0.04723310470581055,
+      "reward_std": 0.6376239657402039,
+      "advantages": [
+        -1.7260984182357788,
+        0.5800349116325378,
+        0.6873965859413147,
+        0.45866692066192627
+      ],
+      "reference_velocity_mse": 0.009032612666487694,
+      "gradient_norm": 0.4068912863731384,
+      "old_ema_decay": 0.137,
+      "method_diagnostic": 0.1424420215189457,
+      "elapsed_seconds": 422.0342785641551
+    },
+    {
+      "update": 138,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.10724450647830963,
+      "old_policy_mean_reward": -0.3923001289367676,
+      "reward_std": 0.213586688041687,
+      "advantages": [
+        -1.6030112504959106,
+        0.7591644525527954,
+        -0.07518965005874634,
+        0.9190364480018616
+      ],
+      "reference_velocity_mse": 0.007527339970692992,
+      "gradient_norm": 0.32375219464302063,
+      "old_ema_decay": 0.138,
+      "method_diagnostic": 0.12535575684159994,
+      "elapsed_seconds": 425.1195920333266
+    },
+    {
+      "update": 139,
+      "condition": "control+Panobinostat",
+      "objective": 0.08852696884423494,
+      "old_policy_mean_reward": -0.5847976207733154,
+      "reward_std": 0.5348770618438721,
+      "advantages": [
+        1.118174433708191,
+        0.6803924441337585,
+        -1.4771394729614258,
+        -0.32142743468284607
+      ],
+      "reference_velocity_mse": 0.006008612108416855,
+      "gradient_norm": 0.4089195430278778,
+      "old_ema_decay": 0.139,
+      "method_diagnostic": 0.10469040647149086,
+      "elapsed_seconds": 428.2143001155928
+    },
+    {
+      "update": 140,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.058342703618109226,
+      "old_policy_mean_reward": -0.380277156829834,
+      "reward_std": 0.3219098448753357,
+      "advantages": [
+        0.04584456607699394,
+        1.4505431652069092,
+        -0.12700510025024414,
+        -1.369382619857788
+      ],
+      "reference_velocity_mse": 0.008672888507135212,
+      "gradient_norm": 0.22711819410324097,
+      "old_ema_decay": 0.14,
+      "method_diagnostic": 0.09980901516973972,
+      "elapsed_seconds": 431.3168215351179
+    },
+    {
+      "update": 141,
+      "condition": "control+Givinostat",
+      "objective": 0.08881184551864862,
+      "old_policy_mean_reward": 0.06223726272583008,
+      "reward_std": 0.17857223749160767,
+      "advantages": [
+        -1.3358986377716064,
+        -0.2629150152206421,
+        1.4565489292144775,
+        0.1422647386789322
+      ],
+      "reference_velocity_mse": 0.010408168542198837,
+      "gradient_norm": 0.35974159836769104,
+      "old_ema_decay": 0.14100000000000001,
+      "method_diagnostic": 0.11353528872132301,
+      "elapsed_seconds": 434.3990798164159
+    },
+    {
+      "update": 142,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.07698431052267551,
+      "old_policy_mean_reward": -0.20163273811340332,
+      "reward_std": 0.11790020018815994,
+      "advantages": [
+        1.0591768026351929,
+        -0.8293376564979553,
+        0.9236259460449219,
+        -1.1534651517868042
+      ],
+      "reference_velocity_mse": 0.007266891887411475,
+      "gradient_norm": 0.33537498116493225,
+      "old_ema_decay": 0.14200000000000002,
+      "method_diagnostic": 0.09389279037714005,
+      "elapsed_seconds": 437.4872494554147
+    },
+    {
+      "update": 143,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.04865932650864124,
+      "old_policy_mean_reward": -0.39755868911743164,
+      "reward_std": 0.24804584681987762,
+      "advantages": [
+        -0.8287112712860107,
+        -1.0564324855804443,
+        1.399234414100647,
+        0.4859093129634857
+      ],
+      "reference_velocity_mse": 0.007200066698715091,
+      "gradient_norm": 0.5105056166648865,
+      "old_ema_decay": 0.14300000000000002,
+      "method_diagnostic": 0.08450597152113914,
+      "elapsed_seconds": 440.5687297619879
+    },
+    {
+      "update": 144,
+      "condition": "control+Panobinostat",
+      "objective": 0.07835813332349062,
+      "old_policy_mean_reward": -0.304962158203125,
+      "reward_std": 0.10759390890598297,
+      "advantages": [
+        -1.1461033821105957,
+        -0.69878089427948,
+        0.4280088245868683,
+        1.4168753623962402
+      ],
+      "reference_velocity_mse": 0.005872785928659141,
+      "gradient_norm": 0.45469483733177185,
+      "old_ema_decay": 0.14400000000000002,
+      "method_diagnostic": 0.10399151407182217,
+      "elapsed_seconds": 443.6675761025399
+    },
+    {
+      "update": 145,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.09898138418793678,
+      "old_policy_mean_reward": -0.4251267910003662,
+      "reward_std": 0.5689862966537476,
+      "advantages": [
+        0.29122161865234375,
+        -1.5491074323654175,
+        1.230155110359192,
+        0.027730705216526985
+      ],
+      "reference_velocity_mse": 0.007841350161470473,
+      "gradient_norm": 0.7003424763679504,
+      "old_ema_decay": 0.145,
+      "method_diagnostic": 0.11579439230263233,
+      "elapsed_seconds": 446.7866099309176
+    },
+    {
+      "update": 146,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.05821230716537684,
+      "old_policy_mean_reward": -0.08364558219909668,
+      "reward_std": 0.1026378944516182,
+      "advantages": [
+        1.4738974571228027,
+        0.20948730409145355,
+        -1.2654057741165161,
+        -0.41797903180122375
+      ],
+      "reference_velocity_mse": 0.009354935958981514,
+      "gradient_norm": 0.4773094356060028,
+      "old_ema_decay": 0.146,
+      "method_diagnostic": 0.10556032508611679,
+      "elapsed_seconds": 449.8932532602921
+    },
+    {
+      "update": 147,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.10567011497914791,
+      "old_policy_mean_reward": -0.5132060050964355,
+      "reward_std": 0.5441455245018005,
+      "advantages": [
+        -1.0581368207931519,
+        0.8803322911262512,
+        -0.9328815937042236,
+        1.110686182975769
+      ],
+      "reference_velocity_mse": 0.0077442266047000885,
+      "gradient_norm": 0.3997882008552551,
+      "old_ema_decay": 0.147,
+      "method_diagnostic": 0.11472848989069462,
+      "elapsed_seconds": 452.9929821388796
+    },
+    {
+      "update": 148,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.06730376719497144,
+      "old_policy_mean_reward": 0.11141657829284668,
+      "reward_std": 0.1960570067167282,
+      "advantages": [
+        0.8473238348960876,
+        0.6125138998031616,
+        0.2285248190164566,
+        -1.6883625984191895
+      ],
+      "reference_velocity_mse": 0.009854572243057191,
+      "gradient_norm": 0.3758937418460846,
+      "old_ema_decay": 0.148,
+      "method_diagnostic": 0.10552367568016052,
+      "elapsed_seconds": 456.0723399585113
+    },
+    {
+      "update": 149,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.10701935924589634,
+      "old_policy_mean_reward": -0.35416436195373535,
+      "reward_std": 0.22779786586761475,
+      "advantages": [
+        0.5827353596687317,
+        -1.5177278518676758,
+        1.1443665027618408,
+        -0.2093740552663803
+      ],
+      "reference_velocity_mse": 0.009037787793204188,
+      "gradient_norm": 0.19711236655712128,
+      "old_ema_decay": 0.149,
+      "method_diagnostic": 0.13395713083446026,
+      "elapsed_seconds": 459.1475306628272
+    },
+    {
+      "update": 150,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.08284672163426876,
+      "old_policy_mean_reward": -0.32643890380859375,
+      "reward_std": 0.3723762333393097,
+      "advantages": [
+        -0.7489727735519409,
+        1.602410912513733,
+        0.07577138394117355,
+        -0.9292095303535461
+      ],
+      "reference_velocity_mse": 0.009606114123016596,
+      "gradient_norm": 0.1584560126066208,
+      "old_ema_decay": 0.15,
+      "method_diagnostic": 0.10395570285618305,
+      "elapsed_seconds": 462.2428091419861
+    },
+    {
+      "update": 151,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.09417395666241646,
+      "old_policy_mean_reward": -0.027840137481689453,
+      "reward_std": 0.2077166736125946,
+      "advantages": [
+        -1.4065406322479248,
+        1.306711196899414,
+        0.44063055515289307,
+        -0.34080106019973755
+      ],
+      "reference_velocity_mse": 0.01065895240753889,
+      "gradient_norm": 0.42282605171203613,
+      "old_ema_decay": 0.151,
+      "method_diagnostic": 0.15526026859879494,
+      "elapsed_seconds": 465.32868474628776
+    },
+    {
+      "update": 152,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.08100345078855753,
+      "old_policy_mean_reward": -0.14863204956054688,
+      "reward_std": 0.26344308257102966,
+      "advantages": [
+        -0.9219853281974792,
+        -1.0049468278884888,
+        1.3379364013671875,
+        0.5889956951141357
+      ],
+      "reference_velocity_mse": 0.007916394504718482,
+      "gradient_norm": 0.5091090202331543,
+      "old_ema_decay": 0.152,
+      "method_diagnostic": 0.11431930027902126,
+      "elapsed_seconds": 468.4118799306452
+    },
+    {
+      "update": 153,
+      "condition": "control+Dasatinib",
+      "objective": 0.08607564773410559,
+      "old_policy_mean_reward": 0.08247208595275879,
+      "reward_std": 0.2673189342021942,
+      "advantages": [
+        0.8888362050056458,
+        -1.5169132947921753,
+        0.9093170166015625,
+        -0.28123998641967773
+      ],
+      "reference_velocity_mse": 0.011834080563858151,
+      "gradient_norm": 0.6069397330284119,
+      "old_ema_decay": 0.153,
+      "method_diagnostic": 0.11342805251479149,
+      "elapsed_seconds": 471.50216661114246
+    },
+    {
+      "update": 154,
+      "condition": "control+Panobinostat",
+      "objective": 0.09490848332643509,
+      "old_policy_mean_reward": -0.1480269432067871,
+      "reward_std": 0.08263825625181198,
+      "advantages": [
+        1.6909863948822021,
+        -0.38725826144218445,
+        -0.9078711867332458,
+        -0.39585694670677185
+      ],
+      "reference_velocity_mse": 0.008813907741568983,
+      "gradient_norm": 0.43677860498428345,
+      "old_ema_decay": 0.154,
+      "method_diagnostic": 0.11717444472014904,
+      "elapsed_seconds": 474.593489500694
+    },
+    {
+      "update": 155,
+      "condition": "control+Givinostat",
+      "objective": 0.11626484617590904,
+      "old_policy_mean_reward": -0.2387831211090088,
+      "reward_std": 0.20987792313098907,
+      "advantages": [
+        -1.717792272567749,
+        0.7652871608734131,
+        0.4211016893386841,
+        0.5314034223556519
+      ],
+      "reference_velocity_mse": 0.009791839634999633,
+      "gradient_norm": 0.826687216758728,
+      "old_ema_decay": 0.155,
+      "method_diagnostic": 0.14786525443196297,
+      "elapsed_seconds": 477.65201877616346
+    },
+    {
+      "update": 156,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.04172254493460059,
+      "old_policy_mean_reward": -0.026640892028808594,
+      "reward_std": 0.0749768540263176,
+      "advantages": [
+        -0.04500545188784599,
+        -1.4874664545059204,
+        0.2182694524526596,
+        1.3142024278640747
+      ],
+      "reference_velocity_mse": 0.009513661731034517,
+      "gradient_norm": 0.26056113839149475,
+      "old_ema_decay": 0.156,
+      "method_diagnostic": 0.08058513514697552,
+      "elapsed_seconds": 480.71508931927383
+    },
+    {
+      "update": 157,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.09194664098322392,
+      "old_policy_mean_reward": -0.08447647094726562,
+      "reward_std": 0.22724325954914093,
+      "advantages": [
+        -0.08759298175573349,
+        -1.5540591478347778,
+        0.4845237135887146,
+        1.1571284532546997
+      ],
+      "reference_velocity_mse": 0.009035173803567886,
+      "gradient_norm": 0.4158470630645752,
+      "old_ema_decay": 0.157,
+      "method_diagnostic": 0.1184887457638979,
+      "elapsed_seconds": 483.7798222610727
+    },
+    {
+      "update": 158,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.09827138669788837,
+      "old_policy_mean_reward": 0.06100606918334961,
+      "reward_std": 0.1145227774977684,
+      "advantages": [
+        -1.523483157157898,
+        -0.26124733686447144,
+        0.9670008420944214,
+        0.8177297115325928
+      ],
+      "reference_velocity_mse": 0.010671557392925024,
+      "gradient_norm": 0.30520832538604736,
+      "old_ema_decay": 0.158,
+      "method_diagnostic": 0.10155204683542252,
+      "elapsed_seconds": 486.85252130869776
+    },
+    {
+      "update": 159,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.07738580647855997,
+      "old_policy_mean_reward": 0.0349278450012207,
+      "reward_std": 0.13545700907707214,
+      "advantages": [
+        -0.9508566856384277,
+        1.4219566583633423,
+        0.45620283484458923,
+        -0.9273027777671814
+      ],
+      "reference_velocity_mse": 0.008440493140369654,
+      "gradient_norm": 0.2036290317773819,
+      "old_ema_decay": 0.159,
+      "method_diagnostic": 0.11581181921064854,
+      "elapsed_seconds": 489.9380248840898
+    },
+    {
+      "update": 160,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.10328964609652758,
+      "old_policy_mean_reward": 0.03548717498779297,
+      "reward_std": 0.28791090846061707,
+      "advantages": [
+        -1.512804627418518,
+        1.2069648504257202,
+        0.4731634855270386,
+        -0.1673237681388855
+      ],
+      "reference_velocity_mse": 0.009778336621820927,
+      "gradient_norm": 0.3688771426677704,
+      "old_ema_decay": 0.16,
+      "method_diagnostic": 0.14599410817027092,
+      "elapsed_seconds": 493.01944338995963
+    },
+    {
+      "update": 161,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.10259824246168137,
+      "old_policy_mean_reward": -0.061566829681396484,
+      "reward_std": 0.24895276129245758,
+      "advantages": [
+        1.0878946781158447,
+        -1.2441033124923706,
+        -0.7135016918182373,
+        0.8697103261947632
+      ],
+      "reference_velocity_mse": 0.009124535135924816,
+      "gradient_norm": 0.3235350549221039,
+      "old_ema_decay": 0.161,
+      "method_diagnostic": 0.14104817435145378,
+      "elapsed_seconds": 496.10123490169644
+    },
+    {
+      "update": 162,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.09600318688899279,
+      "old_policy_mean_reward": -0.8503632545471191,
+      "reward_std": 0.6621036529541016,
+      "advantages": [
+        0.0728551596403122,
+        -1.6549420356750488,
+        0.7513455748558044,
+        0.8307412266731262
+      ],
+      "reference_velocity_mse": 0.010817592032253742,
+      "gradient_norm": 0.28716060519218445,
+      "old_ema_decay": 0.162,
+      "method_diagnostic": 0.11994813941419125,
+      "elapsed_seconds": 499.2075295774266
+    },
+    {
+      "update": 163,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.09739361889660358,
+      "old_policy_mean_reward": -0.13930511474609375,
+      "reward_std": 0.09275615960359573,
+      "advantages": [
+        1.3104474544525146,
+        -0.08255385607481003,
+        0.25594982504844666,
+        -1.483843445777893
+      ],
+      "reference_velocity_mse": 0.00954519584774971,
+      "gradient_norm": 0.3858104646205902,
+      "old_ema_decay": 0.163,
+      "method_diagnostic": 0.11639012768864632,
+      "elapsed_seconds": 502.30108657851815
+    },
+    {
+      "update": 164,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.10248591471463442,
+      "old_policy_mean_reward": -0.23554205894470215,
+      "reward_std": 0.32121193408966064,
+      "advantages": [
+        0.8591617345809937,
+        -1.6822222471237183,
+        0.6245630383491516,
+        0.19849742949008942
+      ],
+      "reference_velocity_mse": 0.0087754235137254,
+      "gradient_norm": 0.2572784125804901,
+      "old_ema_decay": 0.164,
+      "method_diagnostic": 0.133421178907156,
+      "elapsed_seconds": 505.36772541794926
+    },
+    {
+      "update": 165,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.07155905943363905,
+      "old_policy_mean_reward": -0.5249588489532471,
+      "reward_std": 0.25320789217948914,
+      "advantages": [
+        0.0248981062322855,
+        -1.2378395795822144,
+        1.5360841751098633,
+        -0.3231426477432251
+      ],
+      "reference_velocity_mse": 0.007524711545556784,
+      "gradient_norm": 0.6851991415023804,
+      "old_ema_decay": 0.165,
+      "method_diagnostic": 0.08881926350295544,
+      "elapsed_seconds": 508.44224900752306
+    },
+    {
+      "update": 166,
+      "condition": "Alvespimycin+Pirarubicin",
+      "objective": 0.07988407276570797,
+      "old_policy_mean_reward": -0.007914066314697266,
+      "reward_std": 0.2355312705039978,
+      "advantages": [
+        0.6007047295570374,
+        0.27829551696777344,
+        0.8198629021644592,
+        -1.69886314868927
+      ],
+      "reference_velocity_mse": 0.008126916247420013,
+      "gradient_norm": 0.22442874312400818,
+      "old_ema_decay": 0.166,
+      "method_diagnostic": 0.12110944837331772,
+      "elapsed_seconds": 511.5397780649364
+    },
+    {
+      "update": 167,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.042570211458951235,
+      "old_policy_mean_reward": -0.22109007835388184,
+      "reward_std": 0.33084726333618164,
+      "advantages": [
+        0.5852855443954468,
+        1.2693144083023071,
+        -1.329850673675537,
+        -0.5247492790222168
+      ],
+      "reference_velocity_mse": 0.010336962528526783,
+      "gradient_norm": 0.20861126482486725,
+      "old_ema_decay": 0.167,
+      "method_diagnostic": 0.06330623105168343,
+      "elapsed_seconds": 514.609132239595
+    },
+    {
+      "update": 168,
+      "condition": "control+SRT2104",
+      "objective": 0.09644986595958471,
+      "old_policy_mean_reward": -0.16878437995910645,
+      "reward_std": 0.15959689021110535,
+      "advantages": [
+        1.6092700958251953,
+        -0.9271707534790039,
+        -0.7366292476654053,
+        0.05452979356050491
+      ],
+      "reference_velocity_mse": 0.01065962202847004,
+      "gradient_norm": 0.27547287940979004,
+      "old_ema_decay": 0.168,
+      "method_diagnostic": 0.11636647209525108,
+      "elapsed_seconds": 517.6681537553668
+    },
+    {
+      "update": 169,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.06674756458960474,
+      "old_policy_mean_reward": -0.05424213409423828,
+      "reward_std": 0.1741156131029129,
+      "advantages": [
+        0.27238592505455017,
+        1.5034735202789307,
+        -1.0928007364273071,
+        -0.6830586194992065
+      ],
+      "reference_velocity_mse": 0.008576696272939444,
+      "gradient_norm": 0.3318518102169037,
+      "old_ema_decay": 0.169,
+      "method_diagnostic": 0.09939441923052073,
+      "elapsed_seconds": 520.7417454458773
+    },
+    {
+      "update": 170,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.08754506427794695,
+      "old_policy_mean_reward": -1.11175537109375,
+      "reward_std": 0.7525804042816162,
+      "advantages": [
+        0.5621731281280518,
+        0.8978835940361023,
+        0.22150222957134247,
+        -1.6815589666366577
+      ],
+      "reference_velocity_mse": 0.01205471227876842,
+      "gradient_norm": 0.3162902593612671,
+      "old_ema_decay": 0.17,
+      "method_diagnostic": 0.09472465142607689,
+      "elapsed_seconds": 523.8000685861334
+    },
+    {
+      "update": 171,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.06292937649413943,
+      "old_policy_mean_reward": -0.061084747314453125,
+      "reward_std": 0.16553549468517303,
+      "advantages": [
+        1.450569748878479,
+        -0.9343371987342834,
+        -0.9232421517372131,
+        0.4070096015930176
+      ],
+      "reference_velocity_mse": 0.007883756305091083,
+      "gradient_norm": 0.6254768967628479,
+      "old_ema_decay": 0.171,
+      "method_diagnostic": 0.11549150012433529,
+      "elapsed_seconds": 526.8708935696632
+    },
+    {
+      "update": 172,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.05037538707256317,
+      "old_policy_mean_reward": -0.0238800048828125,
+      "reward_std": 0.167472243309021,
+      "advantages": [
+        1.4636489152908325,
+        0.18766480684280396,
+        -1.3022713661193848,
+        -0.34904229640960693
+      ],
+      "reference_velocity_mse": 0.012991886585950851,
+      "gradient_norm": 0.4169355034828186,
+      "old_ema_decay": 0.17200000000000001,
+      "method_diagnostic": 0.08355037681758404,
+      "elapsed_seconds": 529.943585915491
+    },
+    {
+      "update": 173,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.13278229348361492,
+      "old_policy_mean_reward": -0.023631572723388672,
+      "reward_std": 0.3782441020011902,
+      "advantages": [
+        1.3132994174957275,
+        -0.8850454688072205,
+        0.6219724416732788,
+        -1.0502263307571411
+      ],
+      "reference_velocity_mse": 0.01361865270882845,
+      "gradient_norm": 0.40160948038101196,
+      "old_ema_decay": 0.17300000000000001,
+      "method_diagnostic": 0.1666476707905531,
+      "elapsed_seconds": 533.0358116636053
+    },
+    {
+      "update": 174,
+      "condition": "control+SRT2104",
+      "objective": 0.12734278105199337,
+      "old_policy_mean_reward": -0.649163007736206,
+      "reward_std": 0.37964457273483276,
+      "advantages": [
+        1.3378044366836548,
+        -0.5302159786224365,
+        -1.2984853982925415,
+        0.49089688062667847
+      ],
+      "reference_velocity_mse": 0.009575559291988611,
+      "gradient_norm": 0.4233020842075348,
+      "old_ema_decay": 0.17400000000000002,
+      "method_diagnostic": 0.14469043165445328,
+      "elapsed_seconds": 536.1198501707986
+    },
+    {
+      "update": 175,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.089052714407444,
+      "old_policy_mean_reward": -0.11619210243225098,
+      "reward_std": 0.11002721637487411,
+      "advantages": [
+        -0.2835354208946228,
+        0.7107512950897217,
+        -1.5012264251708984,
+        1.0740104913711548
+      ],
+      "reference_velocity_mse": 0.008468508603982627,
+      "gradient_norm": 0.2122015655040741,
+      "old_ema_decay": 0.17500000000000002,
+      "method_diagnostic": 0.1279267631471157,
+      "elapsed_seconds": 539.1959543833509
+    },
+    {
+      "update": 176,
+      "condition": "Givinostat+SRT2104",
+      "objective": 0.09510666504502296,
+      "old_policy_mean_reward": 0.37610459327697754,
+      "reward_std": 0.07573653012514114,
+      "advantages": [
+        -1.6740648746490479,
+        0.18445274233818054,
+        0.5973784327507019,
+        0.8922337293624878
+      ],
+      "reference_velocity_mse": 0.01167589845135808,
+      "gradient_norm": 0.4769134521484375,
+      "old_ema_decay": 0.176,
+      "method_diagnostic": 0.12995189055800438,
+      "elapsed_seconds": 542.2627312541008
+    },
+    {
+      "update": 177,
+      "condition": "Givinostat+Cediranib",
+      "objective": 0.08202556241303682,
+      "old_policy_mean_reward": 0.19080567359924316,
+      "reward_std": 0.15369318425655365,
+      "advantages": [
+        -1.1543210744857788,
+        1.4410158395767212,
+        0.37853339314460754,
+        -0.6652281880378723
+      ],
+      "reference_velocity_mse": 0.010751078138127923,
+      "gradient_norm": 0.2979710102081299,
+      "old_ema_decay": 0.177,
+      "method_diagnostic": 0.10564248077571392,
+      "elapsed_seconds": 545.3380494369194
+    },
+    {
+      "update": 178,
+      "condition": "Panobinostat+SRT2104",
+      "objective": 0.07014830270782113,
+      "old_policy_mean_reward": -0.11999797821044922,
+      "reward_std": 0.29635167121887207,
+      "advantages": [
+        -1.212470531463623,
+        -0.7450777888298035,
+        1.146223545074463,
+        0.8113247156143188
+      ],
+      "reference_velocity_mse": 0.009400641894899309,
+      "gradient_norm": 0.43575912714004517,
+      "old_ema_decay": 0.178,
+      "method_diagnostic": 0.11381268035620451,
+      "elapsed_seconds": 548.4202503906563
+    },
+    {
+      "update": 179,
+      "condition": "Givinostat+SRT1720",
+      "objective": 0.06962447613477707,
+      "old_policy_mean_reward": -0.26366424560546875,
+      "reward_std": 0.3142443299293518,
+      "advantages": [
+        -1.2457300424575806,
+        0.8302622437477112,
+        -0.706041157245636,
+        1.121509075164795
+      ],
+      "reference_velocity_mse": 0.01104313088580966,
+      "gradient_norm": 0.49212852120399475,
+      "old_ema_decay": 0.179,
+      "method_diagnostic": 0.08830611128360033,
+      "elapsed_seconds": 551.5149236274883
+    },
+    {
+      "update": 180,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.09950433019548655,
+      "old_policy_mean_reward": 0.0743856430053711,
+      "reward_std": 0.34678322076797485,
+      "advantages": [
+        0.8785032629966736,
+        0.07650657743215561,
+        -1.6531007289886475,
+        0.6980909109115601
+      ],
+      "reference_velocity_mse": 0.009574596537277102,
+      "gradient_norm": 0.23466017842292786,
+      "old_ema_decay": 0.18,
+      "method_diagnostic": 0.11613523308187723,
+      "elapsed_seconds": 554.6099757924676
+    },
+    {
+      "update": 181,
+      "condition": "Givinostat+Tanespimycin",
+      "objective": 0.07692193705588579,
+      "old_policy_mean_reward": -0.31914567947387695,
+      "reward_std": 0.16738837957382202,
+      "advantages": [
+        0.04813969507813454,
+        -0.0052185263484716415,
+        1.3913308382034302,
+        -1.4342520236968994
+      ],
+      "reference_velocity_mse": 0.011673810426145792,
+      "gradient_norm": 0.4133102297782898,
+      "old_ema_decay": 0.181,
+      "method_diagnostic": 0.12209034524857998,
+      "elapsed_seconds": 557.7134897559881
+    },
+    {
+      "update": 182,
+      "condition": "control+Givinostat",
+      "objective": 0.08278074232657673,
+      "old_policy_mean_reward": 0.20407390594482422,
+      "reward_std": 0.37461718916893005,
+      "advantages": [
+        0.9251362085342407,
+        -1.5801559686660767,
+        -0.13647834956645966,
+        0.7914981245994568
+      ],
+      "reference_velocity_mse": 0.011633470188826323,
+      "gradient_norm": 0.36203017830848694,
+      "old_ema_decay": 0.182,
+      "method_diagnostic": 0.1278462028130889,
+      "elapsed_seconds": 560.8045402718708
+    },
+    {
+      "update": 183,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.10846051760017872,
+      "old_policy_mean_reward": -0.1152334213256836,
+      "reward_std": 0.12195184826850891,
+      "advantages": [
+        0.48576879501342773,
+        -1.727816104888916,
+        0.6011768579483032,
+        0.6408703923225403
+      ],
+      "reference_velocity_mse": 0.008537538582459092,
+      "gradient_norm": 0.2562750577926636,
+      "old_ema_decay": 0.183,
+      "method_diagnostic": 0.13042750023305416,
+      "elapsed_seconds": 563.9335559848696
+    },
+    {
+      "update": 184,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.08418364077806473,
+      "old_policy_mean_reward": -0.15208125114440918,
+      "reward_std": 0.36658158898353577,
+      "advantages": [
+        0.20836177468299866,
+        1.1646744012832642,
+        -1.5962772369384766,
+        0.22324107587337494
+      ],
+      "reference_velocity_mse": 0.009458140470087528,
+      "gradient_norm": 0.32286888360977173,
+      "old_ema_decay": 0.184,
+      "method_diagnostic": 0.11072338558733463,
+      "elapsed_seconds": 567.0558150783181
+    },
+    {
+      "update": 185,
+      "condition": "control+SRT2104",
+      "objective": 0.08599173184484243,
+      "old_policy_mean_reward": -0.20369744300842285,
+      "reward_std": 0.13466785848140717,
+      "advantages": [
+        -0.28251025080680847,
+        0.8142008185386658,
+        0.981147825717926,
+        -1.512838363647461
+      ],
+      "reference_velocity_mse": 0.009698093752376735,
+      "gradient_norm": 0.3195313811302185,
+      "old_ema_decay": 0.185,
+      "method_diagnostic": 0.12564978376030922,
+      "elapsed_seconds": 570.1762189464644
+    },
+    {
+      "update": 186,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.08141653705388308,
+      "old_policy_mean_reward": -0.5853195190429688,
+      "reward_std": 0.3640662729740143,
+      "advantages": [
+        1.4883149862289429,
+        0.22737890481948853,
+        -1.2178596258163452,
+        -0.4978342652320862
+      ],
+      "reference_velocity_mse": 0.006750667467713356,
+      "gradient_norm": 0.7672182321548462,
+      "old_ema_decay": 0.186,
+      "method_diagnostic": 0.11029660888016224,
+      "elapsed_seconds": 573.2718021776527
+    },
+    {
+      "update": 187,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.07740418147295713,
+      "old_policy_mean_reward": -0.27291178703308105,
+      "reward_std": 0.2954065501689911,
+      "advantages": [
+        -0.826193630695343,
+        1.4064326286315918,
+        0.4741794168949127,
+        -1.0544184446334839
+      ],
+      "reference_velocity_mse": 0.006437799194827676,
+      "gradient_norm": 0.5321668982505798,
+      "old_ema_decay": 0.187,
+      "method_diagnostic": 0.11534437350928783,
+      "elapsed_seconds": 576.3723306022584
+    },
+    {
+      "update": 188,
+      "condition": "control+Dasatinib",
+      "objective": 0.10588729381561279,
+      "old_policy_mean_reward": 0.15601730346679688,
+      "reward_std": 0.3412700593471527,
+      "advantages": [
+        -0.2630349397659302,
+        -1.3822282552719116,
+        0.24623382091522217,
+        1.3990293741226196
+      ],
+      "reference_velocity_mse": 0.008558413595892489,
+      "gradient_norm": 0.3235068619251251,
+      "old_ema_decay": 0.188,
+      "method_diagnostic": 0.12927431985735893,
+      "elapsed_seconds": 579.457365270704
+    },
+    {
+      "update": 189,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.08317991532385349,
+      "old_policy_mean_reward": 0.036745309829711914,
+      "reward_std": 0.21950720250606537,
+      "advantages": [
+        0.39481842517852783,
+        0.18991979956626892,
+        1.0554897785186768,
+        -1.640228033065796
+      ],
+      "reference_velocity_mse": 0.0076010318007320166,
+      "gradient_norm": 0.19697019457817078,
+      "old_ema_decay": 0.189,
+      "method_diagnostic": 0.10705769434571266,
+      "elapsed_seconds": 582.5526945926249
+    },
+    {
+      "update": 190,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.08128094766288996,
+      "old_policy_mean_reward": 0.2457880973815918,
+      "reward_std": 0.07327007502317429,
+      "advantages": [
+        -0.35793620347976685,
+        0.17020410299301147,
+        1.4748791456222534,
+        -1.287147045135498
+      ],
+      "reference_velocity_mse": 0.006098390324041247,
+      "gradient_norm": 0.3860282003879547,
+      "old_ema_decay": 0.19,
+      "method_diagnostic": 0.13009511306881905,
+      "elapsed_seconds": 585.6516112508252
+    },
+    {
+      "update": 191,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.10187691636383533,
+      "old_policy_mean_reward": 0.08335471153259277,
+      "reward_std": 0.21809697151184082,
+      "advantages": [
+        0.8121477961540222,
+        1.0492191314697266,
+        -1.4324533939361572,
+        -0.42891356348991394
+      ],
+      "reference_velocity_mse": 0.00776333874091506,
+      "gradient_norm": 0.4624209403991699,
+      "old_ema_decay": 0.191,
+      "method_diagnostic": 0.12688995338976383,
+      "elapsed_seconds": 588.7426624530926
+    },
+    {
+      "update": 192,
+      "condition": "Panobinostat+Alvespimycin",
+      "objective": 0.09621610678732395,
+      "old_policy_mean_reward": 0.04066157341003418,
+      "reward_std": 0.427524209022522,
+      "advantages": [
+        -1.1348611116409302,
+        0.5479241013526917,
+        -0.7643007040023804,
+        1.3512376546859741
+      ],
+      "reference_velocity_mse": 0.0062191764591261744,
+      "gradient_norm": 0.3422291576862335,
+      "old_ema_decay": 0.192,
+      "method_diagnostic": 0.12057187221944332,
+      "elapsed_seconds": 591.846760712564
+    },
+    {
+      "update": 193,
+      "condition": "Givinostat+Carmofur",
+      "objective": 0.1062165629118681,
+      "old_policy_mean_reward": -0.13404130935668945,
+      "reward_std": 0.3195710778236389,
+      "advantages": [
+        0.7041226029396057,
+        -0.7231321930885315,
+        1.2298753261566162,
+        -1.2108657360076904
+      ],
+      "reference_velocity_mse": 0.008214261382818222,
+      "gradient_norm": 0.25221720337867737,
+      "old_ema_decay": 0.193,
+      "method_diagnostic": 0.1416738722473383,
+      "elapsed_seconds": 594.9454886838794
+    },
+    {
+      "update": 194,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.03393926448188722,
+      "old_policy_mean_reward": -0.3659341335296631,
+      "reward_std": 0.22302894294261932,
+      "advantages": [
+        -0.07415234297513962,
+        1.135467767715454,
+        0.5033718943595886,
+        -1.5646873712539673
+      ],
+      "reference_velocity_mse": 0.007747534313239157,
+      "gradient_norm": 0.2221953272819519,
+      "old_ema_decay": 0.194,
+      "method_diagnostic": 0.06870983354747295,
+      "elapsed_seconds": 598.0467218533158
+    },
+    {
+      "update": 195,
+      "condition": "Dacinostat+Dasatinib",
+      "objective": 0.09627116285264492,
+      "old_policy_mean_reward": -0.04303574562072754,
+      "reward_std": 0.27078187465667725,
+      "advantages": [
+        -0.3664260804653168,
+        -1.0943511724472046,
+        -0.1635463833808899,
+        1.6243236064910889
+      ],
+      "reference_velocity_mse": 0.007095733541063964,
+      "gradient_norm": 0.3453538417816162,
+      "old_ema_decay": 0.195,
+      "method_diagnostic": 0.11997192539274693,
+      "elapsed_seconds": 601.1404355810955
+    },
+    {
+      "update": 196,
+      "condition": "Givinostat+Crizotinib",
+      "objective": 0.0940939923748374,
+      "old_policy_mean_reward": -0.06691956520080566,
+      "reward_std": 0.14886851608753204,
+      "advantages": [
+        -0.5703330039978027,
+        1.169101357460022,
+        -1.3297462463378906,
+        0.7309778332710266
+      ],
+      "reference_velocity_mse": 0.009445245494134724,
+      "gradient_norm": 0.2931577265262604,
+      "old_ema_decay": 0.196,
+      "method_diagnostic": 0.11042697355151176,
+      "elapsed_seconds": 604.244802614674
+    },
+    {
+      "update": 197,
+      "condition": "Panobinostat+PCI-34051",
+      "objective": 0.06266312021762133,
+      "old_policy_mean_reward": 0.0976877212524414,
+      "reward_std": 0.21500186622142792,
+      "advantages": [
+        -0.6423080563545227,
+        -1.2132130861282349,
+        0.485970675945282,
+        1.3695504665374756
+      ],
+      "reference_velocity_mse": 0.008023479720577598,
+      "gradient_norm": 0.3534157872200012,
+      "old_ema_decay": 0.197,
+      "method_diagnostic": 0.10104092210531235,
+      "elapsed_seconds": 607.3487302726135
+    },
+    {
+      "update": 198,
+      "condition": "Givinostat+Sorafenib",
+      "objective": 0.10218686610460281,
+      "old_policy_mean_reward": 0.0339198112487793,
+      "reward_std": 0.17577654123306274,
+      "advantages": [
+        -1.4914575815200806,
+        -0.31554344296455383,
+        1.0428075790405273,
+        0.7641934156417847
+      ],
+      "reference_velocity_mse": 0.010471148416399956,
+      "gradient_norm": 0.3514440059661865,
+      "old_ema_decay": 0.198,
+      "method_diagnostic": 0.1261603906750679,
+      "elapsed_seconds": 610.45004064776
+    },
+    {
+      "update": 199,
+      "condition": "Dacinostat+Danusertib",
+      "objective": 0.07165252417325974,
+      "old_policy_mean_reward": 0.05536007881164551,
+      "reward_std": 0.19258147478103638,
+      "advantages": [
+        -0.4710215628147125,
+        -0.9217960238456726,
+        1.6849201917648315,
+        -0.292102575302124
+      ],
+      "reference_velocity_mse": 0.009414901724085212,
+      "gradient_norm": 0.2866073548793793,
+      "old_ema_decay": 0.199,
+      "method_diagnostic": 0.10429438389837742,
+      "elapsed_seconds": 613.5725038889796
+    },
+    {
+      "update": 200,
+      "condition": "Dacinostat+PCI-34051",
+      "objective": 0.07520069915335625,
+      "old_policy_mean_reward": -0.38379645347595215,
+      "reward_std": 0.2336878925561905,
+      "advantages": [
+        1.3486695289611816,
+        -0.7898498773574829,
+        0.5565526485443115,
+        -1.1153723001480103
+      ],
+      "reference_velocity_mse": 0.008925945381633937,
+      "gradient_norm": 0.3170565962791443,
+      "old_ema_decay": 0.2,
+      "method_diagnostic": 0.11329986434429884,
+      "elapsed_seconds": 616.6844553705305
+    }
+  ],
+  "direct_gradient_extra_compute": false
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": "nonrodent_lps_prepared_v1",
+  "status": "metadata_count_normalization_and_roundtrip_checks_passed",
+  "scope": "No fitting, model prediction, treatment-effect ranking, response-based selection, or outcome scores",
+  "source_files": {
+    "human_counts": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/human_lps/lawlor2021_cd14_baseline_lps_counts.h5ad",
+      "sha256": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0",
+      "bytes": 5938590
+    },
+    "rabbit_counts": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/prepared/rabbit.native_counts.h5ad",
+      "sha256": "4ae33be5686498e9764aa54242bc28e3e1344356fd1d8f6663cdcaf046c4082b",
+      "bytes": 82769558
+    },
+    "shared_gene_map": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/orthology/rabbit.human_state_measured.tsv",
+      "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+      "bytes": 376951
+    },
+    "human_coding_mask": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/human.coding_denominator_mask.tsv",
+      "sha256": "c171a64df357bf45d583475d5db32bff747c285d5dfd9ed40abeacce792e77d9",
+      "bytes": 1443053
+    },
+    "rabbit_coding_mask": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/rabbit.coding_denominator_mask.tsv",
+      "sha256": "dc34378d90a28d6909c56bbcf255f454093f301ac9c7068857930d809272807b",
+      "bytes": 953616
+    },
+    "coding_manifest": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/coding_denominator_manifest.json",
+      "sha256": "70c5669e14d05a214b04b469620608bb36c5de6ee4cefbfa3e702378db60488f",
+      "bytes": 4225
+    },
+    "script": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepare_nonrodent_lps_experiment.py",
+      "sha256": "6abc72039532142e17554cf929c65944373103dde20523965585b3da1943aa25",
+      "bytes": 20084
+    }
+  },
+  "arrays": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/lps_primary_arrays.npz",
+    "sha256": "ddd3c342fe22ed6ddd3253674f979a4965fcc251552c46daf4807380d0ff118b",
+    "bytes": 1918533,
+    "fields": {
+      "human_expression": {
+        "shape": [
+          1644,
+          4633
+        ],
+        "dtype": "float32"
+      },
+      "human_cell_ids": {
+        "shape": [
+          1644
+        ],
+        "dtype": "<U26"
+      },
+      "human_donors": {
+        "shape": [
+          1644
+        ],
+        "dtype": "<U19"
+      },
+      "human_condition": {
+        "shape": [
+          1644
+        ],
+        "dtype": "<U8"
+      },
+      "rabbit_expression": {
+        "shape": [
+          638,
+          4633
+        ],
+        "dtype": "float32"
+      },
+      "rabbit_cell_ids": {
+        "shape": [
+          638
+        ],
+        "dtype": "<U29"
+      },
+      "rabbit_donors": {
+        "shape": [
+          638
+        ],
+        "dtype": "<U7"
+      },
+      "rabbit_time_h": {
+        "shape": [
+          638
+        ],
+        "dtype": "int16"
+      },
+      "native_gene_indices": {
+        "shape": [
+          4633
+        ],
+        "dtype": "int64"
+      },
+      "human_gene_ids": {
+        "shape": [
+          4633
+        ],
+        "dtype": "<U15"
+      },
+      "rabbit_gene_ids": {
+        "shape": [
+          4633
+        ],
+        "dtype": "<U18"
+      },
+      "human_coding_library_size": {
+        "shape": [
+          1644
+        ],
+        "dtype": "float64"
+      },
+      "rabbit_coding_library_size": {
+        "shape": [
+          638
+        ],
+        "dtype": "float64"
+      }
+    }
+  },
+  "selections": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/selections.json",
+    "sha256": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0"
+  },
+  "primary_gene_axis": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/primary_gene_axis.tsv",
+    "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+    "n_observed": 4633,
+    "native_full_axis_size": 6546,
+    "input_loss_score_mask_identical_across_all_arms": true,
+    "excluded_coordinates": "Computational zero inputs only; never counted as observed target genes or scored"
+  },
+  "normalization": {
+    "formula": "float32(log1p(10000 * original_UMI / full_observed_author_Ensembl84_coding_UMI_sum))",
+    "human_coding_gene_count": 19123,
+    "rabbit_coding_gene_count": 19293,
+    "applied_before_selecting_4633_genes": true,
+    "zero_coding_library_rule": "abort entire preparation; do not drop cells",
+    "human_library_min_max": [
+      509.0,
+      5823.0
+    ],
+    "rabbit_selected_library_min_max": [
+      1805.0,
+      16413.0
+    ]
+  },
+  "donor_role_counts": {
+    "human_base": {
+      "202937150091_R01C01": 2,
+      "202937150118_R02C01": 2,
+      "202937150118_R04C01": 2,
+      "202937150118_R05C01": 2,
+      "202937150118_R07C01": 2,
+      "202937150118_R06C01": 2,
+      "202937150118_R08C01": 2,
+      "202937150091_R02C01": 2,
+      "202937150118_R03C01": 2,
+      "202937150118_R01C01": 2
+    },
+    "human_extra": {
+      "202937150118_R03C01": 1,
+      "202937150118_R01C01": 1,
+      "202937150118_R02C01": 1,
+      "202937150118_R05C01": 1,
+      "202937150091_R01C01": 1,
+      "202937150118_R04C01": 1,
+      "202937150118_R07C01": 1,
+      "202937150118_R06C01": 1,
+      "202937150118_R08C01": 1,
+      "202937150091_R02C01": 1
+    },
+    "human_cal": {
+      "202937150118_R08C01": 1,
+      "202937150091_R02C01": 1,
+      "202937150118_R03C01": 1,
+      "202937150118_R01C01": 1,
+      "202937150118_R02C01": 1,
+      "202937150118_R05C01": 1,
+      "202937150091_R01C01": 1,
+      "202937150118_R04C01": 1,
+      "202937150118_R07C01": 1,
+      "202937150118_R06C01": 1
+    },
+    "human_test": {
+      "202937150118_R07C01": 1,
+      "202937150118_R06C01": 1,
+      "202937150118_R08C01": 1,
+      "202937150091_R02C01": 1,
+      "202937150118_R03C01": 1,
+      "202937150118_R01C01": 1,
+      "202937150118_R02C01": 1,
+      "202937150118_R05C01": 1,
+      "202937150091_R01C01": 1,
+      "202937150118_R04C01": 1
+    }
+  },
+  "fold_budgets": [
+    {
+      "fold": 0,
+      "human_base": 661,
+      "human_extra": 224,
+      "rabbit_source": 224,
+      "rabbit_null": 224
+    },
+    {
+      "fold": 1,
+      "human_base": 749,
+      "human_extra": 344,
+      "rabbit_source": 344,
+      "rabbit_null": 344
+    },
+    {
+      "fold": 2,
+      "human_base": 756,
+      "human_extra": 317,
+      "rabbit_source": 317,
+      "rabbit_null": 317
+    },
+    {
+      "fold": 3,
+      "human_base": 548,
+      "human_extra": 432,
+      "rabbit_source": 432,
+      "rabbit_null": 432
+    },
+    {
+      "fold": 4,
+      "human_base": 568,
+      "human_extra": 324,
+      "rabbit_source": 324,
+      "rabbit_null": 324
+    }
+  ],
+  "counts": {
+    "human_all_cells": 1644,
+    "human_donors": 10,
+    "rabbit_selected_union_cells": 638,
+    "rabbit_donors": [
+      "rabbit2",
+      "rabbit1"
+    ],
+    "rabbit_time_h": [
+      0,
+      6
+    ]
+  },
+  "checks": {
+    "raw_h5ad_immutable": true,
+    "exact_source_budget_matching": true,
+    "human_roles_disjoint_every_fold": true,
+    "no_duplicate_cells_within_populations": true,
+    "A0_input_target_disjoint_all_folds": true,
+    "all_human_LPS_cells_kept_every_role": true,
+    "all_cal_test_controls_kept": true,
+    "all_target_donors_appear_exactly_once": true,
+    "npz_roundtrip_exact": true,
+    "no_object_dtype_arrays": true
+  }
+}

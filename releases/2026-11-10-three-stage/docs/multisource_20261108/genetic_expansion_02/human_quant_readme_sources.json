@@ -1,0 +1,26 @@
+[
+  {
+    "gsm": "GSM2138708",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138708/suppl/GSM2138708_ENCLB146QCP_README.txt.gz",
+    "sha256": "2f4d12458781f6c3fc648f1f87cb757d16c0174f0d378f098200ac9494d15771",
+    "decompressed_sha256": "9ee2f703381b0e63a6088965f38a4d8457378320a81ecd6271cedc95e653e935",
+    "bytes": 1691,
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138708_quant_README.txt"
+  },
+  {
+    "gsm": "GSM2344143",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2344nnn/GSM2344143/suppl/GSM2344143_ENCLB245COP_README.txt.gz",
+    "sha256": "136d2eff52ec7ed4e0d7ece84d26bfc2776e5e89b69caa17a2148a2698717640",
+    "decompressed_sha256": "9760b4406fa47b3e9cd9a0a7951abf8d2df496ba18bee8115967ce99db90c49e",
+    "bytes": 1878,
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSM2344143_quant_README.txt"
+  },
+  {
+    "gsm": "GSM2138872",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138872/suppl/GSM2138872_ENCLB559VUN_README.txt.gz",
+    "sha256": "c47c4fb09d3ae39dd8c45e4453325af4fc9b31e2b1f77054b70a8b7db452fc4d",
+    "decompressed_sha256": "58f6fb3ef844f24d6168ba06a3470a5372139e7ca27036fba9a99c094a58e677",
+    "bytes": 1693,
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138872_quant_README.txt"
+  }
+]

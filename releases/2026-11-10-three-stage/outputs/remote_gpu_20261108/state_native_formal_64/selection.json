@@ -1,0 +1,11 @@
+{
+  "selected_anchor_weight": 0.0,
+  "calibration_native_energy": {
+    "0.0": 0.33994303809271914,
+    "0.01": 0.3399886422687107,
+    "0.1": 0.3402414719263713,
+    "1.0": 0.34198982185787624
+  },
+  "test_evaluated_before_selection": false,
+  "selection_metric": "calibration cytokine-macro native energy"
+}

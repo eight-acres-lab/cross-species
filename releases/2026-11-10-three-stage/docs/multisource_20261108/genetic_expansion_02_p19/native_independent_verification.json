@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "kind": "estimated_counts",
+      "compartment": "whole_cell",
+      "rows": 38201,
+      "numeric_values_exactly_verified": 611216,
+      "status": "pass"
+    },
+    {
+      "kind": "condition_fpkm",
+      "compartment": "whole_cell",
+      "rows": 38201,
+      "numeric_values_exactly_verified": 305608,
+      "status": "pass"
+    },
+    {
+      "kind": "estimated_counts",
+      "compartment": "cytoplasmic",
+      "rows": 38201,
+      "numeric_values_exactly_verified": 611216,
+      "status": "pass"
+    },
+    {
+      "kind": "condition_fpkm",
+      "compartment": "cytoplasmic",
+      "rows": 38201,
+      "numeric_values_exactly_verified": 305608,
+      "status": "pass"
+    }
+  ],
+  "all_original_values_preserved": true,
+  "normalization_applied": false,
+  "manifest_sha256": "7b031ae27d5c71741672713fca3d42e02a14154c9ecff82135a5bf9b8460c762",
+  "script_sha256": "42cc079f9f5117b0fca7cf32e855e07de3407e94073675b718f9a2729bd54751"
+}

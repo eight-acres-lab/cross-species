@@ -1,0 +1,200 @@
+[
+  {
+    "contrast_id": "Homo_sapiens|author_individual_1|IFNB",
+    "species": "Homo_sapiens",
+    "author_individual": "1",
+    "family": "IFNB",
+    "treated_column": 12,
+    "control_column": 15,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_1|polyIC",
+    "species": "Homo_sapiens",
+    "author_individual": "1",
+    "family": "polyIC",
+    "treated_column": 14,
+    "control_column": 13,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_2|IFNB",
+    "species": "Homo_sapiens",
+    "author_individual": "2",
+    "family": "IFNB",
+    "treated_column": 16,
+    "control_column": 19,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_2|polyIC",
+    "species": "Homo_sapiens",
+    "author_individual": "2",
+    "family": "polyIC",
+    "treated_column": 18,
+    "control_column": 17,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_3|IFNB",
+    "species": "Homo_sapiens",
+    "author_individual": "3",
+    "family": "IFNB",
+    "treated_column": 20,
+    "control_column": 23,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_3|polyIC",
+    "species": "Homo_sapiens",
+    "author_individual": "3",
+    "family": "polyIC",
+    "treated_column": 22,
+    "control_column": 21,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_4|IFNB",
+    "species": "Homo_sapiens",
+    "author_individual": "4",
+    "family": "IFNB",
+    "treated_column": 24,
+    "control_column": 27,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_4|polyIC",
+    "species": "Homo_sapiens",
+    "author_individual": "4",
+    "family": "polyIC",
+    "treated_column": 26,
+    "control_column": 25,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_5|IFNB",
+    "species": "Homo_sapiens",
+    "author_individual": "5",
+    "family": "IFNB",
+    "treated_column": 28,
+    "control_column": 31,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_5|polyIC",
+    "species": "Homo_sapiens",
+    "author_individual": "5",
+    "family": "polyIC",
+    "treated_column": 30,
+    "control_column": 29,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_6|IFNB",
+    "species": "Homo_sapiens",
+    "author_individual": "6",
+    "family": "IFNB",
+    "treated_column": 32,
+    "control_column": 35,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Homo_sapiens|author_individual_6|polyIC",
+    "species": "Homo_sapiens",
+    "author_individual": "6",
+    "family": "polyIC",
+    "treated_column": 34,
+    "control_column": 33,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Mus_musculus|author_individual_1|IFNB",
+    "species": "Mus_musculus",
+    "author_individual": "1",
+    "family": "IFNB",
+    "treated_column": 0,
+    "control_column": 3,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Mus_musculus|author_individual_1|polyIC",
+    "species": "Mus_musculus",
+    "author_individual": "1",
+    "family": "polyIC",
+    "treated_column": 2,
+    "control_column": 1,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Mus_musculus|author_individual_2|IFNB",
+    "species": "Mus_musculus",
+    "author_individual": "2",
+    "family": "IFNB",
+    "treated_column": 4,
+    "control_column": 7,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Mus_musculus|author_individual_2|polyIC",
+    "species": "Mus_musculus",
+    "author_individual": "2",
+    "family": "polyIC",
+    "treated_column": 6,
+    "control_column": 5,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Mus_musculus|author_individual_3|IFNB",
+    "species": "Mus_musculus",
+    "author_individual": "3",
+    "family": "IFNB",
+    "treated_column": 8,
+    "control_column": 11,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": false,
+    "response_computed": false
+  },
+  {
+    "contrast_id": "Mus_musculus|author_individual_3|polyIC",
+    "species": "Mus_musculus",
+    "author_individual": "3",
+    "family": "polyIC",
+    "treated_column": 10,
+    "control_column": 9,
+    "author_pairing_basis": "Same explicit individual field in author sample_info",
+    "time_matched_control": true,
+    "response_computed": false
+  }
+]

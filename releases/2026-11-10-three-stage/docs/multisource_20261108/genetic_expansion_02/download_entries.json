@@ -1,0 +1,166 @@
+[
+  {
+    "perturb_id": "Perturb_8241",
+    "species": "Homo sapiens",
+    "study_accession": "SRP013565",
+    "cell_context": "hepatoblastoma cell HepG2",
+    "target": "SRSF1-",
+    "condition": "KD",
+    "controls": [
+      "SRX1737998",
+      "SRX1737999"
+    ],
+    "perturbs": [
+      "SRX1737874",
+      "SRX1737875"
+    ],
+    "expected_experiments": [
+      "SRX1737874",
+      "SRX1737875",
+      "SRX1737998",
+      "SRX1737999"
+    ],
+    "measurement_units": "raw_gene_counts_official_definition_missing_semantics_unresolved",
+    "url": "https://perturbatlas.kratoss.site/api/download?id=Perturb_8241&kind=gene",
+    "source_state": null,
+    "download_admission": "bounded_acquisition_allowed; original sample metadata audit pending; no training admission"
+  },
+  {
+    "perturb_id": "Perturb_8242",
+    "species": "Homo sapiens",
+    "study_accession": "SRP013565",
+    "cell_context": "hepatoblastoma cell HepG2",
+    "target": "SRSF7-",
+    "condition": "KD",
+    "controls": [
+      "SRX1737998",
+      "SRX1737999"
+    ],
+    "perturbs": [
+      "SRX1737864",
+      "SRX1737865"
+    ],
+    "expected_experiments": [
+      "SRX1737864",
+      "SRX1737865",
+      "SRX1737998",
+      "SRX1737999"
+    ],
+    "measurement_units": "raw_gene_counts_official_definition_missing_semantics_unresolved",
+    "url": "https://perturbatlas.kratoss.site/api/download?id=Perturb_8242&kind=gene",
+    "source_state": null,
+    "download_admission": "bounded_acquisition_allowed; original sample metadata audit pending; no training admission"
+  },
+  {
+    "perturb_id": "Perturb_4693",
+    "species": "Mus musculus",
+    "study_accession": "SRP059321",
+    "cell_context": "embryonic carcinoma cell P19 (whole cell)",
+    "target": "Srsf1-",
+    "condition": "KD",
+    "controls": [
+      "SRX1055022",
+      "SRX1055023"
+    ],
+    "perturbs": [
+      "SRX1055008",
+      "SRX1055009"
+    ],
+    "expected_experiments": [
+      "SRX1055008",
+      "SRX1055009",
+      "SRX1055022",
+      "SRX1055023"
+    ],
+    "measurement_units": "raw_gene_counts_official_definition_missing_semantics_unresolved",
+    "url": "https://perturbatlas.kratoss.site/api/download?id=Perturb_4693&kind=gene",
+    "source_state": null,
+    "download_admission": "bounded_acquisition_allowed; original sample metadata audit pending; no training admission"
+  },
+  {
+    "perturb_id": "Perturb_4699",
+    "species": "Mus musculus",
+    "study_accession": "SRP059321",
+    "cell_context": "embryonic carcinoma cell P19 (whole cell)",
+    "target": "Srsf7-",
+    "condition": "KD",
+    "controls": [
+      "SRX1055022",
+      "SRX1055023"
+    ],
+    "perturbs": [
+      "SRX1055020",
+      "SRX1055021"
+    ],
+    "expected_experiments": [
+      "SRX1055020",
+      "SRX1055021",
+      "SRX1055022",
+      "SRX1055023"
+    ],
+    "measurement_units": "raw_gene_counts_official_definition_missing_semantics_unresolved",
+    "url": "https://perturbatlas.kratoss.site/api/download?id=Perturb_4699&kind=gene",
+    "source_state": null,
+    "download_admission": "bounded_acquisition_allowed; original sample metadata audit pending; no training admission"
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "species": "Mus musculus",
+    "study_accession": "SRP313287",
+    "cell_context": "RAW 264.7",
+    "target": "Srsf1-",
+    "condition": "KD",
+    "controls": [
+      "SRX10507439",
+      "SRX10507440",
+      "SRX10507441"
+    ],
+    "perturbs": [
+      "SRX10507472",
+      "SRX10507473",
+      "SRX10507474"
+    ],
+    "expected_experiments": [
+      "SRX10507439",
+      "SRX10507440",
+      "SRX10507441",
+      "SRX10507472",
+      "SRX10507473",
+      "SRX10507474"
+    ],
+    "measurement_units": "raw_gene_counts_official_definition_missing_semantics_unresolved",
+    "url": "https://perturbatlas.kratoss.site/api/download?id=Perturb_15664&kind=gene",
+    "source_state": "no treatment",
+    "download_admission": "bounded_acquisition_allowed; original sample metadata audit pending; no training admission"
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "species": "Mus musculus",
+    "study_accession": "SRP313287",
+    "cell_context": "RAW 264.7",
+    "target": "Srsf7-",
+    "condition": "KD",
+    "controls": [
+      "SRX10507439",
+      "SRX10507440",
+      "SRX10507441"
+    ],
+    "perturbs": [
+      "SRX10507490",
+      "SRX10507491",
+      "SRX10507492"
+    ],
+    "expected_experiments": [
+      "SRX10507439",
+      "SRX10507440",
+      "SRX10507441",
+      "SRX10507490",
+      "SRX10507491",
+      "SRX10507492"
+    ],
+    "measurement_units": "raw_gene_counts_official_definition_missing_semantics_unresolved",
+    "url": "https://perturbatlas.kratoss.site/api/download?id=Perturb_15667&kind=gene",
+    "source_state": "no treatment",
+    "download_admission": "bounded_acquisition_allowed; original sample metadata audit pending; no training admission"
+  }
+]

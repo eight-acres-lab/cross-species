@@ -1,0 +1,56 @@
+{
+  "repo_commit": "2436f382cf80553c68442f5b5ff3d6492dca2971",
+  "processed_files": [
+    {
+      "url": "https://raw.githubusercontent.com/HagaiLab/transcriptional_evolution_of_antiviral_genes/2436f382cf80553c68442f5b5ff3d6492dca2971/EdgeR/count_matrix/homo_vs_mus_countData_Hagai.txt",
+      "path": "/hy-tmp/cross-species-feedback-20261108/multisource/e5919_processed_2025/homo_vs_mus_countData_Hagai.txt",
+      "status": "failed",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>",
+      "elapsed_seconds": 90.41171517502517
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HagaiLab/transcriptional_evolution_of_antiviral_genes/2436f382cf80553c68442f5b5ff3d6492dca2971/TPM_heatmap/homo_vs_mus_tpmData_Hagai.txt",
+      "path": "/hy-tmp/cross-species-feedback-20261108/multisource/e5919_processed_2025/homo_vs_mus_tpmData_Hagai.txt",
+      "status": "failed",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>",
+      "elapsed_seconds": 90.43123490922153
+    }
+  ],
+  "fastq_prefix_probes": [
+    {
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR206/002/ERR2060212/ERR2060212_1.fastq.gz",
+      "requested_bytes": 1048576,
+      "purpose": "bounded reachability prefix; no FASTQ file saved",
+      "http_status": 206,
+      "content_range": "bytes 0-1048575/1634619356",
+      "content_length": "1048576",
+      "received_bytes": 1048576,
+      "gzip_magic": true,
+      "sha256": "e58260876d39393a8bb00287d1af6129e334da35ac352e49755212f105d76165",
+      "status": "prefix_received",
+      "elapsed_seconds": 89.7250449731946,
+      "effective_prefix_MiB_s": 0.011145160198011051
+    },
+    {
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR206/008/ERR2060258/ERR2060258_1.fastq.gz",
+      "requested_bytes": 1048576,
+      "purpose": "bounded reachability prefix; no FASTQ file saved",
+      "http_status": 206,
+      "content_range": "bytes 0-1048575/1731460341",
+      "content_length": "1048576",
+      "received_bytes": 1048576,
+      "gzip_magic": true,
+      "sha256": "8d6b2cf70d751d7e11ffe5557e5bcab148159b74dd2ab5bf57d96e80077687dc",
+      "status": "prefix_received",
+      "elapsed_seconds": 77.23835564125329,
+      "effective_prefix_MiB_s": 0.012946935388483287
+    }
+  ],
+  "resources": {
+    "cpu_quota": "1600000",
+    "cpu_period": "100000",
+    "memory_limit": "274341036032"
+  },
+  "fastq_downloaded": false,
+  "indexes_downloaded": false
+}

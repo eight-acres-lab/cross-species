@@ -1,0 +1,34 @@
+{
+  "contract_sha256": "c0e51cbe559ed22e483d0323f344adfa211b2294acf606b01b37a1386c8058ef",
+  "old_exp2_global_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
+  "new_global_freeze_sha256": "b25f31bc7405abdd3eca92986cb8c6b8bebd5f37286e39e6d90d65f8e89d0153",
+  "old_models_verified": 36,
+  "old_factor_archives_verified": 36,
+  "new_artifacts_verified": 108,
+  "actual_old_and_new_code_verified": true,
+  "exp3_expression_loaded_during_hash_gate": false,
+  "metric_helper_sha256": "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3",
+  "verification_unix_time": 1794292466.3815749,
+  "source_weight_and_alpha_updates": 0,
+  "full_to_query_and_415_target_mapping_verified_before_target_expression": true,
+  "scorer_sha256": "8215f718e1060a7d1e8f9c14631a14a0538346d271139c3d0e1dd1c327c7f137",
+  "energy": {
+    "library": "GeomLoss0.3.1",
+    "source_hashes": {
+      "_legacy/samples_loss.py": "0503d0badfbbf87e5b859e278500191316cef71fd0f89f6a3d8345f80193e849",
+      "_legacy/kernel_samples.py": "5b38eaed54fa31e700eabbe1e6def385c47884781ce6eea31a3fec2eb05fdf5f",
+      "_legacy/utils.py": "65c39e3476d8a773d4f1fe0d6342765eec595991f838259bd73150b550dbecec"
+    },
+    "loss": "energy",
+    "blur": 0.05,
+    "backend": "tensorized",
+    "dtype": "float64",
+    "device": "cuda",
+    "formula": "meanDxy-0.5meanDxx-0.5meanDyy; uniform1/N and1/M V-statistic",
+    "distance": "sqrt(clamp_min(squared Euclidean,1e-8)); native self-distance1e-4 retained",
+    "gene_normalization": "none; full6357observed coordinates",
+    "precision_note": "Native energy/metrics float64. Model, C/P and scalar-shrink arithmetic float32; Hbase-mean delta remains float64 before addition/clamp."
+  },
+  "numpy_version": "2.4.6",
+  "old_base_delta_and_alpha_recomputed_or_reselected": false
+}

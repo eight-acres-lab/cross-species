@@ -1,0 +1,209 @@
+{
+  "request_url": "https://huggingface.co/api/models/arcinstitute/st-x-replogle-full/tree/48ad5f70215ab4c58caa5a68e77d837601d29d35/hepg2_0.99?recursive=true&expand=false",
+  "files": [
+    {
+      "type": "directory",
+      "oid": "2adeb2f60819529e28ef49565fb7f76d66daa814",
+      "size": 0,
+      "path": "hepg2_0.99/checkpoints"
+    },
+    {
+      "type": "directory",
+      "oid": "ce564a4c657fe834ebb2fed05a1071666b8b58be",
+      "size": 0,
+      "path": "hepg2_0.99/eval_best.ckpt"
+    },
+    {
+      "type": "directory",
+      "oid": "5dfc2eff2ee94190406ce221a6d2f9a3af24b5f0",
+      "size": 0,
+      "path": "hepg2_0.99/version_0"
+    },
+    {
+      "type": "file",
+      "oid": "f5e78340958796e878f310287253f5241918fadb",
+      "size": 721431,
+      "lfs": {
+        "oid": "8dacc0093185a25e19980baa89329a76da45dc42b51cf901ad46aa8577cce336",
+        "size": 721431,
+        "pointerSize": 131
+      },
+      "xetHash": "d2f59a7321392e82f25a2f73018b79529470c30688b4575caf438c85f837dfee",
+      "path": "hepg2_0.99/batch_onehot_map.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "d2616212b568f9270a2d38fd6a7bf91ab1857065",
+      "size": 1799,
+      "lfs": {
+        "oid": "9fb3e3daa0483033e2f12b6bbf10a21783982e693ca3cd3a9be0a6fe95dbd0c0",
+        "size": 1799,
+        "pointerSize": 129
+      },
+      "xetHash": "f93c60c8aeba5f5f845a7e4e13710017f7c5dcbaab594cce327d7ad1663938eb",
+      "path": "hepg2_0.99/cell_type_onehot_map.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "c83e1f875ce3078f1af01edc5eb37c953e33e484",
+      "size": 664162239,
+      "lfs": {
+        "oid": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+        "size": 664162239,
+        "pointerSize": 134
+      },
+      "xetHash": "393b1f8f96bd17ba4ea3129cb17e5012091704c67546fddbce02b9bac8235ac8",
+      "path": "hepg2_0.99/checkpoints/best.ckpt"
+    },
+    {
+      "type": "file",
+      "oid": "7380f2d9ed26906aa1923585a2cd6ce2ae7e2e4e",
+      "size": 664158271,
+      "lfs": {
+        "oid": "dd2621f5df3589655848e62aa58b2408af6b9a5a13618370802f85f684225c51",
+        "size": 664158271,
+        "pointerSize": 134
+      },
+      "xetHash": "57bd73291fde2b7d5b0513330c6da1630343fed6b813df9de4ea6cc31df46b0b",
+      "path": "hepg2_0.99/checkpoints/final.ckpt"
+    },
+    {
+      "type": "file",
+      "oid": "2c45f6580af347667185c1b50275592e03fa36fa",
+      "size": 664162239,
+      "lfs": {
+        "oid": "74b859515b09aae5496f684b50f361248fe6483849df8fe3101ed6477baaa503",
+        "size": 664162239,
+        "pointerSize": 134
+      },
+      "xetHash": "4b7ec19eee7db5ac07c18b6eb59a645fc066dc6c45f1ffedf3a6dfba0092046c",
+      "path": "hepg2_0.99/checkpoints/last.ckpt"
+    },
+    {
+      "type": "file",
+      "oid": "6cc2dabf45c734cd21926028062e470a8114b034",
+      "size": 2738,
+      "path": "hepg2_0.99/config.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "58a52ec80eb798f2bf986b9f463f1484527cc99a",
+      "size": 1901,
+      "path": "hepg2_0.99/data_module.torch"
+    },
+    {
+      "type": "file",
+      "oid": "c67da879cb01c90c8240ffd2688517a7c14ad990",
+      "size": 1858829372,
+      "lfs": {
+        "oid": "071089d31e74ec0e6d98c5b85dbdd4de6cdf6da18a133fe70ca11102a43482ef",
+        "size": 1858829372,
+        "pointerSize": 135
+      },
+      "xetHash": "9d1d4f6af4ec11d7b23342bf15843066aab673ab84e48422915b4977304282ae",
+      "path": "hepg2_0.99/eval_best.ckpt/adata_pred.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "5c52dea697556aaadb746224c5092c2ee4c90588",
+      "size": 1858829372,
+      "lfs": {
+        "oid": "756624c49326f362a487c491a233ce03a303073350709f2e2a72c89b3a5de80c",
+        "size": 1858829372,
+        "pointerSize": 135
+      },
+      "xetHash": "7a03998aaea3608806fdc86727803a00d171d51e9667478c3289a2ee40ef8bbd",
+      "path": "hepg2_0.99/eval_best.ckpt/adata_real.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "1e2c5b1d1895b16cd9e60a1710fb374b76c97901",
+      "size": 3390,
+      "lfs": {
+        "oid": "97114593d5d5c1a1a45649f3ab17b3170a6c4dc6e1104ed04813a1ab313bbd60",
+        "size": 3390,
+        "pointerSize": 129
+      },
+      "xetHash": "00a49793a799ffdc8738d83a89215aaf527496ace386f993981496a79d76de35",
+      "path": "hepg2_0.99/eval_best.ckpt/hepg2_agg_results.csv"
+    },
+    {
+      "type": "file",
+      "oid": "b61a36ac7ed28f48e81cf24c46df11c45af4ae0f",
+      "size": 727478759,
+      "lfs": {
+        "oid": "0dd7432c533c20a8d91d8fd47f9587d73d2c27d2202ea17812a3a1b50ef06584",
+        "size": 727478759,
+        "pointerSize": 134
+      },
+      "xetHash": "120a79f9d3483492a31f3303a4c1a55f3c0d95a27094c9ae057640929283b82d",
+      "path": "hepg2_0.99/eval_best.ckpt/hepg2_pred_de.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3dc5bc7218c23cd62a2ed395f60ad1ea76feea59",
+      "size": 721540901,
+      "lfs": {
+        "oid": "80e1f18efbdbc2055d789d2a5df8ba2f55369f3a2c4659c09e2b0cd1b624135d",
+        "size": 721540901,
+        "pointerSize": 134
+      },
+      "xetHash": "65b7405d9b32582b602aa03cffb6e97b6204d3452480b6dc47b4a7866f2d63ee",
+      "path": "hepg2_0.99/eval_best.ckpt/hepg2_real_de.csv"
+    },
+    {
+      "type": "file",
+      "oid": "a23d277ebac59486c9f928f0e0b37557b0312cf7",
+      "size": 332043,
+      "lfs": {
+        "oid": "145d90135a7b2a5f14aed4695b9c762440c801e27351da1db58f2f02b0e1e4b6",
+        "size": 332043,
+        "pointerSize": 131
+      },
+      "xetHash": "02eed503b7b8aeb3db751548efdf2f8508c3aa713150a55962a582decd3b7ed8",
+      "path": "hepg2_0.99/eval_best.ckpt/hepg2_results.csv"
+    },
+    {
+      "type": "file",
+      "oid": "820d84ecd2d8e94e5551bf8ff04e34cdd65ff1d0",
+      "size": 16746593,
+      "lfs": {
+        "oid": "f5621cab243a5135014af3867f63f8bf75cff19aee06d0f29a1bdecd2dbf47d0",
+        "size": 16746593,
+        "pointerSize": 133
+      },
+      "xetHash": "fa58456e3488b58c3b99634c7f89988341319f7ba087c464546a9bf24e50c772",
+      "path": "hepg2_0.99/pert_onehot_map.pt"
+    },
+    {
+      "type": "file",
+      "oid": "0eb211d4c9a29143d9843b9c8ef3c967b60ed500",
+      "size": 193534,
+      "lfs": {
+        "oid": "7b89119fbacab24db54d3167dd26eb7f8dd881e45648fa315967a85c2f2efaae",
+        "size": 193534,
+        "pointerSize": 131
+      },
+      "xetHash": "2a135f80fe6b7c108f284fb85cb8d5a10bd3a08ee5ba0cbf9c569c80389acf40",
+      "path": "hepg2_0.99/var_dims.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "91a62e74711769c7cfa56b9a4a1876e671f46c42",
+      "size": 56363,
+      "path": "hepg2_0.99/version_0/hparams.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "01d99e1a0ab7b806efd66050b5cdc348ef0b8ec7",
+      "size": 309737,
+      "path": "hepg2_0.99/version_0/metrics.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1c98f340ffff29656d94a3cfbe58e633092f1078",
+      "size": 26,
+      "path": "hepg2_0.99/wandb_path.txt"
+    }
+  ]
+}

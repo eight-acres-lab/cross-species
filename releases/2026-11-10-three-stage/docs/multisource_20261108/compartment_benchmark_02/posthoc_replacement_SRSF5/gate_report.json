@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-08",
+  "status": "metadata_only_E0_hold_mode_mismatch",
+  "branch": "posthoc_replacement_SRSF5",
+  "protocol_sha256": "b97f3da5d641a3220f9afc7214e7ca6deec486b208a75797d30125d1aa9fb463",
+  "selection_path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/replacement_selection.json",
+  "selection_sha256": "78885fdf8296dde648486463bec61cf43ae85a2e22ce3882fcae187306e159c9",
+  "expected_mode": "shRNA RNA-seq",
+  "actual_mode": "CRISPR RNA-seq",
+  "gate_passed": false,
+  "reason": "Official replacement and its matched control change intervention mode. The predeclared same-shRNA endpoint-replacement gate is not met.",
+  "identity_summary": [
+    {
+      "role": "treated",
+      "accession": "ENCSR528YVC",
+      "status": "released",
+      "assay_title": "CRISPR RNA-seq",
+      "assay_term_name": "CRISPR genome editing followed by RNA-seq",
+      "target": "SRSF5",
+      "cell": "K562",
+      "description": "RNA-seq on K562 cells treated with a CRISPR gRNA against SRSF5. (SRSF5-BGKcLV11)",
+      "replication_type": "isogenic",
+      "possible_controls": [
+        "ENCSR292PXV"
+      ],
+      "source_url": "https://www.encodeproject.org/ENCSR528YVC/?format=json",
+      "source_path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/ENCSR528YVC.json",
+      "source_sha256": "cec48643ef2807226eb004832475ab4cb19215b9be967396447140eb27058084"
+    },
+    {
+      "role": "control",
+      "accession": "ENCSR292PXV",
+      "status": "released",
+      "assay_title": "CRISPR RNA-seq",
+      "assay_term_name": "CRISPR genome editing followed by RNA-seq",
+      "target": null,
+      "cell": "K562",
+      "description": "RNA-seq on K562 cells treated with a CRISPR gRNA against NT. (NT-BGKcLV11)",
+      "replication_type": "isogenic",
+      "possible_controls": [],
+      "source_url": "https://www.encodeproject.org/ENCSR292PXV/?format=json",
+      "source_path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/ENCSR292PXV.json",
+      "source_sha256": "13f4f33841500173ba511777f96f57276dc775d6cc0fbee5b2a24c44351ef3a7"
+    }
+  ],
+  "expression_files_planned": [
+    {
+      "role": "control",
+      "experiment": "ENCSR292PXV",
+      "assay_title": "CRISPR RNA-seq",
+      "assay_term_name": "CRISPR genome editing followed by RNA-seq",
+      "target": null,
+      "cell": "K562",
+      "biosample": "ENCBS421LRO",
+      "library": "ENCLB108KVM",
+      "biological_replicate": 1,
+      "technical_replicate": 1,
+      "biosample_description": "RNA-seq on K562 cells treated with a CRISPR gRNA against non-target. (NT-BGKcLV11-1)",
+      "biosample_dbxrefs": [
+        "GEO:SAMN19596882"
+      ],
+      "file_accession": "ENCFF145YOO",
+      "url": "https://www.encodeproject.org/files/ENCFF145YOO/@@download/ENCFF145YOO.tsv",
+      "expected_md5": "adbd2a2a8e3569478059f3bc57c58d8c",
+      "expected_bytes": 10948554,
+      "assembly": "GRCh38",
+      "genome_annotation": "V29",
+      "output_type": "gene quantifications",
+      "file_format": "tsv",
+      "file_status": "released",
+      "quantity_status": "Uninspected gene-quantification TSV; expression not downloaded because intervention-mode gate failed. Do not assume raw integer counts.",
+      "download_allowed_under_same_mode_branch": false
+    },
+    {
+      "role": "control",
+      "experiment": "ENCSR292PXV",
+      "assay_title": "CRISPR RNA-seq",
+      "assay_term_name": "CRISPR genome editing followed by RNA-seq",
+      "target": null,
+      "cell": "K562",
+      "biosample": "ENCBS390OYB",
+      "library": "ENCLB999FUK",
+      "biological_replicate": 2,
+      "technical_replicate": 1,
+      "biosample_description": "RNA-seq on K562 cells treated with a CRISPR gRNA against non-target. (NT-BGKcLV11-2)",
+      "biosample_dbxrefs": [
+        "GEO:SAMN19596864"
+      ],
+      "file_accession": "ENCFF366OWS",
+      "url": "https://www.encodeproject.org/files/ENCFF366OWS/@@download/ENCFF366OWS.tsv",
+      "expected_md5": "abd598fe5b93b6ee56f05bbb79312c41",
+      "expected_bytes": 10916345,
+      "assembly": "GRCh38",
+      "genome_annotation": "V29",
+      "output_type": "gene quantifications",
+      "file_format": "tsv",
+      "file_status": "released",
+      "quantity_status": "Uninspected gene-quantification TSV; expression not downloaded because intervention-mode gate failed. Do not assume raw integer counts.",
+      "download_allowed_under_same_mode_branch": false
+    },
+    {
+      "role": "treated",
+      "experiment": "ENCSR528YVC",
+      "assay_title": "CRISPR RNA-seq",
+      "assay_term_name": "CRISPR genome editing followed by RNA-seq",
+      "target": "SRSF5",
+      "cell": "K562",
+      "biosample": "ENCBS778ZTA",
+      "library": "ENCLB396RFQ",
+      "biological_replicate": 1,
+      "technical_replicate": 1,
+      "biosample_description": "RNA-seq on K562 cells treated with a CRISPR gRNA against SRSF5. (SRSF5-BGKcLV11-95)",
+      "biosample_dbxrefs": [
+        "GEO:SAMN19597217"
+      ],
+      "file_accession": "ENCFF964HPE",
+      "url": "https://www.encodeproject.org/files/ENCFF964HPE/@@download/ENCFF964HPE.tsv",
+      "expected_md5": "da339b4d432aaafc99b85ebf717a48d5",
+      "expected_bytes": 10949345,
+      "assembly": "GRCh38",
+      "genome_annotation": "V29",
+      "output_type": "gene quantifications",
+      "file_format": "tsv",
+      "file_status": "released",
+      "quantity_status": "Uninspected gene-quantification TSV; expression not downloaded because intervention-mode gate failed. Do not assume raw integer counts.",
+      "download_allowed_under_same_mode_branch": false
+    },
+    {
+      "role": "treated",
+      "experiment": "ENCSR528YVC",
+      "assay_title": "CRISPR RNA-seq",
+      "assay_term_name": "CRISPR genome editing followed by RNA-seq",
+      "target": "SRSF5",
+      "cell": "K562",
+      "biosample": "ENCBS486UHL",
+      "library": "ENCLB171MSR",
+      "biological_replicate": 2,
+      "technical_replicate": 1,
+      "biosample_description": "RNA-seq on K562 cells treated with a CRISPR gRNA against SRSF5. (SRSF5-BGKcLV11-96)",
+      "biosample_dbxrefs": [
+        "GEO:SAMN19596935"
+      ],
+      "file_accession": "ENCFF905RAR",
+      "url": "https://www.encodeproject.org/files/ENCFF905RAR/@@download/ENCFF905RAR.tsv",
+      "expected_md5": "68dae99b716826a4f9eaabcbef1db7ca",
+      "expected_bytes": 10899464,
+      "assembly": "GRCh38",
+      "genome_annotation": "V29",
+      "output_type": "gene quantifications",
+      "file_format": "tsv",
+      "file_status": "released",
+      "quantity_status": "Uninspected gene-quantification TSV; expression not downloaded because intervention-mode gate failed. Do not assume raw integer counts.",
+      "download_allowed_under_same_mode_branch": false
+    }
+  ],
+  "expected_expression_bytes": 43713708,
+  "expression_files_downloaded": 0,
+  "response_computed": false,
+  "new_endpoint_evaluation_performed": false,
+  "new_endpoint_metrics": null,
+  "original_frozen_reference": {
+    "case_id": "primary|K562|SRSF5",
+    "human_query_contrast": "Perturb_9927",
+    "fit_targets": [
+      "SRSF1",
+      "SRSF7"
+    ],
+    "beta": [
+      0.022392018902198038,
+      0.17754818358778712
+    ],
+    "source_query_contrasts": [
+      "Perturb_4697",
+      "Perturb_4690"
+    ],
+    "report_sha256": "cf907f515715896404bc594262bb5406c999d7a5ebb18fa70b88b3445d12f765",
+    "predictions_sha256": "2889ded6fe67ee2941c165ca71ab9c9f936cbffac54f4948232b710523f120ac",
+    "responses_sha256": "62767a49070353f21450fa6dab5d9e7023ae2b374e2d3f3912d359b7ca32054a",
+    "unchanged": true
+  },
+  "annotation_versions": {
+    "old": "GENCODE V24",
+    "new": "GENCODE V29"
+  },
+  "independent_audit_path": "outputs/multisource_20261108/remote_expansion_02/replacement_srsf5_independent_verification.json"
+}

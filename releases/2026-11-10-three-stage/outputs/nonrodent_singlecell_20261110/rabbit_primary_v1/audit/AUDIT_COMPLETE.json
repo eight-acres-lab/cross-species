@@ -1,0 +1,15 @@
+{
+  "contract_sha256": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
+  "global_prediction_freeze_sha256": "b4b1052e5088de4cb6e2d30017a0d3b889a0dc1c9e7bb5d6899f89eca8dd28dc",
+  "scorer_sha256": "cf9e1ed79253ad859ce7b2e76241196a377879ce2b8512688d39f549fa75545d",
+  "outputs": {
+    "donor_scores.csv": "5b6c3b6934381b98da7acac193119920ed358188bbc7e8403ed3f9e1194a262a",
+    "paired_donor_differences.csv": "02448b395a339916169e40a5e8d68bd8a55b8dd021ea01912079a5a092bd19eb",
+    "summary.json": "8dd846951ecc901b5ccfb7eb62d2adcf80cea8f6ba135d50f14c2f62351754dd",
+    "audit_provenance.json": "8046f5579edd20fc25e058e92c5235d08f4bfd78ef2f1789aa6a914a012233e4"
+  },
+  "unix_time": 1794257634.2256987,
+  "donors": 10,
+  "score_rows": 110,
+  "paired_rows": 110
+}

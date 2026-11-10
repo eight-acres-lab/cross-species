@@ -1,0 +1,11 @@
+{
+  "device": "cuda",
+  "seconds": 1.1199213257059455,
+  "peak_allocated_bytes": 610656768,
+  "CPU_parity_max_abs": 1.1102230246251565e-16,
+  "resamples": 2000,
+  "unique_arm_groups": 30,
+  "single_record_groups": [],
+  "shared_controls_preserved": true,
+  "scope": "Fixed-estimator measured-assay sensitivity; no donor identity or population interval, no additional independent perturbations."
+}

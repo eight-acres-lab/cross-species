@@ -1,0 +1,16 @@
+{
+  "tests_passed": 6,
+  "all_255_paired_quantiles_recomputed": true,
+  "human_reference_exact_between_routes": true,
+  "gene_and_sample_axes_validated": true,
+  "code_and_specification_hashes_match": true,
+  "resampling_literal_max_abs_error": 3.4416913763379853e-15,
+  "files": {
+    "code_snapshot.py": "9757408bff815172a638080d7738a1d304b4fe1b504761ba33385bf92c0cd3f3",
+    "report.json": "fa1af201908ece16e360bbd131f9b5f1564a19aba251ee9f8b5497d86d419c65",
+    "README.md": "85d58e9394bbc2bbf83bbfb937e5fd1ff6475d75f14fbaaa6722ae416c508373",
+    "specification.json": "5df8fb33244f2ce99675eef8123297f23bef9d15229678cb68f0f73a46b0f4a4",
+    "donor_sensitivity.npz": "b225bbc3348f84ad846dd0b117fada29ab723aa9c3add7844d17deccdf6754b0",
+    "all_subset_scores.tsv": "2ac665ed36eb7e8ac1b3ebe5d617407745784326792478b137beac46579e4136"
+  }
+}

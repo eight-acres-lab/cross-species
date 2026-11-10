@@ -1,0 +1,1365 @@
+{
+  "status": "complete",
+  "protocol_sha256": "cb196a8644003d97af1b72d5a1c173c1f9fdd5fa03507a06557ca70d980d8633",
+  "code_sha256": "ff915094e79a79f114655ab098d86f9678b8962779eda484b96f541059a7ec3f",
+  "prepared_audit_sha256": "9dad20c8e15e70d873c80b8dfc87d9689ea274b39672a09335da406bfe8b9e49",
+  "source_axis_genes": 25638,
+  "fixed_complete_genes": 12276,
+  "species": [
+    "Bos taurus",
+    "Homo sapiens",
+    "Macaca",
+    "Mus musculus",
+    "Oryctolagus cuniculus",
+    "Ovis aries",
+    "Pan troglodytes",
+    "Papio anubis",
+    "Rattus norvegicus",
+    "Sus scrofa"
+  ],
+  "condition_ids": [
+    "LPS|10ngml|2h",
+    "LPS|100ngml|2h",
+    "LPS|1000ngml|2h",
+    "LPS|10ngml|6h",
+    "LPS|100ngml|6h",
+    "LPS|1000ngml|6h",
+    "LPS|10ngml|24h",
+    "LPS|100ngml|24h",
+    "LPS|1000ngml|24h"
+  ],
+  "perturbation_identities": 1,
+  "biological_sampling_units": 44,
+  "primary_response_rows": 387,
+  "metric_order": [
+    "spearman_all45",
+    "spearman_cross_order35",
+    "partial_rank_taxonomic_distance"
+  ],
+  "aggregation": "Within species-condition average available biological units; within time average three dose means equally. Same units recur across conditions.",
+  "fixed_sorted_unit_split": {
+    "2": [
+      0.8835309617918313,
+      0.7963585434173669,
+      0.8573493018274662
+    ],
+    "6": [
+      0.9600790513833992,
+      0.9361344537815126,
+      0.9484152194780613
+    ],
+    "24": [
+      0.941501976284585,
+      0.9201680672268907,
+      0.9386541707723938
+    ]
+  },
+  "fixed_sorted_mean_split_half": 0.9283706631532719,
+  "fixed_sorted_Spearman_Brown_extrapolation": 0.962854995558997,
+  "random_split_sensitivity": {
+    "seed": 20261108,
+    "draws": 500,
+    "same_unit_assignment_across_all_conditions": true,
+    "metrics_by_time": {
+      "2": {
+        "quantiles_2.5_50_97.5": [
+          [
+            0.6897595520421608,
+            0.4912394957983193,
+            0.5781063279822158
+          ],
+          [
+            0.8399209486166008,
+            0.7397759103641457,
+            0.7678323878867037
+          ],
+          [
+            0.9342687747035573,
+            0.8850210084033613,
+            0.9045049407793833
+          ]
+        ],
+        "minimum": [
+          0.5725955204216073,
+          0.37058823529411766,
+          0.43811081956427794
+        ],
+        "maximum": [
+          0.9566534914361001,
+          0.9305322128851541,
+          0.9361420911428445
+        ]
+      },
+      "6": {
+        "quantiles_2.5_50_97.5": [
+          [
+            0.8895125164690382,
+            0.8324509803921569,
+            0.8593248304002687
+          ],
+          [
+            0.9542160737812913,
+            0.9294117647058824,
+            0.9424816713774555
+          ],
+          [
+            0.9804446640316206,
+            0.9703081232492997,
+            0.9753829024646705
+          ]
+        ],
+        "minimum": [
+          0.836231884057971,
+          0.730812324929972,
+          0.7896712539189914
+        ],
+        "maximum": [
+          0.9877470355731225,
+          0.9775910364145658,
+          0.9844268607585512
+        ]
+      },
+      "24": {
+        "quantiles_2.5_50_97.5": [
+          [
+            0.8321574440052701,
+            0.7487464985994398,
+            0.8129686160491545
+          ],
+          [
+            0.9134387351778656,
+            0.8852941176470588,
+            0.9044269358180574
+          ],
+          [
+            0.9692523056653491,
+            0.9595448179271708,
+            0.966698210793002
+          ]
+        ],
+        "minimum": [
+          0.763768115942029,
+          0.6240896358543417,
+          0.7373023692747643
+        ],
+        "maximum": [
+          0.9812911725955205,
+          0.9745098039215686,
+          0.9788612519481992
+        ]
+      }
+    },
+    "mean_over_time_all45_quantiles": [
+      0.8372200263504611,
+      0.9007026789635486,
+      0.939262187088274
+    ],
+    "rejected_partition_proposals": 40,
+    "interpretation": "Variation of500 balanced partitions of the same44 units; not an independent species/stimulus population confidence interval."
+  },
+  "cross_time": {
+    "2h_vs_6h": [
+      0.8299077733860343,
+      0.7518207282913165,
+      0.7695752923523153
+    ],
+    "2h_vs_24h": [
+      0.5733860342555994,
+      0.3434173669467787,
+      0.48871647128369866
+    ],
+    "6h_vs_24h": [
+      0.766403162055336,
+      0.6126050420168068,
+      0.7299403875103863
+    ]
+  },
+  "curves": {
+    "all_nine": [
+      {
+        "size": 1,
+        "subsets": 9,
+        "mean_pearson": 0.46039270722170245,
+        "min_pearson": 0.26986387736828593,
+        "max_pearson": 0.7867672820767886,
+        "mean_mse": 0.6246675298599548,
+        "min_mse": 0.2731580803179369,
+        "max_mse": 0.8372881407118283,
+        "mean_recovery": 0.20328564247828437,
+        "max_pearson_oracle_species": [
+          "Pan troglodytes"
+        ],
+        "min_mse_oracle_species": [
+          "Pan troglodytes"
+        ]
+      },
+      {
+        "size": 2,
+        "subsets": 36,
+        "mean_pearson": 0.570893730907367,
+        "min_pearson": 0.31990659206474525,
+        "max_pearson": 0.7824121410985589,
+        "mean_mse": 0.5211651413274174,
+        "min_mse": 0.28288535578819024,
+        "max_mse": 0.7803984319683973,
+        "mean_recovery": 0.3364114019227343,
+        "max_pearson_oracle_species": [
+          "Pan troglodytes",
+          "Papio anubis"
+        ],
+        "min_mse_oracle_species": [
+          "Macaca",
+          "Pan troglodytes"
+        ]
+      },
+      {
+        "size": 3,
+        "subsets": 84,
+        "mean_pearson": 0.6245832891538051,
+        "min_pearson": 0.40193189303635096,
+        "max_pearson": 0.7662305849452964,
+        "mean_mse": 0.4866643451499049,
+        "min_mse": 0.30575528666313373,
+        "max_mse": 0.7089913796613848,
+        "mean_recovery": 0.3807866550708843,
+        "max_pearson_oracle_species": [
+          "Macaca",
+          "Mus musculus",
+          "Pan troglodytes"
+        ],
+        "min_mse_oracle_species": [
+          "Macaca",
+          "Pan troglodytes",
+          "Papio anubis"
+        ]
+      },
+      {
+        "size": 4,
+        "subsets": 126,
+        "mean_pearson": 0.6563525794448948,
+        "min_pearson": 0.45792243454130976,
+        "max_pearson": 0.7591992995873971,
+        "mean_mse": 0.4694139470611487,
+        "min_mse": 0.32485294547677485,
+        "max_mse": 0.6590741419689565,
+        "mean_recovery": 0.40297428164495924,
+        "max_pearson_oracle_species": [
+          "Macaca",
+          "Mus musculus",
+          "Pan troglodytes",
+          "Papio anubis"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Pan troglodytes",
+          "Papio anubis"
+        ]
+      },
+      {
+        "size": 5,
+        "subsets": 126,
+        "mean_pearson": 0.6772974900348331,
+        "min_pearson": 0.4951418497432302,
+        "max_pearson": 0.7519908819194785,
+        "mean_mse": 0.4590637082078949,
+        "min_mse": 0.3460287543645707,
+        "max_mse": 0.6279910122942799,
+        "mean_recovery": 0.41628685758940437,
+        "max_pearson_oracle_species": [
+          "Macaca",
+          "Mus musculus",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Oryctolagus cuniculus",
+          "Pan troglodytes",
+          "Papio anubis"
+        ]
+      },
+      {
+        "size": 6,
+        "subsets": 84,
+        "mean_pearson": 0.6921094248480986,
+        "min_pearson": 0.521719232349779,
+        "max_pearson": 0.7446239269055991,
+        "mean_mse": 0.45216354897239247,
+        "min_mse": 0.37282183175369954,
+        "max_mse": 0.601747968202085,
+        "mean_recovery": 0.42516190821903427,
+        "max_pearson_oracle_species": [
+          "Macaca",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Pan troglodytes",
+          "Papio anubis"
+        ]
+      },
+      {
+        "size": 7,
+        "subsets": 36,
+        "mean_pearson": 0.7031171854429679,
+        "min_pearson": 0.6097158042901328,
+        "max_pearson": 0.736246084023685,
+        "mean_mse": 0.44723486380417654,
+        "min_mse": 0.39532082996615997,
+        "max_mse": 0.5403451633547668,
+        "mean_recovery": 0.4315012300973413,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Sus scrofa"
+        ]
+      },
+      {
+        "size": 8,
+        "subsets": 9,
+        "mean_pearson": 0.7116071159916526,
+        "min_pearson": 0.6590579172727903,
+        "max_pearson": 0.728940364038254,
+        "mean_mse": 0.4435383499280144,
+        "min_mse": 0.41712206037325755,
+        "max_mse": 0.49027147417659933,
+        "mean_recovery": 0.4362557215060717,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Rattus norvegicus",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Sus scrofa"
+        ]
+      },
+      {
+        "size": 9,
+        "subsets": 1,
+        "mean_pearson": 0.7183463694004827,
+        "min_pearson": 0.7183463694004827,
+        "max_pearson": 0.7183463694004827,
+        "mean_mse": 0.4406632835798883,
+        "min_mse": 0.4406632835798883,
+        "max_mse": 0.4406632835798883,
+        "mean_recovery": 0.4399536592684175,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Rattus norvegicus",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Macaca",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Pan troglodytes",
+          "Papio anubis",
+          "Rattus norvegicus",
+          "Sus scrofa"
+        ]
+      }
+    ],
+    "six_nonprimates": [
+      {
+        "size": 1,
+        "subsets": 6,
+        "mean_pearson": 0.3470879485424872,
+        "min_pearson": 0.26986387736828593,
+        "max_pearson": 0.4051737297498804,
+        "mean_mse": 0.733700482676392,
+        "min_mse": 0.6671696806377919,
+        "max_mse": 0.8372881407118283,
+        "mean_recovery": 0.06874688371826283,
+        "max_pearson_oracle_species": [
+          "Bos taurus"
+        ],
+        "min_mse_oracle_species": [
+          "Oryctolagus cuniculus"
+        ]
+      },
+      {
+        "size": 2,
+        "subsets": 15,
+        "mean_pearson": 0.42612351573798224,
+        "min_pearson": 0.31990659206474525,
+        "max_pearson": 0.4826801825910157,
+        "mean_mse": 0.6545289739918078,
+        "min_mse": 0.5815421923617267,
+        "max_mse": 0.7803984319683973,
+        "mean_recovery": 0.17511078412400854,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Oryctolagus cuniculus"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Oryctolagus cuniculus"
+        ]
+      },
+      {
+        "size": 3,
+        "subsets": 20,
+        "mean_pearson": 0.4665927598965355,
+        "min_pearson": 0.40193189303635096,
+        "max_pearson": 0.5043410576059617,
+        "mean_mse": 0.6281384710969464,
+        "min_mse": 0.5755025466318241,
+        "max_mse": 0.7089913796613848,
+        "mean_recovery": 0.21056541759259054,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Oryctolagus cuniculus",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Oryctolagus cuniculus",
+          "Sus scrofa"
+        ]
+      },
+      {
+        "size": 4,
+        "subsets": 15,
+        "mean_pearson": 0.49182336967987017,
+        "min_pearson": 0.45792243454130976,
+        "max_pearson": 0.513777725735575,
+        "mean_mse": 0.6149432196495158,
+        "min_mse": 0.5759682094806946,
+        "max_mse": 0.6590741419689565,
+        "mean_recovery": 0.22829273432688144,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Sus scrofa"
+        ]
+      },
+      {
+        "size": 5,
+        "subsets": 6,
+        "mean_pearson": 0.5091317660058716,
+        "min_pearson": 0.4951418497432302,
+        "max_pearson": 0.5188445250134874,
+        "mean_mse": 0.6070260687810575,
+        "min_mse": 0.5848862871929243,
+        "max_mse": 0.6279910122942799,
+        "mean_recovery": 0.23892912436745609,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Sus scrofa"
+        ]
+      },
+      {
+        "size": 6,
+        "subsets": 1,
+        "mean_pearson": 0.521719232349779,
+        "min_pearson": 0.521719232349779,
+        "max_pearson": 0.521719232349779,
+        "mean_mse": 0.601747968202085,
+        "min_mse": 0.601747968202085,
+        "max_mse": 0.601747968202085,
+        "mean_recovery": 0.24602005106117245,
+        "max_pearson_oracle_species": [
+          "Bos taurus",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Rattus norvegicus",
+          "Sus scrofa"
+        ],
+        "min_mse_oracle_species": [
+          "Bos taurus",
+          "Mus musculus",
+          "Oryctolagus cuniculus",
+          "Ovis aries",
+          "Rattus norvegicus",
+          "Sus scrofa"
+        ]
+      }
+    ]
+  },
+  "single_source": [
+    {
+      "species": [
+        "Bos taurus"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": true,
+      "macro_pearson": 0.4051737297498804,
+      "macro_mse": 0.6794068437445477,
+      "macro_recovery": 0.12537428916995777,
+      "per_condition_pearson": [
+        0.473284507914146,
+        0.4712806983612793,
+        0.4817386448585304,
+        0.4177390735502827,
+        0.4447820684409874,
+        0.43629337842132265,
+        0.2986380178771078,
+        0.3025190029676179,
+        0.32028817535765
+      ],
+      "per_condition_mse": [
+        0.4054749301875638,
+        0.4249956211931146,
+        0.42751030246797056,
+        0.9115857590744252,
+        0.9200301725700432,
+        0.9456054152220357,
+        0.6805215308341305,
+        0.6805046020491256,
+        0.7184332601025207
+      ],
+      "per_condition_recovery": [
+        0.22502242301762676,
+        0.2033615955982616,
+        0.2198836628378802,
+        0.20708854827221945,
+        0.230167014420668,
+        0.21478140221017106,
+        -0.019566679175230473,
+        -0.06353463845557394,
+        -0.08883472619640265
+      ]
+    },
+    {
+      "species": [
+        "Macaca"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": false,
+      "macro_pearson": 0.641486096056126,
+      "macro_mse": 0.48599047536805035,
+      "macro_recovery": 0.3734731126853863,
+      "per_condition_pearson": [
+        0.6740551592655003,
+        0.6792064331154352,
+        0.6806517810604367,
+        0.6627953658333565,
+        0.6600139027559382,
+        0.6689246999402938,
+        0.5885936251050607,
+        0.5717132817085308,
+        0.5874206157205816
+      ],
+      "per_condition_mse": [
+        0.27640414884529896,
+        0.274949050115885,
+        0.28257025835460803,
+        0.6324150477253335,
+        0.6542353434340105,
+        0.6560174974003113,
+        0.5177074508838578,
+        0.5352134838583139,
+        0.5444019976948341
+      ],
+      "per_condition_recovery": [
+        0.47171328831373727,
+        0.4846182839221196,
+        0.48436874230635396,
+        0.4499155690019422,
+        0.4525701844099247,
+        0.45525149164536916,
+        0.22436360560855917,
+        0.16353529816289436,
+        0.17492155079757632
+      ]
+    },
+    {
+      "species": [
+        "Mus musculus"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": true,
+      "macro_pearson": 0.28551218513109006,
+      "macro_mse": 0.7924951367421191,
+      "macro_recovery": 0.011927697378445234,
+      "per_condition_pearson": [
+        0.43906084618090413,
+        0.45257542631472797,
+        0.473929015565349,
+        0.3268022259032479,
+        0.30089162826985577,
+        0.3031059164264699,
+        0.07710217702080446,
+        0.11592117076452732,
+        0.08022125973392408
+      ],
+      "per_condition_mse": [
+        0.4220521961726567,
+        0.42703322198689525,
+        0.4013546219261508,
+        1.0704225852764393,
+        1.2341456396797208,
+        1.2470540287332534,
+        0.7463211441287929,
+        0.7389695368297537,
+        0.84510325594541
+      ],
+      "per_condition_recovery": [
+        0.1933385667057782,
+        0.19954218908153531,
+        0.26761227565135903,
+        0.06892980983432584,
+        -0.03266833062697483,
+        -0.03553765666639719,
+        -0.1181485611263029,
+        -0.1549072509067022,
+        -0.28081176554061416
+      ]
+    },
+    {
+      "species": [
+        "Oryctolagus cuniculus"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": true,
+      "macro_pearson": 0.40373578022325457,
+      "macro_mse": 0.6671696806377919,
+      "macro_recovery": 0.15004526586129738,
+      "per_condition_pearson": [
+        0.5063405979544713,
+        0.5204858878732508,
+        0.5095057624263066,
+        0.4668197079426283,
+        0.4683347434000401,
+        0.4802851864825115,
+        0.24174732738791557,
+        0.1741146350098917,
+        0.2659881735322751
+      ],
+      "per_condition_mse": [
+        0.3804249355281079,
+        0.3773925396587396,
+        0.40085371828482463,
+        0.9104181665861246,
+        0.975813983166054,
+        0.9216990392547804,
+        0.6758307971055574,
+        0.6967663443272326,
+        0.6653276018287053
+      ],
+      "per_condition_recovery": [
+        0.27290006653957377,
+        0.29259179239814515,
+        0.26852631938711624,
+        0.20810413835325015,
+        0.18349004801405855,
+        0.2346329499203086,
+        -0.012538957650131133,
+        -0.08894949405291452,
+        -0.008349470157730243
+      ]
+    },
+    {
+      "species": [
+        "Ovis aries"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": true,
+      "macro_pearson": 0.36314214136042744,
+      "macro_mse": 0.7278029292117245,
+      "macro_recovery": 0.05639831427284857,
+      "per_condition_pearson": [
+        0.41339834867838265,
+        0.4303459288149675,
+        0.4495070605971115,
+        0.36708736424380106,
+        0.3873702744466262,
+        0.3922904610085844,
+        0.3006719585803955,
+        0.21751646880390613,
+        0.31009140707007177
+      ],
+      "per_condition_mse": [
+        0.41641915131774027,
+        0.4215488963376768,
+        0.4184435871393882,
+        0.9480897530461073,
+        0.9630367384416724,
+        0.9570330250347195,
+        0.6516510199218395,
+        1.113137285543464,
+        0.6608669061229122
+      ],
+      "per_condition_recovery": [
+        0.20410491285368126,
+        0.20982235249156655,
+        0.23642851032200662,
+        0.17533680734623436,
+        0.19418137613232156,
+        0.2052920617212548,
+        0.023687515737393583,
+        -0.7396797273186173,
+        -0.0015889808302043118
+      ]
+    },
+    {
+      "species": [
+        "Pan troglodytes"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": false,
+      "macro_pearson": 0.7867672820767886,
+      "macro_mse": 0.2731580803179369,
+      "macro_recovery": 0.638537397780918,
+      "per_condition_pearson": [
+        0.8130278413419398,
+        0.821456890544069,
+        0.8204592068036156,
+        0.8290556582344141,
+        0.8327716522105696,
+        0.8318479920309079,
+        0.7159261746947416,
+        0.6970643335838014,
+        0.7192957892470387
+      ],
+      "per_condition_mse": [
+        0.17069920441629996,
+        0.16536018232697802,
+        0.16609956760201963,
+        0.32504155251629585,
+        0.32926784832919864,
+        0.3318984123398059,
+        0.3254331098373021,
+        0.3270607980324531,
+        0.3175620474610792
+      ],
+      "per_condition_recovery": [
+        0.6737454131377014,
+        0.6900385198540994,
+        0.696903242953759,
+        0.7172738091704811,
+        0.7244859372095737,
+        0.7243958190690576,
+        0.5124316571089373,
+        0.48884917671236283,
+        0.5187130048122893
+      ]
+    },
+    {
+      "species": [
+        "Papio anubis"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": false,
+      "macro_pearson": 0.6327532956074838,
+      "macro_mse": 0.4606563169952545,
+      "macro_recovery": 0.4050789695286782,
+      "per_condition_pearson": [
+        0.6570402318910749,
+        0.6536629759240277,
+        0.6518361508732623,
+        0.6555895469906521,
+        0.6521999079767625,
+        0.6586222510194879,
+        0.5937861421816256,
+        0.574842661825622,
+        0.5971997917848388
+      ],
+      "per_condition_mse": [
+        0.2813267880762533,
+        0.2890099185747388,
+        0.3019279148742104,
+        0.6098375071378219,
+        0.6269368143185876,
+        0.630967678798183,
+        0.46426824489159746,
+        0.47022767406689303,
+        0.4714043122190049
+      ],
+      "per_condition_recovery": [
+        0.46230472877147744,
+        0.45826171163058016,
+        0.4490450927640227,
+        0.4695538644727527,
+        0.4754121615508976,
+        0.47605253944080106,
+        0.3044269560282097,
+        0.26509913698653265,
+        0.28555453411283016
+      ]
+    },
+    {
+      "species": [
+        "Rattus norvegicus"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": true,
+      "macro_pearson": 0.26986387736828593,
+      "macro_mse": 0.8372881407118283,
+      "macro_recovery": -0.03269481590006867,
+      "per_condition_pearson": [
+        0.4005799039086273,
+        0.40377653514938183,
+        0.4390849040602107,
+        0.20856689536834758,
+        0.2198947407577525,
+        0.25506207637446265,
+        0.13857355616564634,
+        0.18208417517896086,
+        0.18115210935118348
+      ],
+      "per_condition_mse": [
+        0.45484349149273523,
+        0.4867311306690248,
+        0.430927580388612,
+        1.2450062231818215,
+        1.3738318549405073,
+        1.3106285011517547,
+        0.7218138676355316,
+        0.6918076583269435,
+        0.8200029586195239
+      ],
+      "per_condition_recovery": [
+        0.1306651023278137,
+        0.08764069093164606,
+        0.21364784976126894,
+        -0.08292574999805624,
+        -0.14955042791525885,
+        -0.08832908243880788,
+        -0.08143142378718471,
+        -0.08119975318907313,
+        -0.2427705487929659
+      ]
+    },
+    {
+      "species": [
+        "Sus scrofa"
+      ],
+      "size": 1,
+      "six_nonprimate_subset": true,
+      "macro_pearson": 0.3550999774219847,
+      "macro_mse": 0.6980401650103398,
+      "macro_recovery": 0.10143055152709668,
+      "per_condition_pearson": [
+        0.4331026660355302,
+        0.40507420351463275,
+        0.4190972798075067,
+        0.39979037112674753,
+        0.409116985157839,
+        0.41319096606946987,
+        0.23957289953340613,
+        0.23000841565608215,
+        0.2469460098966479
+      ],
+      "per_condition_mse": [
+        0.4399111376142542,
+        0.4895112298998132,
+        0.4964262986108043,
+        0.9511611554379091,
+        0.9591782290721823,
+        1.0083250723684796,
+        0.6397367345988408,
+        0.6305706708720484,
+        0.667540956618727
+      ],
+      "per_condition_recovery": [
+        0.15920506513645272,
+        0.0824294988514166,
+        0.09412647249074435,
+        0.1726652538417166,
+        0.19740997436351082,
+        0.16269980406616558,
+        0.041537661208362886,
+        0.01450519445836207,
+        -0.011703960672861502
+      ]
+    }
+  ],
+  "history_sensitivity": {
+    "zero_filled_full_axis_all388_rowweighted_fixed_split": {
+      "2": [
+        0.7960474308300395,
+        0.642296918767507,
+        0.7106793720425829
+      ],
+      "6": [
+        0.9552042160737813,
+        0.9263305322128852,
+        0.9449357819110089
+      ],
+      "24": [
+        0.927536231884058,
+        0.9008403361344538,
+        0.9216986049290616
+      ]
+    },
+    "legacy_mean_split_half": 0.8929292929292929,
+    "zero_filled_full_axis_primary387_conditionweighted_cross_time": {
+      "2h_vs_6h": [
+        0.6841897233201581,
+        0.5148459383753501,
+        0.5808609621107581
+      ],
+      "2h_vs_24h": [
+        0.4434782608695652,
+        0.09607843137254903,
+        0.2672223244023368
+      ],
+      "6h_vs_24h": [
+        0.8504611330698287,
+        0.7128851540616247,
+        0.8156857672281019
+      ]
+    },
+    "complete_axis_primary387_rowweighted_cross_time": {
+      "2h_vs_6h": [
+        0.8299077733860343,
+        0.7518207282913165,
+        0.7695752923523153
+      ],
+      "2h_vs_24h": [
+        0.5733860342555994,
+        0.3434173669467787,
+        0.48871647128369866
+      ],
+      "6h_vs_24h": [
+        0.766403162055336,
+        0.6126050420168068,
+        0.7299403875103863
+      ]
+    },
+    "zero_filled_full_axis_primary387_conditionweighted_curves": {
+      "all_nine": [
+        {
+          "size": 1,
+          "subsets": 9,
+          "mean_pearson": 0.37478243667271616,
+          "min_pearson": 0.20609555945982277,
+          "max_pearson": 0.675551996555753,
+          "mean_mse": 0.561891908632282,
+          "min_mse": 0.3211518727499192,
+          "max_mse": 0.6845210096680873,
+          "mean_recovery": 0.11404419852256208,
+          "max_pearson_oracle_species": [
+            "Pan troglodytes"
+          ],
+          "min_mse_oracle_species": [
+            "Pan troglodytes"
+          ]
+        },
+        {
+          "size": 2,
+          "subsets": 36,
+          "mean_pearson": 0.48086226924161246,
+          "min_pearson": 0.25415559234063284,
+          "max_pearson": 0.6852158214008237,
+          "mean_mse": 0.47708072788033984,
+          "min_mse": 0.313777885106901,
+          "max_mse": 0.6407782447819595,
+          "mean_recovery": 0.24762677138702127,
+          "max_pearson_oracle_species": [
+            "Macaca",
+            "Pan troglodytes"
+          ],
+          "min_mse_oracle_species": [
+            "Macaca",
+            "Pan troglodytes"
+          ]
+        },
+        {
+          "size": 3,
+          "subsets": 84,
+          "mean_pearson": 0.5362736510897836,
+          "min_pearson": 0.32210501578254236,
+          "max_pearson": 0.67575191394041,
+          "mean_mse": 0.44881033429635914,
+          "min_mse": 0.3242678347401328,
+          "max_mse": 0.5942252672979618,
+          "mean_recovery": 0.2921542956751744,
+          "max_pearson_oracle_species": [
+            "Macaca",
+            "Oryctolagus cuniculus",
+            "Pan troglodytes"
+          ],
+          "min_mse_oracle_species": [
+            "Macaca",
+            "Pan troglodytes",
+            "Papio anubis"
+          ]
+        },
+        {
+          "size": 4,
+          "subsets": 126,
+          "mean_pearson": 0.5706320240553984,
+          "min_pearson": 0.3765296988178992,
+          "max_pearson": 0.6740710572040124,
+          "mean_mse": 0.4346751375043688,
+          "min_mse": 0.33390492817631107,
+          "max_mse": 0.5614809026736589,
+          "mean_recovery": 0.31441805781925086,
+          "max_pearson_oracle_species": [
+            "Macaca",
+            "Oryctolagus cuniculus",
+            "Pan troglodytes",
+            "Papio anubis"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Pan troglodytes",
+            "Papio anubis"
+          ]
+        },
+        {
+          "size": 5,
+          "subsets": 126,
+          "mean_pearson": 0.5940615183274126,
+          "min_pearson": 0.41859175789954517,
+          "max_pearson": 0.6700861445356188,
+          "mean_mse": 0.42619401942917456,
+          "min_mse": 0.3475153935937017,
+          "max_mse": 0.5411617515977634,
+          "mean_recovery": 0.3277763151056968,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Rattus norvegicus"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Oryctolagus cuniculus",
+            "Pan troglodytes",
+            "Papio anubis"
+          ]
+        },
+        {
+          "size": 6,
+          "subsets": 84,
+          "mean_pearson": 0.6110604163958087,
+          "min_pearson": 0.4459372986009338,
+          "max_pearson": 0.666131933696987,
+          "mean_mse": 0.42053994071237855,
+          "min_mse": 0.3658010071293681,
+          "max_mse": 0.5233207685053993,
+          "mean_recovery": 0.3366818199633274,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Oryctolagus cuniculus",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Rattus norvegicus"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Pan troglodytes",
+            "Papio anubis"
+          ]
+        },
+        {
+          "size": 7,
+          "subsets": 36,
+          "mean_pearson": 0.6239498688326207,
+          "min_pearson": 0.5304518982778508,
+          "max_pearson": 0.6594576660134538,
+          "mean_mse": 0.4165013130575241,
+          "min_mse": 0.38103898894690946,
+          "max_mse": 0.4806580355196657,
+          "mean_recovery": 0.343042894861635,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Rattus norvegicus"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "size": 8,
+          "subsets": 9,
+          "mean_pearson": 0.6340534171616417,
+          "min_pearson": 0.5812519243956216,
+          "max_pearson": 0.6522517707552374,
+          "mean_mse": 0.41347234231638325,
+          "min_mse": 0.39574627848444077,
+          "max_mse": 0.4464458231915297,
+          "mean_recovery": 0.3478137010353657,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Rattus norvegicus",
+            "Sus scrofa"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "size": 9,
+          "subsets": 1,
+          "mean_pearson": 0.6421817302663144,
+          "min_pearson": 0.6421817302663144,
+          "max_pearson": 0.6421817302663144,
+          "mean_mse": 0.41111647618438485,
+          "min_mse": 0.41111647618438485,
+          "max_mse": 0.41111647618438485,
+          "mean_recovery": 0.3515243280593785,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Rattus norvegicus",
+            "Sus scrofa"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Macaca",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Pan troglodytes",
+            "Papio anubis",
+            "Rattus norvegicus",
+            "Sus scrofa"
+          ]
+        }
+      ],
+      "six_nonprimates": [
+        {
+          "size": 1,
+          "subsets": 6,
+          "mean_pearson": 0.27620689571457674,
+          "min_pearson": 0.20609555945982277,
+          "max_pearson": 0.34497104359884434,
+          "mean_mse": 0.6261752634611492,
+          "min_mse": 0.5831950661807275,
+          "max_mse": 0.6845210096680873,
+          "mean_recovery": 0.019013920226911927,
+          "max_pearson_oracle_species": [
+            "Bos taurus"
+          ],
+          "min_mse_oracle_species": [
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "size": 2,
+          "subsets": 15,
+          "mean_pearson": 0.3495294969473039,
+          "min_pearson": 0.25415559234063284,
+          "max_pearson": 0.41367960693040273,
+          "mean_mse": 0.5644625664876991,
+          "min_mse": 0.5168506695929387,
+          "max_mse": 0.6407782447819595,
+          "mean_recovery": 0.11932328467825984,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Oryctolagus cuniculus"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "size": 3,
+          "subsets": 20,
+          "mean_pearson": 0.38915019057856653,
+          "min_pearson": 0.32210501578254236,
+          "max_pearson": 0.4287886177746578,
+          "mean_mse": 0.5438916674965493,
+          "min_mse": 0.510537867455464,
+          "max_mse": 0.5942252672979618,
+          "mean_recovery": 0.1527597394953758,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Oryctolagus cuniculus",
+            "Sus scrofa"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Oryctolagus cuniculus",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "size": 4,
+          "subsets": 15,
+          "mean_pearson": 0.4146651844838221,
+          "min_pearson": 0.3765296988178992,
+          "max_pearson": 0.43807360375316196,
+          "mean_mse": 0.5336062180009743,
+          "min_mse": 0.5095681775507512,
+          "max_mse": 0.5614809026736589,
+          "mean_recovery": 0.16947796690393382,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Sus scrofa"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "size": 5,
+          "subsets": 6,
+          "mean_pearson": 0.43261172984768875,
+          "min_pearson": 0.41859175789954517,
+          "max_pearson": 0.44307114629643823,
+          "mean_mse": 0.5274349483036294,
+          "min_mse": 0.5137342191683396,
+          "max_mse": 0.5411617515977634,
+          "mean_recovery": 0.17950890334906858,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Sus scrofa"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "size": 6,
+          "subsets": 1,
+          "mean_pearson": 0.4459372986009338,
+          "min_pearson": 0.4459372986009338,
+          "max_pearson": 0.4459372986009338,
+          "mean_mse": 0.5233207685053993,
+          "min_mse": 0.5233207685053993,
+          "max_mse": 0.5233207685053993,
+          "mean_recovery": 0.1861961943124918,
+          "max_pearson_oracle_species": [
+            "Bos taurus",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Rattus norvegicus",
+            "Sus scrofa"
+          ],
+          "min_mse_oracle_species": [
+            "Bos taurus",
+            "Mus musculus",
+            "Oryctolagus cuniculus",
+            "Ovis aries",
+            "Rattus norvegicus",
+            "Sus scrofa"
+          ]
+        }
+      ]
+    }
+  },
+  "independent_spot_checks": {
+    "checks": 8,
+    "maximum_absolute_difference": 6.661338147750939e-16,
+    "passed": true
+  },
+  "runtime_seconds": 16.44292868580669,
+  "limits": [
+    "Author gene labels are retained; full cross-species one-to-one mapping unverified.",
+    "Complete-case axis may enrich conserved/easily mapped/detected genes; difference from zero-filled full axis changes gene population and missing treatment.",
+    "Rodent pools are biological units; mouse25/rat4 animals per pool not treated as independent samples.",
+    "Best/worst subsets are retrospective oracle descriptions.",
+    "Only oneLPS identity; nine dose/time conditions and repeated splits do not add independent stimuli.",
+    "No phylogeny-calibrated pvalue, general species ranking, clinical prediction or noise-ceiling claim."
+  ],
+  "files": {
+    "arrays.npz": "be572e6cd8039698c3752eb084d29e1238508ec2500af0423edb918795582b39",
+    "split_assignments.json": "275680af3db9a0b020de182cab2d1dc35f47d35de65ea0095fdb4716d0daded8",
+    "subsets.json": "88adcf76297c3625e8208c65c68a529ce8c29f4cddc724077a2342fc8b75a837"
+  }
+}

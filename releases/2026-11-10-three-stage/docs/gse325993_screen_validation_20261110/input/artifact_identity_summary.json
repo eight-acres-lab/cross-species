@@ -1,0 +1,89 @@
+{
+  "directory": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized",
+  "manifest_sha256": "590d989955498e8f555bdc509752127ffef6bde8f67560323e7e631aa3e279f4",
+  "status": "passed",
+  "arrays": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/gse325993_exp3_human_arrays.npz",
+    "sha256": "0945f8471e951b5bc48142ea4f73d460523d26c76c95842c44f128b0301246ea",
+    "bytes": 51189112,
+    "shape": [
+      12136,
+      6357
+    ],
+    "dtype": "float32",
+    "use": "independent scorer only; inference reads only query_ntc artifact"
+  },
+  "cohort_metadata": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/cohort_metadata.npz",
+    "sha256": "d377498d558a32b26bf3965ceb41c3bba0b75e521f3acf262e39b112d992fd7d",
+    "bytes": 223754,
+    "contains_expression": false
+  },
+  "query_ntc": {
+    "expression": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/query_ntc_expression.npy",
+      "sha256": "1821801ce21c38774642a69be34b2c1155caa496500b840226b36fa1e5fa5b5c",
+      "bytes": 298041716
+    },
+    "metadata": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/query_ntc_metadata.npz",
+      "sha256": "cd42bf95d153efdc3cd7931df21adb806b55a7a205f6bf55ebc4292c4069ddd8",
+      "bytes": 215831
+    },
+    "cells": 11721,
+    "condition": "NTC",
+    "shape": [
+      11721,
+      6357
+    ],
+    "expression_dtype": "float32",
+    "metadata_contains_expression": false
+  },
+  "target_POU5F1": {
+    "expression": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/target_POU5F1_expression.npy",
+      "sha256": "c585349982746f3adc21a354388ccda51006ee4c865d194fe80e293efc872cdb",
+      "bytes": 10552748
+    },
+    "metadata": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/target_POU5F1_metadata.npz",
+      "sha256": "3f3f43938dceda196af0d15e5a1aa802c87269cabf24edd839bbaec053600e07",
+      "bytes": 48210
+    },
+    "cells": 415,
+    "condition": "POU5F1",
+    "shape": [
+      415,
+      6357
+    ],
+    "expression_dtype": "float32",
+    "metadata_contains_expression": false
+  },
+  "axis": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/state_observed_gene_axis.tsv",
+    "sha256": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+    "bytes": 267340,
+    "exact_exp2_axis": true,
+    "genes": 6357
+  },
+  "coding_mask": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp3/normalized/human.gencode32_coding_mask.tsv",
+    "sha256": "4375d81c3f4371a37a34d06892bbe0803b3279b81b8da80ecaa48a3ce7f9884f",
+    "bytes": 1409297,
+    "exact_exp2_mask": true,
+    "genes": 19394,
+    "GENCODE32_reference_protein_coding_genes": 19994,
+    "reference_coding_genes_missing_from_native_axis": 600,
+    "native_axis_features": 36606,
+    "output_axis_protein_coding": 6271,
+    "output_axis_lncRNA": 86
+  },
+  "reuse_audit": {
+    "exp3_duplicate_entire_count_vectors": 0,
+    "exp2_exp3_identical_entire_count_vectors": 0,
+    "exp2_exp3_overlap_full_capture_cell_ids": 0,
+    "bare_barcodes_shared_across_screens": 86,
+    "identity_rule": "experiment_chip_lane_barcode withspecies; barebarcode collisions do not constitute cell reuse"
+  },
+  "free_disk_bytes": 15785615360
+}

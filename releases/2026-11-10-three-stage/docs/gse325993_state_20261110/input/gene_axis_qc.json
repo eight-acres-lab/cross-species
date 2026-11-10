@@ -1,0 +1,10 @@
+{
+  "gene_axis_scope": "Author Liftoff transferred human stable IDs present in bothnativeGEX axes; modelbridge exactEnsemblID match, noexpressionselection",
+  "human_genes": 36606,
+  "cynomolgus_genes": 34256,
+  "common_deposited_gene_ids": 34256,
+  "state_model_genes": 6546,
+  "state_common_named_genes": 6357,
+  "human_only_ids": 2350,
+  "cynomolgus_only_ids": 0
+}

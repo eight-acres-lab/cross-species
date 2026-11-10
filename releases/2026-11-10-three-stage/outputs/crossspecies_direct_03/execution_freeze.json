@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-08",
+  "source_species": "rat",
+  "target_species": "human",
+  "input_manifest": "input_manifest.json",
+  "regimes": [
+    "source_exposure",
+    "paired_exposure"
+  ],
+  "permutation_seeds": [
+    20261108,
+    20261109,
+    20261110,
+    20261111,
+    20261112,
+    20261113,
+    20261114,
+    20261115,
+    20261116,
+    20261117,
+    20261118,
+    20261119,
+    20261120,
+    20261121,
+    20261122,
+    20261123,
+    20261124,
+    20261125,
+    20261126,
+    20261127
+  ],
+  "remote_root": "/hy-tmp/cross-species-feedback-20261108/crossspecies_direct_03",
+  "model": "Chemical/context kernel ridge optionally fused0.5 with actual rat transcriptome response kernel",
+  "scope": "Retrospective same-task information correspondence diagnostic. Human-only foundation models excluded.",
+  "code_protocol_hashes": {
+    "scripts/run_crossspecies_pairing_benchmark.py": "edadb14eb4608bd57396bd5cba9912262721c8deef0d5e28b20f2ea58811a30c",
+    "src/cross_species/source_pairing_controls.py": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+    "tests/test_source_pairing_controls.py": "6509d4da37d3926d72a7d1f42d84d324e0a13ca79e44c398319650307dd0a1d5",
+    "docs/multisource_20261108/crossspecies_direct_03/PROTOCOL_v1.zh.md": "8b23699e549cb422dcb493a654e26b3acc097d7993fb0d9a3d50421b7095f905"
+  }
+}

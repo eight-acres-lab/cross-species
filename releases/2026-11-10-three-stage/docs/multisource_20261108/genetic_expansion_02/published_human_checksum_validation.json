@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "files": [
+    {
+      "gsm": "GSM2344143",
+      "filename": "ENCFF471FMB_gene_quantifications_GRCh38.tsv",
+      "uncompressed_md5": "c91d532c8af6abcd425384cfbf15a130",
+      "uncompressed_bytes": 9911058,
+      "genome_annotation": "V24",
+      "assembly": "GRCh38",
+      "source": "docs/multisource_20261108/genetic_expansion_02/evidence/GSM2344143_quant_README.txt",
+      "observed_md5": "c91d532c8af6abcd425384cfbf15a130",
+      "observed_bytes": 9911058,
+      "verified": true
+    },
+    {
+      "gsm": "GSM2138872",
+      "filename": "ENCFF048VRF_gene_quantifications_GRCh38.tsv",
+      "uncompressed_md5": "74aff7f5ba2be02546f12276870585dd",
+      "uncompressed_bytes": 9904279,
+      "genome_annotation": "V24",
+      "assembly": "GRCh38",
+      "source": "docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138872_quant_README.txt",
+      "observed_md5": "74aff7f5ba2be02546f12276870585dd",
+      "observed_bytes": 9904279,
+      "verified": true
+    },
+    {
+      "gsm": "GSM2138708",
+      "filename": "ENCFF883QBC_gene_quantifications_GRCh38.tsv",
+      "uncompressed_md5": "cc8292a2518d9a1e9c7099622c416176",
+      "uncompressed_bytes": 9912099,
+      "genome_annotation": "V24",
+      "assembly": "GRCh38",
+      "source": "docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138708_quant_README.txt",
+      "observed_md5": "cc8292a2518d9a1e9c7099622c416176",
+      "observed_bytes": 9912099,
+      "verified": true
+    }
+  ],
+  "scope": "Three independently published GENCODE V24 file MD5/size spotchecks; full26files also have cross-host SHA and exhaustive original-table/native verification."
+}

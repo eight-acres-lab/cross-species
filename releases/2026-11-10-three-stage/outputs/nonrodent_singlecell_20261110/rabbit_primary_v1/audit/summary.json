@@ -1,0 +1,851 @@
+{
+  "biological_test_units": 10,
+  "outer_folds": 5,
+  "fits": 20,
+  "variants": {
+    "H": {
+      "mean_response_mse": {
+        "mean": 0.008684374734005759,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.0074198496950982915,
+          0.010149073928778327
+        ]
+      },
+      "native_energy": {
+        "mean": 0.8415251732396236,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.78376052367161,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.7910357884811103,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": 0.20967913012925837,
+        "defined_donors": 10
+      },
+      "clamped_coordinate_fraction": {
+        "mean": 0.44869381195066793,
+        "defined_donors": 10
+      },
+      "native_control_reconstruction_mse": {
+        "mean": 0.2187572083242495,
+        "defined_donors": 10
+      }
+    },
+    "H+Hextra": {
+      "mean_response_mse": {
+        "mean": 0.008141121606383523,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.0068837788327304195,
+          0.009585297094719496
+        ]
+      },
+      "native_energy": {
+        "mean": 0.8199273854696323,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.7992718199866186,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.8057661964051371,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": 0.24503172775988089,
+        "defined_donors": 10
+      },
+      "clamped_coordinate_fraction": {
+        "mean": 0.484370784516652,
+        "defined_donors": 10
+      },
+      "native_control_reconstruction_mse": {
+        "mean": 0.26409973236397466,
+        "defined_donors": 10
+      }
+    },
+    "H+Hextra|cal_shrink": {
+      "mean_response_mse": {
+        "mean": 0.008141121606383523,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.0068837788327304195,
+          0.009585297094719496
+        ]
+      },
+      "native_energy": {
+        "mean": 0.8199273854696323,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.7992718199866186,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.8057661964051371,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    },
+    "H+Rabbit": {
+      "mean_response_mse": {
+        "mean": 0.009843768163165897,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.008543609610924988,
+          0.011251431406541472
+        ]
+      },
+      "native_energy": {
+        "mean": 0.867023620184721,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.749634041698761,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.7580609917763608,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": 0.12412378603394658,
+        "defined_donors": 10
+      },
+      "clamped_coordinate_fraction": {
+        "mean": 0.3381882986513719,
+        "defined_donors": 10
+      },
+      "native_control_reconstruction_mse": {
+        "mean": 0.13385859350908502,
+        "defined_donors": 10
+      }
+    },
+    "H+RabbitA0": {
+      "mean_response_mse": {
+        "mean": 0.008791902842444906,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.007533064673394761,
+          0.01028515135665948
+        ]
+      },
+      "native_energy": {
+        "mean": 0.842486961449427,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.7802403139465184,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.7878201306197345,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": 0.1933455932929859,
+        "defined_donors": 10
+      },
+      "clamped_coordinate_fraction": {
+        "mean": 0.430029234866096,
+        "defined_donors": 10
+      },
+      "native_control_reconstruction_mse": {
+        "mean": 0.19987446981916834,
+        "defined_donors": 10
+      }
+    },
+    "H+RabbitA0|cal_shrink": {
+      "mean_response_mse": {
+        "mean": 0.008791902842444906,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.007533064673394761,
+          0.01028515135665948
+        ]
+      },
+      "native_energy": {
+        "mean": 0.842486961449427,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.7802403139465184,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.7878201306197345,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    },
+    "H+Rabbit|cal_shrink": {
+      "mean_response_mse": {
+        "mean": 0.009843768163165897,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.008543609610924988,
+          0.011251431406541472
+        ]
+      },
+      "native_energy": {
+        "mean": 0.867023620184721,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.749634041698761,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.7580609917763608,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    },
+    "Half_H_response": {
+      "mean_response_mse": {
+        "mean": 0.012186967807789478,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.010800545453260995,
+          0.013753743240828516
+        ]
+      },
+      "native_energy": {
+        "mean": 0.9841863675101493,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.7837605235578364,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.791035788376254,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    },
+    "Hbase_mean_response": {
+      "mean_response_mse": {
+        "mean": 0.010464675912592977,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.008870202243329605,
+          0.012415852819727872
+        ]
+      },
+      "native_energy": {
+        "mean": 0.8702360516964639,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.7633179927946128,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.742171873732911,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    },
+    "H|cal_shrink": {
+      "mean_response_mse": {
+        "mean": 0.008684374734005759,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.0074198496950982915,
+          0.010149073928778327
+        ]
+      },
+      "native_energy": {
+        "mean": 0.8415251732396236,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": 0.78376052367161,
+        "defined_donors": 10
+      },
+      "response_direction_cosine": {
+        "mean": 0.7910357884811103,
+        "defined_donors": 10
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    },
+    "Zero_response": {
+      "mean_response_mse": {
+        "mean": 0.022803901444845086,
+        "defined_donors": 10,
+        "descriptive_bootstrap_95pct": [
+          0.021099027780531358,
+          0.024803104587810945
+        ]
+      },
+      "native_energy": {
+        "mean": 1.4954585276583565,
+        "defined_donors": 10
+      },
+      "response_pearson": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "response_direction_cosine": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "unclamped_native_contrast_mse": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "clamped_coordinate_fraction": {
+        "mean": null,
+        "defined_donors": 0
+      },
+      "native_control_reconstruction_mse": {
+        "mean": null,
+        "defined_donors": 0
+      }
+    }
+  },
+  "paired_comparisons": {
+    "delta_A": {
+      "left": "H",
+      "right": "H+Rabbit",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": -0.0011593934291601376,
+      "left_comparator_mean_mse": 0.008684374734005759,
+      "percent_of_left_mean": -13.350338564044844,
+      "positive_donors": 0,
+      "zero_donors": 0,
+      "negative_donors": 10,
+      "fold_mean_differences": {
+        "0": -0.0006426582829847701,
+        "1": -0.0019256478988360073,
+        "2": -0.0007422453727125907,
+        "3": -0.0011107799230419082,
+        "4": -0.0013756356682254117
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        -0.0014915832409053236,
+        -0.0008546692676910322
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": -0.025498446945097442,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.03412648197284899,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": 0.03297479670474958,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "delta_H": {
+      "left": "H",
+      "right": "H+Hextra",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": 0.0005432531276222374,
+      "left_comparator_mean_mse": 0.008684374734005759,
+      "percent_of_left_mean": 6.255523791425064,
+      "positive_donors": 10,
+      "zero_donors": 0,
+      "negative_donors": 0,
+      "fold_mean_differences": {
+        "0": 0.00027305398314857567,
+        "1": 0.0004351903950546034,
+        "2": 0.0006075301068492285,
+        "3": 0.0010458672346489182,
+        "4": 0.0003546239184098613
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        0.0003709284659569187,
+        0.0007379848125177465
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": 0.021597787769991328,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": -0.015511296315008537,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": -0.014730407924026866,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "source_information_gain": {
+      "left": "H+RabbitA0",
+      "right": "H+Rabbit",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": -0.0010518653207209929,
+      "left_comparator_mean_mse": 0.008791902842444906,
+      "percent_of_left_mean": -11.964023483549822,
+      "positive_donors": 0,
+      "zero_donors": 0,
+      "negative_donors": 10,
+      "fold_mean_differences": {
+        "0": -0.0005448331980300487,
+        "1": -0.0016978393412038968,
+        "2": -0.0004619658642174328,
+        "3": -0.0009119285382830668,
+        "4": -0.00164275966187052
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        -0.001421970001970767,
+        -0.0007097843342272657
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": -0.024536658735294026,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.030606272247757416,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": 0.029759138843373868,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "gain_over_H_shrink": {
+      "left": "H|cal_shrink",
+      "right": "H+Rabbit",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": -0.0011593934291601376,
+      "left_comparator_mean_mse": 0.008684374734005759,
+      "percent_of_left_mean": -13.350338564044844,
+      "positive_donors": 0,
+      "zero_donors": 0,
+      "negative_donors": 10,
+      "fold_mean_differences": {
+        "0": -0.0006426582829847701,
+        "1": -0.0019256478988360073,
+        "2": -0.0007422453727125907,
+        "3": -0.0011107799230419082,
+        "4": -0.0013756356682254117
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        -0.0014915832409053236,
+        -0.0008546692676910322
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": -0.025498446945097442,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.03412648197284899,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": 0.03297479670474958,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "gain_over_zero": {
+      "left": "Zero_response",
+      "right": "H+Rabbit",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": 0.012960133281679187,
+      "left_comparator_mean_mse": 0.022803901444845086,
+      "percent_of_left_mean": 56.83296480220878,
+      "positive_donors": 10,
+      "zero_donors": 0,
+      "negative_donors": 0,
+      "fold_mean_differences": {
+        "0": 0.013791730279151398,
+        "1": 0.012727570399023938,
+        "2": 0.014752734810088972,
+        "3": 0.010833289234640225,
+        "4": 0.012695341685491413
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        0.011861180664675355,
+        0.014135620311121744
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": 0.6284349074736355,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": null,
+          "defined_paired_donors": 0,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": null,
+          "defined_paired_donors": 0,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "gain_over_Hbase_mean": {
+      "left": "Hbase_mean_response",
+      "right": "H+Rabbit",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": 0.0006209077494270803,
+      "left_comparator_mean_mse": 0.010464675912592977,
+      "percent_of_left_mean": 5.933368167473707,
+      "positive_donors": 6,
+      "zero_donors": 0,
+      "negative_donors": 4,
+      "fold_mean_differences": {
+        "0": 0.0013275023140652208,
+        "1": -0.0005017876475266279,
+        "2": 0.00268955544909849,
+        "3": -6.66694796969498e-05,
+        "4": -0.00034406188880473174
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        -0.00023930515695158374,
+        0.0016157370149415926
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": 0.0032124315117428638,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.01368395109585172,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": -0.015889118043449713,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "gain_over_half_H": {
+      "left": "Half_H_response",
+      "right": "H+Rabbit",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": 0.002343199644623581,
+      "left_comparator_mean_mse": 0.012186967807789478,
+      "percent_of_left_mean": 19.227093084843393,
+      "positive_donors": 10,
+      "zero_donors": 0,
+      "negative_donors": 0,
+      "fold_mean_differences": {
+        "0": 0.0034720573079209684,
+        "1": 0.0018746867327685763,
+        "2": 0.0029360429842021953,
+        "3": 0.000827204276241683,
+        "4": 0.002606006921984483
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        0.0017240127997267915,
+        0.0029357943815094905
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": 0.11716274732542828,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.03412648185907544,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": 0.032974796599893295,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "animal_minus_extra_human_error": {
+      "left": "H+Rabbit",
+      "right": "H+Hextra",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": 0.0017026465567823751,
+      "left_comparator_mean_mse": 0.009843768163165897,
+      "percent_of_left_mean": 17.296695011098063,
+      "positive_donors": 10,
+      "zero_donors": 0,
+      "negative_donors": 0,
+      "fold_mean_differences": {
+        "0": 0.0009157122661333458,
+        "1": 0.0023608382938906107,
+        "2": 0.0013497754795618192,
+        "3": 0.0021566471576908264,
+        "4": 0.001730259586635273
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        0.001347755648275588,
+        0.002054024116760543
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": 0.04709623471508877,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": -0.04963777828785752,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": -0.04770520462877644,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "shrunk_delta_A": {
+      "left": "H|cal_shrink",
+      "right": "H+Rabbit|cal_shrink",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": -0.0011593934291601376,
+      "left_comparator_mean_mse": 0.008684374734005759,
+      "percent_of_left_mean": -13.350338564044844,
+      "positive_donors": 0,
+      "zero_donors": 0,
+      "negative_donors": 10,
+      "fold_mean_differences": {
+        "0": -0.0006426582829847701,
+        "1": -0.0019256478988360073,
+        "2": -0.0007422453727125907,
+        "3": -0.0011107799230419082,
+        "4": -0.0013756356682254117
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        -0.0014915832409053236,
+        -0.0008546692676910322
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": -0.025498446945097442,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.03412648197284899,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": 0.03297479670474958,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "shrunk_delta_H": {
+      "left": "H|cal_shrink",
+      "right": "H+Hextra|cal_shrink",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": 0.0005432531276222374,
+      "left_comparator_mean_mse": 0.008684374734005759,
+      "percent_of_left_mean": 6.255523791425064,
+      "positive_donors": 10,
+      "zero_donors": 0,
+      "negative_donors": 0,
+      "fold_mean_differences": {
+        "0": 0.00027305398314857567,
+        "1": 0.0004351903950546034,
+        "2": 0.0006075301068492285,
+        "3": 0.0010458672346489182,
+        "4": 0.0003546239184098613
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        0.0003709284659569187,
+        0.0007379848125177465
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": 0.021597787769991328,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": -0.015511296315008537,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": -0.014730407924026866,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    },
+    "shrunk_source_information_gain": {
+      "left": "H+RabbitA0|cal_shrink",
+      "right": "H+Rabbit|cal_shrink",
+      "definition": "left MSE minus right MSE",
+      "mean_difference": -0.0010518653207209929,
+      "left_comparator_mean_mse": 0.008791902842444906,
+      "percent_of_left_mean": -11.964023483549822,
+      "positive_donors": 0,
+      "zero_donors": 0,
+      "negative_donors": 10,
+      "fold_mean_differences": {
+        "0": -0.0005448331980300487,
+        "1": -0.0016978393412038968,
+        "2": -0.0004619658642174328,
+        "3": -0.0009119285382830668,
+        "4": -0.00164275966187052
+      },
+      "descriptive_paired_bootstrap_95pct": [
+        -0.001421970001970767,
+        -0.0007097843342272657
+      ],
+      "secondary_paired_metrics": {
+        "native_energy": {
+          "left_minus_right_mean": -0.024536658735294026,
+          "defined_paired_donors": 10,
+          "better_direction": "negative favors left"
+        },
+        "response_pearson": {
+          "left_minus_right_mean": 0.030606272247757416,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        },
+        "response_direction_cosine": {
+          "left_minus_right_mean": 0.029759138843373868,
+          "defined_paired_donors": 10,
+          "better_direction": "positive favors left"
+        }
+      }
+    }
+  },
+  "positive_candidate_gate": {
+    "passes": false,
+    "checks": {
+      "delta_A_positive": false,
+      "delta_H_positive": true,
+      "source_information_gain_positive": false,
+      "gain_over_H_shrink_positive": false,
+      "gain_over_zero_positive": true,
+      "gain_over_Hbase_mean_positive": true,
+      "at_least8_of10_donors_improve": false,
+      "all5_fold_mean_gains_positive": false,
+      "all_rabbit_selected_steps_positive": true
+    },
+    "meaning": "Descriptive prespecified stability screen; no confirmatory p-value or independence claim."
+  },
+  "shrink_claim_eligibility": {
+    "H": true,
+    "H+Rabbit": true,
+    "H+Hextra": true,
+    "H+RabbitA0": true
+  },
+  "animal_fraction_of_extra_human_gain": {
+    "value": -2.13416797844254,
+    "denominator_delta_H": 0.0005432531276222374,
+    "denominator_descriptive_interval": [
+      0.0003709284659569187,
+      0.0007379848125177465
+    ],
+    "stability": "Undefined when delta_H<=0; otherwise descriptive and sensitive to a small denominator. No equivalence or noninferiority conclusion."
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261110,
+    "unit": "human donor",
+    "shared_resample_indices_across_variants": true,
+    "interval": "percentile95%",
+    "interpretation": "Descriptive conditional on the20 fixed trained/selected models; excludes retraining and selection uncertainty. Overlapping CV training sets remain dependent."
+  },
+  "p_values": "Not computed; naive CV sign/permutation tests and cell/gene pseudo-replication are not confirmatory."
+}

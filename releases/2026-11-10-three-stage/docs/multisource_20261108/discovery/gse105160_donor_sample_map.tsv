@@ -1,0 +1,181 @@
+gsm	species	donor	condition	culture_replicate	time_h	polyIC_dose_ug_per_cm2	title	platform	unit_warning
+GSM2823520	Pongo abelii	PR01109	polyIC	A	24	0.05	Orangutan donor PR01109 treated A	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823521	Pongo abelii	PR01109	polyIC	B	24	0.05	Orangutan donor PR01109 treated B	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823522	Pongo abelii	PR01109	polyIC	C	24	0.05	Orangutan donor PR01109 treated C	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823523	Pongo abelii	PR01109	mock	A	24	0	Orangutan donor PR01109 mock A	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823524	Pongo abelii	PR01109	mock	B	24	0	Orangutan donor PR01109 mock B	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823525	Pongo abelii	PR01109	mock	C	24	0	Orangutan donor PR01109 mock C	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823526	Pongo abelii	AG06105	polyIC	A	24	0.05	Orangutan donor AG06105 treated A	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823527	Pongo abelii	AG06105	polyIC	B	24	0.05	Orangutan donor AG06105 treated B	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823528	Pongo abelii	AG06105	polyIC	C	24	0.05	Orangutan donor AG06105 treated C	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823529	Pongo abelii	AG06105	mock	A	24	0	Orangutan donor AG06105 mock A	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823530	Pongo abelii	AG06105	mock	B	24	0	Orangutan donor AG06105 mock B	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823531	Pongo abelii	AG06105	mock	C	24	0	Orangutan donor AG06105 mock C	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823532	Pongo abelii	PR00054	polyIC	A	24	0.05	Orangutan donor PR00054 treated A	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823533	Pongo abelii	PR00054	polyIC	B	24	0.05	Orangutan donor PR00054 treated B	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823534	Pongo abelii	PR00054	polyIC	C	24	0.05	Orangutan donor PR00054 treated C	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823535	Pongo abelii	PR00054	mock	A	24	0	Orangutan donor PR00054 mock A	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823536	Pongo abelii	PR00054	mock	B	24	0	Orangutan donor PR00054 mock B	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823537	Pongo abelii	PR00054	mock	C	24	0	Orangutan donor PR00054 mock C	GPL24147	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823538	Gorilla gorilla	PR00107	polyIC	1	24	0.05	Gorilla donor PR00107 treated 1	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823539	Gorilla gorilla	PR00107	polyIC	2	24	0.05	Gorilla donor PR00107 treated 2	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823540	Gorilla gorilla	PR00107	polyIC	3	24	0.05	Gorilla donor PR00107 treated 3	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823541	Gorilla gorilla	PR00107	mock	1	24	0	Gorilla donor PR00107 mock 1	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823542	Gorilla gorilla	PR00107	mock	2	24	0	Gorilla donor PR00107 mock 2	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823543	Gorilla gorilla	PR00107	mock	3	24	0	Gorilla donor PR00107 mock 3	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823544	Gorilla gorilla	PR00573	polyIC	1	24	0.05	Gorilla donor PR00573 treated 1	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823545	Gorilla gorilla	PR00573	polyIC	2	24	0.05	Gorilla donor PR00573 treated 2	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823546	Gorilla gorilla	PR00573	polyIC	3	24	0.05	Gorilla donor PR00573 treated 3	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823547	Gorilla gorilla	PR00573	mock	1	24	0	Gorilla donor PR00573 mock 1	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823548	Gorilla gorilla	PR00573	mock	2	24	0	Gorilla donor PR00573 mock 2	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823549	Gorilla gorilla	PR00573	mock	3	24	0	Gorilla donor PR00573 mock 3	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823550	Gorilla gorilla	PR0230	polyIC	1	24	0.05	Gorilla donor PR0230 treated 1	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823551	Gorilla gorilla	PR0230	polyIC	2	24	0.05	Gorilla donor PR0230 treated 2	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823552	Gorilla gorilla	PR0230	polyIC	3	24	0.05	Gorilla donor PR0230 treated 3	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823553	Gorilla gorilla	PR0230	mock	1	24	0	Gorilla donor PR0230 mock 1	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823554	Gorilla gorilla	PR0230	mock	2	24	0	Gorilla donor PR0230 mock 2	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823555	Gorilla gorilla	PR0230	mock	3	24	0	Gorilla donor PR0230 mock 3	GPL24148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823556	Homo sapiens	AF	polyIC	1	24	0.05	Human donor AF treated 1	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823557	Homo sapiens	AF	polyIC	2	24	0.05	Human donor AF treated 2	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823558	Homo sapiens	AF	polyIC	3	24	0.05	Human donor AF treated 3	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823559	Homo sapiens	AF	mock	1	24	0	Human donor AF mock 1	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823560	Homo sapiens	AF	mock	2	24	0	Human donor AF mock 2	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823561	Homo sapiens	AF	mock	3	24	0	Human donor AF mock 3	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823562	Homo sapiens	SR	polyIC	1	24	0.05	human donor SR treated 1	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823563	Homo sapiens	SR	polyIC	2	24	0.05	human donor SR treated 2	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823564	Homo sapiens	SR	polyIC	3	24	0.05	human donor SR treated 3	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823565	Homo sapiens	SR	mock	1	24	0	human donor SR mock 1	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823566	Homo sapiens	SR	mock	2	24	0	human donor SR mock 2	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823567	Homo sapiens	SR	mock	3	24	0	human donor SR mock 3	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823568	Homo sapiens	NHDF	polyIC	A	24	0.05	human donor NHDF treated A	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823569	Homo sapiens	NHDF	polyIC	B	24	0.05	human donor NHDF treated B	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823570	Homo sapiens	NHDF	polyIC	C	24	0.05	human donor NHDF treated C	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823571	Homo sapiens	NHDF	mock	A	24	0	human donor NHDF mock A	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823572	Homo sapiens	NHDF	mock	B	24	0	human donor NHDF mock B	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823573	Homo sapiens	NHDF	mock	C	24	0	human donor NHDF mock C	GPL16791	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823574	Papio anubis	PR00036	polyIC	A	24	0.05	olive baboon donor PR00036 treated A	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823575	Papio anubis	PR00036	polyIC	B	24	0.05	olive baboon donor PR00036 treated B	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823576	Papio anubis	PR00036	polyIC	C	24	0.05	olive baboon donor PR00036 treated C	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823577	Papio anubis	PR00036	mock	A	24	0	olive baboon donor PR00036 mock A	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823578	Papio anubis	PR00036	mock	B	24	0	olive baboon donor PR00036 mock B	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823579	Papio anubis	PR00036	mock	C	24	0	olive baboon donor PR00036 mock C	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823580	Papio anubis	PR00033	polyIC	A	24	0.05	olive baboon donor PR00033 treated A	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823581	Papio anubis	PR00033	polyIC	B	24	0.05	olive baboon donor PR00033 treated B	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823582	Papio anubis	PR00033	polyIC	C	24	0.05	olive baboon donor PR00033 treated C	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823583	Papio anubis	PR00033	mock	A	24	0	olive baboon donor PR00033 mock A	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823584	Papio anubis	PR00033	mock	B	24	0	olive baboon donor PR00033 mock B	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823585	Papio anubis	PR00033	mock	C	24	0	olive baboon donor PR00033 mock C	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823586	Papio anubis	PR00039	polyIC	A	24	0.05	Oive baboon donor PR00039 treated A	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823587	Papio anubis	PR00039	polyIC	B	24	0.05	Oive baboon donor PR00039 treated B	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823588	Papio anubis	PR00039	polyIC	C	24	0.05	Oive baboon donor PR00039 treated C	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823589	Papio anubis	PR00039	mock	A	24	0	Oive baboon donor PR00039 mock A	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823590	Papio anubis	PR00039	mock	B	24	0	Oive baboon donor PR00039 mock B	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823591	Papio anubis	PR00039	mock	C	24	0	Oive baboon donor PR00039 mock C	GPL23487	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823592	Pan troglodytes	S4933	polyIC	1	24	0.05	Chimpanzee donor S4933 treated 1	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823593	Pan troglodytes	S4933	polyIC	2	24	0.05	Chimpanzee donor S4933 treated 2	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823594	Pan troglodytes	S4933	polyIC	3	24	0.05	Chimpanzee donor S4933 treated 3	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823595	Pan troglodytes	S4933	mock	1	24	0	Chimpanzee donor S4933 mock 1	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823596	Pan troglodytes	S4933	mock	2	24	0	Chimpanzee donor S4933 mock 2	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823597	Pan troglodytes	S4933	mock	3	24	0	Chimpanzee donor S4933 mock 3	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823598	Pan troglodytes	S3649	polyIC	1	24	0.05	Chimpanzee donor S3649 treated 1	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823599	Pan troglodytes	S3649	polyIC	2	24	0.05	Chimpanzee donor S3649 treated 2	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823600	Pan troglodytes	S3649	polyIC	3	24	0.05	Chimpanzee donor S3649 treated 3	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823601	Pan troglodytes	S3649	mock	1	24	0	Chimpanzee donor S3649 mock 1	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823602	Pan troglodytes	S3649	mock	2	24	0	Chimpanzee donor S3649 mock 2	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823603	Pan troglodytes	S3649	mock	3	24	0	Chimpanzee donor S3649 mock 3	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823604	Pan troglodytes	S3611	polyIC	1	24	0.05	Chimpanzee donor S3611 treated 1	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823605	Pan troglodytes	S3611	polyIC	2	24	0.05	Chimpanzee donor S3611 treated 2	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823606	Pan troglodytes	S3611	polyIC	3	24	0.05	Chimpanzee donor S3611 treated 3	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823607	Pan troglodytes	S3611	mock	1	24	0	Chimpanzee donor S3611 mock 1	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823608	Pan troglodytes	S3611	mock	2	24	0	Chimpanzee donor S3611 mock 2	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823609	Pan troglodytes	S3611	mock	3	24	0	Chimpanzee donor S3611 mock 3	GPL19148	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823610	Pan paniscus	PR235	polyIC	1	24	0.05	Bonobo donor PR235 treated 1	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823611	Pan paniscus	PR235	polyIC	2	24	0.05	Bonobo donor PR235 treated 2	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823612	Pan paniscus	PR235	polyIC	3	24	0.05	Bonobo donor PR235 treated 3	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823613	Pan paniscus	PR235	mock	1	24	0	Bonobo donor PR235 mock 1	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823614	Pan paniscus	PR235	mock	2	24	0	Bonobo donor PR235 mock 2	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823615	Pan paniscus	PR235	mock	3	24	0	Bonobo donor PR235 mock 3	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823616	Pan paniscus	PR111	polyIC	1	24	0.05	Bonobo donor PR111 treated 1	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823617	Pan paniscus	PR111	polyIC	2	24	0.05	Bonobo donor PR111 treated 2	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823618	Pan paniscus	PR111	polyIC	3	24	0.05	Bonobo donor PR111 treated 3	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823619	Pan paniscus	PR111	mock	A	24	0	Bonobo donor PR111 mock A	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823620	Pan paniscus	PR111	mock	B	24	0	Bonobo donor PR111 mock B	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823621	Pan paniscus	PR111	mock	C	24	0	Bonobo donor PR111 mock C	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823622	Pan paniscus	PR00248	polyIC	1	24	0.05	Bonobo donor PR00248 treated 1	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823623	Pan paniscus	PR00248	polyIC	2	24	0.05	Bonobo donor PR00248 treated 2	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823624	Pan paniscus	PR00248	polyIC	3	24	0.05	Bonobo donor PR00248 treated 3	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823625	Pan paniscus	PR00248	mock	1	24	0	Bonobo donor PR00248 mock 1	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823626	Pan paniscus	PR00248	mock	2	24	0	Bonobo donor PR00248 mock 2	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823627	Pan paniscus	PR00248	mock	3	24	0	Bonobo donor PR00248 mock 3	GPL24149	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823628	Saimiri sciureus	SQMA	polyIC	1	24	0.05	Squirrel monkey donor SQMA treated 1	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823629	Saimiri sciureus	SQMA	polyIC	2	24	0.05	Squirrel monkey donor SQMA treated 2	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823630	Saimiri sciureus	SQMA	polyIC	3	24	0.05	Squirrel monkey donor SQMA treated 3	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823631	Saimiri sciureus	SQMA	mock	1	24	0	Squirrel monkey donor SQMA mock 1	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823632	Saimiri sciureus	SQMA	mock	2	24	0	Squirrel monkey donor SQMA mock 2	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823633	Saimiri sciureus	SQMA	mock	3	24	0	Squirrel monkey donor SQMA mock 3	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823634	Saimiri sciureus	SQMB	polyIC	1	24	0.05	Squirrel monkey donor SQMB treated 1	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823635	Saimiri sciureus	SQMB	polyIC	2	24	0.05	Squirrel monkey donor SQMB treated 2	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823636	Saimiri sciureus	SQMB	polyIC	3	24	0.05	Squirrel monkey donor SQMB treated 3	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823637	Saimiri sciureus	SQMB	mock	1	24	0	Squirrel monkey donor SQMB mock 1	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823638	Saimiri sciureus	SQMB	mock	2	24	0	Squirrel monkey donor SQMB mock 2	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823639	Saimiri sciureus	SQMB	mock	3	24	0	Squirrel monkey donor SQMB mock 3	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823640	Saimiri sciureus	AG05311	polyIC	1	24	0.05	Squirrel monkey donor AG05311 treated 1	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823641	Saimiri sciureus	AG05311	polyIC	2	24	0.05	Squirrel monkey donor AG05311 treated 2	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823642	Saimiri sciureus	AG05311	polyIC	3	24	0.05	Squirrel monkey donor AG05311 treated 3	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823643	Saimiri sciureus	AG05311	mock	1	24	0	Squirrel monkey donor AG05311 mock 1	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823644	Saimiri sciureus	AG05311	mock	2	24	0	Squirrel monkey donor AG05311 mock 2	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823645	Saimiri sciureus	AG05311	mock	3	24	0	Squirrel monkey donor AG05311 mock 3	GPL24150	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823646	Mus musculus	C57A	polyIC	1	24	0.05	Mouse donor C57A treated 1	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823647	Mus musculus	C57A	polyIC	2	24	0.05	Mouse donor C57A treated 2	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823648	Mus musculus	C57A	polyIC	3	24	0.05	Mouse donor C57A treated 3	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823649	Mus musculus	C57A	mock	1	24	0	Mouse donor C57A mock 1	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823650	Mus musculus	C57A	mock	2	24	0	Mouse donor C57A mock 2	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823651	Mus musculus	C57A	mock	3	24	0	Mouse donor C57A mock 3	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823652	Mus musculus	C57B	polyIC	1	24	0.05	Mouse donor C57B treated 1	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823653	Mus musculus	C57B	polyIC	2	24	0.05	Mouse donor C57B treated 2	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823654	Mus musculus	C57B	polyIC	3	24	0.05	Mouse donor C57B treated 3	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823655	Mus musculus	C57B	mock	1	24	0	Mouse donor C57B mock 1	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823656	Mus musculus	C57B	mock	2	24	0	Mouse donor C57B mock 2	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823657	Mus musculus	C57B	mock	3	24	0	Mouse donor C57B mock 3	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823658	Mus musculus	C57C	polyIC	1	24	0.05	Mouse donor C57C treated 1	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823659	Mus musculus	C57C	polyIC	2	24	0.05	Mouse donor C57C treated 2	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823660	Mus musculus	C57C	polyIC	3	24	0.05	Mouse donor C57C treated 3	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823661	Mus musculus	C57C	mock	1	24	0	Mouse donor C57C mock 1	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823662	Mus musculus	C57C	mock	2	24	0	Mouse donor C57C mock 2	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823663	Mus musculus	C57C	mock	3	24	0	Mouse donor C57C mock 3	GPL17021	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823664	Macaca mulatta	AG08305	polyIC	1	24	0.05	Rhesus macaque donor AG08305 treated 1	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823665	Macaca mulatta	AG08305	polyIC	2	24	0.05	Rhesus macaque donor AG08305 treated 2	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823666	Macaca mulatta	AG08305	polyIC	3	24	0.05	Rhesus macaque donor AG08305 treated 3	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823667	Macaca mulatta	AG08305	mock	1	24	0	Rhesus macaque donor AG08305 mock 1	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823668	Macaca mulatta	AG08305	mock	2	24	0	Rhesus macaque donor AG08305 mock 2	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823669	Macaca mulatta	AG08305	mock	3	24	0	Rhesus macaque donor AG08305 mock 3	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823670	Macaca mulatta	AG08308	polyIC	1	24	0.05	Rhesus macaque donor AG08308 treated 1	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823671	Macaca mulatta	AG08308	polyIC	2	24	0.05	Rhesus macaque donor AG08308 treated 2	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823672	Macaca mulatta	AG08308	polyIC	3	24	0.05	Rhesus macaque donor AG08308 treated 3	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823673	Macaca mulatta	AG08308	mock	1	24	0	Rhesus macaque donor AG08308 mock 1	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823674	Macaca mulatta	AG08308	mock	2	24	0	Rhesus macaque donor AG08308 mock 2	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823675	Macaca mulatta	AG08308	mock	3	24	0	Rhesus macaque donor AG08308 mock 3	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823676	Macaca mulatta	AG08312	polyIC	1	24	0.05	Rhesus macaque donor AG08312 treated 1	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823677	Macaca mulatta	AG08312	polyIC	2	24	0.05	Rhesus macaque donor AG08312 treated 2	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823678	Macaca mulatta	AG08312	polyIC	3	24	0.05	Rhesus macaque donor AG08312 treated 3	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823679	Macaca mulatta	AG08312	mock	1	24	0	Rhesus macaque donor AG08312 mock 1	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823680	Macaca mulatta	AG08312	mock	2	24	0	Rhesus macaque donor AG08312 mock 2	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823681	Macaca mulatta	AG08312	mock	3	24	0	Rhesus macaque donor AG08312 mock 3	GPL19129	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823682	Macaca nemestrina	AG07923	polyIC	1	24	0.05	Pigtailed macaque donor AG07923 treated 1	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823683	Macaca nemestrina	AG07923	polyIC	2	24	0.05	Pigtailed macaque donor AG07923 treated 2	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823684	Macaca nemestrina	AG07923	polyIC	3	24	0.05	Pigtailed macaque donor AG07923 treated 3	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823685	Macaca nemestrina	AG07923	mock	1	24	0	Pigtailed macaque donor AG07923 mock 1	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823686	Macaca nemestrina	AG07923	mock	2	24	0	Pigtailed macaque donor AG07923 mock 2	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823687	Macaca nemestrina	AG07923	mock	3	24	0	Pigtailed macaque donor AG07923 mock 3	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823688	Macaca nemestrina	AG08490	polyIC	1	24	0.05	Pigtailed macaque donor AG08490 treated 1	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823689	Macaca nemestrina	AG08490	polyIC	2	24	0.05	Pigtailed macaque donor AG08490 treated 2	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823690	Macaca nemestrina	AG08490	polyIC	3	24	0.05	Pigtailed macaque donor AG08490 treated 3	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823691	Macaca nemestrina	AG08490	mock	1	24	0	Pigtailed macaque donor AG08490 mock 1	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823692	Macaca nemestrina	AG08490	mock	2	24	0	Pigtailed macaque donor AG08490 mock 2	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823693	Macaca nemestrina	AG08490	mock	3	24	0	Pigtailed macaque donor AG08490 mock 3	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823694	Macaca nemestrina	PR0058	polyIC	1	24	0.05	Pigtailed macaque donor PR0058 treated 1	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823695	Macaca nemestrina	PR0058	polyIC	2	24	0.05	Pigtailed macaque donor PR0058 treated 2	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823696	Macaca nemestrina	PR0058	polyIC	3	24	0.05	Pigtailed macaque donor PR0058 treated 3	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823697	Macaca nemestrina	PR0058	mock	1	24	0	Pigtailed macaque donor PR0058 mock 1	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823698	Macaca nemestrina	PR0058	mock	2	24	0	Pigtailed macaque donor PR0058 mock 2	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples
+GSM2823699	Macaca nemestrina	PR0058	mock	3	24	0	Pigtailed macaque donor PR0058 mock 3	GPL19597	Three within-donor cultures; donors are the biological grouping; mapping versions are not new samples

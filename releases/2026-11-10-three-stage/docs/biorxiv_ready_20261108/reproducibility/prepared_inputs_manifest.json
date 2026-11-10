@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-08",
+  "archive": "/hy-tmp/cross-species-feedback-20261108/biorxiv_ready_20261108/reproduction_inputs/core_inputs_v1.tar.gz",
+  "archive_bytes": 171789633,
+  "archive_sha256": "fc7b9de6027f987b70c671f2a79138ecec02e07b4e224ee10fefd461eeb8f5de",
+  "files": [
+    {
+      "path": "crossspecies_direct_03/bundle_v1/bundle.npz",
+      "bytes": 42994677,
+      "sha256": "fd1a11833fa142814eea79bf2f24739c7db3fdf0bc4f1ebab6fa8574bf997ed6"
+    },
+    {
+      "path": "crossspecies_direct_03/bundle_v1/legacy_predictions.npz",
+      "bytes": 52310922,
+      "sha256": "20cac0899371106c5bab9b0cb50167957598f1cd52ab0d07c2f93b01ea88e30e"
+    },
+    {
+      "path": "crossspecies_direct_03/bundle_v1/manifest.json",
+      "bytes": 14914,
+      "sha256": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6"
+    },
+    {
+      "path": "crossspecies_direct_03/bundle_v1/metadata.json",
+      "bytes": 350748,
+      "sha256": "99a5fddb910e9f70ebe8b22a312324d87f9397cf795abac2b3327f8f200cd726"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/axis.tsv",
+      "bytes": 608050,
+      "sha256": "33045f896bd7f91be164734bf632f08eb772802c24a2b32e6d50dab4160a7bc1"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/excluded_genes.json",
+      "bytes": 61420,
+      "sha256": "8eaecab530f384d50092f307605b2279e0a3035bf1d7d9e94b79b657105c6bd9"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/external_arms.npz",
+      "bytes": 1143644,
+      "sha256": "9fb56df882b4e4c32c0705501c92d28a7ff39b5ed258149a372a10c3c7665ef4"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/external_inputs.npz",
+      "bytes": 205888,
+      "sha256": "87a05f5fdde847463b1eff2fde39be3d4737cb35fcff17b88211d22e3967a67c"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/external_truth.npz",
+      "bytes": 152810,
+      "sha256": "eea375e65d72aa953331a547e1e294d823ca4e4657b44e49cd2e01087a78cb41"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/manifest.json",
+      "bytes": 7696,
+      "sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/task_metadata.json",
+      "bytes": 8815,
+      "sha256": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe"
+    },
+    {
+      "path": "external_transfer_04/inputs_v1/train.npz",
+      "bytes": 30522965,
+      "sha256": "94942d2b046ba2048032c557aad5573f034f499d42ebea9177b180ba3095a12a"
+    },
+    {
+      "path": "multisource/data/GSE330151/arm_metadata.json",
+      "bytes": 107596,
+      "sha256": "4566147030a39b7bd443132c9dc25aa3e655551b970388565124706159a53198"
+    },
+    {
+      "path": "multisource/data/GSE330151/arm_metadata.tsv",
+      "bytes": 54024,
+      "sha256": "f98d66d3087ace6e698021363aa2b8a3e04eacf81422fcd30903882939097d9e"
+    },
+    {
+      "path": "multisource/data/GSE330151/contrast_metadata.json",
+      "bytes": 21716,
+      "sha256": "24c8097517cebb52e73d3f31232f24adaf61442cc6040a02c6392ad6226edce9"
+    },
+    {
+      "path": "multisource/data/GSE330151/contrast_metadata.tsv",
+      "bytes": 10585,
+      "sha256": "be968a2d44b72747cebf6807692acf81a251c3288bb2dcacd25e1788d9e3cb12"
+    },
+    {
+      "path": "multisource/data/GSE330151/coverage.json",
+      "bytes": 2826,
+      "sha256": "2e97d34b1d437a754608f1f265d8e4bd1eb0a4fe1be1e2cdb5ff2997801f0edf"
+    },
+    {
+      "path": "multisource/data/GSE330151/manifest.json",
+      "bytes": 16440,
+      "sha256": "99310f3332dee7a9479d826a92858174f8a79512fbb890cca82c2bdef457ecf0"
+    },
+    {
+      "path": "multisource/data/GSE330151/observation_metadata.json",
+      "bytes": 62918,
+      "sha256": "846b7ce98de85d45788b6eda21b34504ecd49ff9ab4a1b90706113ddaf458c72"
+    },
+    {
+      "path": "multisource/data/GSE330151/observation_metadata.tsv",
+      "bytes": 29685,
+      "sha256": "42832dcb8b6d10f0ae07bc0a0d03db6ee54c3b83f948a4a06164e55abfc70350"
+    },
+    {
+      "path": "multisource/data/GSE330151/panel.npz",
+      "bytes": 12461840,
+      "sha256": "4061c46753ec514bed7c15c9efd28211b8e29263c4f115ccc9ff57a7f8815f4c"
+    },
+    {
+      "path": "biorxiv_ready_20261108/legacy_blood/input/GSE249010_family.soft.gz",
+      "bytes": 36030,
+      "sha256": "9d361d672168954264f34c76536feb2db3d6803511d3d2e2d9005218446ef194"
+    },
+    {
+      "path": "biorxiv_ready_20261108/legacy_blood/input/GSE249010_processed_data_TPM.txt.gz",
+      "bytes": 31699025,
+      "sha256": "3561e862eade1bcc0bf156ab46b3b69d62d4c5dd9b7c7d0a5d2e8f53114dbeca"
+    },
+    {
+      "path": "biorxiv_ready_20261108/legacy_blood/input/provenance.json",
+      "bytes": 1310,
+      "sha256": "7628b5cac2ca9bebdccab12a617d34739c5a8015b7adb1fab01c031f42f1c4bd"
+    }
+  ],
+  "all_archive_member_bytes_reverified": true,
+  "seconds": 7.980127570219338,
+  "scope": "Private prepared-input convenience archive; not published. Contains source-derived arrays and original blood inputs; no model weights or credentials. Original data/model licenses remain separate.",
+  "public_download_url": null
+}

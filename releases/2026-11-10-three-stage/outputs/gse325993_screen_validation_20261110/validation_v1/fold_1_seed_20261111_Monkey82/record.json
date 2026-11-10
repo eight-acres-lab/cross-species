@@ -1,0 +1,25 @@
+{
+  "fold": 1,
+  "seed": 20261111,
+  "arm": "Monkey82",
+  "test_line": "63Ab2.2-02",
+  "selected_step_from_exp2": 200,
+  "selected_alpha_from_exp2": 1.0,
+  "original_weight_path": "nonrodent_singlecell_20261110/gse325993_public_exp2/state_primary_v1/fold_1_seed_20261111_Monkey82/selected.pt",
+  "original_weight_sha256": "81dd99bba6cae6d68272630be7aa57781002f9b24a803aeb5e1ab2d73ea8c777",
+  "original_factors_sha256": "ff0ee6c02cf2566382ba8e59afe288d8662abe882a34f048da84e0a3c5215e0f",
+  "query_cells": 7238,
+  "prediction_shape": [
+    7238,
+    6357
+  ],
+  "dtype": "float32",
+  "uncompressed_npy": true,
+  "prediction_sha256": "3a431a8a15d4035cad6d653bad0fc5464ae9fe35799de46cd303a1c0a033a59e",
+  "metadata_sha256": "6b689fd3b3f405e3bda1f0e4538a9828ad1a36124aac1ef5e3fcb0d8aca39fc7",
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "parameter_updates": 0,
+  "target_expression_read": false,
+  "elapsed_seconds": 2.0495848981663585
+}

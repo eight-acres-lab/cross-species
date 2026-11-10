@@ -1,0 +1,121 @@
+{
+  "status": "E0_missing_aware_inputs",
+  "source_hashes": {
+    "GSE249010_processed_data_TPM.txt.gz": "3561e862eade1bcc0bf156ab46b3b69d62d4c5dd9b7c7d0a5d2e8f53114dbeca",
+    "GSE249010_family.soft.gz": "9d361d672168954264f34c76536feb2db3d6803511d3d2e2d9005218446ef194"
+  },
+  "genes_total": 25638,
+  "sample_columns": 524,
+  "response_rows_all": 388,
+  "primary_response_rows": 387,
+  "primary_measurement_columns": 517,
+  "primary_conditions": [
+    "LPS|1000ngml|24h",
+    "LPS|1000ngml|2h",
+    "LPS|1000ngml|6h",
+    "LPS|100ngml|24h",
+    "LPS|100ngml|2h",
+    "LPS|100ngml|6h",
+    "LPS|10ngml|24h",
+    "LPS|10ngml|2h",
+    "LPS|10ngml|6h"
+  ],
+  "sampling_units_by_species": {
+    "Bos taurus": 5,
+    "Homo sapiens": 5,
+    "Macaca": 5,
+    "Mus musculus": 4,
+    "Oryctolagus cuniculus": 5,
+    "Ovis aries": 4,
+    "Pan troglodytes": 4,
+    "Papio anubis": 4,
+    "Rattus norvegicus": 4,
+    "Sus scrofa": 4
+  },
+  "sampling_units": 44,
+  "missing_token_counts": {
+    "NA": 2673922
+  },
+  "missing_fraction": 0.19903676496422,
+  "common_complete_genes": 12276,
+  "common_complete_fraction": 0.47882050081909666,
+  "missing_by_species": {
+    "Bos taurus": {
+      "sample_columns": 60,
+      "missing_fraction": 0.23851314455105702
+    },
+    "Homo sapiens": {
+      "sample_columns": 58,
+      "missing_fraction": 0.0
+    },
+    "Macaca": {
+      "sample_columns": 60,
+      "missing_fraction": 0.14248381308994462
+    },
+    "Mus musculus": {
+      "sample_columns": 48,
+      "missing_fraction": 0.22189718386769638
+    },
+    "Oryctolagus cuniculus": {
+      "sample_columns": 58,
+      "missing_fraction": 0.3225290584288946
+    },
+    "Ovis aries": {
+      "sample_columns": 48,
+      "missing_fraction": 0.23082923785006632
+    },
+    "Pan troglodytes": {
+      "sample_columns": 48,
+      "missing_fraction": 0.24748420313597005
+    },
+    "Papio anubis": {
+      "sample_columns": 48,
+      "missing_fraction": 0.14302987752554802
+    },
+    "Rattus norvegicus": {
+      "sample_columns": 48,
+      "missing_fraction": 0.24557297761135813
+    },
+    "Sus scrofa": {
+      "sample_columns": 48,
+      "missing_fraction": 0.21803572821592948
+    }
+  },
+  "unpaired_control_groups_excluded": [
+    {
+      "species": "Homo sapiens",
+      "subject": "Human_4",
+      "time": "24",
+      "reason": "control_count_not_one",
+      "controls": [],
+      "samples": [
+        "SPF5A0AF",
+        "SP576FA4",
+        "SP27C3CD"
+      ]
+    },
+    {
+      "species": "Oryctolagus cuniculus",
+      "subject": "Rabbit_2",
+      "time": "2",
+      "reason": "control_count_not_one",
+      "controls": [],
+      "samples": [
+        "SP16468C",
+        "SP9556C2",
+        "SP62CFC7"
+      ]
+    }
+  ],
+  "gene_axis": "Author deposited common human-Ensembl-labelled axis; one-to-one orthology not independently verified.",
+  "normalization": "log2(author TPM+1), no renormalization and no clipping or filling of missing values",
+  "complete_case_rule": "Fixed gene axis finite across every measured sample needed for all387 primary response rows; depends on observation presence, not response magnitude",
+  "scope": "One LPS stimulus with3doses\u00d73times and repeated biological units, including rodent pools. No model performance calculated.",
+  "files": {
+    "observations.npz": "5d934721e6a01af9a4250d95396427241104dadc795da5c7da41c1eb1c71292e",
+    "sample_metadata.json": "4f2bd7cf849c3528a9d312f5c2701a88f11e7da2d549ed10b5e6c99fa03310bc",
+    "response_metadata.json": "0cba875a7fa784a7d11bed5e9440798d783ea5d67124c5172f6735ef526ae886",
+    "sampling_units.json": "5a68d4163d3a1f3871efc125886349668ef296d6731d273aa9f4f1474bb130de"
+  },
+  "preparer_sha256": "226c4a5682a742d8456f23a623b15eedeae06150713bd160e95d5e641d6785c4"
+}

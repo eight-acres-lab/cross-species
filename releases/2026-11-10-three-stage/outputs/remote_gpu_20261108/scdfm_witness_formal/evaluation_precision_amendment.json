@@ -1,0 +1,23 @@
+{
+  "amendment": "Numerical measurement precision; no model or scientific setting change",
+  "time_utc": "2026-11-07T21:40:30.750042+00:00",
+  "base_specification_sha256": "0aad7ea40e8c4eb65a95141b3b2dd81582d14d5f07e846e74017aeccdb75d33f",
+  "timing": "Declared during witness fitting, before any new formal held-out predictions were scored; parent direction received at witness175/200",
+  "paper_reporting": "Every method and held-out condition uses independently recomputed SciPy float64 Euclidean energy V/U and mean-expression MSE from the same frozen saved predictions/targets. Original GPU FP32 report remains unchanged.",
+  "reason": "Fitting-only CUDA probe revealed3e-5-scale torch.cdist/FP64 differences; selecting precision by outcome is prohibited.",
+  "paired_intervals": "Seven fixed chemical conditions, paired2000resamples, default_rng seed0; use float64 condition losses consistently.",
+  "unchanged": [
+    "weights",
+    "training objective",
+    "optimizer",
+    "200 updates",
+    "label pools",
+    "roles",
+    "genes",
+    "RK4 solver",
+    "noise and controls",
+    "selection",
+    "prediction readout",
+    "metric mathematical formula"
+  ]
+}

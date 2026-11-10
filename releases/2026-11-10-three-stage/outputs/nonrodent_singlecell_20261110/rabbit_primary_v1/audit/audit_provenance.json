@@ -1,0 +1,393 @@
+{
+  "contract_sha256": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
+  "specification_sha256": "73642ba2edd660f37ca4b811c72efb2de90f7d1323e896f03cd6bbd60db9b991",
+  "selected_fits_sha256": "7626dde773fa4473060b9062cc4dc518084d287b8e0d9ea5c9c2e868dfdf4071",
+  "global_freeze_sha256": "b4b1052e5088de4cb6e2d30017a0d3b889a0dc1c9e7bb5d6899f89eca8dd28dc",
+  "prepared_manifest_sha256": "91eb408c8dca5c58badea54705ce2816578d18361271b04f3acf07878da8840c",
+  "selections_sha256": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0",
+  "prediction_artifacts_verified": 40,
+  "selected_weight_files_verified": 20,
+  "all_verified_before_opening_assay_arrays": true,
+  "frozen_unix_time": 1794257530.4246638,
+  "verification_unix_time": 1794257628.4830418,
+  "runner_code_hashes_from_frozen_specification": {
+    "scripts/run_nonrodent_lps_state.py": "f80fa63daec226f81f4fb5d93ccac4fea330bdcf2b3d6d8446c1d48f3d2fee49",
+    "src/cross_species/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8"
+  },
+  "scorer_sha256": "cf9e1ed79253ad859ce7b2e76241196a377879ce2b8512688d39f549fa75545d",
+  "audit_started_after_full_freeze": true,
+  "native_energy": {
+    "library": "geomloss",
+    "version": "0.3.1",
+    "source_hashes": {
+      "_legacy/samples_loss.py": "0503d0badfbbf87e5b859e278500191316cef71fd0f89f6a3d8345f80193e849",
+      "_legacy/kernel_samples.py": "5b38eaed54fa31e700eabbe1e6def385c47884781ce6eea31a3fec2eb05fdf5f",
+      "_legacy/utils.py": "65c39e3476d8a773d4f1fe0d6342765eec595991f838259bd73150b550dbecec"
+    },
+    "loss": "energy",
+    "blur": 0.05,
+    "backend": "tensorized",
+    "dtype": "float64",
+    "device": "cuda",
+    "mmd_num_chunks": 1,
+    "gene_normalization": "none",
+    "formula": "mean(Dxy)-0.5*mean(Dxx)-0.5*mean(Dyy), uniform population weights; V-statistic includes diagonals",
+    "distance": "native sqrt(clamp_min(squared Euclidean distance,1e-8)); diagonal/duplicate distance1e-4",
+    "scale": "one half of the common 2*cross-within-within energy-distance convention",
+    "precision_note": "Same pinned native operator evaluated in float64; training used float32.",
+    "official_state_source_sha256": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63"
+  },
+  "numpy_version": "2.4.6",
+  "fit_audit": [
+    {
+      "fold": 0,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.02124188082649419,
+        "Rabbit": 0.015017420285933008,
+        "Hextra": 0.028102622746315788
+      },
+      "source_coefficient": 0,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "a850b37a22ccfe63aba00823f80a90b58daffe5948965d6200239c3e0258c88a",
+        "e09a035f9206fb8812edd903daca921786412178fe38cff7feeb56f14308a9c5"
+      ]
+    },
+    {
+      "fold": 0,
+      "arm": "H+Rabbit",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.02124188082649419,
+        "Rabbit": 0.015017420285933008,
+        "Hextra": 0.028102622746315788
+      },
+      "source_coefficient": 0.7072413377946046,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "130abc045e59f6f61df7e2927dd222fe5eb58361f05a5ed774ec96c5d0e0b0d5",
+        "9183cd66ed1296b0d6524702bb958a152488b00a0fb8c6a5511b642329f65488"
+      ]
+    },
+    {
+      "fold": 0,
+      "arm": "H+Hextra",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.02124188082649419,
+        "Rabbit": 0.015017420285933008,
+        "Hextra": 0.028102622746315788
+      },
+      "source_coefficient": 0.37793413480026466,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "3a00e94cb8c099047aaa410356633d37eab7c3444c6ed4593e82be199e5497e1",
+        "776972ab29e9f1895a70e9afd286dcc1a8e3035cd60f11664583e0504c7cfeb9"
+      ]
+    },
+    {
+      "fold": 0,
+      "arm": "H+RabbitA0",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.02124188082649419,
+        "Rabbit": 0.015017420285933008,
+        "Hextra": 0.028102622746315788
+      },
+      "source_coefficient": 0.7072413377946046,
+      "a0_retains_real_rabbit_amplitude_scalar": true,
+      "calibration_prediction_sha256": [
+        "856c5cef1eea7ca81f8fefd75af58844a8118d91d7be14ec7ab63b1c879ca7af",
+        "70f1af9a47c7b86745f92301f65464896b5d129a5a3f83a192f44097e6f0a7c5"
+      ]
+    },
+    {
+      "fold": 1,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.022038677165226835,
+        "Rabbit": 0.01308031640724759,
+        "Hextra": 0.019545023955051224
+      },
+      "source_coefficient": 0,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "db2e587a7c23313ad90adfe09028d36530e33ab4bb88cb164ee09f72a428ecb1",
+        "fcee74601c4be0ed25ae24bffb500460a46a6fcce6bb841a04dfba587fd347ee"
+      ]
+    },
+    {
+      "fold": 1,
+      "arm": "H+Rabbit",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.022038677165226835,
+        "Rabbit": 0.01308031640724759,
+        "Hextra": 0.019545023955051224
+      },
+      "source_coefficient": 0.8424366995058149,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "2d2ea85b921c17e9b267ce77ec7c19ebe0bbc752d8c27dc92936810237b51d15",
+        "d072536c930f30cc4b137d7b855820e667fca3d4d28d2138813af3c04af85afd"
+      ]
+    },
+    {
+      "fold": 1,
+      "arm": "H+Hextra",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.022038677165226835,
+        "Rabbit": 0.01308031640724759,
+        "Hextra": 0.019545023955051224
+      },
+      "source_coefficient": 0.563792533995108,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "96d88c7d43728e47bc62fdb0e5f3511005f5fb308c172210cc3f78eb3a1171ae",
+        "bbc5acfa2dff964de137b49e3efb89d2e49c88aadc5980e5204fbf9a9b97bae8"
+      ]
+    },
+    {
+      "fold": 1,
+      "arm": "H+RabbitA0",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.022038677165226835,
+        "Rabbit": 0.01308031640724759,
+        "Hextra": 0.019545023955051224
+      },
+      "source_coefficient": 0.8424366995058149,
+      "a0_retains_real_rabbit_amplitude_scalar": true,
+      "calibration_prediction_sha256": [
+        "dc8f768ed6a619e74f790de824da96a9815e7e7f97ab0fa2c4437345ba512b9c",
+        "a702fbd855314bf1258dde457747a6a8cfede22aa04a9ff35d72c580fc570505"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.021739129302448028,
+        "Rabbit": 0.01316409061995897,
+        "Hextra": 0.02293873769793716
+      },
+      "source_coefficient": 0,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "30fb58505dc7e639cef80575e917b9b327c67fb12887061f96dabaff773ec413",
+        "23287e203e5883e49fce625f6c95e46f3c905bd7ad6c60411e6450563b9cc26b"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "H+Rabbit",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.021739129302448028,
+        "Rabbit": 0.01316409061995897,
+        "Hextra": 0.02293873769793716
+      },
+      "source_coefficient": 0.8256981028939386,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "99d1a2afd666d3fa93bea68181ed68354dc78eb6c9d7d7814a373c04975aef2f",
+        "dba29db9d07c3fff93b12ea13a2fe458f0499c20ac403d077ea357e2373cc13b"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "H+Hextra",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.021739129302448028,
+        "Rabbit": 0.01316409061995897,
+        "Hextra": 0.02293873769793716
+      },
+      "source_coefficient": 0.4738519091310545,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "be7ea93f078f85c6b95871d1797c49aaca9177030da286ed3888ed5fb8f97105",
+        "ea4a18c1c6be86f53ba41ecb1cae24cc0a6faeb7bcf3fb06891edcc5f8ee833e"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "H+RabbitA0",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.021739129302448028,
+        "Rabbit": 0.01316409061995897,
+        "Hextra": 0.02293873769793716
+      },
+      "source_coefficient": 0.8256981028939386,
+      "a0_retains_real_rabbit_amplitude_scalar": true,
+      "calibration_prediction_sha256": [
+        "b8849f80e4b117efaaf7eefac8888798ec49c2f741028005ed8e9e018b3f2ddd",
+        "c77d4b9f54a35fca1215f94f53ab059ddf42c4187b87c08342008eea64488ca5"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.025221132359347666,
+        "Rabbit": 0.012666695289541558,
+        "Hextra": 0.021138616632516514
+      },
+      "source_coefficient": 0,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "e3c39fc9e9fbfac28653138b7dabb0a2a2500ff274192ff7585871c50ffaa910",
+        "8a775231e77bd10cb28d02f7337c3c3938c737d2348f04f1886b0a67eaa81e29"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "H+Rabbit",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.025221132359347666,
+        "Rabbit": 0.012666695289541558,
+        "Hextra": 0.021138616632516514
+      },
+      "source_coefficient": 0.9955687644973927,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "f3929884ad0f6680c979f8c46f6defff33f0ecfa48607d29b9073b9d4bf2d367",
+        "cac8da6e19d0a6617887f03bdc86b29b47a0322b1adb6bb6f3d9f4eee7fe74ad"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "H+Hextra",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.025221132359347666,
+        "Rabbit": 0.012666695289541558,
+        "Hextra": 0.021138616632516514
+      },
+      "source_coefficient": 0.596565347624291,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "8b1c855a09264478134ec2b95c05f9a30dc1d5b1cf5184d357e7bcf005627ef2",
+        "17dff0ed75c6bd4a9e1604b678886aec7bef17ca2f721dd056e201c912e72386"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "H+RabbitA0",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.025221132359347666,
+        "Rabbit": 0.012666695289541558,
+        "Hextra": 0.021138616632516514
+      },
+      "source_coefficient": 0.9955687644973927,
+      "a0_retains_real_rabbit_amplitude_scalar": true,
+      "calibration_prediction_sha256": [
+        "540b3074258df69197e688140a8fb9fe5e989e6febf5940314ec3e8d9da746d0",
+        "00435d7ad9d02d4bbd558e36965c5df9ec485a3a47b8bd666697435c955d5887"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.023823823350683504,
+        "Rabbit": 0.013304860722868222,
+        "Hextra": 0.022339641972379545
+      },
+      "source_coefficient": 0,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "7f3e101a9f2c836bae9f09f3e2072ed56c616c292e1a75ef99577d0d62c4f8d9",
+        "0dcc411a719be2ddb40cae641a3dcc95da7d171a439f788d1b8888b23722684f"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "H+Rabbit",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.023823823350683504,
+        "Rabbit": 0.013304860722868222,
+        "Hextra": 0.022339641972379545
+      },
+      "source_coefficient": 0.89530525147608,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "2b4961647c94003b518b0aeadcd5e6556b3e2550016d13ed113128a3ffea2d8f",
+        "7d7b270ae7a0866ca743cbda8ecabdafbcdff1e91b7da78f2ca18a2f08d5fcc1"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "H+Hextra",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.023823823350683504,
+        "Rabbit": 0.013304860722868222,
+        "Hextra": 0.022339641972379545
+      },
+      "source_coefficient": 0.5332185578475023,
+      "a0_retains_real_rabbit_amplitude_scalar": false,
+      "calibration_prediction_sha256": [
+        "e25008e9943ae3f1869ee5d102d4c75cb4abc8bdda24bfddb6aa573da7980e75",
+        "73b4e456e911c66c72326d494149adf56378baef73edfb45dcce2b417278ba3c"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "H+RabbitA0",
+      "selected_step": 200,
+      "selected_shrink": 1,
+      "source_scales": {
+        "H": 0.023823823350683504,
+        "Rabbit": 0.013304860722868222,
+        "Hextra": 0.022339641972379545
+      },
+      "source_coefficient": 0.89530525147608,
+      "a0_retains_real_rabbit_amplitude_scalar": true,
+      "calibration_prediction_sha256": [
+        "18a01e8ff3a057f12faae6e154ee73fc727c47dd0d4271bb56866960af042f15",
+        "bd41dde606ed510567a6020384d937b74af1d9cb852ed07653ff90e66ef96e90"
+      ]
+    }
+  ],
+  "limitations": [
+    "Single known LPS condition in one human study; no unseen-perturbation test.",
+    "Rabbit time, dose, tissue and study differ from human; species effects are confounded with those attributes.",
+    "Rabbit 0h-to-6h contrast includes culture time.",
+    "Only two selected rabbit individuals contribute to primary training.",
+    "Historical HepG2 normalization is incompletely recovered; all arms are new-assay contrast adaptations.",
+    "Source-specific loss normalization preserves a real-LPS amplitude scalar in A0.",
+    "Fixed optimizer steps and matched source donor/cell budgets do not imply equal experimental monetary cost or exact compute cost."
+  ],
+  "historical_evidence_preserved": "Preserve all prior negative and null-failing State/Parse/mouse/TG evidence and prior measurement-assisted evidence with their original scope. This experiment does not replace or revise them."
+}

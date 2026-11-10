@@ -1,0 +1,16 @@
+{
+  "README.zh.md": "3c15f8a9b65c0943211cffb29cb24d7397061a1d408179fe15d819db3e8b99c1",
+  "artifact_identity_summary.json": "9c7ed33b05b2bfc2b0cea613d9e1d1b8e3c78f738c59bcb8727213009fbbbfdb",
+  "download_manifest_verified.json": "769d357edbea7d86b1ad1f20e7dff7d89ed3a25454532ec76f54337642ebc2b4",
+  "human.cell_metadata.tsv.gz": "82c7ca5443856a257831e3990a92084589f0d2dc2cd99eacd38696f091708e1f",
+  "metadata_POU5F1_guide_identity_counts.tsv": "b93e38c230e1a547c42bb143867b35cccfee927a245252a8261576b151ee671e",
+  "public_exp3_human_download_manifest.json": "1e62a248cb4ba46c425eba552d39c32b90881e5b78089765635a5f4633ca5fba",
+  "native_readback_validation.json": "1a107c7893e54584edf1b9887071bd2b58c1f563034167ad4179e321d44f0ce7",
+  "metadata_guide_composition.json": "9372ee832002599f18bd9b81c72a59ca16f4e1e70fc23891e9083f9063b24de5",
+  "metadata_eligibility_frozen_before_download.json": "a5346c4343b138e87a514d8caa6ef328b68369ba70bc9aab91f31ead88529492",
+  "manifest.json": "590d989955498e8f555bdc509752127ffef6bde8f67560323e7e631aa3e279f4",
+  "human.gencode32_coding_mask.tsv": "4375d81c3f4371a37a34d06892bbe0803b3279b81b8da80ecaa48a3ce7f9884f",
+  "perline_capture_condition_guide_counts.tsv": "3545d006a7eca4e96db6a06405ed4f50f1ac7eb6d938622cc8126467c24c649d",
+  "state_observed_gene_axis.tsv": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+  "scripts/prepare_gse325993_screen_validation.py": "b599c3eba714230b5335e455fc9ea7f3329c3b3fc8a1d64fe0be63764f159ec1"
+}

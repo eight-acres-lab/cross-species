@@ -1,0 +1,354 @@
+Graveley Lab shRNA knockdown followed
+  by RNA-seq Library Preparation and
+       Characterization Document
+           Wet Lab: Sara Olson and Lijun Zhan
+       Computational Lab: Xintao Wei and Michael Duff
+                   PI: Brenton Graveley
+
+            Department of Genetics and Genome Sciences
+               UConn Institute for Systems Genomics
+                          UConn Health
+                     400 Farmington Avenue
+                   Farmington, CT 06030 USA
+                              March 22, 2016
+
+
+   Project: ENCODE3
+   Grant: U54HG007005
+   Sample Description: shRNA Knockdown of SRSF5_41 in K562 cells
+   Cell Line: K562
+   RNA ID: SRSF5-41-LV11-52
+   Multiplex Barcode: AGTTCC
+   ENCODE BIOSAMPLE ACCESSION: ENCBS741EFJ
+   ENCODE LIBRARY ACCESSION: ENCLB566YIH
+   ENCODE EXPERIMENT ACCESSION: ENCSR906RHU
+
+
+   This document contains the protocols used for library preparation and char-
+acterization of RNA isolated from K562 cells depleted of SRSF5_41.
+
+
+
+
+                                      1
+RNA Quality Control
+RNA was isolated from K562 cells transduced with lentiviral particles expressing
+an shRNA targeting the SRSF5_41 mRNA as described in ENCODE Biosam-
+ple Accession number ENCBS741EFJ. The quality of the RNA was measured
+using an Agilent TapeStation Instrument with an RNA Screen Tape (Catlog
+Number 5067−5576).
+
+
+
+  1. Mix 1 µl of RNA and 5 µl RNA sample buffer.
+  2. Vortex and briefly spin to ensure sample is at the bottom of the tube.
+
+  3. Heat samples in a thermocycler to 72 ◦ C for 3 minutes.
+  4. Place samples on ice, then briefly spin to ensure sample is at the bottom
+     of the tube.
+  5. Run samples on the RNA Screen Tape.
+
+
+
+
+ Figure 1: Agilent TapeStation image of 1 µl of the input total RNA sample.
+
+
+
+Library Prep Protocol
+RNA-Seq libraries were prepared following the Illumina the TruSeq Stranded
+mRNA Sample Preparation Kit (Catalog numbers RS−122−2101 or RS−122−2102).
+Spike-in RNAs are obtained from NIH (Catalog number ERCC−78A−11119).
+
+
+Purify and Fragment mRNA
+This process purifies the polyA containing mRNA molecules using poly−T oligo
+attached magnetic beads using two rounds of purification. During the second
+elution of the polyA RNA, the RNA is also fragmented and primed for cDNA
+synthesis.
+
+
+
+                                       2
+ 1. Dilute 1.0 µg of the total RNA with nuclease-free ultra pure water to a
+    final volume of 25 µL in a 0.3 ml PCR plate or tube with a 1:1000 ratio
+    of spike-ins.
+ 2. Vortex the RNA Purification Beads tube vigorously to resuspend the
+    oligo−dT beads.
+ 3. Add 25 µL of RNA Purification Beads to the sample to bind the polyA
+    RNA to the oligo dT magnetic beads.
+ 4. Gently pipette the entire volume up and down 6 times to mix thoroughly.
+ 5. Incubate the sample in a thermal cycler at 65 ◦ C for 5 minutes and then
+    hold at 4 ◦ C to denature the RNA and facilitate binding of the RNA to
+    the beads.
+ 6. When the thermal cycler reaches 4 ◦ C, remove the sample from the thermal
+    cycler and incubate it at room temperature for 5 minutes to allow the RNA
+    to bind to the beads.
+ 7. Place the sample on the magnetic stand at room temperature for 5 minutes
+    to separate the polyA RNA bound beads from the solution.
+ 8. Remove and discard all of the supernatant.
+ 9. Remove the sample from the magnetic stand.
+10. Wash the beads by adding 150 µl of Bead Washing Buffer to remove
+    unbound RNA.
+11. Gently pipette the entire volume up and down 6 times to mix thoroughly.
+12. Place the sample on the magnetic stand at room temperature for 5 min-
+    utes.
+13. Remove and discard all of the supernatant from the sample and remove
+    the sample from the magnetic stand.
+14. Add 25 µl of Elution Buffer to the sample and gently pipette the entire
+    volume up and down 6 times to mix thoroughly.
+15. Incubate the sample in a thermal cycler at 80 ◦ C for 2 minutes, and then
+    hold at 25 ◦ C hold to elute the mRNA from the beads.
+16. Remove the sample from the thermal cycler when it reaches 25 ◦ C and
+    place on the bench at room temperature.
+17. Add 25 µl of Bead Binding Buffer to the sample to allow the mRNA to
+    specifically rebind the beads, while reducing the amount of rRNA that
+    non-specifically binds.
+18. Gently pipette the entire volume up and down 6 times to mix thoroughly.
+19. Incubate the sample at room temperature for 5 minutes.
+20. Place the sample on the magnetic stand at room temperature for 5 minutes
+    and then remove and discard all of the supernatant.
+
+
+                                     3
+ 21. Remove the sample from the magnetic stand and wash the beads by adding
+     150 µl of Bead Washing Buffer.
+
+ 22. Gently pipette the entire volume up and down 6 times to mix thoroughly
+     and then place the sample on the magnetic stand at room temperature
+     for 5 minutes.
+ 23. Remove and discard all of the supernatant and then remove the sample
+     from the magnetic stand.
+
+ 24. Add 11.0 µl of Fragment, Prime, Finish Mix to the sample.
+ 25. Gently pipette the entire volume up and down 6 times to mix thoroughly.
+     The Fragment, Prime, Finish Mix contains random hexamers for RT prim-
+     ing and serves as the 1st strand cDNA synthesis reaction buffer.
+
+ 26. Incubate the sample in a thermal cycler at 94 ◦ C for 4 minutes and then
+     hold at 4 ◦ C to elute, fragment, and prime the RNA.
+ 27. Remove the sample from the thermal cycler and centrifuge briefly.
+
+Synthesize First Strand cDNA
+This process reverse transcribes the cleaved RNA fragments that were primed
+with random hexamers into first strand cDNA using reverse transcriptase and
+random primers. The addition of Actinomycin D to the First Stand Synthesis
+Act D mix prevents spurious DNA−dependent synthesis, while allowing RNA-
+dependent synthesis, improving strand specificity.
+
+  1. Place the sample on the magnetic stand at room temperature for 5 min-
+     utes.
+  2. Transfer 8.5 µl of the supernatant to a new 0.3 ml plate or tube.
+  3. Add SuperScript II to the First Strand Synthesis Act D Mix tube at a
+     ratio of 1 µl SuperScript II for each 9 µl First Strand Synthesis Act D
+     Mix.
+
+  4. Add 4.0 µl of First Strand Synthesis Act D Mix and SuperScript II mix
+     to the sample and gently pipette the entire volume up and down 6 times
+     to mix thoroughly.
+  5. Place the sample in a thermal cycler and incubate at 25 ◦ C for 10 min,
+     42 ◦ C for 15 min, 70 ◦ C for 15 min, and hold at 4 ◦ C.
+  6. Remove the sample from the thermal cycler and proceed immediately to
+     the second strand cDNA synthesis reaction.
+
+Synthesize Second Strand cDNA
+This process removes the RNA template and synthesizes a replacement strand,
+incorporating dUTP in place of dTTP to generate ds cDNA. The incorpora-
+tion of dUTP quenches the second strand during amplification, because the
+polymerase does not incorporate past this nucleotide.
+
+
+                                      4
+  1. Add 2.5 µl of Resuspension Buffer to the reaction.
+  2. Add 10 µl of thawed Second Strand Marking Master Mix to the reaction.
+
+  3. Gently pipette the entire volume up and down 6 times to mix thoroughly.
+  4. Return the reaction to the pre-heated thermal cycler, close the lid and
+     incubate at 16 ◦ C for 1 hour.
+  5. Remove the reaction from the thermal cycler, place it on the bench and
+     let it to come to room temperature.
+  6. Add 45 µl of well-mixed AMPure XP beads (Beckman Coulter, Catalog
+     Number A63881) to the ds cDNA.
+  7. Gently pipette the entire volume up and down 10 times to mix thoroughly
+     and incubate at room temperature for 15 minutes.
+
+  8. Place the reaction on the magnetic stand at room temperature, for 5
+     minutes to make sure that all of the beads are bound to the side of the
+     wells.
+  9. Remove and discard 65.0 µl of supernatant from the reaction.
+
+ 10. While leaving the tube on the magnetic stand add 150 µl freshly prepared
+     80% EtOH without disturbing the beads.
+ 11. Incubate at room temperature for 30 seconds, and then remove and discard
+     all of the supernatant.
+
+ 12. Repeat once for a total of two 80% EtOH washes.
+ 13. Let stand at room temperature for 15 minutes to dry, and then remove
+     from the magnetic stand.
+ 14. Add 11.25 µl Resuspension Buffer and gently pipette the entire volume
+     up and down 10 times to mix thoroughly.
+
+ 15. Incubate at room temperature for 2 minutes and then place on the mag-
+     netic stand at room temperature for 5 minutes.
+ 16. Transfer 8.75 µl supernatant (ds cDNA) from the tube to the new 0.3 ml
+     PCR plate or tube.
+
+A Tailing
+A single ‘A’ nucleotide is added to the 3’ ends of the blunt fragments to prevent
+them from ligating to one another during the adapter ligation reaction. A
+corresponding single ‘T’ nucleotide on the 3’ end of the adapter provides a
+complementary overhang for ligating the adapter to the fragment. This strategy
+ensures a low rate of chimera (concatenated template) formation.
+
+  1. Add 6.25 µl of thawed A-Tailing Mix to each reaction.
+  2. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+
+
+                                       5
+  3. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+  4. Place the tube in a thermal cycler with the lid pre-heated to 100 ◦ C, close
+     the lid, and incubate at 37 ◦ C for 30 minutes, 70 ◦ C for 5 minutes, and
+     hold at 4 ◦ C.
+  5. Proceed directly to ligating the adapters.
+
+Ligate Adapters
+This process ligates multiple indexing adapters to the ends of the ds cDNA,
+preparing them for hybridization onto a flow cell.
+
+  1. Add 1.25 µl of Resuspension Buffer to each reaction.
+  2. Add 1.25 µl of Ligation Mix to each reaction.
+  3. Add 1.25 µl of the thawed RNA Adapter Index to each reaction.
+
+  4. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+  5. Place the tube in the pre-heated thermal cycler. Close the lid and incubate
+     at 30 ◦ C for 10 minutes.
+  6. Remove from the thermal cycler.
+
+  7. Add 2.5 µl of Stop Ligation Buffer to each reaction to inactivate the liga-
+     tion.
+  8. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+  9. Vortex the AMPure XP Beads for at least 1 minute or until they are well
+     dispersed.
+ 10. Add 21 µl of mixed AMPure XP Beads to each reaction.
+ 11. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+ 12. Incubate the ALP plate at room temperature for 15 minutes.
+
+ 13. Place the ALP plate on the magnetic stand at room temperature for 5
+     minutes or until the liquid is clear.
+ 14. Remove and discard 38.0 µl of supernatant from the tube taking care not
+     to disturb the beads.
+
+ 15. With the tube on the magnetic stand, add 150 µl freshly prepared 80%
+     EtOH without disturbing the beads.
+ 16. Incubate at room temperature for 30 seconds, and then remove and discard
+     all of the supernatant taking care not to disturb the beads.
+
+ 17. Repeat twice for a total of two 80% EtOH washes.
+ 18. While still on the magnetic stand, let the samples air-dry at room tem-
+     perature for 15 minutes.
+
+
+                                       6
+19. Remove the tube from the magnetic stand.
+20. Add 27.5 µl Resuspension Buffer to each tube.
+
+21. Gently pipette the entire volume up and down 10 times to mix thoroughly
+    or until the beads are fully resuspended.
+22. Incubate at room temperature for 2 minutes.
+23. Place the reaction on the magnetic stand at room temperature for 5 min-
+    utes or until the liquid is clear.
+24. Transfer 25 µl of supernatant from the tube to a new 0.3 ml PCR plate or
+    tube labeled with the CAP barcode. Take care not to disturb the beads.
+25. Vortex the AMPure XP Beads until they are well dispersed.
+
+26. Add 25 µl of mixed AMPure XP Beads to each tube for a second cleanup.
+27. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+28. Incubate at room temperature for 15 minutes.
+29. Place the tube on the magnetic stand at room temperature for 5 minutes
+    or until the liquid is clear.
+30. Remove and discard 47.5 µl of supernatant taking care not to disturb the
+    beads.
+31. With the tube on the magnetic stand, add 150 µl freshly prepared 80%
+    EtOH taking care not to disturb the beads.
+32. Incubate at room temperature for 30 seconds, and then remove and discard
+    all of the supernatant taking care not to disturb the beads.
+33. Repeat one time for a total of two 80% EtOH washes.
+
+34. With the tube on the magnetic stand, let the sample air-dry at room
+    temperature for 15 minutes, and then remove the tube from the magnetic
+    stand.
+35. Add 12.5 µl Resuspension Buffer to the tube.
+36. Gently pipette the entire volume up and down 10 times to mix thoroughly
+    or until the beads are fully resuspended.
+37. Incubate at room temperature for 2 minutes.
+38. Place the tube on the magnetic stand at room temperature for 5 minutes
+    or until the liquid is clear.
+
+39. Transfer 10 µl of supernatant to a new 0.3 ml PCR plate or tube taking
+    care not to disturb the beads.
+
+
+
+
+                                    7
+Enrich DNA Fragments
+This process uses PCR to selectively enrich those DNA fragments that have
+adapter molecules on both ends and to amplify the amount of DNA in the
+library. The PCR is performed with a PCR Primer Cocktail that anneals to the
+ends of the adapters. Minimize the number of PCR cycles to avoid skewing the
+representation of the library.
+
+  1. Add 2.5 µl of thawed PCR Primer Cocktail to the sample.
+
+  2. Add 12.5 µl of thawed PCR Master Mix to the sample.
+  3. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+  4. Place the tube in the pre-programmed thermal cycler with the lid pre-
+     heated to 100 ◦ C, close the lid, and incubate at 98 ◦ C for 30 seconds, and
+     then 15 cycles of 98 ◦ C for 10 seconds, 60 ◦ C for 30 seconds, 72 ◦ C for 30
+     seconds, and then 72 ◦ C for 5 minutes and hold at 4 ◦ C.
+  5. Add 25 µl of AMPure XP Beads to the tube.
+  6. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+
+  7. Incubate the PCR plate at room temperature for 15 minutes.
+  8. Place the tube on a magnetic stand at room temperature for 5 minutes or
+     until the liquid is clear.
+  9. Remove and discard 47.5 µl of supernatant from the tube.
+
+ 10. While on the magnetic stand, add 150 µl freshly prepared 80% EtOH
+     without disturbing the beads.
+ 11. Incubate at room temperature for 30 seconds, and then remove and discard
+     all of the supernatant.
+
+ 12. Repeat one time for a total of two 80% EtOH washes.
+ 13. While on the magnetic stand, let the sample air-dry at room temperature
+     for 15 minutes, and then remove from the magnetic stand.
+ 14. Add 27.5 µl Resuspension Buffer to the sample.
+
+ 15. Gently pipette the entire volume up and down 10 times to mix thoroughly.
+ 16. Incubate at room temperature for 2 minutes.
+ 17. Place the sample on the magnetic stand at room temperature for 5 minutes
+     or until the liquid is clear.
+
+ 18. Transfer 25 µl of the supernatant from the tube to a new 0.3 ml PCR
+     plate or tube.
+
+
+
+
+                                       8
+Validate Library
+  1. Initially quantitate the libraries by Nanodrop or Tecan.
+  2. Further validate the libraries by running on an Agilent Tapestation D1000
+     screen tape (Catalog number 5067−5582). Dilute 1 µl of each library into
+     3 µl of sample buffer and run on the Tapestation.
+
+
+
+
+         Figure 2: Agilent TapeStation image of 1 µl of the library.
+
+
+
+
+                                      9
+

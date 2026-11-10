@@ -1,0 +1,26 @@
+{
+  "stage": "exp2_source_validation_only",
+  "exp3_score_files_opened": false,
+  "sources": {
+    "scores": {
+      "path": "/Users/zhi/train/outputs/gse325993_state_20261110/state_primary_v1/audit/line_seed_scores.csv",
+      "sha256": "d26171b9acaf26ea7450b5190453ac7a6d6e4e29bb6cb0eb3ca12a30266c38fa"
+    },
+    "summary": {
+      "path": "/Users/zhi/train/outputs/gse325993_state_20261110/state_primary_v1/audit/summary.json",
+      "sha256": "a09532a3530f767515ea6eb6ba9aa53899e2b51dca5b1f4b280164cedbe7197a"
+    }
+  },
+  "validated_groups_per_mode": 7,
+  "biological_lines": [
+    "63Ab2.2-02",
+    "29B5-39s"
+  ],
+  "scored_seeds_per_line": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "plotted_points_planned_per_panel": 14,
+  "figure_generated": false
+}

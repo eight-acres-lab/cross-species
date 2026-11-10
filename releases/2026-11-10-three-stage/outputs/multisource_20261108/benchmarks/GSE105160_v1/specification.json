@@ -1,0 +1,36 @@
+{
+  "study": "GSE105160",
+  "created_utc": "2026-11-08T05:59:24.455816+00:00",
+  "scope": "One synthetic polyIC 24h stimulus, nine animal sources, three donors per species; descriptive response transfer and measured-donor sensitivity only.",
+  "target": "Human in vitro primary dermal fibroblast treatment-minus-own-donor-mock response.",
+  "sources": [
+    "mouse",
+    "rhesus",
+    "pigtail_macaque",
+    "baboon",
+    "chimpanzee",
+    "bonobo",
+    "gorilla",
+    "orangutan",
+    "squirrel_monkey"
+  ],
+  "subset_count": 511,
+  "gene_count": 7579,
+  "axis_rule": "Complete frozen ten-species one-to-one axis; identical across every subset and target donor.",
+  "primary": "MSE against human donor-mean response; individual-human-donor MSE also retained.",
+  "budgets": "Every acquired source uses all three measured donors and their culture replicates. Added sources increase measurement budget; this audit has no equal-total-budget causal contrast.",
+  "premeasurement_rule": "Select source with greatest Pearson control-state similarity using all source/human control measurements; controls themselves require measurement. No treated human values select this rule.",
+  "no_learned_selector": "One perturbation cannot train or independently validate a new-perturbation source-choice rule.",
+  "oracle": "All performance-ranked source/subset lists are post-outcome descriptive references, not deployable selection.",
+  "donor_resampling": {
+    "draws": 2000,
+    "seed": 20261108,
+    "fixed_weights": true,
+    "interpretation": "Three observed donors per species resampled with replacement; sensitivity ranges, not generalization or species-population confidence intervals."
+  },
+  "source_order_matches_taxonomy": "Phylogenetic dependencies are not treated as independent species replicates.",
+  "panel_manifest_sha256": "4e7ee69a4eb94d4dab1acca97b1732a913be543424edad20ff0cba415d7760cc",
+  "donor_responses_sha256": "886605bb6996c537b89a7140264214d4541608d904c5498d1878de31e30633bf",
+  "code_sha256": "6d2725793673f8b12c4233c083ea6f9158a05004af2c631b877cdb177e8ea1f9",
+  "device": "cuda"
+}

@@ -1,0 +1,443 @@
+{
+  "contract_id": "gse325993_state_20261110/CONTRACT_v1",
+  "schema_version": 1,
+  "status": "frozen_before_biological_model_fitting_and_any_target_prediction_scoring",
+  "date": "2026-11-10",
+  "immutability": "Final CONTRACT_v1.json is written once after input manifest completion and before biological fitting or effect scoring. Preserve all frozen versions and prior negative studies.",
+  "scope": {
+    "task": "Conditional-on-author-filtered-public-cohort held-out-human-line model comparison for known POU5F1 CRISPRi",
+    "estimand": "Additional measured cells from an existing training human line versus the same number of cells from one specified cynomolgus line, evaluated on the completely held-out other human line.",
+    "human_biological_units": 2,
+    "extra_human_interpretation": "Additional disjoint cells from the SAME training line, not additional donors or cell lines.",
+    "source_species_count": 1,
+    "source_line_count": 2,
+    "source_comparison": "Both monkey lines are predefined separate source arms, each using one line. No selection of the better source after outcomes.",
+    "upstream_eligibility_limitation": {
+      "author_NTC_guide_filter_uses_both_human_lines": true,
+      "evidence_status": "Highly supported indirect export evidence: public GEO NTCguide ID sets exactly match author final RNA-effect-filtered controlguide lists, and author QCstep4 jointly uses both human lines; a direct GEOexport script trace was not recovered.",
+      "consequence": "The public cell cohort can reflect held-out-line RNA in upstream control-guide eligibility. This benchmark is conditional on that published cohort; no full-pipeline target-RNA-blind or fully prospective end-to-end QC claim.",
+      "our_guarantee": "Our downstream fitting, hyperparameter/checkpoint selection and source scale estimation exclude that fold held-out human line outcomes. Held-out NTC cells are available as query baselines; POU5F1 target cells are read for model scoring only after every prediction freezes.",
+      "new_expression_or_guide_effect_filtering": false
+    },
+    "limitations": [
+      "Two human cell lines provide two biological target units. Three samplingseeds, eight GEMchannels, guides and cells do not increase biologicalN.",
+      "One known gene perturbation; no unseen-perturbation claim.",
+      "One experiment/chip exp2, multiple technical capturechannels; no new-screen generalization claim.",
+      "Original human HepG2 checkpoint preprocessing is incompletely recovered; this is an explicit new-assay contrast adaptation.",
+      "Native6546gene axis lacksPOU5F1; only downstream expression response is predicted.",
+      "Species-specific gRNA sequences and guide efficacy may differ. All published eligible guides are retained without selecting by RNAresponse.",
+      "Source cell budget matches extra-human measured-cell budget. Extra-human remains one existing human line, while monkey is another species/line; biological-information and monetary-cost equality are not asserted."
+    ],
+    "prior_evidence": "Retain negative rabbit/Lawlor results, old mouse/Parse/TG null-failing evidence, and exploratory G105 outputs without replacing them."
+  },
+  "design": {
+    "study": "GSE325993",
+    "experiment": "exp2",
+    "chip": 1,
+    "capture_lanes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "cell_type": "induced pluripotent stem cell",
+    "perturbation": "POU5F1_CRISPRi",
+    "control": "NTC_dox5d",
+    "doxycycline_days": 5,
+    "line_ids": {
+      "human": [
+        "63Ab2.2-02",
+        "29B5-39s"
+      ],
+      "Monkey56": "56B1-01s",
+      "Monkey82": "82A3-05s"
+    },
+    "outer_folds": [
+      {
+        "fold": 0,
+        "train_line": "63Ab2.2-02",
+        "test_line": "29B5-39s"
+      },
+      {
+        "fold": 1,
+        "train_line": "29B5-39s",
+        "test_line": "63Ab2.2-02"
+      }
+    ],
+    "seeds": [
+      20261110,
+      20261111,
+      20261112
+    ],
+    "seed_interpretation": "Prespecified cell-pool/sampling and training-order sensitivity; not independent biological replication. Initial pretrained weights and zero extension are identical.",
+    "arms": [
+      "H",
+      "Hextra_cells",
+      "Monkey56",
+      "Monkey56A0",
+      "Monkey82",
+      "Monkey82A0"
+    ],
+    "fits": 36,
+    "target_predictions": 36,
+    "source_assignment": {
+      "Monkey56": "56B1-01s",
+      "Monkey56A0": "56B1-01s",
+      "Monkey82": "82A3-05s",
+      "Monkey82A0": "82A3-05s"
+    },
+    "whole_test_line_excluded_from_training_and_calibration": true,
+    "eligibility": "Retain deposited exp2 CellRanger-called POU5F1/NTC cells with exact author genotype demux and predetermined dominant-guide UMIs; no new RNA-expression/QC-threshold or guide-efficacy filtering.",
+    "guide_rule": "Unique maximal dominantguideUMIs>10; allotherguidescombined<10percent and<1000UMIs; condition from POU5F1 versus NT guideidentity; do not infer guide identity from targetgene expression.",
+    "capture_identity": "species|experiment_chip_lane|barcode. Eight lanes are distinct GEMcapturechannels; sequencing flow-cell lanes are merged into each capture CellRanger run. They are technical captures within one screen.",
+    "duplicate_audit": "No duplicate full count vectors; recurrent bare barcodes across captures have different vectors. GEX and gRNA libraries/reference remaps are not extra cells.",
+    "known_counts": {
+      "human": {
+        "63Ab2.2-02": {
+          "NTC": 2771,
+          "POU5F1": 521
+        },
+        "29B5-39s": {
+          "NTC": 2237,
+          "POU5F1": 640
+        }
+      },
+      "cynomolgus": {
+        "56B1-01s": {
+          "NTC": 1297,
+          "POU5F1": 340
+        },
+        "82A3-05s": {
+          "NTC": 1383,
+          "POU5F1": 543
+        }
+      }
+    },
+    "canonical_POU5F1_guides": "Four canonical POU5F1-targeting guides per species represented in both lines; retain all published guides. Three cells with other-species-prefixed POU5F1 dominantguide retain metadataflag and remain included, without expression-driven exclusion."
+  },
+  "data": {
+    "arrays_file": "gse325993_exp2_arrays.npz",
+    "arrays_sha256": "9bfe37f689d0e5eb93ca06610b280f54c1fda7102be36579d9065a94dd4cc510",
+    "manifest_file": "manifest.json",
+    "manifest_sha256": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
+    "files": {
+      "manifest.json": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
+      "gse325993_exp2_arrays.npz": "9bfe37f689d0e5eb93ca06610b280f54c1fda7102be36579d9065a94dd4cc510",
+      "state_observed_gene_axis.tsv": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+      "human.gencode32_coding_mask.tsv": "4375d81c3f4371a37a34d06892bbe0803b3279b81b8da80ecaa48a3ce7f9884f",
+      "cynomolgus.gencode32_coding_mask.tsv": "e8902ff3181ea7701ed4d3b8706689418800539f772d61e095ff6e1fbaa19885"
+    },
+    "raw_inputs": {
+      "human": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/gse325993_exp2_human.native_counts.h5ad",
+        "sha256": "e4562c4a67c7a785d5e5e7dbeedbc3f5a177fe8e0718851c76516d128cd36ef1",
+        "shape": [
+          6169,
+          36606
+        ]
+      },
+      "cynomolgus": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/gse325993_exp2_cynomolgus.native_counts.h5ad",
+        "sha256": "7bd2c2b9f35747ef7f3033acf3362520f90ecd11ab80097a4928d7dedb2dcf88",
+        "shape": [
+          3563,
+          34256
+        ]
+      }
+    },
+    "primary_gene_count": 6357,
+    "native_gene_count": 6546,
+    "common_gene_axis": {
+      "path": "docs/nonrodent_singlecell_20261110/gse325993/common_state_gene_id_axis.tsv",
+      "sha256": "938e927cdd5b80e123e8411104f72e4e4ca4db874e69a3e4868586b526c19a83"
+    },
+    "gene_rule": "Exact unique author deposited human ENSG IDs in both measured axes and nativeState gene bridge. Macaque coordinates were already transferred by author Liftoff; do not apply second orthology conversion.",
+    "normalization": "For each cell sum raw counts over all observed GENCODEv32 gene_type=protein_coding endogenous genes, exclude dCas9/cassette/guidefeatures; log1p(10000*raw_gene_count/coding_library_size), then select fixed6357modelgenes.",
+    "normalization_order": "Complete observed coding universe before modelgene restriction; measuredmodelgenes remain in scoring even when not included in codingdenominator.",
+    "coding_denominator_human_genes": 19394,
+    "coding_denominator_cynomolgus_genes": 18562,
+    "zero_coding_library_rule": "Abort and report affected cell IDs; do not silently drop cells or change gene axis.",
+    "unsupported_channels": "Identical bool6546 mask for everyarm; excluded inputcoords computationalzero only, no observed-zero target/scoring. Full pretrained latent paths retained.",
+    "model_target_gene_present": false,
+    "all_cells_preserved": 9732,
+    "array_fields": {
+      "human_expression": "6169×6357 float32",
+      "cynomolgus_expression": "3563×6357 float32",
+      "species_metadata_suffixes": [
+        "cell_ids",
+        "donors",
+        "cell_lines",
+        "condition",
+        "guide",
+        "capture",
+        "experiment",
+        "coding_library_size"
+      ],
+      "native_gene_indices": "6357 unique ascending native coordinates"
+    },
+    "prepared_root": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized",
+    "prepared_manifest_sha256": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
+    "normalized_axis": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized/state_observed_gene_axis.tsv",
+      "sha256": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+      "bytes": 267340,
+      "native_model_axis": 6546,
+      "measured_common_axis": 6357,
+      "gene_type_counts": {
+        "protein_coding": 6271,
+        "lncRNA": 86
+      },
+      "outside_coding_denominator_semantics": "Output counts may include noncoding genes, expressed per coding-UMI library. Output axis is unchanged."
+    },
+    "coding_reference": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.primary_assembly.annotation.gtf.gz",
+      "release": "GENCODE32 GRCh38.p13 primary assembly",
+      "source_bytes": 43107903,
+      "source_sha256": "0c36c37abb0c88637b04a8e401c93f0199a65bbdd0702c9e13bdfbadc053fe1e",
+      "gene_rows": 60668,
+      "protein_coding_gene_rows": 19994,
+      "table_sha256": "bff01f6276d5d834afe169f18eb50931ffe41569e748eac01c86f8ae85818d0c",
+      "rule": "only GTF feature gene; gene_type==protein_coding; exactstable ID, version suffix removed; preserve PAR_Ysuffix"
+    },
+    "coding_reference_absent_from_native": {
+      "human": 600,
+      "cynomolgus": 1432
+    },
+    "noncoding_outputs_retained": 86,
+    "excluded_insert_features": [
+      "other_plus",
+      "KRAB_dCas9",
+      "other_minus",
+      "rtTA",
+      "NeoR_KanR"
+    ],
+    "upstream_filter_evidence": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/audit/control_guide_upstream_filter_boundary.json",
+      "sha256": "c8cc8acde1124a10412eac786b82030c24773bdce253f46fda4c0f0d65d347d1",
+      "bytes": 6447
+    }
+  },
+  "pools": {
+    "per_condition": 128,
+    "conditions": [
+      "NTC",
+      "POU5F1"
+    ],
+    "human_training_pools": [
+      "base",
+      "extra",
+      "cal"
+    ],
+    "human_joint_selected_per_condition": 384,
+    "strata": [
+      "capture",
+      "guide"
+    ],
+    "hash_salt": "gse325993_state_20261110/v1/metadata_splits",
+    "human_rule": "For each trainingline/seed/condition, Hamilton largest-remainder allocation of384unique cells over capture×guide strata proportional to eligiblecounts; ties by fixedhash. Within stratum rankcells by fixedhash and selectquota. Divide selectedquota among base/extra/cal pools: each getsfloor(quota/3); assign remainingone-cell increments to currently smallest-total eligiblepool, withhash ties, ensuring eachpool128 and perstratummax-minus-min<=1.",
+    "monkey_control_rule": "For each monkeyline/seed Hamilton-select256NTC cells bycapture×guide; divide into realinput128 andnulltarget128 withsamebalanced2poolrule. Use identical realinputpool inA/A0.",
+    "monkey_target_rule": "For each monkeyline/seed Hamilton-select128POU5F1 cells bycapture×guide.",
+    "monkey_pools_reused_across_outer_folds_for_same_seed": true,
+    "population_disjointness": "All base/extra/cal humanpools are pairwisedisjoint withinline/seed/condition; A0monkeyNTCinput/nulltarget disjoint. Cells can recur across predefined seeds, never counted as additional independentunits.",
+    "test_population": "All depositedeligiblecells of heldouthumanline, in bothconditions; no128cap.",
+    "split_artifact": "Metadata-only split tool writes explicitcellIDs,rowindices,stratumquotas,line/seed/condition/pool identities andhashmanifest before any fit.",
+    "no_fake_padding_or_cellduplication": true,
+    "hash_algorithm": "SHA256 of UTF8 pipe-delimited fields. Metadata split implementation and its SHA must be frozen in the split manifest before model fitting; it uses only capture,guide,cellID,line,condition,seed andintegercounts."
+  },
+  "model": {
+    "repository": "arcinstitute/st-x-replogle-full",
+    "subdirectory": "hepg2_0.99",
+    "revision": "48ad5f70215ab4c58caa5a68e77d837601d29d35",
+    "checkpoint_sha256": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+    "official_source_commit": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+    "adapter": "src/cross_species/state_assay_adapter.py",
+    "adapter_sha256": "fce6ede9f0ff1cf2202101dbbafd51dfbfa98e3a130cc375cc9b6c4f7cf9b15c",
+    "strict_loading": true,
+    "fresh_per_fit": true,
+    "condition_columns": {
+      "POU5F1_CRISPRi": 2024,
+      "NTC_dox5d": 2025
+    },
+    "new_context_rows": {
+      "human_iPSC": 56,
+      "cynomolgus_iPSC": 57
+    },
+    "new_weights_initial_value": 0,
+    "gene_heads": "Retain all6546pretrained coordinates and full nativegene layers; no species-specific randomgenehead or slicing.",
+    "readout": "P=clamp_min(C+(f(C,POU5F1_CRISPRi)-f(C,NTC_dox5d)),0)",
+    "mode": "eval with autograd enabled; deterministic twoforwards, dropoutoff",
+    "zero_step": "ExactqueryNTCcontrols",
+    "donor_or_line_id_as_input": false,
+    "direct_POU5F1_prediction": false
+  },
+  "training": {
+    "objective": "mean_population_mse",
+    "population_loss": "mean_G((mean_cells(P)-mean_cells(T))**2)",
+    "H_objective": "L_Hbase",
+    "augmented_objective": "L_Hbase+0.5*normalizer_source*L_source",
+    "normalizer": {
+      "scale": "mean_G((mean_selectedPOU5F1-mean_selectedNTC)**2),float64, onlythefullfixedtrainingpool",
+      "formula": "s_Hbase/max(s_true_source,1e-8)",
+      "floor": 1e-08,
+      "clip": null,
+      "extra_human": "ownextra128NTC/128POU scale",
+      "A0": "Samecoefficient asitsrealmonkeylineA;nevernormalizeA0separately. A0retainsthetrue-sourceamplitudescalar.",
+      "no_calibration_or_test_values": true
+    },
+    "optimizer": "AdamW",
+    "weight_decay": 0.0005,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "scheduler": null,
+    "parameter_policy": "Connectedoriginalgene/backbone/sharedbiasandnewcontextparams corelr;twoexplicitnewconditioncolumns conditionlr. Oldperturbationfirstweight frozen;old56contextrows restoredafterAdamW;disconnectedgene_decoder excluded.",
+    "minibatch_cells": 64,
+    "human_schedule": "Samehumanbasecontrol/POUrowrank schedule in all6arms for samefold/seed/step",
+    "source_schedule": "Same128-population rankposition schedule acrossHextra andbothmonkeysourcearms; sameactualNTCrows inA/A0; no withinpopulationreplacement.",
+    "random_initialization": "Sameofficialweights andzeroextensions acrossarms;seeds determinepools/schedules; noextra modelseed search.",
+    "compute_scope": "200optimizerupdates matched; added armsincludeadditional sourceforward/backward and do not haveexactlyH-onlyFLOPs. Animal andextra-human additionalcellbudgets andsource-loss calls match.",
+    "failure_rule": "Keepfailedfits/status; no drop/replacement ofline/seed/source, no budgetextension orscientificretuning aftertargetscores.",
+    "optimizer_steps": 200,
+    "candidate_checkpoints": [
+      0,
+      50,
+      100,
+      200
+    ],
+    "added_source_weight": 0.5,
+    "learning_rates": {
+      "explicit_new_condition_weights": 0.001,
+      "all_other_connected_trainable_parameters": 1e-05
+    },
+    "gradient_global_norm_clip": 10
+  },
+  "calibration": {
+    "population": "Samehumantrainingline independent128NTC+128POU heldoutcalibrationcells; entirelydisjointfrombase/extra",
+    "independence_scope": "Heldoutcells withinonebiologicalline; not independentthirdhumandonor",
+    "checkpoint_selection": "EachfitselectsminimumunshrunkcalibrationpopulationMSE over0/50/100/200; exacttieearlieststep",
+    "primary_uses_unshrunk_selected_checkpoint": true,
+    "adaptive_source_weight_or_fallback": false,
+    "post_calibration_shrink": {
+      "role": "prespecifiedseparatediagnostic",
+      "alpha_grid": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "selection": "Aftercheckpointselection, choosealphaminimizingcalibrationMSE;exacttiesmallestalpha;identicalruleforallarms",
+      "prediction": "C+alpha*(P_selected-C)",
+      "no_test_selection": true
+    }
+  },
+  "inference": {
+    "population": "AlltargetlineNTCcells",
+    "cell_order": "Ascending normalized input row index within the held-out line; capture/native-cell order is preserved, fixed by metadata-only splits. Identical control ordering in allarms andseeds.",
+    "chunk_size": 64,
+    "tail": "actualremainingcells withoutduplicationorpadding",
+    "aggregation": "Concatenatepredictions andcompute meanweight1perrealcell. NTCquerymean usesexactallsamecells acrossarms.",
+    "source_measurements_at_query": false
+  },
+  "metrics": {
+    "primary": {
+      "name": "mean_response_mse",
+      "formula": "mean_G(((mean(P)-mean(C))-(mean(T)-mean(C)))**2)",
+      "equivalence": "equalsmean_G((mean(P)-mean(T))**2);oneendpoint",
+      "dtype": "float64",
+      "gene_count": 6357
+    },
+    "secondary": [
+      "PinnednativeGeomLossenergy(loss=energy,blur=.05,tensorized,float64,unequalN/M,full6357axis)",
+      "Pearsonresponsecorrelation",
+      "responsecosinesimilarity",
+      "unclampedcontrastMSE",
+      "clampedcoordinatefraction",
+      "nativecontrolreconstructionMSE"
+    ],
+    "undefined_correlations": "null/NA whenvariance/normzero,neverreplacewith0",
+    "baseline_controls": [
+      "Zeroresponse=P=C",
+      "Hbase-onlymeanresponse, computedfrombase128NTC/128POU andadded toqueryC thenclamp0",
+      "0.5Hresponse=C+.5*(P_H-C)",
+      "0.75Hresponse=C+.75*(P_H-C)",
+      "calibration-shrunkH"
+    ],
+    "paired_comparisons_per_source": [
+      "HminusrealmonkeyMSE",
+      "Hextra_cellsminusrealmonkeyMSE",
+      "sameMonkeyA0minusrealmonkeyMSE",
+      "Hcal_shrinkminusrealmonkeyMSE",
+      "zero-minusrealmonkeyMSE",
+      "Hbase_mean-minusrealmonkeyMSE",
+      "halfH-minusrealmonkeyMSE",
+      "threequarterH-minusrealmonkeyMSE"
+    ],
+    "extra_human_control": "HminusHextra_cellsMSE",
+    "percent_rule": "Differenceofaggregatedmeans dividedbycomparatoraggregatedmean;do notaverageindividualpercentages.",
+    "ratio_rule": "Animalgain/extrahumangain onlyifextraHgain>0;descriptive,reportdenominator;noequivalence/NI."
+  },
+  "aggregation": {
+    "primary_order": [
+      "For eachmonkeysourcearm separately, compute metricperheldouthumanline×seed.",
+      "Average3prespecifiedseeds equallyWITHINeachhumanline.",
+      "Average2humanlines equally."
+    ],
+    "no_prediction_ensemble": "Scoreperseed predictionthenaveragemetrics;do notaverage3predictionsfirst.",
+    "source_rule": "ReportMonkey56 andMonkey82individually;neverchoosebestsourceforprimaryclaim.",
+    "detail_required": "Allline×seed×arm scores, allcalsteps/alphas, allsourcecoefficients;line-levelseedmeans andspread",
+    "biological_target_N": 2,
+    "sampling_seeds_are_not_biological_N": true,
+    "p_values": false,
+    "confirmatory_confidence_intervals": false,
+    "bootstrap_biological_significance": false
+  },
+  "freeze": {
+    "all36fits_before_any_target_score": true,
+    "required_artifacts": [
+      "contractSHA",
+      "normalizedinputmanifest+arraySHA",
+      "metadatasplitmanifest+explicitcellIDs/SHA",
+      "common6357axis+codingdenominatormaskSHA",
+      "helper/runner/scorercodeSHA",
+      "36fitrecords+selectedweightsSHA",
+      "all36targetpredictions andbaselinevariants SHA",
+      "allcalibrationselectedsteps+alphas",
+      "training-onlysourcecoefficients"
+    ],
+    "scorer_gate": "Verifycomplete36fitgrid, bothhumanline×3seed×6arms, alltargetpredictionhashes, weight/provenance/contract/splitsbeforeindexinganyheldoutlinePOUtruth forscoring.",
+    "scope_of_exclusion": "Fold-specific testline outcomes excludedfromthatfold fitting/calibration. Inoppositerotation thatline canserveastrainingline underfixedtwofoldCV; do notclaim itsRNAneverappearedanywhere.",
+    "factorized_or_reconstructed_baselines": "Permittedonlyifallinputs/formulasfrozen;noverysingletest-dependentselection.",
+    "storage": "AlllargeRNA/weights/predictionsremainremote;localcompactmetadata/reports only.",
+    "target_prediction_files": 36,
+    "scorer_primary_expected_grid": "2targetlines×3seeds×6arms, onefull-line targetpopulation perfit",
+    "metadata_hash_binding": "Splitmanifest pins contractSHA,normalizedmanifestSHA,arraysSHA,splitJSONSHA andrunnercodeSHA beforeexpressionfitting. Normalizedarrayandrawinputbindings are embedded inthiscontract."
+  },
+  "interpretation": {
+    "candidate_pattern": [
+      "For a separatelynamedmonkeysource, seed-averaged MSEimprovesoverH inbothhumanlines.",
+      "SourceexceedsownA0 andprespecifiedshrink baselines ataggregate andreportlinelevel.",
+      "ExtraHumancellspositivecontrolisfullyreported;noforcedpositiveclaimifitfails.",
+      "Noanimalgainattributabletoselectedstep0 oralpha0;thoseequalzeroresponse.",
+      "Bothmonkeysourcescompleteandreported regardlessofsign."
+    ],
+    "scope": "Conditionalpublishedcohort,twoline,knownPOU5F1downstreampredictionbenchmark;descriptiveevidence notpopulation-wideanimalbenefit.",
+    "no_late_rescue": "Newseeds,guidefilters,weights,budgets,batches,axes ormodelheads requireseparatenamedfollowupwithoutrewritingthiscontract."
+  },
+  "preflight": {
+    "three_step_artificial_probe": {
+      "path": "docs/nonrodent_singlecell_20261110/gse325993/model_adapter/artificial_probe.json",
+      "sha256": "0d9cf542e0b4ecc4b8b4521286e45e4281c2c2240e4f578fb989c91f2a96a2ea",
+      "required": "Zero-stepanchoredidentity,firststepsharedgradientcancellation,thirdstepnonzeroshareddata-gradientsandhuman-contextcontrastchange; noassayRNA."
+    },
+    "actual_source_gradient": "Recordsource-onlygradientatsteps1,3,10;requirefinitepositivebasal/backbonegradientat>=3;weightdecayaloneinsufficient.",
+    "expression_filter": "No newRNAexpressionfiltering afterthismetadata freeze.",
+    "data_integrity": "Rawcountsimmutable; normalizedfiniteandcodingdenominatorpositive; sharedIDsunique;poolIDsdisjoint;repeatedbarcodesqualifiedbycapture;no duplicatedbudgetcells."
+  }
+}

@@ -1,0 +1,1106 @@
+[
+  {
+    "perturb_id": "Perturb_8241",
+    "target": "SRSF1",
+    "model": "HepG2",
+    "srx": "SRX1737998",
+    "gsm": "GSM2138814",
+    "role": "control",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB268NYD)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138814.soft",
+    "original_characteristics": [
+      "antibody: Control",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an Control shRNA against no target (NT-BGHLV12-01-93)",
+      "biosample encode accession: ENCBS623BZF (SAMN04875913)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS623BZF at ENCODE; https://www.encodeproject.org/ENCBS623BZF/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80908"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8241",
+    "target": "SRSF1",
+    "model": "HepG2",
+    "srx": "SRX1737999",
+    "gsm": "GSM2138815",
+    "role": "control",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB935HOL)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138815.soft",
+    "original_characteristics": [
+      "antibody: Control",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an Control shRNA against no target (NT-BGHLV12-02-94)",
+      "biosample encode accession: ENCBS638ASL (SAMN04875916)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS638ASL at ENCODE; https://www.encodeproject.org/ENCBS638ASL/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80908"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8241",
+    "target": "SRSF1",
+    "model": "HepG2",
+    "srx": "SRX1737874",
+    "gsm": "GSM2138708",
+    "role": "treated",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB146QCP)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138708.soft",
+    "original_characteristics": [
+      "antibody: SRSF1",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an shRNA knockdown against SRSF1. (SRSF1-BGHLV12-76)",
+      "biosample encode accession: ENCBS148BFZ (SAMN04875886)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS148BFZ at ENCODE; https://www.encodeproject.org/ENCBS148BFZ/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80855"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8241",
+    "target": "SRSF1",
+    "model": "HepG2",
+    "srx": "SRX1737875",
+    "gsm": "GSM2138709",
+    "role": "treated",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB556DKZ)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138709.soft",
+    "original_characteristics": [
+      "antibody: SRSF1",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an shRNA knockdown against SRSF1. (SRSF1-BGHLV12-75)",
+      "biosample encode accession: ENCBS066SXT (SAMN04875880)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS066SXT at ENCODE; https://www.encodeproject.org/ENCBS066SXT/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80855"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8242",
+    "target": "SRSF7",
+    "model": "HepG2",
+    "srx": "SRX1737998",
+    "gsm": "GSM2138814",
+    "role": "control",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB268NYD)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138814.soft",
+    "original_characteristics": [
+      "antibody: Control",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an Control shRNA against no target (NT-BGHLV12-01-93)",
+      "biosample encode accession: ENCBS623BZF (SAMN04875913)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS623BZF at ENCODE; https://www.encodeproject.org/ENCBS623BZF/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80908"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8242",
+    "target": "SRSF7",
+    "model": "HepG2",
+    "srx": "SRX1737999",
+    "gsm": "GSM2138815",
+    "role": "control",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB935HOL)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138815.soft",
+    "original_characteristics": [
+      "antibody: Control",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an Control shRNA against no target (NT-BGHLV12-02-94)",
+      "biosample encode accession: ENCBS638ASL (SAMN04875916)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS638ASL at ENCODE; https://www.encodeproject.org/ENCBS638ASL/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80908"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8242",
+    "target": "SRSF7",
+    "model": "HepG2",
+    "srx": "SRX1737864",
+    "gsm": "GSM2138674",
+    "role": "treated",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB091JLI)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138674.soft",
+    "original_characteristics": [
+      "antibody: SRSF7",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an shRNA knockdown against SRSF7. (SRSF7-BGHLV12-77)",
+      "biosample encode accession: ENCBS974ELC (SAMN04875943)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS974ELC at ENCODE; https://www.encodeproject.org/ENCBS974ELC/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80840"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_8242",
+    "target": "SRSF7",
+    "model": "HepG2",
+    "srx": "SRX1737865",
+    "gsm": "GSM2138675",
+    "role": "treated",
+    "title": "shRNA RNA-seq from HepG2 (ENCLB177FPZ)",
+    "species": "Homo sapiens",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": "1",
+    "independent_unit_status": "ENCODE biological replicate label; common HepG2 cell-line donor; not independent donors",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSM2138675.soft",
+    "original_characteristics": [
+      "antibody: SRSF7",
+      "line: HepG2",
+      "biomaterial_type: immortalized cell line",
+      "description: RNA-seq on HepG2 cells treated with an shRNA knockdown against SRSF7. (SRSF7-BGHLV12-78)",
+      "biosample encode accession: ENCBS815MFP (SAMN04875929)",
+      "age: 15 year",
+      "dev stage: child",
+      "Sex: male",
+      "health state: hepatocellular carcinoma",
+      "lab: Brenton Graveley, UConn",
+      "link: ENCBS815MFP at ENCODE; https://www.encodeproject.org/ENCBS815MFP/",
+      "link: Derived from ENCODE donor ENCDO000AAC; https://www.encodeproject.org/ENCDO000AAC/",
+      "link: general protocol; https://www.encodeproject.org/documents/f08f3256-32f0-4a46-8965-6cf9ac38a400/@@download/attachment/Graveley-HepG2-growth-protocol.pdf",
+      "link: ENCODE dbxrefs Cellosaurus CVCL_0027; http://web.expasy.org/cellosaurus/CVCL_0027"
+    ],
+    "treatment_protocol": [],
+    "data_processing": [
+      "See GSM*_README.txt supplementary file linked below"
+    ],
+    "geo_series": [
+      "GSE80840"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4693",
+    "target": "SRSF1",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055022",
+    "gsm": "GSM1707976",
+    "role": "control",
+    "title": "KD GFP whole cell Replicate A",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "A",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD GFP",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4693",
+    "target": "SRSF1",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055023",
+    "gsm": "GSM1707977",
+    "role": "control",
+    "title": "KD GFP whole cell Replicate B",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "B",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD GFP",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4693",
+    "target": "SRSF1",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055008",
+    "gsm": "GSM1707962",
+    "role": "treated",
+    "title": "KD SRSF1 whole cell Replicate A",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "A",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD SRSF1",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4693",
+    "target": "SRSF1",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055009",
+    "gsm": "GSM1707963",
+    "role": "treated",
+    "title": "KD SRSF1 whole cell Replicate B",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "B",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD SRSF1",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4699",
+    "target": "SRSF7",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055022",
+    "gsm": "GSM1707976",
+    "role": "control",
+    "title": "KD GFP whole cell Replicate A",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "A",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD GFP",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4699",
+    "target": "SRSF7",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055023",
+    "gsm": "GSM1707977",
+    "role": "control",
+    "title": "KD GFP whole cell Replicate B",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "B",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD GFP",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4699",
+    "target": "SRSF7",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055020",
+    "gsm": "GSM1707974",
+    "role": "treated",
+    "title": "KD SRSF7 whole cell Replicate A",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "A",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD SRSF7",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_4699",
+    "target": "SRSF7",
+    "model": "P19_whole_cell",
+    "srx": "SRX1055021",
+    "gsm": "GSM1707975",
+    "role": "treated",
+    "title": "KD SRSF7 whole cell Replicate B",
+    "species": "Mus musculus",
+    "method": "esiRNA",
+    "time_after_knockdown_h": 36,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "no_infection_in_selected_sample_metadata",
+    "biological_replicate_label": "B",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Series reports 2 biological replicates and 2 technical replicates per condition; A/B retained as biological labels; technical runs not counted as added biological units",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE69733.soft",
+    "original_characteristics": [
+      "cell line: P19 embryonal carcinoma cell line",
+      "genotype/variation: KD SRSF7",
+      "cell fraction: whole cell"
+    ],
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "data_processing": [
+      "Basecalls performed using CASAVA version 1.8.2",
+      "Remaining adaptor sequences were trimmed from reads using cutadapt -m 20 -q 25; For MISO all reads were trimmed to 75-bp length.",
+      "For Cufflinks and DEX-Seq RNA-seq reads were aligned to mm10 using Tophat v2.0.9 coupled with Bowtie v2.1.0. For MISO reads were mapped to mm9 using TopHat (v2.0.10) with the option -g1.",
+      "FPKMs were calculated using Cufflinks v2.1.1; Splicing changes were calculated with DEX-Seq and MISO.",
+      "Genome_build: Cufflinks: mm10; Ensembl v73. gtf-used for expression profiling was retrieved with ensembl-ids from uscc table browser. DEX-Seq: mm10; ENSEMBL v66. MISO: mm9",
+      "Supplementary_files_format_and_content: Cufflinks: Tab-delimited text files containing gene counts of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of all knockdown experiments separate in cytoplasmic and whole cell samples; FPKM values of separate knockdown experiments in cytoplasmic and whole cell samples. DEX-Seq:  Text files containing read counts in exon counting bins comparing KD of SR proteins to control. MISO: Text files containing changes in expression in annotated alternative last exons (ALE) and TandemUTRs including Percent Spliced In (PSI) values and confidence intervals calculated and compared between KD samples and controls."
+    ],
+    "geo_series": [
+      "GSE69733",
+      "GSE69734"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "target": "SRSF1",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507439",
+    "gsm": "GSM5225290",
+    "role": "control",
+    "title": "13-SCR for SRSF 1 2 6 7 9_UN_replicate 1",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SCR shRNA Control",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "target": "SRSF1",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507440",
+    "gsm": "GSM5225291",
+    "role": "control",
+    "title": "14-SCR for SRSF 1 2 6 7 9_UN_replicate 2",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SCR shRNA Control",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "target": "SRSF1",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507441",
+    "gsm": "GSM5225292",
+    "role": "control",
+    "title": "15-SCR for SRSF 1 2 6 7 9_UN_replicate 3",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "3",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SCR shRNA Control",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "target": "SRSF1",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507472",
+    "gsm": "GSM5225323",
+    "role": "treated",
+    "title": "46-SRSF1 KD_UN_replicate 1",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SRSF1 KD shRNA Knockdown",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "target": "SRSF1",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507473",
+    "gsm": "GSM5225324",
+    "role": "treated",
+    "title": "47-SRSF1 KD_UN_replicate 2",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SRSF1 KD shRNA Knockdown",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15664",
+    "target": "SRSF1",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507474",
+    "gsm": "GSM5225325",
+    "role": "treated",
+    "title": "48-SRSF1 KD_UN_replicate 3",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "3",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SRSF1 KD shRNA Knockdown",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "target": "SRSF7",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507439",
+    "gsm": "GSM5225290",
+    "role": "control",
+    "title": "13-SCR for SRSF 1 2 6 7 9_UN_replicate 1",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SCR shRNA Control",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "target": "SRSF7",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507440",
+    "gsm": "GSM5225291",
+    "role": "control",
+    "title": "14-SCR for SRSF 1 2 6 7 9_UN_replicate 2",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SCR shRNA Control",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "target": "SRSF7",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507441",
+    "gsm": "GSM5225292",
+    "role": "control",
+    "title": "15-SCR for SRSF 1 2 6 7 9_UN_replicate 3",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "3",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SCR shRNA Control",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "target": "SRSF7",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507490",
+    "gsm": "GSM5225341",
+    "role": "treated",
+    "title": "64-SRSF7 KD_UN_replicate 1",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "1",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SRSF7 KD shRNA Knockdown",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "target": "SRSF7",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507491",
+    "gsm": "GSM5225342",
+    "role": "treated",
+    "title": "65-SRSF7 KD_UN_replicate 2",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "2",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SRSF7 KD shRNA Knockdown",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  },
+  {
+    "perturb_id": "Perturb_15667",
+    "target": "SRSF7",
+    "model": "RAW264.7_uninfected",
+    "srx": "SRX10507492",
+    "gsm": "GSM5225343",
+    "role": "treated",
+    "title": "66-SRSF7 KD_UN_replicate 3",
+    "species": "Mus musculus",
+    "method": "shRNA",
+    "time_after_knockdown_h": null,
+    "cell_fraction": "whole_cell_or_total_RNA",
+    "infection_state": "uninfected",
+    "biological_replicate_label": "3",
+    "technical_replicate_label": null,
+    "independent_unit_status": "Deposited triplicate sample labels; donor/culture independence and knockdown interval not established here",
+    "donor_pairing_verified": false,
+    "source": "evidence/GSE171418.soft",
+    "original_characteristics": [
+      "genotype: SRSF7 KD shRNA Knockdown",
+      "cell line: RAW 264.7",
+      "treatment: no treatment"
+    ],
+    "treatment_protocol": [
+      "RAW 264.7 Macrophages seeded in a 12 well dish at 8x10^5 cells/well overnight. The next day cells were ~80% confluent. For baseline (UN) measurements, cells were collected without treatment. For infected (SAL) samples, cells were infected with Salmonella Tyhpimurium (SAL) (MOI = 10) and collected at 4h post-infection."
+    ],
+    "data_processing": [
+      "2x150 paired-end sequence reads",
+      "Illumina software used for basecalling",
+      "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to Ensemble Grcm38 with CLC genomics Workbench",
+      "Reads Per Kilobase of exon per Megabase of library size (RPKM) were calculated using CLC Genomics Workbench",
+      "Genome_build: Grcm38",
+      "Supplementary_files_format_and_content: tab-delimited text files include RPKM values for each Sample"
+    ],
+    "geo_series": [
+      "GSE171418"
+    ]
+  }
+]

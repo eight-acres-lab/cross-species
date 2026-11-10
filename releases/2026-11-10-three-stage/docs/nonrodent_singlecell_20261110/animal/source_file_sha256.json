@@ -1,0 +1,11 @@
+{
+  "E-MTAB-6754.study.json": "6aec50f82217cd7b5a2556bdcc010222d02202e42bcfe23f0d84b3c36b24dacb",
+  "E-MTAB-6754.sdrf.txt": "79e2a16fbe5d3248343bcb493c03f787a8a740dbedc546a72c1f98adf2b9fd63",
+  "E-MTAB-6754.idf.txt": "c06f38e51214849b30d2e080e65d65f25e266edb0f1ff86491d3eb44fa8a835c",
+  "Hagai2018_supplement.pdf": "119cbd82fe8bcd7f69f75e6920bc3db0c0c121857888eaa80728955f2b454f52",
+  "author_github_tree.json": "12bc86ba73c78652025ac223c4056eb4b50f75394dd545cf20a52d0ac6b47159",
+  "author_code/samples_matching_files.csv": "9ebd177654e6ee1aefeb7baf5d79ddaf839215028218d863d619d6cec57e2ecc",
+  "author_code/pipeline_example_phagocytes_scrnaseq.R": "3eecfedb88f361fb6bebbf28b6412a16ab3d6adf15909663aad6af28f070acdd",
+  "orthology/pig.raw.tsv": "2bf7d2acf7a4b956b785605542336bfc22e3b96e350a5fc80f8da271e4cbb4ee",
+  "orthology/rabbit.raw.tsv": "1b3bf2b316ad99e4e5cbf82c412a8b80dd59dd0f3d968bbd132328f5ee3351d3"
+}

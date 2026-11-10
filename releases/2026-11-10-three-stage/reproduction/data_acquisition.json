@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "purpose": "Public originalinputs for portable rebuild; no model checkpoints in this catalog",
+  "files": [
+    {
+      "group": "tg_pairs",
+      "source": "Zenodo20204514; originalTG-GATEs reproduction",
+      "url": "https://zenodo.org/api/records/20204514/files/pairs_human_Y.tsv/content",
+      "relative_destination": "raw/tggates/data/pairs_human_Y.tsv",
+      "sha256": "d324be9b30bd96bd524a1a03f6e4dfd95832f5c316c797703ea6e8c6390dccaa",
+      "md5": "233080d9ab9ba2d07719f11eba0119b9",
+      "expected_bytes": 234664053,
+      "max_bytes": 235664053,
+      "license": "CC BY4.0, source deposit; retain original source attribution"
+    },
+    {
+      "group": "tg_pairs",
+      "source": "Zenodo20204514; originalTG-GATEs reproduction",
+      "url": "https://zenodo.org/api/records/20204514/files/pairs_rat_X.tsv/content",
+      "relative_destination": "raw/tggates/data/pairs_rat_X.tsv",
+      "sha256": "a0e0dea1288683f5fc259df8850b8fde78859021a57fecd077d88fc5acbb8be4",
+      "md5": "9f8ae0eebdd0ab3d75f7200f5c8e5002",
+      "expected_bytes": 162647539,
+      "max_bytes": 163647539,
+      "license": "CC BY4.0, source deposit; retain original source attribution"
+    },
+    {
+      "group": "tg_pairs",
+      "source": "Zenodo20204514; originalTG-GATEs reproduction",
+      "url": "https://zenodo.org/api/records/20204514/files/pairs_metadata.tsv/content",
+      "relative_destination": "raw/tggates/data/pairs_metadata.tsv",
+      "sha256": "b0a56758d0802db8d12260af4e60f15fd47cbc598641088f6eba04335641786f",
+      "md5": "206f01f67ff7701f3fa4990ee685b011",
+      "expected_bytes": 55187,
+      "max_bytes": 1055187,
+      "license": "CC BY4.0, source deposit; retain original source attribution"
+    },
+    {
+      "group": "tg_pairs",
+      "source": "Zenodo20204514; originalTG-GATEs reproduction",
+      "url": "https://zenodo.org/api/records/20204514/files/pairs_splits.tsv/content",
+      "relative_destination": "raw/tggates/data/pairs_splits.tsv",
+      "sha256": "b100c061d39834d2d3026731283ed9d87858fe397c6a5e780ed6f15e46a4b17e",
+      "md5": "cde0c7eff11bbc7b85c1f21a8344d8ba",
+      "expected_bytes": 13380,
+      "max_bytes": 1013380,
+      "license": "CC BY4.0, source deposit; retain original source attribution"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34284_series_matrix.txt.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151-GPL34284_series_matrix.txt.gz",
+      "sha256": "ada5bb5536290e01ec573509e4f48dc6f345e940d3c65d5351e694eec359f695",
+      "expected_bytes": 4624,
+      "max_bytes": 1004624,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34290_series_matrix.txt.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151-GPL34290_series_matrix.txt.gz",
+      "sha256": "fef5745a217fdef7cd2731781f39c1ad4f5868dbf99b883e4820d0cf5a6027d2",
+      "expected_bytes": 4632,
+      "max_bytes": 1004632,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34316_series_matrix.txt.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151-GPL34316_series_matrix.txt.gz",
+      "sha256": "370e9a737a36e89f6097e7b9d42070ae2555a5cdeb7c6ee006e7c5ea8d4294b6",
+      "expected_bytes": 4638,
+      "max_bytes": 1004638,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL34842_series_matrix.txt.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151-GPL34842_series_matrix.txt.gz",
+      "sha256": "6d8c204297d11e4ff927d45cf432e2cf37bbc40a0fe4e1a161e88a70e0132569",
+      "expected_bytes": 4643,
+      "max_bytes": 1004643,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/matrix/GSE330151-GPL35351_series_matrix.txt.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151-GPL35351_series_matrix.txt.gz",
+      "sha256": "9e147f35f2c977032fe7a850989955758182e61d61caeac998ac382cb18587e8",
+      "expected_bytes": 4634,
+      "max_bytes": 1004634,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151_cyno_expression_matrix.genes.raw_counts.csv.gz",
+      "sha256": "bd48ad04862777cb88c7f7c1016444789b357bc08d0d04e71a37dd0c3fb028ae",
+      "expected_bytes": 694923,
+      "max_bytes": 1694923,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151_dog_expression_matrix.genes.raw_counts.csv.gz",
+      "sha256": "f5b1c50bf25d67916f8449c36d4179e25fc218def0ee017df31e4ad3dd3218e9",
+      "expected_bytes": 648448,
+      "max_bytes": 1648448,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/soft/GSE330151_family.soft.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151_family.soft.gz",
+      "sha256": "66e8de1570381cdab3628a4ea1de711e1a1153f24659f5badc5db623eeb252c3",
+      "expected_bytes": 10472,
+      "max_bytes": 1010472,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151_human_expression_matrix.genes.raw_counts.csv.gz",
+      "sha256": "2cc60e22ba41209fc7a30bade023eefe5984ce8e263a438c76fe189be7c67047",
+      "expected_bytes": 1022850,
+      "max_bytes": 2022850,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151_mouse_expression_matrix.genes.raw_counts.csv.gz",
+      "sha256": "ef344ff75779db709e56d3bc704037d0047974f6672841c5ea1734d94cfb94f5",
+      "expected_bytes": 895114,
+      "max_bytes": 1895114,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "g330",
+      "source": "GEO GSE330151 originalauthor files",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE330nnn/GSE330151/suppl/GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+      "relative_destination": "raw/g330/GSE330151/GSE330151_rat_expression_matrix.genes.raw_counts.csv.gz",
+      "sha256": "c91f997bcfb7b82125cd16f8318ad6e15289d6ee43ed774a0e09393e82c49949",
+      "expected_bytes": 672259,
+      "max_bytes": 1672259,
+      "license": "Source-specific terms; accession availability does not define blanket software permission"
+    },
+    {
+      "group": "blood",
+      "source": "GEO GSE249010 originalauthor matrix/metadata",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249010/suppl/GSE249010_processed_data_TPM.txt.gz",
+      "relative_destination": "biorxiv_ready_20261108/legacy_blood/input/GSE249010_processed_data_TPM.txt.gz",
+      "sha256": "3561e862eade1bcc0bf156ab46b3b69d62d4c5dd9b7c7d0a5d2e8f53114dbeca",
+      "expected_bytes": 31699025,
+      "max_bytes": 32699025,
+      "license": "Originalstudy attribution; keep source terms"
+    },
+    {
+      "group": "blood",
+      "source": "GEO GSE249010 originalauthor matrix/metadata",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249010/soft/GSE249010_family.soft.gz",
+      "relative_destination": "biorxiv_ready_20261108/legacy_blood/input/GSE249010_family.soft.gz",
+      "sha256": "9d361d672168954264f34c76536feb2db3d6803511d3d2e2d9005218446ef194",
+      "expected_bytes": 36030,
+      "max_bytes": 1036030,
+      "license": "Originalstudy attribution; keep source terms"
+    }
+  ]
+}

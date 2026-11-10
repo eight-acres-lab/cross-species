@@ -1,0 +1,14 @@
+{
+  "url": "https://www.ensembl.org/biomart/martservice?query=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%3C%21DOCTYPE+Query%3E%3CQuery+virtualSchemaName%3D%22default%22+formatter%3D%22TSV%22+header%3D%220%22+uniqueRows%3D%221%22+datasetConfigVersion%3D%220.6%22%3E%3CDataset+name%3D%22hsapiens_gene_ensembl%22+interface%3D%22default%22%3E%3CAttribute+name%3D%22ensembl_gene_id%22%2F%3E%3CAttribute+name%3D%22external_gene_name%22%2F%3E%3CAttribute+name%3D%22ocuniculus_homolog_ensembl_gene%22%2F%3E%3CAttribute+name%3D%22ocuniculus_homolog_associated_gene_name%22%2F%3E%3CAttribute+name%3D%22ocuniculus_homolog_orthology_type%22%2F%3E%3CAttribute+name%3D%22ocuniculus_homolog_orthology_confidence%22%2F%3E%3C%2FDataset%3E%3C%2FQuery%3E",
+  "biomart_release": 116,
+  "attributes": [
+    "ensembl_gene_id",
+    "external_gene_name",
+    "ocuniculus_homolog_ensembl_gene",
+    "ocuniculus_homolog_associated_gene_name",
+    "ocuniculus_homolog_orthology_type",
+    "ocuniculus_homolog_orthology_confidence"
+  ],
+  "sha256": "1b3bf2b316ad99e4e5cbf82c412a8b80dd59dd0f3d968bbd132328f5ee3351d3",
+  "bytes": 2995947
+}

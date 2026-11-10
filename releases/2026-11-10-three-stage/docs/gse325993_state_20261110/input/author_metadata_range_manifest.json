@@ -1,0 +1,152 @@
+{
+  "url": "https://zenodo.org/api/records/20343560/files/validations.zip/content",
+  "archive_size": 8478902782,
+  "members": [
+    {
+      "member": "validations/POU5F1_CRISPRi_processed_data/seu_allTFs_raw.rds",
+      "local_file": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/author_metadata/seu_allTFs_raw.rds",
+      "bytes": 19860721,
+      "sha256": "a4a3c7792d0a2e851403ef0ec1b3c02d6392c7d63834e7782aac52fb66831f4b"
+    },
+    {
+      "member": "validations/POU5F1_CRISPRi_sample_info/ids.txt",
+      "local_file": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/author_metadata/ids.txt",
+      "bytes": 544,
+      "sha256": "1e9c2f15d42d99009c00e56c67cc445b3056a7dbd0261a6141bb5096bc5cebf2"
+    },
+    {
+      "member": "validations/POU5F1_CRISPRi_sample_info/feature_ref_TF27.csv",
+      "local_file": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/author_metadata/feature_ref_TF27.csv",
+      "bytes": 25542,
+      "sha256": "d8546b885308e0ae914809d02e817086eea00f73f7d252b0f42cdf7b7b25fe7f"
+    },
+    {
+      "member": "validations/POU5F1_CRISPRi_sample_info/feature_ref_TF76.csv",
+      "local_file": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/author_metadata/feature_ref_TF76.csv",
+      "bytes": 74211,
+      "sha256": "366cb628a112d9c369bd0fedfde30b9f9111d725e0ba95b96008169293fff67a"
+    },
+    {
+      "member": "validations/POU5F1_CRISPRi_sample_info/gRNA_libraries.rds",
+      "local_file": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/author_metadata/gRNA_libraries.rds",
+      "bytes": 17207,
+      "sha256": "3bde8cf988d12b67209bfde79b8e0f6144b7ffce9fe16736ed8e0c23fc4e3047"
+    }
+  ],
+  "requests": [
+    {
+      "start": 8478902760,
+      "bytes": 22
+    },
+    {
+      "start": 8478902740,
+      "bytes": 20
+    },
+    {
+      "start": 8478902684,
+      "bytes": 56
+    },
+    {
+      "start": 8478886526,
+      "bytes": 16158
+    },
+    {
+      "start": 6226678726,
+      "bytes": 30
+    },
+    {
+      "start": 6226678756,
+      "bytes": 60
+    },
+    {
+      "start": 6226678816,
+      "bytes": 28
+    },
+    {
+      "start": 6226678844,
+      "bytes": 4194304
+    },
+    {
+      "start": 6230873148,
+      "bytes": 4194304
+    },
+    {
+      "start": 6235067452,
+      "bytes": 4194304
+    },
+    {
+      "start": 6239261756,
+      "bytes": 4194304
+    },
+    {
+      "start": 6243456060,
+      "bytes": 2010906
+    },
+    {
+      "start": 8454704420,
+      "bytes": 30
+    },
+    {
+      "start": 8454704450,
+      "bytes": 46
+    },
+    {
+      "start": 8454704496,
+      "bytes": 28
+    },
+    {
+      "start": 8454704524,
+      "bytes": 94
+    },
+    {
+      "start": 8454715556,
+      "bytes": 30
+    },
+    {
+      "start": 8454715586,
+      "bytes": 59
+    },
+    {
+      "start": 8454715645,
+      "bytes": 28
+    },
+    {
+      "start": 8454715673,
+      "bytes": 3956
+    },
+    {
+      "start": 8454704618,
+      "bytes": 30
+    },
+    {
+      "start": 8454704648,
+      "bytes": 59
+    },
+    {
+      "start": 8454704707,
+      "bytes": 28
+    },
+    {
+      "start": 8454704735,
+      "bytes": 10821
+    },
+    {
+      "start": 8454719629,
+      "bytes": 30
+    },
+    {
+      "start": 8454719659,
+      "bytes": 57
+    },
+    {
+      "start": 8454719716,
+      "bytes": 28
+    },
+    {
+      "start": 8454719744,
+      "bytes": 17108
+    }
+  ],
+  "downloaded_bytes": 18836928,
+  "scope": "Public author metadata only. No DE, knockdown metrics, BPCells count arrays, or private GEO files."
+}

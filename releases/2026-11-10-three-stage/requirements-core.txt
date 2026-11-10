@@ -1,0 +1,4 @@
+numpy==2.4.6
+scipy==1.17.1
+# PyTorch2.7.1 must be installed separately for the chosen CPU/CUDA platform.
+# Executed remote configuration: torch2.7.1+cu118, Python3.11.10, CUDA11.8.

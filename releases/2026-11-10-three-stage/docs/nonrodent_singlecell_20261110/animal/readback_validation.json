@@ -1,0 +1,18 @@
+{
+  "pig": {
+    "readback_passed": true,
+    "cells": 23469,
+    "genes": 21607,
+    "checked_all_cell_sums": true,
+    "checked_all24_sample_counts": true,
+    "checked_mapped_native_ids": true
+  },
+  "rabbit": {
+    "readback_passed": true,
+    "cells": 34528,
+    "genes": 19293,
+    "checked_all_cell_sums": true,
+    "checked_all24_sample_counts": true,
+    "checked_mapped_native_ids": true
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "scope": "Independent raw-count, coding-mask, gene-coordinate and selection validation; no preparation/training imports, predictions, outcome metrics or changes to frozen inputs",
+  "script_sha256": "be2393ca597e76eb254515ba530b2d9e904f0265f71654eaa45b5fb99565d3f6",
+  "source_hashes_verified_before_and_after": {
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/human_lps/lawlor2021_cd14_baseline_lps_counts.h5ad": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/prepared/rabbit.native_counts.h5ad": "4ae33be5686498e9764aa54242bc28e3e1344356fd1d8f6663cdcaf046c4082b",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/orthology/rabbit.human_state_measured.tsv": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/human.coding_denominator_mask.tsv": "c171a64df357bf45d583475d5db32bff747c285d5dfd9ed40abeacce792e77d9",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/rabbit.coding_denominator_mask.tsv": "dc34378d90a28d6909c56bbcf255f454093f301ac9c7068857930d809272807b",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/coding_denominator_manifest.json": "70c5669e14d05a214b04b469620608bb36c5de6ee4cefbfa3e702378db60488f",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepare_nonrodent_lps_experiment.py": "6abc72039532142e17554cf929c65944373103dde20523965585b3da1943aa25",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/lps_primary_arrays.npz": "ddd3c342fe22ed6ddd3253674f979a4965fcc251552c46daf4807380d0ff118b",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/selections.json": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/manifest.json": "91eb408c8dca5c58badea54705ce2816578d18361271b04f3acf07878da8840c",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/primary_gene_axis.tsv": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/native_gene_id_bridge.tsv": "631ebbf24009daacaa8ac85a8824a6c47adb1bc04dae6f564648ef499da52521",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/orthology/rabbit.raw.tsv": "1b3bf2b316ad99e4e5cbf82c412a8b80dd59dd0f3d968bbd132328f5ee3351d3",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/orthology/rabbit.source.json": "39c67e821cad1b8bda7e19123e71a1e4629dbe07275a3f1a21d396bd7b000b9f",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/orthology/rabbit.coverage.json": "c480c73fc556a245abe79252d7dfb6b98dc545ddba78abed9d772f1bdaa5a225",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/coding_Homo_sapiens.GRCh38.84.chr.txt": "bfcc24aa5bc037ef95089b0c3de556f4de060d059290135e9cd7a41d88c881be",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/coding_Oryctolagus_cuniculus.OryCun2.0.84.txt": "e3f6ec2ea3efd723232e3e8c67ca0526972b6732e4c9ee4d4f12bb1d30505e5b"
+  },
+  "normalization_formula": "float32(log1p(10000 * native_UMI / complete_observed_author_coding_UMI_sum))",
+  "reference_versions": {
+    "coding_gene_annotation": "author Ensembl84 all species",
+    "animal_count_alignment": "CellRanger2.0/Ensembl84",
+    "human_count_alignment": "CellRanger2.1.0/GRCh37 hg19",
+    "orthology": "Ensembl116; exact stable-ID join",
+    "model": "6546 named coordinates; verified human native gene bridge"
+  },
+  "normalization": {
+    "human": {
+      "cells": 1644,
+      "output_genes": 4633,
+      "values_compared": 7616652,
+      "all_float32_values_exact": true,
+      "max_abs_difference": 0.0,
+      "denominator_genes": 19123,
+      "all_coding_denominators_exact": true,
+      "coding_reference_genes_missing_from_native_axis": 2974
+    },
+    "rabbit": {
+      "cells": 638,
+      "output_genes": 4633,
+      "values_compared": 2955854,
+      "all_float32_values_exact": true,
+      "max_abs_difference": 0.0,
+      "denominator_genes": 19293,
+      "all_coding_denominators_exact": true,
+      "coding_reference_genes_missing_from_native_axis": 0
+    }
+  },
+  "total_values_recomputed": 10572506,
+  "gene_axis": {
+    "size": 4633,
+    "complete_exact_common_axis_reconstructed": true,
+    "unique_high_confidence_one2one": true,
+    "same_coordinates_all_arms": true
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "donor_roles_disjoint": true,
+      "control_and_target_budgets_equal": true,
+      "budgets": {
+        "human_base": 661,
+        "human_extra": 224,
+        "rabbit_source": 224,
+        "rabbit_null": 224
+      }
+    },
+    {
+      "fold": 1,
+      "donor_roles_disjoint": true,
+      "control_and_target_budgets_equal": true,
+      "budgets": {
+        "human_base": 749,
+        "human_extra": 344,
+        "rabbit_source": 344,
+        "rabbit_null": 344
+      }
+    },
+    {
+      "fold": 2,
+      "donor_roles_disjoint": true,
+      "control_and_target_budgets_equal": true,
+      "budgets": {
+        "human_base": 756,
+        "human_extra": 317,
+        "rabbit_source": 317,
+        "rabbit_null": 317
+      }
+    },
+    {
+      "fold": 3,
+      "donor_roles_disjoint": true,
+      "control_and_target_budgets_equal": true,
+      "budgets": {
+        "human_base": 548,
+        "human_extra": 432,
+        "rabbit_source": 432,
+        "rabbit_null": 432
+      }
+    },
+    {
+      "fold": 4,
+      "donor_roles_disjoint": true,
+      "control_and_target_budgets_equal": true,
+      "budgets": {
+        "human_base": 568,
+        "human_extra": 324,
+        "rabbit_source": 324,
+        "rabbit_null": 324
+      }
+    }
+  ],
+  "global_A0_input_target_disjoint": true,
+  "global_rabbit_input_controls": 252,
+  "global_rabbit_null_targets": 193,
+  "each_target_donor_used_once": true,
+  "selection_reproduced_from_hashes_and_native_metadata": true,
+  "selection_cell_namespace_suffixes": {
+    "human": "/human",
+    "rabbit": "/rabbit",
+    "rabbit_array": "/rabbit_array"
+  },
+  "frozen_h5ads_arrays_contracts_unchanged": true
+}

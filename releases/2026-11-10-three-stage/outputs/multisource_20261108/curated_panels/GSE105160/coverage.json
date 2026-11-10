@@ -1,0 +1,114 @@
+{
+  "arm_samples": 180,
+  "treated_observations": 90,
+  "source_perturbation_context_contrasts": 10,
+  "species": [
+    "human",
+    "mouse",
+    "rhesus",
+    "pigtail_macaque",
+    "baboon",
+    "chimpanzee",
+    "bonobo",
+    "gorilla",
+    "orangutan",
+    "squirrel_monkey"
+  ],
+  "independent_perturbations": [
+    "polyIC"
+  ],
+  "human_anchored_genes_before_missingness": 9402,
+  "fixed_complete_comparison_genes": 7579,
+  "verified_donors": 30,
+  "labelled_biological_source_units": 30,
+  "biological_independence_status": "Thirty deposited donor identities across ten species; three within-donor cultures per arm. Donor identities do not independently establish animal lineage/litter relationships.",
+  "nonempty_source_ids": [
+    "GSE105160|baboon|primary_dermal_fibroblast",
+    "GSE105160|bonobo|primary_dermal_fibroblast",
+    "GSE105160|chimpanzee|primary_dermal_fibroblast",
+    "GSE105160|gorilla|primary_dermal_fibroblast",
+    "GSE105160|human|primary_dermal_fibroblast",
+    "GSE105160|mouse|primary_dermal_fibroblast",
+    "GSE105160|orangutan|primary_dermal_fibroblast",
+    "GSE105160|pigtail_macaque|primary_dermal_fibroblast",
+    "GSE105160|rhesus|primary_dermal_fibroblast",
+    "GSE105160|squirrel_monkey|primary_dermal_fibroblast"
+  ],
+  "perturbation_source_coverage": {
+    "polyIC": [
+      "GSE105160|baboon|primary_dermal_fibroblast",
+      "GSE105160|bonobo|primary_dermal_fibroblast",
+      "GSE105160|chimpanzee|primary_dermal_fibroblast",
+      "GSE105160|gorilla|primary_dermal_fibroblast",
+      "GSE105160|human|primary_dermal_fibroblast",
+      "GSE105160|mouse|primary_dermal_fibroblast",
+      "GSE105160|orangutan|primary_dermal_fibroblast",
+      "GSE105160|pigtail_macaque|primary_dermal_fibroblast",
+      "GSE105160|rhesus|primary_dermal_fibroblast",
+      "GSE105160|squirrel_monkey|primary_dermal_fibroblast"
+    ]
+  },
+  "per_contrast": [
+    {
+      "contrast_id": "GSE105160|human|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|mouse|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|rhesus|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|pigtail_macaque|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|baboon|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|chimpanzee|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|bonobo|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|gorilla|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|orangutan|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    },
+    {
+      "contrast_id": "GSE105160|squirrel_monkey|polyIC",
+      "treated_replicates": 9,
+      "control_replicates": 9,
+      "complete_fiveway_genes": 7579
+    }
+  ],
+  "donor_definition": "Deposited donor/source-line labels and matched own-donor mock cultures; not an independent audit of biological procurement"
+}

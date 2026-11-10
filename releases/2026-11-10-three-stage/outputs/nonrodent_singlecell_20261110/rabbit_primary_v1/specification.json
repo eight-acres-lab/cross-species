@@ -1,0 +1,952 @@
+{
+  "contract_sha256": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
+  "contract": {
+    "contract_id": "nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3",
+    "schema_version": 3,
+    "status": "frozen_before_model_training_and_any_target_donor_scoring",
+    "date": "2026-11-10",
+    "timezone": "Asia/Singapore",
+    "precedence": "This v3 preserves v1/v2 and supersedes them before any biological fitting or target effect scoring. It exactly binds the existing metadata-only prepared selections; no biological roles, doses, time, measured gene mask, optimization settings or endpoints were selected by outcomes.",
+    "scope": {
+      "question": "Does adding two rabbits as training-only data improve known-LPS predictions for held-out human donors, relative to human-base training, a matched additional-human reference, and a rabbit baseline-only target control?",
+      "experiment_label": "State-derived shared-axis contrast adaptation",
+      "generalization_unit": "new human biological donor",
+      "known_target_condition": {
+        "stimulus": "LPS",
+        "human_dose_ng_per_ml": 10,
+        "human_duration_h": 24
+      },
+      "independent_test_donors": 10,
+      "outer_folds": 5,
+      "fits": 20,
+      "seeds_per_fit": 1,
+      "pig_in_primary": false,
+      "pig_exclusion_reason": "Three complete courses contain two biological individuals plus one technical replicate; exact course-to-individual mapping is unresolved.",
+      "historical_negative_evidence": "Preserve all prior negative and null-failing State/Parse/mouse/TG evidence and prior measurement-assisted evidence with their original scope. This experiment does not replace or revise them."
+    },
+    "sources": {
+      "human": {
+        "study_doi": "10.3389/fimmu.2021.636720",
+        "cell_type": "author CD14_Mono",
+        "raw_matrix_remote": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/human_lps/lawlor2021_cd14_baseline_lps_counts.h5ad",
+        "raw_matrix_sha256": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0",
+        "raw_shape": [
+          1644,
+          32738
+        ],
+        "author_qc_retained": true,
+        "control": "Baseline, medium-only 24 h",
+        "target": "LPS, 10 ng/mL, 24 h",
+        "donor_definition": "Author Donor_of_Origin, genotype-demultiplexed individual"
+      },
+      "rabbit": {
+        "study_doi": "10.1038/s41586-018-0657-2",
+        "accession": "E-MTAB-6754",
+        "cell_type": "author bone-marrow mononuclear phagocyte cluster0",
+        "raw_matrix_remote": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/prepared/rabbit.native_counts.h5ad",
+        "author_qc_retained": true,
+        "selected_donors": [
+          "rabbit2",
+          "rabbit1"
+        ],
+        "excluded_donor": "rabbit3",
+        "donor_selection_salt": "nonrodent_singlecell_20261110/v1/rabbit_roles",
+        "donor_selection_rule": "Sort SHA256(UTF8(salt + | + donor_id)); take first two; do not replace by performance.",
+        "control_time_h": 0,
+        "target_time_h": 6,
+        "target_dose_ng_per_ml": 100,
+        "independent_donors_in_primary": 2,
+        "interpretation": "The source contrast includes LPS exposure and culture-time differences; it does not isolate the causal effect of LPS."
+      }
+    },
+    "provenance": [
+      {
+        "path": "docs/nonrodent_singlecell_20261110/human/audit.json",
+        "sha256": "3c97ef82887d7b61c042eca69b5bcb23db547d6ca04469d484e4c2136cc159bd"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/human/cd14_donor_condition_counts.csv",
+        "sha256": "e7a26a2992f47f10fe2369e52eace0de81413093038cccdc8bec751f16bb8075"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/animal/donor_provenance.json",
+        "sha256": "950b9dec1c11061fd93089b0b41079ee5afee240c25fee9bd2a42243cf53aac9"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/animal/sample_count_qc.tsv",
+        "sha256": "2b62c038efa31056370a56baccee38c9f08459d55effd5cbd8e4a9fb867313e7"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/animal/orthology/rabbit.human_state_measured.tsv",
+        "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/animal/orthology/rabbit.coverage.json",
+        "sha256": "c480c73fc556a245abe79252d7dfb6b98dc545ddba78abed9d772f1bdaa5a225"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/model/native_gene_id_bridge.tsv",
+        "sha256": "631ebbf24009daacaa8ac85a8824a6c47adb1bc04dae6f564648ef499da52521"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/normalization/coding_denominator_manifest.json",
+        "sha256": "70c5669e14d05a214b04b469620608bb36c5de6ee4cefbfa3e702378db60488f"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/normalization/human.coding_denominator_mask.tsv",
+        "sha256": "c171a64df357bf45d583475d5db32bff747c285d5dfd9ed40abeacce792e77d9"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/normalization/rabbit.coding_denominator_mask.tsv",
+        "sha256": "dc34378d90a28d6909c56bbcf255f454093f301ac9c7068857930d809272807b"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/prepared/manifest.json",
+        "sha256": "91eb408c8dca5c58badea54705ce2816578d18361271b04f3acf07878da8840c"
+      },
+      {
+        "path": "docs/nonrodent_singlecell_20261110/prepared/selections.json",
+        "sha256": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0"
+      }
+    ],
+    "gene_interface": {
+      "native_gene_dimensions": 6546,
+      "shared_measured_dimensions": 4633,
+      "axis_file": {
+        "path": "docs/nonrodent_singlecell_20261110/animal/orthology/rabbit.human_state_measured.tsv",
+        "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75"
+      },
+      "axis_order": "ascending integer state_index in original native checkpoint coordinates",
+      "mapping_rule": "exact stable Ensembl IDs; unique high-confidence one-to-one human-rabbit orthologues; observed in both raw matrices; no expression-driven selection",
+      "input_support": "All primary arms use exactly the same 4633 measured native coordinates. Other native input coordinates are computationally zero-filled and flagged excluded/unobserved for this experiment.",
+      "loss_support": "All training losses and all biological metrics select only the same 4633 observed coordinates. No excluded coordinate contributes as an observed zero.",
+      "native_architecture": "Retain full 6546-coordinate pretrained gene layers, their weights at initialization, and full intermediate pathways, including final_down_then_up. No sliced, reinitialized or species-specific random gene head. Shared connected parameters may change under the specified fine-tuning.",
+      "latent_unscored_coordinates": "Intermediate values on excluded output coordinates remain latent pretrained-path values without measured-expression interpretation.",
+      "hvg_selection": false
+    },
+    "normalization": {
+      "formula": "log1p(10000 * raw_gene_count / sum_raw_counts_over_all_observed_author_reference_protein_coding_genes_in_that_species))",
+      "order": "Compute coding library denominator on the complete observed coding universe before selecting 4633 shared model coordinates.",
+      "target_sum": 10000,
+      "log": "natural log1p",
+      "author_reference_release": 84,
+      "orthology_release": 116,
+      "human_observed_coding_genes": 19123,
+      "rabbit_observed_coding_genes": 19293,
+      "human_reference_coding_genes_absent_from_assay": 2974,
+      "manifest": {
+        "path": "docs/nonrodent_singlecell_20261110/normalization/coding_denominator_manifest.json",
+        "sha256": "70c5669e14d05a214b04b469620608bb36c5de6ee4cefbfa3e702378db60488f"
+      },
+      "reference_source": "Pinned Hagai author Ensembl84 coding lists, exact stable-ID join to each measured axis; human GRCh38 coding annotation is joined by stable ID to the hg19 measured feature axis.",
+      "zero_coding_library_rule": "Abort preflight and report affected cell IDs; do not silently drop cells or change the panel.",
+      "historical_checkpoint_scale": "Not fully recovered. This normalization is an explicit new-assay transfer adaptation."
+    },
+    "model": {
+      "repository": "arcinstitute/st-x-replogle-full",
+      "subdirectory": "hepg2_0.99",
+      "revision": "48ad5f70215ab4c58caa5a68e77d837601d29d35",
+      "checkpoint_sha256": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+      "checkpoint_bytes": 664162239,
+      "official_source_commit": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+      "strict_loading_required": true,
+      "helper_module": "src/cross_species/named_gene_state.py",
+      "initialization": "Each fold/arm independently reconstructs the same strictly loaded official checkpoint and zero-initialized extension. No pooled-human warm-up or cross-fold trained state is reused.",
+      "condition_columns": {
+        "LPS": 2024,
+        "unstimulated_assay_control": 2025
+      },
+      "new_assay_rows": {
+        "human_new_assay": 56,
+        "pig_new_assay": 57,
+        "rabbit_new_assay": 58
+      },
+      "all_new_condition_and_assay_weights_initial_value": 0,
+      "donor_id_as_feature": false,
+      "additional_time_or_dose_input_features": false,
+      "readout": "P = clamp_min(C + (f(C,LPS,assay) - f(C,unstimulated_assay_control,assay)), 0)",
+      "readout_order": "Subtract the two native outputs before adding C to preserve exact zero-step cancellation.",
+      "mode_during_optimization": "eval with autograd enabled; dropout disabled in both forwards",
+      "native_outputs": "Save separately where needed for diagnostics; all primary outputs use the frozen anchored/clamped readout.",
+      "zero_step_prediction": "Exactly C under the identical observation mask.",
+      "pretraining_scope": "The retained checkpoint was pretrained on its original human HepG2 genetic-perturbation dataset. Historical preprocessing is incompletely recovered. This new human PBMC/rabbit LPS experiment uses a derived contrast adaptation and does not establish unseen-perturbation or raw native zero-shot compatibility."
+    },
+    "splitting": {
+      "donor_hash_salt": "nonrodent_singlecell_20261110/v1/donor_roles",
+      "donor_hash_algorithm": "SHA256 of UTF8(salt + | + full_donor_id), ascending hex digest, full donor ID tiebreak",
+      "pairs": [
+        [
+          "202937150118_R06C01",
+          "202937150118_R07C01"
+        ],
+        [
+          "202937150091_R02C01",
+          "202937150118_R08C01"
+        ],
+        [
+          "202937150118_R03C01",
+          "202937150118_R01C01"
+        ],
+        [
+          "202937150118_R02C01",
+          "202937150118_R05C01"
+        ],
+        [
+          "202937150118_R04C01",
+          "202937150091_R01C01"
+        ]
+      ],
+      "fold_role_rule": "test=P[f]; calibration=P[(f+1)%5]; extra=P[(f+2)%5]; base=P[(f+3)%5]+P[(f+4)%5]",
+      "folds": [
+        {
+          "fold": 0,
+          "seed": 20261110,
+          "test": [
+            "202937150118_R06C01",
+            "202937150118_R07C01"
+          ],
+          "calibration": [
+            "202937150091_R02C01",
+            "202937150118_R08C01"
+          ],
+          "extra_human": [
+            "202937150118_R03C01",
+            "202937150118_R01C01"
+          ],
+          "base_human": [
+            "202937150118_R02C01",
+            "202937150118_R05C01",
+            "202937150118_R04C01",
+            "202937150091_R01C01"
+          ],
+          "source_pairing": [
+            {
+              "rabbit_donor": "rabbit2",
+              "extra_human_donor": "202937150118_R03C01",
+              "unique_control_cells": 103,
+              "unique_target_cells": 22
+            },
+            {
+              "rabbit_donor": "rabbit1",
+              "extra_human_donor": "202937150118_R01C01",
+              "unique_control_cells": 62,
+              "unique_target_cells": 37
+            }
+          ]
+        },
+        {
+          "fold": 1,
+          "seed": 20261111,
+          "test": [
+            "202937150091_R02C01",
+            "202937150118_R08C01"
+          ],
+          "calibration": [
+            "202937150118_R03C01",
+            "202937150118_R01C01"
+          ],
+          "extra_human": [
+            "202937150118_R02C01",
+            "202937150118_R05C01"
+          ],
+          "base_human": [
+            "202937150118_R06C01",
+            "202937150118_R07C01",
+            "202937150118_R04C01",
+            "202937150091_R01C01"
+          ],
+          "source_pairing": [
+            {
+              "rabbit_donor": "rabbit2",
+              "extra_human_donor": "202937150118_R02C01",
+              "unique_control_cells": 107,
+              "unique_target_cells": 70
+            },
+            {
+              "rabbit_donor": "rabbit1",
+              "extra_human_donor": "202937150118_R05C01",
+              "unique_control_cells": 71,
+              "unique_target_cells": 96
+            }
+          ]
+        },
+        {
+          "fold": 2,
+          "seed": 20261112,
+          "test": [
+            "202937150118_R03C01",
+            "202937150118_R01C01"
+          ],
+          "calibration": [
+            "202937150118_R02C01",
+            "202937150118_R05C01"
+          ],
+          "extra_human": [
+            "202937150118_R04C01",
+            "202937150091_R01C01"
+          ],
+          "base_human": [
+            "202937150118_R06C01",
+            "202937150118_R07C01",
+            "202937150091_R02C01",
+            "202937150118_R08C01"
+          ],
+          "source_pairing": [
+            {
+              "rabbit_donor": "rabbit2",
+              "extra_human_donor": "202937150118_R04C01",
+              "unique_control_cells": 124,
+              "unique_target_cells": 55
+            },
+            {
+              "rabbit_donor": "rabbit1",
+              "extra_human_donor": "202937150091_R01C01",
+              "unique_control_cells": 66,
+              "unique_target_cells": 72
+            }
+          ]
+        },
+        {
+          "fold": 3,
+          "seed": 20261113,
+          "test": [
+            "202937150118_R02C01",
+            "202937150118_R05C01"
+          ],
+          "calibration": [
+            "202937150118_R04C01",
+            "202937150091_R01C01"
+          ],
+          "extra_human": [
+            "202937150118_R06C01",
+            "202937150118_R07C01"
+          ],
+          "base_human": [
+            "202937150091_R02C01",
+            "202937150118_R08C01",
+            "202937150118_R03C01",
+            "202937150118_R01C01"
+          ],
+          "source_pairing": [
+            {
+              "rabbit_donor": "rabbit2",
+              "extra_human_donor": "202937150118_R06C01",
+              "unique_control_cells": 114,
+              "unique_target_cells": 67
+            },
+            {
+              "rabbit_donor": "rabbit1",
+              "extra_human_donor": "202937150118_R07C01",
+              "unique_control_cells": 128,
+              "unique_target_cells": 123
+            }
+          ]
+        },
+        {
+          "fold": 4,
+          "seed": 20261114,
+          "test": [
+            "202937150118_R04C01",
+            "202937150091_R01C01"
+          ],
+          "calibration": [
+            "202937150118_R06C01",
+            "202937150118_R07C01"
+          ],
+          "extra_human": [
+            "202937150091_R02C01",
+            "202937150118_R08C01"
+          ],
+          "base_human": [
+            "202937150118_R03C01",
+            "202937150118_R01C01",
+            "202937150118_R02C01",
+            "202937150118_R05C01"
+          ],
+          "source_pairing": [
+            {
+              "rabbit_donor": "rabbit2",
+              "extra_human_donor": "202937150091_R02C01",
+              "unique_control_cells": 56,
+              "unique_target_cells": 67
+            },
+            {
+              "rabbit_donor": "rabbit1",
+              "extra_human_donor": "202937150118_R08C01",
+              "unique_control_cells": 93,
+              "unique_target_cells": 108
+            }
+          ]
+        }
+      ],
+      "per_donor_role_counts": {
+        "test": 1,
+        "calibration": 1,
+        "extra_human": 1,
+        "base_human": 2
+      },
+      "excluded_target_rna": "All RNA from the two target donors is excluded from that fold training and calibration. Target baseline is allowed only for frozen-model inference. Target LPS is read only after the global prediction freeze.",
+      "cross_fold_label_use": "A person can train another outer fold under this fixed nested design. No cross-fold biological summary or human discretionary selection is permitted before all predictions freeze.",
+      "base_order_rule": "Role memberships follow the five-pair rotation. Within base role, preserve original metadata-selected global donor hash order recorded in frozen selections.json; the 200-step donor cycle follows this recorded order in every arm."
+    },
+    "cell_budgets": {
+      "human_base_control_cap": 128,
+      "human_base_lps": "all author-QC target cells",
+      "human_extra_control_cap": 128,
+      "human_extra_lps": "all author-QC target cells",
+      "calibration_control_cap": null,
+      "calibration_lps": "all author-QC target cells",
+      "test_control_cap": null,
+      "test_lps": "all author-QC target cells",
+      "source_matching": "For each ordered extra-human donor, its paired rabbit supplies exactly min(128,N_extra_control) unique control cells and N_extra_LPS unique 6h LPS cells. Match two independent source donors per arm.",
+      "cell_pool_hash_salt": "nonrodent_singlecell_20261110/v1/cell_order",
+      "cell_pool_rule": "Within each donor/condition use SHA256(UTF8(namespace + | + full_cell_id)) with namespace=cell_order/human or cell_order/rabbit, ascending digest then fullcellID. Pools and row indices are fixed in selections.json before model fitting.",
+      "rabbit_a0": "Use identical real-rabbit input control C. Reserve a globally disjoint Cprime block after max selected control count over all five folds for that rabbit (rabbit2 offset124,rabbit1 offset128). Take the first N_extra_LPS Cprime cells for that fold. No source input cell is reused as an A0 target in any fold.",
+      "no_cell_duplication_for_padding": true,
+      "independent_sample_accounting": "Count unique donors and cell IDs. Repeated SGD exposure never increases the unique sample budget.",
+      "test_control_identity": "All arms and checkpoints use the identical complete author-QC target baseline pool; response subtraction uses the mean of that same pool.",
+      "calibration_control": "all author-QC control cells",
+      "test_control": "all author-QC control cells"
+    },
+    "arms": [
+      {
+        "name": "H",
+        "training_data": "four base-human donors",
+        "objective": "L_H"
+      },
+      {
+        "name": "H+Rabbit",
+        "training_data": "same base-human donors plus rabbit2/rabbit1 real source contrasts",
+        "objective": "L_H + 0.5 * normalizer_rabbit * L_Rabbit"
+      },
+      {
+        "name": "H+Hextra",
+        "training_data": "same base-human donors plus two extra-human donors",
+        "objective": "L_H + 0.5 * normalizer_extra_human * L_Hextra"
+      },
+      {
+        "name": "H+RabbitA0",
+        "training_data": "same base-human donors plus rabbit2/rabbit1 disjoint baseline-only false targets",
+        "objective": "L_H + 0.5 * normalizer_rabbit * L_RabbitA0"
+      }
+    ],
+    "training": {
+      "objective_per_population": "mean_over_4633_genes((mean_cells(P)-mean_cells(T))**2)",
+      "objective_scope": "MSE of population means; native energy is secondary evaluation only.",
+      "human_source_weight": 1.0,
+      "added_source_weight": 0.5,
+      "normalization": {
+        "initial_scale_formula": "s_dataset = mean_over_training_donors(mean_over_4633_genes((mean_selected_target - mean_selected_control)**2))",
+        "normalizer_formula": "normalizer_source = s_Hbase / max(s_source, 1e-8)",
+        "denominator_floor": 1e-08,
+        "coefficient_clipping": null,
+        "scale_dtype": "float64",
+        "pool_rule": "Use the full fixed selected training pools, before optimization; use only the four Hbase donors and the corresponding two true source donors in that fold.",
+        "a0_rule": "H+RabbitA0 reuses the coefficient derived from real H+Rabbit source targets. Never estimate a separate scale from A0.",
+        "a0_information_retained": "The real-source amplitude/loss-scale scalar is retained; real LPS target distributions and response directions are removed from A0 supervision.",
+        "extra_human_rule": "Apply the identical formula using the two selected extra-human donors.",
+        "required_log": [
+          "s_Hbase",
+          "s_Rabbit",
+          "s_Hextra",
+          "normalizer_rabbit",
+          "normalizer_extra_human",
+          "effective_added_loss_coefficients"
+        ],
+        "interpretation": "Matched independent donor/cell budgets and fixed optimizer steps, with source-specific initial-loss scaling. Equal monetary cost or exact FLOP equality is not asserted."
+      },
+      "optimizer": "AdamW",
+      "optimizer_steps": 200,
+      "candidate_checkpoints": [
+        0,
+        50,
+        100,
+        200
+      ],
+      "learning_rates": {
+        "explicit_new_condition_weights": 0.001,
+        "all_other_connected_trainable_parameters": 1e-05
+      },
+      "weight_decay": 0.0005,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "epsilon": 1e-08,
+      "gradient_global_norm_clip": 10,
+      "scheduler": null,
+      "parameter_policy": {
+        "connected_shared_gene_layers_and_backbone": "trainable from their retained pretrained values",
+        "new_condition_columns": "trainable at explicit-new-condition learning rate",
+        "new_assay_rows": "trainable at core learning rate",
+        "unused_original_perturbation_columns_and_batch_rows": "preserve values using freezing or exact row restoration after AdamW; do not count decay-only movement as data learning",
+        "disconnected_gene_decoder": "retained in state_dict and excluded from optimizer",
+        "old_shared_biases": "trainable at core learning rate when connected"
+      },
+      "seed_rule": "20261110 + fold; same seed and schedules across all four arms",
+      "batch_schedule": {
+        "human_donor": "base_human[step_index mod 4]",
+        "source_donor": "source_pairing[step_index mod 2]",
+        "cells_per_population": "min(64, number of unique cells in its fixed pool)",
+        "sampling": "The fixed cell_pool hash order assigns zero-based positions to each selected population. At each step rank those positions by SHA256(UTF8(schedule_salt|fold_seed|step_index|population_key|pool_position)); select the first min(64,N) positions without replacement, then resolve to real cell IDs. Reuse across different steps is permitted.",
+        "schedule_salt": "nonrodent_singlecell_20261110/v1/step_cells",
+        "population_key": "Human base uses donor ID and control/target role identically in every arm. Added-source arms use paired slot0/1 and control/target role, so matched populations of equal size have identical selected rank positions. Rabbit A and A0 share exact control IDs; source target ranks map to distinct true/false target pools.",
+        "human_indices_identical_across_arms": true,
+        "rabbit_control_indices_identical_between_A_and_A0": true,
+        "source_rank_positions_identical_across_matched_arms": true
+      },
+      "forward_calls": "Both condition forwards retain gradients. H computes only human objective; added arms also compute source objective.",
+      "additional_pretraining_or_warmup": false,
+      "extra_random_seeds": false,
+      "failed_fit_rule": "Record the failure; do not omit a fold, swap donors, extend budget or retune after outcomes. A complete primary result requires all 20 fits or explicit failure status."
+    },
+    "inference": {
+      "input_cells": "all author-QC control cells for calibration and target inference, ordered by the fixed cell_pool hash; training controls alone are capped at128",
+      "order": "cell_pool hash order",
+      "set_length": 64,
+      "chunking": "Consecutive chunks of at most 64 actual cells; final smaller chunk stays smaller. No cell repetition or zero-cell padding.",
+      "chunk_aggregation": "Concatenate real predicted cells; each input cell has weight one in the resulting population mean.",
+      "observed_axis_only": "Compute scored outputs on fixed 4633 coordinates.",
+      "source_query_measurements": false
+    },
+    "calibration": {
+      "donors": 2,
+      "allowed_labels": "Only that fold calibration donor baseline and LPS labels",
+      "checkpoint_selection": "For each arm, select candidate step minimizing arithmetic mean of the two unshrunk calibration donor primary MSE values.",
+      "checkpoint_tie_break": "earliest step under exact numerical tie",
+      "selection_metric_is_unshrunk_primary": true,
+      "post_calibration_shrink": {
+        "enabled_as_prespecified_diagnostic": true,
+        "primary_replaced": false,
+        "alpha_grid": [
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1
+        ],
+        "procedure": "After selecting each arm checkpoint, use that checkpoint calibration predictions to choose alpha minimizing equal-donor mean MSE. Apply the identical grid/rule to every arm.",
+        "formula": "P_alpha = C + alpha * (P_selected - C)",
+        "tie_break": "smallest alpha under exact numerical tie",
+        "test_application": "Freeze each fold/arm alpha before any target scoring; apply once without reoptimization.",
+        "output_requirement": "Report raw selected-checkpoint and selected-shrink diagnostics for all arms; report every selected alpha. No test-selected best-alpha reporting."
+      }
+    },
+    "metrics": {
+      "primary": {
+        "name": "donor_mean_response_mse",
+        "formula": "mean_G(((mean(P)-mean(C))-(mean(T)-mean(C)))**2)",
+        "equivalent": "mean_G((mean(P)-mean(T))**2)",
+        "genes": 4633,
+        "cell_weight": "equal within each population",
+        "donor_weight": "equal across all ten target donors",
+        "fold_weight": "equal because every fold contains two target donors",
+        "double_counting": "Response MSE and treated-mean MSE are algebraically identical and are one endpoint."
+      },
+      "secondary": [
+        {
+          "name": "native_energy",
+          "procedure": "Use pinned official model _compute_distribution_loss on the observed 4633-coordinate P and T populations; mean its returned values; retain unequal real N/M. Log the exact pinned loss implementation and settings.",
+          "selection_use": false
+        },
+        {
+          "name": "response_pearson",
+          "formula": "Pearson correlation across genes between mean(P)-mean(C) and mean(T)-mean(C)",
+          "undefined_rule": "NA when either response has zero variance; never replace undefined with zero",
+          "selection_use": false
+        },
+        {
+          "name": "response_direction_cosine",
+          "formula": "dot(delta_hat,delta_true)/(norm(delta_hat)*norm(delta_true))",
+          "undefined_rule": "NA when either vector norm is zero",
+          "selection_use": false
+        },
+        {
+          "name": "unclamped_native_contrast_mse",
+          "formula": "mean_G((mean(f(C,LPS)-f(C,assay_control))-(mean(T)-mean(C)))**2)",
+          "selection_use": false
+        },
+        {
+          "name": "clamped_coordinate_fraction",
+          "formula": "Fraction of observed cell-gene entries where C + f(C,LPS)-f(C,assay_control) is below zero before clamp",
+          "selection_use": false
+        }
+      ],
+      "baselines": {
+        "zero_response": "P_zero=C",
+        "base_human_mean_response": "For each of the four Hbase donors compute mean_selected_LPS-mean_selected_control; average those four vectors equally. Predict each target control cell as clamp_min(C + mean_Hbase_response,0), then aggregate.",
+        "half_H_response": "C + 0.5*(P_H_selected-C)",
+        "calibrated_shrink": "All-arm diagnostic defined above; H calibrated shrink is a prespecified nuisance benchmark.",
+        "source_access": "The base-human mean-response baseline uses Hbase only."
+      },
+      "paired_contrasts": {
+        "delta_A": "mean_d(MSE_H-MSE_H+Rabbit)",
+        "delta_H": "mean_d(MSE_H-MSE_H+Hextra)",
+        "source_information_gain": "mean_d(MSE_H+RabbitA0-MSE_H+Rabbit)",
+        "gain_over_H_shrink": "mean_d(MSE_H_cal_shrink-MSE_H+Rabbit)",
+        "animal_minus_extra_human_error": "mean_d(MSE_H+Rabbit-MSE_H+Hextra)"
+      },
+      "percentage_rule": "Difference between equally weighted donor-average MSEs divided by the same comparator donor-average MSE. Do not average donor percentage changes.",
+      "animal_human_gain_ratio": "Report delta_A/delta_H only when delta_H>0; flag instability when delta_H is small, and label ratio descriptive. No replacement-equivalence or noninferiority claim."
+    },
+    "prediction_freeze": {
+      "required_before_any_target_scoring": true,
+      "scope": "All five folds, all four selected-checkpoint models, all selected alpha values, all target predictions, all zero/mean/half/shrink baseline predictions, and manifests must be complete and hashed.",
+      "artifacts": [
+        "exact contract SHA256",
+        "training data and annotation SHA256 manifest",
+        "fold-specific selected cell ID lists and pool hashes",
+        "model/helper/runner/scorer code hashes",
+        "shared mask and gene-order hashes",
+        "parameter-group manifest",
+        "training-only scale values",
+        "calibration values and selections",
+        "twenty fit status records",
+        "selected checkpoints or checkpoint weight hashes",
+        "all target prediction arrays and SHA256",
+        "all per-fold/per-arm alpha values",
+        "baseline predictions and SHA256"
+      ],
+      "scorer_isolation": "The separate scoring entrypoint loads test LPS outcomes only after checking the global frozen manifest. It cannot optimize, modify masks, select cells, change alpha/checkpoints or omit donors.",
+      "storage": "Large arrays remain remote. Local artifacts contain only compact audit and result records."
+    },
+    "preflight_gates": {
+      "mask": "Verify identical 4633 support and full native 6546 architecture in every arm.",
+      "coding_denominators": "Verify pinned mask hashes, positive coding UMI denominator for every selected cell, and normalize before model-axis selection.",
+      "initialization": "Artificial-input checks verify identical original outputs after extension and exactly control-equal anchored initial predictions with eval mode.",
+      "animal_gradient": "Use a separate artificial-data scratch clone for three optimizer steps under the anchored MSE objective; record per-step gradients and updates. Step-one shared-gradient cancellation is expected. By step three, require finite nonzero data gradients in connected shared gene layers and backbone and a change in artificial human-context contrast predictions. Weight decay alone is insufficient. Never seed a biological run from the scratch clone.",
+      "leakage": "For each fold assert target donor IDs absent from training/calibration loaders; assert A0 input/target cell IDs disjoint; assert no query animal responses; assert no duplicated padding cells.",
+      "fresh_starts": "All biological arms start from the same freshly reconstructed official model and extension.",
+      "fail_action": "Abort and report the technical failure. Any repair must preserve this scientific contract and be separately logged; scientific changes require a new contract.",
+      "completed_three_step_probe": {
+        "path": "docs/nonrodent_singlecell_20261110/model/three_step_operator_probe.json",
+        "sha256": "e79fad4e4181604262e1dc3f8e5f58fa6c2a7f1a21bef3878a91de12dfc1dcf3",
+        "scope": "Artificial inputs only; first-step shared cancellation and third-step shared data-gradient/updates verified before biology."
+      }
+    },
+    "interpretation": {
+      "positive_candidate_gate": [
+        "All 20 fits and all ten donor scores reported.",
+        "delta_A > 0; delta_H > 0; source_information_gain > 0; gain_over_H_shrink > 0.",
+        "H+Rabbit mean primary MSE is lower than zero-response and Hbase-mean-response baselines.",
+        "At least 8 of 10 target donors improve relative to H, and all five paired-fold mean improvements are positive.",
+        "Each fold included in an animal-training claim uses a nonzero selected animal training step; a zero-step fold contributes no animal-training evidence. A result containing zero-step folds does not satisfy the strict all-fold positive-candidate gate.",
+        "A diagnostic claim based on selected shrink requires nonzero alpha in every cited fold; alpha zero is the zero-response predictor and supplies no animal-training evidence."
+      ],
+      "gate_meaning": "Prespecified descriptive stability screen, not a calibrated significance test. Report failures and negative findings without rescue retuning.",
+      "statistical_unit": "human donor; cells/genes do not increase biological N",
+      "cross_validation_dependence": "Overlapping training sets and shared within-fold models induce dependence. Naive independent-donor sign-flip, five-fold permutation, cell-level t-tests or confidence intervals ignoring training/selection uncertainty are not confirmatory.",
+      "bootstrap": "If supplied, donor bootstrap is explicitly descriptive conditional on these already-trained models and does not estimate retraining/selection uncertainty.",
+      "limitations": [
+        "Single known LPS condition in one human study; no unseen-perturbation test.",
+        "Rabbit time, dose, tissue and study differ from human; species effects are confounded with those attributes.",
+        "Rabbit 0h-to-6h contrast includes culture time.",
+        "Only two selected rabbit individuals contribute to primary training.",
+        "Historical HepG2 normalization is incompletely recovered; all arms are new-assay contrast adaptations.",
+        "Source-specific loss normalization preserves a real-LPS amplitude scalar in A0.",
+        "Fixed optimizer steps and matched source donor/cell budgets do not imply equal experimental monetary cost or exact compute cost."
+      ],
+      "after_results": "Preserve every old negative result and this v1 output. New seeds, data subsets, times, source species, objectives, model heads or budgets are separately named follow-up experiments with outcome-awareness disclosed."
+    },
+    "compact_review_items": [
+      "Protein-coding denominator provenance is now available: human19123/rabbit19293 observed coding genes; all4633 model genes lie in both coding masks.",
+      "The final objective is population-mean MSE with H+0.5*normalized-source; earlier review energy/two-slot suggestions are superseded.",
+      "Training control pools cap128; calibration and target inference use all author-QC control and LPS cells. The same complete control mean is used in every response subtraction.",
+      "A0 uses disjoint real baseline targets and inherits the real-rabbit scale scalar.",
+      "Use explicit three-step scratch-clone animal-gradient audit because shared gradients cancel at zero initialization.",
+      "All20 selected model predictions and all shrink choices freeze before the first target score.",
+      "Primary remains unshrunk selected-checkpoint output; all-arm calibrated shrink is a fixed diagnostic."
+    ],
+    "supersedes": {
+      "contract_id": "nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v2",
+      "sha256": "9342937d6f9b3fbf720fcec9b21a866cc46bfd5dff502e02d09b2f8cb02d507b",
+      "reason": "Executable review found metadata preparation used an explicit existing cell_order hash namespace, globally disjoint A0 offsets and globally hashed base order rather than three differing prose descriptions in v2. V3 adopts the already-frozen metadata choices; all role memberships, counts, variables and observations remain unchanged. No biological fit or target score has occurred.",
+      "prior_version_preserved": true
+    }
+  },
+  "prepared_manifest": {
+    "schema_version": "nonrodent_lps_prepared_v1",
+    "status": "metadata_count_normalization_and_roundtrip_checks_passed",
+    "scope": "No fitting, model prediction, treatment-effect ranking, response-based selection, or outcome scores",
+    "source_files": {
+      "human_counts": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/human_lps/lawlor2021_cd14_baseline_lps_counts.h5ad",
+        "sha256": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0",
+        "bytes": 5938590
+      },
+      "rabbit_counts": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/prepared/rabbit.native_counts.h5ad",
+        "sha256": "4ae33be5686498e9764aa54242bc28e3e1344356fd1d8f6663cdcaf046c4082b",
+        "bytes": 82769558
+      },
+      "shared_gene_map": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/orthology/rabbit.human_state_measured.tsv",
+        "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+        "bytes": 376951
+      },
+      "human_coding_mask": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/human.coding_denominator_mask.tsv",
+        "sha256": "c171a64df357bf45d583475d5db32bff747c285d5dfd9ed40abeacce792e77d9",
+        "bytes": 1443053
+      },
+      "rabbit_coding_mask": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/rabbit.coding_denominator_mask.tsv",
+        "sha256": "dc34378d90a28d6909c56bbcf255f454093f301ac9c7068857930d809272807b",
+        "bytes": 953616
+      },
+      "coding_manifest": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/normalization/coding_denominator_manifest.json",
+        "sha256": "70c5669e14d05a214b04b469620608bb36c5de6ee4cefbfa3e702378db60488f",
+        "bytes": 4225
+      },
+      "script": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepare_nonrodent_lps_experiment.py",
+        "sha256": "6abc72039532142e17554cf929c65944373103dde20523965585b3da1943aa25",
+        "bytes": 20084
+      }
+    },
+    "arrays": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/lps_primary_arrays.npz",
+      "sha256": "ddd3c342fe22ed6ddd3253674f979a4965fcc251552c46daf4807380d0ff118b",
+      "bytes": 1918533,
+      "fields": {
+        "human_expression": {
+          "shape": [
+            1644,
+            4633
+          ],
+          "dtype": "float32"
+        },
+        "human_cell_ids": {
+          "shape": [
+            1644
+          ],
+          "dtype": "<U26"
+        },
+        "human_donors": {
+          "shape": [
+            1644
+          ],
+          "dtype": "<U19"
+        },
+        "human_condition": {
+          "shape": [
+            1644
+          ],
+          "dtype": "<U8"
+        },
+        "rabbit_expression": {
+          "shape": [
+            638,
+            4633
+          ],
+          "dtype": "float32"
+        },
+        "rabbit_cell_ids": {
+          "shape": [
+            638
+          ],
+          "dtype": "<U29"
+        },
+        "rabbit_donors": {
+          "shape": [
+            638
+          ],
+          "dtype": "<U7"
+        },
+        "rabbit_time_h": {
+          "shape": [
+            638
+          ],
+          "dtype": "int16"
+        },
+        "native_gene_indices": {
+          "shape": [
+            4633
+          ],
+          "dtype": "int64"
+        },
+        "human_gene_ids": {
+          "shape": [
+            4633
+          ],
+          "dtype": "<U15"
+        },
+        "rabbit_gene_ids": {
+          "shape": [
+            4633
+          ],
+          "dtype": "<U18"
+        },
+        "human_coding_library_size": {
+          "shape": [
+            1644
+          ],
+          "dtype": "float64"
+        },
+        "rabbit_coding_library_size": {
+          "shape": [
+            638
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    "selections": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/selections.json",
+      "sha256": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0"
+    },
+    "primary_gene_axis": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/primary_gene_axis.tsv",
+      "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+      "n_observed": 4633,
+      "native_full_axis_size": 6546,
+      "input_loss_score_mask_identical_across_all_arms": true,
+      "excluded_coordinates": "Computational zero inputs only; never counted as observed target genes or scored"
+    },
+    "normalization": {
+      "formula": "float32(log1p(10000 * original_UMI / full_observed_author_Ensembl84_coding_UMI_sum))",
+      "human_coding_gene_count": 19123,
+      "rabbit_coding_gene_count": 19293,
+      "applied_before_selecting_4633_genes": true,
+      "zero_coding_library_rule": "abort entire preparation; do not drop cells",
+      "human_library_min_max": [
+        509.0,
+        5823.0
+      ],
+      "rabbit_selected_library_min_max": [
+        1805.0,
+        16413.0
+      ]
+    },
+    "donor_role_counts": {
+      "human_base": {
+        "202937150091_R01C01": 2,
+        "202937150118_R02C01": 2,
+        "202937150118_R04C01": 2,
+        "202937150118_R05C01": 2,
+        "202937150118_R07C01": 2,
+        "202937150118_R06C01": 2,
+        "202937150118_R08C01": 2,
+        "202937150091_R02C01": 2,
+        "202937150118_R03C01": 2,
+        "202937150118_R01C01": 2
+      },
+      "human_extra": {
+        "202937150118_R03C01": 1,
+        "202937150118_R01C01": 1,
+        "202937150118_R02C01": 1,
+        "202937150118_R05C01": 1,
+        "202937150091_R01C01": 1,
+        "202937150118_R04C01": 1,
+        "202937150118_R07C01": 1,
+        "202937150118_R06C01": 1,
+        "202937150118_R08C01": 1,
+        "202937150091_R02C01": 1
+      },
+      "human_cal": {
+        "202937150118_R08C01": 1,
+        "202937150091_R02C01": 1,
+        "202937150118_R03C01": 1,
+        "202937150118_R01C01": 1,
+        "202937150118_R02C01": 1,
+        "202937150118_R05C01": 1,
+        "202937150091_R01C01": 1,
+        "202937150118_R04C01": 1,
+        "202937150118_R07C01": 1,
+        "202937150118_R06C01": 1
+      },
+      "human_test": {
+        "202937150118_R07C01": 1,
+        "202937150118_R06C01": 1,
+        "202937150118_R08C01": 1,
+        "202937150091_R02C01": 1,
+        "202937150118_R03C01": 1,
+        "202937150118_R01C01": 1,
+        "202937150118_R02C01": 1,
+        "202937150118_R05C01": 1,
+        "202937150091_R01C01": 1,
+        "202937150118_R04C01": 1
+      }
+    },
+    "fold_budgets": [
+      {
+        "fold": 0,
+        "human_base": 661,
+        "human_extra": 224,
+        "rabbit_source": 224,
+        "rabbit_null": 224
+      },
+      {
+        "fold": 1,
+        "human_base": 749,
+        "human_extra": 344,
+        "rabbit_source": 344,
+        "rabbit_null": 344
+      },
+      {
+        "fold": 2,
+        "human_base": 756,
+        "human_extra": 317,
+        "rabbit_source": 317,
+        "rabbit_null": 317
+      },
+      {
+        "fold": 3,
+        "human_base": 548,
+        "human_extra": 432,
+        "rabbit_source": 432,
+        "rabbit_null": 432
+      },
+      {
+        "fold": 4,
+        "human_base": 568,
+        "human_extra": 324,
+        "rabbit_source": 324,
+        "rabbit_null": 324
+      }
+    ],
+    "counts": {
+      "human_all_cells": 1644,
+      "human_donors": 10,
+      "rabbit_selected_union_cells": 638,
+      "rabbit_donors": [
+        "rabbit2",
+        "rabbit1"
+      ],
+      "rabbit_time_h": [
+        0,
+        6
+      ]
+    },
+    "checks": {
+      "raw_h5ad_immutable": true,
+      "exact_source_budget_matching": true,
+      "human_roles_disjoint_every_fold": true,
+      "no_duplicate_cells_within_populations": true,
+      "A0_input_target_disjoint_all_folds": true,
+      "all_human_LPS_cells_kept_every_role": true,
+      "all_cal_test_controls_kept": true,
+      "all_target_donors_appear_exactly_once": true,
+      "npz_roundtrip_exact": true,
+      "no_object_dtype_arrays": true
+    }
+  },
+  "inputs": {
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3.json": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/manifest.json": "91eb408c8dca5c58badea54705ce2816578d18361271b04f3acf07878da8840c",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/selections.json": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/lps_primary_arrays.npz": "ddd3c342fe22ed6ddd3253674f979a4965fcc251552c46daf4807380d0ff118b",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65"
+  },
+  "code": {
+    "scripts/run_nonrodent_lps_state.py": "f80fa63daec226f81f4fb5d93ccac4fea330bdcf2b3d6d8446c1d48f3d2fee49",
+    "src/cross_species/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8"
+  },
+  "official_source_root": "/hy-tmp/cross-species-feedback-20261108/official_source",
+  "original_checkpoint": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt",
+  "torch": "2.7.1+cu118",
+  "device": "NVIDIA A800 80GB PCIe",
+  "fold_specific_target_outcomes_used_in_that_fold_fitting_or_selection": false,
+  "target_outcomes_scored_before_global_freeze": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checks_passed": 29942,
+  "checks_failed": 0,
+  "axis_coordinate_checks": "Every retained bridge row independently compared to original sorted Entrez pairs and external human/rat Ensembl metadata arrays.",
+  "numeric_expression_values_read": false,
+  "external_masks_used_for_selection": false,
+  "finiteness_status": "not_checked_pending_remote_human_rat_arm_validation",
+  "audit_sha256": "c93ec6c52c0e1e46f8f2ef197fb79a015788f7d5b2e6c87379b1c50faa7f6982"
+}

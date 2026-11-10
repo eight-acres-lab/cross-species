@@ -1,0 +1,157 @@
+{
+  "purpose": "Released source expression scale audit only; no predictions scored",
+  "source_url": "https://huggingface.co/datasets/arcinstitute/Replogle-Nadig-Preprint/resolve/833d2be9f604dd656ebaddf875d9ad3fbf5dda0d/GSE264667_hepg2_raw_singlecell_01.h5ad",
+  "full_file_not_downloaded": true,
+  "var_attrs": {
+    "_index": "gene_id",
+    "column-order": "['gene_name' 'chr' 'start' 'end' 'class' 'strand' 'length' 'in_matrix'\n 'mean' 'std' 'cv' 'fano']",
+    "encoding-type": "dataframe",
+    "encoding-version": "0.2.0"
+  },
+  "root": [
+    "X",
+    "layers",
+    "obs",
+    "obsm",
+    "obsp",
+    "uns",
+    "var",
+    "varm",
+    "varp"
+  ],
+  "uns_keys": [],
+  "var_keys": [
+    "chr",
+    "class",
+    "cv",
+    "end",
+    "fano",
+    "gene_id",
+    "gene_name",
+    "in_matrix",
+    "length",
+    "mean",
+    "start",
+    "std",
+    "strand"
+  ],
+  "X_attrs": {
+    "encoding-type": "array",
+    "encoding-version": "0.2.0"
+  },
+  "X_type": "<class 'h5py._hl.dataset.Dataset'>",
+  "read_shape": [
+    64,
+    9624
+  ],
+  "X_min_max": [
+    0.0,
+    1595.0
+  ],
+  "X_fractional_proportion": 0.0,
+  "X_row_sums_first8": [
+    11140.0,
+    10964.0,
+    16559.0,
+    21246.0,
+    19127.0,
+    44699.0,
+    19938.0,
+    23700.0
+  ],
+  "expm1_row_sums_first8": null,
+  "expm1_row_sums_min_max": null,
+  "new_network_bytes": 1048576,
+  "verified_ranges": [
+    {
+      "start": 0,
+      "end": 262143,
+      "sha256": "6e8abf49d0124c67a4f57d4c3fd862f1240531a24c04d3966ab9fde0c5d39572"
+    },
+    {
+      "start": 5614600192,
+      "end": 5614623997,
+      "sha256": "530391b0d75755499e22931f18b6a295306097037fdbda3b32838d75ad882b2a"
+    },
+    {
+      "start": 5613027328,
+      "end": 5613289471,
+      "sha256": "733ace53dcfd538037a83cb8b3d8a7ba6e58f8f2f651a33ad7bfc08830bdcf98"
+    },
+    {
+      "start": 5614338048,
+      "end": 5614600191,
+      "sha256": "f327118e87aaee42e4dcb1239f5b1ee327547b9ea5d26531f9d016979f5657fd"
+    },
+    {
+      "start": 5611192320,
+      "end": 5611454463,
+      "sha256": "37b799a33d1b838a828a22f86541e733cf3dc1172f4ca3b382a2a9b93c8c9979"
+    },
+    {
+      "start": 5614075904,
+      "end": 5614338047,
+      "sha256": "2d8e76fc454fabd6f516925682040ca172c945180ccc042bf5799772411b061f"
+    },
+    {
+      "start": 5613289472,
+      "end": 5613551615,
+      "sha256": "7734abdaf2e1c46eeff1aa6ad4c8c886af4c366fdab361931c35c719c22d907e"
+    },
+    {
+      "start": 5613551616,
+      "end": 5613813759,
+      "sha256": "c46175d5373ee37d72ebaf8839c780a8a11a6fff4bcda2454be43a7518b74375"
+    },
+    {
+      "start": 5613813760,
+      "end": 5614075903,
+      "sha256": "897a805c9a0d6bb7d7009dbfbf70ae96fb817cdccd996004aa1830c001fd2c34"
+    },
+    {
+      "start": 262144,
+      "end": 524287,
+      "sha256": "ec66851297dbcdbca7be2cc00eca875a7d083b369489a45e68472cbe6b0ce8fa"
+    },
+    {
+      "start": 524288,
+      "end": 786431,
+      "sha256": "7ab0fa16cf87482a91e09573796d7b5a37d1f242ab957c49e6b86dd6701c8b8f"
+    },
+    {
+      "start": 786432,
+      "end": 1048575,
+      "sha256": "6e7422c41c2c9efbd7179f401b242a990b294954dd965953f326a64a3f92e3bf"
+    },
+    {
+      "start": 1048576,
+      "end": 1310719,
+      "sha256": "ac142dcc5321e7fec3a429681410874b7ab6636f1020e6dcbd12c907a61fed8d"
+    },
+    {
+      "start": 1310720,
+      "end": 1572863,
+      "sha256": "a09a5f2fd9991b093d615de1d6c4f02036efde68b5f4850c9a6e8815ca70640b"
+    },
+    {
+      "start": 1572864,
+      "end": 1835007,
+      "sha256": "2bd6a2c1889c014d46e50b7278092219ea33a044aee2e8bcc1ba3f085947b772"
+    },
+    {
+      "start": 1835008,
+      "end": 2097151,
+      "sha256": "61694ce4fc9a235372f0c2478a30002bb8842e1c1613bab604caaaa09dc27f18"
+    },
+    {
+      "start": 2097152,
+      "end": 2359295,
+      "sha256": "b4247fd5bce62e3507b984b8e69a201f29734a9a02d10de75f6b8e9dfde411b7"
+    },
+    {
+      "start": 2359296,
+      "end": 2621439,
+      "sha256": "1a16d0de103add66f32854631cee96c552c7d0f2c16569a645caffa802940463"
+    }
+  ]
+}

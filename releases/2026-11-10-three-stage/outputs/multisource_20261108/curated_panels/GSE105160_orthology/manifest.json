@@ -1,0 +1,119 @@
+{
+  "retrieved_utc": "2026-11-08T05:49:09.886474+00:00",
+  "endpoint": "https://useast.ensembl.org/biomart/martservice",
+  "biomart_release": 116,
+  "mapping_rule": "Human anchored, high-confidence one-to-one, unique in both directions; exact native stable identifiers only",
+  "ten_way_human_anchors": 9402,
+  "pair_stats": {
+    "mouse": {
+      "returned_rows": 92932,
+      "candidate_human_ids": 16092,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 16092,
+      "sample_taxon": "Mus musculus",
+      "reference_homology_taxon": "Mus musculus"
+    },
+    "rhesus": {
+      "returned_rows": 88083,
+      "candidate_human_ids": 19341,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 19341,
+      "sample_taxon": "Macaca mulatta",
+      "reference_homology_taxon": "Macaca mulatta"
+    },
+    "pigtail_macaque": {
+      "returned_rows": 87431,
+      "candidate_human_ids": 19904,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 19904,
+      "sample_taxon": "Macaca nemestrina",
+      "reference_homology_taxon": "Macaca nemestrina"
+    },
+    "baboon": {
+      "returned_rows": 88000,
+      "candidate_human_ids": 18894,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 18894,
+      "sample_taxon": "Papio anubis",
+      "reference_homology_taxon": "Papio anubis"
+    },
+    "chimpanzee": {
+      "returned_rows": 88107,
+      "candidate_human_ids": 20508,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 20508,
+      "sample_taxon": "Pan troglodytes",
+      "reference_homology_taxon": "Pan troglodytes"
+    },
+    "bonobo": {
+      "returned_rows": 86640,
+      "candidate_human_ids": 20278,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 20278,
+      "sample_taxon": "Pan paniscus",
+      "reference_homology_taxon": "Pan paniscus"
+    },
+    "gorilla": {
+      "returned_rows": 87009,
+      "candidate_human_ids": 20285,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 20285,
+      "sample_taxon": "Gorilla gorilla",
+      "reference_homology_taxon": "Gorilla gorilla"
+    },
+    "orangutan": {
+      "returned_rows": 87455,
+      "candidate_human_ids": 19658,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 19658,
+      "sample_taxon": "Pongo abelii",
+      "reference_homology_taxon": "Pongo abelii"
+    },
+    "squirrel_monkey": {
+      "returned_rows": 87714,
+      "candidate_human_ids": 17364,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 17364,
+      "sample_taxon": "Saimiri sciureus",
+      "reference_homology_taxon": "Saimiri boliviensis boliviensis"
+    }
+  },
+  "annotation_limitations": [
+    "Author counts use older Ensembl releases; exact stable-ID overlap is measured, retired IDs are not guessed.",
+    "Saimiri sciureus samples were aligned by the authors to SaiBol1.0. Orthology describes that reference genome; sample taxon is retained as deposited.",
+    "Orangutan author build is ppyg2; current Pongo abelii mapping is joined by exact native gene IDs. Annotation coverage is reported separately."
+  ],
+  "files": {
+    "attributes.tsv": "3836c1858d496ce6a8e040cb063d1988c5ba8f157ffd6f4ff55a10735a418c6b",
+    "squirrel_monkey.query.xml": "3c21763f1707f1761e4b98b666d67bf32b06ceb0e6599f0b567cda5567e5158e",
+    "gorilla.query.xml": "733cec92eae81190025361f132ef16fc2924fcf6503263fb1791cf098b045d19",
+    "mouse.query.xml": "21561eff5d1c0e88a2eb5f55aef985b6fe2897ee52f0c8fa55d3f307e65889e9",
+    "chimpanzee.tsv": "b3289a32d171593ed422a4f00600f44a21ea551d066ed1f661ad2f56052569bd",
+    "chimpanzee.query.xml": "30e931dfc7588a666c9fe95c400fd080cb9bb94caff30c258ebf7ba244ef14c8",
+    "pigtail_macaque.tsv": "c2053661990274c221b0b26784ba0e74213b3000bc7a29f55e73df3c918ce26e",
+    "gorilla.tsv": "0d0c0187c814dc104e9a18812d64439061aac260c16369de4f949d6695aed644",
+    "orangutan.tsv": "37d1aef9ae681ab7ce54a09a057616e10ce67ce877033db6523aa99f6248f022",
+    "bonobo.tsv": "da0ceb88491e6242314538983754c461a1db5ee87427905d6e95c4e2229ae928",
+    "rhesus.query.xml": "f8603b26ec9ca53ee26f118ea44dbe320e935cf1bba919c60fe4903b1106e39b",
+    "baboon.query.xml": "b17a0b6f869ab1a610ff36d348a3c55793936e852cac0c2552f474ccce3609d1",
+    "registry_before.xml": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+    "pigtail_macaque.query.xml": "75d312d18560b4c59636f0ce39a85b910ee2d3904d5f5abbf5ad8d97e3a02b29",
+    "mouse.tsv": "f28f0cc83be0afc650570491300f6c5d26b6ffcf489b8ebc8a991b1a5c14d52b",
+    "registry_after.xml": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+    "rhesus.tsv": "9810c3454b98f55079ead0e7c220f141726733cb1e55b1908ce02e49e746460c",
+    "squirrel_monkey.tsv": "99d59b83ad581f93b220f5c0f28b80b4a882719053b5fdf45fe8fa7334c626ef",
+    "axis.tsv": "e389471ddd6e8004f5eaaa395081edf00097bb2312e27120b75d74f0078efbb1",
+    "baboon.tsv": "5a4f87ad35b0dcaeded89e3e9bfe04a489152ba04593f9a2cb5889b640c739e7",
+    "orangutan.query.xml": "1bc5cc1a7d35fb22a1f0517c4cbb8f55e7a9ec0e5560ba04b40ad2f07701509f",
+    "bonobo.query.xml": "008ffc057fb7556c5522421469c711d17a16d488bb2aa6b1cf388a5d43876e3e"
+  }
+}

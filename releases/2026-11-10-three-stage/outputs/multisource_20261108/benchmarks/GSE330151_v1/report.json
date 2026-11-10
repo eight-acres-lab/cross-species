@@ -1,0 +1,3914 @@
+{
+  "specification_sha256": "cbdc38115ec78122f65e0a5c6b0b022cab08198483a86cee24fd4078bfc6b8d7",
+  "query_ids": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "source_order": [
+    "mouse",
+    "rat",
+    "cyno",
+    "dog"
+  ],
+  "genes": 9637,
+  "scores": {
+    "zero": {
+      "mse_by_query": [
+        0.030467133519166946,
+        0.04382080656978023,
+        0.19539298197389807
+      ],
+      "macro_mse": 0.08989364068761507,
+      "pearson_by_query": [
+        null,
+        null,
+        null
+      ],
+      "cosine_by_query": [
+        null,
+        null,
+        null
+      ],
+      "defined_pearson_queries": 0
+    },
+    "human_history_mean": {
+      "mse_by_query": [
+        0.0669720760917073,
+        0.0809329648872955,
+        0.23187450686659097
+      ],
+      "macro_mse": 0.12659318261519792,
+      "pearson_by_query": [
+        0.28214221728411865,
+        0.1890287419242638,
+        -0.02684701263054019
+      ],
+      "cosine_by_query": [
+        0.251151887608316,
+        0.18653294327734365,
+        -0.04203905655185589
+      ],
+      "defined_pearson_queries": 3
+    },
+    "human_context_history_mean": {
+      "mse_by_query": [
+        0.02841581115173987,
+        0.02841581115173987,
+        0.23187450686659097
+      ],
+      "macro_mse": 0.09623537639002357,
+      "pearson_by_query": [
+        0.6337721901272708,
+        0.6337721901272708,
+        -0.02684701263054019
+      ],
+      "cosine_by_query": [
+        0.6277155962133344,
+        0.6277155962133344,
+        -0.04203905655185589
+      ],
+      "defined_pearson_queries": 3
+    },
+    "best_fixed_source_history": {
+      "mse_by_query": [
+        0.04829483302102664,
+        0.0729034350481911,
+        0.16194273960354846
+      ],
+      "macro_mse": 0.09438033589092205,
+      "pearson_by_query": [
+        0.18066209215642579,
+        0.5058789023604604,
+        0.4535156451757248
+      ],
+      "cosine_by_query": [
+        0.17400413416740285,
+        0.5061096620844427,
+        0.46949086672231427
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse": {
+      "mse_by_query": [
+        0.15412334863335347,
+        0.12108155929463442,
+        0.2233990284434568
+      ],
+      "macro_mse": 0.16620131212381492,
+      "pearson_by_query": [
+        -0.039243419511275635,
+        0.11651238386276506,
+        0.33446417984367377
+      ],
+      "cosine_by_query": [
+        -0.08422647910445444,
+        0.1127997998531821,
+        0.35625322146608707
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse": {
+      "mse_by_query": [
+        0.15412334863335347,
+        0.12108155929463442,
+        0.2233990284434568
+      ],
+      "macro_mse": 0.16620131212381492,
+      "pearson_by_query": [
+        -0.039243419511275635,
+        0.11651238386276506,
+        0.33446417984367377
+      ],
+      "cosine_by_query": [
+        -0.08422647910445444,
+        0.1127997998531821,
+        0.35625322146608707
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/rat": {
+      "mse_by_query": [
+        0.1281978933472806,
+        0.12570776055787997,
+        0.2654614991432678
+      ],
+      "macro_mse": 0.1731223843494761,
+      "pearson_by_query": [
+        0.22665563108686798,
+        0.2378965698980172,
+        0.3623903796052812
+      ],
+      "cosine_by_query": [
+        0.20285354217500803,
+        0.2383730345173265,
+        0.3588232367478711
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/rat": {
+      "mse_by_query": [
+        0.1281978933472806,
+        0.12570776055787997,
+        0.2654614991432678
+      ],
+      "macro_mse": 0.1731223843494761,
+      "pearson_by_query": [
+        0.22665563108686798,
+        0.2378965698980172,
+        0.3623903796052812
+      ],
+      "cosine_by_query": [
+        0.20285354217500803,
+        0.2383730345173265,
+        0.3588232367478711
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/cyno": {
+      "mse_by_query": [
+        0.04829483302102664,
+        0.0729034350481911,
+        0.16194273960354846
+      ],
+      "macro_mse": 0.09438033589092205,
+      "pearson_by_query": [
+        0.18066209215642579,
+        0.5058789023604604,
+        0.4535156451757248
+      ],
+      "cosine_by_query": [
+        0.17400413416740285,
+        0.5061096620844427,
+        0.46949086672231427
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/cyno": {
+      "mse_by_query": [
+        0.04829483302102664,
+        0.0729034350481911,
+        0.16194273960354846
+      ],
+      "macro_mse": 0.09438033589092205,
+      "pearson_by_query": [
+        0.18066209215642579,
+        0.5058789023604604,
+        0.4535156451757248
+      ],
+      "cosine_by_query": [
+        0.17400413416740285,
+        0.5061096620844427,
+        0.46949086672231427
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/dog": {
+      "mse_by_query": [
+        0.05989689533476342,
+        0.07368400712808316,
+        0.19388662823855138
+      ],
+      "macro_mse": 0.10915584356713266,
+      "pearson_by_query": [
+        0.17965128751117396,
+        0.15794608271668092,
+        0.26656531669692196
+      ],
+      "cosine_by_query": [
+        0.18948674376854518,
+        0.15535230774622533,
+        0.2922025718970713
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/dog": {
+      "mse_by_query": [
+        0.05989689533476342,
+        0.07368400712808316,
+        0.19388662823855138
+      ],
+      "macro_mse": 0.10915584356713266,
+      "pearson_by_query": [
+        0.17965128751117396,
+        0.15794608271668092,
+        0.26656531669692196
+      ],
+      "cosine_by_query": [
+        0.18948674376854518,
+        0.15535230774622533,
+        0.2922025718970713
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+rat": {
+      "mse_by_query": [
+        0.0987477874142985,
+        0.08580877771547389,
+        0.19974204755326083
+      ],
+      "macro_mse": 0.12809953756101108,
+      "pearson_by_query": [
+        0.1239055541701279,
+        0.225580215511106,
+        0.39899199274613006
+      ],
+      "cosine_by_query": [
+        0.07740481732617396,
+        0.2241385506900678,
+        0.40920787142342946
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+rat": {
+      "mse_by_query": [
+        0.0988925217045864,
+        0.08580071137289716,
+        0.1998468260331046
+      ],
+      "macro_mse": 0.1281800197035294,
+      "pearson_by_query": [
+        0.12212641083446657,
+        0.2253291064963078,
+        0.39900689183963994
+      ],
+      "cosine_by_query": [
+        0.07547782186170794,
+        0.22387483660099286,
+        0.40915524570654915
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+cyno": {
+      "mse_by_query": [
+        0.06985644375768667,
+        0.05606861554119749,
+        0.15068742924163964
+      ],
+      "macro_mse": 0.09220416284684126,
+      "pearson_by_query": [
+        0.04548261021388485,
+        0.41815134821046973,
+        0.4796054427922788
+      ],
+      "cosine_by_query": [
+        0.0017753768894457889,
+        0.4156501875092045,
+        0.49845696852828925
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+cyno": {
+      "mse_by_query": [
+        0.06853725791555665,
+        0.05519214488169506,
+        0.1496382183776127
+      ],
+      "macro_mse": 0.09112254039162147,
+      "pearson_by_query": [
+        0.048936566379091405,
+        0.4278616878275631,
+        0.48314181780735244
+      ],
+      "cosine_by_query": [
+        0.005511982719695525,
+        0.4255513694601326,
+        0.5018444527414737
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+dog": {
+      "mse_by_query": [
+        0.07039121816064853,
+        0.07038742185122011,
+        0.16825820612665804
+      ],
+      "macro_mse": 0.10301228204617556,
+      "pearson_by_query": [
+        0.0610712397441885,
+        0.1702232700914135,
+        0.3864592105471255
+      ],
+      "cosine_by_query": [
+        0.02680793675821728,
+        0.16524610923545296,
+        0.41064579933733414
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+dog": {
+      "mse_by_query": [
+        0.06955441613720224,
+        0.06972899457983413,
+        0.1678117469233546
+      ],
+      "macro_mse": 0.102365052546797,
+      "pearson_by_query": [
+        0.0637448393019295,
+        0.17148309442900458,
+        0.38656623487903574
+      ],
+      "cosine_by_query": [
+        0.03001704196792077,
+        0.1665018354371689,
+        0.4108232609749513
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/rat+cyno": {
+      "mse_by_query": [
+        0.05449418117712442,
+        0.056063290953447094,
+        0.15442520413722305
+      ],
+      "macro_mse": 0.08832755875593153,
+      "pearson_by_query": [
+        0.26917908047826117,
+        0.4754529886497739,
+        0.49405116183811076
+      ],
+      "cosine_by_query": [
+        0.2457176589034678,
+        0.4757031483846047,
+        0.5006165841954687
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/rat+cyno": {
+      "mse_by_query": [
+        0.05312043631373646,
+        0.05503175804841684,
+        0.15288700576007921
+      ],
+      "macro_mse": 0.08701306670741084,
+      "pearson_by_query": [
+        0.2702676370502934,
+        0.48321112972802815,
+        0.4974089094744131
+      ],
+      "cosine_by_query": [
+        0.24698068754658972,
+        0.48345283461947103,
+        0.504318914845116
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/rat+dog": {
+      "mse_by_query": [
+        0.05783212171699245,
+        0.06399494589846233,
+        0.16816501915097115
+      ],
+      "macro_mse": 0.09666402892214199,
+      "pearson_by_query": [
+        0.26908558126733684,
+        0.2711764928968909,
+        0.41904086609301233
+      ],
+      "cosine_by_query": [
+        0.2555694642457736,
+        0.27076060080571274,
+        0.4281250764715766
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/rat+dog": {
+      "mse_by_query": [
+        0.056899096797362235,
+        0.06320254403223385,
+        0.16720915659099
+      ],
+      "macro_mse": 0.09577026580686203,
+      "pearson_by_query": [
+        0.269489078464761,
+        0.2709995704943442,
+        0.41966753351529434
+      ],
+      "cosine_by_query": [
+        0.2565185112953492,
+        0.2705176652659143,
+        0.42921682387021776
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/cyno+dog": {
+      "mse_by_query": [
+        0.040455800065516315,
+        0.04423999038550605,
+        0.14592096647859748
+      ],
+      "macro_mse": 0.07687225230987328,
+      "pearson_by_query": [
+        0.22780559964384228,
+        0.4716095648560976,
+        0.48394309881781283
+      ],
+      "cosine_by_query": [
+        0.23116204941226964,
+        0.47082631338478587,
+        0.5034161439263495
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/cyno+dog": {
+      "mse_by_query": [
+        0.04041188262166304,
+        0.04423907630104899,
+        0.14587382930194484
+      ],
+      "macro_mse": 0.07684159607488562,
+      "pearson_by_query": [
+        0.22791894932031775,
+        0.4732077393891601,
+        0.484199325265418
+      ],
+      "cosine_by_query": [
+        0.23119932276276015,
+        0.4724510459851623,
+        0.503655909464303
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+rat+cyno": {
+      "mse_by_query": [
+        0.06241973048830862,
+        0.052452220215529824,
+        0.15206838405980236
+      ],
+      "macro_mse": 0.08898011158788027,
+      "pearson_by_query": [
+        0.1643814235687946,
+        0.4195060346525467,
+        0.48897434106934373
+      ],
+      "cosine_by_query": [
+        0.11907481753863575,
+        0.4186695671599085,
+        0.5017351238899269
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+rat+cyno": {
+      "mse_by_query": [
+        0.060749480926766714,
+        0.05106281697030968,
+        0.15028391137048258
+      ],
+      "macro_mse": 0.08736540308918632,
+      "pearson_by_query": [
+        0.16649416013433957,
+        0.4329610154423236,
+        0.49396366384215207
+      ],
+      "cosine_by_query": [
+        0.12143385348729979,
+        0.4322146991183711,
+        0.5067583239162037
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+rat+dog": {
+      "mse_by_query": [
+        0.06285181909470672,
+        0.062254583875558635,
+        0.16243488172203155
+      ],
+      "macro_mse": 0.0958470948974323,
+      "pearson_by_query": [
+        0.17145718515993205,
+        0.2515464054900324,
+        0.4353498756110839
+      ],
+      "cosine_by_query": [
+        0.13344743991455013,
+        0.24907620759718757,
+        0.4503669507003544
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+rat+dog": {
+      "mse_by_query": [
+        0.06176064033451425,
+        0.06144015457919848,
+        0.16147700025774642
+      ],
+      "macro_mse": 0.09489259839048637,
+      "pearson_by_query": [
+        0.17349103139819794,
+        0.2525900522879653,
+        0.4366308586778212
+      ],
+      "cosine_by_query": [
+        0.1361823373879006,
+        0.25006477818954476,
+        0.45180737253164194
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+cyno+dog": {
+      "mse_by_query": [
+        0.05116653010514027,
+        0.04612390107119844,
+        0.1422486679002249
+      ],
+      "macro_mse": 0.07984636635885453,
+      "pearson_by_query": [
+        0.11631776052243463,
+        0.40918914926553246,
+        0.5023004245334962
+      ],
+      "cosine_by_query": [
+        0.08388543513416152,
+        0.40534781907679385,
+        0.5215860324260713
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+cyno+dog": {
+      "mse_by_query": [
+        0.05032103606482721,
+        0.0453962211684663,
+        0.14160927340793883
+      ],
+      "macro_mse": 0.07910884354707744,
+      "pearson_by_query": [
+        0.12081275183511389,
+        0.41797812868317147,
+        0.5057742583188556
+      ],
+      "cosine_by_query": [
+        0.08907497570863489,
+        0.41432415420938234,
+        0.5248958470794507
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/rat+cyno+dog": {
+      "mse_by_query": [
+        0.04163764334838468,
+        0.042766411801723074,
+        0.13919487689797766
+      ],
+      "macro_mse": 0.0745329773493618,
+      "pearson_by_query": [
+        0.2949703623878853,
+        0.46922734101351304,
+        0.524031513095898
+      ],
+      "cosine_by_query": [
+        0.28088167806159914,
+        0.46920226192070974,
+        0.5363198084942239
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/rat+cyno+dog": {
+      "mse_by_query": [
+        0.04101917776104122,
+        0.042197486233856316,
+        0.1385227123784657
+      ],
+      "macro_mse": 0.07391312545778773,
+      "pearson_by_query": [
+        0.29550534100315795,
+        0.4747879834257323,
+        0.5269403408816031
+      ],
+      "cosine_by_query": [
+        0.28183047755684865,
+        0.47475038782614637,
+        0.5395116295003778
+      ],
+      "defined_pearson_queries": 3
+    },
+    "equal/mouse+rat+cyno+dog": {
+      "mse_by_query": [
+        0.04913026678101371,
+        0.04496866533272816,
+        0.1412134812434845
+      ],
+      "macro_mse": 0.07843747111907547,
+      "pearson_by_query": [
+        0.2016417010139023,
+        0.41952199487141817,
+        0.5123724974212303
+      ],
+      "cosine_by_query": [
+        0.16491070058199617,
+        0.41776957215072347,
+        0.5276018449571683
+      ],
+      "defined_pearson_queries": 3
+    },
+    "simplex/mouse+rat+cyno+dog": {
+      "mse_by_query": [
+        0.047872202974626236,
+        0.04385522058446287,
+        0.13995407645085853
+      ],
+      "macro_mse": 0.07722716666998254,
+      "pearson_by_query": [
+        0.20583792158405673,
+        0.43113438862972026,
+        0.5177456228577562
+      ],
+      "cosine_by_query": [
+        0.1700333441825679,
+        0.42946771389610217,
+        0.5329970511592972
+      ],
+      "defined_pearson_queries": 3
+    }
+  },
+  "fitting_and_premeasurement_selection": [
+    {
+      "held_query": 0,
+      "training_queries": [
+        1,
+        2
+      ],
+      "context_reference_queries": [
+        1
+      ],
+      "selected_source_before_measurement": "cyno",
+      "source_training_losses": [
+        0.1722402938690456,
+        0.19558462985057387,
+        0.11742308732586978,
+        0.13378531768331725
+      ],
+      "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector"
+    },
+    {
+      "held_query": 1,
+      "training_queries": [
+        0,
+        2
+      ],
+      "context_reference_queries": [
+        0
+      ],
+      "selected_source_before_measurement": "cyno",
+      "source_training_losses": [
+        0.18876118853840512,
+        0.1968296962452742,
+        0.10511878631228755,
+        0.1268917617866574
+      ],
+      "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector"
+    },
+    {
+      "held_query": 2,
+      "training_queries": [
+        0,
+        1
+      ],
+      "context_reference_queries": [
+        0,
+        1
+      ],
+      "selected_source_before_measurement": "cyno",
+      "source_training_losses": [
+        0.13760245396399395,
+        0.12695282695258028,
+        0.06059913403460887,
+        0.06679045123142328
+      ],
+      "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector"
+    }
+  ],
+  "uniform_random_single_source": {
+    "mse_by_query": [
+      0.09762824258410605,
+      0.09834419050719716,
+      0.2111724738572061
+    ],
+    "macro_mse": 0.13571496898283644,
+    "unit_budget": "One source,3treated+3vehicle profiles"
+  },
+  "fixed_cyno_control": {
+    "mse_by_query": [
+      0.04829483302102664,
+      0.0729034350481911,
+      0.16194273960354846
+    ],
+    "macro_mse": 0.09438033589092205,
+    "pearson_by_query": [
+      0.18066209215642579,
+      0.5058789023604604,
+      0.4535156451757248
+    ],
+    "cosine_by_query": [
+      0.17400413416740285,
+      0.5061096620844427,
+      0.46949086672231427
+    ],
+    "defined_pearson_queries": 3
+  },
+  "oracle_diagnostics": {
+    "single_source_by_query": [
+      "cyno",
+      "cyno",
+      "cyno"
+    ],
+    "single_mse_by_query": [
+      0.04829483302102664,
+      0.0729034350481911,
+      0.16194273960354846
+    ],
+    "subset_by_query": [
+      "equal/cyno+dog",
+      "equal/rat+cyno+dog",
+      "equal/rat+cyno+dog"
+    ],
+    "subset_mse_by_query": [
+      0.040455800065516315,
+      0.042766411801723074,
+      0.13919487689797766
+    ],
+    "deployable": false
+  },
+  "added_source_edges": [
+    {
+      "before": "equal/mouse",
+      "added_source": "rat",
+      "after": "equal/mouse+rat",
+      "mse_gain_by_query": [
+        0.05537556121905497,
+        0.03527278157916053,
+        0.023656980890195967
+      ],
+      "macro_gain": 0.03810177456280382,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse",
+      "added_source": "cyno",
+      "after": "equal/mouse+cyno",
+      "mse_gain_by_query": [
+        0.0842669048756668,
+        0.06501294375343693,
+        0.07271159920181716
+      ],
+      "macro_gain": 0.07399714927697364,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse",
+      "added_source": "dog",
+      "after": "equal/mouse+dog",
+      "mse_gain_by_query": [
+        0.08373213047270495,
+        0.050694137443414305,
+        0.05514082231679876
+      ],
+      "macro_gain": 0.06318903007763933,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat",
+      "added_source": "mouse",
+      "after": "equal/mouse+rat",
+      "mse_gain_by_query": [
+        0.0294501059329821,
+        0.039898982842406075,
+        0.06571945159000694
+      ],
+      "macro_gain": 0.04502284678846504,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat",
+      "added_source": "cyno",
+      "after": "equal/rat+cyno",
+      "mse_gain_by_query": [
+        0.07370371217015617,
+        0.06964446960443288,
+        0.11103629500604473
+      ],
+      "macro_gain": 0.0847948255935446,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat",
+      "added_source": "dog",
+      "after": "equal/rat+dog",
+      "mse_gain_by_query": [
+        0.07036577163028815,
+        0.061712814659417636,
+        0.09729647999229663
+      ],
+      "macro_gain": 0.07645835542733413,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/cyno",
+      "added_source": "mouse",
+      "after": "equal/mouse+cyno",
+      "mse_gain_by_query": [
+        -0.021561610736660027,
+        0.016834819506993615,
+        0.011255310361908827
+      ],
+      "macro_gain": 0.002176173044080805,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/cyno",
+      "added_source": "rat",
+      "after": "equal/rat+cyno",
+      "mse_gain_by_query": [
+        -0.006199348156097781,
+        0.016840144094744013,
+        0.007517535466325415
+      ],
+      "macro_gain": 0.006052777134990549,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/cyno",
+      "added_source": "dog",
+      "after": "equal/cyno+dog",
+      "mse_gain_by_query": [
+        0.007839032955510326,
+        0.028663444662685056,
+        0.016021773124950983
+      ],
+      "macro_gain": 0.01750808358104879,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/dog",
+      "added_source": "mouse",
+      "after": "equal/mouse+dog",
+      "mse_gain_by_query": [
+        -0.01049432282588511,
+        0.003296585276863051,
+        0.02562842211189334
+      ],
+      "macro_gain": 0.006143561520957093,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/dog",
+      "added_source": "rat",
+      "after": "equal/rat+dog",
+      "mse_gain_by_query": [
+        0.0020647736177709652,
+        0.009689061229620835,
+        0.025721609087580227
+      ],
+      "macro_gain": 0.012491814644990676,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/dog",
+      "added_source": "cyno",
+      "after": "equal/cyno+dog",
+      "mse_gain_by_query": [
+        0.019441095269247102,
+        0.029444016742577114,
+        0.0479656617599539
+      ],
+      "macro_gain": 0.032283591257259374,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+rat",
+      "added_source": "cyno",
+      "after": "equal/mouse+rat+cyno",
+      "mse_gain_by_query": [
+        0.03632805692598988,
+        0.03335655749994407,
+        0.047673663493458474
+      ],
+      "macro_gain": 0.039119425973130804,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+rat",
+      "added_source": "dog",
+      "after": "equal/mouse+rat+dog",
+      "mse_gain_by_query": [
+        0.035895968319591784,
+        0.023554193839915256,
+        0.03730716583122928
+      ],
+      "macro_gain": 0.032252442663578774,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+cyno",
+      "added_source": "rat",
+      "after": "equal/mouse+rat+cyno",
+      "mse_gain_by_query": [
+        0.007436713269378045,
+        0.003616395325667668,
+        -0.0013809548181627218
+      ],
+      "macro_gain": 0.003224051258960997,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+cyno",
+      "added_source": "dog",
+      "after": "equal/mouse+cyno+dog",
+      "mse_gain_by_query": [
+        0.018689913652546394,
+        0.009944714469999054,
+        0.008438761341414747
+      ],
+      "macro_gain": 0.012357796487986732,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+dog",
+      "added_source": "rat",
+      "after": "equal/mouse+rat+dog",
+      "mse_gain_by_query": [
+        0.00753939906594181,
+        0.008132837975661479,
+        0.00582332440462649
+      ],
+      "macro_gain": 0.00716518714874326,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+dog",
+      "added_source": "cyno",
+      "after": "equal/mouse+cyno+dog",
+      "mse_gain_by_query": [
+        0.019224688055508254,
+        0.024263520780021676,
+        0.02600953822643315
+      ],
+      "macro_gain": 0.023165915687321025,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat+cyno",
+      "added_source": "mouse",
+      "after": "equal/mouse+rat+cyno",
+      "mse_gain_by_query": [
+        -0.0079255493111842,
+        0.00361107073791727,
+        0.0023568200774206904
+      ],
+      "macro_gain": -0.0006525528319487467,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat+cyno",
+      "added_source": "dog",
+      "after": "equal/rat+cyno+dog",
+      "mse_gain_by_query": [
+        0.012856537828739745,
+        0.01329687915172402,
+        0.01523032723924539
+      ],
+      "macro_gain": 0.013794581406569717,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat+dog",
+      "added_source": "mouse",
+      "after": "equal/mouse+rat+dog",
+      "mse_gain_by_query": [
+        -0.005019697377714266,
+        0.001740362022903695,
+        0.005730137428939602
+      ],
+      "macro_gain": 0.0008169340247096771,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat+dog",
+      "added_source": "cyno",
+      "after": "equal/rat+cyno+dog",
+      "mse_gain_by_query": [
+        0.016194478368607775,
+        0.021228534096739256,
+        0.02897014225299349
+      ],
+      "macro_gain": 0.022131051572780173,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/cyno+dog",
+      "added_source": "mouse",
+      "after": "equal/mouse+cyno+dog",
+      "mse_gain_by_query": [
+        -0.010710730039623959,
+        -0.0018839106856923873,
+        0.0036722985783725903
+      ],
+      "macro_gain": -0.0029741140489812517,
+      "harmful_queries": 2,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/cyno+dog",
+      "added_source": "rat",
+      "after": "equal/rat+cyno+dog",
+      "mse_gain_by_query": [
+        -0.0011818432828683625,
+        0.0014735785837829765,
+        0.006726089580619821
+      ],
+      "macro_gain": 0.002339274960511478,
+      "harmful_queries": 1,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+rat+cyno",
+      "added_source": "dog",
+      "after": "equal/mouse+rat+cyno+dog",
+      "mse_gain_by_query": [
+        0.013289463707294911,
+        0.0074835548828016615,
+        0.010854902816317846
+      ],
+      "macro_gain": 0.010542640468804806,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+rat+dog",
+      "added_source": "cyno",
+      "after": "equal/mouse+rat+cyno+dog",
+      "mse_gain_by_query": [
+        0.013721552313693007,
+        0.017285918542830472,
+        0.021221400478547037
+      ],
+      "macro_gain": 0.01740962377835684,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/mouse+cyno+dog",
+      "added_source": "rat",
+      "after": "equal/mouse+rat+cyno+dog",
+      "mse_gain_by_query": [
+        0.0020362633241265624,
+        0.0011552357384702755,
+        0.0010351866567403778
+      ],
+      "macro_gain": 0.0014088952397790719,
+      "harmful_queries": 0,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    },
+    {
+      "before": "equal/rat+cyno+dog",
+      "added_source": "mouse",
+      "after": "equal/mouse+rat+cyno+dog",
+      "mse_gain_by_query": [
+        -0.007492623432629034,
+        -0.0022022535310050884,
+        -0.0020186043455068525
+      ],
+      "macro_gain": -0.003904493769713658,
+      "harmful_queries": 3,
+      "interpretation": "Added-source measured-profile budget; equal-mean estimator changes allweights. This is empirical estimator harm/benefit, not intrinsic or causal source utility."
+    }
+  ],
+  "fixed_total_profile_budget": [
+    {
+      "subset": [
+        0
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          3
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.15412334863335347,
+        0.12108155929463442,
+        0.2233990284434568
+      ],
+      "finite_sampling_variance_by_query": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected_mse_by_query": [
+        0.15412334863335347,
+        0.12108155929463442,
+        0.2233990284434568
+      ],
+      "macro_expected_mse": 0.16620131212381492
+    },
+    {
+      "subset": [
+        1
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          3
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.1281978933472806,
+        0.12570776055787997,
+        0.2654614991432678
+      ],
+      "finite_sampling_variance_by_query": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected_mse_by_query": [
+        0.1281978933472806,
+        0.12570776055787997,
+        0.2654614991432678
+      ],
+      "macro_expected_mse": 0.1731223843494761
+    },
+    {
+      "subset": [
+        2
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          3
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.04829483302102664,
+        0.0729034350481911,
+        0.16194273960354846
+      ],
+      "finite_sampling_variance_by_query": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected_mse_by_query": [
+        0.04829483302102664,
+        0.0729034350481911,
+        0.16194273960354846
+      ],
+      "macro_expected_mse": 0.09438033589092205
+    },
+    {
+      "subset": [
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          3
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.05989689533476342,
+        0.07368400712808316,
+        0.19388662823855138
+      ],
+      "finite_sampling_variance_by_query": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected_mse_by_query": [
+        0.05989689533476342,
+        0.07368400712808316,
+        0.19388662823855138
+      ],
+      "macro_expected_mse": 0.10915584356713266
+    },
+    {
+      "subset": [
+        0,
+        1
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.0987477874142985,
+        0.08580877771547389,
+        0.19974204755326083
+      ],
+      "finite_sampling_variance_by_query": [
+        0.015692760475801627,
+        0.018964761291372458,
+        0.02288348892675685
+      ],
+      "expected_mse_by_query": [
+        0.11444054789010014,
+        0.10477353900684636,
+        0.22262553648001768
+      ],
+      "macro_expected_mse": 0.14727987445898805
+    },
+    {
+      "subset": [
+        0,
+        2
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.06985644375768667,
+        0.05606861554119749,
+        0.15068742924163964
+      ],
+      "finite_sampling_variance_by_query": [
+        0.06331351219734434,
+        0.011728690359184127,
+        0.03599810539551486
+      ],
+      "expected_mse_by_query": [
+        0.133169955955031,
+        0.06779730590038162,
+        0.18668553463715448
+      ],
+      "macro_expected_mse": 0.1292175988308557
+    },
+    {
+      "subset": [
+        0,
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.07039121816064853,
+        0.07038742185122011,
+        0.16825820612665804
+      ],
+      "finite_sampling_variance_by_query": [
+        0.03875993257256954,
+        0.02214655066253634,
+        0.03241643353653663
+      ],
+      "expected_mse_by_query": [
+        0.10915115073321807,
+        0.09253397251375645,
+        0.20067463966319465
+      ],
+      "macro_expected_mse": 0.1341199209700564
+    },
+    {
+      "subset": [
+        1,
+        2
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.05449418117712442,
+        0.056063290953447094,
+        0.15442520413722305
+      ],
+      "finite_sampling_variance_by_query": [
+        0.05749521551972572,
+        0.01725092750117342,
+        0.03315705200025956
+      ],
+      "expected_mse_by_query": [
+        0.11198939669685015,
+        0.07331421845462052,
+        0.1875822561374826
+      ],
+      "macro_expected_mse": 0.1242952904296511
+    },
+    {
+      "subset": [
+        1,
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.05783212171699245,
+        0.06399494589846233,
+        0.16816501915097115
+      ],
+      "finite_sampling_variance_by_query": [
+        0.03294163589495092,
+        0.027668787804525634,
+        0.02957538014128133
+      ],
+      "expected_mse_by_query": [
+        0.09077375761194337,
+        0.09166373370298797,
+        0.19774039929225248
+      ],
+      "macro_expected_mse": 0.12672596353572793
+    },
+    {
+      "subset": [
+        2,
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.040455800065516315,
+        0.04423999038550605,
+        0.14592096647859748
+      ],
+      "finite_sampling_variance_by_query": [
+        0.08056238761649363,
+        0.0204327168723373,
+        0.04268999661003934
+      ],
+      "expected_mse_by_query": [
+        0.12101818768200995,
+        0.06467270725784335,
+        0.1886109630886368
+      ],
+      "macro_expected_mse": 0.12476728600949671
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.062419730488308636,
+        0.052452220215529824,
+        0.15206838405980236
+      ],
+      "finite_sampling_variance_by_query": [
+        0.048533862468576605,
+        0.017046890365059558,
+        0.0327248520257889
+      ],
+      "expected_mse_by_query": [
+        0.11095359295688524,
+        0.06949911058058938,
+        0.18479323608559126
+      ],
+      "macro_expected_mse": 0.12174864654102195
+    },
+    {
+      "subset": [
+        0,
+        1,
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.06285181909470672,
+        0.06225458387555865,
+        0.1624348817220316
+      ],
+      "finite_sampling_variance_by_query": [
+        0.031073539179847853,
+        0.024455146580776688,
+        0.030177885370515488
+      ],
+      "expected_mse_by_query": [
+        0.09392535827455457,
+        0.08670973045633534,
+        0.1926127670925471
+      ],
+      "macro_expected_mse": 0.12441595194114567
+    },
+    {
+      "subset": [
+        0,
+        2,
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.05116653010514027,
+        0.046123901071198445,
+        0.1422486679002249
+      ],
+      "finite_sampling_variance_by_query": [
+        0.06493718484850045,
+        0.019309496140109426,
+        0.03950383485941007
+      ],
+      "expected_mse_by_query": [
+        0.11610371495364072,
+        0.06543339721130786,
+        0.18175250275963495
+      ],
+      "macro_expected_mse": 0.12109653830819452
+    },
+    {
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "eligible": true,
+      "treated_profiles_total": 3,
+      "vehicle_profiles_total": 3,
+      "balanced_allocations_per_role": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "fixed_full_mean_mse_by_query": [
+        0.041637643348384684,
+        0.042766411801723074,
+        0.13919487689797766
+      ],
+      "finite_sampling_variance_by_query": [
+        0.060799729433304986,
+        0.02323642032996848,
+        0.037483530222784084
+      ],
+      "expected_mse_by_query": [
+        0.10243737278168967,
+        0.06600283213169156,
+        0.17667840712076174
+      ],
+      "macro_expected_mse": 0.11503953734471432
+    },
+    {
+      "subset": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "eligible": false,
+      "reason": "Fixed total profile budget cannot cover each source or exceeds available records"
+    }
+  ],
+  "postmeasurement_descriptive_factors": [
+    {
+      "query": "CDDO",
+      "source": "mouse",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.8211765440788257,
+      "source_response_rms": 0.3372534479323226,
+      "human_response_rms_terminal": 0.17454837014182328,
+      "human_prediction_mse_terminal": 0.15412334863335347,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "CDDO",
+      "source": "rat",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.938726415660571,
+      "source_response_rms": 0.35002572819473404,
+      "human_response_rms_terminal": 0.17454837014182328,
+      "human_prediction_mse_terminal": 0.1281978933472806,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "CDDO",
+      "source": "cyno",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.2426029494495687,
+      "source_response_rms": 0.16730338452245,
+      "human_response_rms_terminal": 0.17454837014182328,
+      "human_prediction_mse_terminal": 0.04829483302102664,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "CDDO",
+      "source": "dog",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.8981846574525534,
+      "source_response_rms": 0.20778490860168763,
+      "human_response_rms_terminal": 0.17454837014182328,
+      "human_prediction_mse_terminal": 0.05989689533476342,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "KI696",
+      "source": "mouse",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.8364679336525924,
+      "source_response_rms": 0.30257220696840187,
+      "human_response_rms_terminal": 0.20933419828059682,
+      "human_prediction_mse_terminal": 0.12108155929463442,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "KI696",
+      "source": "rat",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 2.076378968566553,
+      "source_response_rms": 0.3403766957900805,
+      "human_response_rms_terminal": 0.20933419828059682,
+      "human_prediction_mse_terminal": 0.12570776055787997,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "KI696",
+      "source": "cyno",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.376065359910817,
+      "source_response_rms": 0.3067125819238511,
+      "human_response_rms_terminal": 0.20933419828059682,
+      "human_prediction_mse_terminal": 0.0729034350481911,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "KI696",
+      "source": "dog",
+      "known_time_h": 24.0,
+      "source_vehicle_human_vehicle_mse": 1.9553975367156238,
+      "source_response_rms": 0.2083636251013824,
+      "human_response_rms_terminal": 0.20933419828059682,
+      "human_prediction_mse_terminal": 0.07368400712808316,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "THAP",
+      "source": "mouse",
+      "known_time_h": 8.0,
+      "source_vehicle_human_vehicle_mse": 1.7427273107477919,
+      "source_response_rms": 0.38726814462880343,
+      "human_response_rms_terminal": 0.44203278382253286,
+      "human_prediction_mse_terminal": 0.2233990284434568,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "THAP",
+      "source": "rat",
+      "known_time_h": 8.0,
+      "source_vehicle_human_vehicle_mse": 1.9176586359341363,
+      "source_response_rms": 0.4671990087152608,
+      "human_response_rms_terminal": 0.44203278382253286,
+      "human_prediction_mse_terminal": 0.2654614991432678,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "THAP",
+      "source": "cyno",
+      "known_time_h": 8.0,
+      "source_vehicle_human_vehicle_mse": 1.1643283621506566,
+      "source_response_rms": 0.3056048458307275,
+      "human_response_rms_terminal": 0.44203278382253286,
+      "human_prediction_mse_terminal": 0.16194273960354846,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    },
+    {
+      "query": "THAP",
+      "source": "dog",
+      "known_time_h": 8.0,
+      "source_vehicle_human_vehicle_mse": 1.8641985428347714,
+      "source_response_rms": 0.252357096976183,
+      "human_response_rms_terminal": 0.44203278382253286,
+      "human_prediction_mse_terminal": 0.19388662823855138,
+      "scope": "Descriptive association only; source vehicle/magnitude uses acquired data, human outcomes terminal. One tissue, pathway/time/drug confounding; cannot identify causal drivers or validate premeasurement prediction."
+    }
+  ],
+  "fixed_estimator_measured_arm_sensitivity": {
+    "best_fixed_source_history": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07483410258871065,
+          0.07832357615384028,
+          0.17702154648124493
+        ],
+        [
+          0.5795994568599263,
+          0.7625446342102756,
+          0.4835282307842969
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1431269916407224,
+        0.5437814239125336
+      ]
+    },
+    "equal/mouse": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.12654916110952175,
+          0.12106742666679615,
+          0.22275561577061273
+        ],
+        [
+          0.4448846854786571,
+          0.9457116196521209,
+          0.5105595604619618
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.18658950988806414,
+        0.5369227764285136
+      ]
+    },
+    "simplex/mouse": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.12654916110952175,
+          0.12106742666679615,
+          0.22275561577061273
+        ],
+        [
+          0.4448846854786571,
+          0.9457116196521209,
+          0.5105595604619618
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.18658950988806414,
+        0.5369227764285136
+      ]
+    },
+    "equal/rat": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.13413168196559808,
+          0.13718809580779928,
+          0.27463625574887773
+        ],
+        [
+          0.36641411880895114,
+          0.8677660063198022,
+          0.5505682413398209
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.20733369023641787,
+        0.5121490366580655
+      ]
+    },
+    "simplex/rat": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.13413168196559808,
+          0.13718809580779928,
+          0.27463625574887773
+        ],
+        [
+          0.36641411880895114,
+          0.8677660063198022,
+          0.5505682413398209
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.20733369023641787,
+        0.5121490366580655
+      ]
+    },
+    "equal/cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07483410258871065,
+          0.07832357615384028,
+          0.17702154648124493
+        ],
+        [
+          0.5795994568599263,
+          0.7625446342102756,
+          0.4835282307842969
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1431269916407224,
+        0.5437814239125336
+      ]
+    },
+    "simplex/cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07483410258871065,
+          0.07832357615384028,
+          0.17702154648124493
+        ],
+        [
+          0.5795994568599263,
+          0.7625446342102756,
+          0.4835282307842969
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1431269916407224,
+        0.5437814239125336
+      ]
+    },
+    "equal/dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07856682847173894,
+          0.08453721284451964,
+          0.19648753386961088
+        ],
+        [
+          0.4181914338197642,
+          0.9186800696555957,
+          0.5214833174995859
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.15311161721446984,
+        0.5257127475995279
+      ]
+    },
+    "simplex/dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07856682847173894,
+          0.08453721284451964,
+          0.19648753386961088
+        ],
+        [
+          0.4181914338197642,
+          0.9186800696555957,
+          0.5214833174995859
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.15311161721446984,
+        0.5257127475995279
+      ]
+    },
+    "equal/mouse+rat": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.09376710146444733,
+          0.09144661031835814,
+          0.2058544957922463
+        ],
+        [
+          0.34234608404289363,
+          0.8268125063533097,
+          0.4618091812413202
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1537235119899601,
+        0.4612560177426298
+      ]
+    },
+    "simplex/mouse+rat": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.09391066815987728,
+          0.09135457582397677,
+          0.20598470975488098
+        ],
+        [
+          0.34253111904616806,
+          0.827118273799596,
+          0.46173745419038514
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.15367782168525845,
+        0.46125744042901934
+      ]
+    },
+    "equal/mouse+cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07549528955918769,
+          0.05998163216833731,
+          0.15644598693621908
+        ],
+        [
+          0.3442582251426735,
+          0.781774589645949,
+          0.42244620016623335
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1217231469470609,
+        0.43512251888474524
+      ]
+    },
+    "simplex/mouse+cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07530669940948481,
+          0.05929885379651886,
+          0.15592992886335819
+        ],
+        [
+          0.34381575879496556,
+          0.7783557184042355,
+          0.421962512416766
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.12129599107758056,
+        0.4337127724491253
+      ]
+    },
+    "equal/mouse+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07363013198883353,
+          0.07454665906583832,
+          0.16790144311750105
+        ],
+        [
+          0.32213576605858424,
+          0.8486303167743016,
+          0.44326853603477157
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.13058663713723156,
+        0.4548520340324622
+      ]
+    },
+    "simplex/mouse+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.07338533270032568,
+          0.07413776131317805,
+          0.1672004664132105
+        ],
+        [
+          0.3239053501643623,
+          0.8524553600259308,
+          0.44331746888951346
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.13013095002327513,
+        0.4546523065610029
+      ]
+    },
+    "equal/rat+cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.0668393592998367,
+          0.06285585487249909,
+          0.16647337636892576
+        ],
+        [
+          0.3187278553931645,
+          0.7406171136583588,
+          0.42475881046023445
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.12091146853766187,
+        0.43472704731884027
+      ]
+    },
+    "simplex/rat+cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06663120144574952,
+          0.061554745927806916,
+          0.16516357068607745
+        ],
+        [
+          0.3225225391473591,
+          0.7388976624415929,
+          0.4224116313052533
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11986639748767249,
+        0.43405816763317684
+      ]
+    },
+    "equal/rat+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06673629755481451,
+          0.07318630582856221,
+          0.17484032474724562
+        ],
+        [
+          0.3016127608935579,
+          0.8043888560628547,
+          0.4339452586668452
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.12758017779346648,
+        0.4456678093006409
+      ]
+    },
+    "simplex/rat+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06624597775342536,
+          0.07232849995324403,
+          0.17364268276289133
+        ],
+        [
+          0.30219438904132695,
+          0.8036070419242699,
+          0.43449322771120885
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1265624907110611,
+        0.4464872022360214
+      ]
+    },
+    "equal/cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.0618880952364122,
+          0.05039856003747265,
+          0.15060304639025673
+        ],
+        [
+          0.31907175523155595,
+          0.7397029773565695,
+          0.43589944258125723
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11351992969028422,
+        0.4444859044490654
+      ]
+    },
+    "simplex/cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06188588756278262,
+          0.05040689651763975,
+          0.15057743425315764
+        ],
+        [
+          0.3190555638600787,
+          0.7382084121641853,
+          0.4358582640682373
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11372800199238102,
+        0.44421074544638595
+      ]
+    },
+    "equal/mouse+rat+cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06580334889578024,
+          0.05704558201604191,
+          0.15869108410523
+        ],
+        [
+          0.3162053751753578,
+          0.7665424898524705,
+          0.4092294585493133
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11448830172520937,
+        0.42032428976636044
+      ]
+    },
+    "simplex/mouse+rat+cyno": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06491730222099582,
+          0.05554342388687682,
+          0.15702690932839342
+        ],
+        [
+          0.3160662650320527,
+          0.7630804389457837,
+          0.4078339159234978
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11308323165550342,
+        0.41910099164768766
+      ]
+    },
+    "equal/mouse+rat+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06521861884398611,
+          0.06693545395538295,
+          0.16517381919752258
+        ],
+        [
+          0.3013450711707991,
+          0.7957234918609598,
+          0.4172888456575228
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11993417247932,
+        0.43701373008525224
+      ]
+    },
+    "simplex/mouse+rat+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.06432907462717974,
+          0.06612950270147026,
+          0.16417763997344145
+        ],
+        [
+          0.30133399686762546,
+          0.7968278005301446,
+          0.4166616434592149
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.11930223992501676,
+        0.43614885842405127
+      ]
+    },
+    "equal/mouse+cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.059418276186916294,
+          0.0494703279818976,
+          0.14335042735444076
+        ],
+        [
+          0.30129958754006025,
+          0.7695559230673111,
+          0.4074733514692012
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.10705002806948197,
+        0.4224012711654315
+      ]
+    },
+    "simplex/mouse+cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.05896486713059041,
+          0.04882768564933848,
+          0.14281213048055047
+        ],
+        [
+          0.30043167711136526,
+          0.76636069454488,
+          0.40805196036990904
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.10650103340793134,
+        0.42244427037394733
+      ]
+    },
+    "equal/rat+cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.05244911033715473,
+          0.04894015475894468,
+          0.1455473370055301
+        ],
+        [
+          0.2891024093298233,
+          0.7235477111408888,
+          0.4013799639628484
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.10358463132103685,
+        0.4094362232750771
+      ]
+    },
+    "simplex/rat+cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.05213337845861327,
+          0.04835450217234528,
+          0.1447720164340068
+        ],
+        [
+          0.29178893634253633,
+          0.7227050809542116,
+          0.4015524254241959
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1031768711744699,
+        0.40960173573913766
+      ]
+    },
+    "equal/mouse+rat+cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.05396216912632106,
+          0.048712582246023414,
+          0.14424005265203227
+        ],
+        [
+          0.29197727366802073,
+          0.7511645190350276,
+          0.3957564746676857
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.1017469307511704,
+        0.412406853799067
+      ]
+    },
+    "simplex/mouse+rat+cyno+dog": {
+      "per_query_percentile_2_5_97_5": [
+        [
+          0.05341435222635997,
+          0.04766432664495017,
+          0.14319979661722315
+        ],
+        [
+          0.2909067941398991,
+          0.7479238152017328,
+          0.3944655656029549
+        ]
+      ],
+      "macro_percentile_2_5_97_5": [
+        0.10074988249678433,
+        0.41245827902123566
+      ]
+    }
+  },
+  "paired_fixed_estimator_arm_sensitivity": {
+    "best_fixed_source_history": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "point_macro_mse_gain": 0.0,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0,
+          0.0
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.049333409563079404,
+          0.02544075545900605,
+          0.04922973425365765
+        ],
+        "point_macro_mse_gain": 0.04133463309191437,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.24095982663632234,
+            -0.048316233315545624,
+            -0.04889859895946245
+          ],
+          [
+            0.09752120528677176,
+            0.12110162000142824,
+            0.08858817888009052
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.06709931051565031,
+          0.07168932034809078
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.10582851561232684,
+          -0.04817812424644331,
+          -0.061456288839908335
+        ],
+        "point_macro_mse_gain": -0.07182097623289284,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.2120675798400869,
+            -0.22958935781469403,
+            -0.1378727518788265
+          ],
+          [
+            0.31645329793480637,
+            0.098337250090399,
+            0.07845560295350486
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.1279954338989922,
+          0.08877309888686595
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          -0.05649510604924743,
+          -0.022737368787437262,
+          -0.012226554586250687
+        ],
+        "point_macro_mse_gain": -0.03048634314097846,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.14971666621377983,
+            -0.11446530274630448,
+            -0.0678118975074769
+          ],
+          [
+            0.08413338253439523,
+            0.0641307266434718,
+            0.04538351292667795
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.06764365151290455,
+          0.03154560563182992
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.10582851561232684,
+          -0.04817812424644331,
+          -0.061456288839908335
+        ],
+        "point_macro_mse_gain": -0.07182097623289284,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.2120675798400869,
+            -0.22958935781469403,
+            -0.1378727518788265
+          ],
+          [
+            0.31645329793480637,
+            0.098337250090399,
+            0.07845560295350486
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.1279954338989922,
+          0.08877309888686595
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          -0.05649510604924743,
+          -0.022737368787437262,
+          -0.012226554586250687
+        ],
+        "point_macro_mse_gain": -0.03048634314097846,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.14971666621377983,
+            -0.11446530274630448,
+            -0.0678118975074769
+          ],
+          [
+            0.08413338253439523,
+            0.0641307266434718,
+            0.04538351292667795
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.06764365151290455,
+          0.03154560563182992
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/rat": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.07990306032625397,
+          -0.05280432550968886,
+          -0.10351875953971931
+        ],
+        "point_macro_mse_gain": -0.07874204845855405,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.1011241023468105,
+            -0.152991402279667,
+            -0.17029434969458618
+          ],
+          [
+            0.3425978578879037,
+            0.0076909266390388165,
+            0.04412413582348207
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.10530550800515555,
+          0.07587222613497559
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          -0.030569650763174555,
+          -0.02736357005068281,
+          -0.054289025286061665
+        ],
+        "point_macro_mse_gain": -0.037407415366639676,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.048075307386747326,
+            -0.08924826893728433,
+            -0.10734942191194627
+          ],
+          [
+            0.10573203753885344,
+            0.015845481359051134,
+            0.014967411747545904
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.05582545725513743,
+          0.01953872098105559
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/rat": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.07990306032625397,
+          -0.05280432550968886,
+          -0.10351875953971931
+        ],
+        "point_macro_mse_gain": -0.07874204845855405,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.1011241023468105,
+            -0.152991402279667,
+            -0.17029434969458618
+          ],
+          [
+            0.3425978578879037,
+            0.0076909266390388165,
+            0.04412413582348207
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.10530550800515555,
+          0.07587222613497559
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          -0.030569650763174555,
+          -0.02736357005068281,
+          -0.054289025286061665
+        ],
+        "point_macro_mse_gain": -0.037407415366639676,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.048075307386747326,
+            -0.08924826893728433,
+            -0.10734942191194627
+          ],
+          [
+            0.10573203753885344,
+            0.015845481359051134,
+            0.014967411747545904
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.05582545725513743,
+          0.01953872098105559
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "point_macro_mse_gain": 0.0,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0,
+          0.0
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.049333409563079404,
+          0.02544075545900605,
+          0.04922973425365765
+        ],
+        "point_macro_mse_gain": 0.04133463309191437,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.24095982663632234,
+            -0.048316233315545624,
+            -0.04889859895946245
+          ],
+          [
+            0.09752120528677176,
+            0.12110162000142824,
+            0.08858817888009052
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.06709931051565031,
+          0.07168932034809078
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "point_macro_mse_gain": 0.0,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0,
+          0.0
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.049333409563079404,
+          0.02544075545900605,
+          0.04922973425365765
+        ],
+        "point_macro_mse_gain": 0.04133463309191437,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.24095982663632234,
+            -0.048316233315545624,
+            -0.04889859895946245
+          ],
+          [
+            0.09752120528677176,
+            0.12110162000142824,
+            0.08858817888009052
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.06709931051565031,
+          0.07168932034809078
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.011602062313736776,
+          -0.0007805720798920585,
+          -0.031943888635002915
+        ],
+        "point_macro_mse_gain": -0.014775507676210583,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.1853290789514766,
+            -0.1869575082748353,
+            -0.16004455076393367
+          ],
+          [
+            0.35409345999058855,
+            0.10357363560524696,
+            0.10535944216864687
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.10714548416265525,
+          0.11331188945564594
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.03773134724934263,
+          0.024660183379113992,
+          0.017285845618654733
+        ],
+        "point_macro_mse_gain": 0.026559125415703783,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.11669813020006817,
+            -0.09011258359148569,
+            -0.08255990640676496
+          ],
+          [
+            0.13404372210091903,
+            0.06263970893260064,
+            0.06846942719352243
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.045403504633096864,
+          0.06000434737378165
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.011602062313736776,
+          -0.0007805720798920585,
+          -0.031943888635002915
+        ],
+        "point_macro_mse_gain": -0.014775507676210583,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.1853290789514766,
+            -0.1869575082748353,
+            -0.16004455076393367
+          ],
+          [
+            0.35409345999058855,
+            0.10357363560524696,
+            0.10535944216864687
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.10714548416265525,
+          0.11331188945564594
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.03773134724934263,
+          0.024660183379113992,
+          0.017285845618654733
+        ],
+        "point_macro_mse_gain": 0.026559125415703783,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.11669813020006817,
+            -0.09011258359148569,
+            -0.08255990640676496
+          ],
+          [
+            0.13404372210091903,
+            0.06263970893260064,
+            0.06846942719352243
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.045403504633096864,
+          0.06000434737378165
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+rat": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.05045295439327186,
+          -0.012905342667282785,
+          -0.03779930794971237
+        ],
+        "point_macro_mse_gain": -0.03371920167008901,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.07808327046234562,
+            -0.12642136698615394,
+            -0.067732569651969
+          ],
+          [
+            0.3736542227398166,
+            0.09527525115496405,
+            0.10971935837220011
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.054068857067681254,
+          0.13357948859998042
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          -0.0011195448301924565,
+          0.012535412791723266,
+          0.01143042630394528
+        ],
+        "point_macro_mse_gain": 0.007615431421825363,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.0008317704230464268,
+            -0.016194868438469047,
+            0.00455340325516882
+          ],
+          [
+            0.13578551590316756,
+            0.06167655040070502,
+            0.07584236944492573
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.008856016106044902,
+          0.06765312896507285
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+rat": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.05059768868355976,
+          -0.012897276324706053,
+          -0.037904086429556144
+        ],
+        "point_macro_mse_gain": -0.03379968381260732,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.07850126061904615,
+            -0.12667970677873688,
+            -0.06786812329757506
+          ],
+          [
+            0.37326354125767564,
+            0.0953616987216828,
+            0.10957793239403453
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.05413698392710548,
+          0.1335126245738803
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          -0.001264279120480355,
+          0.012543479134299998,
+          0.011325647824101504
+        ],
+        "point_macro_mse_gain": 0.007534949279307049,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.0008503079601356773,
+            -0.01619849752598467,
+            0.004479217102697138
+          ],
+          [
+            0.13539848417293956,
+            0.06177232606454863,
+            0.07575414566547695
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.00864681678722301,
+          0.0676004267150933
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.021561610736660027,
+          0.016834819506993615,
+          0.011255310361908827
+        ],
+        "point_macro_mse_gain": 0.002176173044080805,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.04873088909407909,
+            -0.061749433194676746,
+            -0.0036179939463535913
+          ],
+          [
+            0.3032732679010768,
+            0.09764140286853508,
+            0.12396538238498993
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.011617538208279743,
+          0.12464657813551908
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.027771798826419378,
+          0.042275574965999665,
+          0.060485044615566474
+        ],
+        "point_macro_mse_gain": 0.04351080613599517,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.0008091019937215413,
+            0.0377710024012724,
+            0.05445967897883331
+          ],
+          [
+            0.10361584502966528,
+            0.09131119747831129,
+            0.10648857064861086
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.04035713609949176,
+          0.08267834360318055
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.020242424894530008,
+          0.017711290166496044,
+          0.012304521225935755
+        ],
+        "point_macro_mse_gain": 0.003257795499300597,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.04585478150039677,
+            -0.057305012991959794,
+            -0.001657732777482564
+          ],
+          [
+            0.2989154199368567,
+            0.09560602788417133,
+            0.12273078281311135
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.009622123728112773,
+          0.12369361159901264
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.029090984668549397,
+          0.043152045625502095,
+          0.0615342554795934
+        ],
+        "point_macro_mse_gain": 0.04459242859121496,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.002721552608795184,
+            0.03758676809360383,
+            0.054944357410041486
+          ],
+          [
+            0.10383444691170111,
+            0.09195549179915857,
+            0.10769053556727332
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0404640751988972,
+          0.0832176466947596
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.022096385139621887,
+          0.0025160131969709926,
+          -0.006315466523109575
+        ],
+        "point_macro_mse_gain": -0.00863194615525349,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.07086975383516657,
+            -0.13770300482451298,
+            -0.043447738619544256
+          ],
+          [
+            0.3747693746079915,
+            0.13355654274516063,
+            0.1385367088349262
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.04125408423047494,
+          0.15003424162310577
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.027237024423457518,
+          0.027956768655977043,
+          0.04291426773054807
+        ],
+        "point_macro_mse_gain": 0.032702686936660876,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.014485306592052747,
+            -0.020287092723937007,
+            0.03416924966629864
+          ],
+          [
+            0.13677781804492145,
+            0.09198311770212668,
+            0.09439655480363375
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.026141504878421675,
+          0.08623089095469941
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.021259583116175602,
+          0.003174440468356979,
+          -0.0058690073198061354
+        ],
+        "point_macro_mse_gain": -0.00798471665587492,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.07082399479686748,
+            -0.13911079198627574,
+            -0.04438650320287411
+          ],
+          [
+            0.37561670326055385,
+            0.13354411087086723,
+            0.13898479500208877
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.0410546620551249,
+          0.1507229495688884
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.028073826446903802,
+          0.02861519592736303,
+          0.04336072693385151
+        ],
+        "point_macro_mse_gain": 0.03334991643603945,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.016061154731659873,
+            -0.019685425268232262,
+            0.03398333322701454
+          ],
+          [
+            0.13724874791741828,
+            0.09160772273417497,
+            0.0949402694001091
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.02596994590782577,
+          0.0864365495921377
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/rat+cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.006199348156097781,
+          0.016840144094744013,
+          0.007517535466325415
+        ],
+        "point_macro_mse_gain": 0.006052777134990549,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.011913648783737988,
+            -0.01721845222840367,
+            -0.009178367039051777
+          ],
+          [
+            0.30467130823291727,
+            0.05640763198507872,
+            0.12148696217095344
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.004466888492963198,
+          0.13006382662390756
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.04313406140698162,
+          0.04228089955375006,
+          0.05674726971998306
+        ],
+        "point_macro_mse_gain": 0.04738741022690492,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.02627531471479847,
+            -0.00086284685792001,
+            0.047937992953653114
+          ],
+          [
+            0.1250911530364714,
+            0.11338640197067357,
+            0.10906026611787269
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0386065649436577,
+          0.09401408394664552
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/rat+cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.004825603292709819,
+          0.017871676999774266,
+          0.00905573384346925
+        ],
+        "point_macro_mse_gain": 0.007367269183511232,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.010240656418940612,
+            -0.014165699148716992,
+            -0.006951263535164313
+          ],
+          [
+            0.2980928313642293,
+            0.056187095771342004,
+            0.12070020505994919
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.006259722563018072,
+          0.128828626634362
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.044507806270369585,
+          0.04331243245878032,
+          0.0582854680971269
+        ],
+        "point_macro_mse_gain": 0.0487019022754256,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.02400003492734986,
+            -0.0004193103404262792,
+            0.04958318578596323
+          ],
+          [
+            0.12414660079321566,
+            0.11545354120826683,
+            0.11043095402761659
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0390737870885768,
+          0.09464658564326721
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/rat+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.00953728869596581,
+          0.008908489149728777,
+          -0.006222279547422688
+        ],
+        "point_macro_mse_gain": -0.002283693031219907,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.04583612259781624,
+            -0.08718588787537694,
+            -0.03637372608455963
+          ],
+          [
+            0.38987575994557383,
+            0.096831332585223,
+            0.1445805564974541
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.02541656083657528,
+          0.15315614115617693
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.039796120867113594,
+          0.03434924460873483,
+          0.04300745470623496
+        ],
+        "point_macro_mse_gain": 0.03905094006069446,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03037874904613246,
+            0.020559320872294482,
+            0.04045923512672929
+          ],
+          [
+            0.15945211875579599,
+            0.06280625505418891,
+            0.09544380047579618
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.03976217749007176,
+          0.08987256870012318
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/rat+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.008604263776335594,
+          0.009700891015957253,
+          -0.005266416987441541
+        ],
+        "point_macro_mse_gain": -0.0013899299159399608,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.04686498156787606,
+            -0.087722520719601,
+            -0.03690580754320162
+          ],
+          [
+            0.39090237192969846,
+            0.09785448948911869,
+            0.1441494965320835
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.025307276043955242,
+          0.1538999771684758
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.04072914578674381,
+          0.0351416464749633,
+          0.043963317266216106
+        ],
+        "point_macro_mse_gain": 0.03994470317597441,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03075668091242048,
+            0.020578253947275006,
+            0.040739473416158974
+          ],
+          [
+            0.16046437174599376,
+            0.0638581846876267,
+            0.0961178954107455
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.039919567372673076,
+          0.0898337587172682
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.007839032955510326,
+          0.028663444662685056,
+          0.016021773124950983
+        ],
+        "point_macro_mse_gain": 0.01750808358104879,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.027179260584015975,
+            -0.04033396187718308,
+            -0.01298407648492368
+          ],
+          [
+            0.30869163170145625,
+            0.090153562281879,
+            0.13204969033111438
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -1.430682261662513e-05,
+          0.1299324407793279
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.05717244251858973,
+          0.05410420012169111,
+          0.06525150737860863
+        ],
+        "point_macro_mse_gain": 0.058842716672963154,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03725202768458214,
+            0.03172890551255265,
+            0.04687610712868566
+          ],
+          [
+            0.10667957489126575,
+            0.10472747070161993,
+            0.1091716293237137
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.05123127827051085,
+          0.08862573523116113
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.007882950399363604,
+          0.028664358747142113,
+          0.016068910301603623
+        ],
+        "point_macro_mse_gain": 0.017538739816036448,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.02633192883908964,
+            -0.039527974894681656,
+            -0.012750365721054705
+          ],
+          [
+            0.30720963095582476,
+            0.08976069003548076,
+            0.13190757540911854
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.00028934587199770694,
+          0.12934155455929253
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.05721635996244301,
+          0.054105114206148164,
+          0.06529864455526127
+        ],
+        "point_macro_mse_gain": 0.05887337290795081,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03693799517733598,
+            0.0312440469393255,
+            0.046949711861135016
+          ],
+          [
+            0.1060521219328976,
+            0.10530873721593063,
+            0.10925538738239096
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.05118644169196173,
+          0.08863771816760731
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+rat+cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.014124897467281981,
+          0.020451214832661282,
+          0.009874355543746105
+        ],
+        "point_macro_mse_gain": 0.005400224303041802,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.025340824394362797,
+            -0.05012198101222714,
+            -0.004529041533927523
+          ],
+          [
+            0.3584399307026457,
+            0.09835681795022809,
+            0.14537237155835567
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.0007186637663295998,
+          0.14967781225504723
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.03520851209579742,
+          0.04589197029166733,
+          0.05910408979740375
+        ],
+        "point_macro_mse_gain": 0.04673485739495617,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03904239241267008,
+            0.043616205617084985,
+            0.060807464124461495
+          ],
+          [
+            0.14069758378242753,
+            0.0951817205146957,
+            0.11762063717065717
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.05569370507336756,
+          0.0972312914858366
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+rat+cyno": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.012454647905740072,
+          0.02184061807788143,
+          0.011658828233065882
+        ],
+        "point_macro_mse_gain": 0.007014932801735746,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.022978834924532107,
+            -0.04546616279632731,
+            -0.002047051486624699
+          ],
+          [
+            0.35526578965109523,
+            0.09695567536970541,
+            0.14519309190328353
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0016889455395814167,
+          0.14880869286166906
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.03687876165733933,
+          0.04728137353688748,
+          0.06088856248672353
+        ],
+        "point_macro_mse_gain": 0.048349565893650116,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03996807765559424,
+            0.042731042859632105,
+            0.06266698700226596
+          ],
+          [
+            0.1382360952409863,
+            0.0984602322729708,
+            0.11839183213912391
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.05681031480836982,
+          0.09817411789540743
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+rat+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.014556986073680077,
+          0.010648851172632472,
+          -0.0004921421184830854
+        ],
+        "point_macro_mse_gain": -0.0014667590065102303,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.03554701626901594,
+            -0.09734384558192417,
+            -0.020201175757707444
+          ],
+          [
+            0.3956319536209929,
+            0.12005395517724246,
+            0.1467087761778766
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.019625224225686123,
+          0.16114766725474472
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.03477642348939933,
+          0.03608960663163852,
+          0.04873759213517456
+        ],
+        "point_macro_mse_gain": 0.03986787408540413,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.03942172637363982,
+            0.018749345465032874,
+            0.052719077614136745
+          ],
+          [
+            0.16271451535214568,
+            0.08083597811667216,
+            0.10511797372401332
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0473351065715166,
+          0.09629623040812316
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+rat+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.013465807313487607,
+          0.011463280468992629,
+          0.00046573934580204646
+        ],
+        "point_macro_mse_gain": -0.0005122624995643107,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.03456074898796943,
+            -0.09608577695654667,
+            -0.019151615329049278
+          ],
+          [
+            0.39502389929452436,
+            0.12026941405254549,
+            0.14783777050383493
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          -0.01877656663636251,
+          0.1614328036488082
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.0358676022495918,
+          0.03690403592799868,
+          0.049695473599459694
+        ],
+        "point_macro_mse_gain": 0.040822370592350055,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.04039220634369939,
+            0.020122600828359625,
+            0.05377448717703077
+          ],
+          [
+            0.1616986949477448,
+            0.08178566647382257,
+            0.10575459101067351
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.04819755887963097,
+          0.09716382267432931
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.002871697084113632,
+          0.02677953397699267,
+          0.019694071703323573
+        ],
+        "point_macro_mse_gain": 0.014533969532067537,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.02344221476146997,
+            -0.06199134320200323,
+            0.0028345160531893275
+          ],
+          [
+            0.35244141971557413,
+            0.12009650609650056,
+            0.1560693972002399
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0010472233028652634,
+          0.15832845598034495
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.04646171247896577,
+          0.05222028943599872,
+          0.06892380595698122
+        ],
+        "point_macro_mse_gain": 0.055868602623981904,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.049027254017838535,
+            0.050429102240273305,
+            0.0695642456088333
+          ],
+          [
+            0.12821861788431008,
+            0.09111589843959404,
+            0.11899360702891926
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.06396429430535333,
+          0.09733615082426529
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.0020262030438005715,
+          0.02750721387972481,
+          0.020333466195609634
+        ],
+        "point_macro_mse_gain": 0.015271492343844624,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.022057096795104737,
+            -0.058663099648576016,
+            0.0036331958759824056
+          ],
+          [
+            0.35058951937053023,
+            0.11894368718042396,
+            0.15623582132643218
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.0021282838113625365,
+          0.15764001825087456
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.04730720651927883,
+          0.05294796933873086,
+          0.06956320044926728
+        ],
+        "point_macro_mse_gain": 0.05660612543575899,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.050121637898977105,
+            0.05284142622160331,
+            0.06989428802566215
+          ],
+          [
+            0.1267092385572321,
+            0.0910619782425133,
+            0.11946746555515896
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.06462262573869236,
+          0.09739459421171802
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/rat+cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.006657189672641964,
+          0.030137023246468032,
+          0.022747862705570804
+        ],
+        "point_macro_mse_gain": 0.019847358541560268,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.005767099218550255,
+            -0.0269502595019194,
+            0.009439012657663445
+          ],
+          [
+            0.3626509180618425,
+            0.09533264458358279,
+            0.15945261024052168
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.013650022843442047,
+          0.16222896309139148
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.05599059923572137,
+          0.05557777870547408,
+          0.07197759695922845
+        ],
+        "point_macro_mse_gain": 0.06118199163347463,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.05495088889596138,
+            0.04068006621941987,
+            0.07557348688255232
+          ],
+          [
+            0.14062052875974568,
+            0.10304104308227469,
+            0.12252550670348629
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.06659500695855561,
+          0.10611976447629466
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/rat+cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.007275655259985421,
+          0.03070594881433479,
+          0.023420027225082768
+        ],
+        "point_macro_mse_gain": 0.020467210433134327,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.005450564738814035,
+            -0.02564856255611649,
+            0.010024875080819692
+          ],
+          [
+            0.3601389752955953,
+            0.09554704373187882,
+            0.1592722030208205
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.014231181156933318,
+          0.16184720398855157
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.056609064823064825,
+          0.05614670427334084,
+          0.07264976147874042
+        ],
+        "point_macro_mse_gain": 0.061801843525048694,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.055340644990696554,
+            0.04076221230895264,
+            0.0762223850022668
+          ],
+          [
+            0.1392038851218958,
+            0.10415265258869408,
+            0.12346960845530056
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.06688786554012391,
+          0.10605451205523861
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "equal/mouse+rat+cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          -0.0008354337599870698,
+          0.027934769715462944,
+          0.02072925836006395
+        ],
+        "point_macro_mse_gain": 0.01594286477184661,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.011709424138645359,
+            -0.048273514523133144,
+            0.00922229514469437
+          ],
+          [
+            0.3798867887221627,
+            0.1151426056225747,
+            0.16349363325021782
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.00803661215047678,
+          0.16878618041416507
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.048497975803092334,
+          0.053375525174468995,
+          0.0699589926137216
+        ],
+        "point_macro_mse_gain": 0.05727749786376098,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.05414985427380783,
+            0.05659566386461585,
+            0.07611382178345086
+          ],
+          [
+            0.15178294903637796,
+            0.09214649708460071,
+            0.12551059154102104
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.06937316443708619,
+          0.10789046391565776
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    },
+    "simplex/mouse+rat+cyno+dog": {
+      "best_fixed_source_history": {
+        "point_mse_gain_by_query": [
+          0.0004226300464004046,
+          0.02904821446372824,
+          0.021988663152689936
+        ],
+        "point_macro_mse_gain": 0.017153169220939526,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            -0.009956147102389443,
+            -0.045520800990990755,
+            0.010909351935959042
+          ],
+          [
+            0.37830954399073974,
+            0.1146742679217695,
+            0.1636246774167052
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.009468749129742915,
+          0.1683501266133079
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      },
+      "uniform_random_single_source_expected_loss": {
+        "point_mse_gain_by_query": [
+          0.04975603960947981,
+          0.05448896992273429,
+          0.07121839740634758
+        ],
+        "point_macro_mse_gain": 0.058487802312853894,
+        "measurement_resampling_per_query_percentiles": [
+          [
+            0.05522007988411246,
+            0.05722734825981656,
+            0.0771241082473025
+          ],
+          [
+            0.15061062021895577,
+            0.09316454791767002,
+            0.12629895887353176
+          ]
+        ],
+        "measurement_resampling_macro_percentiles": [
+          0.07058034840915677,
+          0.10819213930902703
+        ],
+        "warning": "Fixed-estimator arm-record sensitivity, not a task/generalization confidence interval; source acquisition budgets differ where subset sizes differ."
+      }
+    }
+  },
+  "sensitivity_warning": "Biological IDs/independence unknown; percentile ranges are measured-arm sensitivity, not donor/generalization confidence intervals. No task/gene bootstrap or significance claim.",
+  "remaining_identifiability_limits": [
+    "3drugs/2pathways; no stable generalization confidence interval.",
+    "No new independent study/untouched test; earlier public human outcomes were inspected.",
+    "No validated strong human molecular prior; zero/history/contextmean controls are limited.",
+    "No learned deep/context source selector; two historical tasks per LOPO split.",
+    "Biological donor identities and cross-arm pairing unresolved.",
+    "Four-source totalbudget3-per-role comparison impossible with at least one profile/source.",
+    "Source species, cell system, protocol and donor mixture are not factorially separated.",
+    "Arm normalization uses a fixed complete native gene support; missing565dog genes were excluded from its library support, never imputed aszero."
+  ]
+}

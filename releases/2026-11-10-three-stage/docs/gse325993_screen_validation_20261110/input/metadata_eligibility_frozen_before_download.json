@@ -1,0 +1,30 @@
+{
+  "before_GEX_acquisition": true,
+  "rule": "same exp2 strict single dominant guide: unique highest UMI, >10 dominantUMI, secondary fraction<0.1, secondaryUMI<1000; exact author demux; conditionNTC/POU5F1",
+  "human_total": 12136,
+  "human_all_pass": true,
+  "human_eligible": 12136,
+  "human_excluded": 0,
+  "two_anomalies_outside_human_scope": [
+    {
+      "species": "cynomolgus",
+      "individual": "QC-14K16S07",
+      "capture": "exp3_chip1_lane7",
+      "barcode": "CCAATCCTCACGATGT-1",
+      "dominant_guide": "macFas6_POU5F1_n10",
+      "condition": "POU5F1",
+      "passes_simple_dominant_rule": false
+    },
+    {
+      "species": "cynomolgus",
+      "individual": "QC-14K16S07",
+      "capture": "exp3_chip2_lane2",
+      "barcode": "TTCTCAACAGTAGAGC-1",
+      "dominant_guide": "hg38_FUBP1_n2",
+      "condition": "unresolved_other_dominant",
+      "passes_simple_dominant_rule": false
+    }
+  ],
+  "scope": "independent experimental screen of same two human genotype lines; no new donor or study",
+  "input_source_bytes": 567757366
+}

@@ -1,0 +1,12 @@
+{
+  "biological_fits": 0,
+  "scratch_artificial_steps": 3,
+  "files": {
+    "src/cross_species/state_assay_adapter.py": "fce6ede9f0ff1cf2202101dbbafd51dfbfa98e3a130cc375cc9b6c4f7cf9b15c",
+    "scripts/probe_state_assay_adapter.py": "67abeffa2424cf21304439beecf4940bdf773895febe785af0bcf6971cd3a246",
+    "src/cross_species/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+    "scripts/run_g105_donor_augmentation.py": "16007ce7d7544ab000b317573157811113942f68176bec3298e3346806736768"
+  },
+  "report_sha256": "0d9cf542e0b4ecc4b8b4521286e45e4281c2c2240e4f578fb989c91f2a96a2ea",
+  "artificial_human_context_change_l2": 0.15521589453099052
+}

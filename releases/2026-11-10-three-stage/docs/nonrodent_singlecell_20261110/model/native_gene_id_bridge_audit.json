@@ -1,0 +1,536 @@
+{
+  "method": "Native checkpoint symbols exact-matched to pinned official HepG2 raw file gene_name, requiring unique Ensembl stable ID. Version suffixes stripped for stable ID join. No aliases inferred.",
+  "model_genes": 6546,
+  "mapped_native_symbols": 6544,
+  "human_axis_observed": 6457,
+  "unresolved_symbols": [
+    "HSPA14",
+    "HSPA14-1"
+  ],
+  "mapped_but_human_axis_absent": [
+    {
+      "native_index": "130",
+      "gene_symbol": "SNHG3",
+      "human_ensembl_gene_id": "ENSG00000242125",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "389",
+      "gene_symbol": "SEC22B",
+      "human_ensembl_gene_id": "ENSG00000265808",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "390",
+      "gene_symbol": "SRGAP2C",
+      "human_ensembl_gene_id": "ENSG00000171943",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "392",
+      "gene_symbol": "RNF115",
+      "human_ensembl_gene_id": "ENSG00000265491",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "395",
+      "gene_symbol": "RBM8A",
+      "human_ensembl_gene_id": "ENSG00000265241",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "396",
+      "gene_symbol": "LIX1L",
+      "human_ensembl_gene_id": "ENSG00000271601",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "406",
+      "gene_symbol": "MRPS21",
+      "human_ensembl_gene_id": "ENSG00000266472",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "518",
+      "gene_symbol": "GAS5",
+      "human_ensembl_gene_id": "ENSG00000234741",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "578",
+      "gene_symbol": "SRGAP2",
+      "human_ensembl_gene_id": "ENSG00000266028",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "793",
+      "gene_symbol": "PPP4R3B",
+      "human_ensembl_gene_id": "ENSG00000275052",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "959",
+      "gene_symbol": "AC097448.1",
+      "human_ensembl_gene_id": "ENSG00000288066",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "1258",
+      "gene_symbol": "RBM15B",
+      "human_ensembl_gene_id": "ENSG00000259956",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "1282",
+      "gene_symbol": "DCP1A",
+      "human_ensembl_gene_id": "ENSG00000272886",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "1463",
+      "gene_symbol": "EEF1AKMT4",
+      "human_ensembl_gene_id": "ENSG00000284753",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "1574",
+      "gene_symbol": "DANCR",
+      "human_ensembl_gene_id": "ENSG00000226950",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "1814",
+      "gene_symbol": "TAF9",
+      "human_ensembl_gene_id": "ENSG00000273841",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "1934",
+      "gene_symbol": "SNHG4",
+      "human_ensembl_gene_id": "ENSG00000281398",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2255",
+      "gene_symbol": "SNHG5",
+      "human_ensembl_gene_id": "ENSG00000203875",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2266",
+      "gene_symbol": "CASP8AP2",
+      "human_ensembl_gene_id": "ENSG00000118412",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2445",
+      "gene_symbol": "GARS-DT",
+      "human_ensembl_gene_id": "ENSG00000196295",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2510",
+      "gene_symbol": "GTF2I",
+      "human_ensembl_gene_id": "ENSG00000263001",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2512",
+      "gene_symbol": "POM121C",
+      "human_ensembl_gene_id": "ENSG00000272391",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2579",
+      "gene_symbol": "POLR2J3",
+      "human_ensembl_gene_id": "ENSG00000285437",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2725",
+      "gene_symbol": "UBXN8",
+      "human_ensembl_gene_id": "ENSG00000104691",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2785",
+      "gene_symbol": "SNHG6",
+      "human_ensembl_gene_id": "ENSG00000245910",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2870",
+      "gene_symbol": "PVT1",
+      "human_ensembl_gene_id": "ENSG00000249859",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2878",
+      "gene_symbol": "JRK",
+      "human_ensembl_gene_id": "ENSG00000234616",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2895",
+      "gene_symbol": "BOP1",
+      "human_ensembl_gene_id": "ENSG00000261236",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2912",
+      "gene_symbol": "WASHC1",
+      "human_ensembl_gene_id": "ENSG00000181404",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "2957",
+      "gene_symbol": "EBLN3P",
+      "human_ensembl_gene_id": "ENSG00000281649",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3222",
+      "gene_symbol": "TIMM23",
+      "human_ensembl_gene_id": "ENSG00000265354",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3223",
+      "gene_symbol": "NCOA4",
+      "human_ensembl_gene_id": "ENSG00000266412",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3313",
+      "gene_symbol": "ZNF518A",
+      "human_ensembl_gene_id": "ENSG00000177853",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3348",
+      "gene_symbol": "RPARP-AS1",
+      "human_ensembl_gene_id": "ENSG00000269609",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3569",
+      "gene_symbol": "SNHG1",
+      "human_ensembl_gene_id": "ENSG00000255717",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3715",
+      "gene_symbol": "SRSF8",
+      "human_ensembl_gene_id": "ENSG00000263465",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "3827",
+      "gene_symbol": "SMIM10L1",
+      "human_ensembl_gene_id": "ENSG00000256537",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4033",
+      "gene_symbol": "HELLPAR",
+      "human_ensembl_gene_id": "ENSG00000281344",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4111",
+      "gene_symbol": "ORAI1",
+      "human_ensembl_gene_id": "ENSG00000276045",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4231",
+      "gene_symbol": "DLEU2",
+      "human_ensembl_gene_id": "ENSG00000231607",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4262",
+      "gene_symbol": "PCCA-DT",
+      "human_ensembl_gene_id": "ENSG00000274605",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4309",
+      "gene_symbol": "DHRS4-AS1",
+      "human_ensembl_gene_id": "ENSG00000215256",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4507",
+      "gene_symbol": "CYFIP1",
+      "human_ensembl_gene_id": "ENSG00000273749",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4508",
+      "gene_symbol": "TUBGCP5",
+      "human_ensembl_gene_id": "ENSG00000275835",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4537",
+      "gene_symbol": "OIP5-AS1",
+      "human_ensembl_gene_id": "ENSG00000247556",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4574",
+      "gene_symbol": "GABPB1-IT1",
+      "human_ensembl_gene_id": "ENSG00000285410",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4575",
+      "gene_symbol": "GABPB1-AS1",
+      "human_ensembl_gene_id": "ENSG00000244879",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4710",
+      "gene_symbol": "LINC01578",
+      "human_ensembl_gene_id": "ENSG00000272888",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4866",
+      "gene_symbol": "PAGR1",
+      "human_ensembl_gene_id": "ENSG00000280789",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "4909",
+      "gene_symbol": "HNRNPA1P48",
+      "human_ensembl_gene_id": "ENSG00000224578",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5122",
+      "gene_symbol": "SNHG29",
+      "human_ensembl_gene_id": "ENSG00000175061",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5186",
+      "gene_symbol": "TAF15",
+      "human_ensembl_gene_id": "ENSG00000270647",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5187",
+      "gene_symbol": "ZNHIT3",
+      "human_ensembl_gene_id": "ENSG00000273611",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5188",
+      "gene_symbol": "MYO19",
+      "human_ensembl_gene_id": "ENSG00000278259",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5189",
+      "gene_symbol": "PIGW",
+      "human_ensembl_gene_id": "ENSG00000277161",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5190",
+      "gene_symbol": "GGNBP2",
+      "human_ensembl_gene_id": "ENSG00000278311",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5191",
+      "gene_symbol": "AATF",
+      "human_ensembl_gene_id": "ENSG00000275700",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5192",
+      "gene_symbol": "ACACA",
+      "human_ensembl_gene_id": "ENSG00000278540",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5193",
+      "gene_symbol": "DUSP14",
+      "human_ensembl_gene_id": "ENSG00000276023",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5194",
+      "gene_symbol": "SYNRG",
+      "human_ensembl_gene_id": "ENSG00000275066",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5195",
+      "gene_symbol": "DDX52",
+      "human_ensembl_gene_id": "ENSG00000278053",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5196",
+      "gene_symbol": "MRPL45",
+      "human_ensembl_gene_id": "ENSG00000278845",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5197",
+      "gene_symbol": "MLLT6",
+      "human_ensembl_gene_id": "ENSG00000275023",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5198",
+      "gene_symbol": "CISD3",
+      "human_ensembl_gene_id": "ENSG00000277972",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5199",
+      "gene_symbol": "PCGF2",
+      "human_ensembl_gene_id": "ENSG00000277258",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5200",
+      "gene_symbol": "PSMB3",
+      "human_ensembl_gene_id": "ENSG00000277791",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5201",
+      "gene_symbol": "PIP4K2B",
+      "human_ensembl_gene_id": "ENSG00000276293",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5202",
+      "gene_symbol": "CWC25",
+      "human_ensembl_gene_id": "ENSG00000273559",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5268",
+      "gene_symbol": "AC005670.3",
+      "human_ensembl_gene_id": "ENSG00000262879",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5273",
+      "gene_symbol": "AC018521.5",
+      "human_ensembl_gene_id": "ENSG00000264920",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5385",
+      "gene_symbol": "SNHG16",
+      "human_ensembl_gene_id": "ENSG00000163597",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5566",
+      "gene_symbol": "SPPL2B",
+      "human_ensembl_gene_id": "ENSG00000005206",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5597",
+      "gene_symbol": "UHRF1",
+      "human_ensembl_gene_id": "ENSG00000276043",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5934",
+      "gene_symbol": "ERVK3-1",
+      "human_ensembl_gene_id": "ENSG00000142396",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5935",
+      "gene_symbol": "AC010642.2",
+      "human_ensembl_gene_id": "ENSG00000283103",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "5942",
+      "gene_symbol": "ZCCHC3",
+      "human_ensembl_gene_id": "ENSG00000247315",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6052",
+      "gene_symbol": "SNHG17",
+      "human_ensembl_gene_id": "ENSG00000196756",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6053",
+      "gene_symbol": "SNHG11",
+      "human_ensembl_gene_id": "ENSG00000174365",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6134",
+      "gene_symbol": "CU638689.4",
+      "human_ensembl_gene_id": "ENSG00000280145",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6250",
+      "gene_symbol": "TTC28-AS1",
+      "human_ensembl_gene_id": "ENSG00000235954",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6289",
+      "gene_symbol": "NOL12",
+      "human_ensembl_gene_id": "ENSG00000273899",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6294",
+      "gene_symbol": "AL022311.1",
+      "human_ensembl_gene_id": "ENSG00000279738",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6339",
+      "gene_symbol": "Z95331.1",
+      "human_ensembl_gene_id": "ENSG00000280383",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6357",
+      "gene_symbol": "SCO2",
+      "human_ensembl_gene_id": "ENSG00000284194",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6366",
+      "gene_symbol": "BX890604.2",
+      "human_ensembl_gene_id": "ENSG00000285756",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6429",
+      "gene_symbol": "NBDY",
+      "human_ensembl_gene_id": "ENSG00000204272",
+      "author_human_axis_observed": false
+    },
+    {
+      "native_index": "6507",
+      "gene_symbol": "CCNQ",
+      "human_ensembl_gene_id": "ENSG00000262919",
+      "author_human_axis_observed": false
+    }
+  ],
+  "source_gene_id_sha256": "e3d35e30b4a4786c93625bd98e87ddc555e73edda611e86e60537090a541f751",
+  "source_gene_name_sha256": "8e67f5b3e47ffd9b08cda1640ec8f200002ddd1ae3454bc98f81f86ecab1144f"
+}

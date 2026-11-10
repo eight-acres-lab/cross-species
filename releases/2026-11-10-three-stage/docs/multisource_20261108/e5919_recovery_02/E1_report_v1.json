@@ -1,0 +1,568 @@
+{
+  "evidence_level": "E1_descriptive",
+  "protocol_sha256": "710425413dbee179b5dc975b6b7d66ff74ddd1fd90143f97c52f94366e4decd6",
+  "script_sha256": "38fcca43022b5e34f40ca293073afc03e18b4a44832b81c2027da5e1d9066d1c",
+  "e0_audit_sha256": "27205c0924256c0aa97885c0979ed0408267cdd4fad420befa06d70705f880cb",
+  "input_files": {
+    "author_processed_arrays.npz": "c107c8ab2b76e9dc00e2a362a428351678ef4a6f0b3f71516982804103c039ad",
+    "sample_metadata.json": "0705f8e7c31ac1d2e9241126d86b4389070f69c7b4cede43e5f921e80577ba9e",
+    "contrast_specification.json": "1ed86e1a934724c22a1547998f6463ea1544dd7aed06cf5692d6c814da2295f0",
+    "gene_axis.tsv": "54db350edbfb669a1face751b9a351b7f554571aab0962ea0605c7cc6849a03f"
+  },
+  "units": "paired difference in log2(1+author Salmon TPM), on author common ortholog subset; no column re-normalization",
+  "genes": 15851,
+  "human_author_individuals": 6,
+  "mouse_author_individuals": 3,
+  "stimulus_families": [
+    "IFNB",
+    "polyIC"
+  ],
+  "point_results": [
+    {
+      "stimulus": "IFNB",
+      "mean_human_target": {
+        "same_stimulus_mouse": {
+          "mse": 0.24054826711917993,
+          "pearson": 0.5324169881558297,
+          "predicted_rms": 0.5685708109964467,
+          "human_rms": 0.39921212439562065
+        },
+        "zero_response": {
+          "mse": 0.1593703202644645,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "human_rms": 0.39921212439562065
+        },
+        "other_stimulus_mouse": {
+          "mse": 0.2807252775765823,
+          "pearson": 0.40689286865277935,
+          "predicted_rms": 0.5473885006635562,
+          "human_rms": 0.39921212439562065
+        }
+      },
+      "human_individual_targets": [
+        {
+          "author_individual": "1",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.26462599111375384,
+              "pearson": 0.4847721479509494,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.409753718807459
+            },
+            "zero_response": {
+              "mse": 0.16789811007654218,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.409753718807459
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.29730060403011294,
+              "pearson": 0.3783197102042331,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.409753718807459
+            }
+          }
+        },
+        {
+          "author_individual": "2",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.27707573688832865,
+              "pearson": 0.48606600648168347,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.45940678688711944
+            },
+            "zero_response": {
+              "mse": 0.21105459583794717,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.45940678688711944
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.32085651414731264,
+              "pearson": 0.3753174063713395,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.45940678688711944
+            }
+          }
+        },
+        {
+          "author_individual": "3",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.2777764845816998,
+              "pearson": 0.4921899767794677,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.4568014303622439
+            },
+            "zero_response": {
+              "mse": 0.20866754678099195,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.4568014303622439
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.3217619573763143,
+              "pearson": 0.3734991273615781,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.4568014303622439
+            }
+          }
+        },
+        {
+          "author_individual": "4",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.2663964610902063,
+              "pearson": 0.49280202240280563,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.4361296347134971
+            },
+            "zero_response": {
+              "mse": 0.19020905827532839,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.4361296347134971
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.30480600680530995,
+              "pearson": 0.38548778262468236,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.4361296347134971
+            }
+          }
+        },
+        {
+          "author_individual": "5",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.26209816609799513,
+              "pearson": 0.5095376019270037,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.4329428111669326
+            },
+            "zero_response": {
+              "mse": 0.18743947774112626,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.4329428111669326
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.30506194507856427,
+              "pearson": 0.38520335104987996,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.4329428111669326
+            }
+          }
+        },
+        {
+          "author_individual": "6",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.27225822027587593,
+              "pearson": 0.4764462057576036,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.4097494236818777
+            },
+            "zero_response": {
+              "mse": 0.16789459020763095,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.4097494236818777
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.3115060953546599,
+              "pearson": 0.35000301920335253,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.4097494236818777
+            }
+          }
+        }
+      ],
+      "mean_target_relative_mse_reduction_over_zero": {
+        "same_stimulus_mouse": -0.5093667799625803,
+        "zero_response": 0.0,
+        "other_stimulus_mouse": -0.7614652283482726
+      }
+    },
+    {
+      "stimulus": "polyIC",
+      "mean_human_target": {
+        "same_stimulus_mouse": {
+          "mse": 0.22810283631493716,
+          "pearson": 0.5428919997077319,
+          "predicted_rms": 0.5473885006635562,
+          "human_rms": 0.41233201136534003
+        },
+        "zero_response": {
+          "mse": 0.1700176875965869,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "human_rms": 0.41233201136534003
+        },
+        "other_stimulus_mouse": {
+          "mse": 0.3418901292892397,
+          "pearson": 0.3368567375520381,
+          "predicted_rms": 0.5685708109964467,
+          "human_rms": 0.41233201136534003
+        }
+      },
+      "human_individual_targets": [
+        {
+          "author_individual": "1",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.3475444152837587,
+              "pearson": 0.4317681933140237,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.5334256622394136
+            },
+            "zero_response": {
+              "mse": 0.2845429371355569,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.5334256622394136
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.44574121170180325,
+              "pearson": 0.3058342052641692,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.5334256622394136
+            }
+          }
+        },
+        {
+          "author_individual": "2",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.2757897015641201,
+              "pearson": 0.4752587856435874,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.47121083440973477
+            },
+            "zero_response": {
+              "mse": 0.2220396504651185,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.47121083440973477
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.39978741856396155,
+              "pearson": 0.2667954270232051,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.47121083440973477
+            }
+          }
+        },
+        {
+          "author_individual": "3",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.3088652083900407,
+              "pearson": 0.44470309792012963,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.4966479394092057
+            },
+            "zero_response": {
+              "mse": 0.24665917571941007,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.4966479394092057
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.4360396396125892,
+              "pearson": 0.2513347078435479,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.4966479394092057
+            }
+          }
+        },
+        {
+          "author_individual": "4",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.24833891664915742,
+              "pearson": 0.47349984680193513,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.3811969434274127
+            },
+            "zero_response": {
+              "mse": 0.1453111096784021,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.3811969434274127
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.35844749050907126,
+              "pearson": 0.2594154903988916,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.3811969434274127
+            }
+          }
+        },
+        {
+          "author_individual": "5",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.24441587064406994,
+              "pearson": 0.5391798563515955,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.4723354393503181
+            },
+            "zero_response": {
+              "mse": 0.223100767266258,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.4723354393503181
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.3614321881997238,
+              "pearson": 0.3471405296995238,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.4723354393503181
+            }
+          }
+        },
+        {
+          "author_individual": "6",
+          "rules": {
+            "same_stimulus_mouse": {
+              "mse": 0.26975651105066856,
+              "pearson": 0.5031859903494089,
+              "predicted_rms": 0.5473885006635562,
+              "human_rms": 0.47386294538291174
+            },
+            "zero_response": {
+              "mse": 0.2245460910069684,
+              "pearson": null,
+              "predicted_rms": 0.0,
+              "human_rms": 0.47386294538291174
+            },
+            "other_stimulus_mouse": {
+              "mse": 0.37598643284048133,
+              "pearson": 0.33990525172020825,
+              "predicted_rms": 0.5685708109964467,
+              "human_rms": 0.47386294538291174
+            }
+          }
+        }
+      ],
+      "mean_target_relative_mse_reduction_over_zero": {
+        "same_stimulus_mouse": -0.3416417993883851,
+        "zero_response": 0.0,
+        "other_stimulus_mouse": -1.010909183169617
+      }
+    }
+  ],
+  "resampling_sensitivity": [
+    {
+      "stimulus": "IFNB",
+      "interpretation": "Descriptive sensitivity to resampling the observed author individuals; not a multi-stimulus population confidence interval or p-value",
+      "rules": {
+        "same_stimulus_mouse": {
+          "mse": [
+            0.24187801240369478,
+            0.25402967485033207,
+            0.3044687915671299
+          ],
+          "pearson": [
+            0.4590106772327272,
+            0.5217298340903284,
+            0.5401347742431891
+          ],
+          "predicted_rms": [
+            0.5685708109964466,
+            0.5802588375119716,
+            0.6064421316229569
+          ],
+          "human_rms": [
+            0.3900021631419973,
+            0.4043920158204845,
+            0.42552864878112806
+          ],
+          "relative_mse_reduction_over_zero_quantiles": [
+            -0.8716787058132298,
+            -0.5591354313145411,
+            -0.4088036501936172
+          ],
+          "fraction_resamples_lower_mse_than_zero": 0.0
+        },
+        "zero_response": {
+          "mse": [
+            0.15210168739901092,
+            0.163532902459355,
+            0.18107463093349263
+          ],
+          "pearson": null,
+          "predicted_rms": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "human_rms": [
+            0.3900021631419973,
+            0.4043920158204845,
+            0.42552864878112806
+          ],
+          "relative_mse_reduction_over_zero_quantiles": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fraction_resamples_lower_mse_than_zero": 0.0
+        },
+        "other_stimulus_mouse": {
+          "mse": [
+            0.25936659908352216,
+            0.28704527492428156,
+            0.38631958801154254
+          ],
+          "pearson": [
+            0.36286400415669545,
+            0.3969720850263684,
+            0.4108628549710127
+          ],
+          "predicted_rms": [
+            0.5144885871644987,
+            0.5473885006635562,
+            0.6549154069682789
+          ],
+          "human_rms": [
+            0.3900021631419973,
+            0.4043920158204845,
+            0.42552864878112806
+          ],
+          "relative_mse_reduction_over_zero_quantiles": [
+            -1.346131444047905,
+            -0.7697066148712195,
+            -0.5476308266118628
+          ],
+          "fraction_resamples_lower_mse_than_zero": 0.0
+        }
+      }
+    },
+    {
+      "stimulus": "polyIC",
+      "interpretation": "Descriptive sensitivity to resampling the observed author individuals; not a multi-stimulus population confidence interval or p-value",
+      "rules": {
+        "same_stimulus_mouse": {
+          "mse": [
+            0.20873829677107825,
+            0.2426845168090926,
+            0.3263524615038571
+          ],
+          "pearson": [
+            0.4780975997858557,
+            0.5235212893451064,
+            0.5519582460273281
+          ],
+          "predicted_rms": [
+            0.5144885871644987,
+            0.5473885006635562,
+            0.6549154069682789
+          ],
+          "human_rms": [
+            0.39073019395659964,
+            0.42312242313856774,
+            0.45815244806489397
+          ],
+          "relative_mse_reduction_over_zero_quantiles": [
+            -0.8121691821403653,
+            -0.36142636966625197,
+            -0.15471526682755352
+          ],
+          "fraction_resamples_lower_mse_than_zero": 0.0
+        },
+        "zero_response": {
+          "mse": [
+            0.15267008446936198,
+            0.17903258496265317,
+            0.2099036808032637
+          ],
+          "pearson": null,
+          "predicted_rms": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "human_rms": [
+            0.39073019395659964,
+            0.42312242313856774,
+            0.45815244806489397
+          ],
+          "relative_mse_reduction_over_zero_quantiles": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fraction_resamples_lower_mse_than_zero": 0.0
+        },
+        "other_stimulus_mouse": {
+          "mse": [
+            0.3367555023061683,
+            0.3597326094797238,
+            0.40324185539846685
+          ],
+          "pearson": [
+            0.283298251333111,
+            0.32547277987989887,
+            0.35322810094321877
+          ],
+          "predicted_rms": [
+            0.5685708109964466,
+            0.5802588375119716,
+            0.6064421316229569
+          ],
+          "human_rms": [
+            0.39073019395659964,
+            0.42312242313856774,
+            0.45815244806489397
+          ],
+          "relative_mse_reduction_over_zero_quantiles": [
+            -1.3572496611171596,
+            -1.0191342113648367,
+            -0.7779469835893009
+          ],
+          "fraction_resamples_lower_mse_than_zero": 0.0
+        }
+      }
+    }
+  ],
+  "runtime": {
+    "device": "cuda:0",
+    "device_name": "NVIDIA A800 80GB PCIe",
+    "torch_version": "2.7.1+cu118",
+    "cuda_version": "11.8",
+    "dtype": "float64",
+    "resamples": 2000,
+    "seed": 20261108,
+    "gpu_resampling_wall_seconds": 0.1740410476922989,
+    "peak_allocated_bytes": 2294795264,
+    "peak_reserved_bytes": 2306867200,
+    "python_version": "3.11.10"
+  },
+  "cpu_gpu_validation": {
+    "resamples_checked": 20,
+    "scalar_metric_comparisons": 480,
+    "max_abs_difference": 2.220446049250313e-16,
+    "tolerance": 1e-10,
+    "passed": true,
+    "same_indices_shared_across_stimuli": true
+  },
+  "limitations": [
+    "Author common-gene subset is not the full native transcriptome; count-column totals cannot automatically be used as full library sizes.",
+    "The author metadata labels do not provide raw ENA run links. Do not rewrite them as original donor accessions or infer x18957 correspondence.",
+    "Two condition families share author donors. No independent perturbation population or source-selection generalization.",
+    "IFNB8h uses untreated0h control; time in culture remains confounded. polyIC4h uses4h lipofectamine control.",
+    "Only human and mouse sample-level arrays supplied here; four-species table in repo contains DE summaries, not per-donor count matrices.",
+    "Author one-to-one axis version should remain distinct from current-release axes.",
+    "No model training, source selection, fitted scale, or outcome-dependent feature selection.",
+    "Human and mouse author individuals are paired within species, not between species.",
+    "Sensitivity resamples6human and3mouse author individuals; independent stimulus family count remains2."
+  ],
+  "output_files": {
+    "responses.npz": "42c5e6e64c346b3b1bdeae8248a9d6ba1b793ad3c6fd29af828fe8060009e55b",
+    "resampling.npz": "dfee747595855bee4b4691e0363352dea720e7aa14dcd7a146eced43f589ef39"
+  }
+}

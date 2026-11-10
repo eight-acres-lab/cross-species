@@ -1,0 +1,53 @@
+{
+  "retrieved_utc": "2026-11-08T04:17:44.789081+00:00",
+  "endpoint": "https://useast.ensembl.org/biomart/martservice",
+  "biomart_gene_release": 116,
+  "rule": "Human anchored, ortholog_one2one, confidence=1, unique both directions; fresh four pair queries from one release",
+  "pair_filter_counts": {
+    "mouse": {
+      "returned_rows": 92932,
+      "candidate_human_ids": 16092,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 16092
+    },
+    "rat": {
+      "returned_rows": 91806,
+      "candidate_human_ids": 13733,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 13733
+    },
+    "cyno": {
+      "returned_rows": 88980,
+      "candidate_human_ids": 18309,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 18309
+    },
+    "dog": {
+      "returned_rows": 89759,
+      "candidate_human_ids": 13780,
+      "human_conflicts": 0,
+      "partner_conflicts": 0,
+      "accepted_pairs": 13780
+    }
+  },
+  "fiveway_axis_genes": 10150,
+  "files": {
+    "registry.xml": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+    "attributes.tsv": "3836c1858d496ce6a8e040cb063d1988c5ba8f157ffd6f4ff55a10735a418c6b",
+    "mouse.query.xml": "21561eff5d1c0e88a2eb5f55aef985b6fe2897ee52f0c8fa55d3f307e65889e9",
+    "mouse.tsv": "f28f0cc83be0afc650570491300f6c5d26b6ffcf489b8ebc8a991b1a5c14d52b",
+    "rat.query.xml": "cf14216c3d7d0dda30166486cf4c393e9e09c5391469732c261a28e32afee150",
+    "rat.tsv": "76b063f675bc401059a3db3066205ad95db41e5bddb7cbbdfd1154920d492ce9",
+    "cyno.query.xml": "b557aae07f5498ed23992de5df4e08918c247829659c311906653317b8dbd4f4",
+    "cyno.tsv": "321801fcc7219f2ce531ae891c810292ee618f3348b41b7fe943212ec69a2454",
+    "dog.query.xml": "41886bb14863bf4d903ac3b4ffb27a33b267afb14c7718d196deb2e1c9927269",
+    "dog.tsv": "b11e3b4ffc1bdd133e3ea9f0617744ccb1b7ae3216a61a7be08e64c63b70b75b",
+    "registry_after.xml": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+    "axis.tsv": "a649fd561ce6c8357873347d8c69c94e455d5121581b52899f209d8788b5f6b3"
+  },
+  "old_release_maps_used": false,
+  "symbols_used_for_orthology": false
+}

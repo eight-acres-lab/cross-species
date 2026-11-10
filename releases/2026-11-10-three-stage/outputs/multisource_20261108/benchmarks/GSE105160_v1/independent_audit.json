@@ -1,0 +1,44 @@
+{
+  "reviewer": "independent biological_models agent",
+  "script_sha256": "6d2725793673f8b12c4233c083ea6f9158a05004af2c631b877cdb177e8ea1f9",
+  "specification_sha256": "bda4f8f28233f9ea102bc6fad57b626db4280358dc7c2a9ac7163cc582871f3d",
+  "panel_manifest_sha256": "4e7ee69a4eb94d4dab1acca97b1732a913be543424edad20ff0cba415d7760cc",
+  "verified": {
+    "genes": 7579,
+    "species": 10,
+    "animal_sources": 9,
+    "biological_identities": 30,
+    "original_cultures_per_donor_per_arm": 3,
+    "subset_count": 511,
+    "added_source_edges": 2295,
+    "complete_unique_subset_weights": true,
+    "human_and_source_donor_order_and_gene_axis_exact": true,
+    "hash_links_match": true
+  },
+  "numerical_checks": {
+    "donor_response_from_original_arms_max_abs": 2.6645352591003757e-15,
+    "literal_mean_target_MSE_max_abs": 3.3306690738754696e-16,
+    "individual_target_MSE_max_abs": 0.0,
+    "six_saved_donor_resamples_literal_MSE_max_abs": 3.941291737419306e-15,
+    "all_saved_quantiles_max_abs": 0.0,
+    "control_Pearson_independent_numpy_max_abs": 1.5543122344752192e-15
+  },
+  "summary": {
+    "control_selected_source": "gorilla",
+    "control_selected_loss": 0.25378692580445306,
+    "oracle_best_subset": [
+      "chimpanzee",
+      "gorilla"
+    ],
+    "oracle_best_loss": 0.20264322294581572,
+    "all9_loss": 0.24870343384600804,
+    "harmful_edges": 967
+  },
+  "scope_assessment": "No material formula, axis, donor-unit, subset-enumeration or source-selection leakage problem detected in this frozen descriptive audit. Its control-based selection assumes all controls already measured; no equal-total-budget or unseen-perturbation claim. Oracle is correctly nondeployable. Three donors and one stimulus only support E1 measured-panel description.",
+  "important_limitations": [
+    "Cultures are averaged within donor before donor bootstrap; sensitivity does not separately model nested culture noise.",
+    "All nine sources increase measurements; negative edges apply to equal averaging and cannot identify intrinsically harmful species.",
+    "Native annotation/mapping and taxon/reference differences remain coupled with biology.",
+    "Every performance-ranked best subset uses observed target outcomes and is an oracle."
+  ]
+}

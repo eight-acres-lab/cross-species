@@ -1,0 +1,266 @@
+{
+  "status": "passed",
+  "scope": "native counts and metadata only",
+  "source_files": [
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane1_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane1",
+      "n_cells": 739,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "7e9fd05079329a314d6d2a60cf0271e13b5d1e2d898ecdca817535a57f927f30"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane2_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane2",
+      "n_cells": 761,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "31ced6dd7f1cb5bfa706b64d19b1700178e33dde0725a4e1db751440bd5c5f88"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane3_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane3",
+      "n_cells": 742,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "2fc807a58dec5ed0c8fc58d9ff283d522d955e9b4f7614ed0cc4bcf80253b314"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane4_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane4",
+      "n_cells": 768,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "ecb979090aeac37df09f54e6219da5b381933c09abfbc12200e8f5ba4b5b4221"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane5_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane5",
+      "n_cells": 720,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "e5757f7242f9f185fe3932da41f9d23c7a56304d94777c2e58b5e1ee09317d5c"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane6_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane6",
+      "n_cells": 708,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "5180fc874353e3f5242f6cfbcee5b5ae894aa46b3cf480d1e7ff645a97c35ae6"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane7_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane7",
+      "n_cells": 925,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "cfa30398678402c7e733923f9d5a4b2e96ce8251f6daccb2d9eb794dceae049c"
+    },
+    {
+      "file": "GSM9618466_HSapiens_exp2_chip1_lane8_count_matrix.h5ad",
+      "species": "human",
+      "capture": "exp2_chip1_lane8",
+      "n_cells": 806,
+      "n_genes": 36606,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "8f550626920f1abba1bcc21df1873f3acca681b9e00cdcc3893d1628fad10ecc"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane1_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane1",
+      "n_cells": 410,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "3c5e92fcea83ebc4646788c82e01cf33b444a2e32e9e6ac27e2eb24eb6c97ec5"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane2_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane2",
+      "n_cells": 453,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "8ba5a8efb9e702f4e4ab7b6e95028166d9c552a223d4d90e032aa6a3f3ee4893"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane3_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane3",
+      "n_cells": 406,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "91a19e5f82b2840ad817a1b7c74fa89a83741250ee4a8d1f205e6f6816a63b79"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane4_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane4",
+      "n_cells": 464,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "b89b4f3e3835bb1b61978f4ee5df09f5a2249f9d0078929c7934f79b0e94a954"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane5_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane5",
+      "n_cells": 440,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "9f8f2f5c23445953985568e43c72149c1fe998f1adfc6ca945388f8207e870fc"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane6_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane6",
+      "n_cells": 430,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "dfa7789d34f717bf8ad396da2dfa0625639b0ce2ee7603954e2189fb91566462"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane7_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane7",
+      "n_cells": 533,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "2774468b0648dada10143aca28dbf455125eaa5638af7751b97b29211cc40d4c"
+    },
+    {
+      "file": "GSM9618468_MFascicularis_exp2_chip1_lane8_count_matrix.h5ad",
+      "species": "cynomolgus",
+      "capture": "exp2_chip1_lane8",
+      "n_cells": 427,
+      "n_genes": 34256,
+      "raw_counts_integer_nonnegative": true,
+      "all_cells_exact_author_demux_and_guide_match": true,
+      "sha256": "ce7b016888378f0612fb6e1e9145bc36cf9cbbcfd943f46ea1fb9f069e5da418"
+    }
+  ],
+  "species": {
+    "human": {
+      "cells": 6169,
+      "genes": 36606,
+      "nnz": 32265056,
+      "n_lines": 2,
+      "h5ad": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/gse325993_exp2_human.native_counts.h5ad",
+      "sha256": "e4562c4a67c7a785d5e5e7dbeedbc3f5a177fe8e0718851c76516d128cd36ef1",
+      "count_values_exact_after_serialization": true,
+      "allcells_gene_and_metadata_qc_passed": true,
+      "entire_count_vector_duplicate_cells": 0,
+      "repeated_bare_barcodes_across_captures": 21,
+      "repeated_bare_barcodes_with_identical_count_vectors": 0,
+      "line_condition_counts": [
+        {
+          "species": "human",
+          "individual": "bv",
+          "cell_line": "63Ab2.2-02",
+          "experiment": "exp2",
+          "condition": "NTC",
+          "n_cells": 2771
+        },
+        {
+          "species": "human",
+          "individual": "bv",
+          "cell_line": "63Ab2.2-02",
+          "experiment": "exp2",
+          "condition": "POU5F1",
+          "n_cells": 521
+        },
+        {
+          "species": "human",
+          "individual": "cz",
+          "cell_line": "29B5-39s",
+          "experiment": "exp2",
+          "condition": "NTC",
+          "n_cells": 2237
+        },
+        {
+          "species": "human",
+          "individual": "cz",
+          "cell_line": "29B5-39s",
+          "experiment": "exp2",
+          "condition": "POU5F1",
+          "n_cells": 640
+        }
+      ]
+    },
+    "cynomolgus": {
+      "cells": 3563,
+      "genes": 34256,
+      "nnz": 17216954,
+      "n_lines": 2,
+      "h5ad": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/gse325993_exp2_cynomolgus.native_counts.h5ad",
+      "sha256": "7bd2c2b9f35747ef7f3033acf3362520f90ecd11ab80097a4928d7dedb2dcf88",
+      "count_values_exact_after_serialization": true,
+      "allcells_gene_and_metadata_qc_passed": true,
+      "entire_count_vector_duplicate_cells": 0,
+      "repeated_bare_barcodes_across_captures": 7,
+      "repeated_bare_barcodes_with_identical_count_vectors": 0,
+      "line_condition_counts": [
+        {
+          "species": "cynomolgus",
+          "individual": "QC-14K16S07",
+          "cell_line": "82A3-05s",
+          "experiment": "exp2",
+          "condition": "NTC",
+          "n_cells": 1383
+        },
+        {
+          "species": "cynomolgus",
+          "individual": "QC-14K16S07",
+          "cell_line": "82A3-05s",
+          "experiment": "exp2",
+          "condition": "POU5F1",
+          "n_cells": 543
+        },
+        {
+          "species": "cynomolgus",
+          "individual": "QC-16K16S07",
+          "cell_line": "56B1-01s",
+          "experiment": "exp2",
+          "condition": "NTC",
+          "n_cells": 1297
+        },
+        {
+          "species": "cynomolgus",
+          "individual": "QC-16K16S07",
+          "cell_line": "56B1-01s",
+          "experiment": "exp2",
+          "condition": "POU5F1",
+          "n_cells": 340
+        }
+      ]
+    }
+  },
+  "state_common_exact_id_genes": 6357,
+  "source_h5ads_unchanged": true,
+  "line_unit_caveat": "Two human genotype lines. Incremental human controls may use disjoint cells within the training line; they are not independent donor additions.",
+  "capture_caveat": "Eight GEM channels belong to the same exp2 chip/screen, so they are technical capture units and do not create eight biological replicates."
+}

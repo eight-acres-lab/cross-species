@@ -1,0 +1,220 @@
+{
+  "panel": "selenite time course in seven yeasts (E-MTAB-7022 and siblings)",
+  "species": [
+    "candida_albicans",
+    "candida_glabrata",
+    "debaryomyces_hansenii",
+    "kluyveromyces_lactis",
+    "lachancea_thermotolerans",
+    "saccharomyces_cerevisiae",
+    "yarrowia_lipolytica"
+  ],
+  "ortholog_axis": "ref/yeast/orthologs_selenite.json",
+  "n_axis_genes": 2431,
+  "n_response_rows": 56,
+  "n_genes_finite_in_every_row": 2295,
+  "design": "sodium selenite against a mock culture co-hybridised on the same array at every timepoint, four biological replicates, dye-swapped; so two timepoints share no control sample",
+  "dose_caveat": "the dose is per species (0.5 to 10 mM), chosen by the depositors to be comparably effective rather than identical. The shared axis is time since a comparable insult; within a species the dose is constant across timepoints, so timepoint comparisons are unaffected",
+  "transform": "background-subtracted median signals, log2(selenite/mock) per probe with the dye orientation read per array from the SDRF, within-array loess of M on A, median over probes of a gene, mean over replicate arrays",
+  "dropped_species": {
+    "lachancea_kluyveri": "no annotated proteome in Ensembl Fungi, UniProt or NCBI, so it cannot join a sequence-derived ortholog axis"
+  },
+  "per_species": {
+    "candida_albicans": {
+      "accession": "E-MTAB-7053",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "GenePix .gpr",
+      "axis_genes_hit_median": 2427,
+      "dose": "0.5",
+      "skipped": []
+    },
+    "candida_glabrata": {
+      "accession": "E-MTAB-7023",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "GenePix .gpr",
+      "axis_genes_hit_median": 2425,
+      "dose": "1",
+      "skipped": []
+    },
+    "debaryomyces_hansenii": {
+      "accession": "E-MTAB-7049",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "Agilent FE .txt",
+      "axis_genes_hit_median": 2421,
+      "dose": "0.5",
+      "skipped": []
+    },
+    "kluyveromyces_lactis": {
+      "accession": "E-MTAB-7047",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "Agilent FE .txt",
+      "axis_genes_hit_median": 2323,
+      "dose": "0.5",
+      "skipped": []
+    },
+    "lachancea_thermotolerans": {
+      "accession": "E-MTAB-7045",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "Agilent FE .txt",
+      "axis_genes_hit_median": 2431,
+      "dose": "5",
+      "skipped": []
+    },
+    "saccharomyces_cerevisiae": {
+      "accession": "E-MTAB-7022",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "GenePix .gpr",
+      "axis_genes_hit_median": 2431,
+      "dose": "10",
+      "skipped": []
+    },
+    "yarrowia_lipolytica": {
+      "accession": "E-MTAB-7044",
+      "arrays_used": 32,
+      "timepoints": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "arrays_per_timepoint": {
+        "10": 4,
+        "20": 4,
+        "30": 4,
+        "40": 4,
+        "50": 4,
+        "60": 4,
+        "70": 4,
+        "80": 4
+      },
+      "format": "Agilent FE .txt",
+      "axis_genes_hit_median": 2421,
+      "dose": "10",
+      "skipped": []
+    }
+  }
+}

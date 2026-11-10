@@ -1,0 +1,1330 @@
+{
+  "date": "2026-11-08",
+  "status": "pass",
+  "claim_count": 32,
+  "pointer_checks": 219,
+  "unique_source_reports": 20,
+  "errors": [],
+  "checks": [
+    {
+      "claim": "TG_INPUT_INTEGRITY",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/status",
+      "matches": true
+    },
+    {
+      "claim": "TG_INPUT_INTEGRITY",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/metadata_rows",
+      "matches": true
+    },
+    {
+      "claim": "TG_INPUT_INTEGRITY",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/matrices/rat",
+      "matches": true
+    },
+    {
+      "claim": "TG_INPUT_INTEGRITY",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/matrices/human",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_SCOPE",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/documented_limitations",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_SCOPE",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/limitations_origin",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_SCOPE",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_SCOPE",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/data_warnings",
+      "matches": true
+    },
+    {
+      "claim": "TG_DELTA_PAIRING",
+      "file": "outputs/feedback_input_audit_2026-11-07.json",
+      "pointer": "/folds",
+      "matches": true
+    },
+    {
+      "claim": "TG_DELTA_PAIRING",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/rows",
+      "matches": true
+    },
+    {
+      "claim": "TG_DELTA_PAIRING",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/compounds",
+      "matches": true
+    },
+    {
+      "claim": "TG_ORTHOLOG_AXIS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/target_genes",
+      "matches": true
+    },
+    {
+      "claim": "TG_ORTHOLOG_AXIS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/gene_axis",
+      "matches": true
+    },
+    {
+      "claim": "TG_ORTHOLOG_AXIS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/input_hashes/ortholog_map",
+      "matches": true
+    },
+    {
+      "claim": "TG_ORTHOLOG_AXIS",
+      "file": "artifacts/tg_gates_rat_human_v1/ortholog_map/provenance.json",
+      "pointer": "/retrieved_utc",
+      "matches": true
+    },
+    {
+      "claim": "TG_ORTHOLOG_AXIS",
+      "file": "artifacts/tg_gates_rat_human_v1/ortholog_map/provenance.json",
+      "pointer": "/filters",
+      "matches": true
+    },
+    {
+      "claim": "TG_ORTHOLOG_AXIS",
+      "file": "artifacts/tg_gates_rat_human_v1/ortholog_map/provenance.json",
+      "pointer": "/counts/mapped_pairs",
+      "matches": true
+    },
+    {
+      "claim": "TG_UNITS_CONTEXT",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/rows",
+      "matches": true
+    },
+    {
+      "claim": "TG_UNITS_CONTEXT",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/compounds",
+      "matches": true
+    },
+    {
+      "claim": "TG_UNITS_CONTEXT",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/context_inputs",
+      "matches": true
+    },
+    {
+      "claim": "TG_UNITS_CONTEXT",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/input_hashes/attributes",
+      "matches": true
+    },
+    {
+      "claim": "TG_UNITS_CONTEXT",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/data_warnings",
+      "matches": true
+    },
+    {
+      "claim": "TG_UNITS_CONTEXT",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/limitations",
+      "matches": true
+    },
+    {
+      "claim": "TG_NESTED_DESIGN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/outer_folds",
+      "matches": true
+    },
+    {
+      "claim": "TG_NESTED_DESIGN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/inner_folds",
+      "matches": true
+    },
+    {
+      "claim": "TG_NESTED_DESIGN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/seed",
+      "matches": true
+    },
+    {
+      "claim": "TG_NESTED_DESIGN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/alpha_grid",
+      "matches": true
+    },
+    {
+      "claim": "TG_NESTED_DESIGN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/inner_selection",
+      "matches": true
+    },
+    {
+      "claim": "TG_NESTED_DESIGN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "TG_LABEL_BUDGET_AND_KERNELS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/kernel",
+      "matches": true
+    },
+    {
+      "claim": "TG_LABEL_BUDGET_AND_KERNELS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/inner_selection",
+      "matches": true
+    },
+    {
+      "claim": "TG_LABEL_BUDGET_AND_KERNELS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/training_objective",
+      "matches": true
+    },
+    {
+      "claim": "TG_LABEL_BUDGET_AND_KERNELS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/alpha_grid",
+      "matches": true
+    },
+    {
+      "claim": "TG_LABEL_BUDGET_AND_KERNELS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/calibrated_source",
+      "matches": true
+    },
+    {
+      "claim": "TG_LABEL_BUDGET_AND_KERNELS",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/limitations",
+      "matches": true
+    },
+    {
+      "claim": "TG_METRIC_UNCERTAINTY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/primary",
+      "matches": true
+    },
+    {
+      "claim": "TG_METRIC_UNCERTAINTY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/secondary",
+      "matches": true
+    },
+    {
+      "claim": "TG_METRIC_UNCERTAINTY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/interval_scope",
+      "matches": true
+    },
+    {
+      "claim": "TG_METRIC_UNCERTAINTY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/primary_gain_from_source/n_groups",
+      "matches": true
+    },
+    {
+      "claim": "TG_METRIC_UNCERTAINTY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/primary_gain_from_source/n_boot",
+      "matches": true
+    },
+    {
+      "claim": "TG_FULL_GAIN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/metrics/context_only/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "TG_FULL_GAIN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/metrics/source_plus_context/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "TG_FULL_GAIN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/primary_gain_from_source/delta",
+      "matches": true
+    },
+    {
+      "claim": "TG_FULL_GAIN",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/primary_gain_from_source/ci95",
+      "matches": true
+    },
+    {
+      "claim": "TG_MATCHED_GAIN",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/primary_gain_from_source/delta",
+      "matches": true
+    },
+    {
+      "claim": "TG_MATCHED_GAIN",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/primary_gain_from_source/ci95",
+      "matches": true
+    },
+    {
+      "claim": "TG_MATCHED_GAIN",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/rows",
+      "matches": true
+    },
+    {
+      "claim": "TG_MATCHED_GAIN",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/compounds",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/wrong_source",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/wrong_source_eligible_conditions",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/matched_vs_wrong_source_gain/delta",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_full_v1/report.json",
+      "pointer": "/matched_vs_wrong_source_gain/ci95",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/wrong_source_eligible_conditions",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/matched_vs_wrong_source_gain/delta",
+      "matches": true
+    },
+    {
+      "claim": "TG_SOURCE_IDENTITY",
+      "file": "outputs/feedback_nested_20261107_matched_v1/report.json",
+      "pointer": "/matched_vs_wrong_source_gain/ci95",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/shared_human_training_compounds",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/calibration_compounds",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/diagnostic_compounds",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/target_genes",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/selected_alphas",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/paired_gain_from_source/delta",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/all_conditions/report.json",
+      "pointer": "/paired_gain_from_source/ci95",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/matched_conditions/report.json",
+      "pointer": "/paired_gain_from_source/delta",
+      "matches": true
+    },
+    {
+      "claim": "HISTORICAL_EQUAL_BUDGET",
+      "file": "outputs/feedback_source_value_20261107/matched_conditions/report.json",
+      "pointer": "/paired_gain_from_source/ci95",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_PROTOTYPE_DESIGN",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/model",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_PROTOTYPE_DESIGN",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/role_counts",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_PROTOTYPE_DESIGN",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/target_axis",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_PROTOTYPE_DESIGN",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/config/hidden_dim",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_PROTOTYPE_DESIGN",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/config/adapt_unit",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_PROTOTYPE_DESIGN",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/supervised_objective",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_REWARD_SELECTION",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/choices",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_REWARD_SELECTION",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/test_outcomes_used_for_selection",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_REWARD_SELECTION",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/historical_test_evaluated",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_REWARD_SELECTION",
+      "file": "outputs/feedback_runs/final_measurement_20261107/report.json",
+      "pointer": "/limitations",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_REWARD_SELECTION",
+      "file": "outputs/feedback_runs/final_learned_loss_20261107/report.json",
+      "pointer": "/choices/optimizers",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/run",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/selection_matches_frozen_plan",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/comparisons/pretrained_mlp -> reinforce/delta",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/comparisons/pretrained_mlp -> reinforce/ci95",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/comparisons/ridge_same_label_budget -> reinforce/delta",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/comparisons/ridge_same_label_budget -> reinforce/ci95",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/comparisons/direct -> reinforce/delta",
+      "matches": true
+    },
+    {
+      "claim": "EARLY_RL_OUTCOME_BOUNDARY",
+      "file": "outputs/feedback_runs/fixed_diagnostic_comparisons.json",
+      "pointer": "/primary/comparisons/direct -> reinforce/ci95",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/human/sha256",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/human/all_retained_treated_and_control_titles_GSM_verified",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/mouse/sha256",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/mouse/all_retained_treated_and_control_titles_GSM_verified",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/mouse/excluded_mouse_IL11",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/mapping_origin",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G130983/mapping_sha256",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/human_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/mouse_WT_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/mouse_KO_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_PROVENANCE",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/represented_frozen_orthologs",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/analysis_plan.json",
+      "pointer": "/bootstrap",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/analysis_plan.json",
+      "pointer": "/seed",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/analysis_plan.json",
+      "pointer": "/G130983",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/uncertainty",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/same_perturbation_reference",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/comparisons/zero_response/mse",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_COMPARATORS",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/comparisons/same_perturbation_human_mean_lodo_reference/mse",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_LIMITED_SIGNAL",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/comparisons/source_copy_mouse_WT/pearson",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_LIMITED_SIGNAL",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/comparisons/source_copy_mouse_WT/mse_reduction_vs_other_human_perturbation_mean",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_LIMITED_SIGNAL",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/comparisons/source_copy_mouse_WT/mse_reduction_vs_zero_response",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G130_LIMITED_SIGNAL",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE130983/interpretation",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G283128/sha256",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G283128/paired_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/G283128/scale",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/all_donors/n_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/all_donors/author_feature_rows",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/Alzheimer's Disease/n_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_DESIGN",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/healthy control/n_donors",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_AGREEMENT",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/all_donors/pearson",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_AGREEMENT",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/all_donors/uncertainty",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_AGREEMENT",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/all_donors/interpretation",
+      "matches": true
+    },
+    {
+      "claim": "FIB_G283_AGREEMENT",
+      "file": "outputs/fibroblast_feedback_checks_20261107/results.json",
+      "pointer": "/GSE283128/all_donors/shared_response_energy_fraction",
+      "matches": true
+    },
+    {
+      "claim": "E5919_NOT_USED",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/E5919/analysis_status",
+      "matches": true
+    },
+    {
+      "claim": "E5919_NOT_USED",
+      "file": "outputs/fibroblast_feedback_checks_20261107/input_audit.json",
+      "pointer": "/E5919/reason",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/rows",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/compounds",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/target_genes",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/outer_folds",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/inner_folds",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/seed",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/models",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/alpha_grid",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/common_control",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/selection",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/molecular_provenance/manifest_accepted_compounds",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_CONTROL_DESIGN",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/molecular_provenance/excluded_compounds",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/metrics/chemical_context_plus_common/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/metrics/chemical_context_plus_common_residual/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/joint_residual_gain/delta",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/joint_residual_gain/ci95",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/joint_residual_gain/group_deltas",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/fold_results",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_PREDICTIVE_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/selected_upper_boundary_fold_counts",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/target_genes",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/common_control",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/source_residual",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/linear_block_normalization",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/models",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/selection",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SCALAR_COMPLEXITY_NORMALIZATION",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/limitations",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_UNCERTAINTY_VARIANCE_SCOPE",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/interval_scope",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_UNCERTAINTY_VARIANCE_SCOPE",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/data_warnings",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_UNCERTAINTY_VARIANCE_SCOPE",
+      "file": "outputs/feedback_joint_specificity_20261107/specification.json",
+      "pointer": "/limitations",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_UNCERTAINTY_VARIANCE_SCOPE",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/joint_residual_gain/n_groups",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_UNCERTAINTY_VARIANCE_SCOPE",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/joint_residual_gain/n_boot",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_UNCERTAINTY_VARIANCE_SCOPE",
+      "file": "outputs/feedback_joint_specificity_20261107/report.json",
+      "pointer": "/joint_residual_gain/inference_scope",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/source_rule_file",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/source_rule_sha256",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/rows",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/compounds",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/target_genes",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/common_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/human_context_fallback_conditions",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/identification/chemical_context_plus_common/common_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/identification/chemical_context_plus_common_residual/common_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/input_hashes",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/code_hashes",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_REFERENCE_COVERAGE",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/inherited_rules/ties",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_REFERENCE_COVERAGE",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/inherited_rules/undefined",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_REFERENCE_COVERAGE",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/identification/zero_response/all_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_REFERENCE_COVERAGE",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/identification/training_human_context_mean/all_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "JOINT_SECONDARY_REFERENCE_COVERAGE",
+      "file": "outputs/feedback_joint_specificity_20261107/identification.json",
+      "pointer": "/identification/training_human_context_mean/undefined_reasons",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/rows",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/compounds",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/target_genes",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/context_inputs",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/rule",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/unit_to_M",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/retained_conditions",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/retained_compounds",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/matching_status_counts",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/retained_unknown_or_ambiguous_unit_conditions",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/retained_unit_source_counts",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_COHORT_CONTEXT",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/specification.json",
+      "pointer": "/absolute_concentrations/interpretation",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/metrics/chemical_context/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/metrics/source_plus_chemical_context/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/primary_gain_from_source/delta",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/primary_gain_from_source/ci95",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/primary_gain_from_source/n_groups",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/primary_gain_from_source/n_boot",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/context_inputs",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_MAIN_SOURCE_GAIN",
+      "file": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
+      "pointer": "/interval_scope",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/metrics/chemical_context_plus_common/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/metrics/chemical_context_plus_common_residual/macro_loss",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/joint_residual_gain/delta",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/joint_residual_gain/ci95",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/joint_residual_gain/group_deltas",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/fold_results",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/models",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/selection",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/linear_block_normalization",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_JOINT_RESIDUAL_GAIN",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/report.json",
+      "pointer": "/interval_scope",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/cohort_reference",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/sample_ids_compounds_folds_truth_gene_axis_equal_to_reference",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/all_five_prior_context_means_and_scales_equal_to_reference",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/context_dimensions",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/log10_rat_and_human_context_columns_equal_retained_metadata",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/all_new_and_old_joint_core_hashes_verified",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/joint_tests_passed",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_CONTEXT_INTEGRITY",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/verification.json",
+      "pointer": "/identification_tests_passed",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/scope",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/model_context_inputs",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/candidate_exposure_scope",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/common_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/human_context_fallback_conditions",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/identification/chemical_context_plus_common/common_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/identification/chemical_context_plus_common_residual/common_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/identification/zero_response/all_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/identification/training_human_context_mean/all_defined_queries",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/identification/training_human_context_mean/undefined_reasons",
+      "matches": true
+    },
+    {
+      "claim": "ABSOLUTE_SECONDARY_IDENTIFICATION",
+      "file": "outputs/feedback_joint_specificity_20261107_absolute/identification.json",
+      "pointer": "/source_rule_sha256",
+      "matches": true
+    }
+  ],
+  "registry_sha256": "a94ef341dd507ffc59ee26db8ce659cf99cd37ba453fd768aacc92490ff19e5a",
+  "scope": "Exact equality of registered numbers/values to current saved JSON; not a biological replication or validity-of-inference test. Historical entries retain their historical cohorts and data-use roles.",
+  "historical_status_requiring_update": [
+    "E5919_NOT_USED records the earlier audit status; later author2025 E0/E1 and posthoc calibration now exist.",
+    "Earlier nominal-context and129/772 chemical versions remain historical, current absolute primary is126/678."
+  ]
+}

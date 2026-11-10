@@ -1,0 +1,35 @@
+{
+  "scope": "metadata only, no guide predicted activity or knockdown values used",
+  "exp3_library": "tf76",
+  "exp2_library": "tf27",
+  "canonical_exp3_human_POU5F1_guides": [
+    "hg38_POU5F1_n2",
+    "hg38_POU5F1_n4",
+    "hg38_POU5F1_n6",
+    "hg38_POU5F1_n9"
+  ],
+  "observed_exp3_human_guides": [
+    "hg38_POU5F1_n2",
+    "hg38_POU5F1_n4",
+    "hg38_POU5F1_n6",
+    "hg38_POU5F1_n9",
+    "macFas6_POU5F1_n11"
+  ],
+  "canonical_absent_all_human": [],
+  "cross_species_named_guides": [
+    {
+      "individual": "bv",
+      "capture": "exp3_chip2_lane4",
+      "barcode": "GGACGTCCAAGTAGTA-1",
+      "dominant_guide": "macFas6_POU5F1_n11",
+      "condition": "POU5F1",
+      "passes_simple_dominant_rule": true
+    }
+  ],
+  "perline_canonical_absent": {
+    "bv": [],
+    "cz": [
+      "hg38_POU5F1_n6"
+    ]
+  }
+}

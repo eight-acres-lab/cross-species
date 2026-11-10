@@ -1,0 +1,25 @@
+{
+  "fold": 1,
+  "seed": 20261110,
+  "arm": "Hextra_cells",
+  "test_line": "63Ab2.2-02",
+  "selected_step_from_exp2": 200,
+  "selected_alpha_from_exp2": 1.0,
+  "original_weight_path": "nonrodent_singlecell_20261110/gse325993_public_exp2/state_primary_v1/fold_1_seed_20261110_Hextra_cells/selected.pt",
+  "original_weight_sha256": "31d70ff1ecfc20eb5e408712eab94944bd3fe1cd4bf3aa3c5617536bfd41e575",
+  "original_factors_sha256": "3132d5b784631fab658c975ba8f23cd97f795159c4d0864dc74ab0d1187647c9",
+  "query_cells": 7238,
+  "prediction_shape": [
+    7238,
+    6357
+  ],
+  "dtype": "float32",
+  "uncompressed_npy": true,
+  "prediction_sha256": "ef1ffa1c642887f8ec15f56cdca388b12f1a9d2ab9ee7386312e09392c17ad67",
+  "metadata_sha256": "c879f758bba45d3b6c13f497936778c051992e67039f1425a373c866e2455dbf",
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "parameter_updates": 0,
+  "target_expression_read": false,
+  "elapsed_seconds": 1.8744095796719193
+}

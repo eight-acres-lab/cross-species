@@ -1,0 +1,733 @@
+{
+  "date": "2026-11-08",
+  "scope": "All26 human original gene quantification files in predeclared primary/supplement/sensitivity branches; no expression-based selection.",
+  "source_selection_sha256": "b046432096a5ce55c50cd2485d83fba62be2b306c7d40d827263a1ab52884f9a",
+  "source_urls_sha256": "89842a7a1b4e86d8f1a587557874ef5f8d4b37c380fbd74cbcce55fd6823f979",
+  "sample_bridge_sha256": "15fe93840029c97de8668c19c81c3ed0b3a33d5a93f693285baa3897e223b395",
+  "files": [
+    {
+      "srx": "SRX1737998",
+      "gsm": "GSM2138814",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB268NYD)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138814/suppl/GSM2138814_ENCFF390DYK_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR603TCV",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138814.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8241",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR603TCV"
+        },
+        {
+          "perturb_id": "Perturb_8242",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR603TCV"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737999",
+      "gsm": "GSM2138815",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB935HOL)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138815/suppl/GSM2138815_ENCFF583JSH_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR603TCV",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138815.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8241",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR603TCV"
+        },
+        {
+          "perturb_id": "Perturb_8242",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR603TCV"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737874",
+      "gsm": "GSM2138708",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB146QCP)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138708/suppl/GSM2138708_ENCFF883QBC_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR094KBY",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138708.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8241",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR094KBY"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737875",
+      "gsm": "GSM2138709",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB556DKZ)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138709/suppl/GSM2138709_ENCFF712OPA_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR094KBY",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138709.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8241",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR094KBY"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244885",
+      "gsm": "GSM2343139",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB967MGK)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343139/suppl/GSM2343139_ENCFF846CIF_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR042QTH",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343139.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8096",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR042QTH"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244886",
+      "gsm": "GSM2343140",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB758GJZ)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343140/suppl/GSM2343140_ENCFF893IYL_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR042QTH",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343140.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8096",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR042QTH"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244538",
+      "gsm": "GSM2344143",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB245COP)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2344nnn/GSM2344143/suppl/GSM2344143_ENCFF471FMB_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR781YNI",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2344143.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8096",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR781YNI"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244539",
+      "gsm": "GSM2344144",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB469BYQ)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2344nnn/GSM2344144/suppl/GSM2344144_ENCFF960CGT_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR781YNI",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2344144.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8096",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR781YNI"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737864",
+      "gsm": "GSM2138674",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB091JLI)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138674/suppl/GSM2138674_ENCFF403FWE_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR017PRS",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138674.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8242",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR017PRS"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737865",
+      "gsm": "GSM2138675",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB177FPZ)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138675/suppl/GSM2138675_ENCFF624VZM_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR017PRS",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138675.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8242",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR017PRS"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737900",
+      "gsm": "GSM2138714",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB751ONS)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138714/suppl/GSM2138714_ENCFF223LJT_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR129RWD",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138714.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9926",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR129RWD"
+        },
+        {
+          "perturb_id": "Perturb_9927",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR129RWD"
+        },
+        {
+          "perturb_id": "Perturb_9928",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR129RWD"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737901",
+      "gsm": "GSM2138715",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB807NXT)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138715/suppl/GSM2138715_ENCFF089HPB_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR129RWD",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138715.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9926",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR129RWD"
+        },
+        {
+          "perturb_id": "Perturb_9927",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR129RWD"
+        },
+        {
+          "perturb_id": "Perturb_9928",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "control",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR129RWD"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737858",
+      "gsm": "GSM2138690",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB659IOG)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138690/suppl/GSM2138690_ENCFF581EZL_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR066VOO",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138690.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9926",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR066VOO"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737859",
+      "gsm": "GSM2138691",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB191WPP)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138691/suppl/GSM2138691_ENCFF920DSH_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR066VOO",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138691.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9926",
+          "target": "SRSF1",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR066VOO"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1738058",
+      "gsm": "GSM2138872",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB559VUN)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138872/suppl/GSM2138872_ENCFF048VRF_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR906RHU",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138872.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9927",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR906RHU"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1738059",
+      "gsm": "GSM2138873",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB566YIH)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138873/suppl/GSM2138873_ENCFF564VZB_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR906RHU",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138873.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9927",
+          "target": "SRSF5",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR906RHU"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737958",
+      "gsm": "GSM2138776",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB915VNI)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138776/suppl/GSM2138776_ENCFF923RCF_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR464ADT",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138776.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9928",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR464ADT"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737959",
+      "gsm": "GSM2138777",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "title": "shRNA RNA-seq from K562 (ENCLB661NRH)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138777/suppl/GSM2138777_ENCFF491TIE_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR464ADT",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138777.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_9928",
+          "target": "SRSF7",
+          "selection_role": "primary",
+          "role": "treated",
+          "cell_model": "K562",
+          "encode_experiment": "ENCSR464ADT"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2243864",
+      "gsm": "GSM2343490",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB718NAR)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343490/suppl/GSM2343490_ENCFF019JYU_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR264TUE",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343490.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8163",
+          "target": "SRSF3",
+          "selection_role": "supplement_SRSF3_HepG2_only",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR264TUE"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2243865",
+      "gsm": "GSM2343491",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB351LSE)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343491/suppl/GSM2343491_ENCFF375TPO_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR264TUE",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343491.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8163",
+          "target": "SRSF3",
+          "selection_role": "supplement_SRSF3_HepG2_only",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR264TUE"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244012",
+      "gsm": "GSM2343628",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB696VIF)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343628/suppl/GSM2343628_ENCFF031YBV_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR376FGR",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343628.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8163",
+          "target": "SRSF3",
+          "selection_role": "supplement_SRSF3_HepG2_only",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR376FGR"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244013",
+      "gsm": "GSM2343629",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB826DTD)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343629/suppl/GSM2343629_ENCFF237GJZ_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR376FGR",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343629.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8163",
+          "target": "SRSF3",
+          "selection_role": "supplement_SRSF3_HepG2_only",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR376FGR"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737964",
+      "gsm": "GSM2138782",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB634VMX)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138782/suppl/GSM2138782_ENCFF372GSN_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR491FOC",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138782.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8214",
+          "target": "SRSF5",
+          "selection_role": "sensitivity_alternative_HepG2_SRSF5_batch",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR491FOC"
+        }
+      ]
+    },
+    {
+      "srx": "SRX1737965",
+      "gsm": "GSM2138783",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB848OMP)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2138nnn/GSM2138783/suppl/GSM2138783_ENCFF130UGZ_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR491FOC",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2138783.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8214",
+          "target": "SRSF5",
+          "selection_role": "sensitivity_alternative_HepG2_SRSF5_batch",
+          "role": "control",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR491FOC"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244095",
+      "gsm": "GSM2343709",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB828EYU)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343709/suppl/GSM2343709_ENCFF695HAB_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "2",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR447UCG",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343709.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8214",
+          "target": "SRSF5",
+          "selection_role": "sensitivity_alternative_HepG2_SRSF5_batch",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR447UCG"
+        }
+      ]
+    },
+    {
+      "srx": "SRX2244096",
+      "gsm": "GSM2343710",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "title": "shRNA RNA-seq from HepG2 (ENCLB192VDU)",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2343nnn/GSM2343710/suppl/GSM2343710_ENCFF389OFM_gene_quantifications_GRCh38.tsv.gz",
+      "assembly": "GRCh38",
+      "file_kind": "ENCODE_gene_quantifications",
+      "declared_quantity": "Gene quantification TSV; inspect header expected_count/TPM/FPKM before quantity choice",
+      "biological_replicate_label": "1",
+      "technical_replicate_label": "1",
+      "encode_experiment": "ENCSR447UCG",
+      "download_location": "remote_only",
+      "source_metadata": "evidence/GSM2343710.soft",
+      "selected_uses": [
+        {
+          "perturb_id": "Perturb_8214",
+          "target": "SRSF5",
+          "selection_role": "sensitivity_alternative_HepG2_SRSF5_batch",
+          "role": "treated",
+          "cell_model": "HepG2",
+          "encode_experiment": "ENCSR447UCG"
+        }
+      ]
+    }
+  ]
+}

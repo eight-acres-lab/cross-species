@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-08",
+  "scope": "SRSF E1 compartment comparison metadata/mapping freeze before response metrics",
+  "files": [
+    {
+      "source_local_path": "docs/multisource_20261108/genetic_expansion_02/compartment_selection.json",
+      "remote_filename": "compartment_selection.json",
+      "sha256": "b046432096a5ce55c50cd2485d83fba62be2b306c7d40d827263a1ab52884f9a",
+      "bytes": 10290
+    },
+    {
+      "source_local_path": "docs/multisource_20261108/genetic_expansion_02/compartment_sample_bridge.json",
+      "remote_filename": "compartment_sample_bridge.json",
+      "sha256": "15fe93840029c97de8668c19c81c3ed0b3a33d5a93f693285baa3897e223b395",
+      "bytes": 41204
+    },
+    {
+      "source_local_path": "docs/multisource_20261108/genetic_extension/target_orthology.tsv",
+      "remote_filename": "target_orthology.tsv",
+      "sha256": "e19d3d70e9c344bf8c183f69cb6e5ec13397fb60ac51ce7a816d59af8d768b93",
+      "bytes": 3393043
+    },
+    {
+      "source_local_path": "docs/multisource_20261108/genetic_extension/target_orthology.query.xml",
+      "remote_filename": "target_orthology.query.xml",
+      "sha256": "01662e3ffa0bebf7f4686f2b03ac4651941fa6fd1e5dfa23e6cce3d0ae9c3f87",
+      "bytes": 525
+    },
+    {
+      "source_local_path": "docs/multisource_20261108/genetic_extension/target_orthology.source.json",
+      "remote_filename": "target_orthology.source.json",
+      "sha256": "3830276efb088343cec93f338ef4ee6bc0709b127c89eab66748657411fdb2d7",
+      "bytes": 1383
+    },
+    {
+      "source_local_path": "docs/multisource_20261108/genetic_extension/orthology_registry.xml",
+      "remote_filename": "orthology_registry.xml",
+      "sha256": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+      "bytes": 1813
+    }
+  ]
+}

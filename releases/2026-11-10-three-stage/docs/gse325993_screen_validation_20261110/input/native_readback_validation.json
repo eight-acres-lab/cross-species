@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scope": "nativeh5ad serialization readback only",
+  "all12136_cell_totalUMIs_match": true,
+  "all_cellIDs_lineIDs_conditions_match_cohort_metadata": true,
+  "int32_nonnegative_counts": true,
+  "native_sha256_matches_manifest": true,
+  "manifest_sha256": "590d989955498e8f555bdc509752127ffef6bde8f67560323e7e631aa3e279f4"
+}

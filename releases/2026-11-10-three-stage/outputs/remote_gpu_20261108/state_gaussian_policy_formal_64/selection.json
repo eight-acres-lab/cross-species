@@ -1,0 +1,85 @@
+{
+  "selected_beta": {
+    "pathwise": 0.0,
+    "reinforce": 0.1
+  },
+  "test_evaluated_before_selection": false,
+  "calibration": {
+    "pathwise": {
+      "0.0": {
+        "expected_native_energy": 0.3774368696742587,
+        "deterministic_native_energy": 0.3775007989671495,
+        "deterministic_mean_mse": 0.003768474154639989,
+        "energy_u": 0.2979715002455812,
+        "rbf_mmd2_u": 0.011776701320367441,
+        "mean_mse": 0.003769743829454658,
+        "variance_mae": 0.024737501413457926
+      },
+      "0.01": {
+        "expected_native_energy": 0.3785851167307959,
+        "deterministic_native_energy": 0.37865462568071157,
+        "deterministic_mean_mse": 0.003783955908147618,
+        "energy_u": 0.30036241802118974,
+        "rbf_mmd2_u": 0.01187156296383319,
+        "mean_mse": 0.003785166026015455,
+        "variance_mae": 0.02475015393510047
+      },
+      "0.1": {
+        "expected_native_energy": 0.3826045427057478,
+        "deterministic_native_energy": 0.382684866587321,
+        "deterministic_mean_mse": 0.0038391895165356496,
+        "energy_u": 0.30867423402024946,
+        "rbf_mmd2_u": 0.012200956819205704,
+        "mean_mse": 0.003840308925039911,
+        "variance_mae": 0.024795587012906458
+      },
+      "1.0": {
+        "expected_native_energy": 0.38806716601053876,
+        "deterministic_native_energy": 0.3881619506412082,
+        "deterministic_mean_mse": 0.003915285730424027,
+        "energy_u": 0.3199157802043045,
+        "rbf_mmd2_u": 0.012646214765168029,
+        "mean_mse": 0.003916287328239479,
+        "variance_mae": 0.02485144032268888
+      }
+    },
+    "reinforce": {
+      "0.0": {
+        "expected_native_energy": 0.39043742749426097,
+        "deterministic_native_energy": 0.39053951369391543,
+        "deterministic_mean_mse": 0.00394801327557717,
+        "energy_u": 0.3248248212868445,
+        "rbf_mmd2_u": 0.012840602710613528,
+        "mean_mse": 0.003948953345469717,
+        "variance_mae": 0.024869477770860408
+      },
+      "0.01": {
+        "expected_native_energy": 0.39043639103571576,
+        "deterministic_native_energy": 0.3905379904641046,
+        "deterministic_mean_mse": 0.003948000327606375,
+        "energy_u": 0.3248236191944202,
+        "rbf_mmd2_u": 0.01284055429965844,
+        "mean_mse": 0.003948940522807081,
+        "variance_mae": 0.024869443965144455
+      },
+      "0.1": {
+        "expected_native_energy": 0.3904326524999407,
+        "deterministic_native_energy": 0.3905345069037544,
+        "deterministic_mean_mse": 0.00394793166520281,
+        "energy_u": 0.32481697548000354,
+        "rbf_mmd2_u": 0.01284028652090922,
+        "mean_mse": 0.003948871188590095,
+        "variance_mae": 0.02486928705022567
+      },
+      "1.0": {
+        "expected_native_energy": 0.39043597380320233,
+        "deterministic_native_energy": 0.390539116329617,
+        "deterministic_mean_mse": 0.003947942934852715,
+        "energy_u": 0.3248262824908312,
+        "rbf_mmd2_u": 0.012840640796957794,
+        "mean_mse": 0.003948873266280215,
+        "variance_mae": 0.024868850052977603
+      }
+    }
+  }
+}

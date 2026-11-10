@@ -1,0 +1,16 @@
+{
+  "command": ".venv/bin/python scripts/run_feedback_joint_specificity.py --absolute-concentrations --out-dir outputs/feedback_joint_specificity_20261107_absolute --threads 2",
+  "identification_command": "OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 .venv/bin/python scripts/audit_feedback_joint_identification.py --run-dir outputs/feedback_joint_specificity_20261107_absolute",
+  "joint_tests_passed": 9,
+  "identification_tests_passed": 4,
+  "cohort_reference": "outputs/feedback_nested_chemical_20261107_absolute_v1/oof_predictions.npz",
+  "sample_ids_compounds_folds_truth_gene_axis_equal_to_reference": true,
+  "all_five_prior_context_means_and_scales_equal_to_reference": true,
+  "context_dimensions": 7,
+  "log10_rat_and_human_context_columns_equal_retained_metadata": true,
+  "all_new_and_old_joint_core_hashes_verified": true,
+  "improved_compounds": 69,
+  "worsened_compounds": 57,
+  "residual_weight_upper_boundary_folds": 1,
+  "scope": "Rules other than confirmed molar cohort/context filtering were retained; no further model or grid extension after this result."
+}

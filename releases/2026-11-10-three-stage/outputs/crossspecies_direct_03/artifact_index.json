@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-08",
+  "status": "completed",
+  "remote_root": "/hy-tmp/cross-species-feedback-20261108/crossspecies_direct_03",
+  "raw_expression_and_model_arrays_location": "remote_only; local raw data already existed before this round",
+  "human_only_model_training_performed": false,
+  "summary": "docs/multisource_20261108/crossspecies_direct_03/FINDINGS.zh.md",
+  "local_reports": {
+    "effect_heterogeneity.json": "65cb8f5383f0f6a0584246905186a339d51dce07a59fc17a12215c9c0c257ab6",
+    "execution_freeze.json": "0af6727a04b30861772fe91f6850c87b63219787fa837805c3e7373c74e40b0a",
+    "independent_cpu_audit.json": "0a140115e7370b483f59be6641369e2a33e42e7205ee2428df9ea9426eefc2b9",
+    "independent_scoring_version_audit.json": "0a4570f4643f156de50dcea6a18bccb8a0e113e7b3b371f341208f8ca18d6e7d",
+    "input_manifest.json": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6",
+    "paired_exposure_v1/fit_manifest.json": "e443ac6472b190f29174ae6af8a90c34063a2846ca4f25f9697d33f2d3480c26",
+    "paired_exposure_v1/report.json": "8f56ad9c0915d308c65cf09fa26c9fa28098a7b7c9ccbdee0941004206cce614",
+    "remote_test_verification.json": "9e5e98f872b9d03684ed717d7d9bc8ee949f120c03f1e8208f93ce44eb933c8e",
+    "scoring_code_version.json": "ea1167aeb785f7bab714960def9e1467aa96116714b99927e85bebe084628488",
+    "source_exposure_v1/fit_manifest.json": "2aefb2f129eeb5cf96de13166753f6ccfa69ad71ef88faa3801f17bd8e8c9681",
+    "source_exposure_v1/report.json": "abc8a0063ae0f8d277ca18a890115c7d16cd05cba717394df2fc804a2636213c"
+  },
+  "unfinished_remote_jobs": []
+}

@@ -1,0 +1,349 @@
+{
+  "date": "2026-11-08",
+  "study": "GSE330151",
+  "role": "retrospective external-study query, excluded from fitting and hyperparameter selection",
+  "model_context_names": [
+    "time_h",
+    "log10_rat_M",
+    "log10_human_M"
+  ],
+  "query_order": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "unique_human_rat_sample_count": 36,
+  "expected_contrasts": 6,
+  "expected_drug_tasks": 3,
+  "tasks": [
+    {
+      "study": "GSE330151",
+      "perturbation_code": "CDDO",
+      "sides": {
+        "human": {
+          "source_id": "GSE330151|human|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|human|CDDO",
+          "time_h": 24.0,
+          "dose_value": 100.0,
+          "dose_unit": "nM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719632",
+            "GSM9719633",
+            "GSM9719634"
+          ],
+          "control_sample_ids": [
+            "GSM9719617",
+            "GSM9719618",
+            "GSM9719619"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            0,
+            1,
+            2
+          ],
+          "control_arm_rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        "rat": {
+          "source_id": "GSE330151|rat|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|rat|CDDO",
+          "time_h": 24.0,
+          "dose_value": 100.0,
+          "dose_unit": "nM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719638",
+            "GSM9719639",
+            "GSM9719640"
+          ],
+          "control_sample_ids": [
+            "GSM9719623",
+            "GSM9719624",
+            "GSM9719625"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            36,
+            37,
+            38
+          ],
+          "control_arm_rows": [
+            42,
+            43,
+            44
+          ]
+        }
+      },
+      "chemical_identity": "bardoxolone methyl (CDDO-Me)",
+      "avoid": "CDDO free acid is not interchangeable",
+      "time_h": 24,
+      "rat_M": 1e-07,
+      "human_M": 1e-07,
+      "rat_dose_below_train_minimum": true,
+      "nominal_dose_category": "unavailable_in_external_design",
+      "sample_conditions_status": "explicit_GEO_treatment_and_control_metadata",
+      "model_admission_status": "conditional_on_chemical_features_gene_bridge_and_portable_context_freeze"
+    },
+    {
+      "study": "GSE330151",
+      "perturbation_code": "KI696",
+      "sides": {
+        "human": {
+          "source_id": "GSE330151|human|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|human|KI696",
+          "time_h": 24.0,
+          "dose_value": 10.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719692",
+            "GSM9719693",
+            "GSM9719694"
+          ],
+          "control_sample_ids": [
+            "GSM9719677",
+            "GSM9719678",
+            "GSM9719679"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            15,
+            16,
+            17
+          ],
+          "control_arm_rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        "rat": {
+          "source_id": "GSE330151|rat|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|rat|KI696",
+          "time_h": 24.0,
+          "dose_value": 10.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719698",
+            "GSM9719699",
+            "GSM9719700"
+          ],
+          "control_sample_ids": [
+            "GSM9719683",
+            "GSM9719684",
+            "GSM9719685"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            51,
+            52,
+            53
+          ],
+          "control_arm_rows": [
+            48,
+            49,
+            50
+          ]
+        }
+      },
+      "chemical_identity": "KI696",
+      "time_h": 24,
+      "rat_M": 1e-05,
+      "human_M": 1e-05,
+      "nominal_dose_category": "unavailable_in_external_design",
+      "sample_conditions_status": "explicit_GEO_treatment_and_control_metadata",
+      "model_admission_status": "conditional_on_chemical_features_gene_bridge_and_portable_context_freeze"
+    },
+    {
+      "study": "GSE330151",
+      "perturbation_code": "THAP",
+      "sides": {
+        "human": {
+          "source_id": "GSE330151|human|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|human|THAP",
+          "time_h": 8.0,
+          "dose_value": 1.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719662",
+            "GSM9719663",
+            "GSM9719664"
+          ],
+          "control_sample_ids": [
+            "GSM9719647",
+            "GSM9719648",
+            "GSM9719649"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+          "treated_arm_rows": [
+            9,
+            10,
+            11
+          ],
+          "control_arm_rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        "rat": {
+          "source_id": "GSE330151|rat|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|rat|THAP",
+          "time_h": 8.0,
+          "dose_value": 1.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719668",
+            "GSM9719669",
+            "GSM9719670"
+          ],
+          "control_sample_ids": [
+            "GSM9719653",
+            "GSM9719654",
+            "GSM9719655"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+          "treated_arm_rows": [
+            45,
+            46,
+            47
+          ],
+          "control_arm_rows": [
+            39,
+            40,
+            41
+          ]
+        }
+      },
+      "chemical_identity": "thapsigargin",
+      "time_h": 8,
+      "rat_M": 1e-06,
+      "human_M": 1e-06,
+      "nominal_dose_category": "unavailable_in_external_design",
+      "sample_conditions_status": "explicit_GEO_treatment_and_control_metadata",
+      "model_admission_status": "conditional_on_chemical_features_gene_bridge_and_portable_context_freeze"
+    }
+  ],
+  "nominal_dose_categories_used": false,
+  "gene_axis_rule": "Two-sided stable-ID bridge with bijective human/rat identity; human and rat observed presence and finite values, never dog/other unused species completeness or human treatment effect size.",
+  "source_response_rule": "Per drug, mean of three treated rat log2(CPM+1) profiles minus mean of its three exactly assigned rat DMSO controls. No replicate-label pairing.",
+  "target_truth_rule": "Same definition in human; separate truth artifact, unavailable to fitting and hyperparameter selection.",
+  "fit_information": "TG-GATEs only for transformations, response means, alpha and coefficients; external rat response and chemical/context at inference; external sample labels only for predefined task identity.",
+  "external_preprocessing_role": "External raw expression may be processed to prepare source and separate truth, but no human outcome-dependent transform, scale, gene selection or model decision.",
+  "mismatch_rule": "Three drugs have no exact shared time-and-rat-dose stratum. Any two alternate-drug source queries are explicitly cross-condition diagnostics, not exposure-matched negative controls. Preserve original query chemistry and context.",
+  "out_of_support_note": "CDDO-Me source and target dose 100nM is below TG-GATEs rat minimum1uM; its24h and THAP8h lie in the training time set.",
+  "history": "Previously viewed human outcomes are disclosed; protocol fixation now does not create a prospective blind evaluation.",
+  "source_task_manifest_sha256": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe",
+  "source_audit_sha256": "5da4f39ecb40378ec337149c85698de7fe73d3dd53ee9a436b10e5adbdc2ecdb",
+  "g300_excluded_from_current_run": true
+}

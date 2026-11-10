@@ -1,0 +1,105 @@
+{
+  "scope": "Artificial tensor operator audit only; no optimizer and no biological performance experiment",
+  "checkpoint": {
+    "repository": "arcinstitute/st-x-replogle-full",
+    "revision": "48ad5f70215ab4c58caa5a68e77d837601d29d35",
+    "url": "https://huggingface.co/arcinstitute/st-x-replogle-full/resolve/48ad5f70215ab4c58caa5a68e77d837601d29d35/hepg2_0.99/checkpoints/best.ckpt",
+    "remote_path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt",
+    "bytes": 664162239,
+    "sha256": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+    "global_step": 54000
+  },
+  "official_source_commit": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+  "source_files_sha256": {
+    "src/state/tx/models/state_transition.py": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+    "src/state/tx/models/utils.py": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+    "src/state/tx/models/base.py": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd"
+  },
+  "class_file": "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/state_transition.py",
+  "strict_load_missing": [],
+  "strict_load_unexpected": [],
+  "parameters": 70087272,
+  "trainable_parameters": 59591272,
+  "parameters_by_module": {
+    "loss_fn": 0,
+    "gene_decoder": 11641746,
+    "pert_encoder": 664200,
+    "basal_encoder": 2147416,
+    "transformer_backbone": 42745288,
+    "project_out": 2153634,
+    "final_down_then_up": 10716620,
+    "batch_encoder": 18368,
+    "relu": 0
+  },
+  "native_dimensions": {
+    "input_dim": 6546,
+    "output_dim": 6546,
+    "gene_dim": 6546,
+    "pert_dim": 2024,
+    "batch_dim": 56,
+    "hidden_dim": 328
+  },
+  "gene_axis": {
+    "count": 6546,
+    "unique": 6546,
+    "checkpoint_matches_published_hparams": true,
+    "ordered_gene_file": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/probe/ordered_genes.tsv",
+    "ordered_gene_file_sha256": "995bb9f4ba386e2263dfe011f3b5801d121bc200d5b48c4986ffba6f5f47867a"
+  },
+  "runtime": {
+    "python": "3.11.10",
+    "torch": "2.7.1+cu118",
+    "transformers": "4.52.4",
+    "cuda": "11.8",
+    "device": "cuda",
+    "cuda_device_name": "NVIDIA A800 80GB PCIe",
+    "cuda_peak_allocated_bytes": 840747008
+  },
+  "normalization": {
+    "log1p_from_raw_counts": false,
+    "counts_target_sum_if_enabled": 10000.0,
+    "historical_replogle_preprocessing_scale_verified": false
+  },
+  "extension": {
+    "condition_columns": {
+      "LPS": 2024,
+      "unstimulated_assay_control": 2025
+    },
+    "context_rows": {
+      "human_new_assay": 56,
+      "pig_new_assay": 57,
+      "rabbit_new_assay": 58
+    },
+    "initialization": "all new weights zero; original weights copied exactly"
+  },
+  "zero_update_original_interface": {
+    "bitwise_equal": true,
+    "max_absolute_difference": 0.0,
+    "output_shape": [
+      64,
+      6546
+    ],
+    "native_gene_interface_tensors_retained": 22,
+    "native_gene_interface_tensors_bitwise_equal": true
+  },
+  "new_condition_operator": {
+    "artificial_population_shape": [
+      64,
+      6546
+    ],
+    "finite_output": true,
+    "finite_backward": true,
+    "gradient_groups_nonzero": {
+      "transformer_backbone.": true,
+      "basal_encoder.": true,
+      "project_out.": true,
+      "final_down_then_up.": true,
+      "pert_encoder.extension.": true,
+      "batch_encoder.": true
+    },
+    "gradient_tensors": 85,
+    "optimizer_steps": 0
+  },
+  "measurement_contract": "Assay inputs require measured gene coverage and explicit missing masks; this artificial full-axis probe does not authorize interpreting absent assay genes as measured zeros.",
+  "script_sha256": "b596197a3bf853e10eed488666ff7afab432ded084734fbc2e6dff79b7a9d820"
+}

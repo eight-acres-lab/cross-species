@@ -1,0 +1,427 @@
+{
+  "pert_encoder.original.0.weight": {
+    "elements": 663872,
+    "finite": true,
+    "nonzero": false
+  },
+  "pert_encoder.original.0.bias": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "pert_encoder.extension.weight": {
+    "elements": 656,
+    "finite": true,
+    "nonzero": true
+  },
+  "basal_encoder.0.weight": {
+    "elements": 2147088,
+    "finite": true,
+    "nonzero": true
+  },
+  "basal_encoder.0.bias": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.0.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.1.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.2.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.3.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.4.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.5.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.6.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.self_attn.q_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.self_attn.k_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.self_attn.v_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.self_attn.o_proj.weight": {
+    "elements": 251904,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.mlp.gate_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.mlp.up_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.mlp.down_proj.weight": {
+    "elements": 1007616,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.input_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.layers.7.post_attention_layernorm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "transformer_backbone.norm.weight": {
+    "elements": 328,
+    "finite": true,
+    "nonzero": true
+  },
+  "project_out.0.weight": {
+    "elements": 2147088,
+    "finite": true,
+    "nonzero": true
+  },
+  "project_out.0.bias": {
+    "elements": 6546,
+    "finite": true,
+    "nonzero": true
+  },
+  "final_down_then_up.0.weight": {
+    "elements": 5354628,
+    "finite": true,
+    "nonzero": true
+  },
+  "final_down_then_up.0.bias": {
+    "elements": 818,
+    "finite": true,
+    "nonzero": true
+  },
+  "final_down_then_up.2.weight": {
+    "elements": 5354628,
+    "finite": true,
+    "nonzero": true
+  },
+  "final_down_then_up.2.bias": {
+    "elements": 6546,
+    "finite": true,
+    "nonzero": true
+  },
+  "batch_encoder.weight": {
+    "elements": 19352,
+    "finite": true,
+    "nonzero": true
+  }
+}

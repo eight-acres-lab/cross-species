@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-08",
+  "study": "GSE330151",
+  "source": "PubChem PUG REST with exact name/synonym matching to curated official GEO text",
+  "feature_schema_matches_TG_GATES": true,
+  "fingerprint": "PubChem881-bit, exact existing length-prefixed base64 decoder",
+  "descriptor_order": [
+    "MolecularWeight",
+    "XLogP",
+    "TPSA",
+    "HBondDonorCount",
+    "HBondAcceptorCount",
+    "RotatableBondCount",
+    "HeavyAtomCount",
+    "Complexity",
+    "Charge",
+    "CovalentUnitCount"
+  ],
+  "accepted": [
+    {
+      "panel_perturbation": "CDDO",
+      "compound": "bardoxolone methyl",
+      "cid": 400769,
+      "study_name_evidence": "bardoxolone (CDDO-Me)",
+      "extra_required_exact_synonym": "CDDO-Me",
+      "excluded_related_cid": 400010,
+      "exclusion_reason": "Bardoxolone/CDDO free acid is a distinct structure; study explicitly specifies methyl ester CDDO-Me.",
+      "pubchem_title": "Bardoxolone Methyl",
+      "molecular_formula": "C32H43NO4",
+      "inchikey": "WPTTVJLTNAWYAO-KPOXMGGZSA-N",
+      "isomeric_smiles": "C[C@@]12CC[C@]3(CCC(C[C@H]3[C@H]1C(=O)C=C4[C@]2(CC[C@@H]5[C@@]4(C=C(C(=O)C5(C)C)C#N)C)C)(C)C)C(=O)OC",
+      "connectivity_smiles": "CC1(CCC2(CCC3(C(C2C1)C(=O)C=C4C3(CCC5C4(C=C(C(=O)C5(C)C)C#N)C)C)C)C(=O)OC)C",
+      "matched_synonym": "Bardoxolone methyl",
+      "matched_explicit_study_form": "CDDO-Me",
+      "fingerprint_set_bits": 89,
+      "descriptors": {
+        "MolecularWeight": 505.7,
+        "XLogP": 6.7,
+        "TPSA": 84.2,
+        "HBondDonorCount": 0.0,
+        "HBondAcceptorCount": 5.0,
+        "RotatableBondCount": 2.0,
+        "HeavyAtomCount": 37.0,
+        "Complexity": 1210.0,
+        "Charge": 0.0,
+        "CovalentUnitCount": 1.0
+      },
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/400769",
+      "experimental_lot_purity_stereochemistry_verified": false,
+      "same_cid_in_strict_training": false,
+      "same_inchikey_in_strict_training": false
+    },
+    {
+      "panel_perturbation": "KI696",
+      "compound": "KI696",
+      "cid": 118170767,
+      "study_name_evidence": "Ki696",
+      "extra_required_exact_synonym": "KI696",
+      "excluded_related_cid": 118169940,
+      "exclusion_reason": "KI696 isomer is a distinct stereoisomer name/structure, not the exact KI696 name returned by PubChem.",
+      "pubchem_title": "KI-696",
+      "molecular_formula": "C28H30N4O6S",
+      "inchikey": "ZDNGJXBUEQNFBQ-GCJKJVERSA-N",
+      "isomeric_smiles": "C[C@@H]1CN(S(=O)(=O)C2=CC=CC=C2O1)CC3=C(C=CC(=C3)[C@H](CC(=O)O)C4=CC5=C(C(=C4)OC)N(N=N5)C)C",
+      "connectivity_smiles": "CC1CN(S(=O)(=O)C2=CC=CC=C2O1)CC3=C(C=CC(=C3)C(CC(=O)O)C4=CC5=C(C(=C4)OC)N(N=N5)C)C",
+      "matched_synonym": "KI696",
+      "matched_explicit_study_form": "KI696",
+      "fingerprint_set_bits": 229,
+      "descriptors": {
+        "MolecularWeight": 550.6,
+        "XLogP": 3.5,
+        "TPSA": 132.0,
+        "HBondDonorCount": 1.0,
+        "HBondAcceptorCount": 9.0,
+        "RotatableBondCount": 7.0,
+        "HeavyAtomCount": 39.0,
+        "Complexity": 962.0,
+        "Charge": 0.0,
+        "CovalentUnitCount": 1.0
+      },
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/118170767",
+      "experimental_lot_purity_stereochemistry_verified": false,
+      "same_cid_in_strict_training": false,
+      "same_inchikey_in_strict_training": false
+    },
+    {
+      "panel_perturbation": "THAP",
+      "compound": "thapsigargin",
+      "cid": 446378,
+      "study_name_evidence": "thapsigargin",
+      "extra_required_exact_synonym": "thapsigargin",
+      "pubchem_title": "Thapsigargin",
+      "molecular_formula": "C34H50O12",
+      "inchikey": "IXFPJGBNCFXKPI-FSIHEZPISA-N",
+      "isomeric_smiles": "CCCCCCCC(=O)O[C@H]1[C@H]2C(=C([C@@H]1OC(=O)/C(=C\\C)/C)C)[C@H]3[C@]([C@H](C[C@]2(C)OC(=O)C)OC(=O)CCC)([C@](C(=O)O3)(C)O)O",
+      "connectivity_smiles": "CCCCCCCC(=O)OC1C2C(=C(C1OC(=O)C(=CC)C)C)C3C(C(CC2(C)OC(=O)C)OC(=O)CCC)(C(C(=O)O3)(C)O)O",
+      "matched_synonym": "thapsigargin",
+      "matched_explicit_study_form": "thapsigargin",
+      "fingerprint_set_bits": 96,
+      "descriptors": {
+        "MolecularWeight": 650.8,
+        "XLogP": 3.6,
+        "TPSA": 172.0,
+        "HBondDonorCount": 2.0,
+        "HBondAcceptorCount": 12.0,
+        "RotatableBondCount": 17.0,
+        "HeavyAtomCount": 46.0,
+        "Complexity": 1270.0,
+        "Charge": 0.0,
+        "CovalentUnitCount": 1.0
+      },
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/446378",
+      "experimental_lot_purity_stereochemistry_verified": false,
+      "same_cid_in_strict_training": false,
+      "same_inchikey_in_strict_training": false
+    }
+  ],
+  "all_three_absent_from_strict_training_CIDs_and_InChIKeys": true,
+  "preprocessing": "Raw descriptors kept; imputation/standardization must use TG-GATEs training statistics only. External descriptors do not refit any scaler.",
+  "representation_limit": "PubChem881 and these physicochemical descriptors may not encode stereoisomer differences; identity is separately verified by names/InChIKey and study wording.",
+  "input_files": {
+    "candidate_properties.json": "8a39595ff90af61e3ce2a90ab2d12f51455853322dcfd1a974b58f7d91387a04",
+    "candidate_synonyms.json": "0c624b05a667dab3588284162bf59ad02be788ba9020b09aabfaf832133bcff3",
+    "name_resolution.json": "8038f9a59afdb28022b8dbef96709f313efaf5f4fb8470908a05a144357b9e14",
+    "GSE330151/arm_metadata.json": "4566147030a39b7bd443132c9dc25aa3e655551b970388565124706159a53198",
+    "TG_strict_report": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d",
+    "TG_features_manifest": "762702d7dde6102dc1b4d063a92d8376078dd5442172ef232f7a617b2e9c7905"
+  },
+  "feature_sha256": "efdb8680111dc869a158b840fc0db8671bd9b66f3e5daa790187035cd50e3f16",
+  "build_script_sha256": "c34601c608a6869ffad2e1c2d1446d9878524e5939b96f45f28f6e2ebc5f1e77",
+  "existing_decoder_script_sha256": "50e2ce812c69eb51b6415bc603da45380bd0bbe1a3f60c474a5122501e706619",
+  "sample_evidence": [
+    {
+      "panel_perturbation": "CDDO",
+      "sample_id": "GSM9719632",
+      "species": "human",
+      "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719632"
+    },
+    {
+      "panel_perturbation": "CDDO",
+      "sample_id": "GSM9719633",
+      "species": "human",
+      "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719633"
+    },
+    {
+      "panel_perturbation": "CDDO",
+      "sample_id": "GSM9719634",
+      "species": "human",
+      "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719634"
+    },
+    {
+      "panel_perturbation": "CDDO",
+      "sample_id": "GSM9719638",
+      "species": "rat",
+      "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719638"
+    },
+    {
+      "panel_perturbation": "CDDO",
+      "sample_id": "GSM9719639",
+      "species": "rat",
+      "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719639"
+    },
+    {
+      "panel_perturbation": "CDDO",
+      "sample_id": "GSM9719640",
+      "species": "rat",
+      "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719640"
+    },
+    {
+      "panel_perturbation": "KI696",
+      "sample_id": "GSM9719692",
+      "species": "human",
+      "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719692"
+    },
+    {
+      "panel_perturbation": "KI696",
+      "sample_id": "GSM9719693",
+      "species": "human",
+      "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719693"
+    },
+    {
+      "panel_perturbation": "KI696",
+      "sample_id": "GSM9719694",
+      "species": "human",
+      "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719694"
+    },
+    {
+      "panel_perturbation": "KI696",
+      "sample_id": "GSM9719698",
+      "species": "rat",
+      "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719698"
+    },
+    {
+      "panel_perturbation": "KI696",
+      "sample_id": "GSM9719699",
+      "species": "rat",
+      "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719699"
+    },
+    {
+      "panel_perturbation": "KI696",
+      "sample_id": "GSM9719700",
+      "species": "rat",
+      "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719700"
+    },
+    {
+      "panel_perturbation": "THAP",
+      "sample_id": "GSM9719662",
+      "species": "human",
+      "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719662"
+    },
+    {
+      "panel_perturbation": "THAP",
+      "sample_id": "GSM9719663",
+      "species": "human",
+      "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719663"
+    },
+    {
+      "panel_perturbation": "THAP",
+      "sample_id": "GSM9719664",
+      "species": "human",
+      "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719664"
+    },
+    {
+      "panel_perturbation": "THAP",
+      "sample_id": "GSM9719668",
+      "species": "rat",
+      "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719668"
+    },
+    {
+      "panel_perturbation": "THAP",
+      "sample_id": "GSM9719669",
+      "species": "rat",
+      "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719669"
+    },
+    {
+      "panel_perturbation": "THAP",
+      "sample_id": "GSM9719670",
+      "species": "rat",
+      "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+      "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9719670"
+    }
+  ]
+}

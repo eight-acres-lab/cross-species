@@ -1,0 +1,45 @@
+{
+  "original_report_sha256": "41ea15557205d5c5e6887cb120cbbbc4dd8535996e2759b07309833b4732a1be",
+  "specification_sha256": "4f4cd125de3b53d15d8a52a3db20d876f5cf00fd35b6ae07b8961dd4dd8516c3",
+  "checks": {
+    "released_checkpoint": {
+      "prediction_sha256": "520516e9980659e1973e3f5c13fcfb0f2c5e1e2f3868e139b72dc03d764df147",
+      "conditions": 7,
+      "rollouts": 4,
+      "cells_per_population": 64,
+      "genes": 1000,
+      "maximum_recomputed_metric_difference": 5.551115123125783e-17,
+      "source_truth_and_raw_readout_verified": true
+    },
+    "native_fm": {
+      "prediction_sha256": "d67d06b972de7b929f84265e515e606d61d4f925a6e8a465e45de4013ac12bcd",
+      "conditions": 7,
+      "rollouts": 4,
+      "cells_per_population": 64,
+      "genes": 1000,
+      "maximum_recomputed_metric_difference": 5.551115123125783e-17,
+      "source_truth_and_raw_readout_verified": true
+    },
+    "nft": {
+      "prediction_sha256": "b258069584c3efe8b0d1c903cd045790ca671d8c0417f39122209da3ad0d0473",
+      "conditions": 7,
+      "rollouts": 4,
+      "cells_per_population": 64,
+      "genes": 1000,
+      "maximum_recomputed_metric_difference": 5.551115123125783e-17,
+      "source_truth_and_raw_readout_verified": true
+    },
+    "terminal_gradient": {
+      "prediction_sha256": "28f2845b343e87382ebf95e9593fe7a066b08d8ca4c5f083ff2694fce612640e",
+      "conditions": 7,
+      "rollouts": 4,
+      "cells_per_population": 64,
+      "genes": 1000,
+      "maximum_recomputed_metric_difference": 0.0,
+      "source_truth_and_raw_readout_verified": true
+    }
+  },
+  "numerical_values_changed": false,
+  "label_correction": "Original report reused State interval helper labels. This copy changes cytokine-specific field names and warnings to chemical-condition terminology; loss and interval numbers are preserved.",
+  "audit_script_sha256": "eb884cc9af42775217eefafc79a1026e03cd5b0e05ab7579af363c1da28441d9"
+}

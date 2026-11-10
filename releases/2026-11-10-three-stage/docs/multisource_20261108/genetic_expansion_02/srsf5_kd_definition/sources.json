@@ -1,0 +1,26 @@
+[
+  {
+    "path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/replicate51.pdf",
+    "url": "https://www.encodeproject.org/documents/844a76bf-b326-4b36-bda1-e37e5e928816/@@download/attachment/L-SRSF5-41-LV11-51.pdf",
+    "bytes": 192069,
+    "sha256": "138d47b186baa13adbd51942d2f59717164e4cad135f3c97958f330485ddfe39",
+    "elapsed_seconds": 1.2231590829999999,
+    "kind": "PDF"
+  },
+  {
+    "path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/replicate52.pdf",
+    "url": "https://www.encodeproject.org/documents/4e0f065a-4df1-4452-80c5-2889d23caffe/@@download/attachment/L-SRSF5-41-LV11-52.pdf",
+    "bytes": 191901,
+    "sha256": "6fa94fe786c4e1665d427480a9b6e828a56e05b3dfbc13b0942043a3a954f0c4",
+    "elapsed_seconds": 0.959713458,
+    "kind": "PDF"
+  },
+  {
+    "path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/encore_detail.html",
+    "url": "https://graveleylabweb.cam.uchc.edu/encore/gene/index.php?view_kdRNASeq_by_SampleID=BGKLV11-51",
+    "bytes": 34582,
+    "sha256": "d133ccc1526d77c33ae73c32346ac9587d62f5a75fa300d768a60ee70ec21fa1",
+    "elapsed_seconds": 1.3399697499999998,
+    "kind": "other"
+  }
+]

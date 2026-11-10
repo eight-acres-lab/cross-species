@@ -1,0 +1,26 @@
+{
+  "study": "E-MTAB-6754",
+  "author_github_revision": "b74850644007d70b606f1c16cafb72cb74d6c7a0",
+  "coding_gene_axis_verification": {
+    "pig": {
+      "author_coding_gene_file": "docs/nonrodent_singlecell_20261110/animal/author_code/coding_Sus_scrofa.Sscrofa10.2.84.txt",
+      "n_genes": 21607,
+      "exact_set_equal_to_all12_matrices": true,
+      "sha256": "39539c08f4c252f714c9d364233d47e8a826e2edf82a5b1940182eebe2205307"
+    },
+    "rabbit": {
+      "author_coding_gene_file": "docs/nonrodent_singlecell_20261110/animal/author_code/coding_Oryctolagus_cuniculus.OryCun2.0.84.txt",
+      "n_genes": 19293,
+      "exact_set_equal_to_all12_matrices": true,
+      "sha256": "e3f6ec2ea3efd723232e3e8c67ca0526972b6732e4c9ee4d4f12bb1d30505e5b"
+    }
+  },
+  "local_large_arrays": false,
+  "cellot_doi_status": "HTTP429; not used",
+  "pig_donor_provenance": "conflicting author labels and supplement; preserve unresolved key",
+  "counts_layer": "X",
+  "normalization": "none",
+  "downloaded_source_bytes": 88338999,
+  "source_matrices": 24,
+  "total_cells": 57997
+}

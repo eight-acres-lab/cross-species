@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "compared_native_coordinates": 6357,
+  "all_ensembl_ids_and_symbols_match_original_checkpoint_bridge": true,
+  "original_native_dimensions": 6546,
+  "POU5F1_in_observed_outputs": false,
+  "original_bridge_sha256": "631ebbf24009daacaa8ac85a8824a6c47adb1bc04dae6f564648ef499da52521",
+  "normalized_axis_sha256": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02"
+}

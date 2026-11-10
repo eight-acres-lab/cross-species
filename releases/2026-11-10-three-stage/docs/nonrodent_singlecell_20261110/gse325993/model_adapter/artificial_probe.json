@@ -1,0 +1,159 @@
+{
+  "scope": "Artificial software operator probe only; no assay RNA, gene selection or biological performance evaluation",
+  "actual_assay_datasets_opened": 0,
+  "biological_fits": 0,
+  "biological_inference_calls": 0,
+  "scratch_artificial_optimizer_steps": 3,
+  "trained_weights_written": false,
+  "adapter_specification": {
+    "specification": {
+      "perturbation": "POU5F1_CRISPRi",
+      "control": "NTC_dox5d",
+      "contexts": [
+        "human_iPSC",
+        "cynomolgus_iPSC"
+      ]
+    },
+    "condition_columns": {
+      "POU5F1_CRISPRi": 2024,
+      "NTC_dox5d": 2025
+    },
+    "context_rows": {
+      "human_iPSC": 56,
+      "cynomolgus_iPSC": 57
+    },
+    "initialization": "all new columns/rows zero; original gene parameters retained",
+    "target_gene_is_native_output": false
+  },
+  "native_gene_count": 6546,
+  "POU5F1_in_native_gene_axis": false,
+  "native_gene_tensors_retained_bitwise_at_initialization": 22,
+  "old_native_output_bitwise_equal": true,
+  "zero_step_contrast_equals_masked_controls_bitwise": true,
+  "extension_preserves_CPU_and_CUDA_RNG": true,
+  "artificial_shapes": {
+    "controls": [
+      8,
+      6546
+    ],
+    "targets": [
+      16,
+      1536
+    ],
+    "measured_mask_size": 1536
+  },
+  "mask_scope": "Seeded random native positions for software testing; no actual assay coverage or expression selection",
+  "first_shared_gradient_and_data_updates_zero_expected": true,
+  "third_step_all_groups_have_finite_positive_gradients_and_data_updates": true,
+  "artificial_human_context_change_l2": 0.15521589453099052,
+  "old_batch_rows_and_old_pert_columns_preserved": true,
+  "invalid_mask_rejected": true,
+  "assay_control_contrast_equals_masked_controls": true,
+  "strict_adapted_reload_missing": [],
+  "strict_adapted_reload_unexpected": [],
+  "strict_reload_prediction_bitwise_equal": true,
+  "history": [
+    {
+      "step": 1,
+      "artificial_source_loss": 0.09825696051120758,
+      "gradient_l2": {
+        "backbone": 0.0,
+        "basal": 0.0,
+        "project": 0.0,
+        "final_dense": 0.0,
+        "condition": 0.0013485262071141761
+      },
+      "total_update_l2": {
+        "backbone": 0.0,
+        "basal": 0.0,
+        "project": 0.0,
+        "final_dense": 0.0,
+        "condition": 0.02559006150777553
+      },
+      "data_update_beyond_decay_l2": {
+        "backbone": 0.0,
+        "basal": 0.0,
+        "project": 0.0,
+        "final_dense": 0.0,
+        "condition": 0.02559006150777553
+      },
+      "gradient_norm_before_clip": 0.0013485262170433998
+    },
+    {
+      "step": 2,
+      "artificial_source_loss": 0.09822927415370941,
+      "gradient_l2": {
+        "backbone": 0.0003885744762213857,
+        "basal": 0.00023092305011010816,
+        "project": 6.930035835147934e-05,
+        "final_dense": 0.00022294991607944606,
+        "condition": 0.0013393880812843189
+      },
+      "total_update_l2": {
+        "backbone": 0.02181201480524232,
+        "basal": 0.004726250469223301,
+        "project": 0.006574260601888012,
+        "final_dense": 0.009637668938624907,
+        "condition": 0.025571145331928734
+      },
+      "data_update_beyond_decay_l2": {
+        "backbone": 0.02181201480524232,
+        "basal": 0.004726250469223301,
+        "project": 0.006574260601888012,
+        "final_dense": 0.009637668938624907,
+        "condition": 0.02557115725836259
+      },
+      "gradient_norm_before_clip": 0.001432769000530243
+    },
+    {
+      "step": 3,
+      "artificial_source_loss": 0.09819015115499496,
+      "gradient_l2": {
+        "backbone": 0.0028778428110442047,
+        "basal": 0.0017247833138027693,
+        "project": 0.0009958705818936822,
+        "final_dense": 0.003998607210927528,
+        "condition": 0.00167660012584183
+      },
+      "total_update_l2": {
+        "backbone": 0.02757444326537236,
+        "basal": 0.004339427014184988,
+        "project": 0.008543173331144589,
+        "final_dense": 0.013167735056930984,
+        "condition": 0.023836958875216994
+      },
+      "data_update_beyond_decay_l2": {
+        "backbone": 0.02757444326537236,
+        "basal": 0.004339427014184988,
+        "project": 0.008543173331144589,
+        "final_dense": 0.013167735056930984,
+        "condition": 0.023836981380052295
+      },
+      "gradient_norm_before_clip": 0.005572254303842783
+    }
+  ],
+  "runtime": {
+    "python": "3.11.10",
+    "torch": "2.7.1+cu118",
+    "transformers": "4.52.4",
+    "cuda": "11.8"
+  },
+  "immutable_hashes_before": {
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993/model_adapter/state_assay_adapter.py": "fce6ede9f0ff1cf2202101dbbafd51dfbfa98e3a130cc375cc9b6c4f7cf9b15c",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993/model_adapter/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/state_transition.py": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/utils.py": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/base.py": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd"
+  },
+  "immutable_hashes_after": {
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993/model_adapter/state_assay_adapter.py": "fce6ede9f0ff1cf2202101dbbafd51dfbfa98e3a130cc375cc9b6c4f7cf9b15c",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993/model_adapter/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/state_transition.py": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/utils.py": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/base.py": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd"
+  },
+  "immutable_hashes_unchanged": true,
+  "script_sha256": "67abeffa2424cf21304439beecf4940bdf773895febe785af0bcf6971cd3a246"
+}

@@ -1,0 +1,140 @@
+{
+  "scope": "Descriptive held arm-record reference; donor identity unknown; overlapping nine splits per drug do not establish biological replication or population confidence intervals.",
+  "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
+  "fit_manifest_sha256": "efe4727d21552f8d685bab53b9a488abb6c817f9c48bfa3e9081c631bc1165cc",
+  "tasks": [
+    {
+      "task_id": "CDDO",
+      "held_combinations": 9,
+      "held_response_variation": 0.2049554658923164,
+      "rules": {
+        "same_condition_human_reference": {
+          "mean_mse": 0.4611497982577118,
+          "mean_defined_pearson": -0.3240557992150252
+        },
+        "zero": {
+          "mean_mse": 0.23608105660024328,
+          "mean_defined_pearson": null
+        },
+        "human_mean": {
+          "mean_mse": 0.23906846558101202,
+          "mean_defined_pearson": -0.02246999385617623
+        },
+        "rat_copy": {
+          "mean_mse": 0.3394537346372259,
+          "mean_defined_pearson": 0.10137694005151386
+        },
+        "scalar_nointercept": {
+          "mean_mse": 0.23483168663468237,
+          "mean_defined_pearson": 0.10137694005151383
+        },
+        "chemical_context": {
+          "mean_mse": 0.2419269910275921,
+          "mean_defined_pearson": -0.044909742630280164
+        },
+        "source_plus_context": {
+          "mean_mse": 0.25172545610395125,
+          "mean_defined_pearson": 0.056561575312014285
+        },
+        "fused_wrong_source_120": {
+          "mean_mse": 0.24963770981977357,
+          "mean_defined_pearson": 0.05701685747426964
+        },
+        "fused_wrong_source_201": {
+          "mean_mse": 0.26156843471242736,
+          "mean_defined_pearson": -0.0018474279624833942
+        }
+      },
+      "human_reference_gain_vs_zero": -0.9533536697041223
+    },
+    {
+      "task_id": "KI696",
+      "held_combinations": 9,
+      "held_response_variation": 0.6882017352463827,
+      "rules": {
+        "same_condition_human_reference": {
+          "mean_mse": 1.548453904304361,
+          "mean_defined_pearson": -0.26473803599944545
+        },
+        "zero": {
+          "mean_mse": 0.7338192732821555,
+          "mean_defined_pearson": null
+        },
+        "human_mean": {
+          "mean_mse": 0.7384468731718793,
+          "mean_defined_pearson": -0.05982316821327496
+        },
+        "rat_copy": {
+          "mean_mse": 0.8200080605257298,
+          "mean_defined_pearson": 0.10901625906758422
+        },
+        "scalar_nointercept": {
+          "mean_mse": 0.7311708232236082,
+          "mean_defined_pearson": 0.10901625906758423
+        },
+        "chemical_context": {
+          "mean_mse": 0.742363693137177,
+          "mean_defined_pearson": -0.07481936599660675
+        },
+        "source_plus_context": {
+          "mean_mse": 0.7498905086707737,
+          "mean_defined_pearson": 0.0406955037209773
+        },
+        "fused_wrong_source_120": {
+          "mean_mse": 0.7684081737862005,
+          "mean_defined_pearson": -0.04984752838583204
+        },
+        "fused_wrong_source_201": {
+          "mean_mse": 0.7538109092562337,
+          "mean_defined_pearson": 0.0301427596131769
+        }
+      },
+      "human_reference_gain_vs_zero": -1.110129783561812
+    },
+    {
+      "task_id": "THAP",
+      "held_combinations": 9,
+      "held_response_variation": 0.22553554513242166,
+      "rules": {
+        "same_condition_human_reference": {
+          "mean_mse": 0.5074549765479487,
+          "mean_defined_pearson": 0.34362453815625704
+        },
+        "zero": {
+          "mean_mse": 0.4369786622310923,
+          "mean_defined_pearson": null
+        },
+        "human_mean": {
+          "mean_mse": 0.4226482158917217,
+          "mean_defined_pearson": 0.2674062210520567
+        },
+        "rat_copy": {
+          "mean_mse": 0.5078117116514037,
+          "mean_defined_pearson": 0.25800994306163466
+        },
+        "scalar_nointercept": {
+          "mean_mse": 0.4197736823499124,
+          "mean_defined_pearson": 0.2580099430616345
+        },
+        "chemical_context": {
+          "mean_mse": 0.4267005324125306,
+          "mean_defined_pearson": 0.22255195309540265
+        },
+        "source_plus_context": {
+          "mean_mse": 0.3939049978883389,
+          "mean_defined_pearson": 0.33722422600862734
+        },
+        "fused_wrong_source_120": {
+          "mean_mse": 0.40787891244239044,
+          "mean_defined_pearson": 0.25556463644892596
+        },
+        "fused_wrong_source_201": {
+          "mean_mse": 0.40980573440029494,
+          "mean_defined_pearson": 0.24820608261860372
+        }
+      },
+      "human_reference_gain_vs_zero": -0.16128090547264673
+    }
+  ],
+  "fixed_prediction_mean_loss_identity_max_abs_difference": 1.1102230246251565e-16
+}

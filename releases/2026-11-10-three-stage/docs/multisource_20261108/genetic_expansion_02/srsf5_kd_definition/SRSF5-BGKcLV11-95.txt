@@ -1,0 +1,405 @@
+  Graveley Lab CRISPR Genome Editing
+     followed by RNA-seq Biosample
+    Preparation and Characterization
+                Document
+                Wet Lab: Sara Olson and Lijun Zhan
+                 Computational Lab: Xintao Wei
+                      PI: Brenton Graveley
+
+            Department of Genetics and Genome Sciences
+               UConn Institute for Systems Genomics
+                          UConn Health
+                     400 Farmington Avenue
+                   Farmington, CT 06030 USA
+                             October 14, 2020
+
+
+   Project: ENCORE
+   Grant: U41HG009889
+   Sample Description: CRISPR genome editing of SRSF5 in K562 cells
+   Cell Line: K562
+   RNA ID: SRSF5-BGKcLV11-95
+   ENCODE BIOSAMPLE ACCESSION: ENCBS778ZTA
+
+
+   This document contains the protocols used to clone target guide sequence, to
+generate lentiCRISPRv2-gRNA particles, transduction of K562 cells, harvest-
+ing of RNA, characterization of the RNA integrity and measurement of target
+knockdown efficiency by both qRT-PCR and Western blotting.
+
+
+
+
+                                      1
+Target guide sequence cloning protocol - Adopted
+from ZhangLab’s
+In this portion of the protocol we will clone the target sequence into the lenti-
+CRISPRv2.
+             Item                                  Info
+             Target                        SRSF5-human
+             gRNA ID                       BGC#0000212
+             gRNA sequence      GAGGTCTGCGACTACTAAAA
+
+
+   In order to clone the target sequence into the lentiCRISPRv2 , synthesize
+two oligos of the following form. All plasmids have the same overhangs after
+BsmBI digestion.
+
+
+
+
+Lentiviral vector digestion, oligo annealing and cloning into
+digested vector
+  1. Digest and dephosphorylate 5ug of the lentiviral CRISPR plasmid with
+     BsmBI for 30 min at 37 ◦ C:
+
+                     Reagent                            Quantity
+                     lentiCRISPRv2                          5 µg
+                     FastDigest BsmBI (Fermentas)           3 µl
+                     FastAP (Fermentas)                     3 µl
+                     10X FastDigest Buffer                  6 µl
+                     100 mM DTT                           0.6 µl
+                     ddH2 O (freshly prepared)             X µl
+                     Total volume                          60 µl
+
+  2. Gel purify digested plasmid using QIAquick Gel Extraction Kit and elute
+     in EB.
+     If BsmBI digested, a ∼2kb filler piece should be present on the gel. Only
+     gel purify the larger band. Leave the 2kb band.
+  3. Phosphorylate and anneal each pair of oligos:
+
+                     Reagent                            Quantity
+                     Oligo 1 (100 µM)                       1 µl
+                     Oligo 2 (100 µM)                       1 µl
+                     10X T4 Ligation Buffer (NEB)           1 µl
+                     T4 PNK (NEB M0201S)                  0.5 µl
+                     ddH2 O                               6.5 µl
+                     Total volume                          10 µl
+
+
+                                       2
+    Please use the T4 Ligation Buffer since the buffer supplied with the T4
+    PNK enzyme does not include ATP (or supplement to 1mM ATP).
+    Put the phosphorylation/annealing reaction in a thermocycler using the
+    following parameters:
+
+            37 ◦ C   30 min
+            95 ◦ C   5 min and then ramp down to 25 ◦ C at 5 ◦ C/min
+
+ 4. Dilute annealed oligos from Step 3 at a 1:200 dilution into sterile water or
+    EB.
+
+ 5. Set up ligation reaction and incubate at room temperature for 10 min:
+
+             Reagent                                         Quantity
+             BsmBI digested plasmid from Step 2 (50µg)           X µl
+             diluted oligo duplex from Step 4                    1 µl
+             2X Quick Ligase Buffer (NEB)                        5 µl
+             ddH2 O                                              X µl
+             Subotal volume                                     10 µl
+
+             Quick Ligase                                         1 µl
+             Total volume                                        11 µl
+
+    Also perform a negative control ligation (vector-only with water in place
+    of oligos) and transformation.
+
+ 6. Transformation into Stbl3 bacteria.
+    Lentiviral transfer plasmids contain Long-Terminal Repeats (LTRs) and
+    must be transformed into recombination-deficient bacteria. We use home-
+    made Stbl3 (propagated from Invitrogen C7373-03) and get excellent plas-
+    mid yields. Although other RecA-strains may work, we have found the
+    most consistent transformations and yields using Stbl3.
+
+
+Protocol for producing lentiCRISPRV2-gRNA par-
+ticles
+Day 1
+ 1. Plate 0.8-1x10ˆ6 293 T cells (catalog number: CRL-11268, ATCC) in each
+    well of 6-well plate with 10 % FBS (catalog number: 30-2020, ATCC)
+    DMEM (catalog number: 11995-065, Life technologies) medium without
+    penicillin and streptomycin.
+ 2. Incubate overnight. Cells should be 70-80% confluent.
+
+Day 2
+ 1. In polypropylene tubes, make a cocktail for each transfection as follows:
+
+
+
+                                      3
+                        Reagent                   Quantity
+                        lentiCRISPRv2-gRNA             1 µg
+                        psPAX2 Packaging DNA        750 ng
+                        pCMV-VSV-G DNA              250 ng
+                        serum-free OPTI-MEM       to 100 µl
+
+  2. Add 6 µl of FuGENE HD Transfection reagent (Catalog number: E2311,
+     Promega) to the tube (FuGENE:DNA=3:1)
+  3. Incubate for 20 minutes at room temperature.
+
+  4. Gently add the DNA mix dropwise to cells.
+  5. Incubate the cells at 37 ◦ C for 12-15 hr.
+
+Day 3
+  1. In the morning, change the media to remove the transfection reagent,
+     wash with PBS once and add 1.5 ml fresh media +10% FBS + peni-
+     cillin/streptomycin.
+
+Day 4
+  1. Harvest media from cells, store at 4 ◦ C.
+  2. Add 1.5 ml fresh media.
+
+Day 5
+  1. Harvest the media from the cells and pool with the media collected on
+     Day 4.
+
+  2. Spin the media at 1250 rpm for 5 min to remove cells.
+  3. Freeze the virus stock at −40 ◦ C.
+
+
+Lentiviral CRISPR Protocol
+For K562 cells
+Source: ATCC CCL-243 (lot 59300853)
+
+Growth Media for K562 cells:
+500 ml RPMI-1640 with glutamine medium (Hyclone, SH30027.01)
+50 ml Fetal Bovine Serum (FBS) (10% Final Concentration) (Hyclone, SH30071.03)
+5 ml Pen-Strep (1% Final Concentration) (Invitrogen, 15140-163)
+
+
+
+
+                                          4
+Culturing
+  1. Remove a frozen stock vial of K562 cells from liquid nitrogen.
+  2. Thaw it in a 37 ◦ C water bath.
+  3. As soon as it thawed, transfer the cells into the growth medium.
+
+  4. Centrifuge at 1000 rpm for 5 minutes.
+  5. Resuspend the cells in the growth medium such that the final cell density
+     is about 1x10ˆ5 cells/ml.
+  6. Split the cells every 2 to 3 days.
+
+  7. Grow the cells to required numbers.
+
+Prepare cells for transduction
+Day 0
+  1. Plate 0.8-1ml of lentiCRISPRv2-gRNA particles in each well of 12-well
+     plates.
+  2. Add 5-7x10ˆ5 cells to appropriate wells with 8 µg/ml of polybrene (Cat-
+     alog Number H9268, Sigma-Aldrich), incubate at 37 ◦ C for 2 hours, and
+     then add 1 ml of complete medium.
+
+Day 1
+  1. After 24 hrs, change to fresh media (2 ml) with 3 µg/ml of puromycin.
+
+Day 3
+  1. Change to fresh media (2 ml) with 3 µg/ml of puromycin.
+
+Day 5
+  1. Change to fresh media (2 ml) with 3 µg/ml of puromycin.
+
+Day 6
+  1. Harvest half of the cells to prepare RNA and half of the cells to prepare a
+     protein lysate for western blotting.
+
+
+RNA Isolation
+RNA isolation is performed using a Promega Maxwell®16 Instrument and the
+Maxwell®16 LEV simplyRNA Cells Kits (Catlog Number AS1270).
+
+
+
+  1. Pellet cells at 300 x g for 3 minutes and remove medium.
+
+
+
+                                          5
+  2. Add 200 µl of chilled 1-Thioglycerol/Homogenization solution to the cell
+     pellet and vortex until the pellet is dispersed.
+
+  3. Add 200 µl of lysis buffer and votex vigorously for 15 sec to mix.
+  4. Transfer all 400 µl lysate to well 1 of the Maxwell 16 LEV cartridge.
+  5. Add 5 µl of DNase I solution to well 4 of the cartridge.
+  6. Put elution tubes with 40-50 µl of nuclease-free water and LEV plungers
+     in the cartridge.
+  7. Transfer the Maxwell 16 LEV cartridge rack containing prepared car-
+     tridges on the Maxwell 16 Instrument.
+  8. Push Run/Stop button to start run.
+
+
+RNA Quality Control
+The quality of the RNA is measured using an Agilent TapeStation Instrument
+with the RNA screen tape (Catlog Number 5067-5576).
+
+
+
+
+     Figure 1: Agilent TapeStation image of 1 µl of total RNA sample.
+
+
+
+qRT-PCR Assay to Monitor mRNA Target Knock-
+down Efficiency
+cDNA Synthesis
+This assay uses the iScript cDNA Synthsis Kit from BIO-RAD (Catalog number:
+170-8891)
+
+
+
+
+                                      6
+1. Reaction Setup:
+                  Reagent                           Quantity
+                  5x iScript reaction mix               2 µl
+                  iScript reverse transcriptase       0.5 µl
+                  Nuclease-free water                   x µl
+                  RNA template (200 ng)                 x µl
+                  Total volume                         10 µl
+
+2. Reaction Protocol:
+                        Time          Temperature
+                        5 minutes           25 ◦ C
+                        30 minutes          42 ◦ C
+                        5 minutes           85 ◦ C
+                        Hold                 4 ◦C
+
+qPCR Assay
+This assay uses Phusion High-Fidelity DNA Polymerase from NEB (Catalog
+number: M0530L) and SYBR Green from Invitrogen (Catalog number: S7563)
+
+1. Reaction setup:
+               Reagent                                Quantity
+               5X Phusion HF Buffer                        4 µl
+               10 mM dNTPs                               0.4 µl
+               10 µM Forward Primer                        1 µl
+               10 µM Reverse Primer                        1 µl
+               Template (1:20 of cDNA reaction)            1 µl
+               Phusion DNA Polymerase                    0.2 µl
+               SYBR Green (10,000 X)                     0.1 µl
+               Nuclease-free water                     to 20 µl
+               Total volume                               20 µl
+
+2. Reaction Protocol:
+              STEP                      TEMP             TIME
+              Initial Denaturation      98 ◦ C       30 seconds
+              35 Cycles                 98 ◦ C       10 seconds
+                                      58 − 66 ◦ C    15 seconds
+
+3. Data Analysis:
+Data analysis is perfomed using the 2 − ∆∆Ct Method.
+
+
+
+
+                                     7
+                100
+
+
+
+
+                80
+
+
+
+
+                60
+
+
+
+% Depletion
+                40
+
+
+
+
+                20
+
+
+
+
+                0
+
+                            Control            Knockdown 1          Knockdown 2
+
+                                                 SRSF5
+
+
+
+Figure 2: qRT-PCR analysis of depletion level of the target RNA binding protein
+in control and knockdown cells. The percent depletion was calculated in the
+RNA sample isolated from K562s transduced with a gRNA targeting SRSF5
+(ENCODE Biosample ENCBS778ZTA) in comparison to K562 cells transduced
+with a control non-target gRNA (ENCODE Biosample ENCBS421LRO). The
+efficiency of depletion is normalized using Tubulin as a control.
+
+
+Western Blot Assay to Monitor Protein Target
+Knockdown Efficiency
+A western blot is performed to determine the knockdown efficiency of the target
+RNA binding protein. For this biosample, the following antibodies were used:
+RNA binding protein primary antibody: SRSF5
+Loading control primary antibody: Tubulin
+              1. Purify protein by resuspending cell pellets in 100 µl Lysis buffer (50 mM
+                 Tris−HCl, pH 7.4; 100 mM NaCl; 1% NP−40; 0.1% SDS; 0.5% sodium
+                 deoxycholate) with protease inhibitor (Roche cocktail).
+
+
+                                                  8
+ 2. Vortex vigorously and leave tubes on ice at least 30 min.
+ 3. Spin 18,000g, 20 min, 4 ◦ C. Recover the supernatant in a new tube on ice.
+    Discard the pellet.
+ 4. Quantitate the protein concentration using the Pierce BCA kit.
+ 5. Load 30−60 µg of protein per sample depending on expression levels of
+    the protein of interest in the cell type.
+
+ 6. Dilute the protein samples with 4X sample buffer and 10X reducing agent
+    (Invitrogen NuPage reagents) and heat at 70 ◦ C for 10 min.
+ 7. While samples are heating, prepare the gel: 4−12% Bis−Tris gel for pro-
+    teins 10−220 kDa, or 8% Tris−glycine for proteins over 220 kDa. Dilute
+    MOPS running buffer to 1X and pour into buffer tank. Add 500 µl of
+    antioxidant to the inner chamber of the buffer tank. Wash out all wells of
+    the gel with buffer.
+ 8. Load 3 µl of Licor Odyssey prestained molecular weight marker (928−4000)
+    and protein samples. Run the gel at 200 V for about an hour, until the
+    dye just runs off the gel (less for small molecular weight proteins).
+
+ 9. Transfer to PVDF for 30 min in transfer buffer, with methanol and an-
+    tioxidant, using BioRad Semi−dry transfer apparatus.
+10. After transfer, block membrane in 5−10 mls of Licor Blocking buffer for
+    1 hour at room temperature.
+
+11. Incubate with the RNA binding protein primary antibody (0.2 µg/ml) and
+    the loading control primary antibody (mfg recommended dilution) diluted
+    in Licor block with 0.1% tween 20 on a rocker at 4 ◦ C overnight.
+12. The next day, wash the blot 4 x 5 min each in TBST.
+13. Prepare the secondary antibody (Rockland Fluorescent TrueBlot anti-
+    rabbit IgG IRDye800 (Catalog number 18−3216−32) for the RBP and
+    Licor IRDye680 secondary antibody for the loading control). Dilute the
+    antibodies according to the mfg instructions in Licor blocking buffer with
+    0.1% Tween 20 and 0.01% SDS. Incubate on a rocker for 30−60 min, at
+    room temperature.
+
+14. Wash 4 x 5 min each in TBST. Rinse 1x in TBS (no T) and scan on the
+    Licor Odyssey instrument.
+
+
+
+
+                                     9
+Figure 3: Western Blot Analysis of depletion level of the target RNA binding
+protein in control and knockdown cells. Lane 1: Molecular weight marker. Lane
+2: 30 µg of protein from K562 transduced with a control, non-target gRNA
+(ENCODE Biosample ENCBS421LRO and ENCBS390OYB). Lane 3: 30 µg
+of protein from K562 transduced with a gRNA targeting SRSF5 (ENCODE
+Biosample ENCBS778ZTA). Lane 4: 30 µg of protein from K562 transduced
+with a gRNA targeting SRSF5 (ENCODE Biosample ENCBS486UHL). Samples
+were separated by SDS-PAGE, transferred to a membrane and blotted using
+antibodies against SRSF5 (ENCODE Antibody ENCAB038XFS) and Tubulin
+as controls.
+
+
+
+
+                                     10
+

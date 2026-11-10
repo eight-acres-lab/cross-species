@@ -1,0 +1,1905 @@
+{
+  "fold": 2,
+  "arm": "H+RabbitA0",
+  "seed": 20261112,
+  "selected_step": 200,
+  "selected_calibration_mse": 0.006834377936302766,
+  "calibration_history": [
+    {
+      "step": 0,
+      "macro_mse": 0.019545023955051224,
+      "donor_mse": [
+        0.02038621360690676,
+        0.018703834303195686
+      ]
+    },
+    {
+      "step": 50,
+      "macro_mse": 0.012265214339867773,
+      "donor_mse": [
+        0.01242687646296988,
+        0.012103552216765668
+      ]
+    },
+    {
+      "step": 100,
+      "macro_mse": 0.009039176537672059,
+      "donor_mse": [
+        0.009254947333430739,
+        0.008823405741913381
+      ]
+    },
+    {
+      "step": 200,
+      "macro_mse": 0.006834377936302766,
+      "donor_mse": [
+        0.007092139815169773,
+        0.00657661605743576
+      ]
+    }
+  ],
+  "shrink_grid": [
+    {
+      "alpha": 0,
+      "macro_mse": 0.019545023955051224
+    },
+    {
+      "alpha": 0.25,
+      "macro_mse": 0.01343927294009276
+    },
+    {
+      "alpha": 0.5,
+      "macro_mse": 0.009285581587064714
+    },
+    {
+      "alpha": 0.75,
+      "macro_mse": 0.007083949909051161
+    },
+    {
+      "alpha": 1,
+      "macro_mse": 0.006834377936302766
+    }
+  ],
+  "selected_shrink": 1,
+  "source_scale": {
+    "H": 0.021739129302448028,
+    "Rabbit": 0.01316409061995897,
+    "Hextra": 0.02293873769793716
+  },
+  "source_coefficient": 0.8256981028939386,
+  "training_history": [
+    {
+      "step": 1,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.023762740194797516,
+      "source_loss": 0.0031202000100165606,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0018947068601846695
+    },
+    {
+      "step": 2,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.024398688226938248,
+      "source_loss": 0.0033671599812805653,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.002193428808823228
+    },
+    {
+      "step": 3,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.022173402830958366,
+      "source_loss": 0.003010036423802376,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0031883534975349903
+    },
+    {
+      "step": 4,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.025776159018278122,
+      "source_loss": 0.003411967307329178,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.003427991410717368
+    },
+    {
+      "step": 5,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.024553947150707245,
+      "source_loss": 0.003140874207019806,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0035839159972965717
+    },
+    {
+      "step": 6,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.021846000105142593,
+      "source_loss": 0.003353601787239313,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.004764037672430277
+    },
+    {
+      "step": 7,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.022203391417860985,
+      "source_loss": 0.003140292828902602,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.005713390186429024
+    },
+    {
+      "step": 8,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.02544879913330078,
+      "source_loss": 0.0033519340213388205,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.006843983195722103
+    },
+    {
+      "step": 9,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.02341797947883606,
+      "source_loss": 0.0030441139824688435,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0077974507585167885
+    },
+    {
+      "step": 10,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.023190168663859367,
+      "source_loss": 0.0033486797474324703,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.00812344066798687
+    },
+    {
+      "step": 11,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.021793914958834648,
+      "source_loss": 0.003076426684856415,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.010345574468374252
+    },
+    {
+      "step": 12,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.024179326370358467,
+      "source_loss": 0.003441083710640669,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.011477050371468067
+    },
+    {
+      "step": 13,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.022645577788352966,
+      "source_loss": 0.003120551584288478,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.01572531647980213
+    },
+    {
+      "step": 14,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.021174345165491104,
+      "source_loss": 0.0035472577437758446,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.01535503938794136
+    },
+    {
+      "step": 15,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.02073970064520836,
+      "source_loss": 0.0031655968632549047,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.022350965067744255
+    },
+    {
+      "step": 16,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.023705264553427696,
+      "source_loss": 0.0035532296169549227,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.019545037299394608
+    },
+    {
+      "step": 17,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.022475117817521095,
+      "source_loss": 0.0032757101580500603,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.027628814801573753
+    },
+    {
+      "step": 18,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.021044904366135597,
+      "source_loss": 0.0035571949556469917,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.023928234353661537
+    },
+    {
+      "step": 19,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.019220344722270966,
+      "source_loss": 0.0033614414278417826,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0315876230597496
+    },
+    {
+      "step": 20,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.021315444260835648,
+      "source_loss": 0.0036446531303226948,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03682590276002884
+    },
+    {
+      "step": 21,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.020173298195004463,
+      "source_loss": 0.0033571356907486916,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03118429146707058
+    },
+    {
+      "step": 22,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.019970465451478958,
+      "source_loss": 0.003554424736648798,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03554854542016983
+    },
+    {
+      "step": 23,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.017910728231072426,
+      "source_loss": 0.0031719114631414413,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.035831425338983536
+    },
+    {
+      "step": 24,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.020867202430963516,
+      "source_loss": 0.0034236004576087,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.02947075478732586
+    },
+    {
+      "step": 25,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.019725844264030457,
+      "source_loss": 0.003155234968289733,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03690381720662117
+    },
+    {
+      "step": 26,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.018876878544688225,
+      "source_loss": 0.0034329944755882025,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04104610159993172
+    },
+    {
+      "step": 27,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01693618856370449,
+      "source_loss": 0.0030887669418007135,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03981098532676697
+    },
+    {
+      "step": 28,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.020493969321250916,
+      "source_loss": 0.003365748096257448,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.039075564593076706
+    },
+    {
+      "step": 29,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01814940944314003,
+      "source_loss": 0.0030962801538407803,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04294613376259804
+    },
+    {
+      "step": 30,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.018226832151412964,
+      "source_loss": 0.003407413139939308,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05773581936955452
+    },
+    {
+      "step": 31,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.016069306060671806,
+      "source_loss": 0.003070069709792733,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.028413482010364532
+    },
+    {
+      "step": 32,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.018671955913305283,
+      "source_loss": 0.003373075509443879,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04988531395792961
+    },
+    {
+      "step": 33,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.017250053584575653,
+      "source_loss": 0.00311281718313694,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06591738015413284
+    },
+    {
+      "step": 34,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.017285829409956932,
+      "source_loss": 0.003338425187394023,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07081890851259232
+    },
+    {
+      "step": 35,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.015842411667108536,
+      "source_loss": 0.0030230414122343063,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1688060611486435
+    },
+    {
+      "step": 36,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.016937125474214554,
+      "source_loss": 0.00334064569324255,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06594642251729965
+    },
+    {
+      "step": 37,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.016037138178944588,
+      "source_loss": 0.0031803143210709095,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05061560869216919
+    },
+    {
+      "step": 38,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.015379716642200947,
+      "source_loss": 0.003444685135036707,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0688677579164505
+    },
+    {
+      "step": 39,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.015451311133801937,
+      "source_loss": 0.0030103044118732214,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1387769877910614
+    },
+    {
+      "step": 40,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.01663568615913391,
+      "source_loss": 0.003345105331391096,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07203259319067001
+    },
+    {
+      "step": 41,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01582784578204155,
+      "source_loss": 0.003009946784004569,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.11031119525432587
+    },
+    {
+      "step": 42,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.015632733702659607,
+      "source_loss": 0.0033579044975340366,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04902128502726555
+    },
+    {
+      "step": 43,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.014151237905025482,
+      "source_loss": 0.0032285242341458797,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03388257324695587
+    },
+    {
+      "step": 44,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0163862481713295,
+      "source_loss": 0.0032922299578785896,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.154298335313797
+    },
+    {
+      "step": 45,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.015016937628388405,
+      "source_loss": 0.0031815560068935156,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0687723383307457
+    },
+    {
+      "step": 46,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.013904730789363384,
+      "source_loss": 0.0032657398842275143,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.030966533347964287
+    },
+    {
+      "step": 47,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.013963920064270496,
+      "source_loss": 0.0029567289166152477,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07738383114337921
+    },
+    {
+      "step": 48,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.015813851729035378,
+      "source_loss": 0.00327336136251688,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.052601125091314316
+    },
+    {
+      "step": 49,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.014394143596291542,
+      "source_loss": 0.003098216839134693,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0460418276488781
+    },
+    {
+      "step": 50,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.014833549037575722,
+      "source_loss": 0.0033046407625079155,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.029702212661504745
+    },
+    {
+      "step": 51,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.013310883194208145,
+      "source_loss": 0.0029975282959640026,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.040425341576337814
+    },
+    {
+      "step": 52,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.015209408476948738,
+      "source_loss": 0.003238176926970482,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.11099709570407867
+    },
+    {
+      "step": 53,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.014060623943805695,
+      "source_loss": 0.0032319838646799326,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06696392595767975
+    },
+    {
+      "step": 54,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.013671514578163624,
+      "source_loss": 0.003266550600528717,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07679209113121033
+    },
+    {
+      "step": 55,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.012919101864099503,
+      "source_loss": 0.003040363546460867,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03125770017504692
+    },
+    {
+      "step": 56,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.014666092582046986,
+      "source_loss": 0.0031836971174925566,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0326518751680851
+    },
+    {
+      "step": 57,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.014508130960166454,
+      "source_loss": 0.0029723895713686943,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.18373322486877441
+    },
+    {
+      "step": 58,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.014562409371137619,
+      "source_loss": 0.0031909337267279625,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09111904352903366
+    },
+    {
+      "step": 59,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.012633927166461945,
+      "source_loss": 0.0031116518657654524,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0731688141822815
+    },
+    {
+      "step": 60,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.014406093396246433,
+      "source_loss": 0.00316890818066895,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.10040448606014252
+    },
+    {
+      "step": 61,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01379258930683136,
+      "source_loss": 0.0030971483793109655,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07841838151216507
+    },
+    {
+      "step": 62,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.013726646080613136,
+      "source_loss": 0.0031451494432985783,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03915882483124733
+    },
+    {
+      "step": 63,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.012559732422232628,
+      "source_loss": 0.0031124702654778957,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06494008004665375
+    },
+    {
+      "step": 64,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.01392259169369936,
+      "source_loss": 0.003207403002306819,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1827487349510193
+    },
+    {
+      "step": 65,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01324122678488493,
+      "source_loss": 0.0030506313778460026,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03253207728266716
+    },
+    {
+      "step": 66,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.013629001565277576,
+      "source_loss": 0.0031517641618847847,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.10519159585237503
+    },
+    {
+      "step": 67,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.012075834907591343,
+      "source_loss": 0.0030049490742385387,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.053499091416597366
+    },
+    {
+      "step": 68,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.013596524484455585,
+      "source_loss": 0.003211597679182887,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07111251354217529
+    },
+    {
+      "step": 69,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.013857400044798851,
+      "source_loss": 0.0028114900924265385,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.25277459621429443
+    },
+    {
+      "step": 70,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.012456723488867283,
+      "source_loss": 0.0031462472397834063,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04145467281341553
+    },
+    {
+      "step": 71,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01171867921948433,
+      "source_loss": 0.0031387433409690857,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03639635443687439
+    },
+    {
+      "step": 72,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.013042575679719448,
+      "source_loss": 0.0031486675143241882,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07913873344659805
+    },
+    {
+      "step": 73,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.012209880165755749,
+      "source_loss": 0.002939109457656741,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09477684646844864
+    },
+    {
+      "step": 74,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.011972102336585522,
+      "source_loss": 0.003140111453831196,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.046430815011262894
+    },
+    {
+      "step": 75,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.011319471523165703,
+      "source_loss": 0.0029695455450564623,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.030895935371518135
+    },
+    {
+      "step": 76,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.012355757877230644,
+      "source_loss": 0.0031140074133872986,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04117981716990471
+    },
+    {
+      "step": 77,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.011781061999499798,
+      "source_loss": 0.0030006386805325747,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06099022924900055
+    },
+    {
+      "step": 78,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.012210658751428127,
+      "source_loss": 0.0030796658247709274,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06882078945636749
+    },
+    {
+      "step": 79,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.010923942551016808,
+      "source_loss": 0.002904492197558284,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09670433402061462
+    },
+    {
+      "step": 80,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.011836639605462551,
+      "source_loss": 0.0031386238988488913,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.049114834517240524
+    },
+    {
+      "step": 81,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.01199046429246664,
+      "source_loss": 0.002964750863611698,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1838524341583252
+    },
+    {
+      "step": 82,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.01120290718972683,
+      "source_loss": 0.0030300775542855263,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06715540587902069
+    },
+    {
+      "step": 83,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.0104077672585845,
+      "source_loss": 0.002861938439309597,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06171511858701706
+    },
+    {
+      "step": 84,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.011715817265212536,
+      "source_loss": 0.0030668664257973433,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.10810572654008865
+    },
+    {
+      "step": 85,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.010723165236413479,
+      "source_loss": 0.0031120185740292072,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04143001511693001
+    },
+    {
+      "step": 86,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010650862008333206,
+      "source_loss": 0.0030551280360668898,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05423198640346527
+    },
+    {
+      "step": 87,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.009987035766243935,
+      "source_loss": 0.002836919389665127,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0654735267162323
+    },
+    {
+      "step": 88,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.011056311428546906,
+      "source_loss": 0.003052943851798773,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06425600498914719
+    },
+    {
+      "step": 89,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.010231675580143929,
+      "source_loss": 0.0028635626658797264,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03638891503214836
+    },
+    {
+      "step": 90,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.011156431399285793,
+      "source_loss": 0.003059263341128826,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0358860082924366
+    },
+    {
+      "step": 91,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.009605503641068935,
+      "source_loss": 0.002752126194536686,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05288206413388252
+    },
+    {
+      "step": 92,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.01044939924031496,
+      "source_loss": 0.0030668803956359625,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08169138431549072
+    },
+    {
+      "step": 93,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.00997272226959467,
+      "source_loss": 0.0029214092064648867,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.061263974756002426
+    },
+    {
+      "step": 94,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010135379619896412,
+      "source_loss": 0.002992358524352312,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05023247376084328
+    },
+    {
+      "step": 95,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.009336929768323898,
+      "source_loss": 0.003009827807545662,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07039207965135574
+    },
+    {
+      "step": 96,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010043967515230179,
+      "source_loss": 0.0029624339658766985,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06238988786935806
+    },
+    {
+      "step": 97,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.009522479958832264,
+      "source_loss": 0.0028660863172262907,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08774510771036148
+    },
+    {
+      "step": 98,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010550256818532944,
+      "source_loss": 0.003069038037210703,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1385684311389923
+    },
+    {
+      "step": 99,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.0090786786749959,
+      "source_loss": 0.0028596571646630764,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.057294897735118866
+    },
+    {
+      "step": 100,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010092093609273434,
+      "source_loss": 0.0029603755101561546,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03860463574528694
+    },
+    {
+      "step": 101,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.009423007257282734,
+      "source_loss": 0.002799426205456257,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05154938995838165
+    },
+    {
+      "step": 102,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010066285729408264,
+      "source_loss": 0.002961609046906233,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07477958500385284
+    },
+    {
+      "step": 103,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008639628067612648,
+      "source_loss": 0.0028615244664251804,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03954495117068291
+    },
+    {
+      "step": 104,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009884361177682877,
+      "source_loss": 0.0029610153287649155,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06743645668029785
+    },
+    {
+      "step": 105,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.00995691679418087,
+      "source_loss": 0.002697317162528634,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.22304938733577728
+    },
+    {
+      "step": 106,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009783132933080196,
+      "source_loss": 0.002907697344198823,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03872910887002945
+    },
+    {
+      "step": 107,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008513105101883411,
+      "source_loss": 0.0028502934146672487,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03747348487377167
+    },
+    {
+      "step": 108,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009636485017836094,
+      "source_loss": 0.002936223056167364,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05818316340446472
+    },
+    {
+      "step": 109,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008941562846302986,
+      "source_loss": 0.002881991444155574,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07623082399368286
+    },
+    {
+      "step": 110,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0101509690284729,
+      "source_loss": 0.002904764609411359,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03674199804663658
+    },
+    {
+      "step": 111,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008227617479860783,
+      "source_loss": 0.0027631765697151423,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08918917924165726
+    },
+    {
+      "step": 112,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009830130264163017,
+      "source_loss": 0.002895265119150281,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.037632543593645096
+    },
+    {
+      "step": 113,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008920613676309586,
+      "source_loss": 0.002756069414317608,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0701766386628151
+    },
+    {
+      "step": 114,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.010006031952798367,
+      "source_loss": 0.002834087936207652,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.037708085030317307
+    },
+    {
+      "step": 115,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008314275182783604,
+      "source_loss": 0.002875957638025284,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.14771047234535217
+    },
+    {
+      "step": 116,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00936077255755663,
+      "source_loss": 0.002863911911845207,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.11109109967947006
+    },
+    {
+      "step": 117,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008593477308750153,
+      "source_loss": 0.002808613935485482,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0435742624104023
+    },
+    {
+      "step": 118,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009932225570082664,
+      "source_loss": 0.0028612157329916954,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08377005159854889
+    },
+    {
+      "step": 119,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008390679955482483,
+      "source_loss": 0.0027847320307046175,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.13584177196025848
+    },
+    {
+      "step": 120,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008965082466602325,
+      "source_loss": 0.0028055955190211535,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06995387375354767
+    },
+    {
+      "step": 121,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008185327053070068,
+      "source_loss": 0.0027122427709400654,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04269500449299812
+    },
+    {
+      "step": 122,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009583355858922005,
+      "source_loss": 0.002886512316763401,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06737957149744034
+    },
+    {
+      "step": 123,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.0075507755391299725,
+      "source_loss": 0.0028200664091855288,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0234539657831192
+    },
+    {
+      "step": 124,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00879500899463892,
+      "source_loss": 0.0028020001482218504,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04649369418621063
+    },
+    {
+      "step": 125,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008544371463358402,
+      "source_loss": 0.0028536529280245304,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1352158635854721
+    },
+    {
+      "step": 126,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009224445559084415,
+      "source_loss": 0.0028062898200005293,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07589071989059448
+    },
+    {
+      "step": 127,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007482644636183977,
+      "source_loss": 0.0027265003882348537,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06496322900056839
+    },
+    {
+      "step": 128,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00893144030123949,
+      "source_loss": 0.00277893478050828,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07271119952201843
+    },
+    {
+      "step": 129,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.008273240178823471,
+      "source_loss": 0.002786042634397745,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08152316510677338
+    },
+    {
+      "step": 130,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009186005219817162,
+      "source_loss": 0.0027966753114014864,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06588464975357056
+    },
+    {
+      "step": 131,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007109411992132664,
+      "source_loss": 0.002704706508666277,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03248240053653717
+    },
+    {
+      "step": 132,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008224411867558956,
+      "source_loss": 0.002678689081221819,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.045313458889722824
+    },
+    {
+      "step": 133,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.0077641867101192474,
+      "source_loss": 0.002711602719500661,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04114183038473129
+    },
+    {
+      "step": 134,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00958922877907753,
+      "source_loss": 0.0027446309104561806,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.2854439318180084
+    },
+    {
+      "step": 135,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007010750938206911,
+      "source_loss": 0.0027702581137418747,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09075751900672913
+    },
+    {
+      "step": 136,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008378356695175171,
+      "source_loss": 0.002711994107812643,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.053491879254579544
+    },
+    {
+      "step": 137,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007837705314159393,
+      "source_loss": 0.0025574415922164917,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09614498168230057
+    },
+    {
+      "step": 138,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.009866645559668541,
+      "source_loss": 0.002744037890806794,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.2674790918827057
+    },
+    {
+      "step": 139,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007171924691647291,
+      "source_loss": 0.0026374380104243755,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.10670322179794312
+    },
+    {
+      "step": 140,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008073036558926105,
+      "source_loss": 0.0026858984492719173,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07342610508203506
+    },
+    {
+      "step": 141,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007667286321520805,
+      "source_loss": 0.002803378738462925,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04786374792456627
+    },
+    {
+      "step": 142,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00865474995225668,
+      "source_loss": 0.0028280545957386494,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08791527152061462
+    },
+    {
+      "step": 143,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007112747989594936,
+      "source_loss": 0.002698148600757122,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.2643495500087738
+    },
+    {
+      "step": 144,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007881034165620804,
+      "source_loss": 0.0027677167672663927,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05348331108689308
+    },
+    {
+      "step": 145,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.00709243630990386,
+      "source_loss": 0.002644691849127412,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04971645027399063
+    },
+    {
+      "step": 146,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008580210618674755,
+      "source_loss": 0.0026063278783112764,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.1064135879278183
+    },
+    {
+      "step": 147,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.00660298764705658,
+      "source_loss": 0.0028125897515565157,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09132233262062073
+    },
+    {
+      "step": 148,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007449249271303415,
+      "source_loss": 0.0027046306058764458,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0883810743689537
+    },
+    {
+      "step": 149,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007068241480737925,
+      "source_loss": 0.002706857630982995,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.042739447206258774
+    },
+    {
+      "step": 150,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008250466547906399,
+      "source_loss": 0.0026794164441525936,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0597635954618454
+    },
+    {
+      "step": 151,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006001092027872801,
+      "source_loss": 0.0026871534064412117,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04122103750705719
+    },
+    {
+      "step": 152,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007622701581567526,
+      "source_loss": 0.0026425528340041637,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.062108319252729416
+    },
+    {
+      "step": 153,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.007399057969450951,
+      "source_loss": 0.002683385042473674,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.10821887105703354
+    },
+    {
+      "step": 154,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.008267388679087162,
+      "source_loss": 0.0026609827764332294,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0516129769384861
+    },
+    {
+      "step": 155,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005888928193598986,
+      "source_loss": 0.0027376506477594376,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03516443073749542
+    },
+    {
+      "step": 156,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00752142071723938,
+      "source_loss": 0.0026407302357256413,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.034622929990291595
+    },
+    {
+      "step": 157,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006778873037546873,
+      "source_loss": 0.0026869617868214846,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.035372428596019745
+    },
+    {
+      "step": 158,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007861549966037273,
+      "source_loss": 0.0026386110112071037,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03533203899860382
+    },
+    {
+      "step": 159,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005737955216318369,
+      "source_loss": 0.002774188993498683,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05492490530014038
+    },
+    {
+      "step": 160,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00675041601061821,
+      "source_loss": 0.002644368913024664,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04091368615627289
+    },
+    {
+      "step": 161,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.00672585004940629,
+      "source_loss": 0.0025692270137369633,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.039084091782569885
+    },
+    {
+      "step": 162,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00807308778166771,
+      "source_loss": 0.0026188832707703114,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.06349823623895645
+    },
+    {
+      "step": 163,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005520490929484367,
+      "source_loss": 0.002694561146199703,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03561316430568695
+    },
+    {
+      "step": 164,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007078513968735933,
+      "source_loss": 0.0026368473190814257,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04274128004908562
+    },
+    {
+      "step": 165,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006535019259899855,
+      "source_loss": 0.0025763355661183596,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.029742583632469177
+    },
+    {
+      "step": 166,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007563475053757429,
+      "source_loss": 0.0026864807587116957,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.042168401181697845
+    },
+    {
+      "step": 167,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005269548390060663,
+      "source_loss": 0.002528462093323469,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.030827142298221588
+    },
+    {
+      "step": 168,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.006948711350560188,
+      "source_loss": 0.0025761500000953674,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.028719639405608177
+    },
+    {
+      "step": 169,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006534388288855553,
+      "source_loss": 0.0025705459993332624,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.042809952050447464
+    },
+    {
+      "step": 170,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.00749125936999917,
+      "source_loss": 0.0025219495873898268,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05855264887213707
+    },
+    {
+      "step": 171,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005242671351879835,
+      "source_loss": 0.0025132845621556044,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.027498282492160797
+    },
+    {
+      "step": 172,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.006724108941853046,
+      "source_loss": 0.0025893442798405886,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03188681602478027
+    },
+    {
+      "step": 173,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006196484435349703,
+      "source_loss": 0.002691488014534116,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.043244197964668274
+    },
+    {
+      "step": 174,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007981988601386547,
+      "source_loss": 0.0025270902551710606,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0529986135661602
+    },
+    {
+      "step": 175,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.0050622220151126385,
+      "source_loss": 0.0025893973652273417,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.023451827466487885
+    },
+    {
+      "step": 176,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.006751023232936859,
+      "source_loss": 0.0025057378225028515,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05387819558382034
+    },
+    {
+      "step": 177,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006279597990214825,
+      "source_loss": 0.002624583663418889,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.029219817370176315
+    },
+    {
+      "step": 178,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007443346548825502,
+      "source_loss": 0.0024730046279728413,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.19542409479618073
+    },
+    {
+      "step": 179,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005046522710472345,
+      "source_loss": 0.0025619876105338335,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03428925946354866
+    },
+    {
+      "step": 180,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.006837395951151848,
+      "source_loss": 0.0025047012604773045,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.09507416188716888
+    },
+    {
+      "step": 181,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006151082459837198,
+      "source_loss": 0.002555227605625987,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03237629309296608
+    },
+    {
+      "step": 182,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007317007053643465,
+      "source_loss": 0.0025347357150167227,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.055596157908439636
+    },
+    {
+      "step": 183,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005007303785532713,
+      "source_loss": 0.0025085846427828074,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04080705717206001
+    },
+    {
+      "step": 184,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.006360750645399094,
+      "source_loss": 0.002501591108739376,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05690914765000343
+    },
+    {
+      "step": 185,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006071689538657665,
+      "source_loss": 0.002616174751892686,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.05249644070863724
+    },
+    {
+      "step": 186,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0072702267207205296,
+      "source_loss": 0.002444763435050845,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.049905214458703995
+    },
+    {
+      "step": 187,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.004685367923229933,
+      "source_loss": 0.002650928683578968,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.01874065212905407
+    },
+    {
+      "step": 188,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0063216909766197205,
+      "source_loss": 0.0024669470731168985,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.033742841333150864
+    },
+    {
+      "step": 189,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.006197093054652214,
+      "source_loss": 0.002523437375202775,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.035363055765628815
+    },
+    {
+      "step": 190,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.007753073703497648,
+      "source_loss": 0.0025090016424655914,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0813404768705368
+    },
+    {
+      "step": 191,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.004689771216362715,
+      "source_loss": 0.002517626853659749,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.08238062262535095
+    },
+    {
+      "step": 192,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.006079688668251038,
+      "source_loss": 0.0024905202444642782,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04481586441397667
+    },
+    {
+      "step": 193,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.005884198471903801,
+      "source_loss": 0.0024814757052809,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.029620924964547157
+    },
+    {
+      "step": 194,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0067414832301437855,
+      "source_loss": 0.0024831523187458515,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.050907570868730545
+    },
+    {
+      "step": 195,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.004536226857453585,
+      "source_loss": 0.002621795516461134,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.025613069534301758
+    },
+    {
+      "step": 196,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0061878119595348835,
+      "source_loss": 0.00244301650673151,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.07503481209278107
+    },
+    {
+      "step": 197,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.0056802378967404366,
+      "source_loss": 0.002470618113875389,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.03402877599000931
+    },
+    {
+      "step": 198,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.0069725848734378815,
+      "source_loss": 0.002448789309710264,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.0674666091799736
+    },
+    {
+      "step": 199,
+      "human_donor": "202937150091_R02C01",
+      "source_donor": "rabbit2",
+      "human_loss": 0.004285162314772606,
+      "source_loss": 0.0025433350820094347,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.031746719032526016
+    },
+    {
+      "step": 200,
+      "human_donor": "202937150118_R08C01",
+      "source_donor": "rabbit1",
+      "human_loss": 0.005790830589830875,
+      "source_loss": 0.002428276464343071,
+      "source_coefficient": 0.8256981028939386,
+      "gradient_norm": 0.04343903437256813
+    }
+  ],
+  "animal_gradient_witness": [
+    {
+      "step": 1,
+      "norms": {
+        "pert_encoder.extension.weight": 0.0004715144168585539,
+        "basal_encoder.0.weight": 0.0,
+        "transformer_backbone.layers.0.self_attn.v_proj.weight": 0.0
+      }
+    },
+    {
+      "step": 3,
+      "norms": {
+        "pert_encoder.extension.weight": 0.0004035570891574025,
+        "basal_encoder.0.weight": 0.00038379940087907016,
+        "transformer_backbone.layers.0.self_attn.v_proj.weight": 6.708797445753589e-05
+      }
+    },
+    {
+      "step": 10,
+      "norms": {
+        "pert_encoder.extension.weight": 0.0006201969808898866,
+        "basal_encoder.0.weight": 0.0015641266945749521,
+        "transformer_backbone.layers.0.self_attn.v_proj.weight": 0.0003827533801086247
+      }
+    }
+  ],
+  "parameters": 70088912,
+  "trainable_parameters": 47287294,
+  "weight_sha256": "a7208c3d4b21fe1be24bea4e7a708f7d972e18ca0399ea7905648ebaa3a3bd5c",
+  "unused_old_perturbation_columns_unchanged": true,
+  "unused_old_batch_rows_unchanged": true,
+  "target_outcomes_scored": false,
+  "elapsed_seconds": 20.31380975060165
+}

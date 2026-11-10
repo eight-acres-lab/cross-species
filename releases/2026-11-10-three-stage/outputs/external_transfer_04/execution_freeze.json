@@ -1,0 +1,18 @@
+{
+  "scope": "Fixed retrospective external-study transfer, TG training only; no external human scale or parameter fit",
+  "remote_root": "/hy-tmp/cross-species-feedback-20261108/external_transfer_04",
+  "shared_genes": 7307,
+  "train_rows": 678,
+  "train_compounds": 126,
+  "external_drugs": [
+    "CDDO-Me",
+    "KI696",
+    "thapsigargin"
+  ],
+  "files_sha256": {
+    "scripts/run_crossstudy_kernel_transfer.py": "c53b14245f810b90405e7aa16182a67cf36cd7ed8b6b11d0da39684397e749ab",
+    "scripts/prepare_crossstudy_transfer_inputs.py": "af52378035b6cfd2dc64382852de6ca772c68636879a24e2721df51ece388d7a",
+    "docs/multisource_20261108/external_transfer_04/PROTOCOL_v1.zh.md": "f8b7206f305c4649e47b9cdcbf06081a98d12659a2dd1142023d20664e0efdec"
+  },
+  "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca"
+}

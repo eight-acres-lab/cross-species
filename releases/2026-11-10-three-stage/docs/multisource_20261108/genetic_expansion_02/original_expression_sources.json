@@ -1,0 +1,100 @@
+[
+  {
+    "study": "GSE69733",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69733/suppl/GSE69733_WholeCell_Gene_Counts_by_Replicate.txt.gz",
+    "scope": "all whole-cell gene counts; select audited SRSF1/SRSF7/GFP columns",
+    "declared_quantity": "Cufflinks gene counts; estimation/normalization and columns require file inspection",
+    "download_location": "remote_only",
+    "source": "evidence/GSE69733.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225290",
+    "srx": "SRX10507439",
+    "title": "13-SCR for SRSF 1 2 6 7 9_UN_replicate 1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225290/suppl/GSM5225290_01-SCR-UN-1_S1_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225291",
+    "srx": "SRX10507440",
+    "title": "14-SCR for SRSF 1 2 6 7 9_UN_replicate 2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225291/suppl/GSM5225291_02-SCR-UN-2_S12_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225292",
+    "srx": "SRX10507441",
+    "title": "15-SCR for SRSF 1 2 6 7 9_UN_replicate 3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225292/suppl/GSM5225292_03-SCR-UN-3_S23_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225323",
+    "srx": "SRX10507472",
+    "title": "46-SRSF1 KD_UN_replicate 1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225323/suppl/GSM5225323_04-SR1-UN-1_S34_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225324",
+    "srx": "SRX10507473",
+    "title": "47-SRSF1 KD_UN_replicate 2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225324/suppl/GSM5225324_05-SR1-UN-2_S45_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225325",
+    "srx": "SRX10507474",
+    "title": "48-SRSF1 KD_UN_replicate 3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225325/suppl/GSM5225325_06-SR1-UN-3_S55_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225341",
+    "srx": "SRX10507490",
+    "title": "64-SRSF7 KD_UN_replicate 1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225341/suppl/GSM5225341_13-SR7-UN-1_S46_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225342",
+    "srx": "SRX10507491",
+    "title": "65-SRSF7 KD_UN_replicate 2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225342/suppl/GSM5225342_14-SR7-UN-2_S56_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  },
+  {
+    "study": "GSE171418",
+    "gsm": "GSM5225343",
+    "srx": "SRX10507492",
+    "title": "66-SRSF7 KD_UN_replicate 3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5225nnn/GSM5225343/suppl/GSM5225343_15-SR7-UN-3_S66_L002_R1_001_paired_GE_.txt.gz",
+    "declared_quantity": "RPKM; do not renormalize as raw counts",
+    "download_location": "remote_only",
+    "source": "evidence/GSE171418.soft"
+  }
+]

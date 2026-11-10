@@ -1,0 +1,67 @@
+{
+  "status": "pass",
+  "checks_passed": 13113,
+  "checks_failed": 0,
+  "numeric_values_compared": 11808244,
+  "max_abs_difference": 1.0658141036401503e-14,
+  "legacy_script_sha256": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
+  "auditor_sha256": "ebdd2f435ef284c3b21f558e59e550d355d7af1117373abcd6f8811321459ee7",
+  "bundle_manifest_sha256": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6",
+  "elapsed_seconds": 36.544167323969305,
+  "regimes": [
+    {
+      "regime": "source_exposure",
+      "remote_result_directory": "/hy-tmp/cross-species-feedback-20261108/crossspecies_direct_03/runs/source_exposure_v1",
+      "rows": 467,
+      "compounds": 107,
+      "all_partition_maps_checked": 800,
+      "CPU_raw_feature_permutation_refits": [
+        {
+          "outer": 0,
+          "seed": 20261108,
+          "wrong_alpha": 10.0,
+          "all_inner_alpha_trials_and_three_query_arms_verified": true
+        },
+        {
+          "outer": 0,
+          "seed": 20261127,
+          "wrong_alpha": 10.0,
+          "all_inner_alpha_trials_and_three_query_arms_verified": true
+        }
+      ],
+      "all_folds_all_seeds_all_condition_compound_losses_recomputed": true,
+      "fit_manifest_sha256": "2aefb2f129eeb5cf96de13166753f6ccfa69ad71ef88faa3801f17bd8e8c9681",
+      "report_sha256": "abc8a0063ae0f8d277ca18a890115c7d16cd05cba717394df2fc804a2636213c"
+    },
+    {
+      "regime": "paired_exposure",
+      "remote_result_directory": "/hy-tmp/cross-species-feedback-20261108/crossspecies_direct_03/runs/paired_exposure_v1",
+      "rows": 208,
+      "compounds": 49,
+      "all_partition_maps_checked": 800,
+      "CPU_raw_feature_permutation_refits": [
+        {
+          "outer": 0,
+          "seed": 20261108,
+          "wrong_alpha": 10.0,
+          "all_inner_alpha_trials_and_three_query_arms_verified": true
+        },
+        {
+          "outer": 0,
+          "seed": 20261127,
+          "wrong_alpha": 10.0,
+          "all_inner_alpha_trials_and_three_query_arms_verified": true
+        }
+      ],
+      "all_folds_all_seeds_all_condition_compound_losses_recomputed": true,
+      "fit_manifest_sha256": "e443ac6472b190f29174ae6af8a90c34063a2846ca4f25f9697d33f2d3480c26",
+      "report_sha256": "8f56ad9c0915d308c65cf09fa26c9fa28098a7b7c9ccbdee0941004206cce614"
+    }
+  ],
+  "method": "Legacy NumPy ChemicalKernelInputs/SpectralRidge reconstructed directly from permuted raw animal input rows; new GPU pairing module never imported.",
+  "limitations": [
+    "Numerical/control verification does not establish biological generalization.",
+    "CPU full refits sample outer0 and first/last permutation seed in each regime; all saved maps and all loss arrays are checked.",
+    "Existing retrospective, shared preprocessing and fixed-condition-mean limitations remain."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "guide identities only; no activity/knockdown/expression values used",
+  "species": {
+    "human": {
+      "library_tf27_POU5F1_ids": [
+        "hg38_POU5F1_n2",
+        "hg38_POU5F1_n4",
+        "hg38_POU5F1_n5",
+        "hg38_POU5F1_n6"
+      ],
+      "public_exp2_POU5F1_dominant_ids": [
+        "hg38_POU5F1_n2",
+        "hg38_POU5F1_n4",
+        "hg38_POU5F1_n5",
+        "hg38_POU5F1_n6",
+        "macFas6_POU5F1_n3"
+      ],
+      "library_guides_absent_public": [],
+      "public_cross_species_guide_ids": [
+        "macFas6_POU5F1_n3"
+      ]
+    },
+    "cynomolgus": {
+      "library_tf27_POU5F1_ids": [
+        "macFas6_POU5F1_n1",
+        "macFas6_POU5F1_n3",
+        "macFas6_POU5F1_n7",
+        "macFas6_POU5F1_n8"
+      ],
+      "public_exp2_POU5F1_dominant_ids": [
+        "hg38_POU5F1_n2",
+        "macFas6_POU5F1_n1",
+        "macFas6_POU5F1_n3",
+        "macFas6_POU5F1_n7",
+        "macFas6_POU5F1_n8"
+      ],
+      "library_guides_absent_public": [],
+      "public_cross_species_guide_ids": [
+        "hg38_POU5F1_n2"
+      ]
+    }
+  }
+}

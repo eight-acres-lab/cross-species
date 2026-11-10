@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/4782049/bin/supp_30.5.553_Supp_Material.pdf",
+    "bytes": 1816,
+    "is_pdf": false,
+    "sha256": "3cb88fc0bfca9135acb8e2a8e871934e595e039f092805aeb43b004b781acd97"
+  },
+  {
+    "url": "https://genesdev.cshlp.org/content/suppl/2016/03/03/30.5.553.DC1/Supp_Material.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

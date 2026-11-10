@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-08",
+  "targets": [
+    "SRSF1",
+    "SRSF7"
+  ],
+  "human_models": [
+    "HepG2"
+  ],
+  "mouse_cell_models": [
+    "P19",
+    "RAW264.7"
+  ],
+  "selected_mouse_measurements": [
+    "P19 whole-cell",
+    "RAW264.7 uninfected whole-cell"
+  ],
+  "contrasts": [
+    {
+      "perturb_id": "Perturb_8241",
+      "target": "SRSF1",
+      "model": "HepG2",
+      "sample_identity_and_role_match": true,
+      "gsm_ids": [
+        "GSM2138814",
+        "GSM2138815",
+        "GSM2138708",
+        "GSM2138709"
+      ],
+      "controls": [
+        "SRX1737998",
+        "SRX1737999"
+      ],
+      "perturbs": [
+        "SRX1737874",
+        "SRX1737875"
+      ],
+      "design_status": "admitted_for_source_specific_descriptive_curation_after_expression_gates"
+    },
+    {
+      "perturb_id": "Perturb_8242",
+      "target": "SRSF7",
+      "model": "HepG2",
+      "sample_identity_and_role_match": true,
+      "gsm_ids": [
+        "GSM2138814",
+        "GSM2138815",
+        "GSM2138674",
+        "GSM2138675"
+      ],
+      "controls": [
+        "SRX1737998",
+        "SRX1737999"
+      ],
+      "perturbs": [
+        "SRX1737864",
+        "SRX1737865"
+      ],
+      "design_status": "admitted_for_source_specific_descriptive_curation_after_expression_gates"
+    },
+    {
+      "perturb_id": "Perturb_4693",
+      "target": "SRSF1",
+      "model": "P19_whole_cell",
+      "sample_identity_and_role_match": true,
+      "gsm_ids": [
+        "GSM1707976",
+        "GSM1707977",
+        "GSM1707962",
+        "GSM1707963"
+      ],
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055008",
+        "SRX1055009"
+      ],
+      "design_status": "admitted_for_source_specific_descriptive_curation_after_expression_gates"
+    },
+    {
+      "perturb_id": "Perturb_4699",
+      "target": "SRSF7",
+      "model": "P19_whole_cell",
+      "sample_identity_and_role_match": true,
+      "gsm_ids": [
+        "GSM1707976",
+        "GSM1707977",
+        "GSM1707974",
+        "GSM1707975"
+      ],
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055020",
+        "SRX1055021"
+      ],
+      "design_status": "admitted_for_source_specific_descriptive_curation_after_expression_gates"
+    },
+    {
+      "perturb_id": "Perturb_15664",
+      "target": "SRSF1",
+      "model": "RAW264.7_uninfected",
+      "sample_identity_and_role_match": true,
+      "gsm_ids": [
+        "GSM5225290",
+        "GSM5225291",
+        "GSM5225292",
+        "GSM5225323",
+        "GSM5225324",
+        "GSM5225325"
+      ],
+      "controls": [
+        "SRX10507439",
+        "SRX10507440",
+        "SRX10507441"
+      ],
+      "perturbs": [
+        "SRX10507472",
+        "SRX10507473",
+        "SRX10507474"
+      ],
+      "design_status": "admitted_for_source_specific_descriptive_curation_after_expression_gates"
+    },
+    {
+      "perturb_id": "Perturb_15667",
+      "target": "SRSF7",
+      "model": "RAW264.7_uninfected",
+      "sample_identity_and_role_match": true,
+      "gsm_ids": [
+        "GSM5225290",
+        "GSM5225291",
+        "GSM5225292",
+        "GSM5225341",
+        "GSM5225342",
+        "GSM5225343"
+      ],
+      "controls": [
+        "SRX10507439",
+        "SRX10507440",
+        "SRX10507441"
+      ],
+      "perturbs": [
+        "SRX10507490",
+        "SRX10507491",
+        "SRX10507492"
+      ],
+      "design_status": "admitted_for_source_specific_descriptive_curation_after_expression_gates"
+    }
+  ],
+  "unique_srx_samples": 21,
+  "sample_rows_with_reused_controls": 28,
+  "design_status": "admitted_for_descriptive_curation_after_expression_gates",
+  "model_training_ready": false,
+  "source_selection_generalization_ready": false,
+  "source_evidence_sha256": {
+    "evidence/GSE69733.soft": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1",
+    "evidence/GSE171418.soft": "dc6869c2e05fa43ac17ec94a58d08eb389475b91a6bedd308a6546381f270d9b",
+    "evidence/GSM2138674.soft": "5ccb7013fe27bfaf33092da2fbf3a67743edcc72d6db580c37496b46b4204076",
+    "evidence/GSM2138675.soft": "5e84a666c0dd0cdb36f96bb7f40afc32d2464f51ff04a91c1370d7ffe60ab3e4",
+    "evidence/GSM2138708.soft": "7ac946f6e40bc48404680114fbf999d5aa4225f668c73d00abd8a13e48fe3d4b",
+    "evidence/GSM2138709.soft": "e5aa2061ed053496dcc466cb583b159f967dacde0186e2737c94461646b8d61e",
+    "evidence/GSM2138814.soft": "94389b4c526f8cb698c9b3b56ad9be8bfee1a36c2c69363282b6ca5e42559182",
+    "evidence/GSM2138815.soft": "6180bb0ca43c610eac08262a606afd9e50389d1198ebc8852e94ee833644ba45"
+  },
+  "input_selection_sha256": "2966e07ed0dfa38ce69b185ecea4728c27209b4f681d0394e052e8fff5db4e92",
+  "shared_control_groups": {
+    "HepG2": [
+      "SRX1737998",
+      "SRX1737999"
+    ],
+    "P19_whole_cell": [
+      "SRX1055022",
+      "SRX1055023"
+    ],
+    "RAW264.7_uninfected": [
+      "SRX10507439",
+      "SRX10507440",
+      "SRX10507441"
+    ]
+  },
+  "limitations": [
+    "Only two distinct target identities, both splicing-factor family; source ranks remain retrospective.",
+    "Each cell model occurs in a different study and assay/protocol; cell-model effects and study effects are inseparable.",
+    "P19 uses36h esiRNA while HepG2/RAW use shRNA; timing and knockdown magnitude not equated.",
+    "Whole-cell and cytoplasmic P19 measurements come from the same cell source and cannot count as two cell models.",
+    "Shared controls induce dependency across targets; repeated source subsets add no independent targets.",
+    "PerturbAtlas missing-record semantics remain unresolved; no zero imputation.",
+    "Original RAW264.7 files are declared RPKM; they cannot be normalized as raw counts.",
+    "P19 original Cufflinks gene-count tables require numeric/column/replicate inspection before use."
+  ],
+  "next_gates": [
+    "Complete remote expression integrity audit and retain missing masks.",
+    "Define common gene axis and within-source quantity-appropriate normalization.",
+    "Freeze descriptive source/combination rules and report both targets without source cherry-picking.",
+    "Keep donor/experimental pairing unknown unless documented."
+  ]
+}

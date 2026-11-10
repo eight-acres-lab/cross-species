@@ -1,0 +1,482 @@
+[
+  {
+    "file": "pig2_lps2_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3261764,
+    "sha256": "4e9bb044d4b2a02f2077408af17f7c079bdf1f3762d05ef43e94f171769d81b2",
+    "header_n": 1614,
+    "row_n": 1615,
+    "header_start": [
+      "AAACCTGCAGCATACT",
+      "AAACCTGCAGGGATTG",
+      "AAACGGGCACGGTAGA"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  {
+    "file": "pig2_unst_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3568207,
+    "sha256": "446b8722c565a348c69cf5df23d75fbd932c7eeec0ec520d06e2c79c9272cd9d",
+    "header_n": 1748,
+    "row_n": 1749,
+    "header_start": [
+      "AAACCTGAGCTATGCT",
+      "AAACCTGCACAGACTT",
+      "AAACCTGCAGGCTGAA"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit3_lps2_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4842445,
+    "sha256": "dc069766527d610a237edc81aee6ece1898bc8d9c9f81e7131f41b40c2db407e",
+    "header_n": 4401,
+    "row_n": 4402,
+    "header_start": [
+      "AAACCTGAGCACACAG",
+      "AAACCTGAGGTGACCA",
+      "AAACCTGCAGACGTAG"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig2_lps4_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3824771,
+    "sha256": "8490c8b72f112bf88cdd9ececc1324c1e33265783e7e3acd333418e3fc05178f",
+    "header_n": 1899,
+    "row_n": 1900,
+    "header_start": [
+      "AAACCTGCAATGGATA",
+      "AAACCTGCACCGGAAA",
+      "AAACCTGGTTTGACAC"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "file": "rabbit2_lps2_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 2418798,
+    "sha256": "5fa7b01eadcbc718e2685445d1b86fff2e98cea4ff37c5684d867b1f8d65bb28",
+    "header_n": 1820,
+    "row_n": 1821,
+    "header_start": [
+      "AAACCTGCACTTACGA",
+      "AAACCTGCATATGAGA",
+      "AAACCTGGTAGCCTAT"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit2_lps4_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 2158984,
+    "sha256": "b88a1964f9c7b56b6391fa4f91e3cb13b2630a3de769a64bc32d72906114bf38",
+    "header_n": 1522,
+    "row_n": 1523,
+    "header_start": [
+      "AAACCTGAGCTCTCGG",
+      "AAACCTGAGGCTAGCA",
+      "AAACCTGCAAACTGTC"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig3_lps2_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4468589,
+    "sha256": "752899977d65e58ff349ec26de8e6e444518b4ea8c22b2b5be28af3df868fafb",
+    "header_n": 2353,
+    "row_n": 2354,
+    "header_start": [
+      "AAACCTGAGAGGTTGC",
+      "AAACCTGAGTCCGTAT",
+      "AAACCTGGTGTCTGAT"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig1_lps6_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3945652,
+    "sha256": "0aca5e9f57b30481ff892fc778876f8d9051e610695a568ae184d89c94a47bcd",
+    "header_n": 1941,
+    "row_n": 1942,
+    "header_start": [
+      "AAACGGGAGAGCTGCA",
+      "AAACGGGCAGGGCATA",
+      "AAACGGGTCCCGACTT"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit1_lps4_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3723993,
+    "sha256": "509ac9256e161dfc8fac36372890c4dc9b6ca1311f86a32e3bcaf465d12e2fc8",
+    "header_n": 2965,
+    "row_n": 2966,
+    "header_start": [
+      "AAACCTGAGAGGTTGC",
+      "AAACCTGAGGCTACGA",
+      "AAACCTGAGGTGCACA"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig1_unst_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4321565,
+    "sha256": "02c9e4cf4df22dde6dd7399acd0b1343614b397b0f0aa8b870f62327e3c9663d",
+    "header_n": 2221,
+    "row_n": 2222,
+    "header_start": [
+      "AAACCTGAGAGAGCTC",
+      "AAACCTGCAAGGTTTC",
+      "AAACCTGCATTAGGCT"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit3_unst_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3147314,
+    "sha256": "54c61fad5237581c9062ff5cc34c9a178506c85a59d3f0c91ea9a7b96536f3ac",
+    "header_n": 3399,
+    "row_n": 3400,
+    "header_start": [
+      "AAACCTGGTAAACGCG",
+      "AAACCTGGTGATGTGG",
+      "AAACCTGGTTATCACG"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit2_lps6_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 2345441,
+    "sha256": "62b07d757085ca6537523d527cd64ebcd9de8bb3d186666160c6b9015a049b61",
+    "header_n": 1660,
+    "row_n": 1661,
+    "header_start": [
+      "AAACCTGGTAAGTTCC",
+      "AAACCTGGTCACACGC",
+      "AAACCTGTCACTTATC"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit3_lps6_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 2295862,
+    "sha256": "c1b6d9cb20fabc5ffe434fad396d938d092243fa76581597d76558c59ad557aa",
+    "header_n": 1664,
+    "row_n": 1665,
+    "header_start": [
+      "AAACCTGCACATCCGG",
+      "AAACCTGGTATTAGCC",
+      "AAACCTGTCGGTCTAA"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit1_lps2_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4249865,
+    "sha256": "a16022f12ae338119ee651670f927c763880bd53dfedcb113f20a9750c9272b0",
+    "header_n": 3690,
+    "row_n": 3691,
+    "header_start": [
+      "AAACCTGAGTTAACGA",
+      "AAACCTGCATGTCGAT",
+      "AAACCTGGTACATCCA"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig3_lps4_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 5103126,
+    "sha256": "f4950892379d5afb2c38d9701a068faab3273d4067ab580d75ff89e037424a26",
+    "header_n": 2758,
+    "row_n": 2759,
+    "header_start": [
+      "AAACCTGAGACGACGT",
+      "AAACCTGAGATGTGGC",
+      "AAACCTGAGTACGATA"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig3_lps6_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3644953,
+    "sha256": "48f29615c9d535182f495bb2b1d9f30ee3bc752adb31337fb461b032a50b5ab3",
+    "header_n": 1797,
+    "row_n": 1798,
+    "header_start": [
+      "AAACCTGAGCTCCCAG",
+      "AAACCTGCATGGGAAC",
+      "AAACCTGTCATTTGGG"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit1_unst_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4493564,
+    "sha256": "82cd245a56ea87b007f83e10dc2c944fca61fd10bc0221542a65440163321772",
+    "header_n": 3773,
+    "row_n": 3774,
+    "header_start": [
+      "AAACCTGAGCGGATCA",
+      "AAACCTGGTAAGTGGC",
+      "AAACCTGGTGTATGGG"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit1_lps6_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 5439049,
+    "sha256": "2568d884f6ca899fd53b66bdf1fcbf85cae68995b254d55c621dcede41f15bdb",
+    "header_n": 4196,
+    "row_n": 4197,
+    "header_start": [
+      "AAACCTGAGACACTAA",
+      "AAACCTGAGGGAAACA",
+      "AAACCTGAGGTAGCCA"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig3_unst_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4343461,
+    "sha256": "136d11ad2f1a1410dc7181989c676ec5f5fe21af56fc9653b6ee55d5f9ee5882",
+    "header_n": 2179,
+    "row_n": 2180,
+    "header_start": [
+      "AAACCTGAGAGCAATT",
+      "AAACCTGCATGTAAGA",
+      "AAACCTGCATTTCAGG"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "file": "pig1_lps2_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3281220,
+    "sha256": "8feb83d36b78182ec6ed013b2b555c4f765a04ba3658c54dc09279ecaece9a01",
+    "header_n": 1630,
+    "row_n": 1631,
+    "header_start": [
+      "AAACCTGAGCCAACAG",
+      "AAACCTGAGTGTACGG",
+      "AAACCTGAGTTAAGTG"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "1",
+      "2",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit2_unst_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3628924,
+    "sha256": "5c6dae7b5bc24e6cffb1e569226a48b900c0e80c83b382d92a130d5e08e26b72",
+    "header_n": 3275,
+    "row_n": 3276,
+    "header_start": [
+      "AAACCTGAGGTGCAAC",
+      "AAACCTGAGTACGCCC",
+      "AAACCTGAGTGTCCCG"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "rabbit3_lps4_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 2755826,
+    "sha256": "539e149310a51a025474ef7da880f8eea45c98e7e90c0e93ee0f25be6a6bc9c9",
+    "header_n": 2163,
+    "row_n": 2164,
+    "header_start": [
+      "AAACCTGCACTCAGGC",
+      "AAACCTGGTACGAAAT",
+      "AAACCTGGTGTTGAGG"
+    ],
+    "row_start": [
+      "ENSOCUG00000017200",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig2_lps6_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 3054008,
+    "sha256": "c578df0982a5cc33241ca9ad1ce39fb2eda84eee09603f9192f29e967389552c",
+    "header_n": 1381,
+    "row_n": 1382,
+    "header_start": [
+      "AAACCTGGTGAAAGAG",
+      "AAACGGGGTCAGGACA",
+      "AAACGGGTCAATCACG"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "pig1_lps4_filtered_by_cell_cluster0.txt.gz",
+    "bytes": 4021618,
+    "sha256": "77b33d2ac77f4ad204157e263aac763d89ca75b095a1a428531e1683b47f4cdb",
+    "header_n": 1948,
+    "row_n": 1949,
+    "header_start": [
+      "AAACGGGAGCTACCGC",
+      "AAACGGGAGCTGCCCA",
+      "AAACGGGCATATGCTG"
+    ],
+    "row_start": [
+      "ENSSSCG00000020823",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ]
+  }
+]

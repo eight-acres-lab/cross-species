@@ -1,0 +1,14 @@
+{
+  "species": "pig",
+  "mapping_release": 116,
+  "mapping_sha256": "2bf7d2acf7a4b956b785605542336bfc22e3b96e350a5fc80f8da271e4cbb4ee",
+  "native_axis_sha256": "ccbe8f8ccbfa8e975a7e59013744fc945c6b657c52f0cebe35493a1eadb48d19",
+  "state_axis_sha256": "631ebbf24009daacaa8ac85a8824a6c47adb1bc04dae6f564648ef499da52521",
+  "native_genes": 21607,
+  "unique_high_confidence_one2one_pairs": 15975,
+  "native_measured_one2one_pairs": 11532,
+  "state_axis_genes": 6546,
+  "state_measured_genes": 4461,
+  "state_human_animal_measured_genes": 4433,
+  "rule": "exact native and human Ensembl ID equality; verified model symbol-to-human-Ensembl bridge; high-confidence one2one; unique human and animal IDs and unique human symbol; no expression selection; no retired-ID inference"
+}

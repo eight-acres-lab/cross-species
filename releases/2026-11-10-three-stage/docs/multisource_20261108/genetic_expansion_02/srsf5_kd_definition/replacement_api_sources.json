@@ -1,0 +1,14 @@
+[
+  {
+    "accession": "ENCSR528YVC",
+    "url": "https://www.encodeproject.org/ENCSR528YVC/?format=json",
+    "bytes": 222227,
+    "sha256": "cec48643ef2807226eb004832475ab4cb19215b9be967396447140eb27058084"
+  },
+  {
+    "accession": "ENCSR292PXV",
+    "url": "https://www.encodeproject.org/ENCSR292PXV/?format=json",
+    "bytes": 250008,
+    "sha256": "13f4f33841500173ba511777f96f57276dc775d6cc0fbee5b2a24c44351ef3a7"
+  }
+]

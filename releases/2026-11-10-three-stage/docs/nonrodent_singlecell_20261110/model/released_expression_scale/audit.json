@@ -1,0 +1,128 @@
+{
+  "purpose": "Released target expression scale audit only; no predictions scored",
+  "source_url": "https://huggingface.co/arcinstitute/st-x-replogle-full/resolve/48ad5f70215ab4c58caa5a68e77d837601d29d35/hepg2_0.99/eval_best.ckpt/adata_real.h5ad",
+  "full_file_not_downloaded": true,
+  "root": [
+    "X",
+    "layers",
+    "obs",
+    "obsm",
+    "obsp",
+    "uns",
+    "var",
+    "varm",
+    "varp"
+  ],
+  "uns_keys": [],
+  "var_keys": [
+    "_index"
+  ],
+  "X_attrs": {
+    "encoding-type": "array",
+    "encoding-version": "0.2.0"
+  },
+  "X_type": "<class 'h5py._hl.dataset.Dataset'>",
+  "read_shape": [
+    64,
+    6546
+  ],
+  "X_min_max": [
+    0.0,
+    6.0
+  ],
+  "X_fractional_proportion": 0.0,
+  "X_row_sums_first8": [
+    1018.0,
+    1178.0,
+    1028.0,
+    1405.0,
+    1160.0,
+    1060.0,
+    1008.0,
+    1268.0
+  ],
+  "expm1_row_sums_first8": [
+    3505.349530251573,
+    3888.685072387233,
+    4003.0150710282014,
+    4507.6531388642015,
+    3783.2339611801763,
+    3683.145281828018,
+    3816.664396533046,
+    4077.5836767685178
+  ],
+  "expm1_row_sums_min_max": [
+    3505.349530251573,
+    4702.697573341341
+  ],
+  "first_gene_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "new_network_bytes": 2849852,
+  "verified_ranges": [
+    {
+      "start": 0,
+      "end": 262143,
+      "sha256": "4b366c0b10808611adab9c8dd9801b589593c60abfae470a17c161b969fd0651"
+    },
+    {
+      "start": 1858600960,
+      "end": 1858829371,
+      "sha256": "4dd7a93e9349794990daa8fd254bdc5f3e1905173749b2a85618e40ba6fb872f"
+    },
+    {
+      "start": 1854668800,
+      "end": 1854930943,
+      "sha256": "fcc2ed675feb10d0dd01bda53c6f7f49b601f836dfc2901cff616cc2808b94c7"
+    },
+    {
+      "start": 1858076672,
+      "end": 1858338815,
+      "sha256": "a566c21a4aeff9a2e5b21eb41e4c2376302d34b2bda97f00e65d572e14c95e2d"
+    },
+    {
+      "start": 1858338816,
+      "end": 1858600959,
+      "sha256": "b2c32e4dea9f22f682cfd6349e03b7383b9b9c2c745fcff24198b185d06d2c42"
+    },
+    {
+      "start": 262144,
+      "end": 524287,
+      "sha256": "9790fe56727ebd23083b392fc8f1dc2f5da3ec3d1779f4e2034af1af61716103"
+    },
+    {
+      "start": 524288,
+      "end": 786431,
+      "sha256": "413135fa95bb093822640941e2701f8b230dc8489c820b50dd94637b77be262f"
+    },
+    {
+      "start": 786432,
+      "end": 1048575,
+      "sha256": "44a53b6306c68746244e5b2b80a8e1385738076e4edb9f676eeef3015ea7808d"
+    },
+    {
+      "start": 1048576,
+      "end": 1310719,
+      "sha256": "569f463febef0f4ac684cae45915b03f47179b697e3518e2c059f74512317211"
+    },
+    {
+      "start": 1310720,
+      "end": 1572863,
+      "sha256": "dc3fd4184c77c3766fa3521249d456af31af789157266eadb2c2b019e20c31c0"
+    },
+    {
+      "start": 1572864,
+      "end": 1835007,
+      "sha256": "16df6437ccb75e98b3da845dd296fceca65724283664869c27a8efeab466e34c"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "primary_article": "https://doi.org/10.1038/s41586-018-0657-2",
+  "supplement": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-018-0657-2/MediaObjects/41586_2018_657_MOESM1_ESM.pdf",
+  "supplement_pdf_page": 13,
+  "supplement_printed_page": 12,
+  "rabbit": {
+    "complete_courses": 3,
+    "biological_individuals": 3
+  },
+  "pig": {
+    "complete_courses": 3,
+    "biological_individuals_in_complete_courses_per_supplement": 2,
+    "additional_partial_individual": "pig4,0/2h; no author cluster0 matrix",
+    "course_to_individual_key": "unresolved; do not infer from expression",
+    "source_conflict": "author GitHub samples_matching_files.csv labels pig1-4 as individual1-4, whereas journal Supplementary Table2 documents three pigs with one technical duplicate",
+    "split_rule": "keep pig1,pig2,pig3 in one conservative block"
+  },
+  "cell_annotation": "author mononuclear phagocyte; author largest cluster0 membership from processed file inclusion",
+  "author_processing": "CellRanger2.0, Ensembl84, original integer UMIs after author cell QC/cluster selection",
+  "interpretation": "bone-marrow phagocytes,100ng/mL,2/4/6h; distinct context from human PBMC CD14,10ng/mL,24h"
+}

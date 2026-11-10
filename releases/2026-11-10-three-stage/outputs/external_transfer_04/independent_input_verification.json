@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "checks_passed": 15045,
+  "checks_failed": 0,
+  "numeric_values_compared": 10835411,
+  "max_abs_difference": 0.0,
+  "training_conditions": 678,
+  "training_compounds": 126,
+  "id_bridge_candidates": 7435,
+  "shared_genes": 7307,
+  "nonfinite_human_rat_genes_excluded": 128,
+  "external_tasks": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "external_unique_sample_columns": 36,
+  "other_species_mask_used": false,
+  "human_truth_excluded_from_inference_file": true,
+  "external_human_values_or_magnitude_summaries_emitted": false,
+  "method": "Direct reconstruction from original TG bundle, curated external arm values, sample metadata, exact-ID bridge and identity-verified chemistry; no import of production preparation functions.",
+  "prepared_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
+  "auditor_sha256": "d7a0beca282b887524641b4f84547f488eabc7fec3937927b1c71184a96ea035",
+  "limitations": [
+    "This is an input-contract verification, not performance or biological-generalization evidence.",
+    "Cross-platform expression units and prior inspection of external labels remain as declared in the frozen protocol.",
+    "Source-input finiteness can use human observation presence; it does not use human response magnitude or predictions."
+  ]
+}

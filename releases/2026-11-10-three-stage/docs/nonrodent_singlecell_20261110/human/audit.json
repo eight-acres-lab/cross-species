@@ -1,0 +1,199 @@
+{
+  "audit_scope": "metadata/count QC only; no prediction or treatment-effect scores",
+  "source_files": [
+    {
+      "name": "CZI.PBMC.RNA.matrix.Rds",
+      "bytes": 480584213,
+      "sha256": "c6c1b29e8737085d89f2af35c23fb9ce0e189369e65061f18cfe8532bd1e80c5"
+    },
+    {
+      "name": "CZI.PBMC.cell.annotations.csv",
+      "bytes": 26242593,
+      "sha256": "76a6548089867687461603ed0031ba02f9203885cd8a623b7497bdceccaf7229"
+    }
+  ],
+  "matrix_r_class": "dgCMatrix",
+  "raw_shape_genes_droplets": [
+    32738,
+    282528
+  ],
+  "raw_nnz": 212491644,
+  "raw_dtype": "float64",
+  "raw_max_stored_value": 2318.0,
+  "raw_nonfinite_values": 0,
+  "raw_negative_values": 0,
+  "raw_noninteger_values": 0,
+  "raw_explicit_zero_entries": 0,
+  "gene_identifier_type": "Ensembl gene IDs without version suffix",
+  "unique_genes": true,
+  "unique_barcodes": true,
+  "metadata_exact_barcode_order": true,
+  "all_annotations_rows": 282528,
+  "author_labelled_cells": 16382,
+  "cd14_baseline_lps_cells": 1644,
+  "cd14_donor_condition_counts": {
+    "202937150091_R01C01": {
+      "Baseline": 66,
+      "LPS": 72
+    },
+    "202937150091_R02C01": {
+      "Baseline": 56,
+      "LPS": 67
+    },
+    "202937150118_R01C01": {
+      "Baseline": 62,
+      "LPS": 37
+    },
+    "202937150118_R02C01": {
+      "Baseline": 107,
+      "LPS": 70
+    },
+    "202937150118_R03C01": {
+      "Baseline": 103,
+      "LPS": 22
+    },
+    "202937150118_R04C01": {
+      "Baseline": 124,
+      "LPS": 55
+    },
+    "202937150118_R05C01": {
+      "Baseline": 71,
+      "LPS": 96
+    },
+    "202937150118_R06C01": {
+      "Baseline": 114,
+      "LPS": 67
+    },
+    "202937150118_R07C01": {
+      "Baseline": 131,
+      "LPS": 123
+    },
+    "202937150118_R08C01": {
+      "Baseline": 93,
+      "LPS": 108
+    }
+  },
+  "author_labelled_all_celltype_counts": {
+    "CD4T_Naive": 4778,
+    "CD4T_Mem": 3035,
+    "CD8T_Naive": 2648,
+    "CD8T_Mem": 1778,
+    "CD14_Mono": 1653,
+    "NK": 1409,
+    "B": 1081
+  },
+  "author_labelled_all_condition_counts": {
+    "CD3_CD28": 5743,
+    "LPS": 5432,
+    "Baseline": 5207
+  },
+  "original_metadata_value_counts": {
+    "HTO_Barcodes": {
+      "IgM_IgG": 57693,
+      "CD3_CD28": 47678,
+      "LPS": 44718,
+      "Baseline": 43474,
+      "IgM_IgG+Baseline": 15300,
+      "CD3_CD28+IgM_IgG": 15273,
+      "IgM_IgG+LPS": 15012,
+      "CD3_CD28+Baseline": 8360,
+      "LPS+Baseline": 8078,
+      "Empty": 7885,
+      "CD3_CD28+LPS": 7527,
+      "CD3_CD28+IgM_IgG+Baseline": 3021,
+      "IgM_IgG+LPS+Baseline": 2967,
+      "CD3_CD28+IgM_IgG+LPS": 2752,
+      "CD3_CD28+LPS+Baseline": 1647,
+      "CD3_CD28+IgM_IgG+LPS+Baseline": 1143
+    },
+    "HTO_Classification": {
+      "Multiplet": 81080,
+      "IgM_IgG": 57693,
+      "CD3_CD28": 47678,
+      "LPS": 44718,
+      "Baseline": 43474,
+      "Empty": 7885
+    },
+    "Run_Identifier": {
+      "9-Sample": 29521,
+      "1-Sample": 29260,
+      "2-Sample": 28661,
+      "5-Sample": 28325,
+      "7-Sample": 28292,
+      "4-Sample": 28131,
+      "6-Sample": 28054,
+      "8-Sample": 27630,
+      "3-Sample": 27418,
+      "10-Sample": 27236
+    },
+    "Demuxlet_Classification": {
+      "DBL": 117288,
+      "SNG": 102651,
+      "AMB": 62589
+    },
+    "Donor_of_Origin": {
+      "202937150091_R01C01": 43751,
+      "202937150091_R02C01": 31195,
+      "202937150118_R03C01": 31097,
+      "202937150118_R02C01": 31023,
+      "202937150118_R01C01": 30681,
+      "202937150118_R04C01": 27796,
+      "202937150118_R06C01": 24790,
+      "202937150118_R05C01": 22788,
+      "202937150118_R07C01": 20076,
+      "202937150118_R08C01": 19331
+    },
+    "Celltype_Annotation": {
+      "nan": 266146,
+      "CD4T_Naive": 4778,
+      "CD4T_Mem": 3035,
+      "CD8T_Naive": 2648,
+      "CD8T_Mem": 1778,
+      "CD14_Mono": 1653,
+      "NK": 1409,
+      "B": 1081
+    }
+  },
+  "generated": [
+    {
+      "name": "lawlor2021_author_labelled_counts.h5ad",
+      "bytes": 35150508,
+      "sha256": "786dc2989444b0fb5740449a5e5787aa63489ca429c677ac06ecfe9960e99828",
+      "shape_cells_genes": [
+        16382,
+        32738
+      ],
+      "nnz": 13444862,
+      "minimum_genes_detected_per_cell": 361,
+      "maximum_genes_detected_per_cell": 4132
+    },
+    {
+      "name": "lawlor2021_cd14_baseline_lps_counts.h5ad",
+      "bytes": 5938590,
+      "sha256": "589437384122d0e7c2385bc4e72100ecca9dd09c15b955cb8e8c9ddeba6e11a0",
+      "shape_cells_genes": [
+        1644,
+        32738
+      ],
+      "nnz": 1513622,
+      "minimum_genes_detected_per_cell": 363,
+      "maximum_genes_detected_per_cell": 1935
+    }
+  ],
+  "normalization": {
+    "study_doi": "10.3389/fimmu.2021.636720",
+    "hca_project": "efea6426-510a-4b60-9a19-277e52bfa815",
+    "rna_reference": "GRCh37/hg19; Cell Ranger 2.1.0 (primary methods)",
+    "X_semantics": "Unnormalized author-deposited nonnegative integer UMI counts",
+    "normalization_applied": "none",
+    "gene_filtering": "none; all 32738 deposited Ensembl gene identifiers retained",
+    "donor_identity": "Author Donor_of_Origin, assigned using genotype Demuxlet; no inferred donor IDs",
+    "celltype_identity": "Author Celltype_Annotation; no RNA marker relabelling",
+    "cell_selection": "Author non-null Celltype_Annotation with asserted Demuxlet SNG and single HTO condition",
+    "treatment": "LPS 10 ng/ml, 24 h; Baseline medium-only culture for 24 h",
+    "author_file_checksums": {
+      "CZI.PBMC.RNA.matrix.Rds": "c6c1b29e8737085d89f2af35c23fb9ce0e189369e65061f18cfe8532bd1e80c5",
+      "CZI.PBMC.cell.annotations.csv": "76a6548089867687461603ed0031ba02f9203885cd8a623b7497bdceccaf7229"
+    }
+  }
+}

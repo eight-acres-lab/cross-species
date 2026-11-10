@@ -1,0 +1,202 @@
+{
+  "fold": 1,
+  "training_compounds": 101,
+  "test_compounds": 25,
+  "selected_parameters": {
+    "chemical_context_plus_common": {
+      "alpha": 10.0,
+      "residual_weight": 0.0
+    },
+    "chemical_context_plus_common_residual": {
+      "alpha": 1.0,
+      "residual_weight": 0.75
+    }
+  },
+  "inner_trials": {
+    "chemical_context_plus_common": [
+      {
+        "alpha": 0.001,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.04777127401306143
+      },
+      {
+        "alpha": 0.01,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.043317751074465186
+      },
+      {
+        "alpha": 0.1,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.03876058449249233
+      },
+      {
+        "alpha": 1.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.035562738845471585
+      },
+      {
+        "alpha": 10.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.03459316428820702
+      },
+      {
+        "alpha": 100.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.03516310233028751
+      },
+      {
+        "alpha": 1000.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.0363380321782643
+      }
+    ],
+    "chemical_context_plus_common_residual": [
+      {
+        "alpha": 0.001,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.04777127401306143
+      },
+      {
+        "alpha": 0.01,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.043317751074465186
+      },
+      {
+        "alpha": 0.1,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.03876058449249233
+      },
+      {
+        "alpha": 1.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.035562738845471585
+      },
+      {
+        "alpha": 10.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.03459316428820702
+      },
+      {
+        "alpha": 100.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.03516310233028751
+      },
+      {
+        "alpha": 1000.0,
+        "residual_weight": 0.0,
+        "compound_macro_mse": 0.0363380321782643
+      },
+      {
+        "alpha": 0.001,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.03908052121823187
+      },
+      {
+        "alpha": 0.01,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.03839905778330497
+      },
+      {
+        "alpha": 0.1,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.03597380395889757
+      },
+      {
+        "alpha": 1.0,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.033767994646372416
+      },
+      {
+        "alpha": 10.0,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.033925061243219375
+      },
+      {
+        "alpha": 100.0,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.03518795764454746
+      },
+      {
+        "alpha": 1000.0,
+        "residual_weight": 0.25,
+        "compound_macro_mse": 0.036414914382736176
+      },
+      {
+        "alpha": 0.001,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.03892599932729026
+      },
+      {
+        "alpha": 0.01,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.03842106074230741
+      },
+      {
+        "alpha": 0.1,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.03621505649717442
+      },
+      {
+        "alpha": 1.0,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.03362550027669662
+      },
+      {
+        "alpha": 10.0,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.03366418817382184
+      },
+      {
+        "alpha": 100.0,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.035311353627857714
+      },
+      {
+        "alpha": 1000.0,
+        "residual_weight": 0.5,
+        "compound_macro_mse": 0.03650105275312972
+      },
+      {
+        "alpha": 0.001,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.039544379599077396
+      },
+      {
+        "alpha": 0.01,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.03895325546774397
+      },
+      {
+        "alpha": 0.1,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.03653194340485871
+      },
+      {
+        "alpha": 1.0,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.033623071508299116
+      },
+      {
+        "alpha": 10.0,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.03365285527552719
+      },
+      {
+        "alpha": 100.0,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.035609118363499684
+      },
+      {
+        "alpha": 1000.0,
+        "residual_weight": 0.75,
+        "compound_macro_mse": 0.03659774094537865
+      }
+    ]
+  },
+  "selected_upper_grid_boundary": {
+    "chemical_context_plus_common": false,
+    "chemical_context_plus_common_residual": false
+  },
+  "test_source_common_fallback_rows": 0,
+  "test_source_zero_direction_rows": 0
+}

@@ -1,0 +1,20 @@
+{
+  "pig": {
+    "n_cells": 23469,
+    "n_genes": 21607,
+    "nnz": 43982369,
+    "h5ad": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/prepared/pig.native_counts.h5ad",
+    "sha256": "33624ce6f6ddebc028fe3f6b693f39d0a1b0887a4521a136278e465eaa9592fb",
+    "counts_integer_nonnegative": true,
+    "csr_arrays_sha256": "e306e5c92018751fff752595fdb8ae877fd33f18f2605c86b07adca35bab2ddb"
+  },
+  "rabbit": {
+    "n_cells": 34528,
+    "n_genes": 19293,
+    "nnz": 35424592,
+    "h5ad": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/animal_lps/prepared/rabbit.native_counts.h5ad",
+    "sha256": "4ae33be5686498e9764aa54242bc28e3e1344356fd1d8f6663cdcaf046c4082b",
+    "counts_integer_nonnegative": true,
+    "csr_arrays_sha256": "a06208550643fd8ae88003061cafad14b1f0a0649283f6efaafe50e9808f858c"
+  }
+}

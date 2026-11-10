@@ -1,0 +1,641 @@
+{
+  "sha": "b74850644007d70b606f1c16cafb72cb74d6c7a0",
+  "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/b74850644007d70b606f1c16cafb72cb74d6c7a0",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2a46c33ad1139f6c9f9c29435caf4ec9fdfe3d",
+      "size": 1950,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/2f2a46c33ad1139f6c9f9c29435caf4ec9fdfe3d"
+    },
+    {
+      "path": "chipseq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "360f232ae3fe154c7d0164e3e961a176c1350ac2",
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/360f232ae3fe154c7d0164e3e961a176c1350ac2"
+    },
+    {
+      "path": "chipseq/chip_seq_pipeline_example.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50d1cd3b6d3ba52a3042c2cb8c63d6bc62c0ab81",
+      "size": 4624,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/50d1cd3b6d3ba52a3042c2cb8c63d6bc62c0ab81"
+    },
+    {
+      "path": "chipseq/overlap_individuals_and_merge_per_condition.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab938df055ad894f0110909d53fd720f84933c12",
+      "size": 456,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/ab938df055ad894f0110909d53fd720f84933c12"
+    },
+    {
+      "path": "common_functions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "082648f806b3eb64b4987acb5aba32586ecaf24b",
+      "size": 5963,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/082648f806b3eb64b4987acb5aba32586ecaf24b"
+    },
+    {
+      "path": "example_phagocyte_scrnaseq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32aebaf0e40ca42625411609f399a8cf538d73be",
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/32aebaf0e40ca42625411609f399a8cf538d73be"
+    },
+    {
+      "path": "example_phagocyte_scrnaseq/Oryctolagus_cuniculus.OryCun2.0.84_MT_genes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665243d600d83ebaa2f534ab90837e9a5e743da1",
+      "size": 341,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/665243d600d83ebaa2f534ab90837e9a5e743da1"
+    },
+    {
+      "path": "example_phagocyte_scrnaseq/Oryctolagus_cuniculus.OryCun2.0.84_coding_with_names_and_transcripts.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc3ec955eb12ec90c067e429fbfd82c04180885",
+      "size": 870075,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/bdc3ec955eb12ec90c067e429fbfd82c04180885"
+    },
+    {
+      "path": "example_phagocyte_scrnaseq/pipeline_example_phagocytes_scrnaseq.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f10f31ea68c84ea5cd4ec81ee6522d06d4b20e23",
+      "size": 11011,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/f10f31ea68c84ea5cd4ec81ee6522d06d4b20e23"
+    },
+    {
+      "path": "fibroblast_DE_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "926c6cdffb5b34049ec2516aaa8fc53a213bdece",
+      "size": 2215,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/926c6cdffb5b34049ec2516aaa8fc53a213bdece"
+    },
+    {
+      "path": "fibroblast_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abc99ba2ed365725f54a628511fae6990e12798c",
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/abc99ba2ed365725f54a628511fae6990e12798c"
+    },
+    {
+      "path": "fibroblast_data/bulk",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ae1a68ffb89190e137f833618373883577723f9",
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/2ae1a68ffb89190e137f833618373883577723f9"
+    },
+    {
+      "path": "fibroblast_data/bulk/rat_counts_pIC_ctrl.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b10d92d8ec66bf48665c026eb9855f782dce1c",
+      "size": 725986,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/b4b10d92d8ec66bf48665c026eb9855f782dce1c"
+    },
+    {
+      "path": "fibroblast_data/bulk/rat_samples_info.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04cbec4262076f3291c986c4ba077321eee2daa0",
+      "size": 143,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/04cbec4262076f3291c986c4ba077321eee2daa0"
+    },
+    {
+      "path": "fibroblast_data/counts_human_PIC2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c01ab350988d6be55199948f75ceb6f4839298",
+      "size": 4817607,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/e3c01ab350988d6be55199948f75ceb6f4839298"
+    },
+    {
+      "path": "fibroblast_data/counts_human_PIC4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364d67cc090f3af48a50cb51f6400783bcfffded",
+      "size": 4686697,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/364d67cc090f3af48a50cb51f6400783bcfffded"
+    },
+    {
+      "path": "fibroblast_data/counts_human_PIC8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bcc326b558ed61d60a9fbfdface126b4de23c1b",
+      "size": 3007363,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/1bcc326b558ed61d60a9fbfdface126b4de23c1b"
+    },
+    {
+      "path": "fibroblast_data/counts_human_unst.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ed1d0c2709403982dd84cba2da1dd7f8be66a7",
+      "size": 2707776,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/a8ed1d0c2709403982dd84cba2da1dd7f8be66a7"
+    },
+    {
+      "path": "fibroblast_data/counts_mouse_PIC2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a82dab66e6d3648bc87a3946dbde4a5a0a8e5fc1",
+      "size": 6235633,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/a82dab66e6d3648bc87a3946dbde4a5a0a8e5fc1"
+    },
+    {
+      "path": "fibroblast_data/counts_mouse_PIC4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "430aa83983395fe6502034d625520079830785c9",
+      "size": 4576136,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/430aa83983395fe6502034d625520079830785c9"
+    },
+    {
+      "path": "fibroblast_data/counts_mouse_PIC8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330983f70ad515b14c6d5739f19e6428f0689346",
+      "size": 2393678,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/330983f70ad515b14c6d5739f19e6428f0689346"
+    },
+    {
+      "path": "fibroblast_data/counts_mouse_unst.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "649ace476ca9b10dbeafb0fcfe8075bfefd07d47",
+      "size": 4325549,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/649ace476ca9b10dbeafb0fcfe8075bfefd07d47"
+    },
+    {
+      "path": "fibroblast_data/counts_rat_PIC2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed65ed7fd8c4071b697f9d6dd4e83965731f1b0b",
+      "size": 4646948,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/ed65ed7fd8c4071b697f9d6dd4e83965731f1b0b"
+    },
+    {
+      "path": "fibroblast_data/counts_rat_PIC4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d0da3fec825d87fe747830841f45803083052cd",
+      "size": 4341118,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/1d0da3fec825d87fe747830841f45803083052cd"
+    },
+    {
+      "path": "fibroblast_data/counts_rat_PIC8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c586c97c2de2278754b96bf87c461efd35ae72",
+      "size": 2759237,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/73c586c97c2de2278754b96bf87c461efd35ae72"
+    },
+    {
+      "path": "fibroblast_data/counts_rat_unst.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121d4ba78f877f03f2c70d1287b3437e6d839871",
+      "size": 2338612,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/121d4ba78f877f03f2c70d1287b3437e6d839871"
+    },
+    {
+      "path": "fibroblast_data/counts_rhesus_PIC2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f65a7abdaf9a6f48714df884dff5714b1a2ba00",
+      "size": 2594504,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/2f65a7abdaf9a6f48714df884dff5714b1a2ba00"
+    },
+    {
+      "path": "fibroblast_data/counts_rhesus_PIC4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc93bbec796d8077455a3f4868e1f7fbc9cb8580",
+      "size": 2199682,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/dc93bbec796d8077455a3f4868e1f7fbc9cb8580"
+    },
+    {
+      "path": "fibroblast_data/counts_rhesus_PIC8.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca932ed8e2a7adee7ae372fb5a894e86ae712895",
+      "size": 1175366,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/ca932ed8e2a7adee7ae372fb5a894e86ae712895"
+    },
+    {
+      "path": "fibroblast_data/counts_rhesus_unst.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f067166179af13a3ebe20702c89fad821ebd7f",
+      "size": 1757664,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/d6f067166179af13a3ebe20702c89fad821ebd7f"
+    },
+    {
+      "path": "fibroblast_data/fibroblast_data.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c67489a32edb778c9bae4199e79b4d386d924503",
+      "size": 2653338,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/c67489a32edb778c9bae4199e79b4d386d924503"
+    },
+    {
+      "path": "fibroblast_data/fibroblast_input.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de897e4c8b7f51b470bb61361e44c0f1ba80dedb",
+      "size": 877877,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/de897e4c8b7f51b470bb61361e44c0f1ba80dedb"
+    },
+    {
+      "path": "fibroblast_data/gene_data_features.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c2d5a8447a4f2fcb3548b26ba0c7a98eab1e82",
+      "size": 1877,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/c1c2d5a8447a4f2fcb3548b26ba0c7a98eab1e82"
+    },
+    {
+      "path": "fibroblast_data/genecat_info.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b73ecb2e5bbd6733d9e74452e0b0908c98f8191",
+      "size": 1768,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/7b73ecb2e5bbd6733d9e74452e0b0908c98f8191"
+    },
+    {
+      "path": "fibroblast_data/genecategories.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c06f3ecd44848df46428ec3a5188b0b53074110",
+      "size": 569280,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/4c06f3ecd44848df46428ec3a5188b0b53074110"
+    },
+    {
+      "path": "fibroblast_data/genecategories_no_DE.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e991773773ede3bc2fe74190a3841b7f547950c",
+      "size": 474128,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/4e991773773ede3bc2fe74190a3841b7f547950c"
+    },
+    {
+      "path": "fibroblast_data/genelength_human.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d76a19100b2d6a696a61e2294a2d4094cf43f6",
+      "size": 713523,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/14d76a19100b2d6a696a61e2294a2d4094cf43f6"
+    },
+    {
+      "path": "fibroblast_data/genelength_mouse.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11cc3cc7fbe1dfb651738790d214fbce1bb55f89",
+      "size": 760660,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/11cc3cc7fbe1dfb651738790d214fbce1bb55f89"
+    },
+    {
+      "path": "fibroblast_data/genelength_rat.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a4a2972f4d684ab36e4022ffcd9e615d5be7f0",
+      "size": 563995,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/96a4a2972f4d684ab36e4022ffcd9e615d5be7f0"
+    },
+    {
+      "path": "fibroblast_data/genelength_rhesus.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ce908838792c43bd3ed074d3a629dfe78984da",
+      "size": 558181,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/97ce908838792c43bd3ed074d3a629dfe78984da"
+    },
+    {
+      "path": "fibroblast_data/ortho.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6568001c2767ef90d4ce10d4d4a6cf363bb1c434",
+      "size": 711992,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/6568001c2767ef90d4ce10d4d4a6cf363bb1c434"
+    },
+    {
+      "path": "fibroblast_data/phylopromoters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "611d61d9f5ca09d6bb58d17e9a40f22420b1b652",
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/611d61d9f5ca09d6bb58d17e9a40f22420b1b652"
+    },
+    {
+      "path": "fibroblast_data/phylopromoters/human_DE_high.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb51dc8610ab61e0990839ed60b5489b33778d7",
+      "size": 674063,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/4cb51dc8610ab61e0990839ed60b5489b33778d7"
+    },
+    {
+      "path": "fibroblast_data/phylopromoters/human_DE_low.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8dd0908a9efeb4a99e6577cd911bac5c85bb3a",
+      "size": 648222,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/cf8dd0908a9efeb4a99e6577cd911bac5c85bb3a"
+    },
+    {
+      "path": "fibroblast_data/phylopromoters/human_DE_mid.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6ba2020af5cc6d26db831c13be758b526267b6",
+      "size": 1316005,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/bf6ba2020af5cc6d26db831c13be758b526267b6"
+    },
+    {
+      "path": "fibroblast_dm_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4d5a5d5c32ceb30197c2aac019a23e186ff5f9e",
+      "size": 5574,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/d4d5a5d5c32ceb30197c2aac019a23e186ff5f9e"
+    },
+    {
+      "path": "fibroblast_fig_2A.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2d5259c1234ce8e9bf337beaba845c5de915b91",
+      "size": 3195,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/c2d5259c1234ce8e9bf337beaba845c5de915b91"
+    },
+    {
+      "path": "fibroblast_fig_2B.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1bab63ec0018843e77ced4a45d2847bf1ae1325",
+      "size": 2367,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/e1bab63ec0018843e77ced4a45d2847bf1ae1325"
+    },
+    {
+      "path": "fibroblast_fig_2C_tatacpg.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f96c208ebe91871ba712416e6c326a123f2692f",
+      "size": 3715,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/5f96c208ebe91871ba712416e6c326a123f2692f"
+    },
+    {
+      "path": "fibroblast_fig_2D_bycategory.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abaec04b06c432d38be9248432b96e61c8ac0a04",
+      "size": 4326,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/abaec04b06c432d38be9248432b96e61c8ac0a04"
+    },
+    {
+      "path": "fibroblast_fig_3A.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0147ca61db58e2a6d10d04516a1888237bc1849",
+      "size": 2584,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/a0147ca61db58e2a6d10d04516a1888237bc1849"
+    },
+    {
+      "path": "fibroblast_fig_3B.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd81c06502099b1046ae978e7baf31f1bb3e5ff",
+      "size": 4461,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/4fd81c06502099b1046ae978e7baf31f1bb3e5ff"
+    },
+    {
+      "path": "fibroblast_fig_3C.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3b8318bb325f492738c1510af6a6b032ac5993c",
+      "size": 3950,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/c3b8318bb325f492738c1510af6a6b032ac5993c"
+    },
+    {
+      "path": "fibroblast_fig_3D.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "745fa0ced48e7ccb0e7b6be09a77acaec82ddfa3",
+      "size": 2964,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/745fa0ced48e7ccb0e7b6be09a77acaec82ddfa3"
+    },
+    {
+      "path": "fibroblast_fig_4ABCD.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c51edb9e23c5631ccce458747d73146ad81312",
+      "size": 8807,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/63c51edb9e23c5631ccce458747d73146ad81312"
+    },
+    {
+      "path": "fibroblast_fig_4E.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79442a6ac3fbaa352bb9ea0d7ac733fd3c1f0e28",
+      "size": 2853,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/79442a6ac3fbaa352bb9ea0d7ac733fd3c1f0e28"
+    },
+    {
+      "path": "fibroblast_fig_4F.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de0ad47e066ceb35f984b4c8ce98ba0163b62d9",
+      "size": 1953,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/4de0ad47e066ceb35f984b4c8ce98ba0163b62d9"
+    },
+    {
+      "path": "phagocyte_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc811bcfa709d231a232e2982c604c52739b36e0",
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/trees/cc811bcfa709d231a232e2982c604c52739b36e0"
+    },
+    {
+      "path": "phagocyte_data/DE_genes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f3420531138e9e87489f638767c2f59ce68f897",
+      "size": 267211,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/2f3420531138e9e87489f638767c2f59ce68f897"
+    },
+    {
+      "path": "phagocyte_data/MT_genes_Homo_sapiens.GRCh38.84.chr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50369c162b58f77581d53fae346615c7453a4489",
+      "size": 302,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/50369c162b58f77581d53fae346615c7453a4489"
+    },
+    {
+      "path": "phagocyte_data/MT_genes_Mus_musculus.GRCm38.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a848f88fcf5a11e24403064aa94002c91fcf191b",
+      "size": 342,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/a848f88fcf5a11e24403064aa94002c91fcf191b"
+    },
+    {
+      "path": "phagocyte_data/MT_genes_Oryctolagus_cuniculus.OryCun2.0.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665243d600d83ebaa2f534ab90837e9a5e743da1",
+      "size": 341,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/665243d600d83ebaa2f534ab90837e9a5e743da1"
+    },
+    {
+      "path": "phagocyte_data/MT_genes_Rattus_norvegicus.Rnor_6.0.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae8464a7aaab23df1b237a0aafb8a7ebdff732a",
+      "size": 343,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/eae8464a7aaab23df1b237a0aafb8a7ebdff732a"
+    },
+    {
+      "path": "phagocyte_data/MT_genes_Sus_scrofa.Sscrofa10.2.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573a9f90b54a4dfa482d91d84e19e4029e79dba6",
+      "size": 306,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/573a9f90b54a4dfa482d91d84e19e4029e79dba6"
+    },
+    {
+      "path": "phagocyte_data/all_genes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5195226104b678d4ce6fa9905cbb896db22c2d9",
+      "size": 2502564,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/d5195226104b678d4ce6fa9905cbb896db22c2d9"
+    },
+    {
+      "path": "phagocyte_data/coding_Homo_sapiens.GRCh38.84.chr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11beae9ff5bdda89bb8b11c2362687b9a99106a0",
+      "size": 3012292,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/11beae9ff5bdda89bb8b11c2362687b9a99106a0"
+    },
+    {
+      "path": "phagocyte_data/coding_Mus_musculus.GRCm38.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "441b0cd321cfa4c49401632df769a01f3977411f",
+      "size": 2189921,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/441b0cd321cfa4c49401632df769a01f3977411f"
+    },
+    {
+      "path": "phagocyte_data/coding_Oryctolagus_cuniculus.OryCun2.0.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc3ec955eb12ec90c067e429fbfd82c04180885",
+      "size": 870075,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/bdc3ec955eb12ec90c067e429fbfd82c04180885"
+    },
+    {
+      "path": "phagocyte_data/coding_Rattus_norvegicus.Rnor_6.0.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea323c0b3b2f70ed9d7f9a9acc15ac77bb03784c",
+      "size": 1148274,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/ea323c0b3b2f70ed9d7f9a9acc15ac77bb03784c"
+    },
+    {
+      "path": "phagocyte_data/coding_Sus_scrofa.Sscrofa10.2.84.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8dd42371cbdccfb33d4255e9a7de31594059e5",
+      "size": 1037084,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/ed8dd42371cbdccfb33d4255e9a7de31594059e5"
+    },
+    {
+      "path": "phagocyte_data/genecat_info.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a56212bcaa8ca0c6a0ddafdc61add87a03183e75",
+      "size": 680,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/a56212bcaa8ca0c6a0ddafdc61add87a03183e75"
+    },
+    {
+      "path": "phagocyte_data/mouse_TATA_CpG.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e6237a714fb0fa6d7693c42982d682aabeaa0e7",
+      "size": 597238,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/3e6237a714fb0fa6d7693c42982d682aabeaa0e7"
+    },
+    {
+      "path": "phagocyte_data/phagocyte_functions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e019c3018342dee3f0358a32cbd3dee0ccdd2b92",
+      "size": 486357,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/e019c3018342dee3f0358a32cbd3dee0ccdd2b92"
+    },
+    {
+      "path": "phagocyte_data/phagocytes_summary_data.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2b294e8d215682151cc854f72dc3be05422d074",
+      "size": 2287735,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/e2b294e8d215682151cc854f72dc3be05422d074"
+    },
+    {
+      "path": "phagocyte_data/samples_matching_files.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f2de246341b740b481d6cb91a83be9bee288e59",
+      "size": 9697,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/9f2de246341b740b481d6cb91a83be9bee288e59"
+    },
+    {
+      "path": "phagocyte_dm_analysis.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff8c00f35f6659ef8e8478b991d9804da20bb51",
+      "size": 4671,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/7ff8c00f35f6659ef8e8478b991d9804da20bb51"
+    },
+    {
+      "path": "phagocyte_fig_2C_tatacpg.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a171c9f15f0491350cec8f0adc252fdbf2c7e96",
+      "size": 4120,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/9a171c9f15f0491350cec8f0adc252fdbf2c7e96"
+    },
+    {
+      "path": "phagocyte_fig_2D_bycategory.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc846b7530383d0556b53a85facb2b9ebf99209",
+      "size": 4035,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/7cc846b7530383d0556b53a85facb2b9ebf99209"
+    },
+    {
+      "path": "phagocyte_fig_3A.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47b0811b2111d1f7825bd58ed77b762a39ad6681",
+      "size": 2656,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/47b0811b2111d1f7825bd58ed77b762a39ad6681"
+    },
+    {
+      "path": "phagocyte_fig_3B_tatacpg.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b635db7b7fed5a470bfef23ba7a7aa4c478be929",
+      "size": 3821,
+      "url": "https://api.github.com/repos/Teichlab/innate_evo/git/blobs/b635db7b7fed5a470bfef23ba7a7aa4c478be929"
+    }
+  ],
+  "truncated": false
+}

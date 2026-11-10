@@ -1,0 +1,322 @@
+[
+  {
+    "file": "GSM9618463_HSapiens_exp1_chip1_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618463/suppl/GSM9618463_HSapiens_exp1_chip1_lane1_gRNA_calls.csv.gz",
+    "bytes": 4608
+  },
+  {
+    "file": "GSM9618465_MFascicularis_exp1_chip1_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618465/suppl/GSM9618465_MFascicularis_exp1_chip1_lane1_gRNA_calls.csv.gz",
+    "bytes": 8084
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane1_gRNA_calls.csv.gz",
+    "bytes": 8136
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane2_gRNA_calls.csv.gz",
+    "bytes": 8339
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane3_gRNA_calls.csv.gz",
+    "bytes": 8124
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane4_gRNA_calls.csv.gz",
+    "bytes": 8637
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane5_gRNA_calls.csv.gz",
+    "bytes": 8099
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane6_gRNA_calls.csv.gz",
+    "bytes": 8310
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane7_gRNA_calls.csv.gz",
+    "bytes": 10137
+  },
+  {
+    "file": "GSM9618467_HSapiens_exp2_chip1_lane8_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618467/suppl/GSM9618467_HSapiens_exp2_chip1_lane8_gRNA_calls.csv.gz",
+    "bytes": 8738
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane1_gRNA_calls.csv.gz",
+    "bytes": 4676
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane2_gRNA_calls.csv.gz",
+    "bytes": 5130
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane3_gRNA_calls.csv.gz",
+    "bytes": 4480
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane4_gRNA_calls.csv.gz",
+    "bytes": 5429
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane5_gRNA_calls.csv.gz",
+    "bytes": 5055
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane6_gRNA_calls.csv.gz",
+    "bytes": 5197
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane7_gRNA_calls.csv.gz",
+    "bytes": 5858
+  },
+  {
+    "file": "GSM9618469_MFascicularis_exp2_chip1_lane8_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618469/suppl/GSM9618469_MFascicularis_exp2_chip1_lane8_gRNA_calls.csv.gz",
+    "bytes": 4772
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane1_gRNA_calls.csv.gz",
+    "bytes": 6869
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane2_gRNA_calls.csv.gz",
+    "bytes": 6431
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane3_gRNA_calls.csv.gz",
+    "bytes": 7722
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane4_gRNA_calls.csv.gz",
+    "bytes": 7610
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane5_gRNA_calls.csv.gz",
+    "bytes": 6873
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane6_gRNA_calls.csv.gz",
+    "bytes": 7557
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane7_gRNA_calls.csv.gz",
+    "bytes": 7349
+  },
+  {
+    "file": "GSM9618471_HSapiens_exp3_chip1_lane8_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618471/suppl/GSM9618471_HSapiens_exp3_chip1_lane8_gRNA_calls.csv.gz",
+    "bytes": 7595
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane1_gRNA_calls.csv.gz",
+    "bytes": 7362
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane2_gRNA_calls.csv.gz",
+    "bytes": 7762
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane3_gRNA_calls.csv.gz",
+    "bytes": 8118
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane4_gRNA_calls.csv.gz",
+    "bytes": 8713
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane5_gRNA_calls.csv.gz",
+    "bytes": 7689
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane6_gRNA_calls.csv.gz",
+    "bytes": 7893
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane7_gRNA_calls.csv.gz",
+    "bytes": 7922
+  },
+  {
+    "file": "GSM9618473_MFascicularis_exp3_chip1_lane8_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618473/suppl/GSM9618473_MFascicularis_exp3_chip1_lane8_gRNA_calls.csv.gz",
+    "bytes": 7971
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane1_gRNA_calls.csv.gz",
+    "bytes": 6455
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane2_gRNA_calls.csv.gz",
+    "bytes": 6966
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane3_gRNA_calls.csv.gz",
+    "bytes": 7319
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane4_gRNA_calls.csv.gz",
+    "bytes": 6887
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane5_gRNA_calls.csv.gz",
+    "bytes": 7049
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane6_gRNA_calls.csv.gz",
+    "bytes": 7048
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane7_gRNA_calls.csv.gz",
+    "bytes": 6535
+  },
+  {
+    "file": "GSM9618475_HSapiens_exp3_chip2_lane8_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618475/suppl/GSM9618475_HSapiens_exp3_chip2_lane8_gRNA_calls.csv.gz",
+    "bytes": 6405
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane1_gRNA_calls.csv.gz",
+    "bytes": 7284
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane2_gRNA_calls.csv.gz",
+    "bytes": 7704
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane3_gRNA_calls.csv.gz",
+    "bytes": 8165
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane4_gRNA_calls.csv.gz",
+    "bytes": 7665
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane5_gRNA_calls.csv.gz",
+    "bytes": 7596
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane6_gRNA_calls.csv.gz",
+    "bytes": 6824
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane7_gRNA_calls.csv.gz",
+    "bytes": 7248
+  },
+  {
+    "file": "GSM9618477_MFascicularis_exp3_chip2_lane8_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618477/suppl/GSM9618477_MFascicularis_exp3_chip2_lane8_gRNA_calls.csv.gz",
+    "bytes": 7171
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane1_gRNA_calls.csv.gz",
+    "bytes": 7891
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane2_gRNA_calls.csv.gz",
+    "bytes": 7068
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane3_gRNA_calls.csv.gz",
+    "bytes": 7970
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane4_gRNA_calls.csv.gz",
+    "bytes": 8413
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane5_gRNA_calls.csv.gz",
+    "bytes": 9205
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane6_gRNA_calls.csv.gz",
+    "bytes": 8898
+  },
+  {
+    "file": "GSM9618479_HSapiens_exp3_chip3_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618479/suppl/GSM9618479_HSapiens_exp3_chip3_lane7_gRNA_calls.csv.gz",
+    "bytes": 7823
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane1_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane1_gRNA_calls.csv.gz",
+    "bytes": 8754
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane2_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane2_gRNA_calls.csv.gz",
+    "bytes": 7830
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane3_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane3_gRNA_calls.csv.gz",
+    "bytes": 8931
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane4_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane4_gRNA_calls.csv.gz",
+    "bytes": 8492
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane5_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane5_gRNA_calls.csv.gz",
+    "bytes": 9826
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane6_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane6_gRNA_calls.csv.gz",
+    "bytes": 10091
+  },
+  {
+    "file": "GSM9618481_MFascicularis_exp3_chip3_lane7_gRNA_calls.csv.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9618nnn/GSM9618481/suppl/GSM9618481_MFascicularis_exp3_chip3_lane7_gRNA_calls.csv.gz",
+    "bytes": 7562
+  }
+]

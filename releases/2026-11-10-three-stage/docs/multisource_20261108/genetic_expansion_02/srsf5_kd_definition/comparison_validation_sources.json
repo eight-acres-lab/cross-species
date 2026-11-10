@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.encodeproject.org/documents/9b59c880-562f-412f-880c-2cfbadac5b93/@@download/attachment/SRSF5-BGHLV23-45.pdf",
+    "path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/SRSF5-BGHLV23-45.pdf",
+    "bytes": 563299,
+    "sha256": "6dc00541b8c331e6f61e108f1a53339d6989ca9ce02883eac04ef057c37d8c7a"
+  },
+  {
+    "url": "https://www.encodeproject.org/documents/c7e2a7c8-58c9-4545-bc34-3677fbdfb79c/@@download/attachment/SRSF5-BGKcLV11-95.pdf",
+    "path": "docs/multisource_20261108/genetic_expansion_02/srsf5_kd_definition/SRSF5-BGKcLV11-95.pdf",
+    "bytes": 562938,
+    "sha256": "a2bf9d18753737f77628c260182526f9fcdfd82b2c160db469ad32bcf7a45614"
+  }
+]

@@ -1,0 +1,525 @@
+barcode	dose	doseunit	geo_accession	group	organism	sample_id	subject	time	timeunit	tissue	title	treatment
+SP03EF74	10	ng/mL	GSM7924635	R (resilient)	Papio anubis	SP03EF74	Baboon_1	2	Hour	blood	Baboon_1 [SP03EF74]	LPS
+SP0CA59F	100	ng/mL	GSM7924636	R (resilient)	Papio anubis	SP0CA59F	Baboon_1	2	Hour	blood	Baboon_1 [SP0CA59F]	LPS
+SP4ABC93	1000	ng/mL	GSM7924637	R (resilient)	Papio anubis	SP4ABC93	Baboon_1	2	Hour	blood	Baboon_1 [SP4ABC93]	LPS
+SPBC5A0E	10	ng/mL	GSM7924638	R (resilient)	Papio anubis	SPBC5A0E	Baboon_1	24	Hour	blood	Baboon_1 [SPBC5A0E]	LPS
+SPFB4C41	100	ng/mL	GSM7924639	R (resilient)	Papio anubis	SPFB4C41	Baboon_1	24	Hour	blood	Baboon_1 [SPFB4C41]	LPS
+SPFC9C03	1000	ng/mL	GSM7924640	R (resilient)	Papio anubis	SPFC9C03	Baboon_1	24	Hour	blood	Baboon_1 [SPFC9C03]	LPS
+SP4F7682	10	ng/mL	GSM7924641	R (resilient)	Papio anubis	SP4F7682	Baboon_1	6	Hour	blood	Baboon_1 [SP4F7682]	LPS
+SP75C242	100	ng/mL	GSM7924642	R (resilient)	Papio anubis	SP75C242	Baboon_1	6	Hour	blood	Baboon_1 [SP75C242]	LPS
+SP9C8E22	1000	ng/mL	GSM7924643	R (resilient)	Papio anubis	SP9C8E22	Baboon_1	6	Hour	blood	Baboon_1 [SP9C8E22]	LPS
+SPA0C6C1	0	ng/mL	GSM7924644	R (resilient)	Papio anubis	SPA0C6C1	Baboon_1	2	Hour	blood	Baboon_1 [SPA0C6C1]	NC
+SPA889A9	0	ng/mL	GSM7924645	R (resilient)	Papio anubis	SPA889A9	Baboon_1	24	Hour	blood	Baboon_1 [SPA889A9]	NC
+SPD2E7BB	0	ng/mL	GSM7924646	R (resilient)	Papio anubis	SPD2E7BB	Baboon_1	6	Hour	blood	Baboon_1 [SPD2E7BB]	NC
+SP559206	10	ng/mL	GSM7924647	R (resilient)	Papio anubis	SP559206	Baboon_2	2	Hour	blood	Baboon_2 [SP559206]	LPS
+SPB84E74	100	ng/mL	GSM7924648	R (resilient)	Papio anubis	SPB84E74	Baboon_2	2	Hour	blood	Baboon_2 [SPB84E74]	LPS
+SP9A3A8A	1000	ng/mL	GSM7924649	R (resilient)	Papio anubis	SP9A3A8A	Baboon_2	2	Hour	blood	Baboon_2 [SP9A3A8A]	LPS
+SPEF9D44	10	ng/mL	GSM7924650	R (resilient)	Papio anubis	SPEF9D44	Baboon_2	24	Hour	blood	Baboon_2 [SPEF9D44]	LPS
+SP65813D	100	ng/mL	GSM7924651	R (resilient)	Papio anubis	SP65813D	Baboon_2	24	Hour	blood	Baboon_2 [SP65813D]	LPS
+SP29EA91	1000	ng/mL	GSM7924652	R (resilient)	Papio anubis	SP29EA91	Baboon_2	24	Hour	blood	Baboon_2 [SP29EA91]	LPS
+SP39827C	10	ng/mL	GSM7924653	R (resilient)	Papio anubis	SP39827C	Baboon_2	6	Hour	blood	Baboon_2 [SP39827C]	LPS
+SP4A6387	100	ng/mL	GSM7924654	R (resilient)	Papio anubis	SP4A6387	Baboon_2	6	Hour	blood	Baboon_2 [SP4A6387]	LPS
+SPFC39B9	1000	ng/mL	GSM7924655	R (resilient)	Papio anubis	SPFC39B9	Baboon_2	6	Hour	blood	Baboon_2 [SPFC39B9]	LPS
+SP285D7C	0	ng/mL	GSM7924656	R (resilient)	Papio anubis	SP285D7C	Baboon_2	2	Hour	blood	Baboon_2 [SP285D7C]	NC
+SP2F59CB	0	ng/mL	GSM7924657	R (resilient)	Papio anubis	SP2F59CB	Baboon_2	24	Hour	blood	Baboon_2 [SP2F59CB]	NC
+SP0A32E2	0	ng/mL	GSM7924658	R (resilient)	Papio anubis	SP0A32E2	Baboon_2	6	Hour	blood	Baboon_2 [SP0A32E2]	NC
+SPB32E70	10	ng/mL	GSM7924659	R (resilient)	Papio anubis	SPB32E70	Baboon_3	2	Hour	blood	Baboon_3 [SPB32E70]	LPS
+SP877017	100	ng/mL	GSM7924660	R (resilient)	Papio anubis	SP877017	Baboon_3	2	Hour	blood	Baboon_3 [SP877017]	LPS
+SP6CA56A	1000	ng/mL	GSM7924661	R (resilient)	Papio anubis	SP6CA56A	Baboon_3	2	Hour	blood	Baboon_3 [SP6CA56A]	LPS
+SPB4E257	10	ng/mL	GSM7924662	R (resilient)	Papio anubis	SPB4E257	Baboon_3	24	Hour	blood	Baboon_3 [SPB4E257]	LPS
+SP0EA95F	100	ng/mL	GSM7924663	R (resilient)	Papio anubis	SP0EA95F	Baboon_3	24	Hour	blood	Baboon_3 [SP0EA95F]	LPS
+SPC12796	1000	ng/mL	GSM7924664	R (resilient)	Papio anubis	SPC12796	Baboon_3	24	Hour	blood	Baboon_3 [SPC12796]	LPS
+SP1671AE	10	ng/mL	GSM7924665	R (resilient)	Papio anubis	SP1671AE	Baboon_3	6	Hour	blood	Baboon_3 [SP1671AE]	LPS
+SP8A7EDE	100	ng/mL	GSM7924666	R (resilient)	Papio anubis	SP8A7EDE	Baboon_3	6	Hour	blood	Baboon_3 [SP8A7EDE]	LPS
+SPF35B53	1000	ng/mL	GSM7924667	R (resilient)	Papio anubis	SPF35B53	Baboon_3	6	Hour	blood	Baboon_3 [SPF35B53]	LPS
+SP8FE594	0	ng/mL	GSM7924668	R (resilient)	Papio anubis	SP8FE594	Baboon_3	2	Hour	blood	Baboon_3 [SP8FE594]	NC
+SPE0B2D6	0	ng/mL	GSM7924669	R (resilient)	Papio anubis	SPE0B2D6	Baboon_3	24	Hour	blood	Baboon_3 [SPE0B2D6]	NC
+SP21E9F9	0	ng/mL	GSM7924670	R (resilient)	Papio anubis	SP21E9F9	Baboon_3	6	Hour	blood	Baboon_3 [SP21E9F9]	NC
+SP167BEE	10	ng/mL	GSM7924671	R (resilient)	Papio anubis	SP167BEE	Baboon_4	2	Hour	blood	Baboon_4 [SP167BEE]	LPS
+SPA58F3A	100	ng/mL	GSM7924672	R (resilient)	Papio anubis	SPA58F3A	Baboon_4	2	Hour	blood	Baboon_4 [SPA58F3A]	LPS
+SP6C4E25	1000	ng/mL	GSM7924673	R (resilient)	Papio anubis	SP6C4E25	Baboon_4	2	Hour	blood	Baboon_4 [SP6C4E25]	LPS
+SP27BCE8	10	ng/mL	GSM7924674	R (resilient)	Papio anubis	SP27BCE8	Baboon_4	24	Hour	blood	Baboon_4 [SP27BCE8]	LPS
+SPE84560	100	ng/mL	GSM7924675	R (resilient)	Papio anubis	SPE84560	Baboon_4	24	Hour	blood	Baboon_4 [SPE84560]	LPS
+SP3020F1	1000	ng/mL	GSM7924676	R (resilient)	Papio anubis	SP3020F1	Baboon_4	24	Hour	blood	Baboon_4 [SP3020F1]	LPS
+SP23AE91	10	ng/mL	GSM7924677	R (resilient)	Papio anubis	SP23AE91	Baboon_4	6	Hour	blood	Baboon_4 [SP23AE91]	LPS
+SP9D9065	100	ng/mL	GSM7924678	R (resilient)	Papio anubis	SP9D9065	Baboon_4	6	Hour	blood	Baboon_4 [SP9D9065]	LPS
+SP1814D0	1000	ng/mL	GSM7924679	R (resilient)	Papio anubis	SP1814D0	Baboon_4	6	Hour	blood	Baboon_4 [SP1814D0]	LPS
+SP37632E	0	ng/mL	GSM7924680	R (resilient)	Papio anubis	SP37632E	Baboon_4	2	Hour	blood	Baboon_4 [SP37632E]	NC
+SPCF36E0	0	ng/mL	GSM7924681	R (resilient)	Papio anubis	SPCF36E0	Baboon_4	24	Hour	blood	Baboon_4 [SPCF36E0]	NC
+SPACB1CC	0	ng/mL	GSM7924682	R (resilient)	Papio anubis	SPACB1CC	Baboon_4	6	Hour	blood	Baboon_4 [SPACB1CC]	NC
+SPC7A9BB	10	ng/mL	GSM7924683	S (sensitive)	Pan troglodytes	SPC7A9BB	Chimp_4x0521	2	Hour	blood	Chimp_4x0521 [SPC7A9BB]	LPS
+SP525C26	100	ng/mL	GSM7924684	S (sensitive)	Pan troglodytes	SP525C26	Chimp_4x0521	2	Hour	blood	Chimp_4x0521 [SP525C26]	LPS
+SP525C83	1000	ng/mL	GSM7924685	S (sensitive)	Pan troglodytes	SP525C83	Chimp_4x0521	2	Hour	blood	Chimp_4x0521 [SP525C83]	LPS
+SP52CE70	10	ng/mL	GSM7924686	S (sensitive)	Pan troglodytes	SP52CE70	Chimp_4x0521	24	Hour	blood	Chimp_4x0521 [SP52CE70]	LPS
+SP52C441	100	ng/mL	GSM7924687	S (sensitive)	Pan troglodytes	SP52C441	Chimp_4x0521	24	Hour	blood	Chimp_4x0521 [SP52C441]	LPS
+SP52B968	1000	ng/mL	GSM7924688	S (sensitive)	Pan troglodytes	SP52B968	Chimp_4x0521	24	Hour	blood	Chimp_4x0521 [SP52B968]	LPS
+SP526773	10	ng/mL	GSM7924689	S (sensitive)	Pan troglodytes	SP526773	Chimp_4x0521	6	Hour	blood	Chimp_4x0521 [SP526773]	LPS
+SP52641E	100	ng/mL	GSM7924690	S (sensitive)	Pan troglodytes	SP52641E	Chimp_4x0521	6	Hour	blood	Chimp_4x0521 [SP52641E]	LPS
+SP526205	1000	ng/mL	GSM7924691	S (sensitive)	Pan troglodytes	SP526205	Chimp_4x0521	6	Hour	blood	Chimp_4x0521 [SP526205]	LPS
+SP49060A	0	ng/mL	GSM7924692	S (sensitive)	Pan troglodytes	SP49060A	Chimp_4x0521	2	Hour	blood	Chimp_4x0521 [SP49060A]	NC
+SP52D824	0	ng/mL	GSM7924693	S (sensitive)	Pan troglodytes	SP52D824	Chimp_4x0521	24	Hour	blood	Chimp_4x0521 [SP52D824]	NC
+SP526E8E	0	ng/mL	GSM7924694	S (sensitive)	Pan troglodytes	SP526E8E	Chimp_4x0521	6	Hour	blood	Chimp_4x0521 [SP526E8E]	NC
+SP4A786D	10	ng/mL	GSM7924695	S (sensitive)	Pan troglodytes	SP4A786D	Chimp_4x0525	2	Hour	blood	Chimp_4x0525 [SP4A786D]	LPS
+SP8CC386	100	ng/mL	GSM7924696	S (sensitive)	Pan troglodytes	SP8CC386	Chimp_4x0525	2	Hour	blood	Chimp_4x0525 [SP8CC386]	LPS
+SPC91DA3	1000	ng/mL	GSM7924697	S (sensitive)	Pan troglodytes	SPC91DA3	Chimp_4x0525	2	Hour	blood	Chimp_4x0525 [SPC91DA3]	LPS
+SP432A29	10	ng/mL	GSM7924698	S (sensitive)	Pan troglodytes	SP432A29	Chimp_4x0525	24	Hour	blood	Chimp_4x0525 [SP432A29]	LPS
+SP1B8B3F	100	ng/mL	GSM7924699	S (sensitive)	Pan troglodytes	SP1B8B3F	Chimp_4x0525	24	Hour	blood	Chimp_4x0525 [SP1B8B3F]	LPS
+SP5A6D62	1000	ng/mL	GSM7924700	S (sensitive)	Pan troglodytes	SP5A6D62	Chimp_4x0525	24	Hour	blood	Chimp_4x0525 [SP5A6D62]	LPS
+SP04084B	10	ng/mL	GSM7924701	S (sensitive)	Pan troglodytes	SP04084B	Chimp_4x0525	6	Hour	blood	Chimp_4x0525 [SP04084B]	LPS
+SP9B61B2	100	ng/mL	GSM7924702	S (sensitive)	Pan troglodytes	SP9B61B2	Chimp_4x0525	6	Hour	blood	Chimp_4x0525 [SP9B61B2]	LPS
+SPDB2496	1000	ng/mL	GSM7924703	S (sensitive)	Pan troglodytes	SPDB2496	Chimp_4x0525	6	Hour	blood	Chimp_4x0525 [SPDB2496]	LPS
+SP09D0E0	0	ng/mL	GSM7924704	S (sensitive)	Pan troglodytes	SP09D0E0	Chimp_4x0525	2	Hour	blood	Chimp_4x0525 [SP09D0E0]	NC
+SPADC8CD	0	ng/mL	GSM7924705	S (sensitive)	Pan troglodytes	SPADC8CD	Chimp_4x0525	24	Hour	blood	Chimp_4x0525 [SPADC8CD]	NC
+SPA89BB6	0	ng/mL	GSM7924706	S (sensitive)	Pan troglodytes	SPA89BB6	Chimp_4x0525	6	Hour	blood	Chimp_4x0525 [SPA89BB6]	NC
+SP134C59	10	ng/mL	GSM7924707	S (sensitive)	Pan troglodytes	SP134C59	Chimp_4x0527	2	Hour	blood	Chimp_4x0527 [SP134C59]	LPS
+SPFE0467	100	ng/mL	GSM7924708	S (sensitive)	Pan troglodytes	SPFE0467	Chimp_4x0527	2	Hour	blood	Chimp_4x0527 [SPFE0467]	LPS
+SPE6BA41	1000	ng/mL	GSM7924709	S (sensitive)	Pan troglodytes	SPE6BA41	Chimp_4x0527	2	Hour	blood	Chimp_4x0527 [SPE6BA41]	LPS
+SP63C7B9	10	ng/mL	GSM7924710	S (sensitive)	Pan troglodytes	SP63C7B9	Chimp_4x0527	24	Hour	blood	Chimp_4x0527 [SP63C7B9]	LPS
+SPA7C281	100	ng/mL	GSM7924711	S (sensitive)	Pan troglodytes	SPA7C281	Chimp_4x0527	24	Hour	blood	Chimp_4x0527 [SPA7C281]	LPS
+SP5CE8E3	1000	ng/mL	GSM7924712	S (sensitive)	Pan troglodytes	SP5CE8E3	Chimp_4x0527	24	Hour	blood	Chimp_4x0527 [SP5CE8E3]	LPS
+SPD5DBFA	10	ng/mL	GSM7924713	S (sensitive)	Pan troglodytes	SPD5DBFA	Chimp_4x0527	6	Hour	blood	Chimp_4x0527 [SPD5DBFA]	LPS
+SPDB1277	100	ng/mL	GSM7924714	S (sensitive)	Pan troglodytes	SPDB1277	Chimp_4x0527	6	Hour	blood	Chimp_4x0527 [SPDB1277]	LPS
+SP3EE6D8	1000	ng/mL	GSM7924715	S (sensitive)	Pan troglodytes	SP3EE6D8	Chimp_4x0527	6	Hour	blood	Chimp_4x0527 [SP3EE6D8]	LPS
+SP19DB6E	0	ng/mL	GSM7924716	S (sensitive)	Pan troglodytes	SP19DB6E	Chimp_4x0527	2	Hour	blood	Chimp_4x0527 [SP19DB6E]	NC
+SP3636D3	0	ng/mL	GSM7924717	S (sensitive)	Pan troglodytes	SP3636D3	Chimp_4x0527	24	Hour	blood	Chimp_4x0527 [SP3636D3]	NC
+SP7E7309	0	ng/mL	GSM7924718	S (sensitive)	Pan troglodytes	SP7E7309	Chimp_4x0527	6	Hour	blood	Chimp_4x0527 [SP7E7309]	NC
+SP528436	10	ng/mL	GSM7924719	S (sensitive)	Pan troglodytes	SP528436	Chimp_4x0529	2	Hour	blood	Chimp_4x0529 [SP528436]	LPS
+SP29CB71	100	ng/mL	GSM7924720	S (sensitive)	Pan troglodytes	SP29CB71	Chimp_4x0529	2	Hour	blood	Chimp_4x0529 [SP29CB71]	LPS
+SPEBCDC7	1000	ng/mL	GSM7924721	S (sensitive)	Pan troglodytes	SPEBCDC7	Chimp_4x0529	2	Hour	blood	Chimp_4x0529 [SPEBCDC7]	LPS
+SP35442D	10	ng/mL	GSM7924722	S (sensitive)	Pan troglodytes	SP35442D	Chimp_4x0529	24	Hour	blood	Chimp_4x0529 [SP35442D]	LPS
+SP96EC7E	100	ng/mL	GSM7924723	S (sensitive)	Pan troglodytes	SP96EC7E	Chimp_4x0529	24	Hour	blood	Chimp_4x0529 [SP96EC7E]	LPS
+SP1041F2	1000	ng/mL	GSM7924724	S (sensitive)	Pan troglodytes	SP1041F2	Chimp_4x0529	24	Hour	blood	Chimp_4x0529 [SP1041F2]	LPS
+SP67D635	10	ng/mL	GSM7924725	S (sensitive)	Pan troglodytes	SP67D635	Chimp_4x0529	6	Hour	blood	Chimp_4x0529 [SP67D635]	LPS
+SPFBB2EB	100	ng/mL	GSM7924726	S (sensitive)	Pan troglodytes	SPFBB2EB	Chimp_4x0529	6	Hour	blood	Chimp_4x0529 [SPFBB2EB]	LPS
+SPCEDEC7	1000	ng/mL	GSM7924727	S (sensitive)	Pan troglodytes	SPCEDEC7	Chimp_4x0529	6	Hour	blood	Chimp_4x0529 [SPCEDEC7]	LPS
+SP528FF2	0	ng/mL	GSM7924728	S (sensitive)	Pan troglodytes	SP528FF2	Chimp_4x0529	2	Hour	blood	Chimp_4x0529 [SP528FF2]	NC
+SP2234A0	0	ng/mL	GSM7924729	S (sensitive)	Pan troglodytes	SP2234A0	Chimp_4x0529	24	Hour	blood	Chimp_4x0529 [SP2234A0]	NC
+SP5E4067	0	ng/mL	GSM7924730	S (sensitive)	Pan troglodytes	SP5E4067	Chimp_4x0529	6	Hour	blood	Chimp_4x0529 [SP5E4067]	NC
+SP8EF932	10	ng/mL	GSM7924731	S (sensitive)	Bos taurus	SP8EF932	Cow_1	2	Hour	blood	Cow_1 [SP8EF932]	LPS
+SP380441	100	ng/mL	GSM7924732	S (sensitive)	Bos taurus	SP380441	Cow_1	2	Hour	blood	Cow_1 [SP380441]	LPS
+SP8E6742	1000	ng/mL	GSM7924733	S (sensitive)	Bos taurus	SP8E6742	Cow_1	2	Hour	blood	Cow_1 [SP8E6742]	LPS
+SP7EE019	10	ng/mL	GSM7924734	S (sensitive)	Bos taurus	SP7EE019	Cow_1	24	Hour	blood	Cow_1 [SP7EE019]	LPS
+SPD6FA9F	100	ng/mL	GSM7924735	S (sensitive)	Bos taurus	SPD6FA9F	Cow_1	24	Hour	blood	Cow_1 [SPD6FA9F]	LPS
+SP2F448B	1000	ng/mL	GSM7924736	S (sensitive)	Bos taurus	SP2F448B	Cow_1	24	Hour	blood	Cow_1 [SP2F448B]	LPS
+SP2ACB40	10	ng/mL	GSM7924737	S (sensitive)	Bos taurus	SP2ACB40	Cow_1	6	Hour	blood	Cow_1 [SP2ACB40]	LPS
+SP0D9ECB	100	ng/mL	GSM7924738	S (sensitive)	Bos taurus	SP0D9ECB	Cow_1	6	Hour	blood	Cow_1 [SP0D9ECB]	LPS
+SP48406B	1000	ng/mL	GSM7924739	S (sensitive)	Bos taurus	SP48406B	Cow_1	6	Hour	blood	Cow_1 [SP48406B]	LPS
+SPA2EC49	0	ng/mL	GSM7924740	S (sensitive)	Bos taurus	SPA2EC49	Cow_1	2	Hour	blood	Cow_1 [SPA2EC49]	NC
+SP03F2D5	0	ng/mL	GSM7924741	S (sensitive)	Bos taurus	SP03F2D5	Cow_1	24	Hour	blood	Cow_1 [SP03F2D5]	NC
+SPB96823	0	ng/mL	GSM7924742	S (sensitive)	Bos taurus	SPB96823	Cow_1	6	Hour	blood	Cow_1 [SPB96823]	NC
+SP25BBE0	10	ng/mL	GSM7924743	S (sensitive)	Bos taurus	SP25BBE0	Cow_2	2	Hour	blood	Cow_2 [SP25BBE0]	LPS
+SP9F4767	100	ng/mL	GSM7924744	S (sensitive)	Bos taurus	SP9F4767	Cow_2	2	Hour	blood	Cow_2 [SP9F4767]	LPS
+SP246910	1000	ng/mL	GSM7924745	S (sensitive)	Bos taurus	SP246910	Cow_2	2	Hour	blood	Cow_2 [SP246910]	LPS
+SP96C33A	10	ng/mL	GSM7924746	S (sensitive)	Bos taurus	SP96C33A	Cow_2	24	Hour	blood	Cow_2 [SP96C33A]	LPS
+SP254073	100	ng/mL	GSM7924747	S (sensitive)	Bos taurus	SP254073	Cow_2	24	Hour	blood	Cow_2 [SP254073]	LPS
+SP178829	1000	ng/mL	GSM7924748	S (sensitive)	Bos taurus	SP178829	Cow_2	24	Hour	blood	Cow_2 [SP178829]	LPS
+SPDC8BFC	10	ng/mL	GSM7924749	S (sensitive)	Bos taurus	SPDC8BFC	Cow_2	6	Hour	blood	Cow_2 [SPDC8BFC]	LPS
+SP2957A2	100	ng/mL	GSM7924750	S (sensitive)	Bos taurus	SP2957A2	Cow_2	6	Hour	blood	Cow_2 [SP2957A2]	LPS
+SPA54CEB	1000	ng/mL	GSM7924751	S (sensitive)	Bos taurus	SPA54CEB	Cow_2	6	Hour	blood	Cow_2 [SPA54CEB]	LPS
+SPD3C1D8	0	ng/mL	GSM7924752	S (sensitive)	Bos taurus	SPD3C1D8	Cow_2	2	Hour	blood	Cow_2 [SPD3C1D8]	NC
+SP65A78E	0	ng/mL	GSM7924753	S (sensitive)	Bos taurus	SP65A78E	Cow_2	24	Hour	blood	Cow_2 [SP65A78E]	NC
+SP78BDDC	0	ng/mL	GSM7924754	S (sensitive)	Bos taurus	SP78BDDC	Cow_2	6	Hour	blood	Cow_2 [SP78BDDC]	NC
+SP682A13	10	ng/mL	GSM7924755	S (sensitive)	Bos taurus	SP682A13	Cow_3	2	Hour	blood	Cow_3 [SP682A13]	LPS
+SPC84018	100	ng/mL	GSM7924756	S (sensitive)	Bos taurus	SPC84018	Cow_3	2	Hour	blood	Cow_3 [SPC84018]	LPS
+SP0BE00E	1000	ng/mL	GSM7924757	S (sensitive)	Bos taurus	SP0BE00E	Cow_3	2	Hour	blood	Cow_3 [SP0BE00E]	LPS
+SPAC9F39	10	ng/mL	GSM7924758	S (sensitive)	Bos taurus	SPAC9F39	Cow_3	24	Hour	blood	Cow_3 [SPAC9F39]	LPS
+SP43864E	100	ng/mL	GSM7924759	S (sensitive)	Bos taurus	SP43864E	Cow_3	24	Hour	blood	Cow_3 [SP43864E]	LPS
+SP0A430D	1000	ng/mL	GSM7924760	S (sensitive)	Bos taurus	SP0A430D	Cow_3	24	Hour	blood	Cow_3 [SP0A430D]	LPS
+SPFA9C2A	10	ng/mL	GSM7924761	S (sensitive)	Bos taurus	SPFA9C2A	Cow_3	6	Hour	blood	Cow_3 [SPFA9C2A]	LPS
+SP022FE2	100	ng/mL	GSM7924762	S (sensitive)	Bos taurus	SP022FE2	Cow_3	6	Hour	blood	Cow_3 [SP022FE2]	LPS
+SPDFE6C6	1000	ng/mL	GSM7924763	S (sensitive)	Bos taurus	SPDFE6C6	Cow_3	6	Hour	blood	Cow_3 [SPDFE6C6]	LPS
+SPB77D79	0	ng/mL	GSM7924764	S (sensitive)	Bos taurus	SPB77D79	Cow_3	2	Hour	blood	Cow_3 [SPB77D79]	NC
+SP2AD049	0	ng/mL	GSM7924765	S (sensitive)	Bos taurus	SP2AD049	Cow_3	24	Hour	blood	Cow_3 [SP2AD049]	NC
+SPB5EDB4	0	ng/mL	GSM7924766	S (sensitive)	Bos taurus	SPB5EDB4	Cow_3	6	Hour	blood	Cow_3 [SPB5EDB4]	NC
+SPD69506	10	ng/mL	GSM7924767	S (sensitive)	Bos taurus	SPD69506	Cow_4	2	Hour	blood	Cow_4 [SPD69506]	LPS
+SP5E1B08	100	ng/mL	GSM7924768	S (sensitive)	Bos taurus	SP5E1B08	Cow_4	2	Hour	blood	Cow_4 [SP5E1B08]	LPS
+SP6EC5B2	1000	ng/mL	GSM7924769	S (sensitive)	Bos taurus	SP6EC5B2	Cow_4	2	Hour	blood	Cow_4 [SP6EC5B2]	LPS
+SPCE15B7	10	ng/mL	GSM7924770	S (sensitive)	Bos taurus	SPCE15B7	Cow_4	24	Hour	blood	Cow_4 [SPCE15B7]	LPS
+SP7B803C	100	ng/mL	GSM7924771	S (sensitive)	Bos taurus	SP7B803C	Cow_4	24	Hour	blood	Cow_4 [SP7B803C]	LPS
+SPD1E902	1000	ng/mL	GSM7924772	S (sensitive)	Bos taurus	SPD1E902	Cow_4	24	Hour	blood	Cow_4 [SPD1E902]	LPS
+SPA9563F	10	ng/mL	GSM7924773	S (sensitive)	Bos taurus	SPA9563F	Cow_4	6	Hour	blood	Cow_4 [SPA9563F]	LPS
+SPF0E58F	100	ng/mL	GSM7924774	S (sensitive)	Bos taurus	SPF0E58F	Cow_4	6	Hour	blood	Cow_4 [SPF0E58F]	LPS
+SP1D4CE9	1000	ng/mL	GSM7924775	S (sensitive)	Bos taurus	SP1D4CE9	Cow_4	6	Hour	blood	Cow_4 [SP1D4CE9]	LPS
+SP7B198D	0	ng/mL	GSM7924776	S (sensitive)	Bos taurus	SP7B198D	Cow_4	2	Hour	blood	Cow_4 [SP7B198D]	NC
+SPB6F52F	0	ng/mL	GSM7924777	S (sensitive)	Bos taurus	SPB6F52F	Cow_4	24	Hour	blood	Cow_4 [SPB6F52F]	NC
+SP2D95EC	0	ng/mL	GSM7924778	S (sensitive)	Bos taurus	SP2D95EC	Cow_4	6	Hour	blood	Cow_4 [SP2D95EC]	NC
+SP9F4A4F	10	ng/mL	GSM7924779	S (sensitive)	Bos taurus	SP9F4A4F	Cow_5	2	Hour	blood	Cow_5 [SP9F4A4F]	LPS
+SP40E700	100	ng/mL	GSM7924780	S (sensitive)	Bos taurus	SP40E700	Cow_5	2	Hour	blood	Cow_5 [SP40E700]	LPS
+SP6D91BF	1000	ng/mL	GSM7924781	S (sensitive)	Bos taurus	SP6D91BF	Cow_5	2	Hour	blood	Cow_5 [SP6D91BF]	LPS
+SP875B3F	10	ng/mL	GSM7924782	S (sensitive)	Bos taurus	SP875B3F	Cow_5	24	Hour	blood	Cow_5 [SP875B3F]	LPS
+SPE56C72	100	ng/mL	GSM7924783	S (sensitive)	Bos taurus	SPE56C72	Cow_5	24	Hour	blood	Cow_5 [SPE56C72]	LPS
+SP369B92	1000	ng/mL	GSM7924784	S (sensitive)	Bos taurus	SP369B92	Cow_5	24	Hour	blood	Cow_5 [SP369B92]	LPS
+SPBC44B0	10	ng/mL	GSM7924785	S (sensitive)	Bos taurus	SPBC44B0	Cow_5	6	Hour	blood	Cow_5 [SPBC44B0]	LPS
+SP1AA43D	100	ng/mL	GSM7924786	S (sensitive)	Bos taurus	SP1AA43D	Cow_5	6	Hour	blood	Cow_5 [SP1AA43D]	LPS
+SP662803	1000	ng/mL	GSM7924787	S (sensitive)	Bos taurus	SP662803	Cow_5	6	Hour	blood	Cow_5 [SP662803]	LPS
+SPAB96D3	0	ng/mL	GSM7924788	S (sensitive)	Bos taurus	SPAB96D3	Cow_5	2	Hour	blood	Cow_5 [SPAB96D3]	NC
+SP98D576	0	ng/mL	GSM7924789	S (sensitive)	Bos taurus	SP98D576	Cow_5	24	Hour	blood	Cow_5 [SP98D576]	NC
+SPE4EB85	0	ng/mL	GSM7924790	S (sensitive)	Bos taurus	SPE4EB85	Cow_5	6	Hour	blood	Cow_5 [SPE4EB85]	NC
+SP57A389	10	ng/mL	GSM7924791	S (sensitive)	Homo sapiens	SP57A389	Human_1	2	Hour	blood	Human_1 [SP57A389]	LPS
+SPA94946	100	ng/mL	GSM7924792	S (sensitive)	Homo sapiens	SPA94946	Human_1	2	Hour	blood	Human_1 [SPA94946]	LPS
+SPA5C8DE	1000	ng/mL	GSM7924793	S (sensitive)	Homo sapiens	SPA5C8DE	Human_1	2	Hour	blood	Human_1 [SPA5C8DE]	LPS
+SPE8841A	10	ng/mL	GSM7924794	S (sensitive)	Homo sapiens	SPE8841A	Human_1	24	Hour	blood	Human_1 [SPE8841A]	LPS
+SP3008B6	100	ng/mL	GSM7924795	S (sensitive)	Homo sapiens	SP3008B6	Human_1	24	Hour	blood	Human_1 [SP3008B6]	LPS
+SP129750	1000	ng/mL	GSM7924796	S (sensitive)	Homo sapiens	SP129750	Human_1	24	Hour	blood	Human_1 [SP129750]	LPS
+SP943DEF	10	ng/mL	GSM7924797	S (sensitive)	Homo sapiens	SP943DEF	Human_1	6	Hour	blood	Human_1 [SP943DEF]	LPS
+SPC8F598	100	ng/mL	GSM7924798	S (sensitive)	Homo sapiens	SPC8F598	Human_1	6	Hour	blood	Human_1 [SPC8F598]	LPS
+SP780563	1000	ng/mL	GSM7924799	S (sensitive)	Homo sapiens	SP780563	Human_1	6	Hour	blood	Human_1 [SP780563]	LPS
+SPD14AEC	0	ng/mL	GSM7924800	S (sensitive)	Homo sapiens	SPD14AEC	Human_1	2	Hour	blood	Human_1 [SPD14AEC]	NC
+SPB61CE8	0	ng/mL	GSM7924801	S (sensitive)	Homo sapiens	SPB61CE8	Human_1	24	Hour	blood	Human_1 [SPB61CE8]	NC
+SPE26655	0	ng/mL	GSM7924802	S (sensitive)	Homo sapiens	SPE26655	Human_1	6	Hour	blood	Human_1 [SPE26655]	NC
+SP049571	10	ng/mL	GSM7924803	S (sensitive)	Homo sapiens	SP049571	Human_2	2	Hour	blood	Human_2 [SP049571]	LPS
+SP079D95	100	ng/mL	GSM7924804	S (sensitive)	Homo sapiens	SP079D95	Human_2	2	Hour	blood	Human_2 [SP079D95]	LPS
+SP19826A	1000	ng/mL	GSM7924805	S (sensitive)	Homo sapiens	SP19826A	Human_2	2	Hour	blood	Human_2 [SP19826A]	LPS
+SP220673	10	ng/mL	GSM7924806	S (sensitive)	Homo sapiens	SP220673	Human_2	24	Hour	blood	Human_2 [SP220673]	LPS
+SPE5BB28	100	ng/mL	GSM7924807	S (sensitive)	Homo sapiens	SPE5BB28	Human_2	24	Hour	blood	Human_2 [SPE5BB28]	LPS
+SP8EDD16	1000	ng/mL	GSM7924808	S (sensitive)	Homo sapiens	SP8EDD16	Human_2	24	Hour	blood	Human_2 [SP8EDD16]	LPS
+SP0726B0	10	ng/mL	GSM7924809	S (sensitive)	Homo sapiens	SP0726B0	Human_2	6	Hour	blood	Human_2 [SP0726B0]	LPS
+SP901ADB	100	ng/mL	GSM7924810	S (sensitive)	Homo sapiens	SP901ADB	Human_2	6	Hour	blood	Human_2 [SP901ADB]	LPS
+SP40EFBA	1000	ng/mL	GSM7924811	S (sensitive)	Homo sapiens	SP40EFBA	Human_2	6	Hour	blood	Human_2 [SP40EFBA]	LPS
+SP817193	0	ng/mL	GSM7924812	S (sensitive)	Homo sapiens	SP817193	Human_2	2	Hour	blood	Human_2 [SP817193]	NC
+SPA11538	0	ng/mL	GSM7924813	S (sensitive)	Homo sapiens	SPA11538	Human_2	24	Hour	blood	Human_2 [SPA11538]	NC
+SP8AEB1A	0	ng/mL	GSM7924814	S (sensitive)	Homo sapiens	SP8AEB1A	Human_2	6	Hour	blood	Human_2 [SP8AEB1A]	NC
+SP8C8D67	10	ng/mL	GSM7924815	S (sensitive)	Homo sapiens	SP8C8D67	Human_3	2	Hour	blood	Human_3 [SP8C8D67]	LPS
+SP78D9A9	100	ng/mL	GSM7924816	S (sensitive)	Homo sapiens	SP78D9A9	Human_3	2	Hour	blood	Human_3 [SP78D9A9]	LPS
+SP6EAA7A	1000	ng/mL	GSM7924817	S (sensitive)	Homo sapiens	SP6EAA7A	Human_3	2	Hour	blood	Human_3 [SP6EAA7A]	LPS
+SP71C4F1	10	ng/mL	GSM7924818	S (sensitive)	Homo sapiens	SP71C4F1	Human_3	24	Hour	blood	Human_3 [SP71C4F1]	LPS
+SPC45346	1000	ng/mL	GSM7924819	S (sensitive)	Homo sapiens	SPC45346	Human_3	24	Hour	blood	Human_3 [SPC45346]	LPS
+SP682837	10	ng/mL	GSM7924820	S (sensitive)	Homo sapiens	SP682837	Human_3	6	Hour	blood	Human_3 [SP682837]	LPS
+SP7E25AD	100	ng/mL	GSM7924821	S (sensitive)	Homo sapiens	SP7E25AD	Human_3	6	Hour	blood	Human_3 [SP7E25AD]	LPS
+SPCA48E6	1000	ng/mL	GSM7924822	S (sensitive)	Homo sapiens	SPCA48E6	Human_3	6	Hour	blood	Human_3 [SPCA48E6]	LPS
+SP39CA89	0	ng/mL	GSM7924823	S (sensitive)	Homo sapiens	SP39CA89	Human_3	2	Hour	blood	Human_3 [SP39CA89]	NC
+SP134073	0	ng/mL	GSM7924824	S (sensitive)	Homo sapiens	SP134073	Human_3	24	Hour	blood	Human_3 [SP134073]	NC
+SP36F582	0	ng/mL	GSM7924825	S (sensitive)	Homo sapiens	SP36F582	Human_3	6	Hour	blood	Human_3 [SP36F582]	NC
+SP9D809B	10	ng/mL	GSM7924826	S (sensitive)	Homo sapiens	SP9D809B	Human_4	2	Hour	blood	Human_4 [SP9D809B]	LPS
+SPD73C40	100	ng/mL	GSM7924827	S (sensitive)	Homo sapiens	SPD73C40	Human_4	2	Hour	blood	Human_4 [SPD73C40]	LPS
+SPDAD3A2	1000	ng/mL	GSM7924828	S (sensitive)	Homo sapiens	SPDAD3A2	Human_4	2	Hour	blood	Human_4 [SPDAD3A2]	LPS
+SPF5A0AF	10	ng/mL	GSM7924829	S (sensitive)	Homo sapiens	SPF5A0AF	Human_4	24	Hour	blood	Human_4 [SPF5A0AF]	LPS
+SP576FA4	100	ng/mL	GSM7924830	S (sensitive)	Homo sapiens	SP576FA4	Human_4	24	Hour	blood	Human_4 [SP576FA4]	LPS
+SP27C3CD	1000	ng/mL	GSM7924831	S (sensitive)	Homo sapiens	SP27C3CD	Human_4	24	Hour	blood	Human_4 [SP27C3CD]	LPS
+SPBE2481	10	ng/mL	GSM7924832	S (sensitive)	Homo sapiens	SPBE2481	Human_4	6	Hour	blood	Human_4 [SPBE2481]	LPS
+SPCF0B5D	100	ng/mL	GSM7924833	S (sensitive)	Homo sapiens	SPCF0B5D	Human_4	6	Hour	blood	Human_4 [SPCF0B5D]	LPS
+SP3DAECD	1000	ng/mL	GSM7924834	S (sensitive)	Homo sapiens	SP3DAECD	Human_4	6	Hour	blood	Human_4 [SP3DAECD]	LPS
+SP8B5F06	0	ng/mL	GSM7924835	S (sensitive)	Homo sapiens	SP8B5F06	Human_4	2	Hour	blood	Human_4 [SP8B5F06]	NC
+SP590145	0	ng/mL	GSM7924836	S (sensitive)	Homo sapiens	SP590145	Human_4	6	Hour	blood	Human_4 [SP590145]	NC
+SP1388AD	10	ng/mL	GSM7924837	S (sensitive)	Homo sapiens	SP1388AD	Human_5	2	Hour	blood	Human_5 [SP1388AD]	LPS
+SP13640D	100	ng/mL	GSM7924838	S (sensitive)	Homo sapiens	SP13640D	Human_5	2	Hour	blood	Human_5 [SP13640D]	LPS
+SP138911	1000	ng/mL	GSM7924839	S (sensitive)	Homo sapiens	SP138911	Human_5	2	Hour	blood	Human_5 [SP138911]	LPS
+SP1E67F0	10	ng/mL	GSM7924840	S (sensitive)	Homo sapiens	SP1E67F0	Human_5	24	Hour	blood	Human_5 [SP1E67F0]	LPS
+SPEA8D66	100	ng/mL	GSM7924841	S (sensitive)	Homo sapiens	SPEA8D66	Human_5	24	Hour	blood	Human_5 [SPEA8D66]	LPS
+SP6F6639	1000	ng/mL	GSM7924842	S (sensitive)	Homo sapiens	SP6F6639	Human_5	24	Hour	blood	Human_5 [SP6F6639]	LPS
+SP072705	10	ng/mL	GSM7924843	S (sensitive)	Homo sapiens	SP072705	Human_5	6	Hour	blood	Human_5 [SP072705]	LPS
+SPA63523	100	ng/mL	GSM7924844	S (sensitive)	Homo sapiens	SPA63523	Human_5	6	Hour	blood	Human_5 [SPA63523]	LPS
+SP035991	1000	ng/mL	GSM7924845	S (sensitive)	Homo sapiens	SP035991	Human_5	6	Hour	blood	Human_5 [SP035991]	LPS
+SP137F04	0	ng/mL	GSM7924846	S (sensitive)	Homo sapiens	SP137F04	Human_5	2	Hour	blood	Human_5 [SP137F04]	NC
+SP04C27D	0	ng/mL	GSM7924847	S (sensitive)	Homo sapiens	SP04C27D	Human_5	24	Hour	blood	Human_5 [SP04C27D]	NC
+SP2B4889	0	ng/mL	GSM7924848	S (sensitive)	Homo sapiens	SP2B4889	Human_5	6	Hour	blood	Human_5 [SP2B4889]	NC
+SP2AA393	10	ng/mL	GSM7924849	R (resilient)	Mus musculus	SP2AA393	Mouse_3	2	Hour	blood	Mouse_3 [SP2AA393]	LPS
+SPE2898F	100	ng/mL	GSM7924850	R (resilient)	Mus musculus	SPE2898F	Mouse_3	2	Hour	blood	Mouse_3 [SPE2898F]	LPS
+SPC17519	1000	ng/mL	GSM7924851	R (resilient)	Mus musculus	SPC17519	Mouse_3	2	Hour	blood	Mouse_3 [SPC17519]	LPS
+SPB363A4	10	ng/mL	GSM7924852	R (resilient)	Mus musculus	SPB363A4	Mouse_3	24	Hour	blood	Mouse_3 [SPB363A4]	LPS
+SPF60CB2	100	ng/mL	GSM7924853	R (resilient)	Mus musculus	SPF60CB2	Mouse_3	24	Hour	blood	Mouse_3 [SPF60CB2]	LPS
+SP12D3CB	1000	ng/mL	GSM7924854	R (resilient)	Mus musculus	SP12D3CB	Mouse_3	24	Hour	blood	Mouse_3 [SP12D3CB]	LPS
+SP7C88C2	10	ng/mL	GSM7924855	R (resilient)	Mus musculus	SP7C88C2	Mouse_3	6	Hour	blood	Mouse_3 [SP7C88C2]	LPS
+SP3C4C8F	100	ng/mL	GSM7924856	R (resilient)	Mus musculus	SP3C4C8F	Mouse_3	6	Hour	blood	Mouse_3 [SP3C4C8F]	LPS
+SP0B61EA	1000	ng/mL	GSM7924857	R (resilient)	Mus musculus	SP0B61EA	Mouse_3	6	Hour	blood	Mouse_3 [SP0B61EA]	LPS
+SP2C2B41	0	ng/mL	GSM7924858	R (resilient)	Mus musculus	SP2C2B41	Mouse_3	2	Hour	blood	Mouse_3 [SP2C2B41]	NC
+SP62C21B	0	ng/mL	GSM7924859	R (resilient)	Mus musculus	SP62C21B	Mouse_3	24	Hour	blood	Mouse_3 [SP62C21B]	NC
+SPC22A6F	0	ng/mL	GSM7924860	R (resilient)	Mus musculus	SPC22A6F	Mouse_3	6	Hour	blood	Mouse_3 [SPC22A6F]	NC
+SPD6EC9B	10	ng/mL	GSM7924861	R (resilient)	Mus musculus	SPD6EC9B	Mouse_4	2	Hour	blood	Mouse_4 [SPD6EC9B]	LPS
+SP6DAF3E	100	ng/mL	GSM7924862	R (resilient)	Mus musculus	SP6DAF3E	Mouse_4	2	Hour	blood	Mouse_4 [SP6DAF3E]	LPS
+SP217267	1000	ng/mL	GSM7924863	R (resilient)	Mus musculus	SP217267	Mouse_4	2	Hour	blood	Mouse_4 [SP217267]	LPS
+SPE25543	10	ng/mL	GSM7924864	R (resilient)	Mus musculus	SPE25543	Mouse_4	24	Hour	blood	Mouse_4 [SPE25543]	LPS
+SPF9D2B9	100	ng/mL	GSM7924865	R (resilient)	Mus musculus	SPF9D2B9	Mouse_4	24	Hour	blood	Mouse_4 [SPF9D2B9]	LPS
+SP18A5A8	1000	ng/mL	GSM7924866	R (resilient)	Mus musculus	SP18A5A8	Mouse_4	24	Hour	blood	Mouse_4 [SP18A5A8]	LPS
+SP04AB6B	10	ng/mL	GSM7924867	R (resilient)	Mus musculus	SP04AB6B	Mouse_4	6	Hour	blood	Mouse_4 [SP04AB6B]	LPS
+SPD25A58	100	ng/mL	GSM7924868	R (resilient)	Mus musculus	SPD25A58	Mouse_4	6	Hour	blood	Mouse_4 [SPD25A58]	LPS
+SPC8D314	1000	ng/mL	GSM7924869	R (resilient)	Mus musculus	SPC8D314	Mouse_4	6	Hour	blood	Mouse_4 [SPC8D314]	LPS
+SPEA8C96	0	ng/mL	GSM7924870	R (resilient)	Mus musculus	SPEA8C96	Mouse_4	2	Hour	blood	Mouse_4 [SPEA8C96]	NC
+SPC93091	0	ng/mL	GSM7924871	R (resilient)	Mus musculus	SPC93091	Mouse_4	24	Hour	blood	Mouse_4 [SPC93091]	NC
+SP45B926	0	ng/mL	GSM7924872	R (resilient)	Mus musculus	SP45B926	Mouse_4	6	Hour	blood	Mouse_4 [SP45B926]	NC
+SPE6A55E	10	ng/mL	GSM7924873	R (resilient)	Mus musculus	SPE6A55E	Mouse_5	2	Hour	blood	Mouse_5 [SPE6A55E]	LPS
+SPBA70C4	100	ng/mL	GSM7924874	R (resilient)	Mus musculus	SPBA70C4	Mouse_5	2	Hour	blood	Mouse_5 [SPBA70C4]	LPS
+SP488A4B	1000	ng/mL	GSM7924875	R (resilient)	Mus musculus	SP488A4B	Mouse_5	2	Hour	blood	Mouse_5 [SP488A4B]	LPS
+SP3337F9	10	ng/mL	GSM7924876	R (resilient)	Mus musculus	SP3337F9	Mouse_5	24	Hour	blood	Mouse_5 [SP3337F9]	LPS
+SPC6550B	100	ng/mL	GSM7924877	R (resilient)	Mus musculus	SPC6550B	Mouse_5	24	Hour	blood	Mouse_5 [SPC6550B]	LPS
+SP2F5647	1000	ng/mL	GSM7924878	R (resilient)	Mus musculus	SP2F5647	Mouse_5	24	Hour	blood	Mouse_5 [SP2F5647]	LPS
+SP6884C1	10	ng/mL	GSM7924879	R (resilient)	Mus musculus	SP6884C1	Mouse_5	6	Hour	blood	Mouse_5 [SP6884C1]	LPS
+SP1E6529	100	ng/mL	GSM7924880	R (resilient)	Mus musculus	SP1E6529	Mouse_5	6	Hour	blood	Mouse_5 [SP1E6529]	LPS
+SP3CD195	1000	ng/mL	GSM7924881	R (resilient)	Mus musculus	SP3CD195	Mouse_5	6	Hour	blood	Mouse_5 [SP3CD195]	LPS
+SPB8A0FB	0	ng/mL	GSM7924882	R (resilient)	Mus musculus	SPB8A0FB	Mouse_5	2	Hour	blood	Mouse_5 [SPB8A0FB]	NC
+SP03942F	0	ng/mL	GSM7924883	R (resilient)	Mus musculus	SP03942F	Mouse_5	24	Hour	blood	Mouse_5 [SP03942F]	NC
+SP214136	0	ng/mL	GSM7924884	R (resilient)	Mus musculus	SP214136	Mouse_5	6	Hour	blood	Mouse_5 [SP214136]	NC
+SP2BEB55	10	ng/mL	GSM7924885	R (resilient)	Mus musculus	SP2BEB55	Mouse_8	2	Hour	blood	Mouse_8 [SP2BEB55]	LPS
+SPE7E5BD	100	ng/mL	GSM7924886	R (resilient)	Mus musculus	SPE7E5BD	Mouse_8	2	Hour	blood	Mouse_8 [SPE7E5BD]	LPS
+SP7D4B06	1000	ng/mL	GSM7924887	R (resilient)	Mus musculus	SP7D4B06	Mouse_8	2	Hour	blood	Mouse_8 [SP7D4B06]	LPS
+SP346999	10	ng/mL	GSM7924888	R (resilient)	Mus musculus	SP346999	Mouse_8	24	Hour	blood	Mouse_8 [SP346999]	LPS
+SPE20138	100	ng/mL	GSM7924889	R (resilient)	Mus musculus	SPE20138	Mouse_8	24	Hour	blood	Mouse_8 [SPE20138]	LPS
+SP2D53FF	1000	ng/mL	GSM7924890	R (resilient)	Mus musculus	SP2D53FF	Mouse_8	24	Hour	blood	Mouse_8 [SP2D53FF]	LPS
+SP8E9296	10	ng/mL	GSM7924891	R (resilient)	Mus musculus	SP8E9296	Mouse_8	6	Hour	blood	Mouse_8 [SP8E9296]	LPS
+SPEC068B	100	ng/mL	GSM7924892	R (resilient)	Mus musculus	SPEC068B	Mouse_8	6	Hour	blood	Mouse_8 [SPEC068B]	LPS
+SPD18496	1000	ng/mL	GSM7924893	R (resilient)	Mus musculus	SPD18496	Mouse_8	6	Hour	blood	Mouse_8 [SPD18496]	LPS
+SPAA4295	0	ng/mL	GSM7924894	R (resilient)	Mus musculus	SPAA4295	Mouse_8	2	Hour	blood	Mouse_8 [SPAA4295]	NC
+SP80EADE	0	ng/mL	GSM7924895	R (resilient)	Mus musculus	SP80EADE	Mouse_8	24	Hour	blood	Mouse_8 [SP80EADE]	NC
+SPAED881	0	ng/mL	GSM7924896	R (resilient)	Mus musculus	SPAED881	Mouse_8	6	Hour	blood	Mouse_8 [SPAED881]	NC
+SPE004FC	10	ng/mL	GSM7924897	S (sensitive)	Sus scrofa	SPE004FC	Pig_6	2	Hour	blood	Pig_6 [SPE004FC]	LPS
+SPA94FF9	100	ng/mL	GSM7924898	S (sensitive)	Sus scrofa	SPA94FF9	Pig_6	2	Hour	blood	Pig_6 [SPA94FF9]	LPS
+SPC84D0C	1000	ng/mL	GSM7924899	S (sensitive)	Sus scrofa	SPC84D0C	Pig_6	2	Hour	blood	Pig_6 [SPC84D0C]	LPS
+SP8F0BA9	10	ng/mL	GSM7924900	S (sensitive)	Sus scrofa	SP8F0BA9	Pig_6	24	Hour	blood	Pig_6 [SP8F0BA9]	LPS
+SP705E2E	100	ng/mL	GSM7924901	S (sensitive)	Sus scrofa	SP705E2E	Pig_6	24	Hour	blood	Pig_6 [SP705E2E]	LPS
+SP7D985F	1000	ng/mL	GSM7924902	S (sensitive)	Sus scrofa	SP7D985F	Pig_6	24	Hour	blood	Pig_6 [SP7D985F]	LPS
+SP90BD4E	10	ng/mL	GSM7924903	S (sensitive)	Sus scrofa	SP90BD4E	Pig_6	6	Hour	blood	Pig_6 [SP90BD4E]	LPS
+SP3B1B9F	100	ng/mL	GSM7924904	S (sensitive)	Sus scrofa	SP3B1B9F	Pig_6	6	Hour	blood	Pig_6 [SP3B1B9F]	LPS
+SP4DC559	1000	ng/mL	GSM7924905	S (sensitive)	Sus scrofa	SP4DC559	Pig_6	6	Hour	blood	Pig_6 [SP4DC559]	LPS
+SP711678	0	ng/mL	GSM7924906	S (sensitive)	Sus scrofa	SP711678	Pig_6	2	Hour	blood	Pig_6 [SP711678]	NC
+SP9B6885	0	ng/mL	GSM7924907	S (sensitive)	Sus scrofa	SP9B6885	Pig_6	24	Hour	blood	Pig_6 [SP9B6885]	NC
+SP4BBE77	0	ng/mL	GSM7924908	S (sensitive)	Sus scrofa	SP4BBE77	Pig_6	6	Hour	blood	Pig_6 [SP4BBE77]	NC
+SP88BDFE	10	ng/mL	GSM7924909	S (sensitive)	Sus scrofa	SP88BDFE	Pig_7	2	Hour	blood	Pig_7 [SP88BDFE]	LPS
+SPB8DC4A	100	ng/mL	GSM7924910	S (sensitive)	Sus scrofa	SPB8DC4A	Pig_7	2	Hour	blood	Pig_7 [SPB8DC4A]	LPS
+SPE2744E	1000	ng/mL	GSM7924911	S (sensitive)	Sus scrofa	SPE2744E	Pig_7	2	Hour	blood	Pig_7 [SPE2744E]	LPS
+SP8A817A	10	ng/mL	GSM7924912	S (sensitive)	Sus scrofa	SP8A817A	Pig_7	24	Hour	blood	Pig_7 [SP8A817A]	LPS
+SPEE1B9D	100	ng/mL	GSM7924913	S (sensitive)	Sus scrofa	SPEE1B9D	Pig_7	24	Hour	blood	Pig_7 [SPEE1B9D]	LPS
+SPA674A4	1000	ng/mL	GSM7924914	S (sensitive)	Sus scrofa	SPA674A4	Pig_7	24	Hour	blood	Pig_7 [SPA674A4]	LPS
+SP2E0306	10	ng/mL	GSM7924915	S (sensitive)	Sus scrofa	SP2E0306	Pig_7	6	Hour	blood	Pig_7 [SP2E0306]	LPS
+SP3261D9	100	ng/mL	GSM7924916	S (sensitive)	Sus scrofa	SP3261D9	Pig_7	6	Hour	blood	Pig_7 [SP3261D9]	LPS
+SP759BE0	1000	ng/mL	GSM7924917	S (sensitive)	Sus scrofa	SP759BE0	Pig_7	6	Hour	blood	Pig_7 [SP759BE0]	LPS
+SP8D8832	0	ng/mL	GSM7924918	S (sensitive)	Sus scrofa	SP8D8832	Pig_7	2	Hour	blood	Pig_7 [SP8D8832]	NC
+SPEE1720	0	ng/mL	GSM7924919	S (sensitive)	Sus scrofa	SPEE1720	Pig_7	24	Hour	blood	Pig_7 [SPEE1720]	NC
+SPBC134A	0	ng/mL	GSM7924920	S (sensitive)	Sus scrofa	SPBC134A	Pig_7	6	Hour	blood	Pig_7 [SPBC134A]	NC
+SP1FCD8C	10	ng/mL	GSM7924921	S (sensitive)	Sus scrofa	SP1FCD8C	Pig_8	2	Hour	blood	Pig_8 [SP1FCD8C]	LPS
+SP385605	100	ng/mL	GSM7924922	S (sensitive)	Sus scrofa	SP385605	Pig_8	2	Hour	blood	Pig_8 [SP385605]	LPS
+SPBEC902	1000	ng/mL	GSM7924923	S (sensitive)	Sus scrofa	SPBEC902	Pig_8	2	Hour	blood	Pig_8 [SPBEC902]	LPS
+SP815C5F	10	ng/mL	GSM7924924	S (sensitive)	Sus scrofa	SP815C5F	Pig_8	24	Hour	blood	Pig_8 [SP815C5F]	LPS
+SP37DF30	100	ng/mL	GSM7924925	S (sensitive)	Sus scrofa	SP37DF30	Pig_8	24	Hour	blood	Pig_8 [SP37DF30]	LPS
+SPAB42CF	1000	ng/mL	GSM7924926	S (sensitive)	Sus scrofa	SPAB42CF	Pig_8	24	Hour	blood	Pig_8 [SPAB42CF]	LPS
+SPD8E0C8	10	ng/mL	GSM7924927	S (sensitive)	Sus scrofa	SPD8E0C8	Pig_8	6	Hour	blood	Pig_8 [SPD8E0C8]	LPS
+SP1F3E0A	100	ng/mL	GSM7924928	S (sensitive)	Sus scrofa	SP1F3E0A	Pig_8	6	Hour	blood	Pig_8 [SP1F3E0A]	LPS
+SP006C18	1000	ng/mL	GSM7924929	S (sensitive)	Sus scrofa	SP006C18	Pig_8	6	Hour	blood	Pig_8 [SP006C18]	LPS
+SPBCC231	0	ng/mL	GSM7924930	S (sensitive)	Sus scrofa	SPBCC231	Pig_8	2	Hour	blood	Pig_8 [SPBCC231]	NC
+SP47F745	0	ng/mL	GSM7924931	S (sensitive)	Sus scrofa	SP47F745	Pig_8	24	Hour	blood	Pig_8 [SP47F745]	NC
+SPAC8921	0	ng/mL	GSM7924932	S (sensitive)	Sus scrofa	SPAC8921	Pig_8	6	Hour	blood	Pig_8 [SPAC8921]	NC
+SPA040CA	10	ng/mL	GSM7924933	S (sensitive)	Sus scrofa	SPA040CA	Pig_9	2	Hour	blood	Pig_9 [SPA040CA]	LPS
+SPF056E6	100	ng/mL	GSM7924934	S (sensitive)	Sus scrofa	SPF056E6	Pig_9	2	Hour	blood	Pig_9 [SPF056E6]	LPS
+SP80FE63	1000	ng/mL	GSM7924935	S (sensitive)	Sus scrofa	SP80FE63	Pig_9	2	Hour	blood	Pig_9 [SP80FE63]	LPS
+SP9491DF	10	ng/mL	GSM7924936	S (sensitive)	Sus scrofa	SP9491DF	Pig_9	24	Hour	blood	Pig_9 [SP9491DF]	LPS
+SPD009CD	100	ng/mL	GSM7924937	S (sensitive)	Sus scrofa	SPD009CD	Pig_9	24	Hour	blood	Pig_9 [SPD009CD]	LPS
+SP151E1A	1000	ng/mL	GSM7924938	S (sensitive)	Sus scrofa	SP151E1A	Pig_9	24	Hour	blood	Pig_9 [SP151E1A]	LPS
+SP573664	10	ng/mL	GSM7924939	S (sensitive)	Sus scrofa	SP573664	Pig_9	6	Hour	blood	Pig_9 [SP573664]	LPS
+SP781160	100	ng/mL	GSM7924940	S (sensitive)	Sus scrofa	SP781160	Pig_9	6	Hour	blood	Pig_9 [SP781160]	LPS
+SP6C09E3	1000	ng/mL	GSM7924941	S (sensitive)	Sus scrofa	SP6C09E3	Pig_9	6	Hour	blood	Pig_9 [SP6C09E3]	LPS
+SP4BB89E	0	ng/mL	GSM7924942	S (sensitive)	Sus scrofa	SP4BB89E	Pig_9	2	Hour	blood	Pig_9 [SP4BB89E]	NC
+SP32AA14	0	ng/mL	GSM7924943	S (sensitive)	Sus scrofa	SP32AA14	Pig_9	24	Hour	blood	Pig_9 [SP32AA14]	NC
+SP82146F	0	ng/mL	GSM7924944	S (sensitive)	Sus scrofa	SP82146F	Pig_9	6	Hour	blood	Pig_9 [SP82146F]	NC
+SP9B25A8	10	ng/mL	GSM7924945	R (resilient)	Rattus norvegicus	SP9B25A8	Rat_2	2	Hour	blood	Rat_2 [SP9B25A8]	LPS
+SPA73914	100	ng/mL	GSM7924946	R (resilient)	Rattus norvegicus	SPA73914	Rat_2	2	Hour	blood	Rat_2 [SPA73914]	LPS
+SP3F88AF	1000	ng/mL	GSM7924947	R (resilient)	Rattus norvegicus	SP3F88AF	Rat_2	2	Hour	blood	Rat_2 [SP3F88AF]	LPS
+SP262B9B	10	ng/mL	GSM7924948	R (resilient)	Rattus norvegicus	SP262B9B	Rat_2	24	Hour	blood	Rat_2 [SP262B9B]	LPS
+SP03F3BE	100	ng/mL	GSM7924949	R (resilient)	Rattus norvegicus	SP03F3BE	Rat_2	24	Hour	blood	Rat_2 [SP03F3BE]	LPS
+SP33D6FB	1000	ng/mL	GSM7924950	R (resilient)	Rattus norvegicus	SP33D6FB	Rat_2	24	Hour	blood	Rat_2 [SP33D6FB]	LPS
+SPBC037E	10	ng/mL	GSM7924951	R (resilient)	Rattus norvegicus	SPBC037E	Rat_2	6	Hour	blood	Rat_2 [SPBC037E]	LPS
+SPA4F851	100	ng/mL	GSM7924952	R (resilient)	Rattus norvegicus	SPA4F851	Rat_2	6	Hour	blood	Rat_2 [SPA4F851]	LPS
+SPE56360	1000	ng/mL	GSM7924953	R (resilient)	Rattus norvegicus	SPE56360	Rat_2	6	Hour	blood	Rat_2 [SPE56360]	LPS
+SPBA15B1	0	ng/mL	GSM7924954	R (resilient)	Rattus norvegicus	SPBA15B1	Rat_2	2	Hour	blood	Rat_2 [SPBA15B1]	NC
+SP3C30F8	0	ng/mL	GSM7924955	R (resilient)	Rattus norvegicus	SP3C30F8	Rat_2	24	Hour	blood	Rat_2 [SP3C30F8]	NC
+SP6180E6	0	ng/mL	GSM7924956	R (resilient)	Rattus norvegicus	SP6180E6	Rat_2	6	Hour	blood	Rat_2 [SP6180E6]	NC
+SP3151D0	10	ng/mL	GSM7924957	R (resilient)	Rattus norvegicus	SP3151D0	Rat_3	2	Hour	blood	Rat_3 [SP3151D0]	LPS
+SP2AC576	100	ng/mL	GSM7924958	R (resilient)	Rattus norvegicus	SP2AC576	Rat_3	2	Hour	blood	Rat_3 [SP2AC576]	LPS
+SP332A72	1000	ng/mL	GSM7924959	R (resilient)	Rattus norvegicus	SP332A72	Rat_3	2	Hour	blood	Rat_3 [SP332A72]	LPS
+SP92FC34	10	ng/mL	GSM7924960	R (resilient)	Rattus norvegicus	SP92FC34	Rat_3	24	Hour	blood	Rat_3 [SP92FC34]	LPS
+SPCF2DA5	100	ng/mL	GSM7924961	R (resilient)	Rattus norvegicus	SPCF2DA5	Rat_3	24	Hour	blood	Rat_3 [SPCF2DA5]	LPS
+SPE70385	1000	ng/mL	GSM7924962	R (resilient)	Rattus norvegicus	SPE70385	Rat_3	24	Hour	blood	Rat_3 [SPE70385]	LPS
+SPA3D599	10	ng/mL	GSM7924963	R (resilient)	Rattus norvegicus	SPA3D599	Rat_3	6	Hour	blood	Rat_3 [SPA3D599]	LPS
+SP3344EF	100	ng/mL	GSM7924964	R (resilient)	Rattus norvegicus	SP3344EF	Rat_3	6	Hour	blood	Rat_3 [SP3344EF]	LPS
+SP4D1C94	1000	ng/mL	GSM7924965	R (resilient)	Rattus norvegicus	SP4D1C94	Rat_3	6	Hour	blood	Rat_3 [SP4D1C94]	LPS
+SPA56ECD	0	ng/mL	GSM7924966	R (resilient)	Rattus norvegicus	SPA56ECD	Rat_3	2	Hour	blood	Rat_3 [SPA56ECD]	NC
+SP232F3D	0	ng/mL	GSM7924967	R (resilient)	Rattus norvegicus	SP232F3D	Rat_3	24	Hour	blood	Rat_3 [SP232F3D]	NC
+SPCECAFD	0	ng/mL	GSM7924968	R (resilient)	Rattus norvegicus	SPCECAFD	Rat_3	6	Hour	blood	Rat_3 [SPCECAFD]	NC
+SP8D7519	10	ng/mL	GSM7924969	R (resilient)	Rattus norvegicus	SP8D7519	Rat_4	2	Hour	blood	Rat_4 [SP8D7519]	LPS
+SP91EF90	100	ng/mL	GSM7924970	R (resilient)	Rattus norvegicus	SP91EF90	Rat_4	2	Hour	blood	Rat_4 [SP91EF90]	LPS
+SP923584	1000	ng/mL	GSM7924971	R (resilient)	Rattus norvegicus	SP923584	Rat_4	2	Hour	blood	Rat_4 [SP923584]	LPS
+SPE830F7	10	ng/mL	GSM7924972	R (resilient)	Rattus norvegicus	SPE830F7	Rat_4	24	Hour	blood	Rat_4 [SPE830F7]	LPS
+SP4E8C3B	100	ng/mL	GSM7924973	R (resilient)	Rattus norvegicus	SP4E8C3B	Rat_4	24	Hour	blood	Rat_4 [SP4E8C3B]	LPS
+SP4921B5	1000	ng/mL	GSM7924974	R (resilient)	Rattus norvegicus	SP4921B5	Rat_4	24	Hour	blood	Rat_4 [SP4921B5]	LPS
+SP73473B	10	ng/mL	GSM7924975	R (resilient)	Rattus norvegicus	SP73473B	Rat_4	6	Hour	blood	Rat_4 [SP73473B]	LPS
+SP4E2DBC	100	ng/mL	GSM7924976	R (resilient)	Rattus norvegicus	SP4E2DBC	Rat_4	6	Hour	blood	Rat_4 [SP4E2DBC]	LPS
+SPB56193	1000	ng/mL	GSM7924977	R (resilient)	Rattus norvegicus	SPB56193	Rat_4	6	Hour	blood	Rat_4 [SPB56193]	LPS
+SPC1FAC2	0	ng/mL	GSM7924978	R (resilient)	Rattus norvegicus	SPC1FAC2	Rat_4	2	Hour	blood	Rat_4 [SPC1FAC2]	NC
+SP981B44	0	ng/mL	GSM7924979	R (resilient)	Rattus norvegicus	SP981B44	Rat_4	24	Hour	blood	Rat_4 [SP981B44]	NC
+SP70D462	0	ng/mL	GSM7924980	R (resilient)	Rattus norvegicus	SP70D462	Rat_4	6	Hour	blood	Rat_4 [SP70D462]	NC
+SPC3D415	10	ng/mL	GSM7924981	R (resilient)	Rattus norvegicus	SPC3D415	Rat_5	2	Hour	blood	Rat_5 [SPC3D415]	LPS
+SP946F23	100	ng/mL	GSM7924982	R (resilient)	Rattus norvegicus	SP946F23	Rat_5	2	Hour	blood	Rat_5 [SP946F23]	LPS
+SP15A0D8	1000	ng/mL	GSM7924983	R (resilient)	Rattus norvegicus	SP15A0D8	Rat_5	2	Hour	blood	Rat_5 [SP15A0D8]	LPS
+SP77DC86	10	ng/mL	GSM7924984	R (resilient)	Rattus norvegicus	SP77DC86	Rat_5	24	Hour	blood	Rat_5 [SP77DC86]	LPS
+SP506BBC	100	ng/mL	GSM7924985	R (resilient)	Rattus norvegicus	SP506BBC	Rat_5	24	Hour	blood	Rat_5 [SP506BBC]	LPS
+SPD7ADF7	1000	ng/mL	GSM7924986	R (resilient)	Rattus norvegicus	SPD7ADF7	Rat_5	24	Hour	blood	Rat_5 [SPD7ADF7]	LPS
+SPEB6119	10	ng/mL	GSM7924987	R (resilient)	Rattus norvegicus	SPEB6119	Rat_5	6	Hour	blood	Rat_5 [SPEB6119]	LPS
+SP323462	100	ng/mL	GSM7924988	R (resilient)	Rattus norvegicus	SP323462	Rat_5	6	Hour	blood	Rat_5 [SP323462]	LPS
+SPD94610	1000	ng/mL	GSM7924989	R (resilient)	Rattus norvegicus	SPD94610	Rat_5	6	Hour	blood	Rat_5 [SPD94610]	LPS
+SP992D75	0	ng/mL	GSM7924990	R (resilient)	Rattus norvegicus	SP992D75	Rat_5	2	Hour	blood	Rat_5 [SP992D75]	NC
+SP162FA3	0	ng/mL	GSM7924991	R (resilient)	Rattus norvegicus	SP162FA3	Rat_5	24	Hour	blood	Rat_5 [SP162FA3]	NC
+SP402BD4	0	ng/mL	GSM7924992	R (resilient)	Rattus norvegicus	SP402BD4	Rat_5	6	Hour	blood	Rat_5 [SP402BD4]	NC
+SPED433B	10	ng/mL	GSM7924993	S (sensitive)	Oryctolagus cuniculus	SPED433B	Rabbit_1	2	Hour	blood	Rabbit_1 [SPED433B]	LPS
+SP8D6A7D	100	ng/mL	GSM7924994	S (sensitive)	Oryctolagus cuniculus	SP8D6A7D	Rabbit_1	2	Hour	blood	Rabbit_1 [SP8D6A7D]	LPS
+SP3D0219	1000	ng/mL	GSM7924995	S (sensitive)	Oryctolagus cuniculus	SP3D0219	Rabbit_1	2	Hour	blood	Rabbit_1 [SP3D0219]	LPS
+SP2FF2D4	10	ng/mL	GSM7924996	S (sensitive)	Oryctolagus cuniculus	SP2FF2D4	Rabbit_1	24	Hour	blood	Rabbit_1 [SP2FF2D4]	LPS
+SPFC88C5	100	ng/mL	GSM7924997	S (sensitive)	Oryctolagus cuniculus	SPFC88C5	Rabbit_1	24	Hour	blood	Rabbit_1 [SPFC88C5]	LPS
+SPFE0C20	10000	ng/mL	GSM7924998	S (sensitive)	Oryctolagus cuniculus	SPFE0C20	Rabbit_1	24	Hour	blood	Rabbit_1 [SPFE0C20]	LPS
+SP4BFD8F	10	ng/mL	GSM7924999	S (sensitive)	Oryctolagus cuniculus	SP4BFD8F	Rabbit_1	6	Hour	blood	Rabbit_1 [SP4BFD8F]	LPS
+SPA99F57	100	ng/mL	GSM7925000	S (sensitive)	Oryctolagus cuniculus	SPA99F57	Rabbit_1	6	Hour	blood	Rabbit_1 [SPA99F57]	LPS
+SPE256B4	1000	ng/mL	GSM7925001	S (sensitive)	Oryctolagus cuniculus	SPE256B4	Rabbit_1	6	Hour	blood	Rabbit_1 [SPE256B4]	LPS
+SPBDF4CC	0	ng/mL	GSM7925002	S (sensitive)	Oryctolagus cuniculus	SPBDF4CC	Rabbit_1	2	Hour	blood	Rabbit_1 [SPBDF4CC]	NC
+SP1AC679	0	ng/mL	GSM7925003	S (sensitive)	Oryctolagus cuniculus	SP1AC679	Rabbit_1	24	Hour	blood	Rabbit_1 [SP1AC679]	NC
+SPE86D7F	0	ng/mL	GSM7925004	S (sensitive)	Oryctolagus cuniculus	SPE86D7F	Rabbit_1	6	Hour	blood	Rabbit_1 [SPE86D7F]	NC
+SP16468C	10	ng/mL	GSM7925005	S (sensitive)	Oryctolagus cuniculus	SP16468C	Rabbit_2	2	Hour	blood	Rabbit_2 [SP16468C]	LPS
+SP9556C2	100	ng/mL	GSM7925006	S (sensitive)	Oryctolagus cuniculus	SP9556C2	Rabbit_2	2	Hour	blood	Rabbit_2 [SP9556C2]	LPS
+SP62CFC7	1000	ng/mL	GSM7925007	S (sensitive)	Oryctolagus cuniculus	SP62CFC7	Rabbit_2	2	Hour	blood	Rabbit_2 [SP62CFC7]	LPS
+SP043A6F	10	ng/mL	GSM7925008	S (sensitive)	Oryctolagus cuniculus	SP043A6F	Rabbit_2	24	Hour	blood	Rabbit_2 [SP043A6F]	LPS
+SPD09FE0	1000	ng/mL	GSM7925009	S (sensitive)	Oryctolagus cuniculus	SPD09FE0	Rabbit_2	24	Hour	blood	Rabbit_2 [SPD09FE0]	LPS
+SP52D021	10	ng/mL	GSM7925010	S (sensitive)	Oryctolagus cuniculus	SP52D021	Rabbit_2	6	Hour	blood	Rabbit_2 [SP52D021]	LPS
+SPCCB9AA	100	ng/mL	GSM7925011	S (sensitive)	Oryctolagus cuniculus	SPCCB9AA	Rabbit_2	6	Hour	blood	Rabbit_2 [SPCCB9AA]	LPS
+SP0ADA9D	1000	ng/mL	GSM7925012	S (sensitive)	Oryctolagus cuniculus	SP0ADA9D	Rabbit_2	6	Hour	blood	Rabbit_2 [SP0ADA9D]	LPS
+SP511604	0	ng/mL	GSM7925013	S (sensitive)	Oryctolagus cuniculus	SP511604	Rabbit_2	24	Hour	blood	Rabbit_2 [SP511604]	NC
+SP1AEBDE	0	ng/mL	GSM7925014	S (sensitive)	Oryctolagus cuniculus	SP1AEBDE	Rabbit_2	6	Hour	blood	Rabbit_2 [SP1AEBDE]	NC
+SPFABEC3	10	ng/mL	GSM7925015	S (sensitive)	Oryctolagus cuniculus	SPFABEC3	Rabbit_3	2	Hour	blood	Rabbit_3 [SPFABEC3]	LPS
+SPCDD38E	100	ng/mL	GSM7925016	S (sensitive)	Oryctolagus cuniculus	SPCDD38E	Rabbit_3	2	Hour	blood	Rabbit_3 [SPCDD38E]	LPS
+SPDB6B51	1000	ng/mL	GSM7925017	S (sensitive)	Oryctolagus cuniculus	SPDB6B51	Rabbit_3	2	Hour	blood	Rabbit_3 [SPDB6B51]	LPS
+SPD5D8D6	10	ng/mL	GSM7925018	S (sensitive)	Oryctolagus cuniculus	SPD5D8D6	Rabbit_3	24	Hour	blood	Rabbit_3 [SPD5D8D6]	LPS
+SP0CBC78	100	ng/mL	GSM7925019	S (sensitive)	Oryctolagus cuniculus	SP0CBC78	Rabbit_3	24	Hour	blood	Rabbit_3 [SP0CBC78]	LPS
+SP0D0BAD	1000	ng/mL	GSM7925020	S (sensitive)	Oryctolagus cuniculus	SP0D0BAD	Rabbit_3	24	Hour	blood	Rabbit_3 [SP0D0BAD]	LPS
+SP6C813A	10	ng/mL	GSM7925021	S (sensitive)	Oryctolagus cuniculus	SP6C813A	Rabbit_3	6	Hour	blood	Rabbit_3 [SP6C813A]	LPS
+SP0A1100	100	ng/mL	GSM7925022	S (sensitive)	Oryctolagus cuniculus	SP0A1100	Rabbit_3	6	Hour	blood	Rabbit_3 [SP0A1100]	LPS
+SP84349F	1000	ng/mL	GSM7925023	S (sensitive)	Oryctolagus cuniculus	SP84349F	Rabbit_3	6	Hour	blood	Rabbit_3 [SP84349F]	LPS
+SPCC898A	0	ng/mL	GSM7925024	S (sensitive)	Oryctolagus cuniculus	SPCC898A	Rabbit_3	2	Hour	blood	Rabbit_3 [SPCC898A]	NC
+SP8845F6	0	ng/mL	GSM7925025	S (sensitive)	Oryctolagus cuniculus	SP8845F6	Rabbit_3	24	Hour	blood	Rabbit_3 [SP8845F6]	NC
+SP8C097F	0	ng/mL	GSM7925026	S (sensitive)	Oryctolagus cuniculus	SP8C097F	Rabbit_3	6	Hour	blood	Rabbit_3 [SP8C097F]	NC
+SPF4FF35	10	ng/mL	GSM7925027	S (sensitive)	Oryctolagus cuniculus	SPF4FF35	Rabbit_4	2	Hour	blood	Rabbit_4 [SPF4FF35]	LPS
+SP97FB83	100	ng/mL	GSM7925028	S (sensitive)	Oryctolagus cuniculus	SP97FB83	Rabbit_4	2	Hour	blood	Rabbit_4 [SP97FB83]	LPS
+SPD00501	1000	ng/mL	GSM7925029	S (sensitive)	Oryctolagus cuniculus	SPD00501	Rabbit_4	2	Hour	blood	Rabbit_4 [SPD00501]	LPS
+SP7C2410	10	ng/mL	GSM7925030	S (sensitive)	Oryctolagus cuniculus	SP7C2410	Rabbit_4	24	Hour	blood	Rabbit_4 [SP7C2410]	LPS
+SP480654	100	ng/mL	GSM7925031	S (sensitive)	Oryctolagus cuniculus	SP480654	Rabbit_4	24	Hour	blood	Rabbit_4 [SP480654]	LPS
+SP6C93D9	1000	ng/mL	GSM7925032	S (sensitive)	Oryctolagus cuniculus	SP6C93D9	Rabbit_4	24	Hour	blood	Rabbit_4 [SP6C93D9]	LPS
+SPE5AB16	10	ng/mL	GSM7925033	S (sensitive)	Oryctolagus cuniculus	SPE5AB16	Rabbit_4	6	Hour	blood	Rabbit_4 [SPE5AB16]	LPS
+SPCADF33	100	ng/mL	GSM7925034	S (sensitive)	Oryctolagus cuniculus	SPCADF33	Rabbit_4	6	Hour	blood	Rabbit_4 [SPCADF33]	LPS
+SPE77618	1000	ng/mL	GSM7925035	S (sensitive)	Oryctolagus cuniculus	SPE77618	Rabbit_4	6	Hour	blood	Rabbit_4 [SPE77618]	LPS
+SPD309F5	0	ng/mL	GSM7925036	S (sensitive)	Oryctolagus cuniculus	SPD309F5	Rabbit_4	2	Hour	blood	Rabbit_4 [SPD309F5]	NC
+SPCDE54A	0	ng/mL	GSM7925037	S (sensitive)	Oryctolagus cuniculus	SPCDE54A	Rabbit_4	24	Hour	blood	Rabbit_4 [SPCDE54A]	NC
+SPC84853	0	ng/mL	GSM7925038	S (sensitive)	Oryctolagus cuniculus	SPC84853	Rabbit_4	6	Hour	blood	Rabbit_4 [SPC84853]	NC
+SPEA0809	10	ng/mL	GSM7925039	S (sensitive)	Oryctolagus cuniculus	SPEA0809	Rabbit_5	2	Hour	blood	Rabbit_5 [SPEA0809]	LPS
+SPB01875	100	ng/mL	GSM7925040	S (sensitive)	Oryctolagus cuniculus	SPB01875	Rabbit_5	2	Hour	blood	Rabbit_5 [SPB01875]	LPS
+SP05899E	1000	ng/mL	GSM7925041	S (sensitive)	Oryctolagus cuniculus	SP05899E	Rabbit_5	2	Hour	blood	Rabbit_5 [SP05899E]	LPS
+SPC0C71E	10	ng/mL	GSM7925042	S (sensitive)	Oryctolagus cuniculus	SPC0C71E	Rabbit_5	24	Hour	blood	Rabbit_5 [SPC0C71E]	LPS
+SP40C226	100	ng/mL	GSM7925043	S (sensitive)	Oryctolagus cuniculus	SP40C226	Rabbit_5	24	Hour	blood	Rabbit_5 [SP40C226]	LPS
+SP0E6B20	1000	ng/mL	GSM7925044	S (sensitive)	Oryctolagus cuniculus	SP0E6B20	Rabbit_5	24	Hour	blood	Rabbit_5 [SP0E6B20]	LPS
+SPF00D52	10	ng/mL	GSM7925045	S (sensitive)	Oryctolagus cuniculus	SPF00D52	Rabbit_5	6	Hour	blood	Rabbit_5 [SPF00D52]	LPS
+SP3309D2	100	ng/mL	GSM7925046	S (sensitive)	Oryctolagus cuniculus	SP3309D2	Rabbit_5	6	Hour	blood	Rabbit_5 [SP3309D2]	LPS
+SP5CD06D	1000	ng/mL	GSM7925047	S (sensitive)	Oryctolagus cuniculus	SP5CD06D	Rabbit_5	6	Hour	blood	Rabbit_5 [SP5CD06D]	LPS
+SP55CAEC	0	ng/mL	GSM7925048	S (sensitive)	Oryctolagus cuniculus	SP55CAEC	Rabbit_5	2	Hour	blood	Rabbit_5 [SP55CAEC]	NC
+SPC23708	0	ng/mL	GSM7925049	S (sensitive)	Oryctolagus cuniculus	SPC23708	Rabbit_5	24	Hour	blood	Rabbit_5 [SPC23708]	NC
+SP731789	0	ng/mL	GSM7925050	S (sensitive)	Oryctolagus cuniculus	SP731789	Rabbit_5	6	Hour	blood	Rabbit_5 [SP731789]	NC
+SP8DAE74	10	ng/mL	GSM7925051	R (resilient)	Macaca	SP8DAE74	Rhesus_1	2	Hour	blood	Rhesus_1 [SP8DAE74]	LPS
+SP2FAD26	100	ng/mL	GSM7925052	R (resilient)	Macaca	SP2FAD26	Rhesus_1	2	Hour	blood	Rhesus_1 [SP2FAD26]	LPS
+SP86B852	1000	ng/mL	GSM7925053	R (resilient)	Macaca	SP86B852	Rhesus_1	2	Hour	blood	Rhesus_1 [SP86B852]	LPS
+SP7F3325	10	ng/mL	GSM7925054	R (resilient)	Macaca	SP7F3325	Rhesus_1	24	Hour	blood	Rhesus_1 [SP7F3325]	LPS
+SP26A2D0	100	ng/mL	GSM7925055	R (resilient)	Macaca	SP26A2D0	Rhesus_1	24	Hour	blood	Rhesus_1 [SP26A2D0]	LPS
+SPFA7071	1000	ng/mL	GSM7925056	R (resilient)	Macaca	SPFA7071	Rhesus_1	24	Hour	blood	Rhesus_1 [SPFA7071]	LPS
+SP08E1BA	10	ng/mL	GSM7925057	R (resilient)	Macaca	SP08E1BA	Rhesus_1	6	Hour	blood	Rhesus_1 [SP08E1BA]	LPS
+SPD67104	100	ng/mL	GSM7925058	R (resilient)	Macaca	SPD67104	Rhesus_1	6	Hour	blood	Rhesus_1 [SPD67104]	LPS
+SPB572E9	1000	ng/mL	GSM7925059	R (resilient)	Macaca	SPB572E9	Rhesus_1	6	Hour	blood	Rhesus_1 [SPB572E9]	LPS
+SP1F602B	0	ng/mL	GSM7925060	R (resilient)	Macaca	SP1F602B	Rhesus_1	2	Hour	blood	Rhesus_1 [SP1F602B]	NC
+SPEF63B3	0	ng/mL	GSM7925061	R (resilient)	Macaca	SPEF63B3	Rhesus_1	24	Hour	blood	Rhesus_1 [SPEF63B3]	NC
+SPDAECDD	0	ng/mL	GSM7925062	R (resilient)	Macaca	SPDAECDD	Rhesus_1	6	Hour	blood	Rhesus_1 [SPDAECDD]	NC
+SP92F296	10	ng/mL	GSM7925063	R (resilient)	Macaca	SP92F296	Rhesus_2	2	Hour	blood	Rhesus_2 [SP92F296]	LPS
+SPDC2802	100	ng/mL	GSM7925064	R (resilient)	Macaca	SPDC2802	Rhesus_2	2	Hour	blood	Rhesus_2 [SPDC2802]	LPS
+SPB1EB1A	1000	ng/mL	GSM7925065	R (resilient)	Macaca	SPB1EB1A	Rhesus_2	2	Hour	blood	Rhesus_2 [SPB1EB1A]	LPS
+SP40232B	10	ng/mL	GSM7925066	R (resilient)	Macaca	SP40232B	Rhesus_2	24	Hour	blood	Rhesus_2 [SP40232B]	LPS
+SPDA7569	100	ng/mL	GSM7925067	R (resilient)	Macaca	SPDA7569	Rhesus_2	24	Hour	blood	Rhesus_2 [SPDA7569]	LPS
+SP4ABEEE	1000	ng/mL	GSM7925068	R (resilient)	Macaca	SP4ABEEE	Rhesus_2	24	Hour	blood	Rhesus_2 [SP4ABEEE]	LPS
+SPA54850	10	ng/mL	GSM7925069	R (resilient)	Macaca	SPA54850	Rhesus_2	6	Hour	blood	Rhesus_2 [SPA54850]	LPS
+SPB9E3C7	100	ng/mL	GSM7925070	R (resilient)	Macaca	SPB9E3C7	Rhesus_2	6	Hour	blood	Rhesus_2 [SPB9E3C7]	LPS
+SPECD9B6	1000	ng/mL	GSM7925071	R (resilient)	Macaca	SPECD9B6	Rhesus_2	6	Hour	blood	Rhesus_2 [SPECD9B6]	LPS
+SP5627FD	0	ng/mL	GSM7925072	R (resilient)	Macaca	SP5627FD	Rhesus_2	2	Hour	blood	Rhesus_2 [SP5627FD]	NC
+SP8AB15D	0	ng/mL	GSM7925073	R (resilient)	Macaca	SP8AB15D	Rhesus_2	24	Hour	blood	Rhesus_2 [SP8AB15D]	NC
+SP1C1593	0	ng/mL	GSM7925074	R (resilient)	Macaca	SP1C1593	Rhesus_2	6	Hour	blood	Rhesus_2 [SP1C1593]	NC
+SP0EE605	10	ng/mL	GSM7925075	R (resilient)	Macaca	SP0EE605	Rhesus_3	2	Hour	blood	Rhesus_3 [SP0EE605]	LPS
+SP229955	100	ng/mL	GSM7925076	R (resilient)	Macaca	SP229955	Rhesus_3	2	Hour	blood	Rhesus_3 [SP229955]	LPS
+SP7F3076	1000	ng/mL	GSM7925077	R (resilient)	Macaca	SP7F3076	Rhesus_3	2	Hour	blood	Rhesus_3 [SP7F3076]	LPS
+SPE794E3	10	ng/mL	GSM7925078	R (resilient)	Macaca	SPE794E3	Rhesus_3	24	Hour	blood	Rhesus_3 [SPE794E3]	LPS
+SPFA6DE5	100	ng/mL	GSM7925079	R (resilient)	Macaca	SPFA6DE5	Rhesus_3	24	Hour	blood	Rhesus_3 [SPFA6DE5]	LPS
+SP9F8223	1000	ng/mL	GSM7925080	R (resilient)	Macaca	SP9F8223	Rhesus_3	24	Hour	blood	Rhesus_3 [SP9F8223]	LPS
+SPD54603	10	ng/mL	GSM7925081	R (resilient)	Macaca	SPD54603	Rhesus_3	6	Hour	blood	Rhesus_3 [SPD54603]	LPS
+SPFB77B7	100	ng/mL	GSM7925082	R (resilient)	Macaca	SPFB77B7	Rhesus_3	6	Hour	blood	Rhesus_3 [SPFB77B7]	LPS
+SPAC59BC	1000	ng/mL	GSM7925083	R (resilient)	Macaca	SPAC59BC	Rhesus_3	6	Hour	blood	Rhesus_3 [SPAC59BC]	LPS
+SP282057	0	ng/mL	GSM7925084	R (resilient)	Macaca	SP282057	Rhesus_3	2	Hour	blood	Rhesus_3 [SP282057]	NC
+SP467257	0	ng/mL	GSM7925085	R (resilient)	Macaca	SP467257	Rhesus_3	24	Hour	blood	Rhesus_3 [SP467257]	NC
+SP831BB9	0	ng/mL	GSM7925086	R (resilient)	Macaca	SP831BB9	Rhesus_3	6	Hour	blood	Rhesus_3 [SP831BB9]	NC
+SP3FC07A	10	ng/mL	GSM7925087	R (resilient)	Macaca	SP3FC07A	Rhesus_4	2	Hour	blood	Rhesus_4 [SP3FC07A]	LPS
+SP7DB787	100	ng/mL	GSM7925088	R (resilient)	Macaca	SP7DB787	Rhesus_4	2	Hour	blood	Rhesus_4 [SP7DB787]	LPS
+SPF23403	1000	ng/mL	GSM7925089	R (resilient)	Macaca	SPF23403	Rhesus_4	2	Hour	blood	Rhesus_4 [SPF23403]	LPS
+SP7D2325	10	ng/mL	GSM7925090	R (resilient)	Macaca	SP7D2325	Rhesus_4	24	Hour	blood	Rhesus_4 [SP7D2325]	LPS
+SPDDC56F	100	ng/mL	GSM7925091	R (resilient)	Macaca	SPDDC56F	Rhesus_4	24	Hour	blood	Rhesus_4 [SPDDC56F]	LPS
+SP1FE1A6	1000	ng/mL	GSM7925092	R (resilient)	Macaca	SP1FE1A6	Rhesus_4	24	Hour	blood	Rhesus_4 [SP1FE1A6]	LPS
+SP1AC654	10	ng/mL	GSM7925093	R (resilient)	Macaca	SP1AC654	Rhesus_4	6	Hour	blood	Rhesus_4 [SP1AC654]	LPS
+SP7FDEA2	100	ng/mL	GSM7925094	R (resilient)	Macaca	SP7FDEA2	Rhesus_4	6	Hour	blood	Rhesus_4 [SP7FDEA2]	LPS
+SPE4703B	1000	ng/mL	GSM7925095	R (resilient)	Macaca	SPE4703B	Rhesus_4	6	Hour	blood	Rhesus_4 [SPE4703B]	LPS
+SP608FE7	0	ng/mL	GSM7925096	R (resilient)	Macaca	SP608FE7	Rhesus_4	2	Hour	blood	Rhesus_4 [SP608FE7]	NC
+SP741B94	0	ng/mL	GSM7925097	R (resilient)	Macaca	SP741B94	Rhesus_4	24	Hour	blood	Rhesus_4 [SP741B94]	NC
+SP962492	0	ng/mL	GSM7925098	R (resilient)	Macaca	SP962492	Rhesus_4	6	Hour	blood	Rhesus_4 [SP962492]	NC
+SP7363BD	10	ng/mL	GSM7925099	R (resilient)	Macaca	SP7363BD	Rhesus_5	2	Hour	blood	Rhesus_5 [SP7363BD]	LPS
+SPC002CE	100	ng/mL	GSM7925100	R (resilient)	Macaca	SPC002CE	Rhesus_5	2	Hour	blood	Rhesus_5 [SPC002CE]	LPS
+SPFB5195	1000	ng/mL	GSM7925101	R (resilient)	Macaca	SPFB5195	Rhesus_5	2	Hour	blood	Rhesus_5 [SPFB5195]	LPS
+SP0999F6	10	ng/mL	GSM7925102	R (resilient)	Macaca	SP0999F6	Rhesus_5	24	Hour	blood	Rhesus_5 [SP0999F6]	LPS
+SP9C53CF	100	ng/mL	GSM7925103	R (resilient)	Macaca	SP9C53CF	Rhesus_5	24	Hour	blood	Rhesus_5 [SP9C53CF]	LPS
+SP0DF96B	1000	ng/mL	GSM7925104	R (resilient)	Macaca	SP0DF96B	Rhesus_5	24	Hour	blood	Rhesus_5 [SP0DF96B]	LPS
+SP08E696	10	ng/mL	GSM7925105	R (resilient)	Macaca	SP08E696	Rhesus_5	6	Hour	blood	Rhesus_5 [SP08E696]	LPS
+SP37601D	100	ng/mL	GSM7925106	R (resilient)	Macaca	SP37601D	Rhesus_5	6	Hour	blood	Rhesus_5 [SP37601D]	LPS
+SP94A087	1000	ng/mL	GSM7925107	R (resilient)	Macaca	SP94A087	Rhesus_5	6	Hour	blood	Rhesus_5 [SP94A087]	LPS
+SP9884C8	0	ng/mL	GSM7925108	R (resilient)	Macaca	SP9884C8	Rhesus_5	2	Hour	blood	Rhesus_5 [SP9884C8]	NC
+SPFBECF1	0	ng/mL	GSM7925109	R (resilient)	Macaca	SPFBECF1	Rhesus_5	24	Hour	blood	Rhesus_5 [SPFBECF1]	NC
+SP0CB699	0	ng/mL	GSM7925110	R (resilient)	Macaca	SP0CB699	Rhesus_5	6	Hour	blood	Rhesus_5 [SP0CB699]	NC
+SPCAB40D	10	ng/mL	GSM7925111	S (sensitive)	Ovis aries	SPCAB40D	Sheep_1	2	Hour	blood	Sheep_1 [SPCAB40D]	LPS
+SP16A0BB	100	ng/mL	GSM7925112	S (sensitive)	Ovis aries	SP16A0BB	Sheep_1	2	Hour	blood	Sheep_1 [SP16A0BB]	LPS
+SP468C13	1000	ng/mL	GSM7925113	S (sensitive)	Ovis aries	SP468C13	Sheep_1	2	Hour	blood	Sheep_1 [SP468C13]	LPS
+SPA8D38D	10	ng/mL	GSM7925114	S (sensitive)	Ovis aries	SPA8D38D	Sheep_1	24	Hour	blood	Sheep_1 [SPA8D38D]	LPS
+SPF8F38A	100	ng/mL	GSM7925115	S (sensitive)	Ovis aries	SPF8F38A	Sheep_1	24	Hour	blood	Sheep_1 [SPF8F38A]	LPS
+SPEC6B8B	1000	ng/mL	GSM7925116	S (sensitive)	Ovis aries	SPEC6B8B	Sheep_1	24	Hour	blood	Sheep_1 [SPEC6B8B]	LPS
+SPB1B061	10	ng/mL	GSM7925117	S (sensitive)	Ovis aries	SPB1B061	Sheep_1	6	Hour	blood	Sheep_1 [SPB1B061]	LPS
+SP5754E5	100	ng/mL	GSM7925118	S (sensitive)	Ovis aries	SP5754E5	Sheep_1	6	Hour	blood	Sheep_1 [SP5754E5]	LPS
+SP23FC6F	1000	ng/mL	GSM7925119	S (sensitive)	Ovis aries	SP23FC6F	Sheep_1	6	Hour	blood	Sheep_1 [SP23FC6F]	LPS
+SP85DB81	0	ng/mL	GSM7925120	S (sensitive)	Ovis aries	SP85DB81	Sheep_1	2	Hour	blood	Sheep_1 [SP85DB81]	NC
+SPCB0256	0	ng/mL	GSM7925121	S (sensitive)	Ovis aries	SPCB0256	Sheep_1	24	Hour	blood	Sheep_1 [SPCB0256]	NC
+SPC26774	0	ng/mL	GSM7925122	S (sensitive)	Ovis aries	SPC26774	Sheep_1	6	Hour	blood	Sheep_1 [SPC26774]	NC
+SP0530F6	10	ng/mL	GSM7925123	S (sensitive)	Ovis aries	SP0530F6	Sheep_2	2	Hour	blood	Sheep_2 [SP0530F6]	LPS
+SP0F8692	100	ng/mL	GSM7925124	S (sensitive)	Ovis aries	SP0F8692	Sheep_2	2	Hour	blood	Sheep_2 [SP0F8692]	LPS
+SPD446FE	1000	ng/mL	GSM7925125	S (sensitive)	Ovis aries	SPD446FE	Sheep_2	2	Hour	blood	Sheep_2 [SPD446FE]	LPS
+SP8AA09D	10	ng/mL	GSM7925126	S (sensitive)	Ovis aries	SP8AA09D	Sheep_2	24	Hour	blood	Sheep_2 [SP8AA09D]	LPS
+SP256847	100	ng/mL	GSM7925127	S (sensitive)	Ovis aries	SP256847	Sheep_2	24	Hour	blood	Sheep_2 [SP256847]	LPS
+SP92174E	1000	ng/mL	GSM7925128	S (sensitive)	Ovis aries	SP92174E	Sheep_2	24	Hour	blood	Sheep_2 [SP92174E]	LPS
+SP49B37F	10	ng/mL	GSM7925129	S (sensitive)	Ovis aries	SP49B37F	Sheep_2	6	Hour	blood	Sheep_2 [SP49B37F]	LPS
+SPF198F4	100	ng/mL	GSM7925130	S (sensitive)	Ovis aries	SPF198F4	Sheep_2	6	Hour	blood	Sheep_2 [SPF198F4]	LPS
+SPE6DFAE	1000	ng/mL	GSM7925131	S (sensitive)	Ovis aries	SPE6DFAE	Sheep_2	6	Hour	blood	Sheep_2 [SPE6DFAE]	LPS
+SP8F68A4	0	ng/mL	GSM7925132	S (sensitive)	Ovis aries	SP8F68A4	Sheep_2	2	Hour	blood	Sheep_2 [SP8F68A4]	NC
+SP5D824F	0	ng/mL	GSM7925133	S (sensitive)	Ovis aries	SP5D824F	Sheep_2	24	Hour	blood	Sheep_2 [SP5D824F]	NC
+SPEC6BC8	0	ng/mL	GSM7925134	S (sensitive)	Ovis aries	SPEC6BC8	Sheep_2	6	Hour	blood	Sheep_2 [SPEC6BC8]	NC
+SP966038	10	ng/mL	GSM7925135	S (sensitive)	Ovis aries	SP966038	Sheep_3	2	Hour	blood	Sheep_3 [SP966038]	LPS
+SP28AB52	100	ng/mL	GSM7925136	S (sensitive)	Ovis aries	SP28AB52	Sheep_3	2	Hour	blood	Sheep_3 [SP28AB52]	LPS
+SPCB745E	1000	ng/mL	GSM7925137	S (sensitive)	Ovis aries	SPCB745E	Sheep_3	2	Hour	blood	Sheep_3 [SPCB745E]	LPS
+SP1C9AA4	10	ng/mL	GSM7925138	S (sensitive)	Ovis aries	SP1C9AA4	Sheep_3	24	Hour	blood	Sheep_3 [SP1C9AA4]	LPS
+SP4D1305	100	ng/mL	GSM7925139	S (sensitive)	Ovis aries	SP4D1305	Sheep_3	24	Hour	blood	Sheep_3 [SP4D1305]	LPS
+SP65CD8F	1000	ng/mL	GSM7925140	S (sensitive)	Ovis aries	SP65CD8F	Sheep_3	24	Hour	blood	Sheep_3 [SP65CD8F]	LPS
+SP3321E1	10	ng/mL	GSM7925141	S (sensitive)	Ovis aries	SP3321E1	Sheep_3	6	Hour	blood	Sheep_3 [SP3321E1]	LPS
+SPDCEBE1	100	ng/mL	GSM7925142	S (sensitive)	Ovis aries	SPDCEBE1	Sheep_3	6	Hour	blood	Sheep_3 [SPDCEBE1]	LPS
+SP630836	1000	ng/mL	GSM7925143	S (sensitive)	Ovis aries	SP630836	Sheep_3	6	Hour	blood	Sheep_3 [SP630836]	LPS
+SP29096C	0	ng/mL	GSM7925144	S (sensitive)	Ovis aries	SP29096C	Sheep_3	2	Hour	blood	Sheep_3 [SP29096C]	NC
+SPB5227B	0	ng/mL	GSM7925145	S (sensitive)	Ovis aries	SPB5227B	Sheep_3	24	Hour	blood	Sheep_3 [SPB5227B]	NC
+SP8091A6	0	ng/mL	GSM7925146	S (sensitive)	Ovis aries	SP8091A6	Sheep_3	6	Hour	blood	Sheep_3 [SP8091A6]	NC
+SP3F06B9	10	ng/mL	GSM7925147	S (sensitive)	Ovis aries	SP3F06B9	Sheep_4	2	Hour	blood	Sheep_4 [SP3F06B9]	LPS
+SPBAEAAA	100	ng/mL	GSM7925148	S (sensitive)	Ovis aries	SPBAEAAA	Sheep_4	2	Hour	blood	Sheep_4 [SPBAEAAA]	LPS
+SPED2CD6	1000	ng/mL	GSM7925149	S (sensitive)	Ovis aries	SPED2CD6	Sheep_4	2	Hour	blood	Sheep_4 [SPED2CD6]	LPS
+SPB62BBE	10	ng/mL	GSM7925150	S (sensitive)	Ovis aries	SPB62BBE	Sheep_4	24	Hour	blood	Sheep_4 [SPB62BBE]	LPS
+SP0F07C2	100	ng/mL	GSM7925151	S (sensitive)	Ovis aries	SP0F07C2	Sheep_4	24	Hour	blood	Sheep_4 [SP0F07C2]	LPS
+SP1BBBF3	1000	ng/mL	GSM7925152	S (sensitive)	Ovis aries	SP1BBBF3	Sheep_4	24	Hour	blood	Sheep_4 [SP1BBBF3]	LPS
+SPF3C576	10	ng/mL	GSM7925153	S (sensitive)	Ovis aries	SPF3C576	Sheep_4	6	Hour	blood	Sheep_4 [SPF3C576]	LPS
+SPC810BE	100	ng/mL	GSM7925154	S (sensitive)	Ovis aries	SPC810BE	Sheep_4	6	Hour	blood	Sheep_4 [SPC810BE]	LPS
+SPA949B0	1000	ng/mL	GSM7925155	S (sensitive)	Ovis aries	SPA949B0	Sheep_4	6	Hour	blood	Sheep_4 [SPA949B0]	LPS
+SP84276E	0	ng/mL	GSM7925156	S (sensitive)	Ovis aries	SP84276E	Sheep_4	2	Hour	blood	Sheep_4 [SP84276E]	NC
+SP6F735B	0	ng/mL	GSM7925157	S (sensitive)	Ovis aries	SP6F735B	Sheep_4	24	Hour	blood	Sheep_4 [SP6F735B]	NC
+SPF88DBD	0	ng/mL	GSM7925158	S (sensitive)	Ovis aries	SPF88DBD	Sheep_4	6	Hour	blood	Sheep_4 [SPF88DBD]	NC

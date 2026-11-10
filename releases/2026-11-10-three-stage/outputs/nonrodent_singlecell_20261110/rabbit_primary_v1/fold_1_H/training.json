@@ -1,0 +1,1880 @@
+{
+  "fold": 1,
+  "arm": "H",
+  "seed": 20261111,
+  "selected_step": 200,
+  "selected_calibration_mse": 0.012394434408477553,
+  "calibration_history": [
+    {
+      "step": 0,
+      "macro_mse": 0.028102622746315788,
+      "donor_mse": [
+        0.026892812459034507,
+        0.02931243303359707
+      ]
+    },
+    {
+      "step": 50,
+      "macro_mse": 0.019057625672552155,
+      "donor_mse": [
+        0.019653513951921605,
+        0.0184617373931827
+      ]
+    },
+    {
+      "step": 100,
+      "macro_mse": 0.015727669038164166,
+      "donor_mse": [
+        0.01642885461234659,
+        0.015026483463981744
+      ]
+    },
+    {
+      "step": 200,
+      "macro_mse": 0.012394434408477553,
+      "donor_mse": [
+        0.013416691256903856,
+        0.011372177560051249
+      ]
+    }
+  ],
+  "shrink_grid": [
+    {
+      "alpha": 0,
+      "macro_mse": 0.028102622746315788
+    },
+    {
+      "alpha": 0.25,
+      "macro_mse": 0.02095978971316396
+    },
+    {
+      "alpha": 0.5,
+      "macro_mse": 0.015960814012922542
+    },
+    {
+      "alpha": 0.75,
+      "macro_mse": 0.013105695553699507
+    },
+    {
+      "alpha": 1,
+      "macro_mse": 0.012394434408477553
+    }
+  ],
+  "selected_shrink": 1,
+  "source_scale": {
+    "H": 0.022038677165226835,
+    "Rabbit": 0.01308031640724759,
+    "Hextra": 0.019545023955051224
+  },
+  "source_coefficient": 0.0,
+  "training_history": [
+    {
+      "step": 1,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.02391597256064415,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.001709307311102748
+    },
+    {
+      "step": 2,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.023118577897548676,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0020186312031000853
+    },
+    {
+      "step": 3,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.02542244829237461,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0029063026886433363
+    },
+    {
+      "step": 4,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.022487884387373924,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0029418037738651037
+    },
+    {
+      "step": 5,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.02513977326452732,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0037802672013640404
+    },
+    {
+      "step": 6,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.021453857421875,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0042627910152077675
+    },
+    {
+      "step": 7,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.025104226544499397,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.005877593997865915
+    },
+    {
+      "step": 8,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.022361012175679207,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.006764422636479139
+    },
+    {
+      "step": 9,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.023712903261184692,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.007914181798696518
+    },
+    {
+      "step": 10,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.022563718259334564,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.00870894081890583
+    },
+    {
+      "step": 11,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.024329816922545433,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.01081850565969944
+    },
+    {
+      "step": 12,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.02213514782488346,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.01146552711725235
+    },
+    {
+      "step": 13,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.023455414921045303,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.015107144601643085
+    },
+    {
+      "step": 14,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.0220418069511652,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.01996805891394615
+    },
+    {
+      "step": 15,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.022593412548303604,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02210097387433052
+    },
+    {
+      "step": 16,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.02080053649842739,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.022132508456707
+    },
+    {
+      "step": 17,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.02220507338643074,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02885972335934639
+    },
+    {
+      "step": 18,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.021567681804299355,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.023441778495907784
+    },
+    {
+      "step": 19,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.022370893508195877,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0380462221801281
+    },
+    {
+      "step": 20,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.020117472857236862,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.07169334590435028
+    },
+    {
+      "step": 21,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.020646512508392334,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.027764078229665756
+    },
+    {
+      "step": 22,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.019638579338788986,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03444478288292885
+    },
+    {
+      "step": 23,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.019990453496575356,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03192973509430885
+    },
+    {
+      "step": 24,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.01900014653801918,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.039047952741384506
+    },
+    {
+      "step": 25,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.01865447871387005,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.023236354812979698
+    },
+    {
+      "step": 26,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.01902865245938301,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.030378401279449463
+    },
+    {
+      "step": 27,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.018972471356391907,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06316156685352325
+    },
+    {
+      "step": 28,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.017896205186843872,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.027472317218780518
+    },
+    {
+      "step": 29,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.018852325156331062,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.10915878415107727
+    },
+    {
+      "step": 30,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.018513523042201996,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05164936184883118
+    },
+    {
+      "step": 31,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.017805103212594986,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.042135581374168396
+    },
+    {
+      "step": 32,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.017581459134817123,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.043777335435152054
+    },
+    {
+      "step": 33,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.017335934564471245,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05115126445889473
+    },
+    {
+      "step": 34,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.017002640292048454,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05757146328687668
+    },
+    {
+      "step": 35,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.018168490380048752,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03594450280070305
+    },
+    {
+      "step": 36,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.016284175217151642,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.032185327261686325
+    },
+    {
+      "step": 37,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.01702295057475567,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03799733892083168
+    },
+    {
+      "step": 38,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.016249680891633034,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03653430566191673
+    },
+    {
+      "step": 39,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.01755284145474434,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.23301222920417786
+    },
+    {
+      "step": 40,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.01569301448762417,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0328575037419796
+    },
+    {
+      "step": 41,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.016651269048452377,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.14916841685771942
+    },
+    {
+      "step": 42,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.014907038770616055,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.030050592496991158
+    },
+    {
+      "step": 43,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.01520872488617897,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05448496341705322
+    },
+    {
+      "step": 44,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.015019342303276062,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.044968441128730774
+    },
+    {
+      "step": 45,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.014882373623549938,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06490791589021683
+    },
+    {
+      "step": 46,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.014999949373304844,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.036847300827503204
+    },
+    {
+      "step": 47,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.014477831311523914,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05192182958126068
+    },
+    {
+      "step": 48,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.014528692699968815,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06891316175460815
+    },
+    {
+      "step": 49,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.014642435126006603,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04143940657377243
+    },
+    {
+      "step": 50,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.014360173605382442,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.041378479450941086
+    },
+    {
+      "step": 51,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.014484933577477932,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.050200022757053375
+    },
+    {
+      "step": 52,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.014181247912347317,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.040949996560811996
+    },
+    {
+      "step": 53,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.01442678552120924,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.028194250538945198
+    },
+    {
+      "step": 54,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.014209914952516556,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.023275155574083328
+    },
+    {
+      "step": 55,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.015444743447005749,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.17872095108032227
+    },
+    {
+      "step": 56,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.013850491493940353,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04373318329453468
+    },
+    {
+      "step": 57,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.014276592992246151,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.055774569511413574
+    },
+    {
+      "step": 58,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.013295277953147888,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.028393317013978958
+    },
+    {
+      "step": 59,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.013662010431289673,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05001573637127876
+    },
+    {
+      "step": 60,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.01351548545062542,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.07566605508327484
+    },
+    {
+      "step": 61,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.013930984772741795,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.09665875881910324
+    },
+    {
+      "step": 62,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.01381036639213562,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03074086643755436
+    },
+    {
+      "step": 63,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.0131126893684268,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.026936886832118034
+    },
+    {
+      "step": 64,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.012910623103380203,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.035578448325395584
+    },
+    {
+      "step": 65,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.01363716647028923,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.033671051263809204
+    },
+    {
+      "step": 66,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.013553186319768429,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03626595437526703
+    },
+    {
+      "step": 67,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.012888028286397457,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05288972333073616
+    },
+    {
+      "step": 68,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.013037745840847492,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0688900426030159
+    },
+    {
+      "step": 69,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.012959279119968414,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.028740717098116875
+    },
+    {
+      "step": 70,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.012999697588384151,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.026006853207945824
+    },
+    {
+      "step": 71,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.012602756731212139,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03783206269145012
+    },
+    {
+      "step": 72,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.012250319123268127,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02718714252114296
+    },
+    {
+      "step": 73,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.013062294572591782,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04510324075818062
+    },
+    {
+      "step": 74,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.014030014164745808,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.12344969063997269
+    },
+    {
+      "step": 75,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.012580180540680885,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0331837460398674
+    },
+    {
+      "step": 76,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.011690058745443821,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04508492723107338
+    },
+    {
+      "step": 77,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.013358378782868385,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.1649450659751892
+    },
+    {
+      "step": 78,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.01269879937171936,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0678933784365654
+    },
+    {
+      "step": 79,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.012327288277447224,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.10090156644582748
+    },
+    {
+      "step": 80,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.011837040074169636,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.09001191705465317
+    },
+    {
+      "step": 81,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.012274429202079773,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06080365553498268
+    },
+    {
+      "step": 82,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.01290928665548563,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0568271167576313
+    },
+    {
+      "step": 83,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.01181466318666935,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03322480618953705
+    },
+    {
+      "step": 84,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.011096056550741196,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.027281777933239937
+    },
+    {
+      "step": 85,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.012125561945140362,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06833329051733017
+    },
+    {
+      "step": 86,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.012165584601461887,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.053763341158628464
+    },
+    {
+      "step": 87,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.01148491632193327,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05879441276192665
+    },
+    {
+      "step": 88,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.01081013958901167,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02377288229763508
+    },
+    {
+      "step": 89,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.011179287917912006,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03415331989526749
+    },
+    {
+      "step": 90,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.011722306720912457,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04435382038354874
+    },
+    {
+      "step": 91,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.011342003010213375,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.046293195337057114
+    },
+    {
+      "step": 92,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.010553667321801186,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03852071985602379
+    },
+    {
+      "step": 93,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.010923603549599648,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.041499365121126175
+    },
+    {
+      "step": 94,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.011554909870028496,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.13348858058452606
+    },
+    {
+      "step": 95,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.010734004899859428,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02703448012471199
+    },
+    {
+      "step": 96,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.01044516358524561,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0861547663807869
+    },
+    {
+      "step": 97,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.010568325407803059,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0866369679570198
+    },
+    {
+      "step": 98,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.011275333352386951,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0345672145485878
+    },
+    {
+      "step": 99,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.010489232838153839,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.029477005824446678
+    },
+    {
+      "step": 100,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.009965192526578903,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05310186743736267
+    },
+    {
+      "step": 101,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.010636415332555771,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06367197632789612
+    },
+    {
+      "step": 102,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.011205273680388927,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03791479393839836
+    },
+    {
+      "step": 103,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.010113014839589596,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05023491382598877
+    },
+    {
+      "step": 104,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.009412728250026703,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03702865540981293
+    },
+    {
+      "step": 105,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.009566769935190678,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.032266732305288315
+    },
+    {
+      "step": 106,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.010989069938659668,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05110432580113411
+    },
+    {
+      "step": 107,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.010086439549922943,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.09605832397937775
+    },
+    {
+      "step": 108,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.009250489063560963,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06828674674034119
+    },
+    {
+      "step": 109,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.009790955111384392,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.053703173995018005
+    },
+    {
+      "step": 110,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.010218526236712933,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04820152744650841
+    },
+    {
+      "step": 111,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.01005831640213728,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.11476381123065948
+    },
+    {
+      "step": 112,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.008917924016714096,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03084685280919075
+    },
+    {
+      "step": 113,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.009983941912651062,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.13687756657600403
+    },
+    {
+      "step": 114,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.010302918963134289,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03929819539189339
+    },
+    {
+      "step": 115,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.009826806373894215,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0741935595870018
+    },
+    {
+      "step": 116,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.008622796274721622,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02692451886832714
+    },
+    {
+      "step": 117,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.009382759220898151,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.10412737727165222
+    },
+    {
+      "step": 118,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.010550194419920444,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.17097468674182892
+    },
+    {
+      "step": 119,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.009336292743682861,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04114123806357384
+    },
+    {
+      "step": 120,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.00915596541017294,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.13524870574474335
+    },
+    {
+      "step": 121,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.009122219868004322,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.033869337290525436
+    },
+    {
+      "step": 122,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009831225499510765,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.042016010731458664
+    },
+    {
+      "step": 123,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.00932446401566267,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.08687622845172882
+    },
+    {
+      "step": 124,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.008220937103033066,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04954131320118904
+    },
+    {
+      "step": 125,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.00881097000092268,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02855502814054489
+    },
+    {
+      "step": 126,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009452341124415398,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05103720352053642
+    },
+    {
+      "step": 127,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.009229710325598717,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.18416477739810944
+    },
+    {
+      "step": 128,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.007924218662083149,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04495377466082573
+    },
+    {
+      "step": 129,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.008979612030088902,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05985380336642265
+    },
+    {
+      "step": 130,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009878172539174557,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05337861552834511
+    },
+    {
+      "step": 131,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.008956417441368103,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.1097022145986557
+    },
+    {
+      "step": 132,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.008015401661396027,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.12650828063488007
+    },
+    {
+      "step": 133,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.008252437226474285,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03316019847989082
+    },
+    {
+      "step": 134,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009834281168878078,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.10838273912668228
+    },
+    {
+      "step": 135,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.008724646642804146,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.11040167510509491
+    },
+    {
+      "step": 136,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.009310305118560791,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.4048728942871094
+    },
+    {
+      "step": 137,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.008790386840701103,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05765514075756073
+    },
+    {
+      "step": 138,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009257311001420021,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05661843717098236
+    },
+    {
+      "step": 139,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.008634035475552082,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.08442479372024536
+    },
+    {
+      "step": 140,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.008459198288619518,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.20458269119262695
+    },
+    {
+      "step": 141,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.008525405079126358,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0906655341386795
+    },
+    {
+      "step": 142,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009018216282129288,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.07298178970813751
+    },
+    {
+      "step": 143,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.008278338238596916,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06068045645952225
+    },
+    {
+      "step": 144,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.007360505871474743,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06544018536806107
+    },
+    {
+      "step": 145,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.008619663305580616,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.17216552793979645
+    },
+    {
+      "step": 146,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.008315475657582283,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04991403967142105
+    },
+    {
+      "step": 147,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.008297454565763474,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0783139318227768
+    },
+    {
+      "step": 148,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.006788544822484255,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0451425202190876
+    },
+    {
+      "step": 149,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.007706058211624622,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06529752165079117
+    },
+    {
+      "step": 150,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.0086304796859622,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06993336230516434
+    },
+    {
+      "step": 151,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.007989187724888325,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0915956124663353
+    },
+    {
+      "step": 152,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.006507091224193573,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.032930441200733185
+    },
+    {
+      "step": 153,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.007047837134450674,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03616451099514961
+    },
+    {
+      "step": 154,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.009141674265265465,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.22851790487766266
+    },
+    {
+      "step": 155,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.007514717988669872,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04920570179820061
+    },
+    {
+      "step": 156,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.006012953817844391,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03893427550792694
+    },
+    {
+      "step": 157,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.006626704707741737,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06034798547625542
+    },
+    {
+      "step": 158,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.008377603255212307,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06723321974277496
+    },
+    {
+      "step": 159,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006961528677493334,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06422116607427597
+    },
+    {
+      "step": 160,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.005863874685019255,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03932910040020943
+    },
+    {
+      "step": 161,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.006665630731731653,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04413915425539017
+    },
+    {
+      "step": 162,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.007541268598288298,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04282771050930023
+    },
+    {
+      "step": 163,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006675540003925562,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.07606302946805954
+    },
+    {
+      "step": 164,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.005568862892687321,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.042305123060941696
+    },
+    {
+      "step": 165,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.0065268781036138535,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.042957283556461334
+    },
+    {
+      "step": 166,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.007535840850323439,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.059254344552755356
+    },
+    {
+      "step": 167,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006687312386929989,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0318991057574749
+    },
+    {
+      "step": 168,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.005291344132274389,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03235292434692383
+    },
+    {
+      "step": 169,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.005979153793305159,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.049457158893346786
+    },
+    {
+      "step": 170,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.0076451655477285385,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.042445920407772064
+    },
+    {
+      "step": 171,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006218381691724062,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.027461551129817963
+    },
+    {
+      "step": 172,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.005208534188568592,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0255036111921072
+    },
+    {
+      "step": 173,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.006292793899774551,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05602753534913063
+    },
+    {
+      "step": 174,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.007063542492687702,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.05082161724567413
+    },
+    {
+      "step": 175,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006329444237053394,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03647197037935257
+    },
+    {
+      "step": 176,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.004990282002836466,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.029696838930249214
+    },
+    {
+      "step": 177,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.006028406787663698,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.038092415779829025
+    },
+    {
+      "step": 178,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.006879235152155161,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04597204551100731
+    },
+    {
+      "step": 179,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006099865771830082,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.031356602907180786
+    },
+    {
+      "step": 180,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.004833551123738289,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03719985857605934
+    },
+    {
+      "step": 181,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.005776018835604191,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04665640741586685
+    },
+    {
+      "step": 182,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.007282081991434097,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.06140505149960518
+    },
+    {
+      "step": 183,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.006008786149322987,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03821026533842087
+    },
+    {
+      "step": 184,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.004835397470742464,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.026236655190587044
+    },
+    {
+      "step": 185,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.0058422875590622425,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.042702943086624146
+    },
+    {
+      "step": 186,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.006678426638245583,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04362037777900696
+    },
+    {
+      "step": 187,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.005867986474186182,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.043164171278476715
+    },
+    {
+      "step": 188,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.004614508245140314,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.024987608194351196
+    },
+    {
+      "step": 189,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.005519474856555462,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03703780099749565
+    },
+    {
+      "step": 190,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.006837486755102873,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03723711892962456
+    },
+    {
+      "step": 191,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.005580234806984663,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03863393887877464
+    },
+    {
+      "step": 192,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.004503318574279547,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.01949315518140793
+    },
+    {
+      "step": 193,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.005384777672588825,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.0272376649081707
+    },
+    {
+      "step": 194,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.006690395064651966,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03474852442741394
+    },
+    {
+      "step": 195,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.005624999757856131,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02930166758596897
+    },
+    {
+      "step": 196,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.0044321902096271515,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.02090028114616871
+    },
+    {
+      "step": 197,
+      "human_donor": "202937150118_R06C01",
+      "source_donor": null,
+      "human_loss": 0.0054281773045659065,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04972070828080177
+    },
+    {
+      "step": 198,
+      "human_donor": "202937150118_R07C01",
+      "source_donor": null,
+      "human_loss": 0.006675517652183771,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03950876742601395
+    },
+    {
+      "step": 199,
+      "human_donor": "202937150118_R04C01",
+      "source_donor": null,
+      "human_loss": 0.0056645842269063,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.04704001545906067
+    },
+    {
+      "step": 200,
+      "human_donor": "202937150091_R01C01",
+      "source_donor": null,
+      "human_loss": 0.004298731684684753,
+      "source_loss": null,
+      "source_coefficient": 0.0,
+      "gradient_norm": 0.03289637714624405
+    }
+  ],
+  "animal_gradient_witness": [],
+  "parameters": 70088912,
+  "trainable_parameters": 47287294,
+  "weight_sha256": "46c32e9d083ddab606a4f6d563ed4a60147e27dd6887c77befaa2b661e954c11",
+  "unused_old_perturbation_columns_unchanged": true,
+  "unused_old_batch_rows_unchanged": true,
+  "target_outcomes_scored": false,
+  "elapsed_seconds": 12.007443220354617
+}

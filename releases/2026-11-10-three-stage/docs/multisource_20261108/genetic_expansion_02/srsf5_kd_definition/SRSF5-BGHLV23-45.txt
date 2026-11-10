@@ -1,0 +1,386 @@
+Graveley Lab shRNA knockdown followed
+by RNA-seq Biosample Preparation and
+       Characterization Document
+            Wet Lab: Sara Olson and Lijun Zhan
+        Computational Lab: Xintao Wei and Michael Duff
+                    PI: Brenton Graveley
+
+            Department of Genetics and Genome Sciences
+               UConn Institute for Systems Genomics
+                          UConn Health
+                     400 Farmington Avenue
+                   Farmington, CT 06030 USA
+                                May 11, 2016
+
+
+   Project: ENCODE3
+   Grant: U54HG007005
+   Sample Description: shRNA Knockdown of SRSF5 in HepG2 cells
+   Cell Line: HepG2
+   RNA ID: SRSF5-BGHLV23-45
+   ENCODE BIOSAMPLE ACCESSION: ENCBS311FWL
+
+
+    This document contains the protocols used to generate shRNA expressing
+lentiviral particles, transduction of HepG2 cells, harvesting of RNA, character-
+ization of the RNA integrity and measurement of target knockdown efficiency
+by both qRT-PCR and Western blotting.
+
+
+
+
+                                       1
+Protocol for producing shRNA lentiviral particles
+In this portion of the protocol we will generate lentiviral particles expressing
+either an shRNA targeting an RNA binding protein mRNA or a non-target
+control shRNA.
+            Item                                      Info
+            Target                          SRSF5-human
+            shRNA Source              The RNAi Consortium
+            Product ID                    TRCN0000284799
+            Target sequence    AGTAGTCGCAGACCTCGAAAT
+            Vector backbone                       pLKO.1
+
+
+
+
+Figure 1: Schematic depiction of backbone of the pLKO.1 plasmid encoding the
+shRNA.
+
+
+Day 1
+  1. Plate 0.8-1x10ˆ6 293 T cells (catalog number: CRL-11268, ATCC) in each
+     well of 6-well plate with 10 % FBS (catalog number: 30-2020, ATCC)
+     DMEM (catalog number: 11995-065, Life technologies) medium without
+     penicillin and streptomycin.
+
+  2. Incubate overnight. Cells should be 70-80% confluent.
+
+Day 2
+  1. In polypropylene tubes, make a cocktail for each transfection as follows:
+
+
+                                       2
+                        Reagent                      Quantity
+                        pLKO-shRNA                     500 ng
+                        psPAX2 Packaging DNA           500 ng
+                        PMD2.G Envelope DNA              50 ng
+                        serum-free OPTI-MEM          to 100 µl
+
+  2. Add 3.1 µl of FuGENE HD Transfection reagent (Catalog number: E2311,
+     Promega) to the tube (FuGENE:DNA=3:1)
+  3. Incubate for 20 minutes at room temperature.
+
+  4. Gently add the DNA mix dropwise to cells.
+  5. Incubate the cells at 37 ◦ C for 12-15 hr.
+
+Day 3
+  1. In the morning, change the media to remove the transfection reagent,
+     wash with PBS once and add 1.5 ml fresh media +10% FBS + peni-
+     cillin/streptomycin.
+
+Day 4
+  1. Harvest media from cells, store at 4 ◦ C.
+  2. Add 1.5 ml fresh media.
+
+Day 5
+  1. Harvest the media from the cells and pool with the media collected on
+     Day 4.
+
+  2. Spin the media at 1250 rpm for 5 min to remove cells.
+  3. Freeze the virus stock at −40 ◦ C.
+
+
+qPCR Lentivirus Titration Assay
+Lentiviral titrations are performed using the qPCR Lentivirus Titration kit from
+Applied Biological Materals Inc. (Catalog Number LV900).
+
+
+  1. Add 2 µl of the viral supernatant to 18 µl of Virus Lysis buffer and incubate
+     at RT for 3 mins. This is now referred to as viral lysate.
+  2. qRT-PCR set up:
+
+
+
+
+                                          3
+            Component        Viral lysate    Positive Control   Positive Control   Negative control
+                                                 (STD1)             (STD2)             (NTC)
+      2x qPCR Mastermix         12.5 µl           12.5 µl            12.5 µl           12.5 µl
+          Viral Lysate          2.5 µl
+             STD1                                 2.5 µl
+             STD2                                                    2.5 µl
+          Reagent-mix            10 µl            10 µl              10 µl              10 µl
+           Final vol.            25 µl            25 µl              25 µl              25 µl
+
+  3. qRT-PCR program:
+
+                   STEP                      TEMP         TIME
+                   Reverse Transcription     42 ◦ C   20 minutes
+                   Enzyme Activation         95 ◦ C   10 minutes
+                   40 Cycles                 95 ◦ C   15 seconds
+                                             60 ◦ C     1 minute
+
+  4. Calculate the titer from Ct values by using abm’s on-line lentiviral titer
+     calculator at http://www.abmgood.com/High-Titer-Lentivirus-Calculation.html
+     or by using the formula: IU/ml=Dilution factor x 5x10ˆ7/2ˆ3(Ct sample-
+     Ct STD1)/(CtSTD2-CtSTD1)
+
+
+Lentiviral Transduction Protocol
+For HepG2 cells
+Source: ATCC HBâĂŘ8065 (lot 59635738)
+
+Growth Media for HepG2
+500 ml DMEM (HyClone, SH30022.01)
+50 ml Fetal Bovine Serum (FBS) (10% Final Concentration) (Hyclone, SH30071.03)
+5 ml Pen-Strep (1% Final Concentration) (Life Technologies,15140122)
+
+
+Culturing
+  1. Thaw a frozen stock vial of HepG2 cells by gentle agitation in a 37 ◦ C
+     water bath.
+  2. Remove the vial from the water bath as soon as the contents are thawed.
+  3. Transfer the cells into the growth medium and centrifuge at 1000rpm for
+     5 minutes.
+
+  4. Resuspend the cell pellet in an appropriate amount of fresh growth medium.
+  5. Incubate the cells at 37ÂřC in a 5% CO2 in air atmosphere incubator.
+  6. Change the fresh growth medium every 2 to 3 days.
+
+
+                                         4
+  7. Cells are ready to split when the cell density reaches 70−80% confluence.
+  8. Remove culture medium.
+
+  9. Wash cells with 1X PBS.
+ 10. Add 2 to 3 ml of 0.25% TrysinâĂŘEDTA and return to incubator for 5
+     minutes.
+ 11. Add 4.0 to 6.0 mL of complete growth medium and aspirate cells by gently
+     pipetting.
+ 12. Remove cells and pellet at 1000 rpm for 5 min.
+ 13. Gently reâĂŘsuspend cell pellet in warm fresh growth medium.
+ 14. Perform 1:8 to 1:16 cell split as needed.
+
+Prepare cells for transduction
+  1. Plate 5x10ˆ5 cells in each well of 6-well plates.
+  2. Incubate for overnight, cells should be 50−60% confluent.
+
+Day 0
+  1. Change the fresh media with 8 µg/ml of polybrene (Catalog Number
+     H9268, Sigma-Aldrich) to the cells.
+  2. Add lentiviral particles (MOI ∼ 10) to appropriate wells.
+
+Day 1
+  1. After 24 hrs, change to fresh media (2 ml) with 3 µg/ml of puromycin.
+
+Day 3
+  1. Change to fresh media with 3 µg/ml of puromycin.
+
+Day 5
+  1. Change to fresh media with 3 µg/ml of puromycin.
+
+Day 6
+  1. Detach the cells, harvest half of the cells to prepare RNA and half of the
+     cells to prepare a protein lysate for western blotting.
+
+
+
+
+                                       5
+RNA Isolation
+RNA isolation is performed using a Promega Maxwell®16 Instrument and the
+Maxwell®16 LEV simplyRNA Cells Kits (Catlog Number AS1270).
+
+
+
+  1. Pellet cells at 300 x g for 3 minutes and remove medium.
+
+  2. Add 200 µl of chilled 1-Thioglycerol/Homogenization solution to the cell
+     pellet and vortex until the pellet is dispersed.
+  3. Add 200 µl of lysis buffer and votex vigorously for 15 sec to mix.
+  4. Transfer all 400 µl lysate to well 1 of the Maxwell 16 LEV cartridge.
+
+  5. Add 5 µl of DNase I solution to well 4 of the cartridge.
+  6. Put elution tubes with 40-50 µl of nuclease-free water and LEV plungers
+     in the cartridge.
+  7. Transfer the Maxwell 16 LEV cartridge rack containing prepared car-
+     tridges on the Maxwell 16 Instrument.
+  8. Push Run/Stop button to start run.
+
+
+RNA Quality Control
+The quality of the RNA is measured using an Agilent TapeStation Instrument
+with the RNA screen tape (Catlog Number 5067-5576).
+
+
+
+
+     Figure 2: Agilent TapeStation image of 1 µl of total RNA sample.
+
+
+
+
+                                      6
+qRT-PCR Assay to Monitor mRNA Target Knock-
+down Efficiency
+cDNA Synthesis
+This assay uses the iScript cDNA Synthsis Kit from BIO-RAD (Catalog number:
+170-8891)
+
+1. Reaction Setup:
+                  Reagent                           Quantity
+                  5x iScript reaction mix               2 µl
+                  iScript reverse transcriptase       0.5 µl
+                  Nuclease-free water                   x µl
+                  RNA template (200 ng)                 x µl
+                  Total volume                         10 µl
+
+2. Reaction Protocol:
+                         Time         Temperature
+                         5 minutes          25 ◦ C
+                         30 minutes         42 ◦ C
+                         5 minutes          85 ◦ C
+                         Hold                4 ◦C
+
+qPCR Assay
+This assay uses Phusion High-Fidelity DNA Polymerase from NEB (Catalog
+number: M0530L) and SYBR Green from Invitrogen (Catalog number: S7563)
+
+1. Reaction setup:
+               Reagent                                Quantity
+               5X Phusion HF Buffer                        4 µl
+               10 mM dNTPs                               0.4 µl
+               10 µM Forward Primer                        1 µl
+               10 µM Reverse Primer                        1 µl
+               Template (1:20 of cDNA reaction)            1 µl
+               Phusion DNA Polymerase                    0.2 µl
+               SYBR Green (10,000 X)                     0.1 µl
+               Nuclease-free water                     to 20 µl
+               Total volume                               20 µl
+
+2. Reaction Protocol:
+               STEP                     TEMP             TIME
+               Initial Denaturation     98 ◦ C       30 seconds
+               35 Cycles                98 ◦ C       10 seconds
+                                      58 − 66 ◦ C    15 seconds
+                                        72 ◦ C       10 seconds
+
+
+
+                                      7
+3. Data Analysis:
+Data analysis is perfomed using the 2 − ∆∆Ct Method.
+
+
+
+
+              100
+
+
+
+
+              80
+
+
+
+
+              60
+
+
+
+% Depletion
+              40
+
+
+
+
+              20
+
+
+
+
+              0
+
+                    Control      Knockdown 1           Knockdown 2
+
+                                   SRSF5
+
+
+
+Figure 3: qRT-PCR analysis of depletion level of the target RNA binding
+protein in control and knockdown cells. The percent depletion was calcu-
+lated in the RNA sample isolated from HepG2s transduced with an shRNA
+targeting SRSF5 (ENCODE Biosample ENCBS311FWL) in comparison to
+HepG2 cells transduced with a control non-target shRNA (ENCODE Biosample
+ENCBS745UGC). The efficiency of depletion is normalized using GAPDH as a
+control.
+
+
+
+
+                                    8
+Western Blot Assay to Monitor Protein Target
+Knockdown Efficiency
+A western blot is performed to determine the knockdown efficiency of the target
+RNA binding protein. For this biosample, the following antibodies were used:
+RNA binding protein primary antibody: SRSF5
+Loading control primary antibody: Tubulin
+
+  1. Purify protein by resuspending cell pellets in 100 µl Lysis buffer (50 mM
+     Tris−HCl, pH 7.4; 100 mM NaCl; 1% NP−40; 0.1% SDS; 0.5% sodium
+     deoxycholate) with protease inhibitor (Roche cocktail).
+  2. Vortex vigorously and leave tubes on ice at least 30 min.
+  3. Spin 18,000g, 20 min, 4 ◦ C. Recover the supernatant in a new tube on ice.
+     Discard the pellet.
+  4. Quantitate the protein concentration using the Pierce BCA kit.
+  5. Load 30−60 µg of protein per sample depending on expression levels of
+     the protein of interest in the cell type.
+  6. Dilute the protein samples with 4X sample buffer and 10X reducing agent
+     (Invitrogen NuPage reagents) and heat at 70 ◦ C for 10 min.
+  7. While samples are heating, prepare the gel: 4−12% Bis−Tris gel for pro-
+     teins 10−220 kDa, or 8% Tris−glycine for proteins over 220 kDa. Dilute
+     MOPS running buffer to 1X and pour into buffer tank. Add 500 µl of
+     antioxidant to the inner chamber of the buffer tank. Wash out all wells of
+     the gel with buffer.
+  8. Load 3 µl of Licor Odyssey prestained molecular weight marker (928−4000)
+     and protein samples. Run the gel at 200 V for about an hour, until the
+     dye just runs off the gel (less for small molecular weight proteins).
+  9. Transfer to PVDF for 30 min in transfer buffer, with methanol and an-
+     tioxidant, using BioRad Semi−dry transfer apparatus.
+ 10. After transfer, block membrane in 5−10 mls of Licor Blocking buffer for
+     1 hour at room temperature.
+ 11. Incubate with the RNA binding protein primary antibody (0.2 µg/ml) and
+     the loading control primary antibody (mfg recommended dilution) diluted
+     in Licor block with 0.1% tween 20 on a rocker at 4 ◦ C overnight.
+ 12. The next day, wash the blot 4 x 5 min each in TBST.
+ 13. Prepare the secondary antibody (Rockland Fluorescent TrueBlot anti-
+     rabbit IgG IRDye800 (Catalog number 18−3216−32) for the RBP and
+     Licor IRDye680 secondary antibody for the loading control). Dilute the
+     antibodies according to the mfg instructions in Licor blocking buffer with
+     0.1% Tween 20 and 0.01% SDS. Incubate on a rocker for 30−60 min, at
+     room temperature.
+
+                                      9
+ 14. Wash 4 x 5 min each in TBST. Rinse 1x in TBS (no T) and scan on the
+     Licor Odyssey instrument.
+
+
+
+
+Figure 4: Western Blot Analysis of depletion level of the target RNA binding
+protein in control and knockdown cells. Lane 1: Molecular weight marker. Lane
+2: 30 µg of protein from HepG2 transduced with a control, non-target shRNA
+(ENCODE Biosample ENCBS745UGC and ENCBS074PUV). Lane 3: 30 µg of
+protein from HepG2 transduced with an shRNA targeting SRSF5 (ENCODE
+Biosample ENCBS311FWL). Lane 4: 30 µg of protein from HepG2 transduced
+with an shRNA targeting SRSF5 (ENCODE Biosample ENCBS762HAX). Sam-
+ples were separated by SDS-PAGE, transferred to a membrane and blotted using
+antibodies against SRSF5 (ENCODE Antibody ENCAB038XFS) and Tubulin
+as controls.
+
+
+
+
+                                     10
+

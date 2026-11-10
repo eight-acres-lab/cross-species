@@ -1,0 +1,115 @@
+ENA-FIRST-PUBLIC	ENA-LAST-UPDATE	barcode	collection_date	common name	description	dose	doseunit	geo_loc_name	group	organism	sample_accession	sample_alias	scientific_name	source_name	subject	time	timeunit	tissue	treatment
+2025-01-02	2025-01-02	SP03EF74	missing	olive baboon	Baboon_1 [SP03EF74]	10	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512505	GSM7924635	Papio anubis	blood	Baboon_1	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP9A3A8A	missing	olive baboon	Baboon_2 [SP9A3A8A]	1000	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512491	GSM7924649	Papio anubis	blood	Baboon_2	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP39827C	missing	olive baboon	Baboon_2 [SP39827C]	10	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512487	GSM7924653	Papio anubis	blood	Baboon_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP4A6387	missing	olive baboon	Baboon_2 [SP4A6387]	100	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512486	GSM7924654	Papio anubis	blood	Baboon_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPFC39B9	missing	olive baboon	Baboon_2 [SPFC39B9]	1000	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512485	GSM7924655	Papio anubis	blood	Baboon_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP0A32E2	missing	olive baboon	Baboon_2 [SP0A32E2]	0	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512482	GSM7924658	Papio anubis	blood	Baboon_2	6	Hour	blood	NC
+2025-01-02	2025-01-02	SP8FE594	missing	olive baboon	Baboon_3 [SP8FE594]	0	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512472	GSM7924668	Papio anubis	blood	Baboon_3	2	Hour	blood	NC
+2025-01-02	2025-01-02	SP1814D0	missing	olive baboon	Baboon_4 [SP1814D0]	1000	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512461	GSM7924679	Papio anubis	blood	Baboon_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP37632E	missing	olive baboon	Baboon_4 [SP37632E]	0	ng/mL	missing	R (resilient)	Papio anubis	SAMN38512460	GSM7924680	Papio anubis	blood	Baboon_4	2	Hour	blood	NC
+2025-01-02	2025-01-02	SP525C83	missing	chimpanzee	Chimp_4x0521 [SP525C83]	1000	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512455	GSM7924685	Pan troglodytes	blood	Chimp_4x0521	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP52CE70	missing	chimpanzee	Chimp_4x0521 [SP52CE70]	10	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512454	GSM7924686	Pan troglodytes	blood	Chimp_4x0521	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP526773	missing	chimpanzee	Chimp_4x0521 [SP526773]	10	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512451	GSM7924689	Pan troglodytes	blood	Chimp_4x0521	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPC91DA3	missing	chimpanzee	Chimp_4x0525 [SPC91DA3]	1000	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512443	GSM7924697	Pan troglodytes	blood	Chimp_4x0525	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP432A29	missing	chimpanzee	Chimp_4x0525 [SP432A29]	10	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512442	GSM7924698	Pan troglodytes	blood	Chimp_4x0525	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP1B8B3F	missing	chimpanzee	Chimp_4x0525 [SP1B8B3F]	100	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512441	GSM7924699	Pan troglodytes	blood	Chimp_4x0525	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP5A6D62	missing	chimpanzee	Chimp_4x0525 [SP5A6D62]	1000	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512440	GSM7924700	Pan troglodytes	blood	Chimp_4x0525	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP63C7B9	missing	chimpanzee	Chimp_4x0527 [SP63C7B9]	10	ng/mL	missing	S (sensitive)	Pan troglodytes	SAMN38512430	GSM7924710	Pan troglodytes	blood	Chimp_4x0527	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP8E6742	missing	domestic cattle	Cow_1 [SP8E6742]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512407	GSM7924733	Bos taurus	blood	Cow_1	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP7EE019	missing	domestic cattle	Cow_1 [SP7EE019]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512406	GSM7924734	Bos taurus	blood	Cow_1	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPD6FA9F	missing	domestic cattle	Cow_1 [SPD6FA9F]	100	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512405	GSM7924735	Bos taurus	blood	Cow_1	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP2ACB40	missing	domestic cattle	Cow_1 [SP2ACB40]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512403	GSM7924737	Bos taurus	blood	Cow_1	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP0D9ECB	missing	domestic cattle	Cow_1 [SP0D9ECB]	100	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512402	GSM7924738	Bos taurus	blood	Cow_1	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP48406B	missing	domestic cattle	Cow_1 [SP48406B]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512401	GSM7924739	Bos taurus	blood	Cow_1	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPA2EC49	missing	domestic cattle	Cow_1 [SPA2EC49]	0	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512400	GSM7924740	Bos taurus	blood	Cow_1	2	Hour	blood	NC
+2025-01-02	2025-01-02	SP03F2D5	missing	domestic cattle	Cow_1 [SP03F2D5]	0	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512399	GSM7924741	Bos taurus	blood	Cow_1	24	Hour	blood	NC
+2025-01-02	2025-01-02	SPB96823	missing	domestic cattle	Cow_1 [SPB96823]	0	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512398	GSM7924742	Bos taurus	blood	Cow_1	6	Hour	blood	NC
+2025-01-02	2025-01-02	SP25BBE0	missing	domestic cattle	Cow_2 [SP25BBE0]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512397	GSM7924743	Bos taurus	blood	Cow_2	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP246910	missing	domestic cattle	Cow_2 [SP246910]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512395	GSM7924745	Bos taurus	blood	Cow_2	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPDC8BFC	missing	domestic cattle	Cow_2 [SPDC8BFC]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512391	GSM7924749	Bos taurus	blood	Cow_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPA54CEB	missing	domestic cattle	Cow_2 [SPA54CEB]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512389	GSM7924751	Bos taurus	blood	Cow_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP682A13	missing	domestic cattle	Cow_3 [SP682A13]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512385	GSM7924755	Bos taurus	blood	Cow_3	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPD69506	missing	domestic cattle	Cow_4 [SPD69506]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512373	GSM7924767	Bos taurus	blood	Cow_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP6EC5B2	missing	domestic cattle	Cow_4 [SP6EC5B2]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512371	GSM7924769	Bos taurus	blood	Cow_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPCE15B7	missing	domestic cattle	Cow_4 [SPCE15B7]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512370	GSM7924770	Bos taurus	blood	Cow_4	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPD1E902	missing	domestic cattle	Cow_4 [SPD1E902]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512368	GSM7924772	Bos taurus	blood	Cow_4	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPA9563F	missing	domestic cattle	Cow_4 [SPA9563F]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512367	GSM7924773	Bos taurus	blood	Cow_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPF0E58F	missing	domestic cattle	Cow_4 [SPF0E58F]	100	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512366	GSM7924774	Bos taurus	blood	Cow_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP1D4CE9	missing	domestic cattle	Cow_4 [SP1D4CE9]	1000	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512365	GSM7924775	Bos taurus	blood	Cow_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP7B198D	missing	domestic cattle	Cow_4 [SP7B198D]	0	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512364	GSM7924776	Bos taurus	blood	Cow_4	2	Hour	blood	NC
+2025-01-02	2025-01-02	SPB6F52F	missing	domestic cattle	Cow_4 [SPB6F52F]	0	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512363	GSM7924777	Bos taurus	blood	Cow_4	24	Hour	blood	NC
+2025-01-02	2025-01-02	SP2D95EC	missing	domestic cattle	Cow_4 [SP2D95EC]	0	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512362	GSM7924778	Bos taurus	blood	Cow_4	6	Hour	blood	NC
+2025-01-02	2025-01-02	SP9F4A4F	missing	domestic cattle	Cow_5 [SP9F4A4F]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512361	GSM7924779	Bos taurus	blood	Cow_5	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP875B3F	missing	domestic cattle	Cow_5 [SP875B3F]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512358	GSM7924782	Bos taurus	blood	Cow_5	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPBC44B0	missing	domestic cattle	Cow_5 [SPBC44B0]	10	ng/mL	missing	S (sensitive)	Bos taurus	SAMN38512355	GSM7924785	Bos taurus	blood	Cow_5	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP3008B6	missing	human	Human_1 [SP3008B6]	100	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512345	GSM7924795	Homo sapiens	blood	Human_1	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP780563	missing	human	Human_1 [SP780563]	1000	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512341	GSM7924799	Homo sapiens	blood	Human_1	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP079D95	missing	human	Human_2 [SP079D95]	100	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512336	GSM7924804	Homo sapiens	blood	Human_2	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP0726B0	missing	human	Human_2 [SP0726B0]	10	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512331	GSM7924809	Homo sapiens	blood	Human_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPA11538	missing	human	Human_2 [SPA11538]	0	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512327	GSM7924813	Homo sapiens	blood	Human_2	24	Hour	blood	NC
+2025-01-02	2025-01-02	SP8AEB1A	missing	human	Human_2 [SP8AEB1A]	0	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512326	GSM7924814	Homo sapiens	blood	Human_2	6	Hour	blood	NC
+2025-01-02	2025-01-02	SP78D9A9	missing	human	Human_3 [SP78D9A9]	100	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512324	GSM7924816	Homo sapiens	blood	Human_3	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP6EAA7A	missing	human	Human_3 [SP6EAA7A]	1000	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512323	GSM7924817	Homo sapiens	blood	Human_3	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP71C4F1	missing	human	Human_3 [SP71C4F1]	10	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512322	GSM7924818	Homo sapiens	blood	Human_3	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPC45346	missing	human	Human_3 [SPC45346]	1000	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512321	GSM7924819	Homo sapiens	blood	Human_3	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP7E25AD	missing	human	Human_3 [SP7E25AD]	100	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512319	GSM7924821	Homo sapiens	blood	Human_3	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPCA48E6	missing	human	Human_3 [SPCA48E6]	1000	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512318	GSM7924822	Homo sapiens	blood	Human_3	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP36F582	missing	human	Human_3 [SP36F582]	0	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512315	GSM7924825	Homo sapiens	blood	Human_3	6	Hour	blood	NC
+2025-01-02	2025-01-02	SP9D809B	missing	human	Human_4 [SP9D809B]	10	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512314	GSM7924826	Homo sapiens	blood	Human_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP04C27D	missing	human	Human_5 [SP04C27D]	0	ng/mL	missing	S (sensitive)	Homo sapiens	SAMN38512293	GSM7924847	Homo sapiens	blood	Human_5	24	Hour	blood	NC
+2025-01-02	2025-01-02	SP0B61EA	missing	house mouse	Mouse_3 [SP0B61EA]	1000	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512283	GSM7924857	Mus musculus	blood	Mouse_3	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPD25A58	missing	house mouse	Mouse_4 [SPD25A58]	100	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512272	GSM7924868	Mus musculus	blood	Mouse_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPC8D314	missing	house mouse	Mouse_4 [SPC8D314]	1000	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512271	GSM7924869	Mus musculus	blood	Mouse_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP214136	missing	house mouse	Mouse_5 [SP214136]	0	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512256	GSM7924884	Mus musculus	blood	Mouse_5	6	Hour	blood	NC
+2025-01-02	2025-01-02	SP7D4B06	missing	house mouse	Mouse_8 [SP7D4B06]	1000	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512253	GSM7924887	Mus musculus	blood	Mouse_8	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPE20138	missing	house mouse	Mouse_8 [SPE20138]	100	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512251	GSM7924889	Mus musculus	blood	Mouse_8	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPAA4295	missing	house mouse	Mouse_8 [SPAA4295]	0	ng/mL	missing	R (resilient)	Mus musculus	SAMN38512246	GSM7924894	Mus musculus	blood	Mouse_8	2	Hour	blood	NC
+2025-01-02	2025-01-02	SP8F0BA9	missing	pig	Pig_6 [SP8F0BA9]	10	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512240	GSM7924900	Sus scrofa	blood	Pig_6	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP8A817A	missing	pig	Pig_7 [SP8A817A]	10	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512228	GSM7924912	Sus scrofa	blood	Pig_7	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP3261D9	missing	pig	Pig_7 [SP3261D9]	100	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512224	GSM7924916	Sus scrofa	blood	Pig_7	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPBEC902	missing	pig	Pig_8 [SPBEC902]	1000	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512217	GSM7924923	Sus scrofa	blood	Pig_8	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP37DF30	missing	pig	Pig_8 [SP37DF30]	100	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512215	GSM7924925	Sus scrofa	blood	Pig_8	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP1F3E0A	missing	pig	Pig_8 [SP1F3E0A]	100	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512212	GSM7924928	Sus scrofa	blood	Pig_8	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP32AA14	missing	pig	Pig_9 [SP32AA14]	0	ng/mL	missing	S (sensitive)	Sus scrofa	SAMN38512197	GSM7924943	Sus scrofa	blood	Pig_9	24	Hour	blood	NC
+2025-01-02	2025-01-02	SPA73914	missing	Norway rat	Rat_2 [SPA73914]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512194	GSM7924946	Rattus norvegicus	blood	Rat_2	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP3F88AF	missing	Norway rat	Rat_2 [SP3F88AF]	1000	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512193	GSM7924947	Rattus norvegicus	blood	Rat_2	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP262B9B	missing	Norway rat	Rat_2 [SP262B9B]	10	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512192	GSM7924948	Rattus norvegicus	blood	Rat_2	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP03F3BE	missing	Norway rat	Rat_2 [SP03F3BE]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512191	GSM7924949	Rattus norvegicus	blood	Rat_2	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPA4F851	missing	Norway rat	Rat_2 [SPA4F851]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512188	GSM7924952	Rattus norvegicus	blood	Rat_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPE56360	missing	Norway rat	Rat_2 [SPE56360]	1000	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512187	GSM7924953	Rattus norvegicus	blood	Rat_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPCF2DA5	missing	Norway rat	Rat_3 [SPCF2DA5]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512179	GSM7924961	Rattus norvegicus	blood	Rat_3	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP3344EF	missing	Norway rat	Rat_3 [SP3344EF]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512176	GSM7924964	Rattus norvegicus	blood	Rat_3	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP232F3D	missing	Norway rat	Rat_3 [SP232F3D]	0	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512173	GSM7924967	Rattus norvegicus	blood	Rat_3	24	Hour	blood	NC
+2025-01-02	2025-01-02	SP91EF90	missing	Norway rat	Rat_4 [SP91EF90]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512170	GSM7924970	Rattus norvegicus	blood	Rat_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP4921B5	missing	Norway rat	Rat_4 [SP4921B5]	1000	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512166	GSM7924974	Rattus norvegicus	blood	Rat_4	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP73473B	missing	Norway rat	Rat_4 [SP73473B]	10	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512165	GSM7924975	Rattus norvegicus	blood	Rat_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP981B44	missing	Norway rat	Rat_4 [SP981B44]	0	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512161	GSM7924979	Rattus norvegicus	blood	Rat_4	24	Hour	blood	NC
+2025-01-02	2025-01-02	SP506BBC	missing	Norway rat	Rat_5 [SP506BBC]	100	ng/mL	missing	R (resilient)	Rattus norvegicus	SAMN38512155	GSM7924985	Rattus norvegicus	blood	Rat_5	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP2FF2D4	missing	rabbit	Rabbit_1 [SP2FF2D4]	10	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512144	GSM7924996	Oryctolagus cuniculus	blood	Rabbit_1	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP0ADA9D	missing	rabbit	Rabbit_2 [SP0ADA9D]	1000	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512128	GSM7925012	Oryctolagus cuniculus	blood	Rabbit_2	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP8845F6	missing	rabbit	Rabbit_3 [SP8845F6]	0	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512115	GSM7925025	Oryctolagus cuniculus	blood	Rabbit_3	24	Hour	blood	NC
+2025-01-02	2025-01-02	SP7C2410	missing	rabbit	Rabbit_4 [SP7C2410]	10	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512110	GSM7925030	Oryctolagus cuniculus	blood	Rabbit_4	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP480654	missing	rabbit	Rabbit_4 [SP480654]	100	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512109	GSM7925031	Oryctolagus cuniculus	blood	Rabbit_4	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPE77618	missing	rabbit	Rabbit_4 [SPE77618]	1000	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512105	GSM7925035	Oryctolagus cuniculus	blood	Rabbit_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPCDE54A	missing	rabbit	Rabbit_4 [SPCDE54A]	0	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512103	GSM7925037	Oryctolagus cuniculus	blood	Rabbit_4	24	Hour	blood	NC
+2025-01-02	2025-01-02	SPC84853	missing	rabbit	Rabbit_4 [SPC84853]	0	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512102	GSM7925038	Oryctolagus cuniculus	blood	Rabbit_4	6	Hour	blood	NC
+2025-01-02	2025-01-02	SPEA0809	missing	rabbit	Rabbit_5 [SPEA0809]	10	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512101	GSM7925039	Oryctolagus cuniculus	blood	Rabbit_5	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP3309D2	missing	rabbit	Rabbit_5 [SP3309D2]	100	ng/mL	missing	S (sensitive)	Oryctolagus cuniculus	SAMN38512094	GSM7925046	Oryctolagus cuniculus	blood	Rabbit_5	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPAC59BC	missing	macaques	Rhesus_3 [SPAC59BC]	1000	ng/mL	missing	R (resilient)	Macaca	SAMN38512057	GSM7925083	Macaca	blood	Rhesus_3	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP282057	missing	macaques	Rhesus_3 [SP282057]	0	ng/mL	missing	R (resilient)	Macaca	SAMN38512056	GSM7925084	Macaca	blood	Rhesus_3	2	Hour	blood	NC
+2025-01-02	2025-01-02	SP3FC07A	missing	macaques	Rhesus_4 [SP3FC07A]	10	ng/mL	missing	R (resilient)	Macaca	SAMN38512053	GSM7925087	Macaca	blood	Rhesus_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPF23403	missing	macaques	Rhesus_4 [SPF23403]	1000	ng/mL	missing	R (resilient)	Macaca	SAMN38512051	GSM7925089	Macaca	blood	Rhesus_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP7FDEA2	missing	macaques	Rhesus_4 [SP7FDEA2]	100	ng/mL	missing	R (resilient)	Macaca	SAMN38512046	GSM7925094	Macaca	blood	Rhesus_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SPC002CE	missing	macaques	Rhesus_5 [SPC002CE]	100	ng/mL	missing	R (resilient)	Macaca	SAMN38512040	GSM7925100	Macaca	blood	Rhesus_5	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPFB5195	missing	macaques	Rhesus_5 [SPFB5195]	1000	ng/mL	missing	R (resilient)	Macaca	SAMN38512039	GSM7925101	Macaca	blood	Rhesus_5	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP9C53CF	missing	macaques	Rhesus_5 [SP9C53CF]	100	ng/mL	missing	R (resilient)	Macaca	SAMN38512037	GSM7925103	Macaca	blood	Rhesus_5	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP0DF96B	missing	macaques	Rhesus_5 [SP0DF96B]	1000	ng/mL	missing	R (resilient)	Macaca	SAMN38512036	GSM7925104	Macaca	blood	Rhesus_5	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPF8F38A	missing	sheep	Sheep_1 [SPF8F38A]	100	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38512025	GSM7925115	Ovis aries	blood	Sheep_1	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SPEC6B8B	missing	sheep	Sheep_1 [SPEC6B8B]	1000	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38512024	GSM7925116	Ovis aries	blood	Sheep_1	24	Hour	blood	LPS
+2025-01-02	2025-01-02	SP966038	missing	sheep	Sheep_3 [SP966038]	10	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38512005	GSM7925135	Ovis aries	blood	Sheep_3	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SP29096C	missing	sheep	Sheep_3 [SP29096C]	0	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38511996	GSM7925144	Ovis aries	blood	Sheep_3	2	Hour	blood	NC
+2025-01-02	2025-01-02	SP3F06B9	missing	sheep	Sheep_4 [SP3F06B9]	10	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38511993	GSM7925147	Ovis aries	blood	Sheep_4	2	Hour	blood	LPS
+2025-01-02	2025-01-02	SPA949B0	missing	sheep	Sheep_4 [SPA949B0]	1000	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38511985	GSM7925155	Ovis aries	blood	Sheep_4	6	Hour	blood	LPS
+2025-01-02	2025-01-02	SP6F735B	missing	sheep	Sheep_4 [SP6F735B]	0	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38511983	GSM7925157	Ovis aries	blood	Sheep_4	24	Hour	blood	NC
+2025-01-02	2025-01-02	SPF88DBD	missing	sheep	Sheep_4 [SPF88DBD]	0	ng/mL	missing	S (sensitive)	Ovis aries	SAMN38511982	GSM7925158	Ovis aries	blood	Sheep_4	6	Hour	blood	NC

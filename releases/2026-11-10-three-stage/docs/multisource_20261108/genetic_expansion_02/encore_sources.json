@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://graveleylabweb.cam.uchc.edu/encore/gene/index.php?view_all_exp_info=SRSF3",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRSF3_encore.html",
+    "bytes": 12320,
+    "sha256": "84e97534f886c582f8c41730d94579c92b869e1b9bfe35be21d7d039a1eab64f"
+  },
+  {
+    "url": "https://graveleylabweb.cam.uchc.edu/encore/gene/index.php?view_all_exp_info=SRSF5",
+    "path": "docs/multisource_20261108/genetic_expansion_02/evidence/SRSF5_encore.html",
+    "bytes": 16413,
+    "sha256": "84e3cf48125220496d47fc84a97b0f376d8df94a46fc5ace7fcf454452c9fbf9"
+  }
+]

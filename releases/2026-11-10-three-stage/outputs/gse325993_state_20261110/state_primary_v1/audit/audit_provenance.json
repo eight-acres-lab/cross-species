@@ -1,0 +1,596 @@
+{
+  "contract_sha256": "b408ae27a57482fa9207242484b87ea491a6f9278744156213df1e4041d78df5",
+  "global_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
+  "selected_fits_sha256": "2054f2b34e5c2fc5c5e6fcb0adc66a58491ea457f2bba4f23875d8ecfbab47a4",
+  "specification_sha256": "02d3bf4da5b1c4c7c1d267314422b6a612374019d18a065aa7cd2409fb501064",
+  "split_manifest_sha256": "432e887e7dc539d0275e2b1498fb8d643355a31a04ccd59aa62f7313a2a2bf70",
+  "splits_sha256": "ea1356a590a9b05ae68be33b366232c56482c0857d077ca969c1f9a1db8537b3",
+  "input_files": {
+    "manifest.json": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
+    "gse325993_exp2_arrays.npz": "9bfe37f689d0e5eb93ca06610b280f54c1fda7102be36579d9065a94dd4cc510",
+    "state_observed_gene_axis.tsv": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+    "human.gencode32_coding_mask.tsv": "4375d81c3f4371a37a34d06892bbe0803b3279b81b8da80ecaa48a3ce7f9884f",
+    "cynomolgus.gencode32_coding_mask.tsv": "e8902ff3181ea7701ed4d3b8706689418800539f772d61e095ff6e1fbaa19885"
+  },
+  "all36target_and36weight_and36calibration_hashes_verified": true,
+  "expression_arrays_opened_during_global_gate": false,
+  "verification_unix_time": 1794278091.5274858,
+  "frozen_unix_time": 1794277996.0108624,
+  "training_code_hashes": {
+    "scripts/run_gse325993_state.py": "7d355ad3613064528ad1554036b94dad4c40a07ebbf04ea91ac4decd6325d35d",
+    "src/cross_species/state_assay_adapter.py": "fce6ede9f0ff1cf2202101dbbafd51dfbfa98e3a130cc375cc9b6c4f7cf9b15c",
+    "src/cross_species/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8"
+  },
+  "code_snapshot_root": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/code_snapshot_v1",
+  "actual_code_snapshot_files_verified": 3,
+  "split_runner_hash_matches_training_runner": true,
+  "scorer_sha256": "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3",
+  "energy": {
+    "library": "GeomLoss0.3.1",
+    "source_hashes": {
+      "_legacy/samples_loss.py": "0503d0badfbbf87e5b859e278500191316cef71fd0f89f6a3d8345f80193e849",
+      "_legacy/kernel_samples.py": "5b38eaed54fa31e700eabbe1e6def385c47884781ce6eea31a3fec2eb05fdf5f",
+      "_legacy/utils.py": "65c39e3476d8a773d4f1fe0d6342765eec595991f838259bd73150b550dbecec"
+    },
+    "loss": "energy",
+    "blur": 0.05,
+    "backend": "tensorized",
+    "dtype": "float64",
+    "device": "cuda",
+    "formula": "meanDxy-0.5meanDxx-0.5meanDyy; uniform1/N and1/M V-statistic",
+    "distance": "sqrt(clamp_min(squared Euclidean,1e-8)); native self-distance1e-4 retained",
+    "gene_normalization": "none; full6357observed coordinates",
+    "precision_note": "Native energy/metrics float64. Model, C/P and scalar-shrink arithmetic float32; Hbase-mean delta remains float64 before addition/clamp."
+  },
+  "fit_scale_calibration_audit": [
+    {
+      "fold": 0,
+      "seed": 20261110,
+      "arm": "H",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.004467640480183041,
+        "Hextra_cells": 0.004510742247917374,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.0,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261110,
+      "arm": "Hextra_cells",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.004467640480183041,
+        "Hextra_cells": 0.004510742247917374,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.4952223198128608,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261110,
+      "arm": "Monkey56",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.004467640480183041,
+        "Hextra_cells": 0.004510742247917374,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.17674813613269705,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261110,
+      "arm": "Monkey56A0",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.004467640480183041,
+        "Hextra_cells": 0.004510742247917374,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.17674813613269705,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261110,
+      "arm": "Monkey82",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.004467640480183041,
+        "Hextra_cells": 0.004510742247917374,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 1.1690295690434962,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261110,
+      "arm": "Monkey82A0",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.004467640480183041,
+        "Hextra_cells": 0.004510742247917374,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 1.1690295690434962,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261110,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.007909222486044733,
+        "Hextra_cells": 0.008436828336332086,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.0,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261110,
+      "arm": "Hextra_cells",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.007909222486044733,
+        "Hextra_cells": 0.008436828336332086,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.4687319790533554,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261110,
+      "arm": "Monkey56",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.007909222486044733,
+        "Hextra_cells": 0.008436828336332086,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.31290349768922066,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261110,
+      "arm": "Monkey56A0",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.007909222486044733,
+        "Hextra_cells": 0.008436828336332086,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 0.31290349768922066,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261110,
+      "arm": "Monkey82",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.007909222486044733,
+        "Hextra_cells": 0.008436828336332086,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 2.069574531644316,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261110,
+      "arm": "Monkey82A0",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.007909222486044733,
+        "Hextra_cells": 0.008436828336332086,
+        "Monkey56": 0.012638437320857728,
+        "Monkey82": 0.0019108329671414894
+      },
+      "source_coefficient": 2.069574531644316,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261111,
+      "arm": "H",
+      "selected_step": 50,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.004442032933575393,
+        "Hextra_cells": 0.00522192286546182,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.0,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261111,
+      "arm": "Hextra_cells",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.004442032933575393,
+        "Hextra_cells": 0.00522192286546182,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.42532540675345126,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261111,
+      "arm": "Monkey56",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.004442032933575393,
+        "Hextra_cells": 0.00522192286546182,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.17640587695262477,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261111,
+      "arm": "Monkey56A0",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.004442032933575393,
+        "Hextra_cells": 0.00522192286546182,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.17640587695262477,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261111,
+      "arm": "Monkey82",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.004442032933575393,
+        "Hextra_cells": 0.00522192286546182,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 1.05271941353603,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261111,
+      "arm": "Monkey82A0",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.004442032933575393,
+        "Hextra_cells": 0.00522192286546182,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 1.05271941353603,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261111,
+      "arm": "H",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.008141473716391833,
+        "Hextra_cells": 0.007691520127877613,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.0,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261111,
+      "arm": "Hextra_cells",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008141473716391833,
+        "Hextra_cells": 0.007691520127877613,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.5292499779649136,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261111,
+      "arm": "Monkey56",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.008141473716391833,
+        "Hextra_cells": 0.007691520127877613,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.32332128827123435,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261111,
+      "arm": "Monkey56A0",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.008141473716391833,
+        "Hextra_cells": 0.007691520127877613,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 0.32332128827123435,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261111,
+      "arm": "Monkey82",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008141473716391833,
+        "Hextra_cells": 0.007691520127877613,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 1.9294515741333025,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261111,
+      "arm": "Monkey82A0",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.008141473716391833,
+        "Hextra_cells": 0.007691520127877613,
+        "Monkey56": 0.01259037683525798,
+        "Monkey82": 0.002109789596572003
+      },
+      "source_coefficient": 1.9294515741333025,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261112,
+      "arm": "H",
+      "selected_step": 50,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.00545114185521235,
+        "Hextra_cells": 0.004860325863164778,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.0,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261112,
+      "arm": "Hextra_cells",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.00545114185521235,
+        "Hextra_cells": 0.004860325863164778,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.5607794630114435,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261112,
+      "arm": "Monkey56",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.00545114185521235,
+        "Hextra_cells": 0.004860325863164778,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.22033600091220867,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261112,
+      "arm": "Monkey56A0",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.00545114185521235,
+        "Hextra_cells": 0.004860325863164778,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.22033600091220867,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261112,
+      "arm": "Monkey82",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.00545114185521235,
+        "Hextra_cells": 0.004860325863164778,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 1.3898569098199771,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 0,
+      "seed": 20261112,
+      "arm": "Monkey82A0",
+      "selected_step": 200,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.00545114185521235,
+        "Hextra_cells": 0.004860325863164778,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 1.3898569098199771,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261112,
+      "arm": "H",
+      "selected_step": 100,
+      "selected_alpha": 0.75,
+      "training_scales": {
+        "H": 0.008135140159949943,
+        "Hextra_cells": 0.00783677726109213,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.0,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261112,
+      "arm": "Hextra_cells",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008135140159949943,
+        "Hextra_cells": 0.00783677726109213,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.5190360711372466,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261112,
+      "arm": "Monkey56",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008135140159949943,
+        "Hextra_cells": 0.00783677726109213,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.32882362949144905,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261112,
+      "arm": "Monkey56A0",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008135140159949943,
+        "Hextra_cells": 0.00783677726109213,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 0.32882362949144905,
+      "A0_retains_real_source_amplitude_scalar": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261112,
+      "arm": "Monkey82",
+      "selected_step": 100,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008135140159949943,
+        "Hextra_cells": 0.00783677726109213,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 2.074185751164967,
+      "A0_retains_real_source_amplitude_scalar": false
+    },
+    {
+      "fold": 1,
+      "seed": 20261112,
+      "arm": "Monkey82A0",
+      "selected_step": 200,
+      "selected_alpha": 1,
+      "training_scales": {
+        "H": 0.008135140159949943,
+        "Hextra_cells": 0.00783677726109213,
+        "Monkey56": 0.01237006624574329,
+        "Monkey82": 0.001961044268909098
+      },
+      "source_coefficient": 2.074185751164967,
+      "A0_retains_real_source_amplitude_scalar": true
+    }
+  ],
+  "baseline_reconstruction": "C/P andalpha-shrink float32; frozenbase_delta float64 retained forC+delta/clamp; allmetrics float64",
+  "upstream_public_cohort_limitation": {
+    "author_NTC_guide_filter_uses_both_human_lines": true,
+    "evidence_status": "Highly supported indirect export evidence: public GEO NTCguide ID sets exactly match author final RNA-effect-filtered controlguide lists, and author QCstep4 jointly uses both human lines; a direct GEOexport script trace was not recovered.",
+    "consequence": "The public cell cohort can reflect held-out-line RNA in upstream control-guide eligibility. This benchmark is conditional on that published cohort; no full-pipeline target-RNA-blind or fully prospective end-to-end QC claim.",
+    "our_guarantee": "Our downstream fitting, hyperparameter/checkpoint selection and source scale estimation exclude that fold held-out human line outcomes. Held-out NTC cells are available as query baselines; POU5F1 target cells are read for model scoring only after every prediction freezes.",
+    "new_expression_or_guide_effect_filtering": false
+  },
+  "numpy_version": "2.4.6"
+}

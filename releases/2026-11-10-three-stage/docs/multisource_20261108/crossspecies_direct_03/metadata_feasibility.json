@@ -1,0 +1,1699 @@
+{
+  "date": "2026-11-08",
+  "scope": "Independent metadata-only feasibility audit; no expression values or model outcomes loaded. Existing report used only for split seed.",
+  "cohort": {
+    "rows": 678,
+    "compounds": 126
+  },
+  "inputs": {
+    "outputs/feedback_nested_chemical_20261107_absolute_v1/absolute_concentration_metadata.tsv": {
+      "sha256": "8693b26b350e63b7eed5ede6be39399479d7695b1191eb9c13f735b3e3a4e00b",
+      "bytes": 96724
+    },
+    "outputs/feedback_nested_chemical_20261107_absolute_v1/fold_assignments.tsv": {
+      "sha256": "df9b7a3183fa722607f4324e32e9fabe23a906a53b2ced82bf4cb1f641bb76ec",
+      "bytes": 27528
+    },
+    "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json": {
+      "sha256": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d",
+      "bytes": 660509
+    }
+  },
+  "concentration_key": "Exact Decimal(raw dose_value) times a declared SI molar conversion; source_exposure uses time and ratM; paired_exposure additionally uses donor-record humanM. No approximate rounding or unit inference.",
+  "partition_contract": "Existing five outer fold assignments preserved. Three inner assignments derived on each COMPLETE original outer-training compound set with original seed20261107+1009*(outer+1), before exchangeability filtering.",
+  "eligibility_rule": "Within the current partition, retain only strata with at least two different compounds. All observed strata have no repeated compound, so full bijective derangements are feasible.",
+  "regimes": {
+    "source_exposure": {
+      "key_fields": [
+        "t",
+        "rat"
+      ],
+      "global": {
+        "input_rows": 678,
+        "input_compounds": 126,
+        "strata": 143,
+        "eligible_rows": 649,
+        "eligible_compounds": 126,
+        "excluded_rows": 29,
+        "same_compound_within_stratum_duplicate_rows": 0,
+        "eligible_stratum_sizes": {
+          "2": 27,
+          "3": 21,
+          "4": 11,
+          "5": 9,
+          "6": 12,
+          "7": 10,
+          "8": 2,
+          "9": 4,
+          "10": 2,
+          "11": 6,
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "18": 1,
+          "19": 1,
+          "21": 2
+        },
+        "two_member_stratum_rows": 54
+      },
+      "outer_partitions": [
+        {
+          "outer_fold": 0,
+          "training": {
+            "input_rows": 526,
+            "input_compounds": 100,
+            "strata": 136,
+            "eligible_rows": 490,
+            "eligible_compounds": 98,
+            "excluded_rows": 36,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 23,
+              "3": 21,
+              "4": 18,
+              "5": 8,
+              "6": 10,
+              "7": 2,
+              "8": 8,
+              "10": 2,
+              "12": 4,
+              "14": 1,
+              "15": 1,
+              "17": 2
+            },
+            "two_member_stratum_rows": 46
+          },
+          "test": {
+            "input_rows": 152,
+            "input_compounds": 26,
+            "strata": 86,
+            "eligible_rows": 106,
+            "eligible_compounds": 20,
+            "excluded_rows": 46,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 22,
+              "3": 10,
+              "4": 8
+            },
+            "two_member_stratum_rows": 44
+          },
+          "inner_seed": 20262116,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 350,
+                "input_compounds": 66,
+                "strata": 127,
+                "eligible_rows": 300,
+                "eligible_compounds": 62,
+                "excluded_rows": 50,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 26,
+                  "3": 21,
+                  "4": 12,
+                  "5": 10,
+                  "8": 2,
+                  "10": 1,
+                  "11": 3,
+                  "14": 2
+                },
+                "two_member_stratum_rows": 52
+              },
+              "validation": {
+                "input_rows": 176,
+                "input_compounds": 34,
+                "strata": 86,
+                "eligible_rows": 131,
+                "eligible_compounds": 31,
+                "excluded_rows": 45,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 20,
+                  "3": 11,
+                  "4": 4,
+                  "6": 4,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 40
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 351,
+                "input_compounds": 67,
+                "strata": 109,
+                "eligible_rows": 328,
+                "eligible_compounds": 65,
+                "excluded_rows": 23,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 26,
+                  "3": 25,
+                  "4": 7,
+                  "5": 15,
+                  "6": 7,
+                  "8": 4,
+                  "12": 2
+                },
+                "two_member_stratum_rows": 52
+              },
+              "validation": {
+                "input_rows": 175,
+                "input_compounds": 33,
+                "strata": 83,
+                "eligible_rows": 129,
+                "eligible_compounds": 28,
+                "excluded_rows": 46,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 22,
+                  "3": 7,
+                  "4": 2,
+                  "8": 2,
+                  "9": 2,
+                  "11": 2
+                },
+                "two_member_stratum_rows": 44
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 351,
+                "input_compounds": 67,
+                "strata": 125,
+                "eligible_rows": 304,
+                "eligible_compounds": 64,
+                "excluded_rows": 47,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 35,
+                  "3": 14,
+                  "4": 11,
+                  "5": 2,
+                  "6": 8,
+                  "9": 4,
+                  "13": 2,
+                  "14": 2
+                },
+                "two_member_stratum_rows": 70
+              },
+              "validation": {
+                "input_rows": 175,
+                "input_compounds": 33,
+                "strata": 95,
+                "eligible_rows": 140,
+                "eligible_compounds": 32,
+                "excluded_rows": 35,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 42,
+                  "3": 16,
+                  "4": 2
+                },
+                "two_member_stratum_rows": 84
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 1,
+          "training": {
+            "input_rows": 549,
+            "input_compounds": 101,
+            "strata": 133,
+            "eligible_rows": 519,
+            "eligible_compounds": 101,
+            "excluded_rows": 30,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 32,
+              "3": 11,
+              "4": 15,
+              "5": 6,
+              "6": 15,
+              "7": 6,
+              "8": 4,
+              "10": 4,
+              "11": 4,
+              "13": 2,
+              "14": 2,
+              "15": 2
+            },
+            "two_member_stratum_rows": 64
+          },
+          "test": {
+            "input_rows": 129,
+            "input_compounds": 25,
+            "strata": 66,
+            "eligible_rows": 97,
+            "eligible_compounds": 24,
+            "excluded_rows": 32,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 24,
+              "3": 5,
+              "4": 1,
+              "7": 2,
+              "8": 2
+            },
+            "two_member_stratum_rows": 48
+          },
+          "inner_seed": 20263125,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 361,
+                "input_compounds": 67,
+                "strata": 121,
+                "eligible_rows": 325,
+                "eligible_compounds": 64,
+                "excluded_rows": 36,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 29,
+                  "3": 19,
+                  "4": 13,
+                  "5": 8,
+                  "6": 8,
+                  "8": 4,
+                  "9": 2,
+                  "10": 2
+                },
+                "two_member_stratum_rows": 58
+              },
+              "validation": {
+                "input_rows": 188,
+                "input_compounds": 34,
+                "strata": 85,
+                "eligible_rows": 150,
+                "eligible_compounds": 29,
+                "excluded_rows": 38,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 23,
+                  "3": 8,
+                  "4": 4,
+                  "5": 8,
+                  "6": 4
+                },
+                "two_member_stratum_rows": 46
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 370,
+                "input_compounds": 67,
+                "strata": 108,
+                "eligible_rows": 337,
+                "eligible_compounds": 64,
+                "excluded_rows": 33,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 23,
+                  "3": 11,
+                  "4": 5,
+                  "5": 16,
+                  "6": 2,
+                  "7": 8,
+                  "8": 4,
+                  "9": 2,
+                  "10": 4
+                },
+                "two_member_stratum_rows": 46
+              },
+              "validation": {
+                "input_rows": 179,
+                "input_compounds": 34,
+                "strata": 99,
+                "eligible_rows": 121,
+                "eligible_compounds": 27,
+                "excluded_rows": 58,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 20,
+                  "3": 13,
+                  "4": 2,
+                  "5": 4,
+                  "7": 2
+                },
+                "two_member_stratum_rows": 40
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 367,
+                "input_compounds": 68,
+                "strata": 124,
+                "eligible_rows": 325,
+                "eligible_compounds": 67,
+                "excluded_rows": 42,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 31,
+                  "3": 18,
+                  "4": 4,
+                  "5": 15,
+                  "6": 2,
+                  "7": 6,
+                  "10": 4,
+                  "12": 2
+                },
+                "two_member_stratum_rows": 62
+              },
+              "validation": {
+                "input_rows": 182,
+                "input_compounds": 33,
+                "strata": 82,
+                "eligible_rows": 149,
+                "eligible_compounds": 30,
+                "excluded_rows": 33,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 20,
+                  "3": 15,
+                  "4": 8,
+                  "5": 4,
+                  "6": 2
+                },
+                "two_member_stratum_rows": 40
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 2,
+          "training": {
+            "input_rows": 545,
+            "input_compounds": 101,
+            "strata": 143,
+            "eligible_rows": 510,
+            "eligible_compounds": 101,
+            "excluded_rows": 35,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 30,
+              "3": 22,
+              "4": 13,
+              "5": 13,
+              "6": 10,
+              "7": 2,
+              "8": 6,
+              "9": 2,
+              "10": 4,
+              "12": 2,
+              "14": 1,
+              "15": 1,
+              "17": 2
+            },
+            "two_member_stratum_rows": 60
+          },
+          "test": {
+            "input_rows": 133,
+            "input_compounds": 25,
+            "strata": 73,
+            "eligible_rows": 96,
+            "eligible_compounds": 22,
+            "excluded_rows": 37,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 20,
+              "3": 10,
+              "4": 4,
+              "5": 2
+            },
+            "two_member_stratum_rows": 40
+          },
+          "inner_seed": 20264134,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 367,
+                "input_compounds": 67,
+                "strata": 129,
+                "eligible_rows": 315,
+                "eligible_compounds": 62,
+                "excluded_rows": 52,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 26,
+                  "3": 13,
+                  "4": 16,
+                  "5": 8,
+                  "6": 2,
+                  "7": 2,
+                  "8": 4,
+                  "9": 2,
+                  "10": 2,
+                  "12": 2
+                },
+                "two_member_stratum_rows": 52
+              },
+              "validation": {
+                "input_rows": 178,
+                "input_compounds": 34,
+                "strata": 103,
+                "eligible_rows": 119,
+                "eligible_compounds": 29,
+                "excluded_rows": 59,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 26,
+                  "3": 10,
+                  "4": 3,
+                  "5": 5
+                },
+                "two_member_stratum_rows": 52
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 359,
+                "input_compounds": 67,
+                "strata": 130,
+                "eligible_rows": 315,
+                "eligible_compounds": 65,
+                "excluded_rows": 44,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 42,
+                  "3": 10,
+                  "4": 8,
+                  "5": 8,
+                  "6": 8,
+                  "7": 4,
+                  "8": 3,
+                  "9": 1,
+                  "10": 2
+                },
+                "two_member_stratum_rows": 84
+              },
+              "validation": {
+                "input_rows": 186,
+                "input_compounds": 34,
+                "strata": 90,
+                "eligible_rows": 145,
+                "eligible_compounds": 29,
+                "excluded_rows": 41,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 24,
+                  "3": 15,
+                  "4": 4,
+                  "5": 2,
+                  "6": 2,
+                  "7": 2
+                },
+                "two_member_stratum_rows": 48
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 364,
+                "input_compounds": 68,
+                "strata": 129,
+                "eligible_rows": 320,
+                "eligible_compounds": 64,
+                "excluded_rows": 44,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 27,
+                  "3": 23,
+                  "4": 17,
+                  "5": 8,
+                  "6": 2,
+                  "7": 2,
+                  "9": 2,
+                  "10": 1,
+                  "11": 1,
+                  "12": 2
+                },
+                "two_member_stratum_rows": 54
+              },
+              "validation": {
+                "input_rows": 181,
+                "input_compounds": 33,
+                "strata": 97,
+                "eligible_rows": 124,
+                "eligible_compounds": 28,
+                "excluded_rows": 57,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 18,
+                  "3": 10,
+                  "4": 4,
+                  "5": 6,
+                  "6": 2
+                },
+                "two_member_stratum_rows": 36
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 3,
+          "training": {
+            "input_rows": 551,
+            "input_compounds": 101,
+            "strata": 127,
+            "eligible_rows": 528,
+            "eligible_compounds": 101,
+            "excluded_rows": 23,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 36,
+              "3": 10,
+              "4": 11,
+              "5": 11,
+              "6": 10,
+              "7": 6,
+              "8": 2,
+              "9": 6,
+              "10": 2,
+              "11": 2,
+              "13": 3,
+              "14": 3,
+              "16": 2
+            },
+            "two_member_stratum_rows": 72
+          },
+          "test": {
+            "input_rows": 127,
+            "input_compounds": 25,
+            "strata": 77,
+            "eligible_rows": 80,
+            "eligible_compounds": 20,
+            "excluded_rows": 47,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 18,
+              "3": 8,
+              "5": 4
+            },
+            "two_member_stratum_rows": 36
+          },
+          "inner_seed": 20265143,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 377,
+                "input_compounds": 67,
+                "strata": 119,
+                "eligible_rows": 341,
+                "eligible_compounds": 64,
+                "excluded_rows": 36,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 37,
+                  "3": 7,
+                  "4": 11,
+                  "5": 12,
+                  "6": 2,
+                  "7": 4,
+                  "9": 2,
+                  "10": 6,
+                  "12": 2
+                },
+                "two_member_stratum_rows": 74
+              },
+              "validation": {
+                "input_rows": 174,
+                "input_compounds": 34,
+                "strata": 81,
+                "eligible_rows": 137,
+                "eligible_compounds": 28,
+                "excluded_rows": 37,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 21,
+                  "3": 10,
+                  "4": 7,
+                  "5": 2,
+                  "6": 2,
+                  "7": 1,
+                  "8": 1
+                },
+                "two_member_stratum_rows": 42
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 369,
+                "input_compounds": 67,
+                "strata": 122,
+                "eligible_rows": 333,
+                "eligible_compounds": 64,
+                "excluded_rows": 36,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 30,
+                  "3": 14,
+                  "4": 12,
+                  "5": 12,
+                  "6": 10,
+                  "7": 4,
+                  "8": 1,
+                  "9": 3
+                },
+                "two_member_stratum_rows": 60
+              },
+              "validation": {
+                "input_rows": 182,
+                "input_compounds": 34,
+                "strata": 81,
+                "eligible_rows": 140,
+                "eligible_compounds": 29,
+                "excluded_rows": 42,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 15,
+                  "3": 8,
+                  "4": 4,
+                  "5": 6,
+                  "6": 2,
+                  "7": 4
+                },
+                "two_member_stratum_rows": 30
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 356,
+                "input_compounds": 68,
+                "strata": 104,
+                "eligible_rows": 327,
+                "eligible_compounds": 66,
+                "excluded_rows": 29,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 23,
+                  "3": 17,
+                  "4": 11,
+                  "5": 3,
+                  "6": 7,
+                  "7": 6,
+                  "9": 4,
+                  "12": 1,
+                  "13": 3
+                },
+                "two_member_stratum_rows": 46
+              },
+              "validation": {
+                "input_rows": 195,
+                "input_compounds": 33,
+                "strata": 101,
+                "eligible_rows": 153,
+                "eligible_compounds": 31,
+                "excluded_rows": 42,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 36,
+                  "3": 15,
+                  "4": 4,
+                  "5": 4
+                },
+                "two_member_stratum_rows": 72
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 4,
+          "training": {
+            "input_rows": 541,
+            "input_compounds": 101,
+            "strata": 132,
+            "eligible_rows": 505,
+            "eligible_compounds": 99,
+            "excluded_rows": 36,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 15,
+              "3": 21,
+              "4": 21,
+              "5": 11,
+              "6": 8,
+              "7": 2,
+              "8": 4,
+              "9": 2,
+              "10": 4,
+              "11": 2,
+              "13": 2,
+              "16": 1,
+              "17": 1,
+              "20": 2
+            },
+            "two_member_stratum_rows": 30
+          },
+          "test": {
+            "input_rows": 137,
+            "input_compounds": 25,
+            "strata": 85,
+            "eligible_rows": 88,
+            "eligible_compounds": 21,
+            "excluded_rows": 49,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 22,
+              "3": 12,
+              "4": 2
+            },
+            "two_member_stratum_rows": 44
+          },
+          "inner_seed": 20266152,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 353,
+                "input_compounds": 67,
+                "strata": 118,
+                "eligible_rows": 317,
+                "eligible_compounds": 64,
+                "excluded_rows": 36,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 32,
+                  "3": 22,
+                  "4": 10,
+                  "5": 4,
+                  "6": 2,
+                  "7": 4,
+                  "9": 2,
+                  "10": 3,
+                  "11": 1,
+                  "14": 2
+                },
+                "two_member_stratum_rows": 64
+              },
+              "validation": {
+                "input_rows": 188,
+                "input_compounds": 34,
+                "strata": 103,
+                "eligible_rows": 126,
+                "eligible_compounds": 27,
+                "excluded_rows": 62,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 21,
+                  "3": 8,
+                  "4": 6,
+                  "6": 6
+                },
+                "two_member_stratum_rows": 42
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 360,
+                "input_compounds": 67,
+                "strata": 126,
+                "eligible_rows": 309,
+                "eligible_compounds": 63,
+                "excluded_rows": 51,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 22,
+                  "3": 19,
+                  "4": 16,
+                  "5": 2,
+                  "6": 4,
+                  "8": 6,
+                  "9": 2,
+                  "10": 2,
+                  "12": 2
+                },
+                "two_member_stratum_rows": 44
+              },
+              "validation": {
+                "input_rows": 181,
+                "input_compounds": 34,
+                "strata": 90,
+                "eligible_rows": 132,
+                "eligible_compounds": 28,
+                "excluded_rows": 49,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 22,
+                  "3": 9,
+                  "5": 4,
+                  "6": 3,
+                  "7": 1,
+                  "8": 2
+                },
+                "two_member_stratum_rows": 44
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 369,
+                "input_compounds": 68,
+                "strata": 113,
+                "eligible_rows": 337,
+                "eligible_compounds": 66,
+                "excluded_rows": 32,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 22,
+                  "3": 21,
+                  "4": 15,
+                  "5": 9,
+                  "6": 4,
+                  "7": 2,
+                  "8": 2,
+                  "9": 2,
+                  "12": 1,
+                  "13": 1,
+                  "14": 2
+                },
+                "two_member_stratum_rows": 44
+              },
+              "validation": {
+                "input_rows": 172,
+                "input_compounds": 33,
+                "strata": 84,
+                "eligible_rows": 132,
+                "eligible_compounds": 31,
+                "excluded_rows": 40,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 22,
+                  "3": 12,
+                  "4": 2,
+                  "5": 4,
+                  "6": 4
+                },
+                "two_member_stratum_rows": 44
+              }
+            }
+          ]
+        }
+      ],
+      "pooled_eligible_outer_test_rows": 467,
+      "pooled_eligible_outer_test_compounds": 107,
+      "pooled_outer_test_two_member_stratum_rows": 212
+    },
+    "paired_exposure": {
+      "key_fields": [
+        "t",
+        "rat",
+        "human"
+      ],
+      "global": {
+        "input_rows": 678,
+        "input_compounds": 126,
+        "strata": 395,
+        "eligible_rows": 396,
+        "eligible_compounds": 85,
+        "excluded_rows": 282,
+        "same_compound_within_stratum_duplicate_rows": 0,
+        "eligible_stratum_sizes": {
+          "2": 61,
+          "3": 19,
+          "4": 12,
+          "5": 7,
+          "6": 4,
+          "7": 2,
+          "9": 2,
+          "10": 2,
+          "14": 2,
+          "15": 2
+        },
+        "two_member_stratum_rows": 122
+      },
+      "outer_partitions": [
+        {
+          "outer_fold": 0,
+          "training": {
+            "input_rows": 526,
+            "input_compounds": 100,
+            "strata": 324,
+            "eligible_rows": 286,
+            "eligible_compounds": 63,
+            "excluded_rows": 240,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 41,
+              "3": 22,
+              "4": 11,
+              "6": 2,
+              "7": 2,
+              "9": 2,
+              "12": 2,
+              "13": 2
+            },
+            "two_member_stratum_rows": 82
+          },
+          "test": {
+            "input_rows": 152,
+            "input_compounds": 26,
+            "strata": 136,
+            "eligible_rows": 32,
+            "eligible_compounds": 10,
+            "excluded_rows": 120,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 16
+            },
+            "two_member_stratum_rows": 32
+          },
+          "inner_seed": 20262116,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 350,
+                "input_compounds": 66,
+                "strata": 245,
+                "eligible_rows": 157,
+                "eligible_compounds": 37,
+                "excluded_rows": 193,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 35,
+                  "3": 9,
+                  "4": 2,
+                  "8": 4,
+                  "10": 2
+                },
+                "two_member_stratum_rows": 70
+              },
+              "validation": {
+                "input_rows": 176,
+                "input_compounds": 34,
+                "strata": 137,
+                "eligible_rows": 54,
+                "eligible_compounds": 12,
+                "excluded_rows": 122,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 3,
+                  "3": 6,
+                  "4": 2,
+                  "5": 2,
+                  "6": 2
+                },
+                "two_member_stratum_rows": 6
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 351,
+                "input_compounds": 67,
+                "strata": 249,
+                "eligible_rows": 157,
+                "eligible_compounds": 34,
+                "excluded_rows": 194,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 34,
+                  "3": 9,
+                  "4": 4,
+                  "5": 4,
+                  "6": 2,
+                  "7": 2
+                },
+                "two_member_stratum_rows": 68
+              },
+              "validation": {
+                "input_rows": 175,
+                "input_compounds": 33,
+                "strata": 118,
+                "eligible_rows": 84,
+                "eligible_compounds": 16,
+                "excluded_rows": 91,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 21,
+                  "6": 2,
+                  "7": 2,
+                  "8": 2
+                },
+                "two_member_stratum_rows": 42
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 351,
+                "input_compounds": 67,
+                "strata": 231,
+                "eligible_rows": 168,
+                "eligible_compounds": 37,
+                "excluded_rows": 183,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 26,
+                  "3": 12,
+                  "5": 2,
+                  "6": 2,
+                  "7": 2,
+                  "11": 4
+                },
+                "two_member_stratum_rows": 52
+              },
+              "validation": {
+                "input_rows": 175,
+                "input_compounds": 33,
+                "strata": 165,
+                "eligible_rows": 20,
+                "eligible_compounds": 7,
+                "excluded_rows": 155,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 10
+                },
+                "two_member_stratum_rows": 20
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 1,
+          "training": {
+            "input_rows": 549,
+            "input_compounds": 101,
+            "strata": 339,
+            "eligible_rows": 303,
+            "eligible_compounds": 66,
+            "excluded_rows": 246,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 43,
+              "3": 23,
+              "4": 13,
+              "5": 8,
+              "7": 2,
+              "10": 2,
+              "11": 2
+            },
+            "two_member_stratum_rows": 86
+          },
+          "test": {
+            "input_rows": 129,
+            "input_compounds": 25,
+            "strata": 92,
+            "eligible_rows": 58,
+            "eligible_compounds": 13,
+            "excluded_rows": 71,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 15,
+              "3": 2,
+              "5": 2,
+              "6": 2
+            },
+            "two_member_stratum_rows": 30
+          },
+          "inner_seed": 20263125,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 361,
+                "input_compounds": 67,
+                "strata": 260,
+                "eligible_rows": 173,
+                "eligible_compounds": 39,
+                "excluded_rows": 188,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 57,
+                  "3": 11,
+                  "6": 2,
+                  "7": 2
+                },
+                "two_member_stratum_rows": 114
+              },
+              "validation": {
+                "input_rows": 188,
+                "input_compounds": 34,
+                "strata": 140,
+                "eligible_rows": 78,
+                "eligible_compounds": 17,
+                "excluded_rows": 110,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 18,
+                  "3": 6,
+                  "4": 6
+                },
+                "two_member_stratum_rows": 36
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 370,
+                "input_compounds": 67,
+                "strata": 237,
+                "eligible_rows": 199,
+                "eligible_compounds": 40,
+                "excluded_rows": 171,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 35,
+                  "3": 13,
+                  "4": 6,
+                  "5": 6,
+                  "6": 6
+                },
+                "two_member_stratum_rows": 70
+              },
+              "validation": {
+                "input_rows": 179,
+                "input_compounds": 34,
+                "strata": 162,
+                "eligible_rows": 24,
+                "eligible_compounds": 7,
+                "excluded_rows": 155,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 3,
+                  "4": 2,
+                  "5": 2
+                },
+                "two_member_stratum_rows": 6
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 367,
+                "input_compounds": 68,
+                "strata": 260,
+                "eligible_rows": 165,
+                "eligible_compounds": 39,
+                "excluded_rows": 202,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 35,
+                  "3": 17,
+                  "5": 2,
+                  "8": 2,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 70
+              },
+              "validation": {
+                "input_rows": 182,
+                "input_compounds": 33,
+                "strata": 147,
+                "eligible_rows": 68,
+                "eligible_compounds": 15,
+                "excluded_rows": 114,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 31,
+                  "3": 2
+                },
+                "two_member_stratum_rows": 62
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 2,
+          "training": {
+            "input_rows": 545,
+            "input_compounds": 101,
+            "strata": 329,
+            "eligible_rows": 306,
+            "eligible_compounds": 65,
+            "excluded_rows": 239,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 46,
+              "3": 22,
+              "4": 8,
+              "5": 2,
+              "6": 4,
+              "8": 2,
+              "9": 2,
+              "11": 2,
+              "13": 2
+            },
+            "two_member_stratum_rows": 92
+          },
+          "test": {
+            "input_rows": 133,
+            "input_compounds": 25,
+            "strata": 118,
+            "eligible_rows": 28,
+            "eligible_compounds": 7,
+            "excluded_rows": 105,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 11,
+              "3": 2
+            },
+            "two_member_stratum_rows": 22
+          },
+          "inner_seed": 20264134,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 367,
+                "input_compounds": 67,
+                "strata": 235,
+                "eligible_rows": 184,
+                "eligible_compounds": 41,
+                "excluded_rows": 183,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 18,
+                  "3": 16,
+                  "4": 8,
+                  "5": 4,
+                  "7": 2,
+                  "8": 2,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 36
+              },
+              "validation": {
+                "input_rows": 178,
+                "input_compounds": 34,
+                "strata": 152,
+                "eligible_rows": 40,
+                "eligible_compounds": 10,
+                "excluded_rows": 138,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 8,
+                  "3": 2,
+                  "4": 2,
+                  "5": 2
+                },
+                "two_member_stratum_rows": 16
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 359,
+                "input_compounds": 67,
+                "strata": 239,
+                "eligible_rows": 182,
+                "eligible_compounds": 37,
+                "excluded_rows": 177,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 40,
+                  "3": 8,
+                  "4": 6,
+                  "5": 2,
+                  "7": 4,
+                  "8": 2
+                },
+                "two_member_stratum_rows": 80
+              },
+              "validation": {
+                "input_rows": 186,
+                "input_compounds": 34,
+                "strata": 137,
+                "eligible_rows": 78,
+                "eligible_compounds": 18,
+                "excluded_rows": 108,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 17,
+                  "3": 6,
+                  "4": 4,
+                  "5": 2
+                },
+                "two_member_stratum_rows": 34
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 364,
+                "input_compounds": 68,
+                "strata": 257,
+                "eligible_rows": 162,
+                "eligible_compounds": 39,
+                "excluded_rows": 202,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 35,
+                  "3": 10,
+                  "4": 4,
+                  "7": 4,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 70
+              },
+              "validation": {
+                "input_rows": 181,
+                "input_compounds": 33,
+                "strata": 135,
+                "eligible_rows": 74,
+                "eligible_compounds": 17,
+                "excluded_rows": 107,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 16,
+                  "3": 6,
+                  "4": 6
+                },
+                "two_member_stratum_rows": 32
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 3,
+          "training": {
+            "input_rows": 551,
+            "input_compounds": 101,
+            "strata": 349,
+            "eligible_rows": 294,
+            "eligible_compounds": 63,
+            "excluded_rows": 257,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 60,
+              "3": 5,
+              "4": 12,
+              "5": 5,
+              "7": 2,
+              "8": 2,
+              "9": 4,
+              "10": 2
+            },
+            "two_member_stratum_rows": 120
+          },
+          "test": {
+            "input_rows": 127,
+            "input_compounds": 25,
+            "strata": 91,
+            "eligible_rows": 56,
+            "eligible_compounds": 12,
+            "excluded_rows": 71,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 12,
+              "3": 4,
+              "5": 4
+            },
+            "two_member_stratum_rows": 24
+          },
+          "inner_seed": 20265143,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 377,
+                "input_compounds": 67,
+                "strata": 253,
+                "eligible_rows": 186,
+                "eligible_compounds": 37,
+                "excluded_rows": 191,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 38,
+                  "3": 8,
+                  "4": 4,
+                  "5": 6,
+                  "6": 2,
+                  "7": 4
+                },
+                "two_member_stratum_rows": 76
+              },
+              "validation": {
+                "input_rows": 174,
+                "input_compounds": 34,
+                "strata": 145,
+                "eligible_rows": 51,
+                "eligible_compounds": 15,
+                "excluded_rows": 123,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 17,
+                  "3": 3,
+                  "4": 2
+                },
+                "two_member_stratum_rows": 34
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 369,
+                "input_compounds": 67,
+                "strata": 271,
+                "eligible_rows": 153,
+                "eligible_compounds": 33,
+                "excluded_rows": 216,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 32,
+                  "3": 11,
+                  "4": 6,
+                  "5": 4,
+                  "6": 2
+                },
+                "two_member_stratum_rows": 64
+              },
+              "validation": {
+                "input_rows": 182,
+                "input_compounds": 34,
+                "strata": 143,
+                "eligible_rows": 58,
+                "eligible_compounds": 14,
+                "excluded_rows": 124,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 11,
+                  "3": 2,
+                  "4": 2,
+                  "5": 2,
+                  "6": 2
+                },
+                "two_member_stratum_rows": 22
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 356,
+                "input_compounds": 68,
+                "strata": 245,
+                "eligible_rows": 167,
+                "eligible_compounds": 41,
+                "excluded_rows": 189,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 37,
+                  "3": 7,
+                  "4": 6,
+                  "7": 2,
+                  "8": 2,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 74
+              },
+              "validation": {
+                "input_rows": 195,
+                "input_compounds": 33,
+                "strata": 156,
+                "eligible_rows": 70,
+                "eligible_compounds": 14,
+                "excluded_rows": 125,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 25,
+                  "3": 4,
+                  "4": 2
+                },
+                "two_member_stratum_rows": 50
+              }
+            }
+          ]
+        },
+        {
+          "outer_fold": 4,
+          "training": {
+            "input_rows": 541,
+            "input_compounds": 101,
+            "strata": 326,
+            "eligible_rows": 313,
+            "eligible_compounds": 67,
+            "excluded_rows": 228,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 62,
+              "3": 15,
+              "4": 7,
+              "5": 4,
+              "6": 4,
+              "9": 2,
+              "13": 2,
+              "14": 2
+            },
+            "two_member_stratum_rows": 124
+          },
+          "test": {
+            "input_rows": 137,
+            "input_compounds": 25,
+            "strata": 118,
+            "eligible_rows": 34,
+            "eligible_compounds": 7,
+            "excluded_rows": 103,
+            "same_compound_within_stratum_duplicate_rows": 0,
+            "eligible_stratum_sizes": {
+              "2": 11,
+              "3": 4
+            },
+            "two_member_stratum_rows": 22
+          },
+          "inner_seed": 20266152,
+          "inner_partitions": [
+            {
+              "inner_fold": 0,
+              "training": {
+                "input_rows": 353,
+                "input_compounds": 67,
+                "strata": 235,
+                "eligible_rows": 178,
+                "eligible_compounds": 38,
+                "excluded_rows": 175,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 48,
+                  "3": 2,
+                  "5": 2,
+                  "6": 2,
+                  "7": 2,
+                  "9": 2,
+                  "11": 2
+                },
+                "two_member_stratum_rows": 96
+              },
+              "validation": {
+                "input_rows": 188,
+                "input_compounds": 34,
+                "strata": 146,
+                "eligible_rows": 70,
+                "eligible_compounds": 16,
+                "excluded_rows": 118,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 18,
+                  "3": 6,
+                  "4": 4
+                },
+                "two_member_stratum_rows": 36
+              }
+            },
+            {
+              "inner_fold": 1,
+              "training": {
+                "input_rows": 360,
+                "input_compounds": 67,
+                "strata": 238,
+                "eligible_rows": 182,
+                "eligible_compounds": 39,
+                "excluded_rows": 178,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 36,
+                  "3": 12,
+                  "4": 4,
+                  "5": 2,
+                  "7": 2,
+                  "8": 2,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 72
+              },
+              "validation": {
+                "input_rows": 181,
+                "input_compounds": 34,
+                "strata": 136,
+                "eligible_rows": 68,
+                "eligible_compounds": 15,
+                "excluded_rows": 113,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 15,
+                  "4": 2,
+                  "5": 6
+                },
+                "two_member_stratum_rows": 30
+              }
+            },
+            {
+              "inner_fold": 2,
+              "training": {
+                "input_rows": 369,
+                "input_compounds": 68,
+                "strata": 246,
+                "eligible_rows": 183,
+                "eligible_compounds": 41,
+                "excluded_rows": 186,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 32,
+                  "3": 15,
+                  "4": 5,
+                  "5": 4,
+                  "8": 2,
+                  "9": 2
+                },
+                "two_member_stratum_rows": 64
+              },
+              "validation": {
+                "input_rows": 172,
+                "input_compounds": 33,
+                "strata": 127,
+                "eligible_rows": 72,
+                "eligible_compounds": 16,
+                "excluded_rows": 100,
+                "same_compound_within_stratum_duplicate_rows": 0,
+                "eligible_stratum_sizes": {
+                  "2": 21,
+                  "4": 2,
+                  "5": 2,
+                  "6": 2
+                },
+                "two_member_stratum_rows": 42
+              }
+            }
+          ]
+        }
+      ],
+      "pooled_eligible_outer_test_rows": 208,
+      "pooled_eligible_outer_test_compounds": 49,
+      "pooled_outer_test_two_member_stratum_rows": 130
+    }
+  },
+  "interpretation": [
+    "Source-exposure mismatch holds donor rat measurement time and administered molar concentration equal to query, while all query chemical/context features remain original.",
+    "Donor-paired human concentration is not supplied to the query; its equality is a stricter secondary restriction.",
+    "Administered molar concentration equality does not establish equal intracellular exposure.",
+    "Twenty predetermined mismatch seeds are a sensitivity ensemble, not biological replication or an exact conditional-randomization p-value.",
+    "212 primary eligible test rows belong to two-member strata; these rows admit only one wrong donor. Save duplicate-map diagnostics.",
+    "Rowwise exchanges do not preserve a fixed donor-compound mapping across a query compound entire time/dose trajectory.",
+    "Chemical structure and animal-response conditional distribution is intentionally broken by this negative control; causal or formal-exchangeability claims are not established.",
+    "New eligible-cohort performance must not be conflated with the older678-row4.97% comparison."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "dataset": "GSE249010",
+  "sources": {
+    "geo_entry": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249010",
+    "processed_matrix": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249010/matrix/GSE249010_processed_data_TPM.txt.gz",
+    "family_soft": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249010/soft/GSE249010_family.soft.gz",
+    "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11681734/"
+  },
+  "downloaded_files": {
+    "GSE249010_processed_data_TPM.txt.gz": {
+      "sha256": "3561e862eade1bcc0bf156ab46b3b69d62d4c5dd9b7c7d0a5d2e8f53114dbeca",
+      "bytes": 31699025
+    },
+    "GSE249010_family.soft.gz": {
+      "sha256": "9d361d672168954264f34c76536feb2db3d6803511d3d2e2d9005218446ef194",
+      "bytes": 36030
+    }
+  },
+  "processing": {
+    "expression_transform": "log2(max(TPM,0)+1)",
+    "response": "treated minus matched same-subject/time zero-dose control",
+    "selected_doses_ng_ml": [
+      10,
+      1000
+    ],
+    "selected_times_h": [
+      2,
+      6,
+      24
+    ],
+    "n_species": 10,
+    "n_samples": 524,
+    "n_genes": 25638,
+    "n_response_rows": 388,
+    "source_mean": "equal-weight mean over source species, after subject mean",
+    "bootstrap": "2000 paired subject-level resamples within species/task",
+    "seed": 20260923
+  }
+}

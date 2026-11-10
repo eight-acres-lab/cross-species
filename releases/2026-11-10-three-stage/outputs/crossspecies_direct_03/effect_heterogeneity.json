@@ -1,0 +1,379 @@
+{
+  "date": "2026-11-08",
+  "status": "descriptive_summary_of_frozen_outputs",
+  "scope": "Post-report read-only effect heterogeneity description. No new model, hypothesis threshold, outcome-based cohort, gene selection or exclusion is introduced. All previously specified results remain intact.",
+  "regimes": {
+    "source_exposure_v1": {
+      "input_report": "/Users/zhi/train/outputs/crossspecies_direct_03/source_exposure_v1/report.json",
+      "input_report_sha256": "abc8a0063ae0f8d277ca18a890115c7d16cd05cba717394df2fc804a2636213c",
+      "rows": 467,
+      "compounds": 107,
+      "genes": 10358,
+      "comparison": {
+        "reference": "prior",
+        "method": "correct_fit_correct_query",
+        "delta_definition": "MSE(no-animal chemical/context prior) minus MSE(correct-fit/correct-query animal model), each compound equally weighted after within-compound condition averaging"
+      },
+      "compound_counts": {
+        "benefit": 76,
+        "harm": 31,
+        "exact_tie": 0,
+        "benefit_fraction": 0.7102803738317757,
+        "harm_fraction": 0.2897196261682243
+      },
+      "per_compound_absolute_delta": {
+        "mean": 0.001702158834791765,
+        "median": 0.0007106364450737493,
+        "minimum": -0.013321399274647455,
+        "maximum": 0.024888221640567976,
+        "quantiles_10_25_75_90": [
+          -0.002285985068106075,
+          -0.00014121188755529708,
+          0.0022813422938393717,
+          0.00544178578195461
+        ]
+      },
+      "gain_sums": {
+        "positive_only": 0.24428065983283442,
+        "negative_only": -0.062149664510115596,
+        "net": 0.18213099532271887
+      },
+      "effect_concentration": {
+        "top_1": {
+          "count": 1,
+          "absolute_delta_sum": 0.024888221640567976,
+          "share_of_net_total_gain": 0.13665011601385257,
+          "share_of_sum_of_positive_gains": 0.10188371710474102,
+          "definition": "Rank by observed per-compound baseline-minus-correct-pair MSE; descriptive concentration of effect only, no samples excluded or refitted."
+        },
+        "top_5": {
+          "count": 5,
+          "absolute_delta_sum": 0.09028273735078639,
+          "share_of_net_total_gain": 0.4957022125246388,
+          "share_of_sum_of_positive_gains": 0.36958610400253733,
+          "definition": "Rank by observed per-compound baseline-minus-correct-pair MSE; descriptive concentration of effect only, no samples excluded or refitted."
+        },
+        "top_10": {
+          "count": 10,
+          "absolute_delta_sum": 0.13701547194072528,
+          "share_of_net_total_gain": 0.7522907987075282,
+          "share_of_sum_of_positive_gains": 0.5608936541864894,
+          "definition": "Rank by observed per-compound baseline-minus-correct-pair MSE; descriptive concentration of effect only, no samples excluded or refitted."
+        }
+      },
+      "largest_five_gains": [
+        {
+          "compound": "cycloheximide",
+          "absolute_mse_delta": 0.024888221640567976
+        },
+        {
+          "compound": "ethionine",
+          "absolute_mse_delta": 0.01837280973200764
+        },
+        {
+          "compound": "sulindac",
+          "absolute_mse_delta": 0.016087067105454683
+        },
+        {
+          "compound": "propylthiouracil",
+          "absolute_mse_delta": 0.015867032439164555
+        },
+        {
+          "compound": "colchicine",
+          "absolute_mse_delta": 0.015067606433591535
+        }
+      ],
+      "largest_five_harms": [
+        {
+          "compound": "omeprazole",
+          "absolute_mse_delta": -0.013321399274647455
+        },
+        {
+          "compound": "acetaminophen",
+          "absolute_mse_delta": -0.010352131505839746
+        },
+        {
+          "compound": "phenobarbital",
+          "absolute_mse_delta": -0.00358671955294515
+        },
+        {
+          "compound": "imipramine",
+          "absolute_mse_delta": -0.003085372193856642
+        },
+        {
+          "compound": "quinidine",
+          "absolute_mse_delta": -0.002842702695685595
+        }
+      ],
+      "arms_seed_summary": {
+        "prior": {
+          "mse_min_median_max": [
+            0.03924788285972164,
+            0.03924788285972164,
+            0.03924788285972164
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "seeds_better_than_prior": 0,
+          "seeds_worse_than_prior": 0,
+          "seeds_worse_than_correct_pairing": 20
+        },
+        "correct_fit_correct_query": {
+          "mse_min_median_max": [
+            0.03754572402492987,
+            0.03754572402492987,
+            0.03754572402492987
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            0.04336944341368833,
+            0.04336944341368833,
+            0.04336944341368833
+          ],
+          "seeds_better_than_prior": 20,
+          "seeds_worse_than_prior": 0,
+          "seeds_worse_than_correct_pairing": 0
+        },
+        "correct_fit_wrong_query": {
+          "mse_min_median_max": [
+            0.04019975780560183,
+            0.04039155640917527,
+            0.04055041532428601
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            -0.03318733061907651,
+            -0.029139751398599163,
+            -0.024252899176303317
+          ],
+          "seeds_better_than_prior": 0,
+          "seeds_worse_than_prior": 20,
+          "seeds_worse_than_correct_pairing": 20
+        },
+        "wrong_fit_correct_query": {
+          "mse_min_median_max": [
+            0.039084278156408775,
+            0.03924548825090503,
+            0.03949428842458334
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            -0.006278187430960238,
+            6.101243282768337e-05,
+            0.004168497544125222
+          ],
+          "seeds_better_than_prior": 11,
+          "seeds_worse_than_prior": 9,
+          "seeds_worse_than_correct_pairing": 20
+        },
+        "wrong_fit_wrong_query": {
+          "mse_min_median_max": [
+            0.039471676365148575,
+            0.039557576823003655,
+            0.03976907704201194
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            -0.013279548967090452,
+            -0.007890717682503115,
+            -0.005702052929244896
+          ],
+          "seeds_better_than_prior": 0,
+          "seeds_worse_than_prior": 20,
+          "seeds_worse_than_correct_pairing": 20
+        }
+      },
+      "interpretation": "Benefit direction is positive for a majority, while absolute effect magnitudes are skewed; neither the mean improvement nor the positive fraction establishes uniform task benefit."
+    },
+    "paired_exposure_v1": {
+      "input_report": "/Users/zhi/train/outputs/crossspecies_direct_03/paired_exposure_v1/report.json",
+      "input_report_sha256": "8f56ad9c0915d308c65cf09fa26c9fa28098a7b7c9ccbdee0941004206cce614",
+      "rows": 208,
+      "compounds": 49,
+      "genes": 10358,
+      "comparison": {
+        "reference": "prior",
+        "method": "correct_fit_correct_query",
+        "delta_definition": "MSE(no-animal chemical/context prior) minus MSE(correct-fit/correct-query animal model), each compound equally weighted after within-compound condition averaging"
+      },
+      "compound_counts": {
+        "benefit": 32,
+        "harm": 17,
+        "exact_tie": 0,
+        "benefit_fraction": 0.6530612244897959,
+        "harm_fraction": 0.3469387755102041
+      },
+      "per_compound_absolute_delta": {
+        "mean": 0.001402506884004533,
+        "median": 0.0003195842369298641,
+        "minimum": -0.008855219311102558,
+        "maximum": 0.015956105958212084,
+        "quantiles_10_25_75_90": [
+          -0.000925397006300628,
+          -0.0003023715032038493,
+          0.0017738371310393394,
+          0.00585910461649159
+        ]
+      },
+      "gain_sums": {
+        "positive_only": 0.09325946531371063,
+        "negative_only": -0.024536627997488517,
+        "net": 0.06872283731622211
+      },
+      "effect_concentration": {
+        "top_1": {
+          "count": 1,
+          "absolute_delta_sum": 0.015956105958212084,
+          "share_of_net_total_gain": 0.23218054698166,
+          "share_of_sum_of_positive_gains": 0.17109368903776337,
+          "definition": "Rank by observed per-compound baseline-minus-correct-pair MSE; descriptive concentration of effect only, no samples excluded or refitted."
+        },
+        "top_5": {
+          "count": 5,
+          "absolute_delta_sum": 0.055118411019622074,
+          "share_of_net_total_gain": 0.8020392226531559,
+          "share_of_sum_of_positive_gains": 0.5910221641761738,
+          "definition": "Rank by observed per-compound baseline-minus-correct-pair MSE; descriptive concentration of effect only, no samples excluded or refitted."
+        },
+        "top_10": {
+          "count": 10,
+          "absolute_delta_sum": 0.07605499473317598,
+          "share_of_net_total_gain": 1.1066917156405458,
+          "share_of_sum_of_positive_gains": 0.8155203815220103,
+          "definition": "Rank by observed per-compound baseline-minus-correct-pair MSE; descriptive concentration of effect only, no samples excluded or refitted."
+        }
+      },
+      "largest_five_gains": [
+        {
+          "compound": "ketoconazole",
+          "absolute_mse_delta": 0.015956105958212084
+        },
+        {
+          "compound": "propylthiouracil",
+          "absolute_mse_delta": 0.014335556101380043
+        },
+        {
+          "compound": "ranitidine",
+          "absolute_mse_delta": 0.011322336477005708
+        },
+        {
+          "compound": "cyclosporine_A",
+          "absolute_mse_delta": 0.007511672695965907
+        },
+        {
+          "compound": "theophylline",
+          "absolute_mse_delta": 0.005992739787058332
+        }
+      ],
+      "largest_five_harms": [
+        {
+          "compound": "phenobarbital",
+          "absolute_mse_delta": -0.008855219311102558
+        },
+        {
+          "compound": "isoniazid",
+          "absolute_mse_delta": -0.004935983780695798
+        },
+        {
+          "compound": "nitrosodiethylamine",
+          "absolute_mse_delta": -0.0027741534843471714
+        },
+        {
+          "compound": "enalapril",
+          "absolute_mse_delta": -0.0022613975642383002
+        },
+        {
+          "compound": "ethionamide",
+          "absolute_mse_delta": -0.001061885066179817
+        }
+      ],
+      "arms_seed_summary": {
+        "prior": {
+          "mse_min_median_max": [
+            0.03531647334761236,
+            0.03531647334761236,
+            0.03531647334761236
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "seeds_better_than_prior": 0,
+          "seeds_worse_than_prior": 0,
+          "seeds_worse_than_correct_pairing": 20
+        },
+        "correct_fit_correct_query": {
+          "mse_min_median_max": [
+            0.03391396646360783,
+            0.03391396646360783,
+            0.03391396646360783
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            0.0397125406662199,
+            0.0397125406662199,
+            0.0397125406662199
+          ],
+          "seeds_better_than_prior": 20,
+          "seeds_worse_than_prior": 0,
+          "seeds_worse_than_correct_pairing": 0
+        },
+        "correct_fit_wrong_query": {
+          "mse_min_median_max": [
+            0.03674564002747358,
+            0.037094944120525136,
+            0.037377602598799284
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            -0.05836169514718191,
+            -0.05035810782712303,
+            -0.04046742339741143
+          ],
+          "seeds_better_than_prior": 0,
+          "seeds_worse_than_prior": 20,
+          "seeds_worse_than_correct_pairing": 20
+        },
+        "wrong_fit_correct_query": {
+          "mse_min_median_max": [
+            0.03487319395816684,
+            0.03496059804136813,
+            0.03511256137165021
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            0.005773848763297635,
+            0.010076750946829551,
+            0.012551632352483579
+          ],
+          "seeds_better_than_prior": 20,
+          "seeds_worse_than_prior": 0,
+          "seeds_worse_than_correct_pairing": 20
+        },
+        "wrong_fit_wrong_query": {
+          "mse_min_median_max": [
+            0.035262949094606436,
+            0.03536236329707623,
+            0.03548145475131291
+          ],
+          "relative_mse_reduction_over_prior_min_median_max": [
+            -0.004671514114013528,
+            -0.001299392184836455,
+            0.0015155605283430607
+          ],
+          "seeds_better_than_prior": 2,
+          "seeds_worse_than_prior": 18,
+          "seeds_worse_than_correct_pairing": 20
+        }
+      },
+      "interpretation": "Benefit direction is positive for a majority, while absolute effect magnitudes are skewed; neither the mean improvement nor the positive fraction establishes uniform task benefit."
+    }
+  },
+  "limitations": [
+    "The20 mismatch seeds are dependent nuisance variations. Correct and no-animal predictions are identical across their20 repeated slots and count once for effect heterogeneity.",
+    "A top-k share of net benefit can exceed100% because harmed compounds subtract from the total. Positive-only and net-denominator shares are both given to avoid misleading concentration claims.",
+    "Top-ranked compounds are descriptive examples, not a premeasurement recommendation or a new confirmed subgroup.",
+    "The chemical/context query features remain fixed during animal mismatch. The substituted rat profile belongs to a different compound, so molecular/source compatibility is intentionally broken; this is a predictive negative control, not an exact causal or conditional-randomization intervention.",
+    "Rowwise same-time/same-rat-molar exchanges do not preserve a single donor-compound trajectory across a query compound time/dose sequence.",
+    "The paired-exposure sensitivity changes both training and evaluation support. Its lower absolute MSE and smaller cohort cannot be treated as a controlled effect of tighter matching alone.",
+    "Historical joint RMA, prior outcome inspection, condition-level replicate averaging, one animal species and one broad liver context remain limitations.",
+    "Correct pairing outperforms all tested mismatched seed runs in both regimes. In the stricter regime, wrong-fit/correct-query still modestly outperforms the specified prior; pairing loss must not be described as universally removing all animal-associated gain."
+  ]
+}

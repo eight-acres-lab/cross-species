@@ -1,0 +1,1811 @@
+{
+  "history": [
+    {
+      "step": 1,
+      "condition": "4-1BBL",
+      "donor": "Donor7",
+      "native_energy": 0.4127216339111328,
+      "reference_output_mse": 0.0,
+      "objective": 0.4127216339111328,
+      "gradient_norm": 2.1967852115631104
+    },
+    {
+      "step": 2,
+      "condition": "PRL",
+      "donor": "Donor12",
+      "native_energy": 0.39015769958496094,
+      "reference_output_mse": 8.907933079171926e-06,
+      "objective": 0.39015769958496094,
+      "gradient_norm": 1.7542510032653809
+    },
+    {
+      "step": 3,
+      "condition": "IL-34",
+      "donor": "Donor7",
+      "native_energy": 0.30117225646972656,
+      "reference_output_mse": 5.7872821344062686e-05,
+      "objective": 0.30117225646972656,
+      "gradient_norm": 1.4969482421875
+    },
+    {
+      "step": 4,
+      "condition": "4-1BBL",
+      "donor": "Donor7",
+      "native_energy": 0.36038684844970703,
+      "reference_output_mse": 0.00039830358582548797,
+      "objective": 0.36038684844970703,
+      "gradient_norm": 1.9299120903015137
+    },
+    {
+      "step": 5,
+      "condition": "IL-17C",
+      "donor": "Donor1",
+      "native_energy": 0.3668556213378906,
+      "reference_output_mse": 4.575618004309945e-05,
+      "objective": 0.3668556213378906,
+      "gradient_norm": 1.9652810096740723
+    },
+    {
+      "step": 6,
+      "condition": "CD30L",
+      "donor": "Donor3",
+      "native_energy": 0.6828670501708984,
+      "reference_output_mse": 7.938937051221728e-05,
+      "objective": 0.6828670501708984,
+      "gradient_norm": 3.2555768489837646
+    },
+    {
+      "step": 7,
+      "condition": "EPO",
+      "donor": "Donor6",
+      "native_energy": 0.3487691879272461,
+      "reference_output_mse": 6.728139851475134e-05,
+      "objective": 0.3487691879272461,
+      "gradient_norm": 1.6626904010772705
+    },
+    {
+      "step": 8,
+      "condition": "PRL",
+      "donor": "Donor3",
+      "native_energy": 0.6146574020385742,
+      "reference_output_mse": 0.00012083960609743372,
+      "objective": 0.6146574020385742,
+      "gradient_norm": 2.8381845951080322
+    },
+    {
+      "step": 9,
+      "condition": "IL-34",
+      "donor": "Donor7",
+      "native_energy": 0.27114105224609375,
+      "reference_output_mse": 0.0005967853940092027,
+      "objective": 0.27114105224609375,
+      "gradient_norm": 1.3046435117721558
+    },
+    {
+      "step": 10,
+      "condition": "ADSF",
+      "donor": "Donor7",
+      "native_energy": 0.31617164611816406,
+      "reference_output_mse": 0.00044407675159163773,
+      "objective": 0.31617164611816406,
+      "gradient_norm": 1.588922381401062
+    },
+    {
+      "step": 11,
+      "condition": "EPO",
+      "donor": "Donor7",
+      "native_energy": 0.31831932067871094,
+      "reference_output_mse": 0.0005913514760322869,
+      "objective": 0.31831932067871094,
+      "gradient_norm": 1.745331883430481
+    },
+    {
+      "step": 12,
+      "condition": "4-1BBL",
+      "donor": "Donor4",
+      "native_energy": 0.28797340393066406,
+      "reference_output_mse": 0.00018622179049998522,
+      "objective": 0.28797340393066406,
+      "gradient_norm": 1.3950657844543457
+    },
+    {
+      "step": 13,
+      "condition": "IL-33",
+      "donor": "Donor9",
+      "native_energy": 0.48892688751220703,
+      "reference_output_mse": 0.00021678204939235002,
+      "objective": 0.48892688751220703,
+      "gradient_norm": 2.305767774581909
+    },
+    {
+      "step": 14,
+      "condition": "IL-2",
+      "donor": "Donor11",
+      "native_energy": 0.32854175567626953,
+      "reference_output_mse": 0.0001260891294805333,
+      "objective": 0.32854175567626953,
+      "gradient_norm": 1.384333610534668
+    },
+    {
+      "step": 15,
+      "condition": "IFN-lambda1",
+      "donor": "Donor10",
+      "native_energy": 0.3532218933105469,
+      "reference_output_mse": 0.000248248950811103,
+      "objective": 0.3532218933105469,
+      "gradient_norm": 1.8490351438522339
+    },
+    {
+      "step": 16,
+      "condition": "ADSF",
+      "donor": "Donor8",
+      "native_energy": 0.39144420623779297,
+      "reference_output_mse": 0.00035552779445424676,
+      "objective": 0.39144420623779297,
+      "gradient_norm": 2.0048749446868896
+    },
+    {
+      "step": 17,
+      "condition": "EPO",
+      "donor": "Donor11",
+      "native_energy": 0.2985258102416992,
+      "reference_output_mse": 0.00026955080102197826,
+      "objective": 0.2985258102416992,
+      "gradient_norm": 1.306024432182312
+    },
+    {
+      "step": 18,
+      "condition": "IFN-lambda1",
+      "donor": "Donor8",
+      "native_energy": 0.30846118927001953,
+      "reference_output_mse": 0.0003668958379421383,
+      "objective": 0.30846118927001953,
+      "gradient_norm": 1.5236461162567139
+    },
+    {
+      "step": 19,
+      "condition": "EPO",
+      "donor": "Donor1",
+      "native_energy": 0.29437732696533203,
+      "reference_output_mse": 0.0003580396587494761,
+      "objective": 0.29437732696533203,
+      "gradient_norm": 1.4836832284927368
+    },
+    {
+      "step": 20,
+      "condition": "IL-17C",
+      "donor": "Donor12",
+      "native_energy": 0.40350341796875,
+      "reference_output_mse": 0.0004487703263293952,
+      "objective": 0.40350341796875,
+      "gradient_norm": 1.9478663206100464
+    },
+    {
+      "step": 21,
+      "condition": "TGF-beta1",
+      "donor": "Donor9",
+      "native_energy": 0.45951080322265625,
+      "reference_output_mse": 0.0005334829329513013,
+      "objective": 0.45951080322265625,
+      "gradient_norm": 2.4143900871276855
+    },
+    {
+      "step": 22,
+      "condition": "IL-17C",
+      "donor": "Donor6",
+      "native_energy": 0.28993797302246094,
+      "reference_output_mse": 0.00035637011751532555,
+      "objective": 0.28993797302246094,
+      "gradient_norm": 1.3603417873382568
+    },
+    {
+      "step": 23,
+      "condition": "EPO",
+      "donor": "Donor6",
+      "native_energy": 0.31879425048828125,
+      "reference_output_mse": 0.00044124183477833867,
+      "objective": 0.31879425048828125,
+      "gradient_norm": 1.509266972541809
+    },
+    {
+      "step": 24,
+      "condition": "IFN-lambda1",
+      "donor": "Donor3",
+      "native_energy": 0.4880828857421875,
+      "reference_output_mse": 0.0007333682733587921,
+      "objective": 0.4880828857421875,
+      "gradient_norm": 2.472964286804199
+    },
+    {
+      "step": 25,
+      "condition": "IFN-lambda1",
+      "donor": "Donor7",
+      "native_energy": 0.2989521026611328,
+      "reference_output_mse": 0.0011190410004928708,
+      "objective": 0.2989521026611328,
+      "gradient_norm": 1.5719956159591675
+    },
+    {
+      "step": 26,
+      "condition": "IL-35",
+      "donor": "Donor10",
+      "native_energy": 0.3691864013671875,
+      "reference_output_mse": 0.00040695967618376017,
+      "objective": 0.3691864013671875,
+      "gradient_norm": 1.8484927415847778
+    },
+    {
+      "step": 27,
+      "condition": "TGF-beta1",
+      "donor": "Donor5",
+      "native_energy": 0.43532276153564453,
+      "reference_output_mse": 0.0008584677707403898,
+      "objective": 0.43532276153564453,
+      "gradient_norm": 2.5813229084014893
+    },
+    {
+      "step": 28,
+      "condition": "PRL",
+      "donor": "Donor4",
+      "native_energy": 0.29677295684814453,
+      "reference_output_mse": 0.0005343464436009526,
+      "objective": 0.29677295684814453,
+      "gradient_norm": 1.4877960681915283
+    },
+    {
+      "step": 29,
+      "condition": "TGF-beta1",
+      "donor": "Donor12",
+      "native_energy": 0.41115474700927734,
+      "reference_output_mse": 0.0009439815767109394,
+      "objective": 0.41115474700927734,
+      "gradient_norm": 1.9661129713058472
+    },
+    {
+      "step": 30,
+      "condition": "IL-24",
+      "donor": "Donor5",
+      "native_energy": 0.36023426055908203,
+      "reference_output_mse": 0.0007228990434668958,
+      "objective": 0.36023426055908203,
+      "gradient_norm": 1.8284803628921509
+    },
+    {
+      "step": 31,
+      "condition": "IL-24",
+      "donor": "Donor6",
+      "native_energy": 0.2961082458496094,
+      "reference_output_mse": 0.0005569856148213148,
+      "objective": 0.2961082458496094,
+      "gradient_norm": 1.3925588130950928
+    },
+    {
+      "step": 32,
+      "condition": "EPO",
+      "donor": "Donor2",
+      "native_energy": 0.3690452575683594,
+      "reference_output_mse": 0.0006139204488135874,
+      "objective": 0.3690452575683594,
+      "gradient_norm": 1.9795125722885132
+    },
+    {
+      "step": 33,
+      "condition": "EPO",
+      "donor": "Donor5",
+      "native_energy": 0.4434337615966797,
+      "reference_output_mse": 0.0008615812403149903,
+      "objective": 0.4434337615966797,
+      "gradient_norm": 2.377108097076416
+    },
+    {
+      "step": 34,
+      "condition": "IL-8",
+      "donor": "Donor12",
+      "native_energy": 0.37896060943603516,
+      "reference_output_mse": 0.0007265413296408951,
+      "objective": 0.37896060943603516,
+      "gradient_norm": 1.7239934206008911
+    },
+    {
+      "step": 35,
+      "condition": "EPO",
+      "donor": "Donor3",
+      "native_energy": 0.5899438858032227,
+      "reference_output_mse": 0.00118840835057199,
+      "objective": 0.5899438858032227,
+      "gradient_norm": 2.9120841026306152
+    },
+    {
+      "step": 36,
+      "condition": "IL-35",
+      "donor": "Donor2",
+      "native_energy": 0.3313789367675781,
+      "reference_output_mse": 0.0004979646764695644,
+      "objective": 0.3313789367675781,
+      "gradient_norm": 1.7029626369476318
+    },
+    {
+      "step": 37,
+      "condition": "ADSF",
+      "donor": "Donor1",
+      "native_energy": 0.3509092330932617,
+      "reference_output_mse": 0.0008345404639840126,
+      "objective": 0.3509092330932617,
+      "gradient_norm": 1.7107964754104614
+    },
+    {
+      "step": 38,
+      "condition": "IFN-lambda1",
+      "donor": "Donor4",
+      "native_energy": 0.3036460876464844,
+      "reference_output_mse": 0.0007752805249765515,
+      "objective": 0.3036460876464844,
+      "gradient_norm": 1.6531589031219482
+    },
+    {
+      "step": 39,
+      "condition": "IL-35",
+      "donor": "Donor8",
+      "native_energy": 0.39455413818359375,
+      "reference_output_mse": 0.0008023051195777953,
+      "objective": 0.39455413818359375,
+      "gradient_norm": 2.0189290046691895
+    },
+    {
+      "step": 40,
+      "condition": "IL-24",
+      "donor": "Donor11",
+      "native_energy": 0.3530292510986328,
+      "reference_output_mse": 0.0006180311902426183,
+      "objective": 0.3530292510986328,
+      "gradient_norm": 1.51871919631958
+    },
+    {
+      "step": 41,
+      "condition": "ADSF",
+      "donor": "Donor1",
+      "native_energy": 0.3411235809326172,
+      "reference_output_mse": 0.001003734883852303,
+      "objective": 0.3411235809326172,
+      "gradient_norm": 1.6482635736465454
+    },
+    {
+      "step": 42,
+      "condition": "PRL",
+      "donor": "Donor11",
+      "native_energy": 0.3264284133911133,
+      "reference_output_mse": 0.0008839252404868603,
+      "objective": 0.3264284133911133,
+      "gradient_norm": 1.493952751159668
+    },
+    {
+      "step": 43,
+      "condition": "IFN-lambda1",
+      "donor": "Donor11",
+      "native_energy": 0.28695106506347656,
+      "reference_output_mse": 0.0007970226579345763,
+      "objective": 0.28695106506347656,
+      "gradient_norm": 1.3986072540283203
+    },
+    {
+      "step": 44,
+      "condition": "IL-8",
+      "donor": "Donor9",
+      "native_energy": 0.46898841857910156,
+      "reference_output_mse": 0.001003751647658646,
+      "objective": 0.46898841857910156,
+      "gradient_norm": 2.3932838439941406
+    },
+    {
+      "step": 45,
+      "condition": "IL-2",
+      "donor": "Donor1",
+      "native_energy": 0.30640697479248047,
+      "reference_output_mse": 0.0007206899463199079,
+      "objective": 0.30640697479248047,
+      "gradient_norm": 1.5993679761886597
+    },
+    {
+      "step": 46,
+      "condition": "IL-2",
+      "donor": "Donor10",
+      "native_energy": 0.3319225311279297,
+      "reference_output_mse": 0.0006146591622382402,
+      "objective": 0.3319225311279297,
+      "gradient_norm": 1.658074140548706
+    },
+    {
+      "step": 47,
+      "condition": "IL-8",
+      "donor": "Donor1",
+      "native_energy": 0.3520927429199219,
+      "reference_output_mse": 0.0011260071769356728,
+      "objective": 0.3520927429199219,
+      "gradient_norm": 1.7854615449905396
+    },
+    {
+      "step": 48,
+      "condition": "IL-33",
+      "donor": "Donor3",
+      "native_energy": 0.5473899841308594,
+      "reference_output_mse": 0.0013902795035392046,
+      "objective": 0.5473899841308594,
+      "gradient_norm": 2.700373888015747
+    },
+    {
+      "step": 49,
+      "condition": "IL-24",
+      "donor": "Donor1",
+      "native_energy": 0.2631072998046875,
+      "reference_output_mse": 0.0009550505201332271,
+      "objective": 0.2631072998046875,
+      "gradient_norm": 1.2784842252731323
+    },
+    {
+      "step": 50,
+      "condition": "IL-17C",
+      "donor": "Donor6",
+      "native_energy": 0.26683902740478516,
+      "reference_output_mse": 0.0010387215297669172,
+      "objective": 0.26683902740478516,
+      "gradient_norm": 1.2315843105316162
+    },
+    {
+      "step": 51,
+      "condition": "IFN-lambda1",
+      "donor": "Donor6",
+      "native_energy": 0.3174095153808594,
+      "reference_output_mse": 0.000912276329472661,
+      "objective": 0.3174095153808594,
+      "gradient_norm": 1.4850746393203735
+    },
+    {
+      "step": 52,
+      "condition": "IL-24",
+      "donor": "Donor8",
+      "native_energy": 0.36281776428222656,
+      "reference_output_mse": 0.0011645446065813303,
+      "objective": 0.36281776428222656,
+      "gradient_norm": 1.9025782346725464
+    },
+    {
+      "step": 53,
+      "condition": "IL-24",
+      "donor": "Donor2",
+      "native_energy": 0.36380577087402344,
+      "reference_output_mse": 0.0010198998497799039,
+      "objective": 0.36380577087402344,
+      "gradient_norm": 1.879671335220337
+    },
+    {
+      "step": 54,
+      "condition": "ADSF",
+      "donor": "Donor3",
+      "native_energy": 0.5342721939086914,
+      "reference_output_mse": 0.002491522114723921,
+      "objective": 0.5342721939086914,
+      "gradient_norm": 2.7991034984588623
+    },
+    {
+      "step": 55,
+      "condition": "IFN-omega",
+      "donor": "Donor3",
+      "native_energy": 0.3930225372314453,
+      "reference_output_mse": 0.0010168551234528422,
+      "objective": 0.3930225372314453,
+      "gradient_norm": 2.074962615966797
+    },
+    {
+      "step": 56,
+      "condition": "TGF-beta1",
+      "donor": "Donor2",
+      "native_energy": 0.2936677932739258,
+      "reference_output_mse": 0.0016105278627946973,
+      "objective": 0.2936677932739258,
+      "gradient_norm": 1.460855484008789
+    },
+    {
+      "step": 57,
+      "condition": "IL-35",
+      "donor": "Donor4",
+      "native_energy": 0.28423023223876953,
+      "reference_output_mse": 0.0010609629098325968,
+      "objective": 0.28423023223876953,
+      "gradient_norm": 1.3501536846160889
+    },
+    {
+      "step": 58,
+      "condition": "IFN-omega",
+      "donor": "Donor3",
+      "native_energy": 0.3812856674194336,
+      "reference_output_mse": 0.0011567932087928057,
+      "objective": 0.3812856674194336,
+      "gradient_norm": 2.025987148284912
+    },
+    {
+      "step": 59,
+      "condition": "ADSF",
+      "donor": "Donor7",
+      "native_energy": 0.2788372039794922,
+      "reference_output_mse": 0.002461628522723913,
+      "objective": 0.2788372039794922,
+      "gradient_norm": 1.3513513803482056
+    },
+    {
+      "step": 60,
+      "condition": "IL-33",
+      "donor": "Donor10",
+      "native_energy": 0.39105987548828125,
+      "reference_output_mse": 0.0012558611342683434,
+      "objective": 0.39105987548828125,
+      "gradient_norm": 1.9405324459075928
+    },
+    {
+      "step": 61,
+      "condition": "IL-2",
+      "donor": "Donor5",
+      "native_energy": 0.4009065628051758,
+      "reference_output_mse": 0.0014700477477163076,
+      "objective": 0.4009065628051758,
+      "gradient_norm": 2.2945120334625244
+    },
+    {
+      "step": 62,
+      "condition": "ADSF",
+      "donor": "Donor1",
+      "native_energy": 0.30283451080322266,
+      "reference_output_mse": 0.0023649525828659534,
+      "objective": 0.30283451080322266,
+      "gradient_norm": 1.4082422256469727
+    },
+    {
+      "step": 63,
+      "condition": "IL-33",
+      "donor": "Donor8",
+      "native_energy": 0.3539857864379883,
+      "reference_output_mse": 0.0016023970674723387,
+      "objective": 0.3539857864379883,
+      "gradient_norm": 1.7621525526046753
+    },
+    {
+      "step": 64,
+      "condition": "TGF-beta1",
+      "donor": "Donor2",
+      "native_energy": 0.2793464660644531,
+      "reference_output_mse": 0.0018714097095653415,
+      "objective": 0.2793464660644531,
+      "gradient_norm": 1.3883411884307861
+    },
+    {
+      "step": 65,
+      "condition": "IL-35",
+      "donor": "Donor3",
+      "native_energy": 0.557917594909668,
+      "reference_output_mse": 0.0024473106022924185,
+      "objective": 0.557917594909668,
+      "gradient_norm": 2.5988049507141113
+    },
+    {
+      "step": 66,
+      "condition": "EPO",
+      "donor": "Donor9",
+      "native_energy": 0.3863716125488281,
+      "reference_output_mse": 0.001966399373486638,
+      "objective": 0.3863716125488281,
+      "gradient_norm": 1.9862440824508667
+    },
+    {
+      "step": 67,
+      "condition": "IL-24",
+      "donor": "Donor7",
+      "native_energy": 0.33590126037597656,
+      "reference_output_mse": 0.002478201873600483,
+      "objective": 0.33590126037597656,
+      "gradient_norm": 1.6410094499588013
+    },
+    {
+      "step": 68,
+      "condition": "IFN-lambda1",
+      "donor": "Donor2",
+      "native_energy": 0.2698841094970703,
+      "reference_output_mse": 0.0015748647274449468,
+      "objective": 0.2698841094970703,
+      "gradient_norm": 1.5062190294265747
+    },
+    {
+      "step": 69,
+      "condition": "IL-8",
+      "donor": "Donor12",
+      "native_energy": 0.3484058380126953,
+      "reference_output_mse": 0.0019714939408004284,
+      "objective": 0.3484058380126953,
+      "gradient_norm": 1.5773640871047974
+    },
+    {
+      "step": 70,
+      "condition": "IFN-gamma",
+      "donor": "Donor3",
+      "native_energy": 0.3728218078613281,
+      "reference_output_mse": 0.002768297679722309,
+      "objective": 0.3728218078613281,
+      "gradient_norm": 2.121594190597534
+    },
+    {
+      "step": 71,
+      "condition": "IL-33",
+      "donor": "Donor6",
+      "native_energy": 0.28460121154785156,
+      "reference_output_mse": 0.0014565163291990757,
+      "objective": 0.28460121154785156,
+      "gradient_norm": 1.4048010110855103
+    },
+    {
+      "step": 72,
+      "condition": "IL-35",
+      "donor": "Donor9",
+      "native_energy": 0.44464111328125,
+      "reference_output_mse": 0.0016908810939639807,
+      "objective": 0.44464111328125,
+      "gradient_norm": 2.150167465209961
+    },
+    {
+      "step": 73,
+      "condition": "IL-34",
+      "donor": "Donor3",
+      "native_energy": 0.47205543518066406,
+      "reference_output_mse": 0.0030069018248468637,
+      "objective": 0.47205543518066406,
+      "gradient_norm": 2.519040107727051
+    },
+    {
+      "step": 74,
+      "condition": "PRL",
+      "donor": "Donor11",
+      "native_energy": 0.3023948669433594,
+      "reference_output_mse": 0.0018081535818055272,
+      "objective": 0.3023948669433594,
+      "gradient_norm": 1.3690541982650757
+    },
+    {
+      "step": 75,
+      "condition": "ADSF",
+      "donor": "Donor2",
+      "native_energy": 0.3058662414550781,
+      "reference_output_mse": 0.002186564262956381,
+      "objective": 0.3058662414550781,
+      "gradient_norm": 1.5588115453720093
+    },
+    {
+      "step": 76,
+      "condition": "PRL",
+      "donor": "Donor1",
+      "native_energy": 0.3716707229614258,
+      "reference_output_mse": 0.0025965056847780943,
+      "objective": 0.3716707229614258,
+      "gradient_norm": 1.8468434810638428
+    },
+    {
+      "step": 77,
+      "condition": "ADSF",
+      "donor": "Donor3",
+      "native_energy": 0.44646549224853516,
+      "reference_output_mse": 0.005226025823503733,
+      "objective": 0.44646549224853516,
+      "gradient_norm": 2.3772926330566406
+    },
+    {
+      "step": 78,
+      "condition": "PRL",
+      "donor": "Donor3",
+      "native_energy": 0.4676990509033203,
+      "reference_output_mse": 0.0052541871555149555,
+      "objective": 0.4676990509033203,
+      "gradient_norm": 2.3750228881835938
+    },
+    {
+      "step": 79,
+      "condition": "PRL",
+      "donor": "Donor2",
+      "native_energy": 0.32241153717041016,
+      "reference_output_mse": 0.001866304548457265,
+      "objective": 0.32241153717041016,
+      "gradient_norm": 1.8597075939178467
+    },
+    {
+      "step": 80,
+      "condition": "IL-2",
+      "donor": "Donor12",
+      "native_energy": 0.36110591888427734,
+      "reference_output_mse": 0.0012681770604103804,
+      "objective": 0.36110591888427734,
+      "gradient_norm": 1.638602375984192
+    },
+    {
+      "step": 81,
+      "condition": "EPO",
+      "donor": "Donor4",
+      "native_energy": 0.26369476318359375,
+      "reference_output_mse": 0.0020423533860594034,
+      "objective": 0.26369476318359375,
+      "gradient_norm": 1.277796745300293
+    },
+    {
+      "step": 82,
+      "condition": "IL-2",
+      "donor": "Donor11",
+      "native_energy": 0.3089752197265625,
+      "reference_output_mse": 0.0011400488438084722,
+      "objective": 0.3089752197265625,
+      "gradient_norm": 1.3017361164093018
+    },
+    {
+      "step": 83,
+      "condition": "4-1BBL",
+      "donor": "Donor2",
+      "native_energy": 0.3227052688598633,
+      "reference_output_mse": 0.0017270217649638653,
+      "objective": 0.3227052688598633,
+      "gradient_norm": 1.7177389860153198
+    },
+    {
+      "step": 84,
+      "condition": "IL-2",
+      "donor": "Donor11",
+      "native_energy": 0.3061180114746094,
+      "reference_output_mse": 0.0011954461224377155,
+      "objective": 0.3061180114746094,
+      "gradient_norm": 1.286536693572998
+    },
+    {
+      "step": 85,
+      "condition": "CD30L",
+      "donor": "Donor10",
+      "native_energy": 0.30944252014160156,
+      "reference_output_mse": 0.00236954796127975,
+      "objective": 0.30944252014160156,
+      "gradient_norm": 1.5786795616149902
+    },
+    {
+      "step": 86,
+      "condition": "CD30L",
+      "donor": "Donor11",
+      "native_energy": 0.30633544921875,
+      "reference_output_mse": 0.0019364019390195608,
+      "objective": 0.30633544921875,
+      "gradient_norm": 1.3940532207489014
+    },
+    {
+      "step": 87,
+      "condition": "EPO",
+      "donor": "Donor4",
+      "native_energy": 0.2561492919921875,
+      "reference_output_mse": 0.0022210944443941116,
+      "objective": 0.2561492919921875,
+      "gradient_norm": 1.232082724571228
+    },
+    {
+      "step": 88,
+      "condition": "IL-8",
+      "donor": "Donor12",
+      "native_energy": 0.32581233978271484,
+      "reference_output_mse": 0.002876316662877798,
+      "objective": 0.32581233978271484,
+      "gradient_norm": 1.4742379188537598
+    },
+    {
+      "step": 89,
+      "condition": "IL-24",
+      "donor": "Donor2",
+      "native_energy": 0.3178138732910156,
+      "reference_output_mse": 0.00247189705260098,
+      "objective": 0.3178138732910156,
+      "gradient_norm": 1.6188589334487915
+    },
+    {
+      "step": 90,
+      "condition": "CD30L",
+      "donor": "Donor4",
+      "native_energy": 0.3448829650878906,
+      "reference_output_mse": 0.002326239598914981,
+      "objective": 0.3448829650878906,
+      "gradient_norm": 1.7846826314926147
+    },
+    {
+      "step": 91,
+      "condition": "IFN-omega",
+      "donor": "Donor8",
+      "native_energy": 0.3329753875732422,
+      "reference_output_mse": 0.0018909374484792352,
+      "objective": 0.3329753875732422,
+      "gradient_norm": 1.92470383644104
+    },
+    {
+      "step": 92,
+      "condition": "IL-34",
+      "donor": "Donor3",
+      "native_energy": 0.40460777282714844,
+      "reference_output_mse": 0.004958712961524725,
+      "objective": 0.40460777282714844,
+      "gradient_norm": 2.2286598682403564
+    },
+    {
+      "step": 93,
+      "condition": "ADSF",
+      "donor": "Donor1",
+      "native_energy": 0.2831459045410156,
+      "reference_output_mse": 0.0041601089760661125,
+      "objective": 0.2831459045410156,
+      "gradient_norm": 1.2851182222366333
+    },
+    {
+      "step": 94,
+      "condition": "IL-34",
+      "donor": "Donor10",
+      "native_energy": 0.3790149688720703,
+      "reference_output_mse": 0.002492057392373681,
+      "objective": 0.3790149688720703,
+      "gradient_norm": 1.735335111618042
+    },
+    {
+      "step": 95,
+      "condition": "IL-2",
+      "donor": "Donor11",
+      "native_energy": 0.2877006530761719,
+      "reference_output_mse": 0.0016337347915396094,
+      "objective": 0.2877006530761719,
+      "gradient_norm": 1.18942129611969
+    },
+    {
+      "step": 96,
+      "condition": "IFN-omega",
+      "donor": "Donor5",
+      "native_energy": 0.31871986389160156,
+      "reference_output_mse": 0.0020910482853651047,
+      "objective": 0.31871986389160156,
+      "gradient_norm": 1.7946867942810059
+    },
+    {
+      "step": 97,
+      "condition": "IL-34",
+      "donor": "Donor8",
+      "native_energy": 0.35384273529052734,
+      "reference_output_mse": 0.0023618165869265795,
+      "objective": 0.35384273529052734,
+      "gradient_norm": 1.7485873699188232
+    },
+    {
+      "step": 98,
+      "condition": "IL-8",
+      "donor": "Donor8",
+      "native_energy": 0.3052330017089844,
+      "reference_output_mse": 0.0025648456066846848,
+      "objective": 0.3052330017089844,
+      "gradient_norm": 1.5804389715194702
+    },
+    {
+      "step": 99,
+      "condition": "PRL",
+      "donor": "Donor1",
+      "native_energy": 0.33623409271240234,
+      "reference_output_mse": 0.003806750988587737,
+      "objective": 0.33623409271240234,
+      "gradient_norm": 1.6876659393310547
+    },
+    {
+      "step": 100,
+      "condition": "IL-17C",
+      "donor": "Donor1",
+      "native_energy": 0.2890777587890625,
+      "reference_output_mse": 0.003387324046343565,
+      "objective": 0.2890777587890625,
+      "gradient_norm": 1.4460402727127075
+    },
+    {
+      "step": 101,
+      "condition": "ADSF",
+      "donor": "Donor10",
+      "native_energy": 0.36448097229003906,
+      "reference_output_mse": 0.003709925338625908,
+      "objective": 0.36448097229003906,
+      "gradient_norm": 2.0665392875671387
+    },
+    {
+      "step": 102,
+      "condition": "4-1BBL",
+      "donor": "Donor7",
+      "native_energy": 0.27355289459228516,
+      "reference_output_mse": 0.004978768527507782,
+      "objective": 0.27355289459228516,
+      "gradient_norm": 1.4300765991210938
+    },
+    {
+      "step": 103,
+      "condition": "EPO",
+      "donor": "Donor3",
+      "native_energy": 0.4285726547241211,
+      "reference_output_mse": 0.008018936030566692,
+      "objective": 0.4285726547241211,
+      "gradient_norm": 2.344758987426758
+    },
+    {
+      "step": 104,
+      "condition": "IL-34",
+      "donor": "Donor12",
+      "native_energy": 0.4126567840576172,
+      "reference_output_mse": 0.0025191179011017084,
+      "objective": 0.4126567840576172,
+      "gradient_norm": 1.8002924919128418
+    },
+    {
+      "step": 105,
+      "condition": "IFN-lambda1",
+      "donor": "Donor11",
+      "native_energy": 0.2703390121459961,
+      "reference_output_mse": 0.002133239060640335,
+      "objective": 0.2703390121459961,
+      "gradient_norm": 1.3215837478637695
+    },
+    {
+      "step": 106,
+      "condition": "IL-17C",
+      "donor": "Donor12",
+      "native_energy": 0.36258602142333984,
+      "reference_output_mse": 0.003507944755256176,
+      "objective": 0.36258602142333984,
+      "gradient_norm": 1.7371565103530884
+    },
+    {
+      "step": 107,
+      "condition": "IFN-omega",
+      "donor": "Donor12",
+      "native_energy": 0.45043277740478516,
+      "reference_output_mse": 0.0014071152545511723,
+      "objective": 0.45043277740478516,
+      "gradient_norm": 2.367903709411621
+    },
+    {
+      "step": 108,
+      "condition": "4-1BBL",
+      "donor": "Donor11",
+      "native_energy": 0.3338956832885742,
+      "reference_output_mse": 0.0019236101070418954,
+      "objective": 0.3338956832885742,
+      "gradient_norm": 1.4064712524414062
+    },
+    {
+      "step": 109,
+      "condition": "IL-8",
+      "donor": "Donor4",
+      "native_energy": 0.2679252624511719,
+      "reference_output_mse": 0.0030231287237256765,
+      "objective": 0.2679252624511719,
+      "gradient_norm": 1.4347425699234009
+    },
+    {
+      "step": 110,
+      "condition": "EPO",
+      "donor": "Donor11",
+      "native_energy": 0.2749481201171875,
+      "reference_output_mse": 0.0026541943661868572,
+      "objective": 0.2749481201171875,
+      "gradient_norm": 1.2466598749160767
+    },
+    {
+      "step": 111,
+      "condition": "IL-17C",
+      "donor": "Donor8",
+      "native_energy": 0.3567361831665039,
+      "reference_output_mse": 0.003173928940668702,
+      "objective": 0.3567361831665039,
+      "gradient_norm": 1.8571282625198364
+    },
+    {
+      "step": 112,
+      "condition": "4-1BBL",
+      "donor": "Donor7",
+      "native_energy": 0.26328277587890625,
+      "reference_output_mse": 0.005310553126037121,
+      "objective": 0.26328277587890625,
+      "gradient_norm": 1.3607978820800781
+    },
+    {
+      "step": 113,
+      "condition": "ADSF",
+      "donor": "Donor11",
+      "native_energy": 0.29973602294921875,
+      "reference_output_mse": 0.003059487557038665,
+      "objective": 0.29973602294921875,
+      "gradient_norm": 1.3354668617248535
+    },
+    {
+      "step": 114,
+      "condition": "PRL",
+      "donor": "Donor6",
+      "native_energy": 0.2608451843261719,
+      "reference_output_mse": 0.002442294033244252,
+      "objective": 0.2608451843261719,
+      "gradient_norm": 1.2668688297271729
+    },
+    {
+      "step": 115,
+      "condition": "IL-17C",
+      "donor": "Donor1",
+      "native_energy": 0.26929187774658203,
+      "reference_output_mse": 0.004398786928504705,
+      "objective": 0.26929187774658203,
+      "gradient_norm": 1.3312888145446777
+    },
+    {
+      "step": 116,
+      "condition": "TGF-beta1",
+      "donor": "Donor7",
+      "native_energy": 0.36955738067626953,
+      "reference_output_mse": 0.004077495541423559,
+      "objective": 0.36955738067626953,
+      "gradient_norm": 1.8816884756088257
+    },
+    {
+      "step": 117,
+      "condition": "IL-8",
+      "donor": "Donor8",
+      "native_energy": 0.28392505645751953,
+      "reference_output_mse": 0.0030670599080622196,
+      "objective": 0.28392505645751953,
+      "gradient_norm": 1.4747580289840698
+    },
+    {
+      "step": 118,
+      "condition": "TGF-beta1",
+      "donor": "Donor12",
+      "native_energy": 0.3660459518432617,
+      "reference_output_mse": 0.004386304412037134,
+      "objective": 0.3660459518432617,
+      "gradient_norm": 1.7428381443023682
+    },
+    {
+      "step": 119,
+      "condition": "4-1BBL",
+      "donor": "Donor1",
+      "native_energy": 0.37732505798339844,
+      "reference_output_mse": 0.0034036028664559126,
+      "objective": 0.37732505798339844,
+      "gradient_norm": 1.7661848068237305
+    },
+    {
+      "step": 120,
+      "condition": "IL-8",
+      "donor": "Donor7",
+      "native_energy": 0.31939697265625,
+      "reference_output_mse": 0.003988326992839575,
+      "objective": 0.31939697265625,
+      "gradient_norm": 1.7272931337356567
+    },
+    {
+      "step": 121,
+      "condition": "4-1BBL",
+      "donor": "Donor12",
+      "native_energy": 0.403289794921875,
+      "reference_output_mse": 0.0029738699086010456,
+      "objective": 0.403289794921875,
+      "gradient_norm": 1.8723368644714355
+    },
+    {
+      "step": 122,
+      "condition": "IL-17C",
+      "donor": "Donor10",
+      "native_energy": 0.2956838607788086,
+      "reference_output_mse": 0.003908881917595863,
+      "objective": 0.2956838607788086,
+      "gradient_norm": 1.4492541551589966
+    },
+    {
+      "step": 123,
+      "condition": "IFN-gamma",
+      "donor": "Donor1",
+      "native_energy": 0.32863521575927734,
+      "reference_output_mse": 0.0032990851905196905,
+      "objective": 0.32863521575927734,
+      "gradient_norm": 1.6477324962615967
+    },
+    {
+      "step": 124,
+      "condition": "EPO",
+      "donor": "Donor8",
+      "native_energy": 0.3383760452270508,
+      "reference_output_mse": 0.0031337630935013294,
+      "objective": 0.3383760452270508,
+      "gradient_norm": 1.6385334730148315
+    },
+    {
+      "step": 125,
+      "condition": "IL-2",
+      "donor": "Donor10",
+      "native_energy": 0.28992652893066406,
+      "reference_output_mse": 0.0033288169652223587,
+      "objective": 0.28992652893066406,
+      "gradient_norm": 1.391279697418213
+    },
+    {
+      "step": 126,
+      "condition": "CD30L",
+      "donor": "Donor7",
+      "native_energy": 0.34639644622802734,
+      "reference_output_mse": 0.00379970483481884,
+      "objective": 0.34639644622802734,
+      "gradient_norm": 1.8721147775650024
+    },
+    {
+      "step": 127,
+      "condition": "IL-17C",
+      "donor": "Donor11",
+      "native_energy": 0.3152198791503906,
+      "reference_output_mse": 0.0030271352734416723,
+      "objective": 0.3152198791503906,
+      "gradient_norm": 1.4305440187454224
+    },
+    {
+      "step": 128,
+      "condition": "IL-2",
+      "donor": "Donor12",
+      "native_energy": 0.3232097625732422,
+      "reference_output_mse": 0.002537044230848551,
+      "objective": 0.3232097625732422,
+      "gradient_norm": 1.4540702104568481
+    },
+    {
+      "step": 129,
+      "condition": "IL-17C",
+      "donor": "Donor10",
+      "native_energy": 0.2844505310058594,
+      "reference_output_mse": 0.004258252214640379,
+      "objective": 0.2844505310058594,
+      "gradient_norm": 1.3684282302856445
+    },
+    {
+      "step": 130,
+      "condition": "IL-34",
+      "donor": "Donor2",
+      "native_energy": 0.29912662506103516,
+      "reference_output_mse": 0.003352411324158311,
+      "objective": 0.29912662506103516,
+      "gradient_norm": 1.5730555057525635
+    },
+    {
+      "step": 131,
+      "condition": "PRL",
+      "donor": "Donor10",
+      "native_energy": 0.4619464874267578,
+      "reference_output_mse": 0.004646636079996824,
+      "objective": 0.4619464874267578,
+      "gradient_norm": 2.289846658706665
+    },
+    {
+      "step": 132,
+      "condition": "ADSF",
+      "donor": "Donor2",
+      "native_energy": 0.2796506881713867,
+      "reference_output_mse": 0.00467207795009017,
+      "objective": 0.2796506881713867,
+      "gradient_norm": 1.4243718385696411
+    },
+    {
+      "step": 133,
+      "condition": "ADSF",
+      "donor": "Donor6",
+      "native_energy": 0.3229398727416992,
+      "reference_output_mse": 0.003494479926303029,
+      "objective": 0.3229398727416992,
+      "gradient_norm": 1.6956700086593628
+    },
+    {
+      "step": 134,
+      "condition": "4-1BBL",
+      "donor": "Donor2",
+      "native_energy": 0.2913246154785156,
+      "reference_output_mse": 0.003130589611828327,
+      "objective": 0.2913246154785156,
+      "gradient_norm": 1.5711860656738281
+    },
+    {
+      "step": 135,
+      "condition": "IFN-lambda1",
+      "donor": "Donor9",
+      "native_energy": 0.3790130615234375,
+      "reference_output_mse": 0.0033141246531158686,
+      "objective": 0.3790130615234375,
+      "gradient_norm": 1.9731156826019287
+    },
+    {
+      "step": 136,
+      "condition": "PRL",
+      "donor": "Donor1",
+      "native_energy": 0.2965583801269531,
+      "reference_output_mse": 0.0061094872653484344,
+      "objective": 0.2965583801269531,
+      "gradient_norm": 1.4705984592437744
+    },
+    {
+      "step": 137,
+      "condition": "CD30L",
+      "donor": "Donor11",
+      "native_energy": 0.2802152633666992,
+      "reference_output_mse": 0.0036406870931386948,
+      "objective": 0.2802152633666992,
+      "gradient_norm": 1.2501872777938843
+    },
+    {
+      "step": 138,
+      "condition": "CD30L",
+      "donor": "Donor7",
+      "native_energy": 0.3179025650024414,
+      "reference_output_mse": 0.004795078653842211,
+      "objective": 0.3179025650024414,
+      "gradient_norm": 1.6838446855545044
+    },
+    {
+      "step": 139,
+      "condition": "IL-24",
+      "donor": "Donor4",
+      "native_energy": 0.2516031265258789,
+      "reference_output_mse": 0.003855804679915309,
+      "objective": 0.2516031265258789,
+      "gradient_norm": 1.193124532699585
+    },
+    {
+      "step": 140,
+      "condition": "IL-24",
+      "donor": "Donor12",
+      "native_energy": 0.3037757873535156,
+      "reference_output_mse": 0.003973860759288073,
+      "objective": 0.3037757873535156,
+      "gradient_norm": 1.3870280981063843
+    },
+    {
+      "step": 141,
+      "condition": "IL-34",
+      "donor": "Donor2",
+      "native_energy": 0.2804374694824219,
+      "reference_output_mse": 0.003995123784989119,
+      "objective": 0.2804374694824219,
+      "gradient_norm": 1.4417974948883057
+    },
+    {
+      "step": 142,
+      "condition": "IL-17C",
+      "donor": "Donor11",
+      "native_energy": 0.29563236236572266,
+      "reference_output_mse": 0.003904971294105053,
+      "objective": 0.29563236236572266,
+      "gradient_norm": 1.3034627437591553
+    },
+    {
+      "step": 143,
+      "condition": "IL-17C",
+      "donor": "Donor11",
+      "native_energy": 0.2931556701660156,
+      "reference_output_mse": 0.003992790821939707,
+      "objective": 0.2931556701660156,
+      "gradient_norm": 1.285874366760254
+    },
+    {
+      "step": 144,
+      "condition": "IFN-lambda1",
+      "donor": "Donor11",
+      "native_energy": 0.25161266326904297,
+      "reference_output_mse": 0.003339614951983094,
+      "objective": 0.25161266326904297,
+      "gradient_norm": 1.2116011381149292
+    },
+    {
+      "step": 145,
+      "condition": "IL-35",
+      "donor": "Donor4",
+      "native_energy": 0.25864601135253906,
+      "reference_output_mse": 0.0038454195018857718,
+      "objective": 0.25864601135253906,
+      "gradient_norm": 1.2340295314788818
+    },
+    {
+      "step": 146,
+      "condition": "IL-35",
+      "donor": "Donor5",
+      "native_energy": 0.30742645263671875,
+      "reference_output_mse": 0.003953908104449511,
+      "objective": 0.30742645263671875,
+      "gradient_norm": 1.5946820974349976
+    },
+    {
+      "step": 147,
+      "condition": "ADSF",
+      "donor": "Donor3",
+      "native_energy": 0.3617668151855469,
+      "reference_output_mse": 0.01095589715987444,
+      "objective": 0.3617668151855469,
+      "gradient_norm": 2.049044370651245
+    },
+    {
+      "step": 148,
+      "condition": "ADSF",
+      "donor": "Donor2",
+      "native_energy": 0.26026248931884766,
+      "reference_output_mse": 0.006017730105668306,
+      "objective": 0.26026248931884766,
+      "gradient_norm": 1.31082284450531
+    },
+    {
+      "step": 149,
+      "condition": "PRL",
+      "donor": "Donor2",
+      "native_energy": 0.2837696075439453,
+      "reference_output_mse": 0.004427026957273483,
+      "objective": 0.2837696075439453,
+      "gradient_norm": 1.6146750450134277
+    },
+    {
+      "step": 150,
+      "condition": "4-1BBL",
+      "donor": "Donor7",
+      "native_energy": 0.23367881774902344,
+      "reference_output_mse": 0.007597860414534807,
+      "objective": 0.23367881774902344,
+      "gradient_norm": 1.162402868270874
+    },
+    {
+      "step": 151,
+      "condition": "PRL",
+      "donor": "Donor10",
+      "native_energy": 0.41893959045410156,
+      "reference_output_mse": 0.006018805783241987,
+      "objective": 0.41893959045410156,
+      "gradient_norm": 2.048534870147705
+    },
+    {
+      "step": 152,
+      "condition": "IL-34",
+      "donor": "Donor11",
+      "native_energy": 0.28874969482421875,
+      "reference_output_mse": 0.003290605964139104,
+      "objective": 0.28874969482421875,
+      "gradient_norm": 1.35142183303833
+    },
+    {
+      "step": 153,
+      "condition": "IL-34",
+      "donor": "Donor1",
+      "native_energy": 0.372894287109375,
+      "reference_output_mse": 0.004073686897754669,
+      "objective": 0.372894287109375,
+      "gradient_norm": 1.7685232162475586
+    },
+    {
+      "step": 154,
+      "condition": "TGF-beta1",
+      "donor": "Donor3",
+      "native_energy": 0.4507589340209961,
+      "reference_output_mse": 0.009941100142896175,
+      "objective": 0.4507589340209961,
+      "gradient_norm": 2.6924355030059814
+    },
+    {
+      "step": 155,
+      "condition": "ADSF",
+      "donor": "Donor5",
+      "native_energy": 0.33872413635253906,
+      "reference_output_mse": 0.005583961959928274,
+      "objective": 0.33872413635253906,
+      "gradient_norm": 1.8701260089874268
+    },
+    {
+      "step": 156,
+      "condition": "CD30L",
+      "donor": "Donor7",
+      "native_energy": 0.28464221954345703,
+      "reference_output_mse": 0.0062187896110117435,
+      "objective": 0.28464221954345703,
+      "gradient_norm": 1.463747262954712
+    },
+    {
+      "step": 157,
+      "condition": "IL-24",
+      "donor": "Donor1",
+      "native_energy": 0.23527812957763672,
+      "reference_output_mse": 0.004686897620558739,
+      "objective": 0.23527812957763672,
+      "gradient_norm": 1.0767370462417603
+    },
+    {
+      "step": 158,
+      "condition": "IL-34",
+      "donor": "Donor10",
+      "native_energy": 0.3305063247680664,
+      "reference_output_mse": 0.0051329308189451694,
+      "objective": 0.3305063247680664,
+      "gradient_norm": 1.549870252609253
+    },
+    {
+      "step": 159,
+      "condition": "IL-17C",
+      "donor": "Donor4",
+      "native_energy": 0.26137447357177734,
+      "reference_output_mse": 0.004855572711676359,
+      "objective": 0.26137447357177734,
+      "gradient_norm": 1.2399487495422363
+    },
+    {
+      "step": 160,
+      "condition": "IL-17C",
+      "donor": "Donor2",
+      "native_energy": 0.31209373474121094,
+      "reference_output_mse": 0.006075706798583269,
+      "objective": 0.31209373474121094,
+      "gradient_norm": 2.0170044898986816
+    },
+    {
+      "step": 161,
+      "condition": "IL-33",
+      "donor": "Donor4",
+      "native_energy": 0.3406505584716797,
+      "reference_output_mse": 0.0036173188127577305,
+      "objective": 0.3406505584716797,
+      "gradient_norm": 1.6169019937515259
+    },
+    {
+      "step": 162,
+      "condition": "TGF-beta1",
+      "donor": "Donor7",
+      "native_energy": 0.3115825653076172,
+      "reference_output_mse": 0.007901165634393692,
+      "objective": 0.3115825653076172,
+      "gradient_norm": 1.511631965637207
+    },
+    {
+      "step": 163,
+      "condition": "IL-35",
+      "donor": "Donor4",
+      "native_energy": 0.24584197998046875,
+      "reference_output_mse": 0.004230810329318047,
+      "objective": 0.24584197998046875,
+      "gradient_norm": 1.1562923192977905
+    },
+    {
+      "step": 164,
+      "condition": "TGF-beta1",
+      "donor": "Donor10",
+      "native_energy": 0.33180809020996094,
+      "reference_output_mse": 0.00649796798825264,
+      "objective": 0.33180809020996094,
+      "gradient_norm": 1.7474792003631592
+    },
+    {
+      "step": 165,
+      "condition": "IL-17C",
+      "donor": "Donor4",
+      "native_energy": 0.2530031204223633,
+      "reference_output_mse": 0.005434553138911724,
+      "objective": 0.2530031204223633,
+      "gradient_norm": 1.185835361480713
+    },
+    {
+      "step": 166,
+      "condition": "IL-8",
+      "donor": "Donor12",
+      "native_energy": 0.2971019744873047,
+      "reference_output_mse": 0.006386514753103256,
+      "objective": 0.2971019744873047,
+      "gradient_norm": 1.415215253829956
+    },
+    {
+      "step": 167,
+      "condition": "IL-24",
+      "donor": "Donor1",
+      "native_energy": 0.22700119018554688,
+      "reference_output_mse": 0.005155584309250116,
+      "objective": 0.22700119018554688,
+      "gradient_norm": 1.0192780494689941
+    },
+    {
+      "step": 168,
+      "condition": "4-1BBL",
+      "donor": "Donor8",
+      "native_energy": 0.3527088165283203,
+      "reference_output_mse": 0.00425840076059103,
+      "objective": 0.3527088165283203,
+      "gradient_norm": 1.8091070652008057
+    },
+    {
+      "step": 169,
+      "condition": "IL-17C",
+      "donor": "Donor10",
+      "native_energy": 0.2539253234863281,
+      "reference_output_mse": 0.0074731167405843735,
+      "objective": 0.2539253234863281,
+      "gradient_norm": 1.133082628250122
+    },
+    {
+      "step": 170,
+      "condition": "IL-33",
+      "donor": "Donor5",
+      "native_energy": 0.32376670837402344,
+      "reference_output_mse": 0.004527272656559944,
+      "objective": 0.32376670837402344,
+      "gradient_norm": 1.7309166193008423
+    },
+    {
+      "step": 171,
+      "condition": "IL-33",
+      "donor": "Donor6",
+      "native_energy": 0.2662677764892578,
+      "reference_output_mse": 0.003803003579378128,
+      "objective": 0.2662677764892578,
+      "gradient_norm": 1.2771711349487305
+    },
+    {
+      "step": 172,
+      "condition": "IFN-gamma",
+      "donor": "Donor12",
+      "native_energy": 0.32900047302246094,
+      "reference_output_mse": 0.0036283782683312893,
+      "objective": 0.32900047302246094,
+      "gradient_norm": 1.5845648050308228
+    },
+    {
+      "step": 173,
+      "condition": "IFN-gamma",
+      "donor": "Donor2",
+      "native_energy": 0.35061073303222656,
+      "reference_output_mse": 0.004034707322716713,
+      "objective": 0.35061073303222656,
+      "gradient_norm": 1.8369677066802979
+    },
+    {
+      "step": 174,
+      "condition": "IL-35",
+      "donor": "Donor10",
+      "native_energy": 0.29804420471191406,
+      "reference_output_mse": 0.005423125810921192,
+      "objective": 0.29804420471191406,
+      "gradient_norm": 1.5011812448501587
+    },
+    {
+      "step": 175,
+      "condition": "IL-35",
+      "donor": "Donor7",
+      "native_energy": 0.3156299591064453,
+      "reference_output_mse": 0.00510023720562458,
+      "objective": 0.3156299591064453,
+      "gradient_norm": 1.5471771955490112
+    },
+    {
+      "step": 176,
+      "condition": "IL-35",
+      "donor": "Donor9",
+      "native_energy": 0.39179039001464844,
+      "reference_output_mse": 0.004176035989075899,
+      "objective": 0.39179039001464844,
+      "gradient_norm": 1.9058266878128052
+    },
+    {
+      "step": 177,
+      "condition": "EPO",
+      "donor": "Donor11",
+      "native_energy": 0.25520896911621094,
+      "reference_output_mse": 0.004762200638651848,
+      "objective": 0.25520896911621094,
+      "gradient_norm": 1.157619833946228
+    },
+    {
+      "step": 178,
+      "condition": "PRL",
+      "donor": "Donor3",
+      "native_energy": 0.36606597900390625,
+      "reference_output_mse": 0.012602552771568298,
+      "objective": 0.36606597900390625,
+      "gradient_norm": 2.0164711475372314
+    },
+    {
+      "step": 179,
+      "condition": "IL-2",
+      "donor": "Donor10",
+      "native_energy": 0.2670936584472656,
+      "reference_output_mse": 0.005175395403057337,
+      "objective": 0.2670936584472656,
+      "gradient_norm": 1.2575697898864746
+    },
+    {
+      "step": 180,
+      "condition": "ADSF",
+      "donor": "Donor10",
+      "native_energy": 0.3086385726928711,
+      "reference_output_mse": 0.008051842451095581,
+      "objective": 0.3086385726928711,
+      "gradient_norm": 1.6966814994812012
+    },
+    {
+      "step": 181,
+      "condition": "IL-35",
+      "donor": "Donor3",
+      "native_energy": 0.41934776306152344,
+      "reference_output_mse": 0.009414101019501686,
+      "objective": 0.41934776306152344,
+      "gradient_norm": 2.2272884845733643
+    },
+    {
+      "step": 182,
+      "condition": "IL-33",
+      "donor": "Donor7",
+      "native_energy": 0.36186695098876953,
+      "reference_output_mse": 0.0056718806736171246,
+      "objective": 0.36186695098876953,
+      "gradient_norm": 2.008338451385498
+    },
+    {
+      "step": 183,
+      "condition": "IFN-omega",
+      "donor": "Donor5",
+      "native_energy": 0.2975044250488281,
+      "reference_output_mse": 0.0038747352082282305,
+      "objective": 0.2975044250488281,
+      "gradient_norm": 1.7277686595916748
+    },
+    {
+      "step": 184,
+      "condition": "IL-34",
+      "donor": "Donor6",
+      "native_energy": 0.2621126174926758,
+      "reference_output_mse": 0.003673022147268057,
+      "objective": 0.2621126174926758,
+      "gradient_norm": 1.0934088230133057
+    },
+    {
+      "step": 185,
+      "condition": "IFN-lambda1",
+      "donor": "Donor9",
+      "native_energy": 0.33506298065185547,
+      "reference_output_mse": 0.005168232601135969,
+      "objective": 0.33506298065185547,
+      "gradient_norm": 1.6986409425735474
+    },
+    {
+      "step": 186,
+      "condition": "ADSF",
+      "donor": "Donor4",
+      "native_energy": 0.25868892669677734,
+      "reference_output_mse": 0.006433975417166948,
+      "objective": 0.25868892669677734,
+      "gradient_norm": 1.361611247062683
+    },
+    {
+      "step": 187,
+      "condition": "IL-2",
+      "donor": "Donor1",
+      "native_energy": 0.2653474807739258,
+      "reference_output_mse": 0.00507713109254837,
+      "objective": 0.2653474807739258,
+      "gradient_norm": 1.3572899103164673
+    },
+    {
+      "step": 188,
+      "condition": "IL-33",
+      "donor": "Donor8",
+      "native_energy": 0.3126211166381836,
+      "reference_output_mse": 0.0051094419322907925,
+      "objective": 0.3126211166381836,
+      "gradient_norm": 1.5757474899291992
+    },
+    {
+      "step": 189,
+      "condition": "IL-34",
+      "donor": "Donor9",
+      "native_energy": 0.439422607421875,
+      "reference_output_mse": 0.0045921774581074715,
+      "objective": 0.439422607421875,
+      "gradient_norm": 2.086078405380249
+    },
+    {
+      "step": 190,
+      "condition": "IFN-lambda1",
+      "donor": "Donor2",
+      "native_energy": 0.23808002471923828,
+      "reference_output_mse": 0.005177424289286137,
+      "objective": 0.23808002471923828,
+      "gradient_norm": 1.372387170791626
+    },
+    {
+      "step": 191,
+      "condition": "IL-34",
+      "donor": "Donor11",
+      "native_energy": 0.2752065658569336,
+      "reference_output_mse": 0.003938985988497734,
+      "objective": 0.2752065658569336,
+      "gradient_norm": 1.2907319068908691
+    },
+    {
+      "step": 192,
+      "condition": "IL-24",
+      "donor": "Donor3",
+      "native_energy": 0.47542476654052734,
+      "reference_output_mse": 0.012339458800852299,
+      "objective": 0.47542476654052734,
+      "gradient_norm": 2.5855982303619385
+    },
+    {
+      "step": 193,
+      "condition": "IL-17C",
+      "donor": "Donor12",
+      "native_energy": 0.33437252044677734,
+      "reference_output_mse": 0.00802314281463623,
+      "objective": 0.33437252044677734,
+      "gradient_norm": 1.6932507753372192
+    },
+    {
+      "step": 194,
+      "condition": "4-1BBL",
+      "donor": "Donor8",
+      "native_energy": 0.32187652587890625,
+      "reference_output_mse": 0.0050521111115813255,
+      "objective": 0.32187652587890625,
+      "gradient_norm": 1.6390762329101562
+    },
+    {
+      "step": 195,
+      "condition": "IFN-omega",
+      "donor": "Donor7",
+      "native_energy": 0.27896690368652344,
+      "reference_output_mse": 0.005088398698717356,
+      "objective": 0.27896690368652344,
+      "gradient_norm": 1.6674777269363403
+    },
+    {
+      "step": 196,
+      "condition": "IL-35",
+      "donor": "Donor11",
+      "native_energy": 0.30855560302734375,
+      "reference_output_mse": 0.004780739080160856,
+      "objective": 0.30855560302734375,
+      "gradient_norm": 1.3513128757476807
+    },
+    {
+      "step": 197,
+      "condition": "4-1BBL",
+      "donor": "Donor2",
+      "native_energy": 0.25517940521240234,
+      "reference_output_mse": 0.00531536340713501,
+      "objective": 0.25517940521240234,
+      "gradient_norm": 1.312782883644104
+    },
+    {
+      "step": 198,
+      "condition": "IFN-omega",
+      "donor": "Donor8",
+      "native_energy": 0.3098001480102539,
+      "reference_output_mse": 0.003879641182720661,
+      "objective": 0.3098001480102539,
+      "gradient_norm": 1.8038389682769775
+    },
+    {
+      "step": 199,
+      "condition": "IL-24",
+      "donor": "Donor3",
+      "native_energy": 0.43860340118408203,
+      "reference_output_mse": 0.013744658790528774,
+      "objective": 0.43860340118408203,
+      "gradient_norm": 2.4250736236572266
+    },
+    {
+      "step": 200,
+      "condition": "CD30L",
+      "donor": "Donor7",
+      "native_energy": 0.2547492980957031,
+      "reference_output_mse": 0.008294626139104366,
+      "objective": 0.2547492980957031,
+      "gradient_norm": 1.2931451797485352
+    }
+  ],
+  "initial_reference_anchor": 0.0,
+  "gradient_receiving_parameter_tensors": 79,
+  "gradient_receiving_parameters": 39328976,
+  "requires_grad_parameters": 43983520,
+  "updates": 200,
+  "lambda_anchor": 0.0,
+  "seconds": 10.540151148103178
+}

@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "checks_passed": 142,
+  "checks_failed": 0,
+  "numeric_values_compared": 21976,
+  "max_abs_difference": 2.7755575615628914e-17,
+  "fixed_beta": 0.12857119347061682,
+  "fixed_genes": 7307,
+  "correct_lower_than_wrong_average_tasks": 3,
+  "correct_lower_than_each_wrong_tasks": 2,
+  "original_run_hashes_unchanged": true,
+  "no_model_fitting_performed": true,
+  "method": "Read fixed original beta and external source/truth; recompute9MSE with independent math.fsum; separately score both wrong donors before averaging; check zero/history, original diagonal, all arrays and hashes.",
+  "report_sha256": "06ce656d08c59065f8f5bac1eb95b40728b3592647feb2ba81f4ac312a0e316f",
+  "auditor_sha256": "9528c64f39eb3be4e5c8cd0d49e9cee88b528fec4386b83edb4192e7e02a5010",
+  "limitations": [
+    "Posthoc three-task cross-condition mismatch; it changes dose/time with identity and is not a pure identity-specificity or prospective validation.",
+    "KI696 correct donor is not the lowest-error donor; no donor or coefficient was selected from these scores."
+  ]
+}

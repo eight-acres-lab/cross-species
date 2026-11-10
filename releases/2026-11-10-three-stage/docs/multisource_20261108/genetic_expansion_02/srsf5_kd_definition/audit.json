@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-08",
+  "question": "Does K562 SRSF5 shRNA ENCORE KD%23.1/20.5 mean depletion or residual expression?",
+  "scope": "Bounded primary-source audit; original selection/protocol/results unchanged.",
+  "sample_specific_percentage_definition_status": "unknown_not_directly_verified",
+  "reported_values": [
+    23.1,
+    20.5
+  ],
+  "reported_field": "ENCORE KD% summary column; sample detail Rep1_WB/Rep2_WB and WB_result",
+  "assay": "Western blot report; qPCR values are separately54.0 and58.3",
+  "original_samples": [
+    "SRSF5-41-LV11-51",
+    "SRSF5-41-LV11-52"
+  ],
+  "biosamples": [
+    "ENCBS298QZZ",
+    "ENCBS741EFJ"
+  ],
+  "experiment": "ENCSR906RHU",
+  "encode_status": "archived",
+  "encode_submitter_comment": "As of November 2022, this dataset is superseded by ENCSR528YVC, which has a better knockdown rate.",
+  "encode_validation_warning": [
+    {
+      "category": "missing biosample characterization",
+      "detail": "Biosample {ENCBS298QZZ|/biosamples/ENCBS298QZZ/} which has been modified by genetic modification {ENCGM970LOI|/genetic-modifications/ENCGM970LOI/} is missing characterization validating the modification.",
+      "level": 40,
+      "level_name": "WARNING",
+      "path": "/experiments/ENCSR906RHU/",
+      "name": "audit_experiment"
+    },
+    {
+      "category": "missing biosample characterization",
+      "detail": "Biosample {ENCBS741EFJ|/biosamples/ENCBS741EFJ/} which has been modified by genetic modification {ENCGM970LOI|/genetic-modifications/ENCGM970LOI/} is missing characterization validating the modification.",
+      "level": 40,
+      "level_name": "WARNING",
+      "path": "/experiments/ENCSR906RHU/",
+      "name": "audit_experiment"
+    }
+  ],
+  "exact_sample_attachment_search": {
+    "biosample_characterizations": [],
+    "available_exact_sample_pdfs": "Library Preparation and Characterization Documents, not WB/qPCR biosample validation",
+    "general_modification_document": "pLKO1 vector construct image",
+    "global_encode_document_search_hits": 18,
+    "original_LV11_biosample_validation_found": false
+  },
+  "related_primary_validation": [
+    {
+      "file": "SRSF5-BGHLV23-45.pdf",
+      "sample": "HepG2 SRSF5-BGHLV23-45",
+      "page": 10,
+      "figure": "Figure4",
+      "visual_western_labels": [
+        "67%",
+        "75%"
+      ],
+      "portal_values": [
+        67.0,
+        74.9
+      ],
+      "caption_scope": "Depletion-level analysis; bands decrease in KD samples. Supports the general depletion interpretation of the portal field, but does not directly define or reconstruct the old LV11 measurements."
+    },
+    {
+      "file": "SRSF5-BGKcLV11-95.pdf",
+      "sample": "K562 SRSF5 CRISPR replacement, not original shRNA",
+      "page": 10,
+      "figure": "Figure3",
+      "visual_western_labels": [
+        "92%",
+        "97%"
+      ],
+      "portal_values": [
+        92.2,
+        96.4
+      ],
+      "caption_scope": "Depletion-level analysis; marked reduction of the target band. Different perturbation method and sample batch, so not a direct validation of23.1/20.5."
+    }
+  ],
+  "interpretation": "The label KD% and related same-lab validation examples favor reported depletion as the intended general convention. The original LV11 Western calculation and normalization are unavailable in retrieved primary evidence, so the exact23.1/20.5 percentages remain definition-unverified. Do not convert them to residual percentages or assert measured low protein knockdown as a confirmed mechanism.",
+  "recommended_wording": "官方ENCORE的WB/KD%字段为23.1和20.5；原LV11验证附件及计算定义未取得。ENCODE提交者注明该shRNA实验被敲低率更高的ENCSR528YVC取代。本轮保留数据并按预定计划报告SRSF5剔除敏感性。",
+  "needs_wording_correction": true,
+  "correction_scope": "Replace categorical low knockdown efficacy / only20-23%depletion claims with reported-field values plus validation-definition uncertainty and the explicit ENCODE supersession note.",
+  "analysis_changes_made": false,
+  "frozen_selection_changed": false,
+  "files_sha256": {
+    "encore_detail.html": "d133ccc1526d77c33ae73c32346ac9587d62f5a75fa300d768a60ee70ec21fa1",
+    "sources.json": "2fd7c0af7f4028dcdce38912c73061c69d8e425a1d2dd03894e5d269d475dffe",
+    "ENCSR906RHU.json": "00cf3b52486a5368b532dc7fe9a6c56661dff288aa6c63a1bd1a30870f1640e0",
+    "encode_srsf5_document_search.json": "09e664330cc187c6da120512568b7501d17158e7e0d1026bc48bb43926a7156b",
+    "document_search_source.json": "d8b2cb1eb3b2ad40d80e532411d42fb6babe2edd55be5e13ad93073ddcce3cdd",
+    "encode_api_sources.json": "b77ae466747a93251fce0b4c04dd9e63f5e6ea4b91a0fe198a450dfe37386c4c",
+    "ENCBS298QZZ.json": "889dc764970f1eed6a38193cb1205071e327cb703b3c9e5421903521a3b3ec13",
+    "K562_CRISPR_WB_page10.png": "a0946f09a967f5b3b10271bda1decbab7ea20dcc886781e001a36a4e98d4267d",
+    "replicate52.pdf": "6fa94fe786c4e1665d427480a9b6e828a56e05b3dfbc13b0942043a3a954f0c4",
+    "replicate51.pdf": "138d47b186baa13adbd51942d2f59717164e4cad135f3c97958f330485ddfe39",
+    "modification_document_source.json": "60e9f0624b065678c5eb0a28b67bde0ea7635774877ee77f11a7f4ae8f308c25",
+    "ENCBS741EFJ.json": "f0163e2f18aa28c28dc46e97af1396f68c38da9b51bb6a5e4547fb6be432257b",
+    "modification_document.json": "6db546ccd69c9cdaeaf5f4cc8e6a3098415652e2097064986a71c35cdc818f87",
+    "SRSF5-BGKcLV11-95.pdf": "a2bf9d18753737f77628c260182526f9fcdfd82b2c160db469ad32bcf7a45614",
+    "SRSF5-BGHLV23-45.pdf": "6dc00541b8c331e6f61e108f1a53339d6989ca9ce02883eac04ef057c37d8c7a",
+    "HepG2_WB_page10.png": "1ffb60a81afc9bfe065571ef199db9cda824fb91a2e6f0b143b547b47c2a5f1b",
+    "modification_construct.png": "9e41993a05fcecd501025f744b87c667910d8d30febf16f90a445cd4eae2b40d",
+    "comparison_validation_sources.json": "9747cbb3320bee9292bd84cb8e0b55fd2900a20936140bcbfa96ff922685317d"
+  }
+}

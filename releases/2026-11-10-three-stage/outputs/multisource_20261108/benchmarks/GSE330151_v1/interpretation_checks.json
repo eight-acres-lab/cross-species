@@ -1,0 +1,53 @@
+{
+  "scope": "Descriptive3-drug/2-pathway primary-hepatocyte panel and exploratory LOPO; no independent validation or stable population CI.",
+  "same_global_genes": 9637,
+  "same_human_queries": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "all_15_subsets_reported": true,
+  "all_source_equal_vs_zero": {
+    "point_macro_mse_gain": 0.011456169568539619,
+    "point_mse_gain_by_query": [
+      -0.018663133261846765,
+      -0.0011478587629479356,
+      0.054179500730413555
+    ],
+    "improved_queries": 1,
+    "warning": "Averaged benefit is driven by oneUPR/8h query; twoNRF2/24h queries are not improved."
+  },
+  "source_addition_edges": {
+    "edges": 28,
+    "macro_harmful_edges": 3,
+    "query_edge_cases": 84,
+    "harmful_query_edge_cases": 12,
+    "warning": "Specified equal-mean estimator and added assay budget; not intrinsic information harm."
+  },
+  "fixed_total_existing_record_budget": {
+    "treated_profiles": 3,
+    "vehicle_profiles": 3,
+    "four_source_eligible": false,
+    "single_cyno_mse": 0.09438033589092205,
+    "all_multisource_expected_mse_above_single_cyno": true,
+    "multisource_expected_mse_range": [
+      0.11503953734471432,
+      0.14727987445898805
+    ],
+    "warning": "Exact finite-record without-replacement allocation expectation conditional on this panel; not a monetary cost or independent prospective replication result."
+  },
+  "history_selection": {
+    "selected_sources": [
+      "cyno",
+      "cyno",
+      "cyno"
+    ],
+    "same_as_fixed_cyno": true,
+    "context_selector_trained": false,
+    "two_historical_tasks_per_query": true,
+    "no_validated_generalization_or_superiority_to_phylogeny_control": true
+  },
+  "q2_status": "No independent variation identifies causal time/pathway/cellstate/species effects; observed baseline and response-amplitude associations are postmeasurement descriptive.",
+  "report_sha256": "d3adbc3ff979a811c875ec962191ed941b34637c9c92d33757f2fbd4c31d8e14",
+  "specification_sha256": "cbdc38115ec78122f65e0a5c6b0b022cab08198483a86cee24fd4078bfc6b8d7"
+}

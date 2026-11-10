@@ -1,0 +1,271 @@
+{
+  "study": "E-MTAB-6754",
+  "base_url": "https://www.ebi.ac.uk/biostudies/files/E-MTAB-6754/",
+  "files": [
+    {
+      "path": "pig2_lps2_filtered_by_cell_cluster0.txt.gz",
+      "size": 3261764,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig2_unst_filtered_by_cell_cluster0.txt.gz",
+      "size": 3568207,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit3_lps2_filtered_by_cell_cluster0.txt.gz",
+      "size": 4842445,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig2_lps4_filtered_by_cell_cluster0.txt.gz",
+      "size": 3824771,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit2_lps2_filtered_by_cell_cluster0.txt.gz",
+      "size": 2418798,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit2_lps4_filtered_by_cell_cluster0.txt.gz",
+      "size": 2158984,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig3_lps2_filtered_by_cell_cluster0.txt.gz",
+      "size": 4468589,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig1_lps6_filtered_by_cell_cluster0.txt.gz",
+      "size": 3945652,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit1_lps4_filtered_by_cell_cluster0.txt.gz",
+      "size": 3723993,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig1_unst_filtered_by_cell_cluster0.txt.gz",
+      "size": 4321565,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit3_unst_filtered_by_cell_cluster0.txt.gz",
+      "size": 3147314,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit2_lps6_filtered_by_cell_cluster0.txt.gz",
+      "size": 2345441,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit3_lps6_filtered_by_cell_cluster0.txt.gz",
+      "size": 2295862,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit1_lps2_filtered_by_cell_cluster0.txt.gz",
+      "size": 4249865,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig3_lps4_filtered_by_cell_cluster0.txt.gz",
+      "size": 5103126,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig3_lps6_filtered_by_cell_cluster0.txt.gz",
+      "size": 3644953,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit1_unst_filtered_by_cell_cluster0.txt.gz",
+      "size": 4493564,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit1_lps6_filtered_by_cell_cluster0.txt.gz",
+      "size": 5439049,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig3_unst_filtered_by_cell_cluster0.txt.gz",
+      "size": 4343461,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig1_lps2_filtered_by_cell_cluster0.txt.gz",
+      "size": 3281220,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit2_unst_filtered_by_cell_cluster0.txt.gz",
+      "size": 3628924,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "rabbit3_lps4_filtered_by_cell_cluster0.txt.gz",
+      "size": 2755826,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig2_lps6_filtered_by_cell_cluster0.txt.gz",
+      "size": 3054008,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    },
+    {
+      "path": "pig1_lps4_filtered_by_cell_cluster0.txt.gz",
+      "size": 4021618,
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Processed Data"
+        }
+      ],
+      "type": "file"
+    }
+  ],
+  "total_bytes": 88338999
+}

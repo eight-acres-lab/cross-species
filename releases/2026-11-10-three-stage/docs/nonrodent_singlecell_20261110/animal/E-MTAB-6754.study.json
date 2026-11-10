@@ -1,0 +1,2239 @@
+{
+  "accno" : "E-MTAB-6754",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "Single-cell RNA-seq of of bone marrow derived mononuclear phagocytes derived from mouse; rat; rabbit or pig"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2018-07-16"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-6754"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-6754",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Single-cell RNA-seq of of bone marrow derived mononuclear phagocytes derived from mouse; rat; rabbit or pig"
+    }, {
+      "name" : "Study type",
+      "value" : "RNA-seq of coding RNA from single cells",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0005684"
+      } ]
+    }, {
+      "name" : "Organism",
+      "value" : "Mus musculus"
+    }, {
+      "name" : "Organism",
+      "value" : "Rattus norvegicus"
+    }, {
+      "name" : "Organism",
+      "value" : "Oryctolagus cuniculus"
+    }, {
+      "name" : "Organism",
+      "value" : "Sus scrofa"
+    }, {
+      "name" : "Description",
+      "value" : "Bone marrow derived phagocytes from mouse, rat, rabbit and pig stimulated with LPS (100ng/mL) or with dsRNA (poly I:C)  (1ug/mL) for 0,2,4,6 hours.  Processed files include UMI matrices of QCed cells that belong to the first cluster (as described in the publication), which were used for all the analyses presented in the  publication."
+    } ],
+    "links" : [ [ {
+      "url" : "ERP108954",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-73908",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-73908"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Cells were washed with PBS and then detached using a non-enzymatic solution."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-73909",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-73909"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Cells were directly processed in a 10X Chromium machine (10X Genomics) according to the manufacturer’s protocol (version V2)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-73910",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-73910"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "The Single Cell Gel Bead kit (#120217), Single cell chip kit (#120219) and Single cell library kit (#120218) were used along with 10x GemCode Single Cell Instrument as per manufacturer specifications and manuals (Document # CG00011; Revision B)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-73911",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-73911"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Samples were sequenced on an Illumina HiSeq 4000 instrument (one sample per lane)"
+      }, {
+        "name" : "Hardware",
+        "value" : "Illumina HiSeq 4000"
+      } ]
+    }, {
+      "accno" : "P-MTAB-73912",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-73912"
+      }, {
+        "name" : "Type",
+        "value" : "treatment protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003969"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Cells were stimulated with either 100ng/mL lipopolysaccharide (LPS) (Invivogen, Cat. Code: tlrl-smlps) or with 1ug/mL of  High-Molecular Weight poly I:C (Invivogen, Cat. Code: tlrl-pic), transfected with 2uL/mL Lipofectamin 2,000, for 2/4/6 hours before collection."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-75041",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-75041"
+      }, {
+        "name" : "Type",
+        "value" : "normalization data transformation protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003816"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "The count matrices are the output (filtered matrix files) of the quantification preformed on the microfluidic droplet cell capture data using 10X Genomics’ Cell Ranger Single-Cell Software Suite (version 2.0, 10x Genomics Inc) against the relevant genome (ENSEMBL version 84, mouse, rat, rabbit and pig)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Tzachi Hagai"
+      }, {
+        "name" : "Email",
+        "value" : "tzachi@ebi.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "EMBL - EBI & Wellcome Trust Sanger Institute"
+      }, {
+        "name" : "Address",
+        "value" : "Wellcome Genome Campus Hinxton, Cambridge CB10 1SD"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-6754",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "68"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "species design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO:0001753"
+        } ]
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "stimulus or stress design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO:0001762"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "organism",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "organism"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "stimulus",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "stimulus"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "time",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "time"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-6754",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Mus musculus"
+        }, {
+          "name" : "Organism",
+          "value" : "Rattus norvegicus"
+        }, {
+          "name" : "Organism",
+          "value" : "Oryctolagus cuniculus"
+        }, {
+          "name" : "Organism",
+          "value" : "Sus scrofa"
+        }, {
+          "name" : "Stimulus",
+          "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+        }, {
+          "name" : "Stimulus",
+          "value" : "poly I:C; 1 microgram per milliliter"
+        }, {
+          "name" : "Stimulus",
+          "value" : "none"
+        }, {
+          "name" : "Time",
+          "value" : "6 hour"
+        }, {
+          "name" : "Time",
+          "value" : "0 hour"
+        }, {
+          "name" : "Time",
+          "value" : "2 hour"
+        }, {
+          "name" : "Time",
+          "value" : "4 hour"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "2 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501762,ERS2501768,ERS2501776"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "4 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501763,ERS2501769,ERS2501777"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "6 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501764,ERS2501770,ERS2501778"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_3",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "poly I:C; 1 microgram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "2 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501765,ERS2501771,ERS2501779"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_4",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "poly I:C; 1 microgram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "4 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501766,ERS2501772,ERS2501780"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_5",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "none"
+          }, {
+            "name" : "time",
+            "value" : "0 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501767,ERS2501775,ERS2501782"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_6",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "poly I:C; 1 microgram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "6 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501773,ERS2501774,ERS2501781"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_7",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Sus scrofa"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "2 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501783,ERS2501787,ERS2501791,ERS2501795"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_8",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Sus scrofa"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "4 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501784,ERS2501788,ERS2501792"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_9",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Sus scrofa"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "6 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501785,ERS2501789,ERS2501793"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_10",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Sus scrofa"
+          }, {
+            "name" : "stimulus",
+            "value" : "none"
+          }, {
+            "name" : "time",
+            "value" : "0 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501786,ERS2501790,ERS2501794,ERS2501796"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_11",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Oryctolagus cuniculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "2 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501797,ERS2501801,ERS2501805"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_12",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Oryctolagus cuniculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "4 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501798,ERS2501802,ERS2501806"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_13",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Oryctolagus cuniculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "6 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501799,ERS2501803,ERS2501807"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_14",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Oryctolagus cuniculus"
+          }, {
+            "name" : "stimulus",
+            "value" : "none"
+          }, {
+            "name" : "time",
+            "value" : "0 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501800,ERS2501804,ERS2501808"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_15",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "2 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501809,ERS2501816,ERS2501823"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_16",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "4 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501810,ERS2501817,ERS2501824"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_17",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "lipopolysaccharide; 100 nanogram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "6 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501811,ERS2501818,ERS2501825"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_18",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "poly I:C; 1 microgram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "2 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501812,ERS2501819,ERS2501826"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_19",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "poly I:C; 1 microgram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "4 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501813,ERS2501820,ERS2501827"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_20",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "poly I:C; 1 microgram per milliliter"
+          }, {
+            "name" : "time",
+            "value" : "6 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501814,ERS2501821,ERS2501828"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_21",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "stimulus",
+            "value" : "none"
+          }, {
+            "name" : "time",
+            "value" : "0 hour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "3",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501815,ERS2501822,ERS2501829"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-6754",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Sex",
+          "value" : "female"
+        }, {
+          "name" : "Organism part",
+          "value" : "bone marrow"
+        }, {
+          "name" : "Cell type",
+          "value" : "mononuclear phagocyte"
+        }, {
+          "name" : "Genotype",
+          "value" : "wild type genotype"
+        }, {
+          "name" : "Organism",
+          "value" : "Mus musculus"
+        }, {
+          "name" : "Organism",
+          "value" : "Rattus norvegicus"
+        }, {
+          "name" : "Organism",
+          "value" : "Oryctolagus cuniculus"
+        }, {
+          "name" : "Organism",
+          "value" : "Sus scrofa"
+        }, {
+          "name" : "Strain",
+          "value" : "C57BL/6"
+        }, {
+          "name" : "Strain",
+          "value" : "not applicable"
+        }, {
+          "name" : "Age",
+          "value" : "2 weeks week"
+        }, {
+          "name" : "Age",
+          "value" : "3 weeks week"
+        }, {
+          "name" : "Age",
+          "value" : "8 weeks week"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Mus musculus"
+          }, {
+            "name" : "strain",
+            "value" : "C57BL/6"
+          }, {
+            "name" : "age",
+            "value" : "8 weeks week"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "21",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501762-ERS2501782"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Sus scrofa"
+          }, {
+            "name" : "strain",
+            "value" : "not applicable"
+          }, {
+            "name" : "age",
+            "value" : "3 weeks week"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "12",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501783-ERS2501794"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_2",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Sus scrofa"
+          }, {
+            "name" : "strain",
+            "value" : "not applicable"
+          }, {
+            "name" : "age",
+            "value" : "2 weeks week"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501795-ERS2501796"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_3",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Oryctolagus cuniculus"
+          }, {
+            "name" : "strain",
+            "value" : "not applicable"
+          }, {
+            "name" : "age",
+            "value" : "8 weeks week"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "12",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501797-ERS2501808"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_4",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "organism",
+            "value" : "Rattus norvegicus"
+          }, {
+            "name" : "strain",
+            "value" : "not applicable"
+          }, {
+            "name" : "age",
+            "value" : "8 weeks week"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "21",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS2501809-ERS2501829"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-6754",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "68"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "RNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "raw-data",
+        "type" : "Raw Data",
+        "files" : [ [ {
+          "path" : "24754_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2616286607,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse1_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "24728_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2631288884,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse1_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "24754_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2546737516,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse1_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "24728_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2585797887,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse1_PIC2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "24728_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2521523685,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse1_PIC4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "24754_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2548046975,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse1_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2705429917,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2576883367,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2671724701,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2495419967,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_PIC2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2549918863,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_PIC4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2408157909,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_PIC6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2389130816,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_PIC6A"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25119_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2546720985,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse2_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2533227238,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2579924118,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2574167935,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2596163612,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_PIC2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2542406220,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_PIC4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2518859812,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_PIC6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2738879522,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "mouse3_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2504588721,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig1_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2588408332,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig1_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2523075481,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig1_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2467645552,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig1_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2507633684,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig2_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2493892589,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig2_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2473785361,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig2_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25258_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2508838949,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig2_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25300_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2597827314,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig3_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25300_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2607784033,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig3_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25300_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2704881583,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig3_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25300_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2572256662,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig3_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2591966027,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig4_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2579315768,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "pig4_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25188_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2642393800,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit1_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25188_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2628392312,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit1_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25188_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2653889917,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit1_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2453312341,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit1_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2646675748,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit2_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2682936108,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit2_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2680302729,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit2_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2701522950,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit2_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25337_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2702196613,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit3_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25337_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2710824402,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit3_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2626404045,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit3_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25336_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2672775312,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rabbit3_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_8_S1_L001_I1_001.fastq.gz",
+          "size" : 2514103241,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25136_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2589769002,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25136_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2509618334,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25136_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2507662997,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_PIC2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25136_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2563644861,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_PIC4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25136_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2586421315,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_PIC6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25135_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2494079695,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat1_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2589794581,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2673059395,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_4_S1_L001_I1_001.fastq.gz",
+          "size" : 1969810302,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2689145421,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_PIC2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2584212477,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_PIC4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2563315646,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_PIC6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25120_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2672465134,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat2_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_2_S1_L001_I1_001.fastq.gz",
+          "size" : 2498871355,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_LPS2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_3_S1_L001_I1_001.fastq.gz",
+          "size" : 2539358451,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_LPS4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_4_S1_L001_I1_001.fastq.gz",
+          "size" : 2620934879,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_LPS6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_5_S1_L001_I1_001.fastq.gz",
+          "size" : 2552783485,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_PIC2"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_6_S1_L001_I1_001.fastq.gz",
+          "size" : 2565880796,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_PIC4"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_7_S1_L001_I1_001.fastq.gz",
+          "size" : 2552156153,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_PIC6"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "25220_1_S1_L001_I1_001.fastq.gz",
+          "size" : 2484101136,
+          "attributes" : [ {
+            "name" : "Samples",
+            "value" : "rat3_unst"
+          }, {
+            "name" : "Description",
+            "value" : "Index 1"
+          } ],
+          "type" : "file"
+        } ] ]
+      }, {
+        "accno" : "processed-data",
+        "type" : "Processed Data",
+        "files" : [ [ {
+          "path" : "mouse3_pic4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3875971,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig2_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3261764,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_pic2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8338830,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig2_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3568207,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit3_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4842445,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5942310,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5292395,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig2_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3824771,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse1_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5605276,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit2_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 2418798,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8126543,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse3_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4124514,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse3_pic2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6768107,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit2_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 2158984,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig3_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4468589,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig1_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3945652,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_pic4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7771837,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit1_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3723993,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig1_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4321565,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse3_pic6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4398556,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6656415,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_pic4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6040990,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7374766,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse1_pic2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5785410,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit3_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3147314,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit2_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 2345441,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "count_matrices_cell_ranger.tar.gz",
+          "size" : 1954491946,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse1_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5426371,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 10744839,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit3_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 2295862,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8993133,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit1_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4249865,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7986926,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_pic6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7836568,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_pic6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5494588,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8572655,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_pic6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4619536,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_pic6A_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6949691,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig3_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5103126,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_pic4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6649493,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig3_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3644953,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse3_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7596882,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_pic2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7029204,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit1_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4493564,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit1_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5439049,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse3_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7129378,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4041904,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 9732675,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse1_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4547710,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5557703,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse1_pic4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4551101,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig3_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4343461,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse3_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8333754,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8071972,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse1_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3732329,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat2_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6324889,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig1_lps2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3281220,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit2_unst_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3628924,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat1_pic2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8396399,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rabbit3_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 2755826,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig2_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 3054008,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "pig1_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 4021618,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_lps6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 7837927,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_pic2_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8529074,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "rat3_pic4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 5509506,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_lps4_filtered_by_cell_cluster0.txt.gz",
+          "size" : 8264791,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "mouse2_pic6_filtered_by_cell_cluster0.txt.gz",
+          "size" : 6883913,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        } ] ]
+      }, {
+        "accno" : "mt-E-MTAB-6754",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-6754.idf.txt",
+          "size" : 3987,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-6754.sdrf.txt",
+          "size" : 97873,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-6754",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "*"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

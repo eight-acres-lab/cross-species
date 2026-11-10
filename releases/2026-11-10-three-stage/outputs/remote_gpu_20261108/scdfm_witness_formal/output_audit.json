@@ -1,0 +1,385 @@
+{
+  "original_report_sha256": "4a61082fa82dc4be941b46c68621a9440075fa1a1bbaad050d2d953ec1beb324",
+  "specification_sha256": "0aad7ea40e8c4eb65a95141b3b2dd81582d14d5f07e846e74017aeccdb75d33f",
+  "methods": {
+    "released_checkpoint": {
+      "by_condition_float64": {
+        "Panobinostat+Crizotinib": {
+          "energy_v": 0.515669659137842,
+          "energy_u": 0.4150204216357718,
+          "mean_mse": 0.002790296324891303
+        },
+        "Panobinostat+Curcumin": {
+          "energy_v": 0.34116420768571487,
+          "energy_u": 0.24571043293624406,
+          "mean_mse": 0.0015707853608783573
+        },
+        "Panobinostat+SRT1720": {
+          "energy_v": 0.7311117498099371,
+          "energy_u": 0.6322641671518507,
+          "mean_mse": 0.0038798328541624076
+        },
+        "Panobinostat+Sorafenib": {
+          "energy_v": 0.514273320615084,
+          "energy_u": 0.41209575344994853,
+          "mean_mse": 0.002334118397921484
+        },
+        "SRT2104+Alvespimycin": {
+          "energy_v": 0.48563146162917725,
+          "energy_u": 0.37656551283684614,
+          "mean_mse": 0.00387188322330312
+        },
+        "control+Alvespimycin": {
+          "energy_v": 0.7848719985511572,
+          "energy_u": 0.6822118351152291,
+          "mean_mse": 0.005334332978643672
+        },
+        "control+Dacinostat": {
+          "energy_v": 0.749956660729163,
+          "energy_u": 0.6534344403846504,
+          "mean_mse": 0.004147459713363186
+        }
+      },
+      "macro_float64": {
+        "energy_v": 0.5889541511654394,
+        "energy_u": 0.4881860805015058,
+        "mean_mse": 0.0034183869790233618
+      },
+      "maximum_abs_difference_from_original_fp32": 1.7699421318795316e-05,
+      "prediction_file_sha256": {
+        "Panobinostat+Crizotinib": "2692a7fd8e809d1116d14ed0aad18d577ee200ffa574a7bd77d8085af6794ab0",
+        "Panobinostat+Curcumin": "9ac7133ebf18aaed61d020ffecc3502fed15b4e554aaea894d722b01b3c29076",
+        "Panobinostat+SRT1720": "c7df84330d03a7b126e3be29caedaf4f92c2119cc67e48fe6fa4ba5f62d3756a",
+        "Panobinostat+Sorafenib": "60e7bb7ebed249bc3d6fd82bff5b1e008f211daa567b8f2f242049fcbbc169cc",
+        "SRT2104+Alvespimycin": "1c54c68e3c2ac4639cad08c334c507cb7d5bf7a9c9c4639868d63dd68e2ab677",
+        "control+Alvespimycin": "226712b00e848ef926c4801e6ce58e0c93b034f5fbf72114f2c1e041d8bd0c3c",
+        "control+Dacinostat": "c17e1790e1c6c524cfbbe48495cc603f1e59eb98d5c458f30f40d6ae871b9b33"
+      },
+      "float64_minus_fp32_by_condition": {
+        "Panobinostat+Crizotinib": {
+          "energy_v": 1.5095234033424276e-05,
+          "energy_u": 1.5691411162421787e-05,
+          "mean_mse": 1.0746464525548949e-10
+        },
+        "Panobinostat+Curcumin": {
+          "energy_v": 1.6784895187527127e-05,
+          "energy_u": 1.6272474818279647e-05,
+          "mean_mse": -2.901050955451262e-10
+        },
+        "Panobinostat+SRT1720": {
+          "energy_v": 1.3574761108969824e-05,
+          "energy_u": 1.4334998530429743e-05,
+          "mean_mse": -8.795005552834911e-10
+        },
+        "Panobinostat+Sorafenib": {
+          "energy_v": 1.3028561861361254e-05,
+          "energy_u": 1.4035005124313216e-05,
+          "mean_mse": -1.1212973184508701e-09
+        },
+        "SRT2104+Alvespimycin": {
+          "energy_v": 1.7638692165533598e-05,
+          "energy_u": 1.7699421318795316e-05,
+          "mean_mse": -2.7520163795383135e-10
+        },
+        "control+Alvespimycin": {
+          "energy_v": 1.6155960825159354e-05,
+          "energy_u": 1.7125337397061458e-05,
+          "mean_mse": -5.380136804816749e-10
+        },
+        "control+Dacinostat": {
+          "energy_v": 1.483486246378618e-05,
+          "energy_u": 1.399208142771613e-05,
+          "mean_mse": 4.261667884905562e-10
+        }
+      },
+      "float64_minus_fp32_macro": {
+        "energy_v": 1.530185252085481e-05,
+        "energy_u": 1.559296139697075e-05,
+        "mean_mse": -3.672124071832372e-10
+      }
+    },
+    "witness": {
+      "by_condition_float64": {
+        "Panobinostat+Crizotinib": {
+          "energy_v": 0.4455426377116165,
+          "energy_u": 0.3491778954569398,
+          "mean_mse": 0.0026702434430096868
+        },
+        "Panobinostat+Curcumin": {
+          "energy_v": 0.2638440206491044,
+          "energy_u": 0.1726803379576225,
+          "mean_mse": 0.0013005969292317632
+        },
+        "Panobinostat+SRT1720": {
+          "energy_v": 0.5969781307365079,
+          "energy_u": 0.5025098179975753,
+          "mean_mse": 0.0032268385470687767
+        },
+        "Panobinostat+Sorafenib": {
+          "energy_v": 0.41689396091788744,
+          "energy_u": 0.31942478232565996,
+          "mean_mse": 0.0020610037713632524
+        },
+        "SRT2104+Alvespimycin": {
+          "energy_v": 0.41742133467157316,
+          "energy_u": 0.3119476330882449,
+          "mean_mse": 0.003395099005912932
+        },
+        "control+Alvespimycin": {
+          "energy_v": 0.710312552446748,
+          "energy_u": 0.6114745197450961,
+          "mean_mse": 0.0050461662152268385
+        },
+        "control+Dacinostat": {
+          "energy_v": 0.6249410411341181,
+          "energy_u": 0.5326307033694189,
+          "mean_mse": 0.003556921050237389
+        }
+      },
+      "macro_float64": {
+        "energy_v": 0.4965619540382222,
+        "energy_u": 0.3999779557057939,
+        "mean_mse": 0.003036695566007234
+      },
+      "maximum_abs_difference_from_original_fp32": 1.7648712381301834e-05,
+      "prediction_file_sha256": {
+        "Panobinostat+Crizotinib": "f38a3eb9186e314b868c6b1bb666c3854da34ba7610f55372a2633bc8b782fbb",
+        "Panobinostat+Curcumin": "9a291e9a5e72d9efae664645029ac723d78239763f095c8a928dcad130ea28b9",
+        "Panobinostat+SRT1720": "59d37f1b5ee2995342a5d85d7d42566c0d7c6a74c46140ebb2fe8c3494e969ba",
+        "Panobinostat+Sorafenib": "b4e56025723a74431ce4bd3d6786fa191c3ee4e22e1b169a38ca91ea1dad5bcd",
+        "SRT2104+Alvespimycin": "180f15eea00574b5e04376a062388b86a91fbd4d6f08823135c7f62a1b35a242",
+        "control+Alvespimycin": "bdb3693a6ce1756c2fe84edb2178ab8e321572c7be3dd3fbb6ff8f1f6330deb8",
+        "control+Dacinostat": "e8653d242b805bddf47830513ff0c7a3bc645f404d701068392c119a629c600d"
+      },
+      "float64_minus_fp32_by_condition": {
+        "Panobinostat+Crizotinib": {
+          "energy_v": 1.079261884306959e-05,
+          "energy_u": 1.1979014068685956e-05,
+          "mean_mse": 6.055576829908094e-11
+        },
+        "Panobinostat+Curcumin": {
+          "energy_v": 1.2882038264550033e-05,
+          "energy_u": 1.188092637249838e-05,
+          "mean_mse": 1.8075305249949658e-10
+        },
+        "Panobinostat+SRT1720": {
+          "energy_v": 1.2340941585975429e-05,
+          "energy_u": 1.3098637223762921e-05,
+          "mean_mse": -2.2604769271683534e-10
+        },
+        "Panobinostat+Sorafenib": {
+          "energy_v": 9.538615641346837e-06,
+          "energy_u": 1.0643531714649157e-05,
+          "mean_mse": -5.134060442404942e-10
+        },
+        "SRT2104+Alvespimycin": {
+          "energy_v": 1.4298843936444428e-05,
+          "energy_u": 1.5069306506632074e-05,
+          "mean_mse": -1.8694481032643928e-10
+        },
+        "control+Alvespimycin": {
+          "energy_v": 1.687526168936415e-05,
+          "energy_u": 1.7648712381301834e-05,
+          "mean_mse": -2.6436071647734094e-10
+        },
+        "control+Dacinostat": {
+          "energy_v": 1.7335079430580436e-05,
+          "energy_u": 1.694909695793001e-05,
+          "mean_mse": 3.690886216448086e-10
+        }
+      },
+      "float64_minus_fp32_macro": {
+        "energy_v": 1.3437628484436193e-05,
+        "energy_u": 1.389560360365305e-05,
+        "mean_mse": -8.290883170974928e-11
+      }
+    },
+    "native_fm": {
+      "by_condition_float64": {
+        "Panobinostat+Crizotinib": {
+          "energy_v": 0.432934015012723,
+          "energy_u": 0.3346159462591345,
+          "mean_mse": 0.0022581736252033926
+        },
+        "Panobinostat+Curcumin": {
+          "energy_v": 0.26605434113426973,
+          "energy_u": 0.1734292444509702,
+          "mean_mse": 0.0011712118217155304
+        },
+        "Panobinostat+SRT1720": {
+          "energy_v": 0.6446523240456123,
+          "energy_u": 0.5481913677260675,
+          "mean_mse": 0.003410149884280252
+        },
+        "Panobinostat+Sorafenib": {
+          "energy_v": 0.4315578236522519,
+          "energy_u": 0.33196382535046,
+          "mean_mse": 0.0019032871217816258
+        },
+        "SRT2104+Alvespimycin": {
+          "energy_v": 0.3973905527538193,
+          "energy_u": 0.29050148472269477,
+          "mean_mse": 0.0031090102591417408
+        },
+        "control+Alvespimycin": {
+          "energy_v": 0.6722432174230821,
+          "energy_u": 0.5718564741731793,
+          "mean_mse": 0.004485960653002211
+        },
+        "control+Dacinostat": {
+          "energy_v": 0.5894277604073963,
+          "energy_u": 0.49578339361551116,
+          "mean_mse": 0.0030020290919157114
+        }
+      },
+      "macro_float64": {
+        "energy_v": 0.4906085763470221,
+        "energy_u": 0.3923345337568596,
+        "mean_mse": 0.002762831779577209
+      },
+      "maximum_abs_difference_from_original_fp32": 1.8885895677556164e-05,
+      "prediction_file_sha256": {
+        "Panobinostat+Crizotinib": "d31ad94d824df907edfb7191721a702f02774b4971f2b8e2e628fa653677277c",
+        "Panobinostat+Curcumin": "f59a32acf0db47646ad83bd99ebdd502575655df88f8a8474dda234842391cc8",
+        "Panobinostat+SRT1720": "aa2ebe05574c2b9ac57f33e112c5aababe8549e06aa3f16a97c4de02ba942dc9",
+        "Panobinostat+Sorafenib": "abb1d68b4751b14b6e71e413111cf1f8fa27e432a25df22b4c4a08aa1ce998e7",
+        "SRT2104+Alvespimycin": "673706ec1be7f9bae7ef2448626d18e67f3ac0c3d0c990b7cbb083341976d4dd",
+        "control+Alvespimycin": "f4236891ccef8a28d609e1b6fc1d0bd5580dea82a219a55007e4280aa4617670",
+        "control+Dacinostat": "9922a7a9232309b3c8c47cdd20e1ffdac0b58acc69b06897f7d2305768c44fa4"
+      },
+      "float64_minus_fp32_by_condition": {
+        "Panobinostat+Crizotinib": {
+          "energy_v": 1.4512754422213447e-05,
+          "energy_u": 1.5497650736051582e-05,
+          "mean_mse": -3.051517242017021e-11
+        },
+        "Panobinostat+Curcumin": {
+          "energy_v": 1.449280663301522e-05,
+          "energy_u": 1.406042997409429e-05,
+          "mean_mse": -2.3959279395538435e-10
+        },
+        "Panobinostat+SRT1720": {
+          "energy_v": 1.2355173542033526e-05,
+          "energy_u": 1.269493554012513e-05,
+          "mean_mse": -4.1270585126457204e-10
+        },
+        "Panobinostat+Sorafenib": {
+          "energy_v": 1.5427106841769955e-05,
+          "energy_u": 1.649869030373452e-05,
+          "mean_mse": -2.461136197184216e-10
+        },
+        "SRT2104+Alvespimycin": {
+          "energy_v": 1.2584919346636525e-05,
+          "energy_u": 1.3241619667425653e-05,
+          "mean_mse": -3.7580210211080045e-10
+        },
+        "control+Alvespimycin": {
+          "energy_v": 1.6311600328222653e-05,
+          "energy_u": 1.714159261290149e-05,
+          "mean_mse": -3.9679293965116935e-10
+        },
+        "control+Dacinostat": {
+          "energy_v": 1.8885895677556164e-05,
+          "energy_u": 1.8661254671314964e-05,
+          "mean_mse": 8.781018104482563e-10
+        }
+      },
+      "float64_minus_fp32_macro": {
+        "energy_v": 1.4938608113079788e-05,
+        "energy_u": 1.53994533579338e-05,
+        "mean_mse": -1.1763152431287782e-10
+      }
+    }
+  },
+  "contrasts": {
+    "released_checkpoint_minus_witness": {
+      "float64_gain": 0.09239219712721715,
+      "float64_interval": [
+        0.07443964339626474,
+        0.11166335777163278
+      ],
+      "per_condition_gain_float64": [
+        0.07012702142622551,
+        0.07732018703661048,
+        0.13413361907342924,
+        0.09737935969719658,
+        0.06821012695760409,
+        0.07455944610440923,
+        0.12501561959504492
+      ],
+      "conditions": [
+        "Panobinostat+Crizotinib",
+        "Panobinostat+Curcumin",
+        "Panobinostat+SRT1720",
+        "Panobinostat+Sorafenib",
+        "SRT2104+Alvespimycin",
+        "control+Alvespimycin",
+        "control+Dacinostat"
+      ],
+      "positive_conditions_float64": 7,
+      "original_fp32_gain": 0.0923903329031808,
+      "absolute_gain_precision_difference": 1.8642240363492268e-06
+    },
+    "released_checkpoint_minus_native_fm": {
+      "float64_gain": 0.09834557481841724,
+      "float64_interval": [
+        0.08216628285314388,
+        0.12087227168333772
+      ],
+      "per_condition_gain_float64": [
+        0.08273564412511902,
+        0.07510986655144514,
+        0.08645942576432475,
+        0.08271549696283209,
+        0.08824090887535796,
+        0.11262878112807506,
+        0.1605289003217667
+      ],
+      "conditions": [
+        "Panobinostat+Crizotinib",
+        "Panobinostat+Curcumin",
+        "Panobinostat+SRT1720",
+        "Panobinostat+Sorafenib",
+        "SRT2104+Alvespimycin",
+        "control+Alvespimycin",
+        "control+Dacinostat"
+      ],
+      "positive_conditions_float64": 7,
+      "original_fp32_gain": 0.09834521157400948,
+      "absolute_gain_precision_difference": 3.6324440776114297e-07
+    },
+    "native_fm_minus_witness": {
+      "float64_gain": -0.005953377691200095,
+      "float64_interval": [
+        -0.02564097347204175,
+        0.015602686489183424
+      ],
+      "per_condition_gain_float64": [
+        -0.012608622698893512,
+        0.00221032048516534,
+        0.047674193309104496,
+        0.014663862734364486,
+        -0.02003078191775387,
+        -0.03806933502366583,
+        -0.035513280726721774
+      ],
+      "conditions": [
+        "Panobinostat+Crizotinib",
+        "Panobinostat+Curcumin",
+        "Panobinostat+SRT1720",
+        "Panobinostat+Sorafenib",
+        "SRT2104+Alvespimycin",
+        "control+Alvespimycin",
+        "control+Dacinostat"
+      ],
+      "positive_conditions_float64": 3,
+      "original_fp32_gain": -0.005954878670828683,
+      "absolute_gain_precision_difference": 1.5009796285880839e-06
+    }
+  },
+  "tolerance_abs": 0.0002,
+  "predictions_and_models_changed": false,
+  "original_report_preserved": true,
+  "precision_note": "SciPy Euclidean distances use float64 and exact-zero diagonals; original torch.cdist/means use FP32. Precision tolerance was declared using fitting-only probe before formal test scoring.",
+  "audit_script_sha256": "e00d8a951718835228b7cf91f2879f59d622cf029c38e5a59a5bd2972554f1e8"
+}

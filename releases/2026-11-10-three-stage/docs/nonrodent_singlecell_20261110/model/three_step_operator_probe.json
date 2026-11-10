@@ -1,0 +1,414 @@
+{
+  "scope": "Three optimizer updates on an isolated artificial software model only; no biological study fitting or inference",
+  "biological_experiment_fits": 0,
+  "biological_inference_calls": 0,
+  "actual_RNA_matrices_opened": 0,
+  "scratch_artificial_optimizer_steps": 3,
+  "trained_model_weights_written": false,
+  "artificial_data": {
+    "controls": [
+      8,
+      6546
+    ],
+    "targets": [
+      16,
+      4633
+    ],
+    "evaluation_context_controls": [
+      8,
+      6546
+    ],
+    "construction": "seeded uniform positive synthetic counts transformed with log1p; synthetic sine-shaped target multiplier",
+    "seed": 20261110,
+    "same_observed_gene_mask": true,
+    "observed_gene_count": 4633
+  },
+  "objective": "mean((prediction[:,native_indices].mean(0)-artificial_target.mean(0))**2)",
+  "objective_scope": "source-only unit coefficient; no biological fitting-scale coefficient or human target loss",
+  "optimizer": {
+    "name": "AdamW",
+    "new_condition_lr": 0.001,
+    "connected_core_lr": 1e-05,
+    "weight_decay": 0.0005,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "clip_norm": 10
+  },
+  "runtime": {
+    "python": "3.11.10",
+    "torch": "2.7.1+cu118",
+    "transformers": "4.52.4",
+    "cuda": "11.8"
+  },
+  "model_eval_autograd_enabled": true,
+  "first_step_shared_gradients_exact_zero_expected": true,
+  "third_step_all_shared_and_condition_gradients_finite_nonzero": true,
+  "third_step_data_updates_beyond_decay_finite_nonzero": true,
+  "artificial_human_context_prediction_changed": {
+    "l2": 0.04348978942657557,
+    "max_abs": 0.003448486328125,
+    "nonzero_elements": 2774,
+    "finite": true
+  },
+  "history": [
+    {
+      "step": 1,
+      "artificial_source_loss": 0.09648627042770386,
+      "source_gradient_groups_before_clip": {
+        "backbone": {
+          "l2": 0.0,
+          "max_abs": 0.0,
+          "nonzero_elements": 0,
+          "finite": true
+        },
+        "basal": {
+          "l2": 0.0,
+          "max_abs": 0.0,
+          "nonzero_elements": 0,
+          "finite": true
+        },
+        "project": {
+          "l2": 0.0,
+          "max_abs": 0.0,
+          "nonzero_elements": 0,
+          "finite": true
+        },
+        "final_dense": {
+          "l2": 0.0,
+          "max_abs": 0.0,
+          "nonzero_elements": 0,
+          "finite": true
+        },
+        "condition_extension": {
+          "l2": 0.0002496829606949293,
+          "max_abs": 2.9135871955077164e-05,
+          "nonzero_elements": 656,
+          "finite": true
+        }
+      },
+      "gradient_norm_before_clip": 0.00024968295474536717,
+      "parameter_updates": {
+        "backbone": {
+          "total": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          }
+        },
+        "basal": {
+          "total": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          }
+        },
+        "project": {
+          "total": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          }
+        },
+        "final_dense": {
+          "total": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0,
+            "max_abs": 0.0,
+            "nonzero_elements": 0,
+            "finite": true
+          }
+        },
+        "condition_extension": {
+          "total": {
+            "l2": 0.025464653531705253,
+            "max_abs": 0.0009996568551287055,
+            "nonzero_elements": 656,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.025464653531705253,
+            "max_abs": 0.0009996568551287055,
+            "nonzero_elements": 656,
+            "finite": true
+          }
+        }
+      },
+      "original_perturbation_columns_unchanged": true,
+      "original_batch_rows_restored": true
+    },
+    {
+      "step": 2,
+      "artificial_source_loss": 0.09648123383522034,
+      "source_gradient_groups_before_clip": {
+        "backbone": {
+          "l2": 1.639110396984285e-05,
+          "max_abs": 2.921187842730433e-07,
+          "nonzero_elements": 32248451,
+          "finite": true
+        },
+        "basal": {
+          "l2": 1.0385089714471866e-05,
+          "max_abs": 3.7111021811142564e-08,
+          "nonzero_elements": 1519887,
+          "finite": true
+        },
+        "project": {
+          "l2": 8.28838585624483e-06,
+          "max_abs": 8.082861313596368e-08,
+          "nonzero_elements": 2153502,
+          "finite": true
+        },
+        "final_dense": {
+          "l2": 2.9319532078857748e-05,
+          "max_abs": 4.0297163650393486e-07,
+          "nonzero_elements": 5724485,
+          "finite": true
+        },
+        "condition_extension": {
+          "l2": 0.0002493041861196435,
+          "max_abs": 2.909318936872296e-05,
+          "nonzero_elements": 656,
+          "finite": true
+        }
+      },
+      "gradient_norm_before_clip": 0.00025190762244164944,
+      "parameter_updates": {
+        "backbone": {
+          "total": {
+            "l2": 0.004848937047533485,
+            "max_abs": 7.100403308868408e-06,
+            "nonzero_elements": 30394780,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.004848937047533485,
+            "max_abs": 7.100403308868408e-06,
+            "nonzero_elements": 30394780,
+            "finite": true
+          }
+        },
+        "basal": {
+          "total": {
+            "l2": 0.0029454562785810514,
+            "max_abs": 5.388632416725159e-06,
+            "nonzero_elements": 1519692,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0029454562785810514,
+            "max_abs": 5.388632416725159e-06,
+            "nonzero_elements": 1519692,
+            "finite": true
+          }
+        },
+        "project": {
+          "total": {
+            "l2": 0.0025907149644478398,
+            "max_abs": 6.332993507385254e-06,
+            "nonzero_elements": 2152734,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0025907149644478398,
+            "max_abs": 6.332993507385254e-06,
+            "nonzero_elements": 2152734,
+            "finite": true
+          }
+        },
+        "final_dense": {
+          "total": {
+            "l2": 0.0048900614647072755,
+            "max_abs": 7.189126336015761e-06,
+            "nonzero_elements": 5705297,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.0048900614647072755,
+            "max_abs": 7.189126336015761e-06,
+            "nonzero_elements": 5705297,
+            "finite": true
+          }
+        },
+        "condition_extension": {
+          "total": {
+            "l2": 0.02545407312965006,
+            "max_abs": 0.0009996177395805717,
+            "nonzero_elements": 656,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.025454085035478965,
+            "max_abs": 0.000999618205241859,
+            "nonzero_elements": 656,
+            "finite": true
+          }
+        }
+      },
+      "original_perturbation_columns_unchanged": true,
+      "original_batch_rows_restored": true
+    },
+    {
+      "step": 3,
+      "artificial_source_loss": 0.09647580981254578,
+      "source_gradient_groups_before_clip": {
+        "backbone": {
+          "l2": 0.00016443875668259786,
+          "max_abs": 4.0628365240991116e-06,
+          "nonzero_elements": 32249153,
+          "finite": true
+        },
+        "basal": {
+          "l2": 0.00010926263630594021,
+          "max_abs": 4.3781710701296106e-07,
+          "nonzero_elements": 1519946,
+          "finite": true
+        },
+        "project": {
+          "l2": 0.00015251368428433547,
+          "max_abs": 1.8048303900286555e-06,
+          "nonzero_elements": 2153628,
+          "finite": true
+        },
+        "final_dense": {
+          "l2": 0.0007768914829323005,
+          "max_abs": 0.00012145523214712739,
+          "nonzero_elements": 5725438,
+          "finite": true
+        },
+        "condition_extension": {
+          "l2": 0.0002580238650158212,
+          "max_abs": 3.0120008887024596e-05,
+          "nonzero_elements": 656,
+          "finite": true
+        }
+      },
+      "gradient_norm_before_clip": 0.0008557908586226404,
+      "parameter_updates": {
+        "backbone": {
+          "total": {
+            "l2": 0.012209971323775526,
+            "max_abs": 8.188188076019287e-06,
+            "nonzero_elements": 31546396,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.012209971323775526,
+            "max_abs": 8.188188076019287e-06,
+            "nonzero_elements": 31546396,
+            "finite": true
+          }
+        },
+        "basal": {
+          "total": {
+            "l2": 0.005707777713242533,
+            "max_abs": 6.8712979555130005e-06,
+            "nonzero_elements": 1519903,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.005707777713242533,
+            "max_abs": 6.8712979555130005e-06,
+            "nonzero_elements": 1519903,
+            "finite": true
+          }
+        },
+        "project": {
+          "total": {
+            "l2": 0.006354658198806163,
+            "max_abs": 7.3499977588653564e-06,
+            "nonzero_elements": 2153488,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.006354658198806163,
+            "max_abs": 7.3499977588653564e-06,
+            "nonzero_elements": 2153488,
+            "finite": true
+          }
+        },
+        "final_dense": {
+          "total": {
+            "l2": 0.011119739579776279,
+            "max_abs": 8.114773663692176e-06,
+            "nonzero_elements": 5715616,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.011119739579776279,
+            "max_abs": 8.114773663692176e-06,
+            "nonzero_elements": 5715616,
+            "finite": true
+          }
+        },
+        "condition_extension": {
+          "total": {
+            "l2": 0.02522833128810208,
+            "max_abs": 0.0010018923785537481,
+            "nonzero_elements": 656,
+            "finite": true
+          },
+          "data_beyond_decay": {
+            "l2": 0.025228354926332484,
+            "max_abs": 0.0010018933098763227,
+            "nonzero_elements": 656,
+            "finite": true
+          }
+        }
+      },
+      "original_perturbation_columns_unchanged": true,
+      "original_batch_rows_restored": true
+    }
+  ],
+  "immutable_artifact_hashes_before": {
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/run_nonrodent_lps_state.py": "381e38425624814261f70d02d7d288f60841b12f0116b4ce2a4d4577c816b688",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/EVALUATION_CONTRACT_v2.json": "9342937d6f9b3fbf720fcec9b21a866cc46bfd5dff502e02d09b2f8cb02d507b",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/rabbit.human_state_measured.tsv": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/state_transition.py": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/utils.py": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/base.py": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd"
+  },
+  "immutable_artifact_hashes_after": {
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/run_nonrodent_lps_state.py": "381e38425624814261f70d02d7d288f60841b12f0116b4ce2a4d4577c816b688",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/EVALUATION_CONTRACT_v2.json": "9342937d6f9b3fbf720fcec9b21a866cc46bfd5dff502e02d09b2f8cb02d507b",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/rabbit.human_state_measured.tsv": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/state_transition.py": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/utils.py": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+    "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/base.py": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd"
+  },
+  "immutable_artifact_hashes_unchanged": true,
+  "script_sha256": "6976cc528252121cb44e255924552a849e45563b312b0a27c964fe0682462403",
+  "elapsed_seconds": 1.2179671032354236
+}

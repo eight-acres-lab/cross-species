@@ -1,0 +1,478 @@
+{
+  "accno" : "S-SUBS15",
+  "attributes" : [ {
+    "name" : "Project Core - Project Short Name",
+    "value" : "CITEseqPBMCProject"
+  }, {
+    "name" : "HCA Project UUID",
+    "value" : "efea6426-510a-4b60-9a19-277e52bfa815"
+  }, {
+    "name" : "DataSource",
+    "value" : "USI"
+  }, {
+    "name" : "Title",
+    "value" : "Dissecting the protein and transcriptional responses of human immune cells to T cell and monocyte specific activation"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2020-12-31"
+  }, {
+    "name" : "AttachTo",
+    "value" : "DSP"
+  } ],
+  "section" : {
+    "accno" : "PROJECT",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Description",
+      "value" : "Single cell profiling is a powerful tool for studying the molecular and cellular (dys)function of activated peripheral blood mononuclear cells (PBMCs) in the context of disease. We combined CITE-seq with two levels of multiplexing (cell hashing and individuals? genotypes) to derive a reference database of immune cell gene/protein responses to different activation conditions. PBMCs from 10 healthy adults were profiled before and after stimulating i) T cells via anti-CD3/CD28 or ii) monocytes via LPS. By using a comprehensive antibody panel (n=39) of cell type (e.g., CD16, CD14) and cell state (e.g., CD69, CD25) markers, we discovered that all lymphocytes responded to anti-CD3/CD28 stimulation, whereas LPS specifically induced inflammation in monocytes. Pseudo-temporal analyses further revealed cell- and condition-specific heterogeneity in responses to activation that were independent of individual-specific variation. Together, these data are shared within an interactive web application (https://czi-pbmc-cite-seq.jax.org/) and will serve as a resource to guide future studies of immune cell responses."
+    }, {
+      "name" : "alias",
+      "value" : "HCA_project_efea6426-510a-4b60-9a19-277e52bfa815"
+    } ],
+    "links" : [ {
+      "url" : "SAMEA7463732",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463733",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463734",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463735",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463736",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463737",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463738",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463739",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463740",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463741",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463742",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463743",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463744",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463745",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463746",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463747",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463748",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463749",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463750",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463751",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463752",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463753",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463754",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463755",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463756",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463757",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463758",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463759",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463760",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    }, {
+      "url" : "SAMEA7463761",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "BioSample"
+      } ]
+    } ],
+    "subsections" : [ {
+      "accno" : "SECT1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Nathan Lawlor"
+      }, {
+        "name" : "firstName",
+        "value" : "Nathan"
+      }, {
+        "name" : "lastName",
+        "value" : "Lawlor"
+      }, {
+        "name" : "E-mail",
+        "value" : "nathan.lawlor@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2059"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "SECT2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Djamel Nehar-Belaid"
+      }, {
+        "name" : "firstName",
+        "value" : "Djamel"
+      }, {
+        "name" : "lastName",
+        "value" : "Nehar-Belaid"
+      }, {
+        "name" : "E-mail",
+        "value" : "Djamel.Nehar-belaid@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2120"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "SECT3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jessica Grassmann"
+      }, {
+        "name" : "firstName",
+        "value" : "Jessica"
+      }, {
+        "name" : "lastName",
+        "value" : "Grassmann"
+      }, {
+        "name" : "E-mail",
+        "value" : "Jessica.Grassmann@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2122"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "SECT4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Marlon Stoeckius"
+      }, {
+        "name" : "firstName",
+        "value" : "Marlon"
+      }, {
+        "name" : "lastName",
+        "value" : "Stoeckius"
+      }, {
+        "name" : "E-mail",
+        "value" : "marlon@stoeckius.de"
+      }, {
+        "name" : "address",
+        "value" : "101 6th Ave, New York, NY 10013"
+      }, {
+        "name" : "Organisation",
+        "value" : "o2"
+      } ]
+    }, {
+      "accno" : "SECT5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Peter Smibert"
+      }, {
+        "name" : "firstName",
+        "value" : "Peter"
+      }, {
+        "name" : "lastName",
+        "value" : "Smibert"
+      }, {
+        "name" : "E-mail",
+        "value" : "psmibert@NYGENOME.ORG"
+      }, {
+        "name" : "address",
+        "value" : "101 6th Ave, New York, NY 10013"
+      }, {
+        "name" : "Organisation",
+        "value" : "o2"
+      } ]
+    }, {
+      "accno" : "SECT6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Michael Stitzel"
+      }, {
+        "name" : "firstName",
+        "value" : "Michael"
+      }, {
+        "name" : "lastName",
+        "value" : "Stitzel"
+      }, {
+        "name" : "E-mail",
+        "value" : "Michael.Stitzel@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2431"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "SECT7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Virginia Pascual"
+      }, {
+        "name" : "firstName",
+        "value" : "Virginia"
+      }, {
+        "name" : "lastName",
+        "value" : "Pascual"
+      }, {
+        "name" : "E-mail",
+        "value" : "vip2021@med.cornell.edu"
+      }, {
+        "name" : "address",
+        "value" : "413 E. 69th StreetNew York, NY 10021"
+      }, {
+        "name" : "Organisation",
+        "value" : "o3"
+      } ]
+    }, {
+      "accno" : "SECT8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jacques Banchereau"
+      }, {
+        "name" : "firstName",
+        "value" : "Jacques"
+      }, {
+        "name" : "lastName",
+        "value" : "Banchereau"
+      }, {
+        "name" : "E-mail",
+        "value" : "Jacques.Banchereau@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2443"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "SECT9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Adam Williams"
+      }, {
+        "name" : "firstName",
+        "value" : "Adam"
+      }, {
+        "name" : "lastName",
+        "value" : "Williams"
+      }, {
+        "name" : "E-mail",
+        "value" : "Adam.Williams@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2351"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "SECT10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Duygu Ucar"
+      }, {
+        "name" : "firstName",
+        "value" : "Duygu"
+      }, {
+        "name" : "lastName",
+        "value" : "Ucar"
+      }, {
+        "name" : "E-mail",
+        "value" : "Duygu.Ucar@jax.org"
+      }, {
+        "name" : "address",
+        "value" : "10 Discovery Drive, Farmington, CT 06032"
+      }, {
+        "name" : "phone",
+        "value" : "(+1) 860-837-2436"
+      }, {
+        "name" : "Organisation",
+        "value" : "o1"
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "The Jackson Laboratory"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "The New York Genome Center"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organisation",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Weill Cornell Medicine"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

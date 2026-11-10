@@ -1,0 +1,1128 @@
+[
+  {
+    "gsm": "GSM1707962",
+    "experiment": "SRX1055008",
+    "sample_title": "KD SRSF1 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF1",
+    "matrix_column": "SRSF1_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF1_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058225",
+      "SRR2058226",
+      "SRR2058227"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707963",
+    "experiment": "SRX1055009",
+    "sample_title": "KD SRSF1 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF1",
+    "matrix_column": "SRSF1_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF1_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058228",
+      "SRR2058229",
+      "SRR2058230"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707964",
+    "experiment": "SRX1055010",
+    "sample_title": "KD SRSF2 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF2",
+    "matrix_column": "SRSF2_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF2_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058231",
+      "SRR2058232",
+      "SRR2058233"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707965",
+    "experiment": "SRX1055011",
+    "sample_title": "KD SRSF2 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF2",
+    "matrix_column": "SRSF2_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF2_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058234",
+      "SRR2058235",
+      "SRR2058236"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707966",
+    "experiment": "SRX1055012",
+    "sample_title": "KD SRSF3 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF3",
+    "matrix_column": "SRSF3_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF3_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058237",
+      "SRR2058238",
+      "SRR2058239"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707967",
+    "experiment": "SRX1055013",
+    "sample_title": "KD SRSF3 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF3",
+    "matrix_column": "SRSF3_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF3_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058240",
+      "SRR2058241",
+      "SRR2058242"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707968",
+    "experiment": "SRX1055014",
+    "sample_title": "KD SRSF4 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF4",
+    "matrix_column": "SRSF4_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF4_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058243",
+      "SRR2058244",
+      "SRR2058245"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707969",
+    "experiment": "SRX1055015",
+    "sample_title": "KD SRSF4 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF4",
+    "matrix_column": "SRSF4_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF4_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058246",
+      "SRR2058247",
+      "SRR2058248"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707970",
+    "experiment": "SRX1055016",
+    "sample_title": "KD SRSF5 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF5",
+    "matrix_column": "SRSF5_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF5_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058249",
+      "SRR2058250",
+      "SRR2058251"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707971",
+    "experiment": "SRX1055017",
+    "sample_title": "KD SRSF5 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF5",
+    "matrix_column": "SRSF5_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF5_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058252",
+      "SRR2058253",
+      "SRR2058254"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707972",
+    "experiment": "SRX1055018",
+    "sample_title": "KD SRSF6 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF6",
+    "matrix_column": "SRSF6_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF6_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058255",
+      "SRR2058256",
+      "SRR2058257"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707973",
+    "experiment": "SRX1055019",
+    "sample_title": "KD SRSF6 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF6",
+    "matrix_column": "SRSF6_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF6_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058258",
+      "SRR2058259",
+      "SRR2058260"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707974",
+    "experiment": "SRX1055020",
+    "sample_title": "KD SRSF7 whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF7",
+    "matrix_column": "SRSF7_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF7_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058261",
+      "SRR2058262",
+      "SRR2058263"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707975",
+    "experiment": "SRX1055021",
+    "sample_title": "KD SRSF7 whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "SRSF7",
+    "matrix_column": "SRSF7_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF7_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058264",
+      "SRR2058265",
+      "SRR2058266"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707976",
+    "experiment": "SRX1055022",
+    "sample_title": "KD GFP whole cell Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "GFP",
+    "matrix_column": "GFP_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "mock_control",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "GFP_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058267",
+      "SRR2058268",
+      "SRR2058269"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707977",
+    "experiment": "SRX1055023",
+    "sample_title": "KD GFP whole cell Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "whole_cell",
+    "target_label": "GFP",
+    "matrix_column": "GFP_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "mock_control",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "GFP_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058270",
+      "SRR2058271",
+      "SRR2058272"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707978",
+    "experiment": "SRX1055024",
+    "sample_title": "KD SRSF1 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF1",
+    "matrix_column": "SRSF1_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF1_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058273",
+      "SRR2058274",
+      "SRR2058275",
+      "SRR2058276"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707979",
+    "experiment": "SRX1055025",
+    "sample_title": "KD SRSF1 cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF1",
+    "matrix_column": "SRSF1_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF1_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058277",
+      "SRR2058278",
+      "SRR2058279"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707980",
+    "experiment": "SRX1055026",
+    "sample_title": "KD SRSF2 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF2",
+    "matrix_column": "SRSF2_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF2_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058280",
+      "SRR2058281"
+    ],
+    "sequencing_runs": 2,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707981",
+    "experiment": "SRX1055027",
+    "sample_title": "KD SRSF2 cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF2",
+    "matrix_column": "SRSF2_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF2_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058282",
+      "SRR2058283",
+      "SRR2058284"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707982",
+    "experiment": "SRX1055028",
+    "sample_title": "KD SRSF3 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF3",
+    "matrix_column": "SRSF3_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF3_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058285",
+      "SRR2058286",
+      "SRR2058287",
+      "SRR2058288"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707983",
+    "experiment": "SRX1055029",
+    "sample_title": "KD SRSF3 cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF3",
+    "matrix_column": "SRSF3_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF3_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058289",
+      "SRR2058290",
+      "SRR2058291"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707984",
+    "experiment": "SRX1055030",
+    "sample_title": "KD SRSF4 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF4",
+    "matrix_column": "SRSF4_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF4_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058292",
+      "SRR2058293",
+      "SRR2058294",
+      "SRR2058295"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707985",
+    "experiment": "SRX1055031",
+    "sample_title": "KD SRSF4 cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF4",
+    "matrix_column": "SRSF4_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF4_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058296",
+      "SRR2058297",
+      "SRR2058298"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707986",
+    "experiment": "SRX1055032",
+    "sample_title": "KD SRSF5 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF5",
+    "matrix_column": "SRSF5_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF5_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058299",
+      "SRR2058300",
+      "SRR2058301",
+      "SRR2058302"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707987",
+    "experiment": "SRX1055033",
+    "sample_title": "KD SRSF5 cytol Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF5",
+    "matrix_column": "SRSF5_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF5_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058303",
+      "SRR2058304",
+      "SRR2058305"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707988",
+    "experiment": "SRX1055034",
+    "sample_title": "KD SRSF6 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF6",
+    "matrix_column": "SRSF6_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF6_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058306",
+      "SRR2058307",
+      "SRR2058308",
+      "SRR2058309"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707989",
+    "experiment": "SRX1055035",
+    "sample_title": "KD SRSF6 cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF6",
+    "matrix_column": "SRSF6_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF6_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058310",
+      "SRR2058311",
+      "SRR2058312"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": false,
+    "selected_four_target_panel": false,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707990",
+    "experiment": "SRX1055036",
+    "sample_title": "KD SRSF7 cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF7",
+    "matrix_column": "SRSF7_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF7_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058313",
+      "SRR2058314",
+      "SRR2058315",
+      "SRR2058316"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707991",
+    "experiment": "SRX1055037",
+    "sample_title": "KD SRSF7 cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "SRSF7",
+    "matrix_column": "SRSF7_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "treated",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "SRSF7_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058317",
+      "SRR2058318",
+      "SRR2058319"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707992",
+    "experiment": "SRX1055038",
+    "sample_title": "KD GFP cyto Replicate A",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "GFP",
+    "matrix_column": "GFP_A",
+    "biological_replicate_label": "A",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "mock_control",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "GFP_A",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058320",
+      "SRR2058321",
+      "SRR2058322",
+      "SRR2058323"
+    ],
+    "sequencing_runs": 4,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  },
+  {
+    "gsm": "GSM1707993",
+    "experiment": "SRX1055039",
+    "sample_title": "KD GFP cyto Replicate B",
+    "cell_model": "P19_embryonal_carcinoma",
+    "compartment": "cytoplasmic",
+    "target_label": "GFP",
+    "matrix_column": "GFP_B",
+    "biological_replicate_label": "B",
+    "biological_replicate_evidence": "Publication Methods and GEO series declare two biological replicates per condition",
+    "role": "mock_control",
+    "time_h": 36,
+    "perturbation_method": "esiRNA",
+    "fraction_pair_label": "GFP_B",
+    "fraction_pair_basis": "GEO series states cytoplasmic and whole-cell RNA from identical sample; A/B labels link fractions. Physical aliquot identifiers unavailable.",
+    "treatment_control_pairing_verified": false,
+    "donor_id": null,
+    "run_accessions": [
+      "SRR2058324",
+      "SRR2058325",
+      "SRR2058326"
+    ],
+    "sequencing_runs": 3,
+    "run_count_is_biological_sample_count": false,
+    "selected_primary_three_target_panel": true,
+    "selected_four_target_panel": true,
+    "treatment_protocol": [
+      "Seven different SR proteins were knocked down using costum-made esiRNAs and Lipofectamin2000. An esiRNA against GFP was used for mock transfections. Transfections were performed for 36 hours to minimize secondary effects on gene expression."
+    ],
+    "extract_protocol": [
+      "P19 Control and Knockdown cells were harvested and separated into whole cell lysates and cytoplasmic fractions. RNA was isolated using TRIzol. PolyA+ RNA was enriched with MicroPoly(A) Purist Kit (Ambion.",
+      "mRNA isolation from 1ug total RNA was done by poly-dT enrichment using the NEBNext Poly(A) mRNA Magnetic Isolation Module according to the manufacturers instructions. Library was prepared using TruSeq library prep kit (Illlumina)."
+    ],
+    "source_soft_sha256": "5666e4a729df381fcc3651efc6da2bcfe8c1a1d6fd2b5bf9814ddf411f1867f1"
+  }
+]

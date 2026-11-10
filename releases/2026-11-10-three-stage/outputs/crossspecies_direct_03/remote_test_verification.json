@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "remote_python": "/hy-tmp/cross-species-feedback-20261108/env/bin/python",
+  "command": "python -m unittest discover -s tests -p test_source_pairing_controls.py -v",
+  "passed": 13,
+  "failed": 0,
+  "skipped": 0,
+  "runtime_seconds": 0.6,
+  "cuda_end_to_end_test_passed": true,
+  "tests_scope": "Synthetic scientific-failure-mode and CPU/CUDA equivalence tests; no biological outcome claim",
+  "files": {
+    "tests/test_source_pairing_controls.py": "6509d4da37d3926d72a7d1f42d84d324e0a13ca79e44c398319650307dd0a1d5",
+    "src/cross_species/source_pairing_controls.py": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+    "scripts/prepare_crossspecies_direct_bundle.py": "222911fed6716cdf4d8c7c63117a52b32b345343f7698a2afb3d2171d9c14a88",
+    "docs/multisource_20261108/crossspecies_direct_03/PROTOCOL_v1.zh.md": "8b23699e549cb422dcb493a654e26b3acc097d7993fb0d9a3d50421b7095f905"
+  }
+}

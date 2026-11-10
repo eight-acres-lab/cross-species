@@ -1,0 +1,41 @@
+[
+  {
+    "name": "bardoxolone methyl",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/bardoxolone%20methyl/cids/JSON",
+    "file": "name_bardoxolone_methyl.json",
+    "sha256": "1d9b1a0a9386d785fe7e423690670cc6fe101bad534a67cd33e19a04fc3c2f04",
+    "data": {
+      "IdentifierList": {
+        "CID": [
+          400769
+        ]
+      }
+    }
+  },
+  {
+    "name": "KI696",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/KI696/cids/JSON",
+    "file": "name_KI696.json",
+    "sha256": "d58ccc1cbbfe0b426da51bd81889a90ee69058d0294f9d3c9f88743bb80958f2",
+    "data": {
+      "IdentifierList": {
+        "CID": [
+          118170767
+        ]
+      }
+    }
+  },
+  {
+    "name": "thapsigargin",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/thapsigargin/cids/JSON",
+    "file": "name_thapsigargin.json",
+    "sha256": "a1f90aa2e36b89de8d0de473d67af191910635a5319f3e4dec79a5265ed48030",
+    "data": {
+      "IdentifierList": {
+        "CID": [
+          446378
+        ]
+      }
+    }
+  }
+]

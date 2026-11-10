@@ -1,0 +1,275 @@
+{
+  "schema_version": "gse325993_exp2_normalized_v1",
+  "status": "all_count_normalization_and_roundtrip_checks_passed",
+  "scope": "All9732 publicexp2cells; no train/cal/test split, model, outcomes or new expression/guide filtering",
+  "source_files": {
+    "gencode32_annotation": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/annotation/gencode32_gene_annotation.tsv",
+      "sha256": "bff01f6276d5d834afe169f18eb50931ffe41569e748eac01c86f8ae85818d0c",
+      "bytes": 3823617
+    },
+    "gencode32_source_manifest": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/annotation/gencode32_source_manifest.json",
+      "sha256": "afe68dbd3fe236bf6b736744fdc22e93d2a5d215840e11d65efc3354c78dc4a5",
+      "bytes": 568
+    },
+    "common_state_axis": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/common_state_gene_id_axis.tsv",
+      "sha256": "938e927cdd5b80e123e8411104f72e4e4ca4db874e69a3e4868586b526c19a83",
+      "bytes": 204545
+    },
+    "script": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/prepare_gse325993_state_arrays.py",
+      "sha256": "7ee83b78482ef0814cb734ae75e8261493b0398aad0255d1d8f436dccb9736fb",
+      "bytes": 8599
+    },
+    "native_count_preparation_audit": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/exp2_preparation_audit.json",
+      "sha256": "2940ec4e326926c2706c5be511e3e2472f3f2d6a28fa3e3fd1dbc6b140a65279",
+      "bytes": 9755
+    },
+    "author_demux_and_guide_metadata": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/audit/public_cell_guide_and_line_metadata.tsv.gz",
+      "sha256": "54bb8dc0136bff35b2c7486b87ba77721216dc7bf7f60b2ef5383208c6087122",
+      "bytes": 1039349
+    },
+    "upstream_NTC_filter_boundary": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp1/audit/control_guide_upstream_filter_boundary.json",
+      "sha256": "c8cc8acde1124a10412eac786b82030c24773bdce253f46fda4c0f0d65d347d1",
+      "bytes": 6447
+    },
+    "human_counts": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/gse325993_exp2_human.native_counts.h5ad",
+      "sha256": "e4562c4a67c7a785d5e5e7dbeedbc3f5a177fe8e0718851c76516d128cd36ef1",
+      "bytes": 73099183
+    },
+    "cynomolgus_counts": {
+      "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/prepared/gse325993_exp2_cynomolgus.native_counts.h5ad",
+      "sha256": "7bd2c2b9f35747ef7f3033acf3362520f90ecd11ab80097a4928d7dedb2dcf88",
+      "bytes": 40498179
+    }
+  },
+  "arrays": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized/gse325993_exp2_arrays.npz",
+    "sha256": "9bfe37f689d0e5eb93ca06610b280f54c1fda7102be36579d9065a94dd4cc510",
+    "bytes": 41248479,
+    "fields": {
+      "native_gene_indices": {
+        "shape": [
+          6357
+        ],
+        "dtype": "int64"
+      },
+      "human_gene_ids": {
+        "shape": [
+          6357
+        ],
+        "dtype": "<U15"
+      },
+      "cynomolgus_gene_ids": {
+        "shape": [
+          6357
+        ],
+        "dtype": "<U15"
+      },
+      "human_expression": {
+        "shape": [
+          6169,
+          6357
+        ],
+        "dtype": "float32"
+      },
+      "human_cell_ids": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U41"
+      },
+      "human_donors": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U2"
+      },
+      "human_cell_lines": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U10"
+      },
+      "human_condition": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U6"
+      },
+      "human_guide": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U19"
+      },
+      "human_capture": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U16"
+      },
+      "human_experiment": {
+        "shape": [
+          6169
+        ],
+        "dtype": "<U4"
+      },
+      "human_coding_library_size": {
+        "shape": [
+          6169
+        ],
+        "dtype": "float64"
+      },
+      "cynomolgus_expression": {
+        "shape": [
+          3563,
+          6357
+        ],
+        "dtype": "float32"
+      },
+      "cynomolgus_cell_ids": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U46"
+      },
+      "cynomolgus_donors": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U11"
+      },
+      "cynomolgus_cell_lines": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U8"
+      },
+      "cynomolgus_condition": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U6"
+      },
+      "cynomolgus_guide": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U19"
+      },
+      "cynomolgus_capture": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U16"
+      },
+      "cynomolgus_experiment": {
+        "shape": [
+          3563
+        ],
+        "dtype": "<U4"
+      },
+      "cynomolgus_coding_library_size": {
+        "shape": [
+          3563
+        ],
+        "dtype": "float64"
+      }
+    }
+  },
+  "normalization": {
+    "formula": "float32(log1p(10000*native_UMI/full_native_observed_GENCODE32_protein_coding_UMI_sum))",
+    "definition": "GENCODE32 gene_type==protein_coding, exact deposited gene IDs; macaque uses author's human-ID Liftoff GTF",
+    "zero_denominator_policy": "abort, never drop cells",
+    "exclude_five_insert_features": true,
+    "all6357_output_genes_retained": true,
+    "coding_reference": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.primary_assembly.annotation.gtf.gz",
+      "release": "GENCODE32 GRCh38.p13 primary assembly",
+      "source_bytes": 43107903,
+      "source_sha256": "0c36c37abb0c88637b04a8e401c93f0199a65bbdd0702c9e13bdfbadc053fe1e",
+      "gene_rows": 60668,
+      "protein_coding_gene_rows": 19994,
+      "table_sha256": "bff01f6276d5d834afe169f18eb50931ffe41569e748eac01c86f8ae85818d0c",
+      "rule": "only GTF feature gene; gene_type==protein_coding; exactstable ID, version suffix removed; preserve PAR_Ysuffix"
+    }
+  },
+  "species": {
+    "human": {
+      "cells": 6169,
+      "native_genes": 36606,
+      "observed_state_genes": 6357,
+      "coding_denominator_genes": 19394,
+      "reference_coding_ids_absent_native": 600,
+      "native_gene_ids_absent_gencode32": 5,
+      "excluded_insert_features": [
+        "other_plus",
+        "KRAB_dCas9",
+        "other_minus",
+        "rtTA",
+        "NeoR_KanR"
+      ],
+      "state_output_genes_outside_coding_denominator": 86,
+      "denominator_min_median_max": [
+        2609.0,
+        21545.0,
+        101007.0
+      ],
+      "cell_filter": "none; all author-public exact-demux cells retained",
+      "mask": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized/human.gencode32_coding_mask.tsv",
+        "sha256": "4375d81c3f4371a37a34d06892bbe0803b3279b81b8da80ecaa48a3ce7f9884f",
+        "bytes": 1409297
+      }
+    },
+    "cynomolgus": {
+      "cells": 3563,
+      "native_genes": 34256,
+      "observed_state_genes": 6357,
+      "coding_denominator_genes": 18562,
+      "reference_coding_ids_absent_native": 1432,
+      "native_gene_ids_absent_gencode32": 5,
+      "excluded_insert_features": [
+        "other_plus",
+        "KRAB_dCas9",
+        "other_minus",
+        "rtTA",
+        "NeoR_KanR"
+      ],
+      "state_output_genes_outside_coding_denominator": 86,
+      "denominator_min_median_max": [
+        2479.0,
+        19878.0,
+        122463.0
+      ],
+      "cell_filter": "none; all author-public exact-demux cells retained",
+      "mask": {
+        "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized/cynomolgus.gencode32_coding_mask.tsv",
+        "sha256": "e8902ff3181ea7701ed4d3b8706689418800539f772d61e095ff6e1fbaa19885",
+        "bytes": 1320323
+      }
+    }
+  },
+  "axis": {
+    "path": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/normalized/state_observed_gene_axis.tsv",
+    "sha256": "b3c58343f4518a877ee349cd519d57ae72709a2b43a2286acd4ac32ddc781b02",
+    "bytes": 267340,
+    "native_model_axis": 6546,
+    "measured_common_axis": 6357,
+    "gene_type_counts": {
+      "protein_coding": 6271,
+      "lncRNA": 86
+    },
+    "outside_coding_denominator_semantics": "Output counts may include noncoding genes, expressed per coding-UMI library. Output axis is unchanged."
+  },
+  "upstream_cohort_caveat": "Public NTCguide ID sets equal author's final RNA-effect-filtered lists acrossbothlines; comparison conditional on author-curated publiccohort. No exporter trace was found, so boundary inference remains explicit.",
+  "frozen_native_count_files_unchanged": true,
+  "npz_roundtrip_exact": true
+}

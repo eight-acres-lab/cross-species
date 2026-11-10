@@ -1,0 +1,54 @@
+{
+  "macro": {
+    "energy_u": 0.1669510298991712,
+    "rbf_mmd2_u": 0.009831836496510501,
+    "mean_mse": 0.002395106809368978,
+    "variance_mae": 0.02730828399459521
+  },
+  "by_condition": {
+    "Cediranib+PCI-34051": {
+      "energy_u": 0.1771144666119735,
+      "rbf_mmd2_u": 0.010222974639727544,
+      "mean_mse": 0.002558801556006074,
+      "variance_mae": 0.023825623095035553
+    },
+    "SRT3025+Cediranib": {
+      "energy_u": 0.1891078193992204,
+      "rbf_mmd2_u": 0.011690483454253275,
+      "mean_mse": 0.0028445993084460497,
+      "variance_mae": 0.026303093880414963
+    },
+    "Panobinostat+SRT3025": {
+      "energy_u": 0.22004591564989617,
+      "rbf_mmd2_u": 0.012950294527573236,
+      "mean_mse": 0.002623253734782338,
+      "variance_mae": 0.03383966162800789
+    },
+    "Givinostat+Curcumin": {
+      "energy_u": 0.06999352204249121,
+      "rbf_mmd2_u": 0.004048331699611829,
+      "mean_mse": 0.0017675473354756832,
+      "variance_mae": 0.021975742653012276
+    },
+    "Givinostat+Dasatinib": {
+      "energy_u": 0.09057291929897815,
+      "rbf_mmd2_u": 0.005387542987298044,
+      "mean_mse": 0.0017632261151447892,
+      "variance_mae": 0.02498539350926876
+    },
+    "Panobinostat+Dasatinib": {
+      "energy_u": 0.25487153639246785,
+      "rbf_mmd2_u": 0.014691391670599074,
+      "mean_mse": 0.0028132128063589334,
+      "variance_mae": 0.03292018920183182
+    }
+  },
+  "condition_order": [
+    "Cediranib+PCI-34051",
+    "SRT3025+Cediranib",
+    "Panobinostat+SRT3025",
+    "Givinostat+Curcumin",
+    "Givinostat+Dasatinib",
+    "Panobinostat+Dasatinib"
+  ]
+}

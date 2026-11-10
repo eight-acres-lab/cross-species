@@ -1,0 +1,70 @@
+[
+  {
+    "contentDescription": [
+      "Matrix"
+    ],
+    "format": "Rds",
+    "isIntermediate": false,
+    "name": "CZI.PBMC.RNA.matrix.Rds",
+    "sha256": "c6c1b29e8737085d89f2af35c23fb9ce0e189369e65061f18cfe8532bd1e80c5",
+    "size": 480584213,
+    "fileSource": "Contributor",
+    "uuid": "347257fa-4174-5741-9a9d-99ef21fa3707",
+    "version": "2021-02-22T16:08:23.715288Z",
+    "matrixCellCount": null,
+    "drs_uri": "drs://data.terra.bio/v1_66306883-0e6c-4acb-8027-172ef9291eeb_e39c880d-18bc-4f61-95e8-fe28fb0dd460",
+    "azul_url": "https://service.azul.data.humancellatlas.org/repository/files/347257fa-4174-5741-9a9d-99ef21fa3707?catalog=dcp60&version=2021-02-22T16%3A08%3A23.715288Z",
+    "azul_mirror_uri": "s3://humancellatlas/file/c6c1b29e8737085d89f2af35c23fb9ce0e189369e65061f18cfe8532bd1e80c5.sha256"
+  },
+  {
+    "contentDescription": [
+      "Matrix"
+    ],
+    "format": "csv",
+    "isIntermediate": false,
+    "name": "CZI.PBMC.cell.annotations.csv",
+    "sha256": "76a6548089867687461603ed0031ba02f9203885cd8a623b7497bdceccaf7229",
+    "size": 26242593,
+    "fileSource": "Contributor",
+    "uuid": "773e8edd-48af-599a-8726-3f368823dc22",
+    "version": "2021-02-22T16:08:23.715288Z",
+    "matrixCellCount": null,
+    "drs_uri": "drs://data.terra.bio/v1_66306883-0e6c-4acb-8027-172ef9291eeb_d0db3c47-5bbf-4b33-97f1-970fde8d9976",
+    "azul_url": "https://service.azul.data.humancellatlas.org/repository/files/773e8edd-48af-599a-8726-3f368823dc22?catalog=dcp60&version=2021-02-22T16%3A08%3A23.715288Z",
+    "azul_mirror_uri": "s3://humancellatlas/file/76a6548089867687461603ed0031ba02f9203885cd8a623b7497bdceccaf7229.sha256"
+  },
+  {
+    "contentDescription": [
+      "Matrix"
+    ],
+    "format": "Rds",
+    "isIntermediate": false,
+    "name": "CZI.PBMC.HTO.matrix.Rds",
+    "sha256": "e7a4fd0fba9d9b092ca79b4e18b2d4a0763d303c10e150f2807c3e9ccb50f0dc",
+    "size": 4759210,
+    "fileSource": "Contributor",
+    "uuid": "a0e51be5-f1e2-54bc-9b92-56b025d0601d",
+    "version": "2021-02-22T16:08:23.715288Z",
+    "matrixCellCount": null,
+    "drs_uri": "drs://data.terra.bio/v1_66306883-0e6c-4acb-8027-172ef9291eeb_d7fa6f11-5e7e-4a27-a13a-0f54da8d030d",
+    "azul_url": "https://service.azul.data.humancellatlas.org/repository/files/a0e51be5-f1e2-54bc-9b92-56b025d0601d?catalog=dcp60&version=2021-02-22T16%3A08%3A23.715288Z",
+    "azul_mirror_uri": "s3://humancellatlas/file/e7a4fd0fba9d9b092ca79b4e18b2d4a0763d303c10e150f2807c3e9ccb50f0dc.sha256"
+  },
+  {
+    "contentDescription": [
+      "Matrix"
+    ],
+    "format": "Rds",
+    "isIntermediate": false,
+    "name": "CZI.PBMC.ADT.matrix.Rds",
+    "sha256": "bab0c4c2b43bb2c8c942491a370623b0685ef0dd10ce58aa45734371a8fb59e5",
+    "size": 21609958,
+    "fileSource": "Contributor",
+    "uuid": "d3b085d0-4d42-5e0f-bf11-da491031d4b8",
+    "version": "2021-02-22T16:08:23.715288Z",
+    "matrixCellCount": null,
+    "drs_uri": "drs://data.terra.bio/v1_66306883-0e6c-4acb-8027-172ef9291eeb_e7684c16-4b92-4540-8058-cf71978e96e5",
+    "azul_url": "https://service.azul.data.humancellatlas.org/repository/files/d3b085d0-4d42-5e0f-bf11-da491031d4b8?catalog=dcp60&version=2021-02-22T16%3A08%3A23.715288Z",
+    "azul_mirror_uri": "s3://humancellatlas/file/bab0c4c2b43bb2c8c942491a370623b0685ef0dd10ce58aa45734371a8fb59e5.sha256"
+  }
+]

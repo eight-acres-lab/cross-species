@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "core_samples": 21,
+  "core_contrasts": 6,
+  "compartment_primary_samples": 34,
+  "compartment_all_samples": 46,
+  "compartment_primary_contrasts": 12,
+  "expression_resource_urls": 28,
+  "downloaded_expression_locally": false,
+  "sample_control_identity_assertions": "passed in deterministic builders",
+  "files": {
+    "original_expression_sources.json": "ec8b321cf29f2109903094ce6056e035f613292bdf9d4c79ce901d7990dfebd2",
+    "compartment_selection.json": "b046432096a5ce55c50cd2485d83fba62be2b306c7d40d827263a1ab52884f9a",
+    "compartment_expression_sources.json": "89842a7a1b4e86d8f1a587557874ef5f8d4b37c380fbd74cbcce55fd6823f979",
+    "compartment_sample_bridge.tsv": "1344a5d8bc902c1513f9d6a9bb99f6ff948e659d192f3a0a60f3503bc7d6f49c",
+    "sample_bridge.tsv": "0f385a3f2ee459c37ed1c42f455e303bd04889b8d579f34bfadc6e27adf73583",
+    "download_entries.json": "2966e07ed0dfa38ce69b185ecea4728c27209b4f681d0394e052e8fff5db4e92",
+    "batch_design_audit.json": "b1dbe7620263710c9b8e401e2923f3eba15ce761ef652f242f9f38ea9bb9cfd1"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "status": "pass",
+  "scope": "Independent full original-table to native-NPZ verification; no prediction or normalization",
+  "files": [
+    {
+      "srx": "SRX1737858",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "c529d6fd4326afeba210dcbe161571d4",
+      "uncompressed_bytes": 9904743
+    },
+    {
+      "srx": "SRX1737859",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "da5cbe2f5fad7a299d331a68d2e47aaf",
+      "uncompressed_bytes": 9913038
+    },
+    {
+      "srx": "SRX1737864",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "abb98d76a7c7d8a2e0dfd80630cb1215",
+      "uncompressed_bytes": 9901551
+    },
+    {
+      "srx": "SRX1737865",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "166fe1517d3ce091ef559d95dcc881bd",
+      "uncompressed_bytes": 9898251
+    },
+    {
+      "srx": "SRX1737874",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "cc8292a2518d9a1e9c7099622c416176",
+      "uncompressed_bytes": 9912099
+    },
+    {
+      "srx": "SRX1737875",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "1c0a6ed4e67c6d3605950c3a8d06b8f9",
+      "uncompressed_bytes": 9902676
+    },
+    {
+      "srx": "SRX1737900",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "cca450248912f4c279b617ec43e6b9c8",
+      "uncompressed_bytes": 9911204
+    },
+    {
+      "srx": "SRX1737901",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "f89ae2fe1611f9f6adb09e68b337382d",
+      "uncompressed_bytes": 9913200
+    },
+    {
+      "srx": "SRX1737958",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "37ef92d4a5b1e374567ed0597980ffee",
+      "uncompressed_bytes": 9913928
+    },
+    {
+      "srx": "SRX1737959",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "1bc6ba28288684b5a69ec08401bf533e",
+      "uncompressed_bytes": 9912129
+    },
+    {
+      "srx": "SRX1737964",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "bf136a0009a8859d9c25289ac43d5e72",
+      "uncompressed_bytes": 9904083
+    },
+    {
+      "srx": "SRX1737965",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "0761d631a207f4c638f5a2b93d81f7f0",
+      "uncompressed_bytes": 9906434
+    },
+    {
+      "srx": "SRX1737998",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "93b7169eee1da33b24f06c711cc2181c",
+      "uncompressed_bytes": 9918143
+    },
+    {
+      "srx": "SRX1737999",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "bfb25c4fa660ed8e5ef5ab445e7e3e6c",
+      "uncompressed_bytes": 9903558
+    },
+    {
+      "srx": "SRX1738058",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "74aff7f5ba2be02546f12276870585dd",
+      "uncompressed_bytes": 9904279
+    },
+    {
+      "srx": "SRX1738059",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "56527bda122fe8a9ce1df52fd597a711",
+      "uncompressed_bytes": 9917304
+    },
+    {
+      "srx": "SRX2243864",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "87cda99efea02d76617926822eb62dde",
+      "uncompressed_bytes": 9929432
+    },
+    {
+      "srx": "SRX2243865",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "ceaa6f82cb7ab601d37356d767842d51",
+      "uncompressed_bytes": 9934748
+    },
+    {
+      "srx": "SRX2244012",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "2470f307aa73d4b3e7cf1b095b85a7d4",
+      "uncompressed_bytes": 9925762
+    },
+    {
+      "srx": "SRX2244013",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "8f51ac6e6e828e94cc3af3444724d961",
+      "uncompressed_bytes": 9918192
+    },
+    {
+      "srx": "SRX2244095",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "26a0222306a631cf16b189a016af7515",
+      "uncompressed_bytes": 9893963
+    },
+    {
+      "srx": "SRX2244096",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "9743ea34191b15b7f153574fc09325c8",
+      "uncompressed_bytes": 9908755
+    },
+    {
+      "srx": "SRX2244538",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "c91d532c8af6abcd425384cfbf15a130",
+      "uncompressed_bytes": 9911058
+    },
+    {
+      "srx": "SRX2244539",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "27e3835f132608ac2f523ed7a173b9d9",
+      "uncompressed_bytes": 9907392
+    },
+    {
+      "srx": "SRX2244885",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "2266f8bae508191bf559a9f5a4df603d",
+      "uncompressed_bytes": 9913070
+    },
+    {
+      "srx": "SRX2244886",
+      "rows_verified": 61471,
+      "numeric_cells_verified": 307355,
+      "max_absolute_difference": 0.0,
+      "gzip_crc_verified": true,
+      "uncompressed_md5": "c9bd6f17ef02516c3fcfe02bd4540b08",
+      "uncompressed_bytes": 9943662
+    }
+  ],
+  "sample_count": 26,
+  "features_per_sample": 61471,
+  "common_order_identical": true,
+  "native_feature_types": {
+    "standard_ENSG_gene_ids": 60675,
+    "numeric_unknown_ids": 649,
+    "ENSGR_special_ids": 50,
+    "gSpikein_ERCC_ids": 96,
+    "gSpikein_phiX_ids": 1
+  },
+  "total_raw_compressed_bytes": 73802651,
+  "all_native_numeric_cells_verified": 7991230,
+  "max_absolute_difference": 0.0,
+  "source_selection_sha256": "2bbf7dc29e675845c5483e0558713afa2888f8030db59943ac345b60c8867960",
+  "native_quantities": [
+    "expected_count",
+    "TPM",
+    "FPKM",
+    "length",
+    "effective_length"
+  ],
+  "orthology_ready": false,
+  "normalization_applied": false,
+  "model_training_ready": false,
+  "raw_and_arrays_location": "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human",
+  "local_raw_files_written": false,
+  "native_schema": {
+    "gene_ids": "1d original feature IDs, preserving version",
+    "unversioned_gene_ids": "1d original IDs with trailing gene annotation version removed; other identifiers preserved",
+    "values": "features by quantities matrix; columns indexed by quantities array",
+    "quantities": "expected_count, TPM, FPKM, length, effective_length",
+    "transcript_ids": "author original transcript_id(s) string per gene"
+  },
+  "normalization_candidate_note": "Strict standard ENSG numeric-ID subset has60675 features. Numeric unknown, ENSGR-special and spike-in features require explicit handling and are not automatically orthologous."
+}

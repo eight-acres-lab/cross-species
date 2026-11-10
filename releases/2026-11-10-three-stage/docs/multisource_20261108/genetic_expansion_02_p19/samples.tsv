@@ -1,0 +1,33 @@
+gsm	experiment	sample_title	cell_model	compartment	target_label	matrix_column	biological_replicate_label	role	time_h	fraction_pair_label	sequencing_runs	selected_primary_three_target_panel	selected_four_target_panel
+GSM1707962	SRX1055008	KD SRSF1 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF1	SRSF1_A	A	treated	36	SRSF1_A	3	True	True
+GSM1707963	SRX1055009	KD SRSF1 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF1	SRSF1_B	B	treated	36	SRSF1_B	3	True	True
+GSM1707964	SRX1055010	KD SRSF2 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF2	SRSF2_A	A	treated	36	SRSF2_A	3	False	False
+GSM1707965	SRX1055011	KD SRSF2 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF2	SRSF2_B	B	treated	36	SRSF2_B	3	False	False
+GSM1707966	SRX1055012	KD SRSF3 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF3	SRSF3_A	A	treated	36	SRSF3_A	3	False	True
+GSM1707967	SRX1055013	KD SRSF3 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF3	SRSF3_B	B	treated	36	SRSF3_B	3	False	True
+GSM1707968	SRX1055014	KD SRSF4 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF4	SRSF4_A	A	treated	36	SRSF4_A	3	False	False
+GSM1707969	SRX1055015	KD SRSF4 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF4	SRSF4_B	B	treated	36	SRSF4_B	3	False	False
+GSM1707970	SRX1055016	KD SRSF5 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF5	SRSF5_A	A	treated	36	SRSF5_A	3	True	True
+GSM1707971	SRX1055017	KD SRSF5 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF5	SRSF5_B	B	treated	36	SRSF5_B	3	True	True
+GSM1707972	SRX1055018	KD SRSF6 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF6	SRSF6_A	A	treated	36	SRSF6_A	3	False	False
+GSM1707973	SRX1055019	KD SRSF6 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF6	SRSF6_B	B	treated	36	SRSF6_B	3	False	False
+GSM1707974	SRX1055020	KD SRSF7 whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	SRSF7	SRSF7_A	A	treated	36	SRSF7_A	3	True	True
+GSM1707975	SRX1055021	KD SRSF7 whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	SRSF7	SRSF7_B	B	treated	36	SRSF7_B	3	True	True
+GSM1707976	SRX1055022	KD GFP whole cell Replicate A	P19_embryonal_carcinoma	whole_cell	GFP	GFP_A	A	mock_control	36	GFP_A	3	True	True
+GSM1707977	SRX1055023	KD GFP whole cell Replicate B	P19_embryonal_carcinoma	whole_cell	GFP	GFP_B	B	mock_control	36	GFP_B	3	True	True
+GSM1707978	SRX1055024	KD SRSF1 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF1	SRSF1_A	A	treated	36	SRSF1_A	4	True	True
+GSM1707979	SRX1055025	KD SRSF1 cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF1	SRSF1_B	B	treated	36	SRSF1_B	3	True	True
+GSM1707980	SRX1055026	KD SRSF2 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF2	SRSF2_A	A	treated	36	SRSF2_A	2	False	False
+GSM1707981	SRX1055027	KD SRSF2 cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF2	SRSF2_B	B	treated	36	SRSF2_B	3	False	False
+GSM1707982	SRX1055028	KD SRSF3 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF3	SRSF3_A	A	treated	36	SRSF3_A	4	False	True
+GSM1707983	SRX1055029	KD SRSF3 cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF3	SRSF3_B	B	treated	36	SRSF3_B	3	False	True
+GSM1707984	SRX1055030	KD SRSF4 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF4	SRSF4_A	A	treated	36	SRSF4_A	4	False	False
+GSM1707985	SRX1055031	KD SRSF4 cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF4	SRSF4_B	B	treated	36	SRSF4_B	3	False	False
+GSM1707986	SRX1055032	KD SRSF5 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF5	SRSF5_A	A	treated	36	SRSF5_A	4	True	True
+GSM1707987	SRX1055033	KD SRSF5 cytol Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF5	SRSF5_B	B	treated	36	SRSF5_B	3	True	True
+GSM1707988	SRX1055034	KD SRSF6 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF6	SRSF6_A	A	treated	36	SRSF6_A	4	False	False
+GSM1707989	SRX1055035	KD SRSF6 cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF6	SRSF6_B	B	treated	36	SRSF6_B	3	False	False
+GSM1707990	SRX1055036	KD SRSF7 cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	SRSF7	SRSF7_A	A	treated	36	SRSF7_A	4	True	True
+GSM1707991	SRX1055037	KD SRSF7 cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	SRSF7	SRSF7_B	B	treated	36	SRSF7_B	3	True	True
+GSM1707992	SRX1055038	KD GFP cyto Replicate A	P19_embryonal_carcinoma	cytoplasmic	GFP	GFP_A	A	mock_control	36	GFP_A	4	True	True
+GSM1707993	SRX1055039	KD GFP cyto Replicate B	P19_embryonal_carcinoma	cytoplasmic	GFP	GFP_B	B	mock_control	36	GFP_B	3	True	True

@@ -1,0 +1,71 @@
+{
+  "scope": "Artificial operator tests only; no RNA matrices, optimization or performance evaluation",
+  "module_sha256": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8",
+  "probe_sha256": "e5f354473d28c06e21e5dd3855d4a29d55af27aa51a8e5028dcd78bf87eb87b8",
+  "checkpoint_sha256": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
+  "source_files_sha256": {
+    "state.tx.models.state_transition": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+    "state.tx.models.utils": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+    "state.tx.models.base": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd"
+  },
+  "runtime": {
+    "python": "3.11.10",
+    "torch": "2.7.1+cu118",
+    "transformers": "4.52.4",
+    "cuda": "11.8"
+  },
+  "strict_missing": [],
+  "strict_unexpected": [],
+  "rng_unchanged_by_extension": true,
+  "old_native_outputs_bitwise_equal": true,
+  "old_native_max_absolute_difference": 0.0,
+  "native_gene_tensors_unchanged": 22,
+  "zero_step_contrast_prediction_equals_controls_bitwise": true,
+  "initial_condition_gradients_nonzero_and_opposite": true,
+  "initial_shared_gradient_max_absolute": 0.0,
+  "fixed_operator_condition_offset": "LPS column replaced by linspace(-0.1,0.1,328); no optimizer",
+  "after_condition_separation_gradient_groups": {
+    "basal_encoder.": {
+      "connected": true,
+      "finite": true,
+      "nonzero": true
+    },
+    "transformer_backbone.": {
+      "connected": true,
+      "finite": true,
+      "nonzero": true
+    },
+    "project_out.": {
+      "connected": true,
+      "finite": true,
+      "nonzero": true
+    },
+    "final_down_then_up.": {
+      "connected": true,
+      "finite": true,
+      "nonzero": true
+    },
+    "pert_encoder.extension.": {
+      "connected": true,
+      "finite": true,
+      "nonzero": true
+    },
+    "batch_encoder.": {
+      "connected": true,
+      "finite": true,
+      "nonzero": true
+    }
+  },
+  "full_output_shape_retained": [
+    64,
+    6546
+  ],
+  "artificial_observed_coordinates": 4633,
+  "nonnegative_output": true,
+  "assay_control_contrast_equals_controls": true,
+  "dropout_training_mode_rejected": true,
+  "adapted_strict_reload_missing": [],
+  "adapted_strict_reload_unexpected": [],
+  "adapted_reload_prediction_bitwise_equal": true,
+  "optimizer_steps": 0
+}

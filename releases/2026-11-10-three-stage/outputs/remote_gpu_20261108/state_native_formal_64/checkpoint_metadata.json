@@ -1,0 +1,17 @@
+{
+  "checkpoint_sha256": "244acf009b4b0e1a87451e8a155ce2bbcaa3d4d1ad25910e9d735ae76877fccb",
+  "source_commit": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+  "official_class": "state.tx.models.state_transition.StateTransitionPerturbationModel",
+  "official_class_file": "/hy-tmp/cross-species-feedback-20261108/official_source/src/state/tx/models/state_transition.py",
+  "official_class_file_sha256": "45828e6f5ec4da52d1980fd54881e095ad1e8aaece4689c303fe10a671a57b63",
+  "checkpoint_global_step": 293000,
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "parameters": 56271520,
+  "trainable_parameters": 43983520,
+  "input_dim": 2000,
+  "output_dim": 2000,
+  "pert_dim": 91,
+  "training_cell_set_len": 512,
+  "architecture_scope": "Released set-to-set State ST; no flow-matching or RL algorithm is implied."
+}

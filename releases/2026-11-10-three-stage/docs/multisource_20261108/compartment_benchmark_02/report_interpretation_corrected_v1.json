@@ -1,0 +1,3286 @@
+{
+  "evidence_level": "E1_exploratory_source_measurement_compartment",
+  "protocol_sha256": "4fc0c007a914074c588cca4881ed8cfc50aa1a6ebfb31128cfbf2bfe77daeeaf",
+  "script_sha256": "48eea2fb0856cbc594878de9ebd8ed2f632fddd91815b83174ea48a0b37c45f2",
+  "input_freeze_sha256": "50231e477205132fbb99abc54d44165f5d585cc9d9b65be5fe765200801d2455",
+  "input_metadata": {
+    "date": "2026-11-08",
+    "scope": "SRSF E1 compartment comparison metadata/mapping freeze before response metrics",
+    "files": [
+      {
+        "source_local_path": "docs/multisource_20261108/genetic_expansion_02/compartment_selection.json",
+        "remote_filename": "compartment_selection.json",
+        "sha256": "b046432096a5ce55c50cd2485d83fba62be2b306c7d40d827263a1ab52884f9a",
+        "bytes": 10290
+      },
+      {
+        "source_local_path": "docs/multisource_20261108/genetic_expansion_02/compartment_sample_bridge.json",
+        "remote_filename": "compartment_sample_bridge.json",
+        "sha256": "15fe93840029c97de8668c19c81c3ed0b3a33d5a93f693285baa3897e223b395",
+        "bytes": 41204
+      },
+      {
+        "source_local_path": "docs/multisource_20261108/genetic_extension/target_orthology.tsv",
+        "remote_filename": "target_orthology.tsv",
+        "sha256": "e19d3d70e9c344bf8c183f69cb6e5ec13397fb60ac51ce7a816d59af8d768b93",
+        "bytes": 3393043
+      },
+      {
+        "source_local_path": "docs/multisource_20261108/genetic_extension/target_orthology.query.xml",
+        "remote_filename": "target_orthology.query.xml",
+        "sha256": "01662e3ffa0bebf7f4686f2b03ac4651941fa6fd1e5dfa23e6cce3d0ae9c3f87",
+        "bytes": 525
+      },
+      {
+        "source_local_path": "docs/multisource_20261108/genetic_extension/target_orthology.source.json",
+        "remote_filename": "target_orthology.source.json",
+        "sha256": "3830276efb088343cec93f338ef4ee6bc0709b127c89eab66748657411fdb2d7",
+        "bytes": 1383
+      },
+      {
+        "source_local_path": "docs/multisource_20261108/genetic_extension/orthology_registry.xml",
+        "remote_filename": "orthology_registry.xml",
+        "sha256": "d4a3864538f6fcb1bc98d88803a2fb3c52a5af09d10198ffe4173a07595fa122",
+        "bytes": 1813
+      }
+    ]
+  },
+  "input_expression_files": {
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737858_audit.json": "09c1f005cd59bd2a4ea8c0808043fc9db9d1b75bc5346367e52ca1f837bce2dd",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737858.npz": "b21c076f2a00623c663d39122fa8162bd016cef57f0af11ac66dba79cb2edca9",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138690_ENCFF581EZL_gene_quantifications_GRCh38.tsv.gz": "99859d5a002e32832fe7a5bc5ed996676d17578d0db0bac29e0bc65a23735631",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737859_audit.json": "950a9b48228ebcfb370bbc6a579aec21cec3e8948ae81bcfe1b9fbb7d31e3a83",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737859.npz": "ffe7f9262ae448403282cf5f90615fa822020eda30059fa3301bbd281e921cf5",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138691_ENCFF920DSH_gene_quantifications_GRCh38.tsv.gz": "0bea6efddfb21e6f135bb430d6c3e30578ceadbedb2da7c74a29c2eaa087a68d",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737864_audit.json": "4ca1395d1b7935c99a6436cd64569d33c237c9265cdaa22d9a0e37999bbba64a",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737864.npz": "1864abf7b26f45748fb0a778fd1edb0c96f610b3fa5e1abbfe21656569008d08",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138674_ENCFF403FWE_gene_quantifications_GRCh38.tsv.gz": "eb9c277fd3d1c1de71174c448e6936a4b18cef4a5a81602b420a0ddd4683f562",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737865_audit.json": "a5564c6b031c9da22d6a452200d2224c4408691ac3f1823bd99dabbc1d357608",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737865.npz": "3f273d721efd9664ff155b81ff5f48ae8b79cbdb35d8804d20f8ca14c354d2b9",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138675_ENCFF624VZM_gene_quantifications_GRCh38.tsv.gz": "257bf7b72b75489d84fc706b8e9be695119202b8cfe49fb36d04cee18e567c1e",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737874_audit.json": "23811dbf5c8f4b473f35f7162c5274ee023b39bb3698398645ff5c18e486a2c4",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737874.npz": "10e6d3a2d55d3f822b85e404906e054aa9603bdb6fd3888a7a109149ee2a3163",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138708_ENCFF883QBC_gene_quantifications_GRCh38.tsv.gz": "c07dfa61d0620eecc2ddd797b519f40a620c9d91b0c0e5e4dad6e4dc66a80346",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737875_audit.json": "4aea84bc6ac45842c6fd3cf9a646b778ca62d4825ab0aea629be611a14006cfc",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737875.npz": "098b707f678f53e0de932d77523573752adb0e35d839f4ba9b4a98854bf904b5",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138709_ENCFF712OPA_gene_quantifications_GRCh38.tsv.gz": "de7d8eea98ca6d79562a443cf63c1220ea1be819bdbc3f21b24e395f514c2213",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737900_audit.json": "a8e755fa20435e8629d643f1a4833948881db98720009c3ebde26388a5ddb79e",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737900.npz": "6c7bb60b788dd26165d86f0e37e2005d6eb14081f5c90df83283640f62bfb1f5",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138714_ENCFF223LJT_gene_quantifications_GRCh38.tsv.gz": "7d37cde2e3db9ed65e03bead4fa0facc2ca1e4733bac59032f06436926717aff",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737901_audit.json": "8217c578843c56cd4f52e1a23a2346a1d3fccf251eab5a4cce0c614d720d96e5",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737901.npz": "7fc9228dfe6971a0167d61bf75155549b73eeab0aab2da09b80fb4806bb58c4c",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138715_ENCFF089HPB_gene_quantifications_GRCh38.tsv.gz": "88b4dcb879c33ab35fc53c71e9269afb13b7ee28a4432a5896ee91224b049d51",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737958_audit.json": "4b52b8795ea3b80be97bf47b1531481e329478257661320b06eed9c2200d2cea",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737958.npz": "d6e615f797a87a0f2e4aa692a997fb0265ef26ad23422156bf42ef537ff443ff",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138776_ENCFF923RCF_gene_quantifications_GRCh38.tsv.gz": "8a5ea9a114b493af13b4c1600fbcc38f35f043003620a4c0714e06bf39734d50",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737959_audit.json": "087917126e2a68054a03b45b485466c160cb3f6ec596fbeb9aaf0bdfdcabad57",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737959.npz": "236ff898f592a63da8e91d05a5b8330fd5ae9ced7b0c1fe8b0a9a59fa87e1948",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138777_ENCFF491TIE_gene_quantifications_GRCh38.tsv.gz": "2fbd2b0edfdea492a38cb0c11d7518ad0332f67c6afc68e6074ccb3f03e53800",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737964_audit.json": "715038bffb92c4eb98dbcb9f05d69719313157ac1bc3565604014e7cafa1552a",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737964.npz": "5030d0fb32ed0d828fd423f8c9b2ccc083a5b8cc47cf3f9616d3dd1225672997",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138782_ENCFF372GSN_gene_quantifications_GRCh38.tsv.gz": "3546369d2fe4adacc78521c631ae796c336f6320a59bce51e5e35a8f82380cf7",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737965_audit.json": "f42327de167bb8904d129381c849c7d8ad48ff31dc7a7ebd4a8f1e3a8115b46a",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737965.npz": "63e7a26fc6aeca9b936d4c1480c1aa8aefce6cfd0baa1bd6915e09ed8d61bee5",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138783_ENCFF130UGZ_gene_quantifications_GRCh38.tsv.gz": "1b6c94688db38f9f30d641c4edd08be233022bad3e30de20f4c9139ff7a2a132",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737998_audit.json": "ec042b394580eb641aefd93494d6e56ad6bbe8c91f131e563514955cf67df177",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737998.npz": "63cf1c56d33b341c89152d87aea8cfcfa61444ed9ee12287012752ba7395042e",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138814_ENCFF390DYK_gene_quantifications_GRCh38.tsv.gz": "019c0363b583c61a971ab49d1c0856616c255d07e8a2c34bbd8f6455e0ef8529",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1737999_audit.json": "97403a221026d54f8551f3f046d71d08f14b07ac91ffa14b9405f44a2382daee",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1737999.npz": "1d6adc1b83f55bf1530e165d9442294549002830c92b2a27d794c6fc39b8f8be",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138815_ENCFF583JSH_gene_quantifications_GRCh38.tsv.gz": "eb9b3456481d43fc479741015fe788d03260d587ccf373ea078773f3cc756e31",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1738058_audit.json": "d91379e08041c916b22475fcf296aac3f6872af2a3a46465075dd1538fbad533",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1738058.npz": "11d442b96806d714a767b121422ee130cb77635626dbac9baf063107366a6f32",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138872_ENCFF048VRF_gene_quantifications_GRCh38.tsv.gz": "962681143be8a286bbdd8772d3a84e2a1adb57b3901b14baacfe78b3ec6933c0",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX1738059_audit.json": "00a01bdc6063ac3302b44f6a1e74992effd7fc851c40e490fe485fa83fb07ae1",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX1738059.npz": "dcfcbd0c6666ccc3f5721c4bc0373f9f7fe1c3fce7d36dfbd1b367b77972ce56",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2138873_ENCFF564VZB_gene_quantifications_GRCh38.tsv.gz": "70e63742f87768e69bdc126612f48c2943ae6f230b7cbb2c2a1a0f3dc67e2295",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2243864_audit.json": "99bbb40de161a8ba15212295a2ed858b76515eff66069722932631642e71ca1f",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2243864.npz": "9e3e4ee43c31b688e67c910ef45a666d6480ce81ed080fc621f6dfdac7607200",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343490_ENCFF019JYU_gene_quantifications_GRCh38.tsv.gz": "2c8150f06b82c9b5324f54fda91f0037f1828e912b738ab0749452391a83831a",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2243865_audit.json": "39c169a02f28535c712cbfc19615f5af57cf2588da22ad13c28acbc3239fa30b",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2243865.npz": "c253b2dda7ccb00472ab2044c642b62cdeae4830cb85e36c01b6ec6f4aa939a9",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343491_ENCFF375TPO_gene_quantifications_GRCh38.tsv.gz": "61a7b20d6718daadb6ed37c6183ca32b732ed24a167412a0d7b76a1caa6d3567",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244012_audit.json": "5e6fa2adb166e6aa3f6d7e90795a052871e346aff3652daf614dc0439fe3dbb6",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244012.npz": "b4f8fd24b70e73b1571cc9ec5db6494768f68b97a790d072b7d55d4c10332737",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343628_ENCFF031YBV_gene_quantifications_GRCh38.tsv.gz": "6604bb9e9f0babdc078600cf29f12b4941b38da47ded9c65c4465f4c38462f85",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244013_audit.json": "5c296b3d8b8b9d2d6d3ce5f2b80c88a2f2f383ce4ef4b94a924da736eb4e086f",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244013.npz": "2a4a220e9f1c5e4668173889376db5f04d44b4daa31afc2564c5d715a2b0359e",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343629_ENCFF237GJZ_gene_quantifications_GRCh38.tsv.gz": "e2549a801e63f21b290c8471e29fd344df28cdbf71dcacde423264aac9e5e256",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244095_audit.json": "c71b00a88782f4352cd8c3f9362dc5a0a68ac18ad019e2d8567bd68811e21467",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244095.npz": "56c1ab4fffb86c9a4d50ac8cf0e4a94770565cf520611647e6bb621b02b316ba",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343709_ENCFF695HAB_gene_quantifications_GRCh38.tsv.gz": "d5defba741ceb41597fd70bee47f09b33e70c6ab06476ed5fc0e176830892157",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244096_audit.json": "872bd2e631cd8910954761776f50cd1c3bbb73d2e402729af7f3d24b8b221e21",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244096.npz": "5d1e210a40bfa9ae69d38d30cdb7f697436ac92aec5c6c4e63a9c8a6f310131d",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343710_ENCFF389OFM_gene_quantifications_GRCh38.tsv.gz": "850d20afa06e05fee7159318d1d8eb11c444266fc33c79fbc5deef0c6cb2b30e",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244538_audit.json": "cc40d4ae6b4b89bd7b412741f1355076ba41915ce28b88497b9af1379c79369c",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244538.npz": "7fe561e2c97599b30d6f7cdbbf48f003faa82ee0e0991e09503a3d8bbc549f5d",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2344143_ENCFF471FMB_gene_quantifications_GRCh38.tsv.gz": "f151b52cb3cca9cebd0778a1d8947aa2b30e291dee3b27afad632817ce64674f",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244539_audit.json": "b698783ef51721690a4016f0fe4249eee9a32c26c26a30b5135ae1e65d082811",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244539.npz": "d084081703fb303b7fc5e70bdd4f57f74a57a5beec361406056bdf1b7383f346",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2344144_ENCFF960CGT_gene_quantifications_GRCh38.tsv.gz": "2502b539e7a1ac1f008b508523f8a53e80508fa3419cbb16679e4968cb65f2e5",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244885_audit.json": "0ae81f8fb13c92663266f1e21f5d4025713b1f45a8e02cd042bb96fbd91198a6",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244885.npz": "6446e21db94ab37155eca6a1b31051c07f1a91a0b34192c0d265a8526512475e",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343139_ENCFF846CIF_gene_quantifications_GRCh38.tsv.gz": "c30feeef88abd724da599a7ed995c3b39676e84f82010106a8e739dc00699f3b",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/SRX2244886_audit.json": "e079c4997c4ab4700a3dde7a3256ea773ed90aecee7b4b6214b3e26a5e710258",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/native/SRX2244886.npz": "f6513b5f84553969a07b85fdfdecf41f74d8aa9a00de823c846ae7d0d65d05d3",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/compartment_human/raw/GSM2343140_ENCFF893IYL_gene_quantifications_GRCh38.tsv.gz": "1af1052f6381501e1453a57b8471657cf22c05d9ed88edb8f5afcdb15a04b135",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/manifest.json": "7b031ae27d5c71741672713fca3d42e02a14154c9ecff82135a5bf9b8460c762",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/WholeCell_estimated_counts.npz": "a5ba9b30fb12e43234d9e23dd11414278ac0e707ee6d9b968d8fb9ff641d0b81",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/raw/GSE69733_WholeCell_Gene_Counts_by_Replicate.txt.gz": "60485e3de17fc5588f061cc61a436c2b131fe86764efdbba2c60ea3aea7396dc",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/WholeCell_estimated_counts_columns.json": "240651665482db062898395bbfaa04fd6637c9111491b82b63ff485b22da289d",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/WholeCell_estimated_counts_gene_axis.tsv": "2d15c28a7ea3e6d41b855b4bb8aa8ef5644f75a9a433cc0a90e71213c883b852",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/Cyto_estimated_counts.npz": "e5a2bc7f05e93b3517b2e27240ce57b4f59dcc3aab00c7f94c887f8cf89aaf23",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/raw/GSE69733_Cyto_Gene_Counts_by_Replicate.txt.gz": "75917b4e99c0572a120e03744203d523f7b79c303e6e584d317cf0b00378be51",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/Cyto_estimated_counts_columns.json": "7b41fdf6426d238e8a213c40f598957abb110a93359d7ef3d13c154025c0ac51",
+    "/hy-tmp/cross-species-feedback-20261108/multisource/genetic_expansion_02/balanced_splicing/author_p19/audit/native/Cyto_estimated_counts_gene_axis.tsv": "2d15c28a7ea3e6d41b855b4bb8aa8ef5644f75a9a433cc0a90e71213c883b852"
+  },
+  "fixed_gene_axis": {
+    "genes": 15735,
+    "mapping_rows": 92932,
+    "eligible_mapping_rows": 16092,
+    "unique_bidirectional_pairs_before_presence": 16092,
+    "human_ambiguous_partners": 0,
+    "mouse_ambiguous_partners": 0,
+    "strict_human_support": 60675,
+    "strict_mouse_support": 38201,
+    "response_dependent_filtering": false
+  },
+  "normalization": "log2(1+1e6*reported_estimated_count/sum_of_reported_estimated_count_over_all_strict_native_gene_IDs_per_file). P19 is author-gene-set estimated-count composition; mass is not sequencing depth.",
+  "selected_unique_samples": 46,
+  "normalization_sample_audit": [
+    {
+      "sample": "SRX1737858",
+      "gsm": "GSM2138690",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 16584132.7,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737859",
+      "gsm": "GSM2138691",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 18943476.799999997,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737864",
+      "gsm": "GSM2138674",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 25640871.83,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737865",
+      "gsm": "GSM2138675",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 24284801.51,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737874",
+      "gsm": "GSM2138708",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 28709869.799999997,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737875",
+      "gsm": "GSM2138709",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 24173084.22,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737900",
+      "gsm": "GSM2138714",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 19115068.919999998,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737901",
+      "gsm": "GSM2138715",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 18942504.36,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737958",
+      "gsm": "GSM2138776",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 18737159.450000003,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737959",
+      "gsm": "GSM2138777",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 18106169.96,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737964",
+      "gsm": "GSM2138782",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 19836389.539999995,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737965",
+      "gsm": "GSM2138783",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 21814686.68,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737998",
+      "gsm": "GSM2138814",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 33887790.94,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1737999",
+      "gsm": "GSM2138815",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 25938909.909999996,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1738058",
+      "gsm": "GSM2138872",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 16002298.299999999,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1738059",
+      "gsm": "GSM2138873",
+      "model": "K562",
+      "reported_strict_estimated_count_mass": 17624230.17,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2243864",
+      "gsm": "GSM2343490",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 25824922.879999995,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2243865",
+      "gsm": "GSM2343491",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 28238948.99,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244012",
+      "gsm": "GSM2343628",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 27626408.09,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244013",
+      "gsm": "GSM2343629",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 23001889.9,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244095",
+      "gsm": "GSM2343709",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 17258038.19,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244096",
+      "gsm": "GSM2343710",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 24797184.979999997,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244538",
+      "gsm": "GSM2344143",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 21646228.0,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244539",
+      "gsm": "GSM2344144",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 19597753.169999998,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244885",
+      "gsm": "GSM2343139",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 21560869.109999996,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX2244886",
+      "gsm": "GSM2343140",
+      "model": "HepG2",
+      "reported_strict_estimated_count_mass": 42551921.129999995,
+      "quantity": "RSEM expected_count composition on all strict ENSG rows",
+      "is_sequencing_depth": false,
+      "side": "human",
+      "original_gene_rows": 61471,
+      "strict_native_gene_rows": 60675,
+      "excluded_by_identifier_reason": {
+        "numeric_identifier": 649,
+        "ENSGR": 50,
+        "other_noncanonical_identifier": 97
+      },
+      "excluded_examples": [
+        "10904",
+        "12954",
+        "12956",
+        "12958",
+        "12960",
+        "12962",
+        "12964",
+        "12965",
+        "12967",
+        "12969",
+        "12971",
+        "12973"
+      ],
+      "strict_id_sha256": "d96a4e96fb1358034ff16df41ce2036c9e7562519085a197957f0c79d83fdd6b",
+      "per_library_scale_invariance_max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "sample": "SRX1055008",
+      "gsm": "GSM1707962",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 31667380.742461808,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055009",
+      "gsm": "GSM1707963",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30902023.028507702,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055010",
+      "gsm": "GSM1707964",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 31420715.519513983,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055011",
+      "gsm": "GSM1707965",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30900639.998948228,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055012",
+      "gsm": "GSM1707966",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 32831666.63694932,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055013",
+      "gsm": "GSM1707967",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30357913.997759815,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055014",
+      "gsm": "GSM1707968",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 32067160.34052719,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055015",
+      "gsm": "GSM1707969",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 29936975.008792676,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055016",
+      "gsm": "GSM1707970",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 32452138.36531576,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055017",
+      "gsm": "GSM1707971",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30259178.256840162,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055018",
+      "gsm": "GSM1707972",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30670667.06446775,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055019",
+      "gsm": "GSM1707973",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 29596615.823114336,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055020",
+      "gsm": "GSM1707974",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 31052655.012733385,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055021",
+      "gsm": "GSM1707975",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30454995.656210687,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055022",
+      "gsm": "GSM1707976",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30313918.349099975,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055023",
+      "gsm": "GSM1707977",
+      "model": "P19",
+      "measurement_compartment": "whole_cell",
+      "reported_strict_estimated_count_mass": 30219918.342397712,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.469136006766348e-13
+    },
+    {
+      "sample": "SRX1055024",
+      "gsm": "GSM1707978",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35267114.22820342,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055025",
+      "gsm": "GSM1707979",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 37367256.18371576,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055026",
+      "gsm": "GSM1707980",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35752584.47855308,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055027",
+      "gsm": "GSM1707981",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 36295219.01016306,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055028",
+      "gsm": "GSM1707982",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 33113122.85733494,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055029",
+      "gsm": "GSM1707983",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35005708.83720605,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055030",
+      "gsm": "GSM1707984",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 38371995.02397326,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055031",
+      "gsm": "GSM1707985",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35709625.86712901,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055032",
+      "gsm": "GSM1707986",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35176895.827334434,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055033",
+      "gsm": "GSM1707987",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35622511.32576489,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055034",
+      "gsm": "GSM1707988",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 32128467.067371152,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055035",
+      "gsm": "GSM1707989",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 33065707.77221342,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055036",
+      "gsm": "GSM1707990",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35305973.20296772,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055037",
+      "gsm": "GSM1707991",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 37518040.66951325,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055038",
+      "gsm": "GSM1707992",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 32931559.504278786,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    },
+    {
+      "sample": "SRX1055039",
+      "gsm": "GSM1707993",
+      "model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "reported_strict_estimated_count_mass": 35206915.611507654,
+      "quantity": "Author-reported estimated-count composition on all strict ENSMUSG rows; raw versus library-scaled export unresolved",
+      "is_sequencing_depth": false,
+      "side": "mouse",
+      "original_gene_rows": 38201,
+      "strict_native_gene_rows": 38201,
+      "excluded_by_identifier_reason": {},
+      "excluded_examples": [],
+      "strict_id_sha256": "89d1291134465f10d422931cdf502faa720db66d4f6ecf0ae14c75f6141c8a72",
+      "per_library_scale_invariance_max_abs_difference": 2.5224267119483557e-13
+    }
+  ],
+  "contrasts": [
+    {
+      "perturb_id": "Perturb_8241",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737998",
+        "SRX1737999"
+      ],
+      "perturbs": [
+        "SRX1737874",
+        "SRX1737875"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8096",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX2244885",
+        "SRX2244886"
+      ],
+      "perturbs": [
+        "SRX2244538",
+        "SRX2244539"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8242",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737998",
+        "SRX1737999"
+      ],
+      "perturbs": [
+        "SRX1737864",
+        "SRX1737865"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_9926",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737900",
+        "SRX1737901"
+      ],
+      "perturbs": [
+        "SRX1737858",
+        "SRX1737859"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_9927",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737900",
+        "SRX1737901"
+      ],
+      "perturbs": [
+        "SRX1738058",
+        "SRX1738059"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_9928",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "K562",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737900",
+        "SRX1737901"
+      ],
+      "perturbs": [
+        "SRX1737958",
+        "SRX1737959"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4693",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055008",
+        "SRX1055009"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4697",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055016",
+        "SRX1055017"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4699",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055020",
+        "SRX1055021"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4686",
+      "target": "SRSF1",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055024",
+        "SRX1055025"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4690",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055032",
+        "SRX1055033"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4692",
+      "target": "SRSF7",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "primary",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055036",
+        "SRX1055037"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8163",
+      "target": "SRSF3",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "supplement_SRSF3_HepG2_only",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX2243864",
+        "SRX2243865"
+      ],
+      "perturbs": [
+        "SRX2244012",
+        "SRX2244013"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4695",
+      "target": "SRSF3",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "supplement_SRSF3_HepG2_only",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055022",
+        "SRX1055023"
+      ],
+      "perturbs": [
+        "SRX1055012",
+        "SRX1055013"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_4688",
+      "target": "SRSF3",
+      "condition": "KD",
+      "species": "Mus musculus",
+      "cell_model": "P19",
+      "measurement_compartment": "cytoplasmic",
+      "selection_role": "supplement_SRSF3_HepG2_only",
+      "study_accession": "SRP059321",
+      "controls": [
+        "SRX1055038",
+        "SRX1055039"
+      ],
+      "perturbs": [
+        "SRX1055028",
+        "SRX1055029"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "esiRNA",
+      "training_ready": false
+    },
+    {
+      "perturb_id": "Perturb_8214",
+      "target": "SRSF5",
+      "condition": "KD",
+      "species": "Homo sapiens",
+      "cell_model": "HepG2",
+      "measurement_compartment": "whole_cell",
+      "selection_role": "sensitivity_alternative_HepG2_SRSF5_batch",
+      "study_accession": "SRP013565",
+      "controls": [
+        "SRX1737964",
+        "SRX1737965"
+      ],
+      "perturbs": [
+        "SRX2244095",
+        "SRX2244096"
+      ],
+      "sample_identity_and_role_verified": true,
+      "assay_method": "shRNA",
+      "training_ready": false
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "primary|HepG2|SRSF1",
+      "analysis_group": "primary",
+      "human_model": "HepG2",
+      "held_target": "SRSF1",
+      "human_query_contrast": "Perturb_8241",
+      "source_query_contrasts": [
+        "Perturb_4693",
+        "Perturb_4686"
+      ],
+      "fit_targets": [
+        "SRSF5",
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_8096",
+        "Perturb_8242"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4697",
+          "Perturb_4690"
+        ],
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.03682854709804917,
+        0.0
+      ],
+      "fit_numerator": [
+        43.41536114867764,
+        -87.22357544023734
+      ],
+      "fit_denominator": [
+        1178.8507711991,
+        1222.8393335204987
+      ],
+      "historical_raw_training_mse": [
+        0.22630519980974684,
+        0.23600543608236293
+      ],
+      "historical_raw_selected_source": "whole_cell",
+      "quality_flags": [],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.5993392760621138,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.7741700562939087
+        },
+        "human_history_mean": {
+          "mse": 0.5807189948892066,
+          "pearson": 0.2238013415214392,
+          "predicted_rms": 0.3484862683300997,
+          "target_rms": 0.7741700562939087
+        },
+        "whole_raw": {
+          "mse": 0.6933962468455843,
+          "pearson": 0.04494379247898208,
+          "predicted_rms": 0.2850972678984724,
+          "target_rms": 0.7741700562939087
+        },
+        "cyto_raw": {
+          "mse": 0.7407375261873376,
+          "pearson": -0.04031492951776727,
+          "predicted_rms": 0.28605387500612356,
+          "target_rms": 0.7741700562939087
+        },
+        "equal_raw": {
+          "mse": 0.7029852984146043,
+          "pearson": 0.003067202715404392,
+          "predicted_rms": 0.259753821305365,
+          "target_rms": 0.7741700562939087
+        },
+        "whole_scaled": {
+          "mse": 0.5999200607612747,
+          "pearson": 0.04494379247898207,
+          "predicted_rms": 0.01049971815832403,
+          "target_rms": 0.7741700562939087
+        },
+        "cyto_scaled": {
+          "mse": 0.5993392760621137,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.7741700562939087
+        },
+        "equal_scaled": {
+          "mse": 0.5996021073913433,
+          "pearson": 0.04494379247898207,
+          "predicted_rms": 0.005249859079162015,
+          "target_rms": 0.7741700562939087
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.6933962468455843,
+          "pearson": 0.04494379247898207,
+          "predicted_rms": 0.2850972678984724,
+          "target_rms": 0.7741700562939087
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": 0.031068014256047882,
+        "whole_raw": -0.15693443520247907,
+        "cyto_raw": -0.23592355077121563,
+        "equal_raw": -0.17293380643011447,
+        "whole_scaled": -0.0009690416135863522,
+        "cyto_scaled": 2.220446049250313e-16,
+        "equal_scaled": -0.00043853513314928705,
+        "historical_raw_source_selection": -0.15693443520247907
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": -0.03206418480673201,
+        "human_history_mean": 0.0,
+        "whole_raw": -0.1940305947420835,
+        "cyto_raw": -0.27555243191013634,
+        "equal_raw": -0.21054297276555323,
+        "whole_scaled": -0.03306429794970178,
+        "cyto_scaled": -0.03206418480673179,
+        "equal_scaled": -0.032516781211434864,
+        "historical_raw_source_selection": -0.1940305947420835
+      }
+    },
+    {
+      "case_id": "primary|HepG2|SRSF5",
+      "analysis_group": "primary",
+      "human_model": "HepG2",
+      "held_target": "SRSF5",
+      "human_query_contrast": "Perturb_8096",
+      "source_query_contrasts": [
+        "Perturb_4697",
+        "Perturb_4690"
+      ],
+      "fit_targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_8241",
+        "Perturb_8242"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ],
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.0,
+        0.0
+      ],
+      "fit_numerator": [
+        -59.30827445381421,
+        -669.9011422725271
+      ],
+      "fit_denominator": [
+        2131.5302901422374,
+        1998.5373026555858
+      ],
+      "historical_raw_training_mse": [
+        0.46260501891187,
+        0.4971837525677574
+      ],
+      "historical_raw_selected_source": "whole_cell",
+      "quality_flags": [],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.20034159465151966,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4475953469949388
+        },
+        "human_history_mean": {
+          "mse": 0.3615152303622272,
+          "pearson": 0.16942542545940356,
+          "predicted_rms": 0.49786905749498245,
+          "target_rms": 0.4475953469949388
+        },
+        "whole_raw": {
+          "mse": 0.22079660864133777,
+          "pearson": 0.039027366394457474,
+          "predicted_rms": 0.1439972274572433,
+          "target_rms": 0.4475953469949388
+        },
+        "cyto_raw": {
+          "mse": 0.2183808932165487,
+          "pearson": 0.13715934015694028,
+          "predicted_rms": 0.18035854454303074,
+          "target_rms": 0.4475953469949388
+        },
+        "equal_raw": {
+          "mse": 0.21436091259547338,
+          "pearson": 0.10487999676919187,
+          "predicted_rms": 0.14630230592528914,
+          "target_rms": 0.4475953469949388
+        },
+        "whole_scaled": {
+          "mse": 0.20034159465151966,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4475953469949388
+        },
+        "cyto_scaled": {
+          "mse": 0.20034159465151966,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4475953469949388
+        },
+        "equal_scaled": {
+          "mse": 0.20034159465151966,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4475953469949388
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.22079660864133777,
+          "pearson": 0.039027366394457474,
+          "predicted_rms": 0.1439972274572433,
+          "target_rms": 0.4475953469949388
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": -0.8044941241036738,
+        "whole_raw": -0.10210068471002343,
+        "cyto_raw": -0.09004270229757894,
+        "equal_raw": -0.06997707075427528,
+        "whole_scaled": 0.0,
+        "cyto_scaled": 0.0,
+        "equal_scaled": 0.0,
+        "historical_raw_source_selection": -0.10210068471002343
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": 0.44582806524974483,
+        "human_history_mean": 0.0,
+        "whole_raw": 0.38924673126466536,
+        "cyto_raw": 0.39592892670735425,
+        "equal_raw": 0.4070487365616926,
+        "whole_scaled": 0.44582806524974483,
+        "cyto_scaled": 0.44582806524974483,
+        "equal_scaled": 0.44582806524974483,
+        "historical_raw_source_selection": 0.38924673126466536
+      }
+    },
+    {
+      "case_id": "primary|HepG2|SRSF7",
+      "analysis_group": "primary",
+      "human_model": "HepG2",
+      "held_target": "SRSF7",
+      "human_query_contrast": "Perturb_8242",
+      "source_query_contrasts": [
+        "Perturb_4699",
+        "Perturb_4692"
+      ],
+      "fit_targets": [
+        "SRSF1",
+        "SRSF5"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_8241",
+        "Perturb_8096"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ],
+        [
+          "Perturb_4697",
+          "Perturb_4690"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.0,
+        0.0
+      ],
+      "fit_numerator": [
+        -98.3148848878848,
+        -354.67889553440006
+      ],
+      "fit_denominator": [
+        1605.2163106319274,
+        1799.3920375723292
+      ],
+      "historical_raw_training_mse": [
+        0.45709642774346093,
+        0.4795592097019431
+      ],
+      "historical_raw_selected_source": "whole_cell",
+      "quality_flags": [],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.1828681027816541,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4276308019561431
+        },
+        "human_history_mean": {
+          "mse": 0.24457402984114496,
+          "pearson": 0.36905135011826895,
+          "predicted_rms": 0.46650824662826784,
+          "target_rms": 0.4276308019561431
+        },
+        "whole_raw": {
+          "mse": 0.23181379097815594,
+          "pearson": 0.046077615194259534,
+          "predicted_rms": 0.23277417800171205,
+          "target_rms": 0.4276308019561431
+        },
+        "cyto_raw": {
+          "mse": 0.2536299789481773,
+          "pearson": -0.10355737744174731,
+          "predicted_rms": 0.2125685816995607,
+          "target_rms": 0.4276308019561431
+        },
+        "equal_raw": {
+          "mse": 0.22844425800753515,
+          "pearson": -0.028343991282288494,
+          "predicted_rms": 0.18816743336570305,
+          "target_rms": 0.4276308019561431
+        },
+        "whole_scaled": {
+          "mse": 0.1828681027816541,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4276308019561431
+        },
+        "cyto_scaled": {
+          "mse": 0.1828681027816541,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4276308019561431
+        },
+        "equal_scaled": {
+          "mse": 0.1828681027816541,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4276308019561431
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.23181379097815594,
+          "pearson": 0.04607761519425953,
+          "predicted_rms": 0.23277417800171207,
+          "target_rms": 0.4276308019561431
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": -0.3374340637916946,
+        "whole_raw": -0.26765568982220667,
+        "cyto_raw": -0.38695581728112205,
+        "equal_raw": -0.24922966079163245,
+        "whole_scaled": 0.0,
+        "cyto_scaled": 0.0,
+        "equal_scaled": 0.0,
+        "historical_raw_source_selection": -0.26765568982220667
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": 0.2522995883887178,
+        "human_history_mean": 0.0,
+        "whole_raw": 0.05217331893855215,
+        "cyto_raw": -0.03702743546775733,
+        "equal_raw": 0.06595046842907393,
+        "whole_scaled": 0.2522995883887178,
+        "cyto_scaled": 0.2522995883887178,
+        "equal_scaled": 0.2522995883887178,
+        "historical_raw_source_selection": 0.05217331893855215
+      }
+    },
+    {
+      "case_id": "primary|K562|SRSF1",
+      "analysis_group": "primary",
+      "human_model": "K562",
+      "held_target": "SRSF1",
+      "human_query_contrast": "Perturb_9926",
+      "source_query_contrasts": [
+        "Perturb_4693",
+        "Perturb_4686"
+      ],
+      "fit_targets": [
+        "SRSF5",
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_9927",
+        "Perturb_9928"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4697",
+          "Perturb_4690"
+        ],
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.01773166711182375,
+        0.3085828278084081
+      ],
+      "fit_numerator": [
+        20.90298944941915,
+        377.3472194931046
+      ],
+      "fit_denominator": [
+        1178.8507711991,
+        1222.8393335204987
+      ],
+      "historical_raw_training_mse": [
+        0.11098386891251344,
+        0.08972870851321338
+      ],
+      "historical_raw_selected_source": "cytoplasmic",
+      "quality_flags": [],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.19504877369839782,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.44164326520212877
+        },
+        "human_history_mean": {
+          "mse": 0.15654859703517543,
+          "pearson": 0.4590533879483396,
+          "predicted_rms": 0.23641526599400764,
+          "target_rms": 0.4416432652021287
+        },
+        "whole_raw": {
+          "mse": 0.2710502443261985,
+          "pearson": 0.06384597079068813,
+          "predicted_rms": 0.2850972678984724,
+          "target_rms": 0.4416432652021287
+        },
+        "cyto_raw": {
+          "mse": 0.2570761921686281,
+          "pearson": 0.14368880920623073,
+          "predicted_rms": 0.28605387500612356,
+          "target_rms": 0.4416432652021287
+        },
+        "equal_raw": {
+          "mse": 0.24998163014555672,
+          "pearson": 0.11439234606521462,
+          "predicted_rms": 0.259753821305365,
+          "target_rms": 0.44164326520212877
+        },
+        "whole_scaled": {
+          "mse": 0.1949807241061576,
+          "pearson": 0.06384597079068813,
+          "predicted_rms": 0.005055249848866148,
+          "target_rms": 0.4416432652021287
+        },
+        "cyto_scaled": {
+          "mse": 0.19673084338308894,
+          "pearson": 0.14368880920623073,
+          "predicted_rms": 0.08827131365494252,
+          "target_rms": 0.4416432652021287
+        },
+        "equal_scaled": {
+          "mse": 0.19404750662121664,
+          "pearson": 0.14202464207354856,
+          "predicted_rms": 0.045830263574359195,
+          "target_rms": 0.4416432652021287
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.2570761921686281,
+          "pearson": 0.14368880920623073,
+          "predicted_rms": 0.28605387500612356,
+          "target_rms": 0.44164326520212877
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": 0.19738743255445879,
+        "whole_raw": -0.38965367065224976,
+        "cyto_raw": -0.3180097843944547,
+        "equal_raw": -0.2816365127837259,
+        "whole_scaled": 0.0003488850042473457,
+        "cyto_scaled": -0.008623841374630237,
+        "equal_scaled": 0.005133418981292492,
+        "historical_raw_source_selection": -0.3180097843944547
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": -0.245931151044245,
+        "human_history_mean": 0.0,
+        "whole_raw": -0.7314127974286178,
+        "cyto_raw": -0.6421494477581602,
+        "equal_raw": -0.59683085559296,
+        "whole_scaled": -0.24549646434932115,
+        "cyto_scaled": -0.25667586365456097,
+        "equal_scaled": -0.2395352644240909,
+        "historical_raw_source_selection": -0.6421494477581602
+      }
+    },
+    {
+      "case_id": "primary|K562|SRSF5",
+      "analysis_group": "primary",
+      "human_model": "K562",
+      "held_target": "SRSF5",
+      "human_query_contrast": "Perturb_9927",
+      "source_query_contrasts": [
+        "Perturb_4697",
+        "Perturb_4690"
+      ],
+      "fit_targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_9926",
+        "Perturb_9928"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ],
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.022392018902198038,
+        0.17754818358778712
+      ],
+      "fit_numerator": [
+        47.72926654747265,
+        354.83666791893484
+      ],
+      "fit_denominator": [
+        2131.5302901422374,
+        1998.5373026555858
+      ],
+      "historical_raw_training_mse": [
+        0.1905421852544118,
+        0.16679869017244242
+      ],
+      "historical_raw_selected_source": "cytoplasmic",
+      "quality_flags": [
+        "Official KD% field23.1/20.5; efficacy definition unresolved; retained in primary results"
+      ],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.09306763289556903,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.30506988198701135
+        },
+        "human_history_mean": {
+          "mse": 0.09116388014693115,
+          "pearson": 0.4848190522481515,
+          "predicted_rms": 0.2916982049430833,
+          "target_rms": 0.30506988198701135
+        },
+        "whole_raw": {
+          "mse": 0.11193361164240184,
+          "pearson": 0.06618405454844958,
+          "predicted_rms": 0.1439972274572433,
+          "target_rms": 0.30506988198701135
+        },
+        "cyto_raw": {
+          "mse": 0.10293622885017006,
+          "pearson": 0.2698603130819195,
+          "predicted_rms": 0.18035854454303074,
+          "target_rms": 0.30506988198701135
+        },
+        "equal_raw": {
+          "mse": 0.1022070819128161,
+          "pearson": 0.20102559807276732,
+          "predicted_rms": 0.14630230592528914,
+          "target_rms": 0.30506988198701135
+        },
+        "whole_scaled": {
+          "mse": 0.09303617390609933,
+          "pearson": 0.0661840545484496,
+          "predicted_rms": 0.0032243886390867023,
+          "target_rms": 0.30506988198701135
+        },
+        "cyto_scaled": {
+          "mse": 0.09006971273873594,
+          "pearson": 0.2698603130819196,
+          "predicted_rms": 0.0320223319781521,
+          "target_rms": 0.30506988198701135
+        },
+        "equal_scaled": {
+          "mse": 0.09132614291847407,
+          "pearson": 0.2604131212348802,
+          "predicted_rms": 0.017062028301578467,
+          "target_rms": 0.30506988198701135
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.10293622885017005,
+          "pearson": 0.2698603130819195,
+          "predicted_rms": 0.18035854454303074,
+          "target_rms": 0.30506988198701135
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": 0.02045558363748301,
+        "whole_raw": -0.2027125667631655,
+        "cyto_raw": -0.10603682126174374,
+        "equal_raw": -0.09820222920574784,
+        "whole_scaled": 0.0003380228817574382,
+        "cyto_scaled": 0.03221227470346266,
+        "equal_scaled": 0.01871209058308254,
+        "historical_raw_source_selection": -0.10603682126174352
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": -0.020882752528408766,
+        "human_history_mean": 0.0,
+        "whole_raw": -0.22782851565768802,
+        "cyto_raw": -0.1291339144874606,
+        "equal_raw": -0.12113571458439831,
+        "whole_scaled": -0.020537670798462804,
+        "cyto_scaled": 0.012002203136063372,
+        "equal_scaled": -0.0017799019883906197,
+        "historical_raw_source_selection": -0.12913391448746037
+      }
+    },
+    {
+      "case_id": "primary|K562|SRSF7",
+      "analysis_group": "primary",
+      "human_model": "K562",
+      "held_target": "SRSF7",
+      "human_query_contrast": "Perturb_9928",
+      "source_query_contrasts": [
+        "Perturb_4699",
+        "Perturb_4692"
+      ],
+      "fit_targets": [
+        "SRSF1",
+        "SRSF5"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_9926",
+        "Perturb_9927"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ],
+        [
+          "Perturb_4697",
+          "Perturb_4690"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.03503484046888057,
+        0.1856483291709444
+      ],
+      "fit_numerator": [
+        56.23849736103462,
+        334.05412529880414
+      ],
+      "fit_denominator": [
+        1605.2163106319274,
+        1799.3920375723292
+      ],
+      "historical_raw_training_mse": [
+        0.19149192798430018,
+        0.18000621050939905
+      ],
+      "historical_raw_selected_source": "cytoplasmic",
+      "quality_flags": [],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.056637963696520965,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.23798731835230416
+        },
+        "human_history_mean": {
+          "mse": 0.07243320972528086,
+          "pearson": 0.5986316954376253,
+          "predicted_rms": 0.31154312792826017,
+          "target_rms": 0.23798731835230416
+        },
+        "whole_raw": {
+          "mse": 0.11003412618262505,
+          "pearson": -0.015261946530359964,
+          "predicted_rms": 0.23277417800171207,
+          "target_rms": 0.23798731835230416
+        },
+        "cyto_raw": {
+          "mse": 0.07652118817625675,
+          "pearson": 0.21289889270043058,
+          "predicted_rms": 0.2125685816995607,
+          "target_rms": 0.23798731835230416
+        },
+        "equal_raw": {
+          "mse": 0.07900003022380944,
+          "pearson": 0.10868825271225784,
+          "predicted_rms": 0.18816743336570307,
+          "target_rms": 0.23798731835230416
+        },
+        "whole_scaled": {
+          "mse": 0.05667687570122302,
+          "pearson": -0.015261946530359963,
+          "predicted_rms": 0.008155206191564792,
+          "target_rms": 0.23798731835230416
+        },
+        "cyto_scaled": {
+          "mse": 0.053497985258243425,
+          "pearson": 0.2128988927004306,
+          "predicted_rms": 0.039463002026760834,
+          "target_rms": 0.23798731835230416
+        },
+        "equal_scaled": {
+          "mse": 0.054750185852353306,
+          "pearson": 0.1895875483601655,
+          "predicted_rms": 0.02178699913057353,
+          "target_rms": 0.23798731835230416
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.07652118817625674,
+          "pearson": 0.2128988927004306,
+          "predicted_rms": 0.2125685816995607,
+          "target_rms": 0.23798731835230416
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": -0.27888089539013805,
+        "whole_raw": -0.9427627513625456,
+        "cyto_raw": -0.3510582510747491,
+        "equal_raw": -0.3948246912108191,
+        "whole_scaled": -0.000687030432636293,
+        "cyto_scaled": 0.055439465569459,
+        "equal_scaled": 0.033330609382123955,
+        "historical_raw_source_selection": -0.35105825107474886
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": 0.21806635504165695,
+        "human_history_mean": 0.0,
+        "whole_raw": -0.5191115594622144,
+        "cyto_raw": -0.0564379028139228,
+        "equal_raw": -0.09066035487637114,
+        "whole_scaled": 0.21752914283126845,
+        "cyto_scaled": 0.26141633842892653,
+        "equal_scaled": 0.24412867992450393,
+        "historical_raw_source_selection": -0.05643790281392258
+      }
+    },
+    {
+      "case_id": "supplement_SRSF3|HepG2|SRSF3",
+      "analysis_group": "supplement_SRSF3",
+      "human_model": "HepG2",
+      "held_target": "SRSF3",
+      "human_query_contrast": "Perturb_8163",
+      "source_query_contrasts": [
+        "Perturb_4695",
+        "Perturb_4688"
+      ],
+      "fit_targets": [
+        "SRSF1",
+        "SRSF5",
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_8241",
+        "Perturb_8096",
+        "Perturb_8242"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ],
+        [
+          "Perturb_4697",
+          "Perturb_4690"
+        ],
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.0,
+        0.0
+      ],
+      "fit_numerator": [
+        -57.10389909651069,
+        -555.9018066235823
+      ],
+      "fit_denominator": [
+        2457.7986859866323,
+        2510.384336874207
+      ],
+      "historical_raw_training_mse": [
+        0.3820022154883593,
+        0.40424946611735446
+      ],
+      "historical_raw_selected_source": "whole_cell",
+      "quality_flags": [],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.15594280065690663,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.3948959364907502
+        },
+        "human_history_mean": {
+          "mse": 0.25417708112019577,
+          "pearson": 0.17058724021021507,
+          "predicted_rms": 0.3894777006447591,
+          "target_rms": 0.3948959364907502
+        },
+        "whole_raw": {
+          "mse": 0.2927606096412645,
+          "pearson": 0.0496552632617124,
+          "predicted_rms": 0.3875378481841225,
+          "target_rms": 0.39489593649075017
+        },
+        "cyto_raw": {
+          "mse": 0.2509062482596914,
+          "pearson": 0.12201143950094431,
+          "predicted_rms": 0.36004989330802295,
+          "target_rms": 0.39489593649075017
+        },
+        "equal_raw": {
+          "mse": 0.2545411043714898,
+          "pearson": 0.09020430223139456,
+          "predicted_rms": 0.3501691450487339,
+          "target_rms": 0.3948959364907502
+        },
+        "whole_scaled": {
+          "mse": 0.15594280065690663,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.3948959364907502
+        },
+        "cyto_scaled": {
+          "mse": 0.1559428006569066,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.39489593649075017
+        },
+        "equal_scaled": {
+          "mse": 0.1559428006569066,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.39489593649075017
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.2927606096412645,
+          "pearson": 0.0496552632617124,
+          "predicted_rms": 0.3875378481841225,
+          "target_rms": 0.3948959364907502
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": -0.6299379006243235,
+        "whole_raw": -0.8773589316596531,
+        "cyto_raw": -0.6089633327268247,
+        "equal_raw": -0.6322722389186248,
+        "whole_scaled": 0.0,
+        "cyto_scaled": 2.220446049250313e-16,
+        "equal_scaled": 2.220446049250313e-16,
+        "historical_raw_source_selection": -0.8773589316596531
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": 0.3864796937251629,
+        "human_history_mean": 0.0,
+        "whole_raw": -0.15179782673963138,
+        "cyto_raw": 0.012868323320455732,
+        "equal_raw": -0.001432163945268794,
+        "whole_scaled": 0.3864796937251629,
+        "cyto_scaled": 0.386479693725163,
+        "equal_scaled": 0.386479693725163,
+        "historical_raw_source_selection": -0.15179782673963138
+      }
+    },
+    {
+      "case_id": "alternative_HepG2_SRSF5_batch|HepG2|SRSF5",
+      "analysis_group": "alternative_HepG2_SRSF5_batch",
+      "human_model": "HepG2",
+      "held_target": "SRSF5",
+      "human_query_contrast": "Perturb_8214",
+      "source_query_contrasts": [
+        "Perturb_4697",
+        "Perturb_4690"
+      ],
+      "fit_targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_8241",
+        "Perturb_8242"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ],
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.0,
+        0.0
+      ],
+      "fit_numerator": [
+        -59.30827445381421,
+        -669.9011422725271
+      ],
+      "fit_denominator": [
+        2131.5302901422374,
+        1998.5373026555858
+      ],
+      "historical_raw_training_mse": [
+        0.46260501891187,
+        0.4971837525677574
+      ],
+      "historical_raw_selected_source": "whole_cell",
+      "quality_flags": [
+        "Alternative human SRSF5 experimental batch; all SRSF5 records excluded from fitting"
+      ],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.12145021331111376,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.3484970779090031
+        },
+        "human_history_mean": {
+          "mse": 0.37559089577949795,
+          "pearson": 0.04978852598477404,
+          "predicted_rms": 0.49786905749498245,
+          "target_rms": 0.3484970779090031
+        },
+        "whole_raw": {
+          "mse": 0.14214934482387492,
+          "pearson": -0.06962771050114742,
+          "predicted_rms": 0.1439972274572433,
+          "target_rms": 0.3484970779090031
+        },
+        "cyto_raw": {
+          "mse": 0.15657495180486414,
+          "pearson": -0.10067093211362034,
+          "predicted_rms": 0.18035854454303074,
+          "target_rms": 0.3484970779090031
+        },
+        "equal_raw": {
+          "mse": 0.1441343099808997,
+          "pearson": -0.09756385825122994,
+          "predicted_rms": 0.14630230592528914,
+          "target_rms": 0.3484970779090031
+        },
+        "whole_scaled": {
+          "mse": 0.12145021331111377,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.3484970779090031
+        },
+        "cyto_scaled": {
+          "mse": 0.12145021331111377,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.3484970779090031
+        },
+        "equal_scaled": {
+          "mse": 0.12145021331111376,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.3484970779090031
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.14214934482387495,
+          "pearson": -0.06962771050114742,
+          "predicted_rms": 0.1439972274572433,
+          "target_rms": 0.3484970779090031
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": -2.0925503178603977,
+        "whole_raw": -0.17043306016875492,
+        "cyto_raw": -0.2892110070138194,
+        "equal_raw": -0.18677691912880445,
+        "whole_scaled": -2.220446049250313e-16,
+        "cyto_scaled": -2.220446049250313e-16,
+        "equal_scaled": 0.0,
+        "historical_raw_source_selection": -0.17043306016875515
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": 0.6766422863923336,
+        "human_history_mean": 0.0,
+        "whole_raw": 0.6215314417330072,
+        "cyto_raw": 0.5831236764141743,
+        "equal_raw": 0.6162465288681593,
+        "whole_scaled": 0.6766422863923336,
+        "cyto_scaled": 0.6766422863923336,
+        "equal_scaled": 0.6766422863923336,
+        "historical_raw_source_selection": 0.6215314417330071
+      }
+    },
+    {
+      "case_id": "K562_without_lowKD_SRSF5|K562|SRSF1",
+      "analysis_group": "K562_without_lowKD_SRSF5",
+      "human_model": "K562",
+      "held_target": "SRSF1",
+      "human_query_contrast": "Perturb_9926",
+      "source_query_contrasts": [
+        "Perturb_4693",
+        "Perturb_4686"
+      ],
+      "fit_targets": [
+        "SRSF7"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_9928"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4699",
+          "Perturb_4692"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.007268364321219363,
+        0.2799817680895829
+      ],
+      "fit_numerator": [
+        6.196879317928592,
+        199.06488105661762
+      ],
+      "fit_denominator": [
+        852.5823753547049,
+        710.9922993018777
+      ],
+      "historical_raw_training_mse": [
+        0.11003412618262505,
+        0.07652118817625674
+      ],
+      "historical_raw_selected_source": "cytoplasmic",
+      "quality_flags": [
+        "Predeclared SRSF5-exclusion sensitivity; only two remaining related target identities"
+      ],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.1950487736983978,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.4416432652021287
+        },
+        "human_history_mean": {
+          "mse": 0.16302210372176953,
+          "pearson": 0.4652001701679117,
+          "predicted_rms": 0.23798731835230416,
+          "target_rms": 0.4416432652021287
+        },
+        "whole_raw": {
+          "mse": 0.2710502443261985,
+          "pearson": 0.06384597079068813,
+          "predicted_rms": 0.2850972678984724,
+          "target_rms": 0.4416432652021287
+        },
+        "cyto_raw": {
+          "mse": 0.2570761921686281,
+          "pearson": 0.14368880920623073,
+          "predicted_rms": 0.28605387500612356,
+          "target_rms": 0.44164326520212877
+        },
+        "equal_raw": {
+          "mse": 0.2499816301455567,
+          "pearson": 0.11439234606521463,
+          "predicted_rms": 0.259753821305365,
+          "target_rms": 0.4416432652021287
+        },
+        "whole_scaled": {
+          "mse": 0.1950146981121071,
+          "pearson": 0.06384597079068813,
+          "predicted_rms": 0.002072190810070375,
+          "target_rms": 0.4416432652021287
+        },
+        "cyto_scaled": {
+          "mse": 0.19591968964473747,
+          "pearson": 0.14368880920623073,
+          "predicted_rms": 0.08008986969309102,
+          "target_rms": 0.4416432652021287
+        },
+        "equal_scaled": {
+          "mse": 0.19391684862393188,
+          "pearson": 0.1429556482912561,
+          "predicted_rms": 0.040730766585155787,
+          "target_rms": 0.44164326520212877
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.2570761921686281,
+          "pearson": 0.14368880920623073,
+          "predicted_rms": 0.28605387500612356,
+          "target_rms": 0.4416432652021287
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": 0.1641982636924999,
+        "whole_raw": -0.38965367065225,
+        "cyto_raw": -0.31800978439445493,
+        "equal_raw": -0.2816365127837259,
+        "whole_scaled": 0.00017470289940602068,
+        "cyto_scaled": -0.004465118799907852,
+        "equal_scaled": 0.005803292443233743,
+        "historical_raw_source_selection": -0.31800978439445493
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": -0.19645599734922015,
+        "human_history_mean": 0.0,
+        "whole_raw": -0.6626594684902425,
+        "cyto_raw": -0.5769407111036982,
+        "equal_raw": -0.5334216921418296,
+        "whole_scaled": -0.19624697301747163,
+        "cyto_scaled": -0.2017983155162466,
+        "equal_scaled": -0.18951261330114177,
+        "historical_raw_source_selection": -0.5769407111036982
+      }
+    },
+    {
+      "case_id": "K562_without_lowKD_SRSF5|K562|SRSF7",
+      "analysis_group": "K562_without_lowKD_SRSF5",
+      "human_model": "K562",
+      "held_target": "SRSF7",
+      "human_query_contrast": "Perturb_9928",
+      "source_query_contrasts": [
+        "Perturb_4699",
+        "Perturb_4692"
+      ],
+      "fit_targets": [
+        "SRSF1"
+      ],
+      "fit_human_contrasts": [
+        "Perturb_9926"
+      ],
+      "fit_source_contrasts": [
+        [
+          "Perturb_4693",
+          "Perturb_4686"
+        ]
+      ],
+      "source_order": [
+        "whole_cell",
+        "cytoplasmic"
+      ],
+      "beta": [
+        0.03247386914614401,
+        0.12098356675422887
+      ],
+      "fit_numerator": [
+        41.53238722954406,
+        155.77178686231719
+      ],
+      "fit_denominator": [
+        1278.9479147875322,
+        1287.5450033537081
+      ],
+      "historical_raw_training_mse": [
+        0.27105024432619856,
+        0.2570761921686281
+      ],
+      "historical_raw_selected_source": "cytoplasmic",
+      "quality_flags": [
+        "Predeclared SRSF5-exclusion sensitivity; only two remaining related target identities"
+      ],
+      "query_human_used_for_fitting": false,
+      "rules": {
+        "zero": {
+          "mse": 0.056637963696520965,
+          "pearson": null,
+          "predicted_rms": 0.0,
+          "target_rms": 0.23798731835230416
+        },
+        "human_history_mean": {
+          "mse": 0.16302210372176953,
+          "pearson": 0.46520017016791176,
+          "predicted_rms": 0.4416432652021287,
+          "target_rms": 0.23798731835230416
+        },
+        "whole_raw": {
+          "mse": 0.11003412618262505,
+          "pearson": -0.015261946530359964,
+          "predicted_rms": 0.23277417800171207,
+          "target_rms": 0.23798731835230416
+        },
+        "cyto_raw": {
+          "mse": 0.07652118817625675,
+          "pearson": 0.21289889270043058,
+          "predicted_rms": 0.2125685816995607,
+          "target_rms": 0.23798731835230416
+        },
+        "equal_raw": {
+          "mse": 0.07900003022380944,
+          "pearson": 0.10868825271225784,
+          "predicted_rms": 0.18816743336570307,
+          "target_rms": 0.23798731835230416
+        },
+        "whole_scaled": {
+          "mse": 0.056669525139425705,
+          "pearson": -0.015261946530359964,
+          "predicted_rms": 0.00755907819702883,
+          "target_rms": 0.23798731835230416
+        },
+        "cyto_scaled": {
+          "mse": 0.054238195808888445,
+          "pearson": 0.21289889270043058,
+          "predicted_rms": 0.025717305193900555,
+          "target_rms": 0.23798731835230416
+        },
+        "equal_scaled": {
+          "mse": 0.05531573716642995,
+          "pearson": 0.1795983606403613,
+          "predicted_rms": 0.014870656242593653,
+          "target_rms": 0.23798731835230416
+        },
+        "historical_raw_source_selection": {
+          "mse": 0.07652118817625674,
+          "pearson": 0.2128988927004306,
+          "predicted_rms": 0.2125685816995607,
+          "target_rms": 0.23798731835230416
+        }
+      },
+      "relative_mse_reduction_over_zero": {
+        "zero": 0.0,
+        "human_history_mean": -1.8783185884873772,
+        "whole_raw": -0.9427627513625456,
+        "cyto_raw": -0.3510582510747491,
+        "equal_raw": -0.3948246912108191,
+        "whole_scaled": -0.0005572488988807578,
+        "cyto_scaled": 0.04237030661079233,
+        "equal_scaled": 0.023345234252696745,
+        "historical_raw_source_selection": -0.35105825107474886
+      },
+      "relative_mse_reduction_over_human_history": {
+        "zero": 0.6525749428851366,
+        "human_history_mean": 0.0,
+        "whole_raw": 0.32503554014723846,
+        "cyto_raw": 0.5306085099548479,
+        "equal_raw": 0.5154029519908594,
+        "whole_scaled": 0.6523813406546157,
+        "cyto_scaled": 0.6672954490793654,
+        "equal_scaled": 0.6606856622287396,
+        "historical_raw_source_selection": 0.5306085099548479
+      }
+    }
+  ],
+  "macro_results": [
+    {
+      "group": "primary|HepG2",
+      "query_count": 3,
+      "targets": [
+        "SRSF1",
+        "SRSF5",
+        "SRSF7"
+      ],
+      "macro_mse": {
+        "zero": 0.3275163244984292,
+        "human_history_mean": 0.39560275169752623,
+        "whole_raw": 0.38200221548835933,
+        "cyto_raw": 0.4042494661173545,
+        "equal_raw": 0.3819301563392043,
+        "whole_scaled": 0.3277099193981495,
+        "cyto_scaled": 0.32751632449842916,
+        "equal_scaled": 0.3276039349415057,
+        "historical_raw_source_selection": 0.38200221548835933
+      },
+      "rule": "Equal average over listed query targets; groups kept separate"
+    },
+    {
+      "group": "primary|K562",
+      "query_count": 3,
+      "targets": [
+        "SRSF1",
+        "SRSF5",
+        "SRSF7"
+      ],
+      "macro_mse": {
+        "zero": 0.11491812343016261,
+        "human_history_mean": 0.10671522896912915,
+        "whole_raw": 0.1643393273837418,
+        "cyto_raw": 0.1455112030650183,
+        "equal_raw": 0.14372958076072742,
+        "whole_scaled": 0.11489792457115999,
+        "cyto_scaled": 0.11343284712668944,
+        "equal_scaled": 0.113374611797348,
+        "historical_raw_source_selection": 0.1455112030650183
+      },
+      "rule": "Equal average over listed query targets; groups kept separate"
+    },
+    {
+      "group": "supplement_SRSF3|HepG2",
+      "query_count": 1,
+      "targets": [
+        "SRSF3"
+      ],
+      "macro_mse": {
+        "zero": 0.15594280065690663,
+        "human_history_mean": 0.25417708112019577,
+        "whole_raw": 0.2927606096412645,
+        "cyto_raw": 0.2509062482596914,
+        "equal_raw": 0.2545411043714898,
+        "whole_scaled": 0.15594280065690663,
+        "cyto_scaled": 0.1559428006569066,
+        "equal_scaled": 0.1559428006569066,
+        "historical_raw_source_selection": 0.2927606096412645
+      },
+      "rule": "Equal average over listed query targets; groups kept separate"
+    },
+    {
+      "group": "alternative_HepG2_SRSF5_batch|HepG2",
+      "query_count": 1,
+      "targets": [
+        "SRSF5"
+      ],
+      "macro_mse": {
+        "zero": 0.12145021331111376,
+        "human_history_mean": 0.37559089577949795,
+        "whole_raw": 0.14214934482387492,
+        "cyto_raw": 0.15657495180486414,
+        "equal_raw": 0.1441343099808997,
+        "whole_scaled": 0.12145021331111377,
+        "cyto_scaled": 0.12145021331111377,
+        "equal_scaled": 0.12145021331111376,
+        "historical_raw_source_selection": 0.14214934482387495
+      },
+      "rule": "Equal average over listed query targets; groups kept separate"
+    },
+    {
+      "group": "K562_without_lowKD_SRSF5|K562",
+      "query_count": 2,
+      "targets": [
+        "SRSF1",
+        "SRSF7"
+      ],
+      "macro_mse": {
+        "zero": 0.12584336869745938,
+        "human_history_mean": 0.16302210372176953,
+        "whole_raw": 0.19054218525441177,
+        "cyto_raw": 0.16679869017244242,
+        "equal_raw": 0.16449083018468308,
+        "whole_scaled": 0.1258421116257664,
+        "cyto_scaled": 0.12507894272681297,
+        "equal_scaled": 0.12461629289518092,
+        "historical_raw_source_selection": 0.16679869017244242
+      },
+      "rule": "Equal average over listed query targets; groups kept separate"
+    }
+  ],
+  "source_interpretation": "Two measurement compartments of the same mouse P19 cell model, with fraction pairing labels; not two animal species or independently sourced cell models.",
+  "quality_flags": {
+    "K562_SRSF5": "ENCSR906RHU official KD% fields23.1/20.5; measurement definition unresolved. SRSF5 remains in primary comparisons; its predeclared exclusion sensitivity is preserved without an efficacy claim.",
+    "HepG2_SRSF5": "Primary ENCSR781YNI/Perturb_8096 and alternative ENCSR447UCG/Perturb_8214 remain as predeclared. Official KD% fields67.0/74.9 are not interpreted as a specific perturbation efficacy in this report."
+  },
+  "limitations": [
+    "Human shRNA endpoint time unresolved; mouse P19 esiRNA sampled36h.",
+    "Cell line/species/study/quantifier and perturbation method are confounded across human and mouse. HepG2/K562 and P19 are distinct tumour-derived cell contexts.",
+    "P19 whole/cyto fractions derive from the same sample design; A/B labels do not establish new independent donors. Shared GFP controls and overlapping LOTO training sets limit independence.",
+    "P19 raw versus scaled estimated-count export field unresolved; positive library-wide scaling cancels from this composition, but gene-specific quantifier and length effects do not.",
+    "Only three related primary SRSF targets. SRSF3 and alternative SRSF5 are supplementary, not a broad independent confirmation.",
+    "Historical source choice is reported as an E1 exploratory rule; no validated new-target recommendation, p-values or population confidence intervals."
+  ],
+  "runtime": {
+    "device_name": "NVIDIA A800 80GB PCIe",
+    "torch_version": "2.7.1+cu118",
+    "dtype": "float64",
+    "gpu_metric_wall_seconds": 0.0761740431189537,
+    "peak_allocated_bytes": 67978240,
+    "peak_reserved_bytes": 77594624,
+    "metric_prediction_rows": 90,
+    "resamples": 0,
+    "total_wall_seconds": 5.677610711194575
+  },
+  "cpu_gpu_validation": {
+    "metric_value_or_finiteness_checks": 360,
+    "finite_value_checks": 337,
+    "max_abs_difference": 2.220446049250313e-16,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  "output_files": {
+    "gene_axis.tsv": "988c5d51617ef9c86fdd5de1a53ab1acc326803e617c06c729ea11d80b6834f4",
+    "excluded_native_rows.tsv": "f8825a3d2973993a8a1e153387059e6d5fee24f332669e640b798e2fb5a1a7a5",
+    "sample_log_composition.npz": "412d46969393eb34690af6c9758b02ada785552616ec7a29650136517abae214",
+    "responses.npz": "62767a49070353f21450fa6dab5d9e7023ae2b374e2d3f3912d359b7ca32054a",
+    "predictions.npz": "2889ded6fe67ee2941c165ca71ab9c9f936cbffac54f4948232b710523f120ac"
+  },
+  "interpretation_amendment": {
+    "date": "2026-11-08",
+    "source": "interpretation_amendment.md",
+    "source_sha256": "21a9a24e9eb032528f4b8b63980a2c4caca2fbf1f883a4a175ef088ecbebae10",
+    "original_report_sha256": "cf907f515715896404bc594262bb5406c999d7a5ebb18fa70b88b3445d12f765",
+    "numbers_and_case_selection_unchanged": true,
+    "legacy_group_name": "K562_without_lowKD_SRSF5 means the predeclared SRSF5-exclusion branch; efficacy interpretation withdrawn"
+  }
+}

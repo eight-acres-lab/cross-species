@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-08",
+  "command": ".venv-state-official/bin/python -m unittest discover -s tests -p test_crossstudy_kernel_transfer.py -v",
+  "passed": 9,
+  "failed": 0,
+  "skipped": 1,
+  "skipped_reason": "CUDA not available on local Mac; end-to-end CUDA test defined for remote server",
+  "runtime_seconds": 1.832,
+  "test_file": "/Users/zhi/train/tests/test_crossstudy_kernel_transfer.py",
+  "test_sha256": "c209d3bbc7f3a11759e7f05850ea67e7d30ada690dc977507610821461cdfc1d",
+  "tested_script_sha256": "c53b14245f810b90405e7aa16182a67cf36cd7ed8b6b11d0da39684397e749ab",
+  "scope": "Synthetic information-visibility, frozen-fit/terminal-scoring separation, strict input axes, whole-compound folds and independent legacy prediction equivalence; no biological performance claim."
+}

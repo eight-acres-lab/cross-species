@@ -1,0 +1,574 @@
+{
+ "1% cholesterol + 0.25% sodium cholate": {
+  "alt_fold_max": 1.222,
+  "n_days_with_control": 4
+ },
+ "2,4-dinitrophenol": {
+  "alt_fold_max": 1.346,
+  "n_days_with_control": 4
+ },
+ "WY-14643": {
+  "alt_fold_max": 1.716,
+  "n_days_with_control": 4
+ },
+ "acarbose": {
+  "alt_fold_max": 1.254,
+  "n_days_with_control": 4
+ },
+ "acetamide": {
+  "alt_fold_max": 2.542,
+  "n_days_with_control": 4
+ },
+ "acetamidofluorene": {
+  "alt_fold_max": 1.531,
+  "n_days_with_control": 4
+ },
+ "acetaminophen": {
+  "alt_fold_max": 1.434,
+  "n_days_with_control": 4
+ },
+ "acetazolamide": {
+  "alt_fold_max": 1.269,
+  "n_days_with_control": 4
+ },
+ "adapin": {
+  "alt_fold_max": 1.212,
+  "n_days_with_control": 4
+ },
+ "ajmaline": {
+  "alt_fold_max": 1.345,
+  "n_days_with_control": 4
+ },
+ "allopurinol": {
+  "alt_fold_max": 1.286,
+  "n_days_with_control": 4
+ },
+ "allyl alcohol": {
+  "alt_fold_max": 5.103,
+  "n_days_with_control": 4
+ },
+ "amiodarone": {
+  "alt_fold_max": 1.204,
+  "n_days_with_control": 4
+ },
+ "amitriptyline": {
+  "alt_fold_max": 1.252,
+  "n_days_with_control": 4
+ },
+ "amphotericin B": {
+  "alt_fold_max": 1.096,
+  "n_days_with_control": 4
+ },
+ "aspirin": {
+  "alt_fold_max": 1.733,
+  "n_days_with_control": 4
+ },
+ "azathioprine": {
+  "alt_fold_max": 1.616,
+  "n_days_with_control": 4
+ },
+ "bendazac": {
+  "alt_fold_max": 1.256,
+  "n_days_with_control": 4
+ },
+ "benzbromarone": {
+  "alt_fold_max": 1.582,
+  "n_days_with_control": 4
+ },
+ "benziodarone": {
+  "alt_fold_max": 1.419,
+  "n_days_with_control": 4
+ },
+ "bromobenzene": {
+  "alt_fold_max": 1.424,
+  "n_days_with_control": 4
+ },
+ "bromoethylamine": {
+  "alt_fold_max": 1.118,
+  "n_days_with_control": 4
+ },
+ "bucetin": {
+  "alt_fold_max": 1.591,
+  "n_days_with_control": 4
+ },
+ "butylated hydroxyanisole": {
+  "alt_fold_max": 1.96,
+  "n_days_with_control": 4
+ },
+ "caffeine": {
+  "alt_fold_max": 1.239,
+  "n_days_with_control": 4
+ },
+ "captopril": {
+  "alt_fold_max": 1.316,
+  "n_days_with_control": 4
+ },
+ "carbamazepine": {
+  "alt_fold_max": 1.28,
+  "n_days_with_control": 4
+ },
+ "carbon tetrachloride": {
+  "alt_fold_max": 9.651,
+  "n_days_with_control": 4
+ },
+ "carboplatin": {
+  "alt_fold_max": 1.228,
+  "n_days_with_control": 4
+ },
+ "cephalothin": {
+  "alt_fold_max": 1.34,
+  "n_days_with_control": 4
+ },
+ "chloramphenicol": {
+  "alt_fold_max": 1.402,
+  "n_days_with_control": 4
+ },
+ "chlormadinone": {
+  "alt_fold_max": 1.45,
+  "n_days_with_control": 4
+ },
+ "chlormezanone": {
+  "alt_fold_max": 1.371,
+  "n_days_with_control": 4
+ },
+ "chlorpheniramine": {
+  "alt_fold_max": 1.12,
+  "n_days_with_control": 4
+ },
+ "chlorpromazine": {
+  "alt_fold_max": 1.288,
+  "n_days_with_control": 4
+ },
+ "chlorpropamide": {
+  "alt_fold_max": 1.229,
+  "n_days_with_control": 4
+ },
+ "cimetidine": {
+  "alt_fold_max": 1.274,
+  "n_days_with_control": 4
+ },
+ "ciprofloxacin": {
+  "alt_fold_max": 1.301,
+  "n_days_with_control": 4
+ },
+ "cisplatin": {
+  "alt_fold_max": 1.369,
+  "n_days_with_control": 4
+ },
+ "clofibrate": {
+  "alt_fold_max": 1.5,
+  "n_days_with_control": 4
+ },
+ "clomipramine": {
+  "alt_fold_max": 3.301,
+  "n_days_with_control": 4
+ },
+ "colchicine": {
+  "alt_fold_max": 2.951,
+  "n_days_with_control": 4
+ },
+ "coumarin": {
+  "alt_fold_max": 2.358,
+  "n_days_with_control": 4
+ },
+ "cyclophosphamide": {
+  "alt_fold_max": 1.088,
+  "n_days_with_control": 4
+ },
+ "cyclosporine A": {
+  "alt_fold_max": 1.398,
+  "n_days_with_control": 4
+ },
+ "danazol": {
+  "alt_fold_max": 1.092,
+  "n_days_with_control": 4
+ },
+ "dantrolene": {
+  "alt_fold_max": 1.195,
+  "n_days_with_control": 4
+ },
+ "desmopressin acetate": {
+  "alt_fold_max": 1.402,
+  "n_days_with_control": 4
+ },
+ "diazepam": {
+  "alt_fold_max": 1.317,
+  "n_days_with_control": 4
+ },
+ "diclofenac": {
+  "alt_fold_max": 1.185,
+  "n_days_with_control": 4
+ },
+ "diltiazem": {
+  "alt_fold_max": 1.469,
+  "n_days_with_control": 4
+ },
+ "disopyramide": {
+  "alt_fold_max": 2.009,
+  "n_days_with_control": 4
+ },
+ "disulfiram": {
+  "alt_fold_max": 1.319,
+  "n_days_with_control": 4
+ },
+ "doxorubicin": {
+  "alt_fold_max": 1.262,
+  "n_days_with_control": 4
+ },
+ "enalapril": {
+  "alt_fold_max": 1.193,
+  "n_days_with_control": 4
+ },
+ "erythromycin ethylsuccinate": {
+  "alt_fold_max": 1.124,
+  "n_days_with_control": 4
+ },
+ "ethambutol": {
+  "alt_fold_max": 1.926,
+  "n_days_with_control": 4
+ },
+ "ethanol": {
+  "alt_fold_max": 1.253,
+  "n_days_with_control": 4
+ },
+ "ethinylestradiol": {
+  "alt_fold_max": 1.322,
+  "n_days_with_control": 4
+ },
+ "ethionamide": {
+  "alt_fold_max": 2.276,
+  "n_days_with_control": 4
+ },
+ "ethionine": {
+  "alt_fold_max": 1.314,
+  "n_days_with_control": 4
+ },
+ "etoposide": {
+  "alt_fold_max": 1.056,
+  "n_days_with_control": 4
+ },
+ "famotidine": {
+  "alt_fold_max": 1.255,
+  "n_days_with_control": 4
+ },
+ "fenofibrate": {
+  "alt_fold_max": 1.37,
+  "n_days_with_control": 4
+ },
+ "fluoxetine hydrochloride": {
+  "alt_fold_max": 4.424,
+  "n_days_with_control": 4
+ },
+ "fluphenazine": {
+  "alt_fold_max": 1.416,
+  "n_days_with_control": 4
+ },
+ "flutamide": {
+  "alt_fold_max": 1.124,
+  "n_days_with_control": 4
+ },
+ "furosemide": {
+  "alt_fold_max": 1.279,
+  "n_days_with_control": 4
+ },
+ "gemfibrozil": {
+  "alt_fold_max": 1.363,
+  "n_days_with_control": 4
+ },
+ "gentamicin": {
+  "alt_fold_max": 1.104,
+  "n_days_with_control": 4
+ },
+ "glibenclamide": {
+  "alt_fold_max": 1.25,
+  "n_days_with_control": 4
+ },
+ "griseofulvin": {
+  "alt_fold_max": 1.306,
+  "n_days_with_control": 4
+ },
+ "haloperidol": {
+  "alt_fold_max": 1.256,
+  "n_days_with_control": 4
+ },
+ "hexachlorobenzene": {
+  "alt_fold_max": 1.5,
+  "n_days_with_control": 4
+ },
+ "hydroxyzine": {
+  "alt_fold_max": 1.153,
+  "n_days_with_control": 4
+ },
+ "ibuprofen": {
+  "alt_fold_max": 1.293,
+  "n_days_with_control": 4
+ },
+ "imipramine": {
+  "alt_fold_max": 1.188,
+  "n_days_with_control": 4
+ },
+ "indomethacin": {
+  "alt_fold_max": 1.289,
+  "n_days_with_control": 4
+ },
+ "iproniazid": {
+  "alt_fold_max": 1.185,
+  "n_days_with_control": 4
+ },
+ "isoniazid": {
+  "alt_fold_max": 0.699,
+  "n_days_with_control": 4
+ },
+ "ketoconazole": {
+  "alt_fold_max": 1.252,
+  "n_days_with_control": 4
+ },
+ "labetalol": {
+  "alt_fold_max": 1.425,
+  "n_days_with_control": 4
+ },
+ "lomustine": {
+  "alt_fold_max": 4.074,
+  "n_days_with_control": 4
+ },
+ "lornoxicam": {
+  "alt_fold_max": 1.248,
+  "n_days_with_control": 4
+ },
+ "mefenamic acid": {
+  "alt_fold_max": 1.255,
+  "n_days_with_control": 4
+ },
+ "meloxicam": {
+  "alt_fold_max": 1.158,
+  "n_days_with_control": 4
+ },
+ "metformin": {
+  "alt_fold_max": 1.45,
+  "n_days_with_control": 4
+ },
+ "methapyrilene": {
+  "alt_fold_max": 3.05,
+  "n_days_with_control": 4
+ },
+ "methimazole": {
+  "alt_fold_max": 1.036,
+  "n_days_with_control": 4
+ },
+ "methyldopa": {
+  "alt_fold_max": 1.2,
+  "n_days_with_control": 4
+ },
+ "methylene dianiline": {
+  "alt_fold_max": 7.203,
+  "n_days_with_control": 4
+ },
+ "methyltestosterone": {
+  "alt_fold_max": 1.39,
+  "n_days_with_control": 4
+ },
+ "mexiletine": {
+  "alt_fold_max": 1.493,
+  "n_days_with_control": 4
+ },
+ "monocrotaline": {
+  "alt_fold_max": 8.738,
+  "n_days_with_control": 4
+ },
+ "moxisylyte": {
+  "alt_fold_max": 1.18,
+  "n_days_with_control": 4
+ },
+ "naphthyl isothiocyanate": {
+  "alt_fold_max": 3.556,
+  "n_days_with_control": 4
+ },
+ "naproxen": {
+  "alt_fold_max": 1.086,
+  "n_days_with_control": 4
+ },
+ "nicotinic acid": {
+  "alt_fold_max": 1.215,
+  "n_days_with_control": 4
+ },
+ "nifedipine": {
+  "alt_fold_max": 1.14,
+  "n_days_with_control": 4
+ },
+ "nimesulide": {
+  "alt_fold_max": 1.233,
+  "n_days_with_control": 4
+ },
+ "nitrofurantoin": {
+  "alt_fold_max": 1.122,
+  "n_days_with_control": 4
+ },
+ "nitrofurazone": {
+  "alt_fold_max": 1.228,
+  "n_days_with_control": 4
+ },
+ "nitrosodiethylamine": {
+  "alt_fold_max": 6.242,
+  "n_days_with_control": 4
+ },
+ "omeprazole": {
+  "alt_fold_max": 1.062,
+  "n_days_with_control": 4
+ },
+ "papaverine": {
+  "alt_fold_max": 1.244,
+  "n_days_with_control": 4
+ },
+ "pemoline": {
+  "alt_fold_max": 1.182,
+  "n_days_with_control": 4
+ },
+ "penicillamine": {
+  "alt_fold_max": 1.282,
+  "n_days_with_control": 4
+ },
+ "perhexiline": {
+  "alt_fold_max": 1.258,
+  "n_days_with_control": 4
+ },
+ "phalloidin": {
+  "alt_fold_max": 2.133,
+  "n_days_with_control": 2
+ },
+ "phenacetin": {
+  "alt_fold_max": 1.525,
+  "n_days_with_control": 4
+ },
+ "phenobarbital": {
+  "alt_fold_max": 1.168,
+  "n_days_with_control": 4
+ },
+ "phenylanthranilic acid": {
+  "alt_fold_max": 1.127,
+  "n_days_with_control": 4
+ },
+ "phenylbutazone": {
+  "alt_fold_max": 1.15,
+  "n_days_with_control": 4
+ },
+ "phenytoin": {
+  "alt_fold_max": 1.2,
+  "n_days_with_control": 4
+ },
+ "promethazine": {
+  "alt_fold_max": 1.435,
+  "n_days_with_control": 4
+ },
+ "propranolol": {
+  "alt_fold_max": 1.233,
+  "n_days_with_control": 4
+ },
+ "propylthiouracil": {
+  "alt_fold_max": 1.405,
+  "n_days_with_control": 4
+ },
+ "puromycin aminonucleoside": {
+  "alt_fold_max": 2.129,
+  "n_days_with_control": 4
+ },
+ "quinidine": {
+  "alt_fold_max": 1.132,
+  "n_days_with_control": 4
+ },
+ "ranitidine": {
+  "alt_fold_max": 1.315,
+  "n_days_with_control": 4
+ },
+ "rifampicin": {
+  "alt_fold_max": 1.176,
+  "n_days_with_control": 4
+ },
+ "rosiglitazone maleate": {
+  "alt_fold_max": 1.434,
+  "n_days_with_control": 4
+ },
+ "rotenone": {
+  "alt_fold_max": 1.212,
+  "n_days_with_control": 4
+ },
+ "simvastatin": {
+  "alt_fold_max": 4.5,
+  "n_days_with_control": 4
+ },
+ "sulfasalazine": {
+  "alt_fold_max": 1.379,
+  "n_days_with_control": 4
+ },
+ "sulindac": {
+  "alt_fold_max": 1.157,
+  "n_days_with_control": 4
+ },
+ "sulpiride": {
+  "alt_fold_max": 1.358,
+  "n_days_with_control": 4
+ },
+ "tacrine": {
+  "alt_fold_max": 1.38,
+  "n_days_with_control": 4
+ },
+ "tamoxifen": {
+  "alt_fold_max": 1.661,
+  "n_days_with_control": 4
+ },
+ "tannic acid": {
+  "alt_fold_max": 1.27,
+  "n_days_with_control": 4
+ },
+ "terbinafine": {
+  "alt_fold_max": 1.557,
+  "n_days_with_control": 4
+ },
+ "tetracycline": {
+  "alt_fold_max": 1.242,
+  "n_days_with_control": 4
+ },
+ "theophylline": {
+  "alt_fold_max": 1.421,
+  "n_days_with_control": 4
+ },
+ "thioacetamide": {
+  "alt_fold_max": 1.616,
+  "n_days_with_control": 4
+ },
+ "thioridazine": {
+  "alt_fold_max": 1.133,
+  "n_days_with_control": 4
+ },
+ "ticlopidine": {
+  "alt_fold_max": 1.652,
+  "n_days_with_control": 4
+ },
+ "tiopronin": {
+  "alt_fold_max": 1.456,
+  "n_days_with_control": 4
+ },
+ "tolbutamide": {
+  "alt_fold_max": 1.206,
+  "n_days_with_control": 4
+ },
+ "triamterene": {
+  "alt_fold_max": 1.255,
+  "n_days_with_control": 4
+ },
+ "triazolam": {
+  "alt_fold_max": 1.37,
+  "n_days_with_control": 4
+ },
+ "trimethadione": {
+  "alt_fold_max": 1.892,
+  "n_days_with_control": 4
+ },
+ "valproic acid": {
+  "alt_fold_max": 1.25,
+  "n_days_with_control": 4
+ },
+ "vitamin A": {
+  "alt_fold_max": 1.536,
+  "n_days_with_control": 4
+ }
+}

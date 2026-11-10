@@ -1,0 +1,35 @@
+{
+  "source_snapshots_sha256_match": true,
+  "specification_seal_matches": true,
+  "arm_shapes": [
+    3,
+    5,
+    2,
+    3,
+    9637
+  ],
+  "all_method_predictions_scored": 34,
+  "fixed_weight_methods_verified": 31,
+  "resample_shape": [
+    2000,
+    3,
+    31
+  ],
+  "independent_cpu_literal_vs_saved_gpu_max_abs_difference": 1.1102230246251565e-16,
+  "human_held_values_not_used_in_source_identity_selection": true,
+  "all_shared_human_axes_verified": true,
+  "report_sha256": "d3adbc3ff979a811c875ec962191ed941b34637c9c92d33757f2fbd4c31d8e14",
+  "specification_sha256": "cbdc38115ec78122f65e0a5c6b0b022cab08198483a86cee24fd4078bfc6b8d7",
+  "device_verification": {
+    "requested_device": "cuda",
+    "actual_device": "NVIDIA A800 80GB PCIe",
+    "torch_version": "2.7.1+cu118",
+    "float_dtype": "float64",
+    "cpu_first4_seconds": 0.060019299387931824,
+    "all_draw_seconds": 0.5105596240609884,
+    "cpu_device_max_abs_difference": 1.1102230246251565e-16,
+    "peak_cuda_allocated_bytes": 418126848
+  },
+  "test_fact": "12 tests passed in0.94s:8model and4G330data tests before laterG130 additions; scopes must not be combined with earlier235-suite count.",
+  "scientific_scope": "Retrospective3-perturbation/2-pathway descriptive and measured-arm sensitivity; no donor/generalization CI or independent externalvalidation claim."
+}

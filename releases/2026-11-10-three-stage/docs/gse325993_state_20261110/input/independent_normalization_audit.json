@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "Independent reconstruction of all prepared expression values and native metadata; no responses or predictions read",
+  "script_sha256": "22c13f016c5eff9f86646b3646ee7cb87679ed2cc8ba64dec9e4daeee8510ada",
+  "manifest_sha256": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
+  "species": {
+    "human": {
+      "cells": 6169,
+      "observed_genes": 6357,
+      "coding_denominator_genes": 19394,
+      "values_compared": 39216333,
+      "all_float32_values_exact": true,
+      "maximum_absolute_difference": 0.0,
+      "metadata_and_gene_coordinates_exact": true
+    },
+    "cynomolgus": {
+      "cells": 3563,
+      "observed_genes": 6357,
+      "coding_denominator_genes": 18562,
+      "values_compared": 22649991,
+      "all_float32_values_exact": true,
+      "maximum_absolute_difference": 0.0,
+      "metadata_and_gene_coordinates_exact": true
+    }
+  },
+  "total_values_recomputed": 61866324,
+  "all_source_hashes_unchanged": true
+}

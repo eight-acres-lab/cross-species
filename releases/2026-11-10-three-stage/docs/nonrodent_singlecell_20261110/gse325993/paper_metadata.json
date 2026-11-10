@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:42458527",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42458527",
+        "source": "MED",
+        "pmid": "42458527",
+        "pmcid": "PMC13371563",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13371563"
+          ]
+        },
+        "doi": "10.1186/s13059-026-04152-5",
+        "title": "CroCoNet: a framework for the quantitative comparison of gene regulatory networks across species.",
+        "authorString": "T\u00e9rmeg A, Storozhuk V, Kliesmete Z, Edenhofer FC, Geuder J, Dietl T, Vieth B, Janssen P, Richter D, Bonev B, Hellmann I.",
+        "journalTitle": "Genome Biol",
+        "issue": "1",
+        "journalVolume": "27",
+        "pubYear": "2026",
+        "journalIssn": "1474-7596; 1474-760x; ",
+        "pageInfo": "228",
+        "pubType": "comparative study; research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2026-07-15",
+        "firstIndexDate": "2026-07-16"
+      }
+    ]
+  }
+}

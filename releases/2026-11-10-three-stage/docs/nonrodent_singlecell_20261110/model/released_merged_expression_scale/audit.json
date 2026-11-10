@@ -1,0 +1,117 @@
+{
+  "purpose": "Released source expression scale audit only; no predictions scored",
+  "source_url": "https://huggingface.co/datasets/arcinstitute/Replogle-Nadig-Preprint/resolve/833d2be9f604dd656ebaddf875d9ad3fbf5dda0d/replogle.h5ad",
+  "full_file_not_downloaded": true,
+  "root": [
+    "X",
+    "layers",
+    "obs",
+    "obsm",
+    "obsp",
+    "uns",
+    "var",
+    "varm",
+    "varp"
+  ],
+  "uns_keys": [
+    "hvg"
+  ],
+  "var_keys": [
+    "dispersions",
+    "dispersions_norm",
+    "gene_name_index",
+    "highly_variable",
+    "means"
+  ],
+  "X_attrs": {
+    "encoding-type": "array",
+    "encoding-version": "0.2.0"
+  },
+  "X_type": "<class 'h5py._hl.dataset.Dataset'>",
+  "read_shape": [
+    64,
+    6642
+  ],
+  "X_min_max": [
+    0.0,
+    5.880061626434326
+  ],
+  "X_fractional_proportion": 0.5213673404095152,
+  "X_row_sums_first8": [
+    2609.780335664749,
+    3072.081039428711,
+    2784.775292634964,
+    3176.0505370795727,
+    2859.380560874939,
+    2939.5352749824524,
+    2678.0493092536926,
+    3197.1785367429256
+  ],
+  "expm1_row_sums_first8": [
+    8543.986010839397,
+    8591.467126885456,
+    8132.209811998892,
+    8814.346567566696,
+    8740.54151862158,
+    8437.576285267922,
+    8308.832974533998,
+    8766.810716819353
+  ],
+  "expm1_row_sums_min_max": [
+    7453.245512958329,
+    8875.14368453138
+  ],
+  "new_network_bytes": 2465840,
+  "verified_ranges": [
+    {
+      "start": 0,
+      "end": 262143,
+      "sha256": "f29692a36cb8a8da9f257a808733e938817a4acc613f3ec5e16048d8a8f29e49"
+    },
+    {
+      "start": 22297706496,
+      "end": 22297813039,
+      "sha256": "8af1d6ce411bc53c9b7d80e0c1f5bcd5796e5b585ba10929df883005da1686d9"
+    },
+    {
+      "start": 17149198336,
+      "end": 17149460479,
+      "sha256": "4b799763e2bbb203559924ca9fa6fcabbd7eec2f4c6fbfaa17bb3327e0d1c4c3"
+    },
+    {
+      "start": 17149984768,
+      "end": 17150246911,
+      "sha256": "a2a8e346b46601f68e5cd6fc6b03ab61426664ae22a60c93aed8ab53e671caa1"
+    },
+    {
+      "start": 262144,
+      "end": 524287,
+      "sha256": "6bd3939dcb6b57c9731b03117e9e240bdc44c6995c4beea3d9a7578452a17824"
+    },
+    {
+      "start": 524288,
+      "end": 786431,
+      "sha256": "ad940890c97e885523a1687822870755a2edd9d2f711b17127bfff3d6c3bbfd1"
+    },
+    {
+      "start": 786432,
+      "end": 1048575,
+      "sha256": "aa3ec3e7c3fb413091c65231437aea8311205140fba87903b612127d8d5ddc02"
+    },
+    {
+      "start": 1048576,
+      "end": 1310719,
+      "sha256": "8006105a2ff78c50435240dfe563139e42392c85293067eb3875ade5d3d275b4"
+    },
+    {
+      "start": 1310720,
+      "end": 1572863,
+      "sha256": "6994fa8e7d0eed97ac8164795a1e708a904f7b7a6a8147240bfcf2f42d64d9f4"
+    },
+    {
+      "start": 1572864,
+      "end": 1835007,
+      "sha256": "1d24ff3dedcbd4d507df10730a486831be2696bdb06499602576fce11524a157"
+    }
+  ]
+}

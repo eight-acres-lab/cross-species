@@ -1,0 +1,22 @@
+[
+  {
+    "name": "lawlor2021_author_labelled_counts",
+    "shape": [
+      16382,
+      32738
+    ],
+    "roundtrip_passed": true,
+    "cells_below_400_detected_genes": 1680,
+    "no_non_ensembl_features": true
+  },
+  {
+    "name": "lawlor2021_cd14_baseline_lps_counts",
+    "shape": [
+      1644,
+      32738
+    ],
+    "roundtrip_passed": true,
+    "cells_below_400_detected_genes": 36,
+    "no_non_ensembl_features": true
+  }
+]

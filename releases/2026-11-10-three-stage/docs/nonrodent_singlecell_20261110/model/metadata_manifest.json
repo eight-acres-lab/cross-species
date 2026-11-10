@@ -1,0 +1,17 @@
+{
+  "hparams.yaml": {
+    "url": "https://huggingface.co/arcinstitute/st-x-replogle-full/resolve/48ad5f70215ab4c58caa5a68e77d837601d29d35/hepg2_0.99/version_0/hparams.yaml",
+    "bytes": 56363,
+    "sha256": "b19ab9e1a2b07cdee29e7a3865d4c38d0cd66a6489cd8798e8108044c152dc02"
+  },
+  "config.yaml": {
+    "url": "https://huggingface.co/arcinstitute/st-x-replogle-full/resolve/48ad5f70215ab4c58caa5a68e77d837601d29d35/hepg2_0.99/config.yaml",
+    "bytes": 2738,
+    "sha256": "b6b9b154fd26b5ce557faecae3a30ec2f97c53e12224e8f48d60cd2b7ae48b25"
+  },
+  "var_dims.pkl": {
+    "url": "https://huggingface.co/arcinstitute/st-x-replogle-full/resolve/48ad5f70215ab4c58caa5a68e77d837601d29d35/hepg2_0.99/var_dims.pkl",
+    "bytes": 193534,
+    "sha256": "7b89119fbacab24db54d3167dd26eb7f8dd881e45648fa315967a85c2f2efaae"
+  }
+}

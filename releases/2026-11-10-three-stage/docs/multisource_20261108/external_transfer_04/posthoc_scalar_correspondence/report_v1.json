@@ -1,0 +1,470 @@
+{
+  "scope": "Posthoc descriptive fixed-scalar drug-correspondence diagnostic after inspection of the external main report.",
+  "new_model_fitting": false,
+  "new_hyperparameter_selection": false,
+  "original_run_unchanged": true,
+  "beta": 0.12857119347061682,
+  "independent_training_formula_beta": 0.12857119347061682,
+  "fixed_genes": 7307,
+  "task_order": [
+    "CDDO",
+    "KI696",
+    "THAP"
+  ],
+  "rows": [
+    {
+      "human_query": "CDDO",
+      "correct_donor": "CDDO",
+      "all_donors": [
+        {
+          "rat_donor": "CDDO",
+          "correct_identity": true,
+          "mse": 0.02987622074236603
+        },
+        {
+          "rat_donor": "KI696",
+          "correct_identity": false,
+          "mse": 0.03005093783752231
+        },
+        {
+          "rat_donor": "THAP",
+          "correct_identity": false,
+          "mse": 0.032747755056635144
+        }
+      ],
+      "correct_mse": 0.02987622074236603,
+      "wrong_loss_average": 0.03139934644707873,
+      "correct_mse_lower_than_both_wrong": true,
+      "correct_mse_lower_than_wrong_average": true,
+      "wrong_average_minus_correct": 0.001523125704712698,
+      "zero_mse": 0.03112559070792694,
+      "frozen_human_history_mse": 0.03411299968869565
+    },
+    {
+      "human_query": "KI696",
+      "correct_donor": "KI696",
+      "all_donors": [
+        {
+          "rat_donor": "CDDO",
+          "correct_identity": false,
+          "mse": 0.04254873335839652
+        },
+        {
+          "rat_donor": "KI696",
+          "correct_identity": true,
+          "mse": 0.042969087977225366
+        },
+        {
+          "rat_donor": "THAP",
+          "correct_identity": false,
+          "mse": 0.047177931402908706
+        }
+      ],
+      "correct_mse": 0.042969087977225366,
+      "wrong_loss_average": 0.04486333238065261,
+      "correct_mse_lower_than_both_wrong": false,
+      "correct_mse_lower_than_wrong_average": true,
+      "wrong_average_minus_correct": 0.0018942444034272463,
+      "zero_mse": 0.04561753803577269,
+      "frozen_human_history_mse": 0.050245137925496564
+    },
+    {
+      "human_query": "THAP",
+      "correct_donor": "THAP",
+      "all_donors": [
+        {
+          "rat_donor": "CDDO",
+          "correct_identity": false,
+          "mse": 0.2120406259432172
+        },
+        {
+          "rat_donor": "KI696",
+          "correct_identity": false,
+          "mse": 0.21470651676619884
+        },
+        {
+          "rat_donor": "THAP",
+          "correct_identity": true,
+          "mse": 0.19423813721749073
+        }
+      ],
+      "correct_mse": 0.19423813721749073,
+      "wrong_loss_average": 0.21337357135470802,
+      "correct_mse_lower_than_both_wrong": true,
+      "correct_mse_lower_than_wrong_average": true,
+      "wrong_average_minus_correct": 0.0191354341372173,
+      "zero_mse": 0.2114431170986706,
+      "frozen_human_history_mse": 0.19711267075930006
+    }
+  ],
+  "mse_query_by_donor": [
+    [
+      0.02987622074236603,
+      0.03005093783752231,
+      0.032747755056635144
+    ],
+    [
+      0.04254873335839652,
+      0.042969087977225366,
+      0.047177931402908706
+    ],
+    [
+      0.2120406259432172,
+      0.21470651676619884,
+      0.19423813721749073
+    ]
+  ],
+  "macro_correct_mse": 0.0890278153123607,
+  "macro_wrong_loss_average": 0.0965454167274798,
+  "task_metadata_as_saved": [
+    {
+      "study": "GSE330151",
+      "perturbation_code": "CDDO",
+      "sides": {
+        "human": {
+          "source_id": "GSE330151|human|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|human|CDDO",
+          "time_h": 24.0,
+          "dose_value": 100.0,
+          "dose_unit": "nM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719632",
+            "GSM9719633",
+            "GSM9719634"
+          ],
+          "control_sample_ids": [
+            "GSM9719617",
+            "GSM9719618",
+            "GSM9719619"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            0,
+            1,
+            2
+          ],
+          "control_arm_rows": [
+            6,
+            7,
+            8
+          ]
+        },
+        "rat": {
+          "source_id": "GSE330151|rat|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|rat|CDDO",
+          "time_h": 24.0,
+          "dose_value": 100.0,
+          "dose_unit": "nM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719638",
+            "GSM9719639",
+            "GSM9719640"
+          ],
+          "control_sample_ids": [
+            "GSM9719623",
+            "GSM9719624",
+            "GSM9719625"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 100 nM bardoxolone (CDDO-Me), 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            36,
+            37,
+            38
+          ],
+          "control_arm_rows": [
+            42,
+            43,
+            44
+          ]
+        }
+      },
+      "chemical_identity": "bardoxolone methyl (CDDO-Me)",
+      "avoid": "CDDO free acid is not interchangeable",
+      "time_h": 24,
+      "rat_M": 1e-07,
+      "human_M": 1e-07,
+      "rat_dose_below_train_minimum": true,
+      "nominal_dose_category": "unavailable_in_external_design",
+      "sample_conditions_status": "explicit_GEO_treatment_and_control_metadata",
+      "model_admission_status": "conditional_on_chemical_features_gene_bridge_and_portable_context_freeze"
+    },
+    {
+      "study": "GSE330151",
+      "perturbation_code": "KI696",
+      "sides": {
+        "human": {
+          "source_id": "GSE330151|human|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|human|KI696",
+          "time_h": 24.0,
+          "dose_value": 10.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719692",
+            "GSM9719693",
+            "GSM9719694"
+          ],
+          "control_sample_ids": [
+            "GSM9719677",
+            "GSM9719678",
+            "GSM9719679"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            15,
+            16,
+            17
+          ],
+          "control_arm_rows": [
+            12,
+            13,
+            14
+          ]
+        },
+        "rat": {
+          "source_id": "GSE330151|rat|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|rat|KI696",
+          "time_h": 24.0,
+          "dose_value": 10.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719698",
+            "GSM9719699",
+            "GSM9719700"
+          ],
+          "control_sample_ids": [
+            "GSM9719683",
+            "GSM9719684",
+            "GSM9719685"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 10 uM Ki696, 0.5% (v/v) DMSO, 24 h incubation",
+          "treated_arm_rows": [
+            51,
+            52,
+            53
+          ],
+          "control_arm_rows": [
+            48,
+            49,
+            50
+          ]
+        }
+      },
+      "chemical_identity": "KI696",
+      "time_h": 24,
+      "rat_M": 1e-05,
+      "human_M": 1e-05,
+      "nominal_dose_category": "unavailable_in_external_design",
+      "sample_conditions_status": "explicit_GEO_treatment_and_control_metadata",
+      "model_admission_status": "conditional_on_chemical_features_gene_bridge_and_portable_context_freeze"
+    },
+    {
+      "study": "GSE330151",
+      "perturbation_code": "THAP",
+      "sides": {
+        "human": {
+          "source_id": "GSE330151|human|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|human|THAP",
+          "time_h": 8.0,
+          "dose_value": 1.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719662",
+            "GSM9719663",
+            "GSM9719664"
+          ],
+          "control_sample_ids": [
+            "GSM9719647",
+            "GSM9719648",
+            "GSM9719649"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+          "treated_arm_rows": [
+            9,
+            10,
+            11
+          ],
+          "control_arm_rows": [
+            3,
+            4,
+            5
+          ]
+        },
+        "rat": {
+          "source_id": "GSE330151|rat|primary_hepatocyte",
+          "cell_model": "primary_hepatocyte",
+          "contrast_id": "GSE330151|rat|THAP",
+          "time_h": 8.0,
+          "dose_value": 1.0,
+          "dose_unit": "uM",
+          "units": "log2(CPM+1)",
+          "count_units": "Salmon/tximport fractional estimated counts",
+          "biological_id": null,
+          "independent_unit_status": "labelled_replicate_donor_unverified",
+          "source_lot": null,
+          "source_sex": null,
+          "measurement_resampling_eligible": null,
+          "treated_sample_ids": [
+            "GSM9719668",
+            "GSM9719669",
+            "GSM9719670"
+          ],
+          "control_sample_ids": [
+            "GSM9719653",
+            "GSM9719654",
+            "GSM9719655"
+          ],
+          "treated_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "control_replicate_labels": [
+            "1",
+            "2",
+            "3"
+          ],
+          "treatment_text": "treatment: 1 uM thapsigargin, 0.5% (v/v) DMSO, 8 h incubation",
+          "treated_arm_rows": [
+            45,
+            46,
+            47
+          ],
+          "control_arm_rows": [
+            39,
+            40,
+            41
+          ]
+        }
+      },
+      "chemical_identity": "thapsigargin",
+      "time_h": 8,
+      "rat_M": 1e-06,
+      "human_M": 1e-06,
+      "nominal_dose_category": "unavailable_in_external_design",
+      "sample_conditions_status": "explicit_GEO_treatment_and_control_metadata",
+      "model_admission_status": "conditional_on_chemical_features_gene_bridge_and_portable_context_freeze"
+    }
+  ],
+  "aggregation": "Score each wrong donor separately for the same human query, then average its two losses. No averaging of wrong prediction vectors.",
+  "limitations": [
+    "Wrong-source changes drug, concentration and sometimes time; cannot isolate identity effects at fixed exposure.",
+    "Only three related stress tasks; two NRF2 activators share pathway background. No task-population p-value or confidence interval.",
+    "This posthoc diagnostic cannot select a better donor or beta, replace the original six-rule result, or establish a new deployment gain.",
+    "TG-RMA and external logCPM remain different processed measurement versions."
+  ],
+  "validation": {
+    "independent_formula_and_frozen_score_checks": 25,
+    "max_abs_difference": 2.7755575615628914e-17,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  "provenance": {
+    "protocol_sha256": "10a9063faf650904c4bfd839f91e1172bac02b74d3fdfe711ccb74ceada80bba",
+    "script_sha256": "1343e1a6d0f3b07547ee56804d1a931981225060b8eb012b9357c61aeb9d8ee6",
+    "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
+    "original_run_files_sha256": {
+      "report.json": "8f8000284331354df3b5536a7d5c32af4ce268eefe01e0883f2469221d16cef6",
+      "fit_manifest.json": "efe4727d21552f8d685bab53b9a488abb6c817f9c48bfa3e9081c631bc1165cc",
+      "final_fit.npz": "2e559152024f7d04735415ecb67af25ce0406dcc074a2695b5f94120bf23d1ca",
+      "external_predictions.npz": "bc1c93c0d5338036505dd184b7abf47c5e39ba5b517ea9183862d41e26bb6b2c"
+    },
+    "train_npz_sha256": "94942d2b046ba2048032c557aad5573f034f499d42ebea9177b180ba3095a12a",
+    "external_inputs_sha256": "87a05f5fdde847463b1eff2fde39be3d4737cb35fcff17b88211d22e3967a67c",
+    "external_truth_sha256": "eea375e65d72aa953331a547e1e294d823ca4e4657b44e49cd2e01087a78cb41",
+    "output_npz_sha256": "4539d335a954eddbb96ece9e6f77445939e1f20025d536f212e3d0f17458f179"
+  },
+  "runtime": {
+    "device": "remote_CPU",
+    "wall_seconds": 2.570963092148304
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "conceptual application and actual method diagrams",
+  "empirical_data_points": 0,
+  "schematic_tile_grids": "Regular color strips represent data objects; no measured values or fabricated result pattern.",
+  "fixed_method_parameters": {
+    "outer_compound_folds": 5,
+    "inner_compound_folds": 3,
+    "prior_kernel_weight": 0.5,
+    "animal_kernel_weight": 0.5
+  },
+  "future_source_selection": "Fig1 dashed branch with conceptual A/B/C labels; unvalidated recommendation",
+  "new_wet_laboratory_results_claimed": false,
+  "actual_model": "Chemical/exposure plus rat-response kernel ridge, not an animal-conditioned State model",
+  "sources_sha256": {
+    "docs/multisource_20261108/crossspecies_direct_03/PROTOCOL_v1.zh.md": "8b23699e549cb422dcb493a654e26b3acc097d7993fb0d9a3d50421b7095f905",
+    "docs/multisource_20261108/external_transfer_04/PROTOCOL_v1.zh.md": "f8b7206f305c4649e47b9cdcbf06081a98d12659a2dd1142023d20664e0efdec",
+    "scripts/run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
+    "src/cross_species/source_pairing_controls.py": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac"
+  }
+}

@@ -1,0 +1,1795 @@
+{
+  "scope": {
+    "task": "Conditional-on-author-filtered-public-cohort held-out-human-line model comparison for known POU5F1 CRISPRi",
+    "estimand": "Additional measured cells from an existing training human line versus the same number of cells from one specified cynomolgus line, evaluated on the completely held-out other human line.",
+    "human_biological_units": 2,
+    "extra_human_interpretation": "Additional disjoint cells from the SAME training line, not additional donors or cell lines.",
+    "source_species_count": 1,
+    "source_line_count": 2,
+    "source_comparison": "Both monkey lines are predefined separate source arms, each using one line. No selection of the better source after outcomes.",
+    "upstream_eligibility_limitation": {
+      "author_NTC_guide_filter_uses_both_human_lines": true,
+      "evidence_status": "Highly supported indirect export evidence: public GEO NTCguide ID sets exactly match author final RNA-effect-filtered controlguide lists, and author QCstep4 jointly uses both human lines; a direct GEOexport script trace was not recovered.",
+      "consequence": "The public cell cohort can reflect held-out-line RNA in upstream control-guide eligibility. This benchmark is conditional on that published cohort; no full-pipeline target-RNA-blind or fully prospective end-to-end QC claim.",
+      "our_guarantee": "Our downstream fitting, hyperparameter/checkpoint selection and source scale estimation exclude that fold held-out human line outcomes. Held-out NTC cells are available as query baselines; POU5F1 target cells are read for model scoring only after every prediction freezes.",
+      "new_expression_or_guide_effect_filtering": false
+    },
+    "limitations": [
+      "Two human cell lines provide two biological target units. Three samplingseeds, eight GEMchannels, guides and cells do not increase biologicalN.",
+      "One known gene perturbation; no unseen-perturbation claim.",
+      "One experiment/chip exp2, multiple technical capturechannels; no new-screen generalization claim.",
+      "Original human HepG2 checkpoint preprocessing is incompletely recovered; this is an explicit new-assay contrast adaptation.",
+      "Native6546gene axis lacksPOU5F1; only downstream expression response is predicted.",
+      "Species-specific gRNA sequences and guide efficacy may differ. All published eligible guides are retained without selecting by RNAresponse.",
+      "Source cell budget matches extra-human measured-cell budget. Extra-human remains one existing human line, while monkey is another species/line; biological-information and monetary-cost equality are not asserted."
+    ],
+    "prior_evidence": "Retain negative rabbit/Lawlor results, old mouse/Parse/TG null-failing evidence, and exploratory G105 outputs without replacing them."
+  },
+  "biological_target_N": 2,
+  "sampling_seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "aggregation": "scoreeachseed; average3seeds WITHINeachhumanline; average2line means; source56/82 remainseparate",
+  "seed_predictions_ensembled_before_scoring": false,
+  "variants": {
+    "H": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.002482588394111735,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2576938161478897,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7015374498603834,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6964524954296788,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.0034241078885708168,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12250635297175605,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.10442515711744382,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "63Ab2.2-02",
+          "variant": "H",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.002190112914941695,
+          "seed_mse_max": 0.0027797861914192717,
+          "seed_mse_sd_descriptive": 0.00029486500040593825
+        },
+        {
+          "mean_response_mse": 0.004457797332056541,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4836921077364688,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6236362087151528,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6235550994337221,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.0054094617470427965,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.11317668134559733,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.125955122463608,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "29B5-39s",
+          "variant": "H",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.004429825771422909,
+          "seed_mse_max": 0.004511477459474782,
+          "seed_mse_sd_descriptive": 4.6502121941037965e-05
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0034701928630841376,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.37069296194217927,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6625868292877681,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6600037974317005,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": 0.004416784817806807,
+        "unclamped_contrast_mse_defined_count": 2,
+        "clamped_coordinate_fraction": 0.11784151715867669,
+        "clamped_coordinate_fraction_defined_count": 2,
+        "native_control_reconstruction_mse": 0.1151901397905259,
+        "native_control_reconstruction_mse_defined_count": 2
+      },
+      "biological_target_lines": 2
+    },
+    "Half_H_response": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0018641989614890796,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.22171040860068794,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7015374497482226,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6964524952997838,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Half_H_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0017322040197739184,
+          "seed_mse_max": 0.0021012444110374245,
+          "seed_mse_sd_descriptive": 0.00020572897096176742
+        },
+        {
+          "mean_response_mse": 0.00459021560101638,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4976387717005082,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6236362087546367,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6235550994749731,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Half_H_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.004345848961355158,
+          "seed_mse_max": 0.00472791229570883,
+          "seed_mse_sd_descriptive": 0.00021219556011870767
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0032272072812527296,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.35967459015059805,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6625868292514296,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6600037973873785,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Hbase_mean_response": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.003420579695503467,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.38912751729901157,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7231171809031224,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.69908880501647,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Hbase_mean_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.003273084399322808,
+          "seed_mse_max": 0.003654304251236163,
+          "seed_mse_sd_descriptive": 0.0002047162860531121
+        },
+        {
+          "mean_response_mse": 0.003914890587658158,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4771404961380388,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6614418726415014,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6666762741444036,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Hbase_mean_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0038529037247899247,
+          "seed_mse_max": 0.004021306965978913,
+          "seed_mse_sd_descriptive": 9.257645107287565e-05
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0036677351415808123,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.4331340067185252,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6922795267723119,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6828825395804368,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Hextra_cells": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.001969565675604607,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2159135891473151,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7295536104684818,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.7274808991273652,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.002690067937644517,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12834981346935792,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.10350588494901887,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "63Ab2.2-02",
+          "variant": "Hextra_cells",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.00179919523148416,
+          "seed_mse_max": 0.002084461438532563,
+          "seed_mse_sd_descriptive": 0.00015050675204455766
+        },
+        {
+          "mean_response_mse": 0.003897977960950974,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4140226311749184,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.677113250836709,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6804373713102336,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.005040962031260835,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12632785276636183,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.12446161965661495,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "29B5-39s",
+          "variant": "Hextra_cells",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0035842575394369417,
+          "seed_mse_max": 0.0041936497009284115,
+          "seed_mse_sd_descriptive": 0.0003050967351525061
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0029337718182777905,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.31496811016111675,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.7033334306525953,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.7039591352187995,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": 0.003865514984452676,
+        "unclamped_contrast_mse_defined_count": 2,
+        "clamped_coordinate_fraction": 0.12733883311785987,
+        "clamped_coordinate_fraction_defined_count": 2,
+        "native_control_reconstruction_mse": 0.1139837523028169,
+        "native_control_reconstruction_mse_defined_count": 2
+      },
+      "biological_target_lines": 2
+    },
+    "Hextra_cells|cal_shrink": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.001969565675604607,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2159135891473151,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7295536104684818,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.7274808991273652,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Hextra_cells|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.00179919523148416,
+          "seed_mse_max": 0.002084461438532563,
+          "seed_mse_sd_descriptive": 0.00015050675204455766
+        },
+        {
+          "mean_response_mse": 0.0037697644172819855,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.40986275226436913,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6771132507947694,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6804373712727013,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Hextra_cells|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0035074208527604693,
+          "seed_mse_max": 0.00391602664248757,
+          "seed_mse_sd_descriptive": 0.00022769679587702224
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0028696650464432962,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.31288817070584213,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.7033334306316256,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.7039591352000333,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "H|cal_shrink": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0021151981930659803,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2332849830561372,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7015374498530061,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6964524954140812,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "H|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0019060378443118222,
+          "seed_mse_max": 0.0024778660759742386,
+          "seed_mse_sd_descriptive": 0.00031530985381541073
+        },
+        {
+          "mean_response_mse": 0.004247415653448533,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.46802832046807435,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6236362087378101,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6235550994489766,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "H|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.004053651337531145,
+          "seed_mse_max": 0.004370818221966198,
+          "seed_mse_sd_descriptive": 0.00016988757979445322
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0031813069232572567,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.3506566517621058,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6625868292954081,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6600037974315289,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey56": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.00230330228415274,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.23473232174446204,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7125183655696521,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.7069732993525225,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.0033611784315857314,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.14032627530002842,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.09833787033607727,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0020798203237018965,
+          "seed_mse_max": 0.002528147844486236,
+          "seed_mse_sd_descriptive": 0.00022416687093912435
+        },
+        {
+          "mean_response_mse": 0.0038114065554748135,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.3964220532430692,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7008521243484281,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.7035498788191904,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.0053104088170583584,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12910462085929889,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.12448757773759116,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "29B5-39s",
+          "variant": "Monkey56",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.003675892721636247,
+          "seed_mse_max": 0.004027639484582105,
+          "seed_mse_sd_descriptive": 0.0001892567715207925
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0030573544198137766,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.3155771874937656,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.7066852449590402,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.7052615890858565,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": 0.004335793624322045,
+        "unclamped_contrast_mse_defined_count": 2,
+        "clamped_coordinate_fraction": 0.13471544807966365,
+        "clamped_coordinate_fraction_defined_count": 2,
+        "native_control_reconstruction_mse": 0.11141272403683422,
+        "native_control_reconstruction_mse_defined_count": 2
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey56A0": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0022366181633222256,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.24683064402007915,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6085584057893826,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6116678174327098,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.002506974629709052,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12911443516328022,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.10042244080950964,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56A0",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.002065363307582607,
+          "seed_mse_max": 0.002513747695285013,
+          "seed_mse_sd_descriptive": 0.00024221730962678122
+        },
+        {
+          "mean_response_mse": 0.004342105488291663,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.46042100550435333,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6173031295011704,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6215534118200647,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.005067897360231042,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.13452307140995157,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.11408794525749542,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "29B5-39s",
+          "variant": "Monkey56A0",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.00409186258456494,
+          "seed_mse_max": 0.004664810070021253,
+          "seed_mse_sd_descriptive": 0.000293266476701517
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0032893618258069443,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.35362582476221627,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6129307676452764,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6166106146263872,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": 0.003787435994970047,
+        "unclamped_contrast_mse_defined_count": 2,
+        "clamped_coordinate_fraction": 0.1318187532866159,
+        "clamped_coordinate_fraction_defined_count": 2,
+        "native_control_reconstruction_mse": 0.10725519303350253,
+        "native_control_reconstruction_mse_defined_count": 2
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey56A0|cal_shrink": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0022496591748224887,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2504956229222562,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6085584057366668,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6116678173672115,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56A0|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.002065363307582607,
+          "seed_mse_max": 0.002513747695285013,
+          "seed_mse_sd_descriptive": 0.00023460027795176844
+        },
+        {
+          "mean_response_mse": 0.004342105488291663,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.46042100550435333,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6173031295011704,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6215534118200647,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Monkey56A0|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.00409186258456494,
+          "seed_mse_max": 0.004664810070021253,
+          "seed_mse_sd_descriptive": 0.000293266476701517
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.003295882331557076,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.35545831421330476,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6129307676189186,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6166106145936381,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey56|cal_shrink": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0018740858115384885,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.20816704096163838,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7125183655728536,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.7069732993421369,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0017694826984875035,
+          "seed_mse_max": 0.0020798203237018965,
+          "seed_mse_sd_descriptive": 0.00017817976967308732
+        },
+        {
+          "mean_response_mse": 0.0035032896591022447,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.38267331177429753,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7008521243280311,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.703549878800985,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Monkey56|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.003239234703012148,
+          "seed_mse_max": 0.003781222374199135,
+          "seed_mse_sd_descriptive": 0.00027126021285098434
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0026886877353203666,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.29542017636796797,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.7066852449504424,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.705261589071561,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey82": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.002128737968164008,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2267144533562752,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6448030433198076,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.644675230973008,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.002897254371069318,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.13867463794291388,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.10743931014399337,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0020210230871104662,
+          "seed_mse_max": 0.002224967212803288,
+          "seed_mse_sd_descriptive": 0.00010245604659576147
+        },
+        {
+          "mean_response_mse": 0.0041875415455059125,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.43986000118209745,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6421155090236587,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6443294760277164,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.005344872766198789,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12837619448412277,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.12304341715694822,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "29B5-39s",
+          "variant": "Monkey82",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.004001264643011092,
+          "seed_mse_max": 0.004321094423770764,
+          "seed_mse_sd_descriptive": 0.00016630586043025266
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.00315813975683496,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.3332872272691863,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6434592761717332,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6445023535003622,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": 0.004121063568634053,
+        "unclamped_contrast_mse_defined_count": 2,
+        "clamped_coordinate_fraction": 0.13352541621351832,
+        "clamped_coordinate_fraction_defined_count": 2,
+        "native_control_reconstruction_mse": 0.1152413636504708,
+        "native_control_reconstruction_mse_defined_count": 2
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey82A0": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0028730625397936273,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.29075198243710076,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.4226795269786139,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.43605353381009265,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.003475830458496495,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.14701203640989724,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.09681306741120137,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82A0",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.002498739577850453,
+          "seed_mse_max": 0.003185612449025326,
+          "seed_mse_sd_descriptive": 0.0003475780744235379
+        },
+        {
+          "mean_response_mse": 0.0043822693452656184,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.45081297397908554,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6068673993165788,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6132455652836383,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": 0.005322025022050743,
+          "unclamped_contrast_mse_defined_count": 3,
+          "clamped_coordinate_fraction": 0.12723580731786288,
+          "clamped_coordinate_fraction_defined_count": 3,
+          "native_control_reconstruction_mse": 0.12076071701950634,
+          "native_control_reconstruction_mse_defined_count": 3,
+          "target_line": "29B5-39s",
+          "variant": "Monkey82A0",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.004174172721846594,
+          "seed_mse_max": 0.004740178465644533,
+          "seed_mse_sd_descriptive": 0.0003113253341555779
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.003627665942529623,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.3707824782080932,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5147734631475964,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5246495495468655,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": 0.004398927740273619,
+        "unclamped_contrast_mse_defined_count": 2,
+        "clamped_coordinate_fraction": 0.13712392186388006,
+        "clamped_coordinate_fraction_defined_count": 2,
+        "native_control_reconstruction_mse": 0.10878689221535386,
+        "native_control_reconstruction_mse_defined_count": 2
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey82A0|cal_shrink": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.002846891872332254,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2930536503427916,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.4226795270108765,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.4360535338356461,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82A0|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.002420227575466334,
+          "seed_mse_max": 0.003185612449025326,
+          "seed_mse_sd_descriptive": 0.0003901974815482653
+        },
+        {
+          "mean_response_mse": 0.004325713888991987,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.45158822487615424,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6068673993689736,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6132455653343563,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Monkey82A0|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0040045063530257,
+          "seed_mse_max": 0.004740178465644533,
+          "seed_mse_sd_descriptive": 0.000376597956778091
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0035863028806621205,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.37232093760947294,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.514773463189925,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5246495495850012,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Monkey82|cal_shrink": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.002128737968164008,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.2267144533562752,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6448030433198076,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.644675230973008,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0020210230871104662,
+          "seed_mse_max": 0.002224967212803288,
+          "seed_mse_sd_descriptive": 0.00010245604659576147
+        },
+        {
+          "mean_response_mse": 0.004071276238977443,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4370365720300171,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6421155091032227,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6443294761083554,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Monkey82|cal_shrink",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.00393282525073937,
+          "seed_mse_max": 0.004240265569735881,
+          "seed_mse_sd_descriptive": 0.00015597862100008266
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.003100007103570726,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.33187551269314614,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6434592762115152,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6445023535406817,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Three_quarter_H_response": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0018935848766941244,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.21867494831195225,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.7015374498082846,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6964524953665402,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Three_quarter_H_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.0018130261268586708,
+          "seed_mse_max": 0.0019616906589118802,
+          "seed_mse_sd_descriptive": 7.511053903757783e-05
+        },
+        {
+          "mean_response_mse": 0.004247415653448533,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.46802832046807435,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6236362087378101,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6235550994489766,
+          "response_cosine_defined_count": 3,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Three_quarter_H_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.004053651337531145,
+          "seed_mse_max": 0.004370818221966198,
+          "seed_mse_sd_descriptive": 0.00016988757979445322
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.003070500265071329,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.3433516343900133,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6625868292730474,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6600037974077584,
+        "response_cosine_defined_count": 2,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    },
+    "Zero_response": {
+      "per_line": [
+        {
+          "mean_response_mse": 0.0034842799367057592,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.34718844402020466,
+          "native_energy_defined_count": 3,
+          "response_pearson": null,
+          "response_pearson_defined_count": 0,
+          "response_cosine": null,
+          "response_cosine_defined_count": 0,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "63Ab2.2-02",
+          "variant": "Zero_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.003484279936705759,
+          "seed_mse_max": 0.003484279936705759,
+          "seed_mse_sd_descriptive": 5.311484201212962e-19
+        },
+        {
+          "mean_response_mse": 0.006935360374646216,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.6886717617883562,
+          "native_energy_defined_count": 3,
+          "response_pearson": null,
+          "response_pearson_defined_count": 0,
+          "response_cosine": null,
+          "response_cosine_defined_count": 0,
+          "unclamped_contrast_mse": null,
+          "unclamped_contrast_mse_defined_count": 0,
+          "clamped_coordinate_fraction": null,
+          "clamped_coordinate_fraction_defined_count": 0,
+          "native_control_reconstruction_mse": null,
+          "native_control_reconstruction_mse_defined_count": 0,
+          "target_line": "29B5-39s",
+          "variant": "Zero_response",
+          "sampling_seed_count": 3,
+          "seed_mse_min": 0.006935360374646216,
+          "seed_mse_max": 0.006935360374646216,
+          "seed_mse_sd_descriptive": 0.0
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.005209820155675987,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.5179301029042804,
+        "native_energy_defined_count": 2,
+        "response_pearson": null,
+        "response_pearson_defined_count": 0,
+        "response_cosine": null,
+        "response_cosine_defined_count": 0,
+        "unclamped_contrast_mse": null,
+        "unclamped_contrast_mse_defined_count": 0,
+        "clamped_coordinate_fraction": null,
+        "clamped_coordinate_fraction_defined_count": 0,
+        "native_control_reconstruction_mse": null,
+        "native_control_reconstruction_mse_defined_count": 0
+      },
+      "biological_target_lines": 2
+    }
+  },
+  "paired_comparisons": {
+    "extra_human_gain": {
+      "left": "H",
+      "right": "Hextra_cells",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0005130227185071282,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0003934046374416758,
+            0.0007547458346221737,
+            0.0003909176834575351
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.000559819371105566,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0005137991289353395,
+            0.00023843906434351837,
+            0.0009272199200378401
+          ]
+        }
+      ],
+      "macro_difference": 0.000536421044806347,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.0034701928630841376,
+      "percent_of_comparator": 15.457960579447514
+    },
+    "Monkey56:gain_over_H": {
+      "left": "H",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0001792861099589952,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -5.0281768511997206e-05,
+            0.0004778475071491842,
+            0.00011029259123979855
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0006463907765817266,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00040218628684080427,
+            0.0007014013050658406,
+            0.000835584737838535
+          ]
+        }
+      ],
+      "macro_difference": 0.0004128384432703609,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.0034701928630841376,
+      "percent_of_comparator": 11.896700257271878
+    },
+    "Monkey56:gain_over_extra_human": {
+      "left": "Hextra_cells",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.000333736608548133,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -0.000443686405953673,
+            -0.0002768983274729895,
+            -0.00028062509221773654
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 8.657140547616059e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00011161284209453524,
+            0.0004629622407223222,
+            -9.163518219930519e-05
+          ]
+        }
+      ],
+      "macro_difference": -0.0001235826015359862,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0029337718182777905,
+      "percent_of_comparator": -4.212413547844794
+    },
+    "Monkey56:gain_over_A0": {
+      "left": "Monkey56A0",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -6.668412083051444e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.0004627845369036287,
+            -0.0001711951971710311,
+            0.00043392737158311646
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.000530698932816849,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00024200432570669044,
+            0.0009341226098151635,
+            0.0004159698629286929
+          ]
+        }
+      ],
+      "macro_difference": 0.00023200740599316726,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0032893618258069443,
+      "percent_of_comparator": 7.053264988148616
+    },
+    "Monkey56:gain_over_Hcal_shrink": {
+      "left": "H|cal_shrink",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00018810409108675958,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -5.0281768511997206e-05,
+            -0.0003959008399582653,
+            -0.00011812966479001624
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00043600909797372034,
+          "positive_seeds": 3,
+          "seed_differences": [
+            2.6011852949039786e-05,
+            0.0005870899406421699,
+            0.0006949255003299514
+          ]
+        }
+      ],
+      "macro_difference": 0.00012395250344348038,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0031813069232572567,
+      "percent_of_comparator": 3.89627616679527
+    },
+    "Monkey56:gain_over_zero": {
+      "left": "Zero_response",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.001180977652553019,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.000956132092219523,
+            0.0011823412524356713,
+            0.0014044596130038623
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0031239538191714018,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.002907720890064111,
+            0.0032046729144401265,
+            0.003259467653009969
+          ]
+        }
+      ],
+      "macro_difference": 0.0021524657358622102,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.005209820155675987,
+      "percent_of_comparator": 41.31554778368203
+    },
+    "Monkey56:gain_over_Hbase_mean": {
+      "left": "Hbase_mean_response",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0011172774113507266,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0008062025914651926,
+            0.0009711457150527207,
+            0.0015744839275342666
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00010348403218334414,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00015717841237646892,
+            0.00029061950577282357,
+            0.00017701100315367776
+          ]
+        }
+      ],
+      "macro_difference": 0.0006103807217670353,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.0036677351415808123,
+      "percent_of_comparator": 16.641897470926928
+    },
+    "Monkey56:gain_over_halfH": {
+      "left": "Half_H_response",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00043910332266366026,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.0007689993908303397,
+            -0.0005697346644961692,
+            2.1424087335528055e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0007788090455415664,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0003182094767730532,
+            0.0009661980857790632,
+            0.0010520195740725828
+          ]
+        }
+      ],
+      "macro_difference": 0.00016985286143895306,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0032272072812527296,
+      "percent_of_comparator": 5.263153142522039
+    },
+    "Monkey56:gain_over_threequarterH": {
+      "left": "Three_quarter_H_response",
+      "right": "Monkey56",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.0004097174074586155,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -0.000715121717627565,
+            -0.0003959008399582653,
+            -0.00011812966479001624
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00043600909797372034,
+          "positive_seeds": 3,
+          "seed_differences": [
+            2.6011852949039786e-05,
+            0.0005870899406421699,
+            0.0006949255003299514
+          ]
+        }
+      ],
+      "macro_difference": 1.3145845257552424e-05,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.003070500265071329,
+      "percent_of_comparator": 0.4281336630090485
+    },
+    "Monkey56:shrunk_gain_over_H": {
+      "left": "H|cal_shrink",
+      "right": "Monkey56|cal_shrink",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00024111238152749203,
+          "positive_seeds": 2,
+          "seed_differences": [
+            0.0007083833774867352,
+            0.00013308343188575718,
+            -0.00011812966479001624
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0007441259943462892,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00027242896333200955,
+            0.0008283655007528079,
+            0.0011315835189540501
+          ]
+        }
+      ],
+      "macro_difference": 0.0004926191879368906,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.0031813069232572567,
+      "percent_of_comparator": 15.484805453241549
+    },
+    "Monkey56:shrunk_gain_over_A0": {
+      "left": "Monkey56A0|cal_shrink",
+      "right": "Monkey56|cal_shrink",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0003755733632840004,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00029588060909510367,
+            0.00039691210917378104,
+            0.00043392737158311646
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0008388158291894178,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0004884214360896602,
+            0.0011753981699258015,
+            0.0008526278815527916
+          ]
+        }
+      ],
+      "macro_difference": 0.0006071945962367091,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.003295882331557076,
+      "percent_of_comparator": 18.4228238497171
+    },
+    "Monkey82:gain_over_H": {
+      "left": "H",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00035385042594772675,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0002528988631709506,
+            0.0006395625868410009,
+            0.00016908982783122879
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0002702557865506278,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00018956020168702827,
+            0.00043082412226083753,
+            0.00019038303570401757
+          ]
+        }
+      ],
+      "macro_difference": 0.0003120531062491773,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.0034701928630841376,
+      "percent_of_comparator": 8.992385108297404
+    },
+    "Monkey82:gain_over_extra_human": {
+      "left": "Hextra_cells",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00015917229255940144,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -0.0001405057742707252,
+            -0.00011518324778117279,
+            -0.0002218278556263063
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": -0.0002895635845549382,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00032423892724831125,
+            0.00019238505791731916,
+            -0.0007368368843338226
+          ]
+        }
+      ],
+      "macro_difference": -0.0002243679385571698,
+      "positive_target_lines": 0,
+      "comparator_macro_mse": 0.0029337718182777905,
+      "percent_of_comparator": -7.647763781740882
+    },
+    "Monkey82:gain_over_A0": {
+      "left": "Monkey82A0",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.000744324571629619,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.000960645236222038,
+            0.00035851597327218225,
+            0.0009138125053946367
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00019472779975970595,
+          "positive_seeds": 2,
+          "seed_differences": [
+            0.0004999128959086519,
+            0.00023119220529463618,
+            -0.0001469217019241702
+          ]
+        }
+      ],
+      "macro_difference": 0.00046952618569466245,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.003627665942529623,
+      "percent_of_comparator": 12.942927853143368
+    },
+    "Monkey82:gain_over_Hcal_shrink": {
+      "left": "H|cal_shrink",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -1.353977509802799e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            0.0002528988631709506,
+            -0.00023418576026644857,
+            -5.933242819858601e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 5.9874107942621546e-05,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00018661423220473622,
+            0.00031651275783716685,
+            4.972379819543401e-05
+          ]
+        }
+      ],
+      "macro_difference": 2.3167166422296778e-05,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0031813069232572567,
+      "percent_of_comparator": 0.7282279572879602
+    },
+    "Monkey82:gain_over_zero": {
+      "left": "Zero_response",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0013555419685417503,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0012593127239024708,
+            0.001344056332127488,
+            0.0014632568495952926
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.002747818829140303,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.002695094804910335,
+            0.0029340957316351234,
+            0.0026142659508754515
+          ]
+        }
+      ],
+      "macro_difference": 0.0020516803988410263,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.005209820155675987,
+      "percent_of_comparator": 39.381021561862646
+    },
+    "Monkey82:gain_over_Hbase_mean": {
+      "left": "Hbase_mean_response",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0012918417273394581,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0011093832231481404,
+            0.0011328607947445374,
+            0.0016332811641256969
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": -0.00027265095784775466,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.0003698044975302449,
+            2.004232296782052e-05,
+            -0.00046819069898083963
+          ]
+        }
+      ],
+      "macro_difference": 0.0005095953847458518,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0036677351415808123,
+      "percent_of_comparator": 13.89400720266332
+    },
+    "Monkey82:gain_over_halfH": {
+      "left": "Half_H_response",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00026453900667492867,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00046581875914739187,
+            -0.00040801958480435243,
+            8.022132392695829e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0004026740555104676,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00010558339161927718,
+            0.0006956209029740602,
+            0.00040681787193806544
+          ]
+        }
+      ],
+      "macro_difference": 6.906752441776946e-05,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0032272072812527296,
+      "percent_of_comparator": 2.1401638754037204
+    },
+    "Monkey82:gain_over_threequarterH": {
+      "left": "Three_quarter_H_response",
+      "right": "Monkey82",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00023515309146988393,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -0.0004119410859446172,
+            -0.00023418576026644857,
+            -5.933242819858601e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 5.9874107942621546e-05,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00018661423220473622,
+            0.00031651275783716685,
+            4.972379819543401e-05
+          ]
+        }
+      ],
+      "macro_difference": -8.763949176363119e-05,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.003070500265071329,
+      "percent_of_comparator": -2.85424146548951
+    },
+    "Monkey82:shrunk_gain_over_H": {
+      "left": "H|cal_shrink",
+      "right": "Monkey82|cal_shrink",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -1.353977509802799e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            0.0002528988631709506,
+            -0.00023418576026644857,
+            -5.933242819858601e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00017613941447109133,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00018661423220473622,
+            0.0003849521501088889,
+            0.00033008032550912135
+          ]
+        }
+      ],
+      "macro_difference": 8.129981968653167e-05,
+      "positive_target_lines": 1,
+      "comparator_macro_mse": 0.0031813069232572567,
+      "percent_of_comparator": 2.555547818796777
+    },
+    "Monkey82:shrunk_gain_over_A0": {
+      "left": "Monkey82A0|cal_shrink",
+      "right": "Monkey82|cal_shrink",
+      "definition": "leftMSE minus rightMSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0007181539041682459,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.000960645236222038,
+            0.0002800039708880631,
+            0.0009138125053946367
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0002544376500145445,
+          "positive_seeds": 2,
+          "seed_differences": [
+            0.0004999128959086519,
+            0.00029963159756635823,
+            -3.623154343137657e-05
+          ]
+        }
+      ],
+      "macro_difference": 0.0004862957770913952,
+      "positive_target_lines": 2,
+      "comparator_macro_mse": 0.0035863028806621205,
+      "percent_of_comparator": 13.559807781812701
+    }
+  },
+  "source_results_in_fixed_order": {
+    "Monkey56": {
+      "source_line": "56B1-01s",
+      "descriptive_candidate_checks": {
+        "both_target_lines_improve_over_H": true,
+        "exceeds_own_A0_mean": true,
+        "exceeds_Hcal_shrink_mean": true,
+        "exceeds_halfH_mean": true,
+        "exceeds_threequarterH_mean": true,
+        "all_six_source_fits_selected_nonzero_step": true
+      },
+      "all_checks_pass": true,
+      "shrink_diagnostic_nonzero_in_all_seeds_and_lines": true,
+      "extra_human_gain_denominator": 0.000536421044806347,
+      "fraction_of_positive_extra_human_gain": 0.7696164184225833
+    },
+    "Monkey82": {
+      "source_line": "82A3-05s",
+      "descriptive_candidate_checks": {
+        "both_target_lines_improve_over_H": true,
+        "exceeds_own_A0_mean": true,
+        "exceeds_Hcal_shrink_mean": true,
+        "exceeds_halfH_mean": true,
+        "exceeds_threequarterH_mean": false,
+        "all_six_source_fits_selected_nonzero_step": true
+      },
+      "all_checks_pass": false,
+      "shrink_diagnostic_nonzero_in_all_seeds_and_lines": true,
+      "extra_human_gain_denominator": 0.000536421044806347,
+      "fraction_of_positive_extra_human_gain": 0.581731662600656
+    }
+  },
+  "extra_human_control": {
+    "left": "H",
+    "right": "Hextra_cells",
+    "definition": "leftMSE minus rightMSE; positive favorsright",
+    "per_line": [
+      {
+        "target_line": "63Ab2.2-02",
+        "seed_mean_difference": 0.0005130227185071282,
+        "positive_seeds": 3,
+        "seed_differences": [
+          0.0003934046374416758,
+          0.0007547458346221737,
+          0.0003909176834575351
+        ]
+      },
+      {
+        "target_line": "29B5-39s",
+        "seed_mean_difference": 0.000559819371105566,
+        "positive_seeds": 3,
+        "seed_differences": [
+          0.0005137991289353395,
+          0.00023843906434351837,
+          0.0009272199200378401
+        ]
+      }
+    ],
+    "macro_difference": 0.000536421044806347,
+    "positive_target_lines": 2,
+    "comparator_macro_mse": 0.0034701928630841376,
+    "percent_of_comparator": 15.457960579447514
+  },
+  "inference_limits": "Descriptive N=2line benchmark conditional on author-filteredcohort. Seeds/cells/captures are not additional biologicalN. No pvalues, confirmatory confidenceintervals, bootstrap significance, noninferiority orbest-source selection."
+}

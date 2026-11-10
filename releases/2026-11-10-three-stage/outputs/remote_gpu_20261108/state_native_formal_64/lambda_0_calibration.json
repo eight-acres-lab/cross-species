@@ -1,0 +1,703 @@
+{
+  "macro": {
+    "native_energy": 0.33994303809271914,
+    "energy_u": 0.22079538096687715,
+    "rbf_mmd2_u": 0.008716857624031078,
+    "mean_mse": 0.003243774287208604,
+    "variance_mae": 0.02431442094449368
+  },
+  "by_condition": {
+    "IL-13": {
+      "native_energy": 0.37531042098999023,
+      "energy_u": 0.28828284982474567,
+      "rbf_mmd2_u": 0.011428983958355676,
+      "mean_mse": 0.003743693775807818,
+      "variance_mae": 0.026108715838442247
+    },
+    "LIGHT": {
+      "native_energy": 0.3250514666239421,
+      "energy_u": 0.19442522774513504,
+      "rbf_mmd2_u": 0.007651050178517083,
+      "mean_mse": 0.00302440338418819,
+      "variance_mae": 0.02312737392882506
+    },
+    "HGF": {
+      "native_energy": 0.3322459061940511,
+      "energy_u": 0.19893837583177923,
+      "rbf_mmd2_u": 0.007877854914850399,
+      "mean_mse": 0.0031620949351539216,
+      "variance_mae": 0.02479441153506438
+    },
+    "IFN-alpha1": {
+      "native_energy": 0.30455605189005536,
+      "energy_u": 0.15698908166770945,
+      "rbf_mmd2_u": 0.006158576968313086,
+      "mean_mse": 0.002716029683748881,
+      "variance_mae": 0.022845611597100895
+    },
+    "CD27L": {
+      "native_energy": 0.3468216260274251,
+      "energy_u": 0.2281144463553515,
+      "rbf_mmd2_u": 0.0090284015400293,
+      "mean_mse": 0.0033699116514374814,
+      "variance_mae": 0.025240117373565834
+    },
+    "IL-15": {
+      "native_energy": 0.35567275683085126,
+      "energy_u": 0.25802230437654217,
+      "rbf_mmd2_u": 0.010156278184120923,
+      "mean_mse": 0.0034465122929153344,
+      "variance_mae": 0.023770295393963654
+    }
+  },
+  "by_condition_donor": [
+    {
+      "condition": "IL-13",
+      "donor": "Donor1",
+      "energy_u": 0.20592330281031934,
+      "rbf_mmd2_u": 0.00814053672138404,
+      "mean_mse": 0.003146684728562832,
+      "variance_mae": 0.02418012171983719,
+      "native_energy": 0.33296775817871094
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor10",
+      "energy_u": 0.35768219918601396,
+      "rbf_mmd2_u": 0.014126072403370271,
+      "mean_mse": 0.004144256003201008,
+      "variance_mae": 0.024256141856312752,
+      "native_energy": 0.4058408737182617
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor11",
+      "energy_u": 0.7161240272718938,
+      "rbf_mmd2_u": 0.028457222235203528,
+      "mean_mse": 0.007111791986972094,
+      "variance_mae": 0.03142623230814934,
+      "native_energy": 0.5942611694335938
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor12",
+      "energy_u": 0.3118985091503408,
+      "rbf_mmd2_u": 0.012401790141407076,
+      "mean_mse": 0.004082382656633854,
+      "variance_mae": 0.02875307947397232,
+      "native_energy": 0.39345264434814453
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor2",
+      "energy_u": 0.10914317340589719,
+      "rbf_mmd2_u": 0.0042801427982677165,
+      "mean_mse": 0.0023772981949150562,
+      "variance_mae": 0.021962033584713936,
+      "native_energy": 0.2802448272705078
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor3",
+      "energy_u": 0.297240736593297,
+      "rbf_mmd2_u": 0.011859988156372125,
+      "mean_mse": 0.0038335646968334913,
+      "variance_mae": 0.02524532563984394,
+      "native_energy": 0.3823738098144531
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor4",
+      "energy_u": 0.22128126475176302,
+      "rbf_mmd2_u": 0.008961883534202908,
+      "mean_mse": 0.0030605013016611338,
+      "variance_mae": 0.029434211552143097,
+      "native_energy": 0.3498544692993164
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor5",
+      "energy_u": 0.22136268106478774,
+      "rbf_mmd2_u": 0.008731740486732198,
+      "mean_mse": 0.0032901468221098185,
+      "variance_mae": 0.025481784716248512,
+      "native_energy": 0.3399820327758789
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor6",
+      "energy_u": 0.15859338807856105,
+      "rbf_mmd2_u": 0.0062634960491974034,
+      "mean_mse": 0.0028015512507408857,
+      "variance_mae": 0.024700110778212547,
+      "native_energy": 0.3067436218261719
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor7",
+      "energy_u": 0.28148621323407497,
+      "rbf_mmd2_u": 0.011133579709091235,
+      "mean_mse": 0.003730146447196603,
+      "variance_mae": 0.025931747630238533,
+      "native_energy": 0.37044811248779297
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor8",
+      "energy_u": 0.2897136459564038,
+      "rbf_mmd2_u": 0.011325584747902573,
+      "mean_mse": 0.003478120779618621,
+      "variance_mae": 0.024013733491301537,
+      "native_energy": 0.36626625061035156
+    },
+    {
+      "condition": "IL-13",
+      "donor": "Donor9",
+      "energy_u": 0.2889450563935956,
+      "rbf_mmd2_u": 0.011465770517137042,
+      "mean_mse": 0.003867880441248417,
+      "variance_mae": 0.027920067310333252,
+      "native_energy": 0.3812894821166992
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor1",
+      "energy_u": 0.06730779348438354,
+      "rbf_mmd2_u": 0.002641445056728031,
+      "mean_mse": 0.0021622609347105026,
+      "variance_mae": 0.02300066128373146,
+      "native_energy": 0.26640987396240234
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor10",
+      "energy_u": 0.2492901541977801,
+      "rbf_mmd2_u": 0.009829895788983967,
+      "mean_mse": 0.003344150958582759,
+      "variance_mae": 0.021962778642773628,
+      "native_energy": 0.3474903106689453
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor11",
+      "energy_u": 0.26122702915896845,
+      "rbf_mmd2_u": 0.010330197795656915,
+      "mean_mse": 0.00362614868208766,
+      "variance_mae": 0.02765900269150734,
+      "native_energy": 0.3685884475708008
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor12",
+      "energy_u": 0.23939789101552122,
+      "rbf_mmd2_u": 0.009454605156434814,
+      "mean_mse": 0.0034794420935213566,
+      "variance_mae": 0.02667776122689247,
+      "native_energy": 0.35396862030029297
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor2",
+      "energy_u": 0.17822115017805373,
+      "rbf_mmd2_u": 0.006962419369765271,
+      "mean_mse": 0.002861546352505684,
+      "variance_mae": 0.021669933572411537,
+      "native_energy": 0.3116016387939453
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor3",
+      "energy_u": 0.32867229956014654,
+      "rbf_mmd2_u": 0.012904591487318706,
+      "mean_mse": 0.003967432305216789,
+      "variance_mae": 0.023525672033429146,
+      "native_energy": 0.39005565643310547
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor4",
+      "energy_u": 0.04950165114943417,
+      "rbf_mmd2_u": 0.0019183493790611017,
+      "mean_mse": 0.0019177893409505486,
+      "variance_mae": 0.020605554804205894,
+      "native_energy": 0.24927997589111328
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor5",
+      "energy_u": 0.19346740051056344,
+      "rbf_mmd2_u": 0.007602015245166127,
+      "mean_mse": 0.002908291295170784,
+      "variance_mae": 0.019861014559864998,
+      "native_energy": 0.31899070739746094
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor6",
+      "energy_u": 0.08556237585486492,
+      "rbf_mmd2_u": 0.0033468224333006447,
+      "mean_mse": 0.0022191726602613926,
+      "variance_mae": 0.021127311512827873,
+      "native_energy": 0.26865291595458984
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor7",
+      "energy_u": 0.1781266627626774,
+      "rbf_mmd2_u": 0.007020280732931816,
+      "mean_mse": 0.0028951135464012623,
+      "variance_mae": 0.0226131659001112,
+      "native_energy": 0.3162069320678711
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor8",
+      "energy_u": 0.15432395122443587,
+      "rbf_mmd2_u": 0.006030692476965305,
+      "mean_mse": 0.002641224768012762,
+      "variance_mae": 0.02225802280008793,
+      "native_energy": 0.3023395538330078
+    },
+    {
+      "condition": "LIGHT",
+      "donor": "Donor9",
+      "energy_u": 0.3480043738447911,
+      "rbf_mmd2_u": 0.013771287219892292,
+      "mean_mse": 0.0042702676728367805,
+      "variance_mae": 0.02656760811805725,
+      "native_energy": 0.40703296661376953
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor1",
+      "energy_u": 0.08206472475539606,
+      "rbf_mmd2_u": 0.003238850446242836,
+      "mean_mse": 0.002340443665161729,
+      "variance_mae": 0.02350243367254734,
+      "native_energy": 0.2755928039550781
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor10",
+      "energy_u": 0.06925674052820163,
+      "rbf_mmd2_u": 0.002721651229246058,
+      "mean_mse": 0.0021728218998759985,
+      "variance_mae": 0.022232037037611008,
+      "native_energy": 0.26493263244628906
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor11",
+      "energy_u": 0.19460293883053126,
+      "rbf_mmd2_u": 0.00774937890172378,
+      "mean_mse": 0.003201237879693508,
+      "variance_mae": 0.028692184016108513,
+      "native_energy": 0.3358163833618164
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor12",
+      "energy_u": 0.24222886683970657,
+      "rbf_mmd2_u": 0.009666759964770844,
+      "mean_mse": 0.0036134019028395414,
+      "variance_mae": 0.029073413461446762,
+      "native_energy": 0.36274147033691406
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor2",
+      "energy_u": 0.1624386417759034,
+      "rbf_mmd2_u": 0.006382605266947783,
+      "mean_mse": 0.002776252804324031,
+      "variance_mae": 0.02219090238213539,
+      "native_energy": 0.3055887222290039
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor3",
+      "energy_u": 0.48209060927162994,
+      "rbf_mmd2_u": 0.019121789298475633,
+      "mean_mse": 0.005335929803550243,
+      "variance_mae": 0.02520812675356865,
+      "native_energy": 0.47290897369384766
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor4",
+      "energy_u": 0.057417484519609374,
+      "rbf_mmd2_u": 0.0022508098516902386,
+      "mean_mse": 0.0020702220499515533,
+      "variance_mae": 0.021155234426259995,
+      "native_energy": 0.25662899017333984
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor5",
+      "energy_u": 0.2191701710075158,
+      "rbf_mmd2_u": 0.008678766908917668,
+      "mean_mse": 0.003258840413764119,
+      "variance_mae": 0.02388407476246357,
+      "native_energy": 0.3396320343017578
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor6",
+      "energy_u": 0.13801727032818256,
+      "rbf_mmd2_u": 0.0054402883018511705,
+      "mean_mse": 0.0026908735744655132,
+      "variance_mae": 0.02371000126004219,
+      "native_energy": 0.3025245666503906
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor7",
+      "energy_u": 0.25113984705291514,
+      "rbf_mmd2_u": 0.00995543927383058,
+      "mean_mse": 0.0035710709635168314,
+      "variance_mae": 0.02655171789228916,
+      "native_energy": 0.35851001739501953
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor8",
+      "energy_u": 0.17988456752654614,
+      "rbf_mmd2_u": 0.007048909588601937,
+      "mean_mse": 0.0028899400494992733,
+      "variance_mae": 0.02242361754179001,
+      "native_energy": 0.3188009262084961
+    },
+    {
+      "condition": "HGF",
+      "donor": "Donor9",
+      "energy_u": 0.308948647545213,
+      "rbf_mmd2_u": 0.01227900994590625,
+      "mean_mse": 0.004024104215204716,
+      "variance_mae": 0.028909195214509964,
+      "native_energy": 0.39327335357666016
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor1",
+      "energy_u": 0.10865962114175431,
+      "rbf_mmd2_u": 0.0042623912958319465,
+      "mean_mse": 0.002380389254540205,
+      "variance_mae": 0.02300069108605385,
+      "native_energy": 0.2791862487792969
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor10",
+      "energy_u": 0.17590145582552807,
+      "rbf_mmd2_u": 0.0067463361583588455,
+      "mean_mse": 0.0026780629996210337,
+      "variance_mae": 0.021468352526426315,
+      "native_energy": 0.3075704574584961
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor11",
+      "energy_u": 0.1070409972945523,
+      "rbf_mmd2_u": 0.004266365801290473,
+      "mean_mse": 0.0024765674024820328,
+      "variance_mae": 0.024825409054756165,
+      "native_energy": 0.28794193267822266
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor12",
+      "energy_u": 0.17968759768251807,
+      "rbf_mmd2_u": 0.007153314744124062,
+      "mean_mse": 0.003048758255317807,
+      "variance_mae": 0.029162999242544174,
+      "native_energy": 0.3273954391479492
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor2",
+      "energy_u": 0.2717116493401459,
+      "rbf_mmd2_u": 0.01064850930266581,
+      "mean_mse": 0.003496095072478056,
+      "variance_mae": 0.023274483159184456,
+      "native_energy": 0.3560781478881836
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor3",
+      "energy_u": 0.2820201002270366,
+      "rbf_mmd2_u": 0.011016850253071642,
+      "mean_mse": 0.003480774350464344,
+      "variance_mae": 0.02192123793065548,
+      "native_energy": 0.3611640930175781
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor4",
+      "energy_u": 0.06747546938332505,
+      "rbf_mmd2_u": 0.002640064837051259,
+      "mean_mse": 0.0021260271314531565,
+      "variance_mae": 0.022095350548624992,
+      "native_energy": 0.2609272003173828
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor5",
+      "energy_u": 0.17719459196504594,
+      "rbf_mmd2_u": 0.006945565086025507,
+      "mean_mse": 0.0027897795662283897,
+      "variance_mae": 0.020586902275681496,
+      "native_energy": 0.31139659881591797
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor6",
+      "energy_u": 0.09732479236888203,
+      "rbf_mmd2_u": 0.0038151806358865947,
+      "mean_mse": 0.0022496473975479603,
+      "variance_mae": 0.020265715196728706,
+      "native_energy": 0.2710895538330078
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor7",
+      "energy_u": 0.07396809679163496,
+      "rbf_mmd2_u": 0.00289071243881045,
+      "mean_mse": 0.002117761643603444,
+      "variance_mae": 0.02163497544825077,
+      "native_energy": 0.26166534423828125
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor8",
+      "energy_u": 0.15842940172689168,
+      "rbf_mmd2_u": 0.006231324991508691,
+      "mean_mse": 0.002743614139035344,
+      "variance_mae": 0.021119380369782448,
+      "native_energy": 0.30435943603515625
+    },
+    {
+      "condition": "IFN-alpha1",
+      "donor": "Donor9",
+      "energy_u": 0.1844552062651985,
+      "rbf_mmd2_u": 0.007286308075131753,
+      "mean_mse": 0.003004878992214799,
+      "variance_mae": 0.024791842326521873,
+      "native_energy": 0.3258981704711914
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor1",
+      "energy_u": 0.19547244411297982,
+      "rbf_mmd2_u": 0.007732191287924017,
+      "mean_mse": 0.003149378811940551,
+      "variance_mae": 0.024107415229082108,
+      "native_energy": 0.3310413360595703
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor10",
+      "energy_u": 0.13438063490345442,
+      "rbf_mmd2_u": 0.005303729809635893,
+      "mean_mse": 0.00261775404214859,
+      "variance_mae": 0.023160243406891823,
+      "native_energy": 0.2970924377441406
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor11",
+      "energy_u": 0.194826412954896,
+      "rbf_mmd2_u": 0.007769877180336726,
+      "mean_mse": 0.003196656471118331,
+      "variance_mae": 0.028356168419122696,
+      "native_energy": 0.3381195068359375
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor12",
+      "energy_u": 0.20519475504777596,
+      "rbf_mmd2_u": 0.00814430614839634,
+      "mean_mse": 0.0032999662216752768,
+      "variance_mae": 0.028721222653985023,
+      "native_energy": 0.3420829772949219
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor2",
+      "energy_u": 0.18471143529272993,
+      "rbf_mmd2_u": 0.0072723743509395256,
+      "mean_mse": 0.002994832117110491,
+      "variance_mae": 0.023119941353797913,
+      "native_energy": 0.3180055618286133
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor3",
+      "energy_u": 0.4607847794298241,
+      "rbf_mmd2_u": 0.018185180872420714,
+      "mean_mse": 0.0050397105515003204,
+      "variance_mae": 0.023976830765604973,
+      "native_energy": 0.45806312561035156
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor4",
+      "energy_u": 0.04674686953111795,
+      "rbf_mmd2_u": 0.001821461428840987,
+      "mean_mse": 0.002027306240051985,
+      "variance_mae": 0.02181244269013405,
+      "native_energy": 0.25493526458740234
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor5",
+      "energy_u": 0.18318135181868733,
+      "rbf_mmd2_u": 0.007236573490875919,
+      "mean_mse": 0.0029549540486186743,
+      "variance_mae": 0.02323371171951294,
+      "native_energy": 0.31984806060791016
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor6",
+      "energy_u": 0.08372499355044383,
+      "rbf_mmd2_u": 0.003314648380669638,
+      "mean_mse": 0.0022735390812158585,
+      "variance_mae": 0.023271746933460236,
+      "native_energy": 0.2742500305175781
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor7",
+      "energy_u": 0.28481131696706363,
+      "rbf_mmd2_u": 0.01126773786519819,
+      "mean_mse": 0.003805554937571287,
+      "variance_mae": 0.02692585065960884,
+      "native_energy": 0.3750591278076172
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor8",
+      "energy_u": 0.35999499287633974,
+      "rbf_mmd2_u": 0.014231191399379561,
+      "mean_mse": 0.004254706669598818,
+      "variance_mae": 0.0255756676197052,
+      "native_energy": 0.4089193344116211
+    },
+    {
+      "condition": "CD27L",
+      "donor": "Donor9",
+      "energy_u": 0.40354336977890526,
+      "rbf_mmd2_u": 0.016061546265734084,
+      "mean_mse": 0.004824580624699593,
+      "variance_mae": 0.030620167031884193,
+      "native_energy": 0.4444427490234375
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor1",
+      "energy_u": 0.18859024264946456,
+      "rbf_mmd2_u": 0.007453935291430902,
+      "mean_mse": 0.0029870150610804558,
+      "variance_mae": 0.02214093692600727,
+      "native_energy": 0.32189464569091797
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor10",
+      "energy_u": 0.15207418268020945,
+      "rbf_mmd2_u": 0.00596936646120394,
+      "mean_mse": 0.0026421239599585533,
+      "variance_mae": 0.021179478615522385,
+      "native_energy": 0.2974576950073242
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor11",
+      "energy_u": 0.24089775816765346,
+      "rbf_mmd2_u": 0.009510503245766966,
+      "mean_mse": 0.0034031555987894535,
+      "variance_mae": 0.02400250732898712,
+      "native_energy": 0.34950828552246094
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor12",
+      "energy_u": 0.17718770819104535,
+      "rbf_mmd2_u": 0.006954983061363551,
+      "mean_mse": 0.0029853039886802435,
+      "variance_mae": 0.02581741102039814,
+      "native_energy": 0.3202543258666992
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor2",
+      "energy_u": 0.4599592288091472,
+      "rbf_mmd2_u": 0.018008409284336446,
+      "mean_mse": 0.004643630236387253,
+      "variance_mae": 0.022420944646000862,
+      "native_energy": 0.4486541748046875
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor3",
+      "energy_u": 0.250731936458088,
+      "rbf_mmd2_u": 0.009946271306445542,
+      "mean_mse": 0.003513282397761941,
+      "variance_mae": 0.026946814730763435,
+      "native_energy": 0.3575172424316406
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor4",
+      "energy_u": 0.23644077529439222,
+      "rbf_mmd2_u": 0.009382855771145948,
+      "mean_mse": 0.0033932772930711508,
+      "variance_mae": 0.025204483419656754,
+      "native_energy": 0.3536405563354492
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor5",
+      "energy_u": 0.3977450931119506,
+      "rbf_mmd2_u": 0.01569632989968195,
+      "mean_mse": 0.004463471472263336,
+      "variance_mae": 0.02215983159840107,
+      "native_energy": 0.4220132827758789
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor6",
+      "energy_u": 0.07421418707127714,
+      "rbf_mmd2_u": 0.002890766248973886,
+      "mean_mse": 0.002097983844578266,
+      "variance_mae": 0.02268451638519764,
+      "native_energy": 0.260772705078125
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor7",
+      "energy_u": 0.3796060602689497,
+      "rbf_mmd2_u": 0.015037272347235842,
+      "mean_mse": 0.0043949405662715435,
+      "variance_mae": 0.024896876886487007,
+      "native_energy": 0.41615867614746094
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor8",
+      "energy_u": 0.2591388532629466,
+      "rbf_mmd2_u": 0.00997913010063245,
+      "mean_mse": 0.0031723363790661097,
+      "variance_mae": 0.022901400923728943,
+      "native_energy": 0.3492422103881836
+    },
+    {
+      "condition": "IL-15",
+      "donor": "Donor9",
+      "energy_u": 0.2796816265533817,
+      "rbf_mmd2_u": 0.011045515191233646,
+      "mean_mse": 0.0036616267170757055,
+      "variance_mae": 0.02488834224641323,
+      "native_energy": 0.3709592819213867
+    }
+  ]
+}

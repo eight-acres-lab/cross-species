@@ -1,0 +1,217 @@
+{
+  "arm_samples": 93,
+  "treated_observations": 69,
+  "source_perturbation_context_contrasts": 24,
+  "species": [
+    "human",
+    "rat",
+    "cyno",
+    "dog"
+  ],
+  "independent_perturbations": [
+    "BOS",
+    "CPZ",
+    "FIA"
+  ],
+  "human_anchored_genes_before_missingness": 10316,
+  "fixed_complete_comparison_genes": 9046,
+  "verified_donors": 0,
+  "labelled_biological_source_units": 0,
+  "biological_independence_status": "Each species derives from one reported supplier lot. Assay replicates and exact experiment identities remain distinct from independent donor replication.",
+  "nonempty_source_ids": [
+    "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+    "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+    "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+    "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+  ],
+  "perturbation_source_coverage": {
+    "BOS": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ],
+    "CPZ": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ],
+    "CULTURE_D14": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ],
+    "CULTURE_D4": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ],
+    "CULTURE_D8": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ],
+    "FIA": [
+      "GSE300171|cyno|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|dog|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|human|primary_hepatocyte_PhysioMimix_LC12",
+      "GSE300171|rat|primary_hepatocyte_PhysioMimix_LC12"
+    ]
+  },
+  "per_contrast": [
+    {
+      "contrast_id": "GSE300171|cyno|BOS",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|cyno|CPZ",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|cyno|CULTURE_D14",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|cyno|CULTURE_D4",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|cyno|CULTURE_D8",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|cyno|FIA",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|dog|BOS",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|dog|CPZ",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|dog|CULTURE_D14",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|dog|CULTURE_D4",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|dog|CULTURE_D8",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|dog|FIA",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|human|BOS",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|human|CPZ",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|human|CULTURE_D14",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|human|CULTURE_D4",
+      "treated_replicates": 2,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|human|CULTURE_D8",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|human|FIA",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|rat|BOS",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|rat|CPZ",
+      "treated_replicates": 1,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|rat|CULTURE_D14",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|rat|CULTURE_D4",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|rat|CULTURE_D8",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    },
+    {
+      "contrast_id": "GSE300171|rat|FIA",
+      "treated_replicates": 3,
+      "control_replicates": 3,
+      "complete_fiveway_genes": 9046
+    }
+  ],
+  "culture_state_contrasts": [
+    "CULTURE_D4",
+    "CULTURE_D8",
+    "CULTURE_D14"
+  ],
+  "culture_state_is_independent_drug": false
+}

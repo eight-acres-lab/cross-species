@@ -1,0 +1,141 @@
+{
+  "native_specification_sha256": "b702c3d8eb2d8268e9948a23f9a3076f743613d65ae378bad2d083e9e571e08e",
+  "roles": {
+    "train": [
+      "4-1BBL",
+      "IFN-gamma",
+      "IL-2",
+      "TGF-beta1",
+      "IL-8",
+      "EPO",
+      "ADSF",
+      "IFN-omega",
+      "IL-34",
+      "IL-35",
+      "PRL",
+      "CD30L",
+      "IL-24",
+      "IL-17C",
+      "IFN-lambda1",
+      "IL-33"
+    ],
+    "calib": [
+      "IL-13",
+      "LIGHT",
+      "HGF",
+      "IFN-alpha1",
+      "CD27L",
+      "IL-15"
+    ],
+    "test": [
+      "IL-36-alpha",
+      "IL-11",
+      "TL1A",
+      "IL-4",
+      "IL-16",
+      "IL-3",
+      "IFN-lambda2",
+      "IFN-lambda3"
+    ],
+    "unused": [
+      "BAFF",
+      "C5a",
+      "CT-1",
+      "EGF",
+      "FGF-beta",
+      "FLT3L",
+      "GITRL",
+      "GM-CSF",
+      "IFN-epsilon",
+      "IL-1-alpha",
+      "IL-10",
+      "IL-17A",
+      "IL-17B",
+      "IL-17F",
+      "IL-19",
+      "IL-1Ra",
+      "IL-31",
+      "IL-6",
+      "IL-7",
+      "IL-9",
+      "LIF",
+      "LT-alpha1-beta2",
+      "Noggin",
+      "OSM",
+      "TWEAK",
+      "VEGF"
+    ],
+    "seed": 20261108,
+    "counts": [
+      16,
+      6,
+      8
+    ],
+    "development_forced_into_train": [
+      "4-1BBL",
+      "IFN-gamma",
+      "IL-2",
+      "TGF-beta1"
+    ]
+  },
+  "donors": [
+    "Donor1",
+    "Donor10",
+    "Donor11",
+    "Donor12",
+    "Donor2",
+    "Donor3",
+    "Donor4",
+    "Donor5",
+    "Donor6",
+    "Donor7",
+    "Donor8",
+    "Donor9"
+  ],
+  "cell_count": 64,
+  "updates_per_arm": 200,
+  "seed": 20261108,
+  "sigma": 0.05,
+  "last_official_blocks_trainable": 2,
+  "candidate_beta_kl_per_dimension": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "rollouts_per_update_and_evaluation": 4,
+  "estimators": [
+    "pathwise",
+    "reinforce"
+  ],
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 1e-05,
+    "weight_decay": 0.0005,
+    "clip_norm": 10.0
+  },
+  "policy": "Z_population ~ independent Normal(mu_official_predecoder, .05); joint action is all N x384 latent entries; only final two official transformer blocks are trainable; original decoder frozen.",
+  "objective": "E[native population energy] + beta * KL(N(mu,.05),N(mu_original,.05))/(N*384)",
+  "reinforce": "Negative reward-weighted joint log-probability sum with detached actions and detached leave-one-rollout-out baseline; no advantage-standardization or clipping; exact likelihood-ratio estimator.",
+  "pathwise": "Same objective, official blocks, four noise draws, target populations, update count and seeds; differentiate energy through reparameterized latents and frozen decoder.",
+  "selection": "Choose beta independently per estimator using only cytokine-macro calibration expected native energy; exact ties prefer smaller beta.",
+  "primary": "Four-rollout expected native population energy, cytokine macro after donor average, same metadata-derived evaluation seeds.",
+  "baseline": "Zero-update original Gaussian policy, same sigma and rollout count, released weights.",
+  "scope": "Human-only known-donor/cell-context technical benchmark; custom stochastic adaptation of State, no claim of native State/NFT/GRPO/PPO reproduction or animal feedback.",
+  "limitations": [
+    "Gaussian latent noise is exploration, not biological variability.",
+    "decode(mu) differs from E[decode(Z)]; deterministic outputs are decoded latent-mean outputs.",
+    "Same rollouts and updates do not imply equal FLOPs; walltime is reported.",
+    "Single optimization seed; eight held-out cytokines with reused donors/controls; intervals conditional.",
+    "Differentiable human-label reward has a direct pathwise supervised comparator; an RL advantage is not presumed."
+  ],
+  "script_sha256": "24ff2e86d68d11fb5807007aa9d0bbd055b7d94a73f51726fde0437a6bdbf5d1",
+  "policy_module_sha256": "9cc540ab757c9ac0928274001f0a4b8ecb92a570c2ba9ee8ccce9d3177c5388e",
+  "inputs": {
+    "checkpoint": "244acf009b4b0e1a87451e8a155ce2bbcaa3d4d1ad25910e9d735ae76877fccb",
+    "cells_npz": "6c56a0bcfe8d393f337f45c3c26c2c091813f5891e37909da591ebe4fdf7ce95",
+    "cells_manifest": "7b31fd1aa54eebdce6ce99e0bbfd1b2235fd1e3ced12da41adcdae344b4966d8",
+    "perturbation_map": "d346acd0d271e5a7a4fbc9d9416dcaabc523577e7e19c406ac3f64fd857c8509",
+    "official_split": "4d1bf0e3bb81ccde0cc6786cc4493998c7d31db51b24557fdb8fa557d540864b"
+  }
+}

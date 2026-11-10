@@ -1,0 +1,1372 @@
+{
+  "scope": {
+    "task": "Exp2-frozen models evaluated without adaptation on the same held-out human line in public exp3, within GSE325993",
+    "exp2_model_outcomes_already_known": true,
+    "exp3_model_outcomes_known_at_freeze": false,
+    "timing": "This additional-screen validation was proposed after reviewing exp2results; preregistration is relative to this exp3prediction/scoring only.",
+    "validation_level": "Newexperimental screen within the same study, using the same two human celllines; not newdonors, not anindependentstudy, notpopulation-levelconfirmation.",
+    "biological_target_N": 2,
+    "model_sampling_repeats": 3,
+    "guide_library_shift": "Exp2TF27 toexp3TF76; humancanonicalPOUguides n2/n4/n5/n6 to n2/n4/n6/n9, plus onebvcell withmacFas6POU_n11. Allsamegene-targetpubliceligiblecells retained. This is screen plusguide-composition transfer.",
+    "upstream_cohort_caveat": {
+      "author_NTC_guide_filter_uses_both_human_lines": true,
+      "evidence_status": "Highly supported indirect export evidence: public GEO NTCguide ID sets exactly match author final RNA-effect-filtered controlguide lists, and author QCstep4 jointly uses both human lines; a direct GEOexport script trace was not recovered.",
+      "consequence": "The public cell cohort can reflect held-out-line RNA in upstream control-guide eligibility. This benchmark is conditional on that published cohort; no full-pipeline target-RNA-blind or fully prospective end-to-end QC claim.",
+      "our_guarantee": "Our downstream fitting, hyperparameter/checkpoint selection and source scale estimation exclude that fold held-out human line outcomes. Held-out NTC cells are available as query baselines; POU5F1 target cells are read for model scoring only after every prediction freezes.",
+      "new_expression_or_guide_effect_filtering": false
+    },
+    "POU5F1_native_output_present": false,
+    "output_scope": "Downstreamresponseon theunchanged6357nativeobservedgene axis.",
+    "historical_evidence": "Preserveallpriornegativeandpositiveexp2/G105/rabbitfindings; exp3results remain separatelynamed and do notoverwriteexp2."
+  },
+  "validation_experiment": "exp3",
+  "exp2_outcomes_were_known": true,
+  "parameter_updates": 0,
+  "biological_target_N": 2,
+  "inherited_seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "aggregation": "scoreeachmodel; average3seedmetricswithin eachhumanline, then2line means; source56/82separate",
+  "variants": {
+    "H": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "H",
+          "mean_response_mse": 0.0048579513932384055,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4908431742967115,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5840298167739264,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5913135838840092,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004650505294950744,
+          "seed_mse_max": 0.0050862538601302
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "H",
+          "mean_response_mse": 0.012087743803551996,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.2351750044917675,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5729728358887928,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5696490577463559,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011095157942623645,
+          "seed_mse_max": 0.012744412884047257
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.0084728475983952,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8630090893942395,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5785013263313596,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5804813208151826,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Half_H_response": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Half_H_response",
+          "mean_response_mse": 0.0048624509231723735,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.512136048994447,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5840298169302729,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5913135840403486,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004692146684596603,
+          "seed_mse_max": 0.005098813438525975
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Half_H_response",
+          "mean_response_mse": 0.01380582188097979,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.415136634483628,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5729728359413345,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5696490577986322,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.012873584904839617,
+          "seed_mse_max": 0.014375903047370455
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.009334136402076082,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.9636363417390374,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5785013264358037,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5804813209194903,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Hbase_mean_response": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Hbase_mean_response",
+          "mean_response_mse": 0.005203377979022314,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.5683331892165052,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6273863807053108,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6217979848934959,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.0051684663150716546,
+          "seed_mse_max": 0.005267291977631616
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Hbase_mean_response",
+          "mean_response_mse": 0.011352091172752042,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.2434749339272149,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6140490044366649,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6171570711952975,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011061068007985774,
+          "seed_mse_max": 0.011688696261169421
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.008277734575887178,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.9059040615718601,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6207176925709879,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6194775280443967,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Hextra_cells": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Hextra_cells",
+          "mean_response_mse": 0.004232382060850401,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.44236245182281425,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6295546963527605,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.63663997895585,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.0041594468812040505,
+          "seed_mse_max": 0.004322806609837432
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Hextra_cells",
+          "mean_response_mse": 0.011061175864776096,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.1149384315866655,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6244530636551687,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6251403990718488,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.010594925253641764,
+          "seed_mse_max": 0.011573192611015628
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.007646778962813248,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.7786504417047398,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6270038800039646,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6308901890138494,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Hextra_cells|cal_shrink": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Hextra_cells|cal_shrink",
+          "mean_response_mse": 0.004232382060850401,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.44236245182281425,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6295546963527605,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.63663997895585,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.0041594468812040505,
+          "seed_mse_max": 0.004322806609837432
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Hextra_cells|cal_shrink",
+          "mean_response_mse": 0.011600227002396582,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.1836515758596562,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6244530635805073,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.625140398997966,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011015409729670892,
+          "seed_mse_max": 0.012279961357951117
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.00791630453162349,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8130070138412352,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.627003879966634,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6308901889769081,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "H|cal_shrink": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "H|cal_shrink",
+          "mean_response_mse": 0.004652345707797652,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4829991213689766,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5840298166874959,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5913135838017456,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004547483162779606,
+          "seed_mse_max": 0.004759048665662603
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "H|cal_shrink",
+          "mean_response_mse": 0.012669966474448076,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.3050671983238498,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5729728358901074,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5696490577412142,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011598569045010994,
+          "seed_mse_max": 0.013343778255747809
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.008661156091122864,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8940331598464132,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5785013262888017,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5804813207714798,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey56": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56",
+          "mean_response_mse": 0.004735405202740034,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4710438582085648,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6019320071575266,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6088205881405244,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004632797421722596,
+          "seed_mse_max": 0.004810372533604231
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey56",
+          "mean_response_mse": 0.010294786507900318,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.0273441682748274,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6571982223274414,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.657327184954865,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.009034933963496935,
+          "seed_mse_max": 0.010999750538288439
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.007515095855320175,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.7491940132416961,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.629565114742484,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6330738865476947,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey56A0": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56A0",
+          "mean_response_mse": 0.005066927764243545,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.5244928705506618,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5557856808610299,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5647559677612789,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004637185487894062,
+          "seed_mse_max": 0.005420210264688939
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey56A0",
+          "mean_response_mse": 0.012963659097042007,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.3212417254626676,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5837555320877518,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.583150115000734,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.012362852451543126,
+          "seed_mse_max": 0.013372967802469913
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.009015293430642776,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.9228672980066648,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5697706064743908,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5739530413810064,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey56A0|cal_shrink": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56A0|cal_shrink",
+          "mean_response_mse": 0.005139514071042053,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.5335303909374977,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5557856808786997,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5647559677791701,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004854944408289587,
+          "seed_mse_max": 0.005420210264688939
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey56A0|cal_shrink",
+          "mean_response_mse": 0.012963659097042007,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.3212417254626676,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5837555320877518,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.583150115000734,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.012362852451543126,
+          "seed_mse_max": 0.013372967802469913
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.00905158658404203,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.9273860582000826,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5697706064832257,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5739530413899521,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey56|cal_shrink": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey56|cal_shrink",
+          "mean_response_mse": 0.0044769245675343175,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.4626981340377796,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6019320072209836,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6088205882022991,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.0043661893144992655,
+          "seed_mse_max": 0.004632797421722596
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey56|cal_shrink",
+          "mean_response_mse": 0.011161099145011876,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.1409439882515595,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.6571982224003662,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.6573271850262622,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.009903776169605064,
+          "seed_mse_max": 0.011839607279339887
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.007819011856273097,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8018210611446696,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.6295651148106749,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.6330738866142807,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey82": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82",
+          "mean_response_mse": 0.00481552426298392,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.48587121122625376,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5573002147926504,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5643131192207046,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004723072677120173,
+          "seed_mse_max": 0.004907725286115678
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey82",
+          "mean_response_mse": 0.011986787002086255,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.2055961932306356,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.596311514815898,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5946918010211784,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011510381649141277,
+          "seed_mse_max": 0.012922939222068377
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.008401155632535087,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8457337022284447,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5768058648042742,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5795024601209415,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey82A0": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82A0",
+          "mean_response_mse": 0.005293896038083806,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.5275933562126459,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.4902889060191818,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5005301035268271,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004860195998649716,
+          "seed_mse_max": 0.005650580981671965
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey82A0",
+          "mean_response_mse": 0.01229924064903,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.2244323186517836,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.572857259047478,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5756822463400345,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011410615291039001,
+          "seed_mse_max": 0.01354791671341971
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.008796568343556903,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8760128374322147,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5315730825333299,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5381061749334308,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey82A0|cal_shrink": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82A0|cal_shrink",
+          "mean_response_mse": 0.0053233595862901655,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.5357124475898848,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.4902889061009707,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5005301036050177,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004948586643268793,
+          "seed_mse_max": 0.005650580981671965
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey82A0|cal_shrink",
+          "mean_response_mse": 0.012552437891573552,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.2611926131804883,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5728572590366751,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5756822463293881,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011939189942631285,
+          "seed_mse_max": 0.01354791671341971
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.00893789873893186,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8984525303851865,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5315730825688229,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5381061749672029,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Monkey82|cal_shrink": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Monkey82|cal_shrink",
+          "mean_response_mse": 0.00481552426298392,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.48587121122625376,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5573002147926504,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5643131192207046,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004723072677120173,
+          "seed_mse_max": 0.004907725286115678
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Monkey82|cal_shrink",
+          "mean_response_mse": 0.012459250829816129,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.2679551833379559,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5963115148403283,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5946918010436181,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.012183071332286103,
+          "seed_mse_max": 0.012922939222068377
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.008637387546400024,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8769131972821048,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.5768058648164893,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5795024601321613,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Three_quarter_H_response": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Three_quarter_H_response",
+          "mean_response_mse": 0.004589597916539016,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.48266226571413995,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5840298166887224,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5913135838020461,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.004462261921174837,
+          "seed_mse_max": 0.004759048665662603
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Three_quarter_H_response",
+          "mean_response_mse": 0.012669966474448076,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.3050671983238498,
+          "native_energy_defined_count": 3,
+          "response_pearson": 0.5729728358901074,
+          "response_pearson_defined_count": 3,
+          "response_cosine": 0.5696490577412142,
+          "response_cosine_defined_count": 3,
+          "seed_mse_min": 0.011598569045010994,
+          "seed_mse_max": 0.013343778255747809
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.008629782195493546,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 0.8938647320189949,
+        "native_energy_defined_count": 2,
+        "response_pearson": 0.578501326289415,
+        "response_pearson_defined_count": 2,
+        "response_cosine": 0.5804813207716302,
+        "response_cosine_defined_count": 2
+      }
+    },
+    "Zero_response": {
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "variant": "Zero_response",
+          "mean_response_mse": 0.007031776397688855,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 0.6776438713677777,
+          "native_energy_defined_count": 3,
+          "response_pearson": null,
+          "response_pearson_defined_count": 0,
+          "response_cosine": null,
+          "response_cosine_defined_count": 0,
+          "seed_mse_min": 0.007031776397688855,
+          "seed_mse_max": 0.007031776397688855
+        },
+        {
+          "target_line": "29B5-39s",
+          "variant": "Zero_response",
+          "mean_response_mse": 0.01773843090684287,
+          "mean_response_mse_defined_count": 3,
+          "native_energy": 1.7451976846620738,
+          "native_energy_defined_count": 3,
+          "response_pearson": null,
+          "response_pearson_defined_count": 0,
+          "response_cosine": null,
+          "response_cosine_defined_count": 0,
+          "seed_mse_min": 0.01773843090684287,
+          "seed_mse_max": 0.01773843090684287
+        }
+      ],
+      "macro": {
+        "mean_response_mse": 0.012385103652265863,
+        "mean_response_mse_defined_count": 2,
+        "native_energy": 1.2114207780149258,
+        "native_energy_defined_count": 2,
+        "response_pearson": null,
+        "response_pearson_defined_count": 0,
+        "response_cosine": null,
+        "response_cosine_defined_count": 0
+      }
+    }
+  },
+  "paired_comparisons": {
+    "extra_human_gain": {
+      "left": "H",
+      "right": "Hextra_cells",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0006255693323880054,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00043561260344102473,
+            0.0007634472502927687,
+            0.0006776481434302229
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0010265679387759026,
+          "positive_seeds": 3,
+          "seed_differences": [
+            7.974821295275367e-05,
+            0.0011712202730316291,
+            0.0018287353303433253
+          ]
+        }
+      ],
+      "macro_difference": 0.000826068635581954,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 9.749598656045881
+    },
+    "Monkey56:gain_over_H": {
+      "left": "H",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00012254619049837257,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00011254035794252843,
+            0.000275881326525969,
+            0.00020429760291167717
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0017929572956516798,
+          "positive_seeds": 3,
+          "seed_differences": [
+            9.540740433520642e-05,
+            0.001894737862131679,
+            0.003388726620488154
+          ]
+        }
+      ],
+      "macro_difference": 0.0009577517430750262,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 11.303776350898003
+    },
+    "Monkey56:gain_over_extra_human": {
+      "left": "Hextra_cells",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.0005030231418896329,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -0.0005481529613835532,
+            -0.00048756592376679973,
+            -0.0004733505405185457
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.000766389356875777,
+          "positive_seeds": 3,
+          "seed_differences": [
+            1.5659191382452753e-05,
+            0.0007235175891000499,
+            0.0015599912901448285
+          ]
+        }
+      ],
+      "macro_difference": 0.00013168310749307207,
+      "positive_target_lines": 1,
+      "percent_of_comparator": 1.7220728902124025
+    },
+    "Monkey56:gain_over_A0": {
+      "left": "Monkey56A0",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0003315225615035111,
+          "positive_seeds": 2,
+          "seed_differences": [
+            0.0003803418872543596,
+            -0.00017318704571016915,
+            0.0007874128429663429
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.002668872589141688,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0013631019132546874,
+            0.0025232927805543346,
+            0.004120223073616043
+          ]
+        }
+      ],
+      "macro_difference": 0.0015001975753225997,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 16.64058509979789
+    },
+    "Monkey56:gain_over_Hcal_shrink": {
+      "left": "H|cal_shrink",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -8.305949494238213e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00011254035794252843,
+            -0.000262889370824625,
+            0.00012625124394000705
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0023751799665477588,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0005988185067225555,
+            0.0024941032338322306,
+            0.004032618159088491
+          ]
+        }
+      ],
+      "macro_difference": 0.0011460602358026883,
+      "positive_target_lines": 1,
+      "percent_of_comparator": 13.232185446667188
+    },
+    "Monkey56:gain_over_zero": {
+      "left": "Zero_response",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0022963711949488216,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.002268730744795583,
+            0.0022214038640846236,
+            0.0023989789759662587
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0074436443989425545,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.006738680368554432,
+            0.006888755884927293,
+            0.008703496943345936
+          ]
+        }
+      ],
+      "macro_difference": 0.004870007796945688,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 39.321494059960635
+    },
+    "Monkey56:gain_over_base_mean": {
+      "left": "Hbase_mean_response",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00046797277628228117,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0004054206621783825,
+            0.00036400311075944145,
+            0.0006344945559090195
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0010573046648517236,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.00030675871081248945,
+            0.000839021239253843,
+            0.0020261340444888386
+          ]
+        }
+      ],
+      "macro_difference": 0.0007626387205670024,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 9.213133298433473
+    },
+    "Monkey56:gain_over_halfH": {
+      "left": "Half_H_response",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00012704572043233976,
+          "positive_seeds": 2,
+          "seed_differences": [
+            3.334699350126917e-05,
+            -0.00011822584900762854,
+            0.00046601601680337865
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.003511035373079474,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0018738343665511779,
+            0.003526228025454877,
+            0.005133043727232367
+          ]
+        }
+      ],
+      "macro_difference": 0.001819040546755907,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 19.48804333254996
+    },
+    "Monkey56:gain_over_threequarterH": {
+      "left": "Three_quarter_H_response",
+      "right": "Monkey56",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00014580728620101758,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00030078373171843475,
+            -0.000262889370824625,
+            0.00012625124394000705
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0023751799665477588,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0005988185067225555,
+            0.0024941032338322306,
+            0.004032618159088491
+          ]
+        }
+      ],
+      "macro_difference": 0.0011146863401733705,
+      "positive_target_lines": 1,
+      "percent_of_comparator": 12.91673781472095
+    },
+    "Monkey56:shrunk_gain_over_H": {
+      "left": "H|cal_shrink",
+      "right": "Monkey56|cal_shrink",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00017542114026333332,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0002843159804514781,
+            0.00011569619639851484,
+            0.00012625124394000705
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0015088673294361993,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00024103823432889207,
+            0.0016038642696571282,
+            0.003163775952980362
+          ]
+        }
+      ],
+      "macro_difference": 0.0008421442348497663,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 9.723231240606676
+    },
+    "Monkey56:shrunk_gain_over_A0": {
+      "left": "Monkey56A0|cal_shrink",
+      "right": "Monkey56|cal_shrink",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0006625895035077348,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0007771982256483661,
+            0.00042315744190849543,
+            0.0007874128429663429
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.0018025599520301288,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0005232451722032398,
+            0.0016330538163792322,
+            0.0032513808675079144
+          ]
+        }
+      ],
+      "macro_difference": 0.0012325747277689319,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 13.61722297328475
+    },
+    "Monkey82:gain_over_H": {
+      "left": "H",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 4.242713025448628e-05,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.00025721999116493435,
+            0.00027047903441429315,
+            0.00011402234751410004
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00010095680146574085,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.0018277812794447318,
+            0.00123403123490598,
+            0.0008966204489359742
+          ]
+        }
+      ],
+      "macro_difference": 7.169196586011357e-05,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 0.8461377952046769
+    },
+    "Monkey82:gain_over_extra_human": {
+      "left": "Hextra_cells",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.0005831422021335192,
+          "positive_seeds": 0,
+          "seed_differences": [
+            -0.0006928325946059591,
+            -0.0004929682158784756,
+            -0.0005636257959161228
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": -0.0009256111373101618,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.0019075294923974855,
+            6.281096187435095e-05,
+            -0.0009321148814073511
+          ]
+        }
+      ],
+      "macro_difference": -0.0007543766697218404,
+      "positive_target_lines": 0,
+      "percent_of_comparator": -9.865286722558873
+    },
+    "Monkey82:gain_over_A0": {
+      "left": "Monkey82A0",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.00047837177509988646,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0007428556955562868,
+            4.442117293380898e-05,
+            0.0006478384568095637
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00031245364694374236,
+          "positive_seeds": 2,
+          "seed_differences": [
+            0.0006249774913513334,
+            0.0004288082934900076,
+            -0.00011642484401011392
+          ]
+        }
+      ],
+      "macro_difference": 0.0003954127110218144,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 4.495079166996261
+    },
+    "Monkey82:gain_over_Hcal_shrink": {
+      "left": "H|cal_shrink",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00016317855518626842,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00025721999116493435,
+            -0.00026829166293630084,
+            3.597598854242993e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00068317947236182,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.0013243701770573827,
+            0.0018333966066065317,
+            0.001540511987536311
+          ]
+        }
+      ],
+      "macro_difference": 0.0002600004585877758,
+      "positive_target_lines": 1,
+      "percent_of_comparator": 3.001914015315574
+    },
+    "Monkey82:gain_over_zero": {
+      "left": "Zero_response",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0022162521347049353,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.002124051111573177,
+            0.0022160015719729477,
+            0.0023087037205686816
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.005751643904756615,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.004815491684774494,
+            0.006228049257701594,
+            0.006211390771793756
+          ]
+        }
+      ],
+      "macro_difference": 0.003983948019730775,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 32.16725617796432
+    },
+    "Monkey82:gain_over_base_mean": {
+      "left": "Hbase_mean_response",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0003878537160383949,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0002607410289559766,
+            0.0003586008186477656,
+            0.0005442193005114424
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": -0.0006346958293342152,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.0016164299729674488,
+            0.00017831461202814404,
+            -0.000465972127063341
+          ]
+        }
+      ],
+      "macro_difference": -0.00012342105664791018,
+      "positive_target_lines": 1,
+      "percent_of_comparator": -1.4910004122073743
+    },
+    "Monkey82:gain_over_halfH": {
+      "left": "Half_H_response",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 4.692666018845347e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00011133263972113675,
+            -0.00012362814111930437,
+            0.00037574076140580153
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.001819034878893535,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -4.935431722876034e-05,
+            0.002865521398229178,
+            0.002640937555680187
+          ]
+        }
+      ],
+      "macro_difference": 0.0009329807695409942,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 9.995362499025429
+    },
+    "Monkey82:gain_over_threequarterH": {
+      "left": "Three_quarter_H_response",
+      "right": "Monkey82",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00022592634644490387,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.0004454633649408407,
+            -0.00026829166293630084,
+            3.597598854242993e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00068317947236182,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.0013243701770573827,
+            0.0018333966066065317,
+            0.001540511987536311
+          ]
+        }
+      ],
+      "macro_difference": 0.00022862656295845806,
+      "positive_target_lines": 1,
+      "percent_of_comparator": 2.6492738493197012
+    },
+    "Monkey82:shrunk_gain_over_H": {
+      "left": "H|cal_shrink",
+      "right": "Monkey82|cal_shrink",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": -0.00016317855518626842,
+          "positive_seeds": 1,
+          "seed_differences": [
+            -0.00025721999116493435,
+            -0.00026829166293630084,
+            3.597598854242993e-05
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 0.00021071564463194756,
+          "positive_seeds": 2,
+          "seed_differences": [
+            -0.0013243701770573827,
+            0.001072036320653903,
+            0.0008844807902993225
+          ]
+        }
+      ],
+      "macro_difference": 2.376854472283957e-05,
+      "positive_target_lines": 1,
+      "percent_of_comparator": 0.27442692953196884
+    },
+    "Monkey82:shrunk_gain_over_A0": {
+      "left": "Monkey82A0|cal_shrink",
+      "right": "Monkey82|cal_shrink",
+      "definition": "left minus right MSE; positive favorsright",
+      "per_line": [
+        {
+          "target_line": "63Ab2.2-02",
+          "seed_mean_difference": 0.0005078353233062454,
+          "positive_seeds": 3,
+          "seed_differences": [
+            0.0007428556955562868,
+            0.00013281181755288567,
+            0.0006478384568095637
+          ]
+        },
+        {
+          "target_line": "29B5-39s",
+          "seed_mean_difference": 9.318706175742535e-05,
+          "positive_seeds": 1,
+          "seed_differences": [
+            0.0006249774913513334,
+            -0.00033255199246262114,
+            -1.2864313616436224e-05
+          ]
+        }
+      ],
+      "macro_difference": 0.00030051119253183536,
+      "positive_target_lines": 2,
+      "percent_of_comparator": 3.3622129911011784
+    }
+  },
+  "source_results_in_fixed_order": {
+    "Monkey56": {
+      "both_lines_improve_over_H": true,
+      "mean_gain_over_H": 0.0009577517430750262,
+      "mean_gain_over_A0": 0.0015001975753225997,
+      "mean_gain_over_threequarterH": 0.0011146863401733705,
+      "extra_human_gain_denominator": 0.000826068635581954,
+      "fraction_of_positive_extra_human_gain": 1.1594094023437933
+    },
+    "Monkey82": {
+      "both_lines_improve_over_H": true,
+      "mean_gain_over_H": 7.169196586011357e-05,
+      "mean_gain_over_A0": 0.0003954127110218144,
+      "mean_gain_over_threequarterH": 0.00022862656295845806,
+      "extra_human_gain_denominator": 0.000826068635581954,
+      "fraction_of_positive_extra_human_gain": 0.0867869360632577
+    }
+  },
+  "inference_limits": {
+    "positive_signal": "Reportwhethereachfixedmonkeysource improvesoverH inbothhumanline seedmeans andwhetheritexceedsA0 andstrongshrinkcontrols; reportseed-level signs ascomputationalstability only.",
+    "mixed_or_negative": "Keepallarmsandreport failureoftheobservedexp2gain totransfer whenpresent. Preserveexp2results withoutrewritingitsprimaryoutcomes.",
+    "upstream_ntc_filter_limitation_retained": true,
+    "no_stronger_claims": [
+      "independentnewdonorvalidation",
+      "independentnewstudy",
+      "generalanimalspeciesbenefit",
+      "unseenperturbationgeneralization",
+      "77percenthumaninformationrecovery/equivalence"
+    ],
+    "exp2_exp3_comparison": "Separatepairedscreenreports onthe samehumanlines andfrozenmodels. Do notpoolthetwoscreens as4independenthumanunits orreplaceexp2primarywithbestofexp2/exp3.",
+    "results_required": "All96variant-line-seed metricrows,32lineaggregates,andallpairedcomparators. Report rawprimary andpredefinedshrinkdiagnostics separately; do not replaceprimary withbetterexp3form."
+  },
+  "p_values": null,
+  "confidence_intervals": null
+}

@@ -1,0 +1,69 @@
+{
+  "rule": "For each cell, sum raw counts across every observed gene in that species' complete author Ensembl84 protein-coding reference; use this sum before selecting the shared model axis.",
+  "scale_example": "log1p(10000 * raw_count / observed_coding_umi_sum)",
+  "denominator_label": "observed author protein-coding UMI library size",
+  "annotation_only": true,
+  "expression_selection": false,
+  "modified_frozen_matrices": false,
+  "human_and_animal_reference_release": 84,
+  "orthology_mapping_release": 116,
+  "author_github_revision": "b74850644007d70b606f1c16cafb72cb74d6c7a0",
+  "species": {
+    "human": {
+      "species": "human",
+      "author_reference_release": 84,
+      "author_reference_gene_ids": 22097,
+      "input_axis_gene_ids": 32738,
+      "observed_author_coding_gene_ids": 19123,
+      "reference_coding_gene_ids_not_observed": 2974,
+      "input_axis_ids_outside_author_coding_reference": 13615,
+      "axis_file": "docs/nonrodent_singlecell_20261110/human/full_gene_axis.tsv",
+      "axis_sha256": "3a1359033dcadc7536cc6ea39fad634cc1c553298efdb539ef0319277748634e",
+      "coding_reference_file": "docs/nonrodent_singlecell_20261110/normalization/coding_Homo_sapiens.GRCh38.84.chr.txt",
+      "coding_reference_sha256": "bfcc24aa5bc037ef95089b0c3de556f4de060d059290135e9cd7a41d88c881be",
+      "mask_file": "docs/nonrodent_singlecell_20261110/normalization/human.coding_denominator_mask.tsv",
+      "mask_sha256": "c171a64df357bf45d583475d5db32bff747c285d5dfd9ed40abeacce792e77d9",
+      "version_suffixes_removed_for_join": 0,
+      "reference_url": "https://raw.githubusercontent.com/Teichlab/innate_evo/b74850644007d70b606f1c16cafb72cb74d6c7a0/phagocyte_data/coding_Homo_sapiens.GRCh38.84.chr.txt"
+    },
+    "rabbit": {
+      "species": "rabbit",
+      "author_reference_release": 84,
+      "author_reference_gene_ids": 19293,
+      "input_axis_gene_ids": 19293,
+      "observed_author_coding_gene_ids": 19293,
+      "reference_coding_gene_ids_not_observed": 0,
+      "input_axis_ids_outside_author_coding_reference": 0,
+      "axis_file": "docs/nonrodent_singlecell_20261110/animal/rabbit.native_genes.tsv",
+      "axis_sha256": "457c7ad4dc80640808def4ff315befcdc168e8a3c3875338c0012e07b0d1cfff",
+      "coding_reference_file": "docs/nonrodent_singlecell_20261110/animal/author_code/coding_Oryctolagus_cuniculus.OryCun2.0.84.txt",
+      "coding_reference_sha256": "e3f6ec2ea3efd723232e3e8c67ca0526972b6732e4c9ee4d4f12bb1d30505e5b",
+      "mask_file": "docs/nonrodent_singlecell_20261110/normalization/rabbit.coding_denominator_mask.tsv",
+      "mask_sha256": "dc34378d90a28d6909c56bbcf255f454093f301ac9c7068857930d809272807b",
+      "version_suffixes_removed_for_join": 0,
+      "reference_url": "https://raw.githubusercontent.com/Teichlab/innate_evo/b74850644007d70b606f1c16cafb72cb74d6c7a0/phagocyte_data/coding_Oryctolagus_cuniculus.OryCun2.0.84.txt"
+    },
+    "pig": {
+      "species": "pig",
+      "author_reference_release": 84,
+      "author_reference_gene_ids": 21607,
+      "input_axis_gene_ids": 21607,
+      "observed_author_coding_gene_ids": 21607,
+      "reference_coding_gene_ids_not_observed": 0,
+      "input_axis_ids_outside_author_coding_reference": 0,
+      "axis_file": "docs/nonrodent_singlecell_20261110/animal/pig.native_genes.tsv",
+      "axis_sha256": "ccbe8f8ccbfa8e975a7e59013744fc945c6b657c52f0cebe35493a1eadb48d19",
+      "coding_reference_file": "docs/nonrodent_singlecell_20261110/animal/author_code/coding_Sus_scrofa.Sscrofa10.2.84.txt",
+      "coding_reference_sha256": "39539c08f4c252f714c9d364233d47e8a826e2edf82a5b1940182eebe2205307",
+      "mask_file": "docs/nonrodent_singlecell_20261110/normalization/pig.coding_denominator_mask.tsv",
+      "mask_sha256": "7c258b0c75dc09ee45101be74511e622d9f19447ee12e7581adf7dd9a85fec52",
+      "version_suffixes_removed_for_join": 0,
+      "reference_url": "https://raw.githubusercontent.com/Teichlab/innate_evo/b74850644007d70b606f1c16cafb72cb74d6c7a0/phagocyte_data/coding_Sus_scrofa.Sscrofa10.2.84.txt"
+    }
+  },
+  "shared_rabbit_human_model_axis": {
+    "genes": 4633,
+    "sha256": "2dca75dfdc9db11607ca73287492d438ab474764e1b00d6a1d53fd79629cde75",
+    "all_genes_in_both_coding_denominators": true
+  }
+}

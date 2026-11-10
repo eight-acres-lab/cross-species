@@ -1,0 +1,162 @@
+[
+  {
+    "donor_id": "202937150118_R05C01",
+    "ena_sample_accession": "ERS5242009",
+    "biosample_accession": "SAMEA7463748",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "5e23a967-bbed-4e7c-b43e-c80bafeaea41",
+      "Sex": "female",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R05C01",
+      "sample derived from": "SAMEA7463748",
+      "sample has part": "SAMEA7463753"
+    }
+  },
+  {
+    "donor_id": "202937150118_R02C01",
+    "ena_sample_accession": "ERS5242014",
+    "biosample_accession": "SAMEA7463760",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "130aeedd-7116-4874-8ac6-e78fb602898c",
+      "Sex": "female",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R02C01",
+      "sample derived from": "SAMEA7463760",
+      "sample has part": "SAMEA7463760"
+    }
+  },
+  {
+    "donor_id": "202937150118_R06C01",
+    "ena_sample_accession": "ERS5242005",
+    "biosample_accession": "SAMEA7463756",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "38aa1a82-6b2c-43e6-9256-b400b1b4b577",
+      "Sex": "male",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R06C01",
+      "sample derived from": "SAMEA7463756",
+      "sample has part": "SAMEA7463756"
+    }
+  },
+  {
+    "donor_id": "202937150118_R08C01",
+    "ena_sample_accession": "ERS5242007",
+    "biosample_accession": "SAMEA7463743",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "bbbe2917-8c00-4e3d-975b-f0a9b938406e",
+      "Sex": "female",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R08C01",
+      "sample derived from": "SAMEA7463743",
+      "sample has part": "SAMEA7463751"
+    }
+  },
+  {
+    "donor_id": "202937150118_R01C01",
+    "ena_sample_accession": "ERS5242011",
+    "biosample_accession": "SAMEA7463736",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "8766c4aa-201d-4d0f-8792-ef8a33708a1c",
+      "Sex": "male",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R01C01",
+      "sample derived from": "SAMEA7463736",
+      "sample has part": "SAMEA7463757"
+    }
+  },
+  {
+    "donor_id": "202937150118_R07C01",
+    "ena_sample_accession": "ERS5242006",
+    "biosample_accession": "SAMEA7463745",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "9bd93c4d-6e76-4981-915c-2717d57ef086",
+      "Sex": "male",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R07C01",
+      "sample derived from": "SAMEA7463745",
+      "sample has part": "SAMEA7463747"
+    }
+  },
+  {
+    "donor_id": "202937150091_R02C01",
+    "ena_sample_accession": "ERS5242010",
+    "biosample_accession": "SAMEA7463737",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "921b52b9-8bbf-4059-8fce-9e05cac86a3e",
+      "Sex": "male",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150091_R02C01",
+      "sample derived from": "SAMEA7463737",
+      "sample has part": "SAMEA7463750"
+    }
+  },
+  {
+    "donor_id": "202937150118_R03C01",
+    "ena_sample_accession": "ERS5242013",
+    "biosample_accession": "SAMEA7463740",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "bcfa90b5-8484-492c-b2cc-0f06d49bf885",
+      "Sex": "male",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R03C01",
+      "sample derived from": "SAMEA7463740",
+      "sample has part": "SAMEA7463754"
+    }
+  },
+  {
+    "donor_id": "202937150091_R01C01",
+    "ena_sample_accession": "ERS5242008",
+    "biosample_accession": "SAMEA7463738",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "6590e794-2ea0-44f9-8802-62347e405118",
+      "Sex": "female",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150091_R01C01",
+      "sample derived from": "SAMEA7463738",
+      "sample has part": "SAMEA7463749"
+    }
+  },
+  {
+    "donor_id": "202937150118_R04C01",
+    "ena_sample_accession": "ERS5242012",
+    "biosample_accession": "SAMEA7463739",
+    "ena_attributes": {
+      "HCA Biomaterial Type": "donor_organism",
+      "organism": "Homo sapiens",
+      "HCA Biomaterial UUID": "cb9b6f31-2d0d-41bb-bb2e-0e2ff1e3390c",
+      "Sex": "female",
+      "project": "Human Cell Atlas",
+      "Is Living": "yes",
+      "Biomaterial Core - Biomaterial Id": "202937150118_R04C01",
+      "sample derived from": "SAMEA7463739",
+      "sample has part": "SAMEA7463741"
+    }
+  }
+]

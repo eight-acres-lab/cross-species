@@ -1,0 +1,366 @@
+[
+  {
+    "accession": "SRX1737858",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737858",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737858.xml",
+    "bytes": 2516,
+    "sha256": "5348194adcd97221a983b05d03701682b9cc9977a8507e0599140ea5b16a85d4"
+  },
+  {
+    "accession": "GSM2138690",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138690&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138690.soft",
+    "bytes": 8715,
+    "sha256": "8afa9595ef612c29983f6d050097ccd7c3e9a0332928bfc0dd433bd8f7ed458a"
+  },
+  {
+    "accession": "SRX1737859",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737859",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737859.xml",
+    "bytes": 2516,
+    "sha256": "37375168a3ee15cefb8661a0c82d0378628449d9532201f1b786a620cfd59edf"
+  },
+  {
+    "accession": "GSM2138691",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138691&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138691.soft",
+    "bytes": 8715,
+    "sha256": "aeaccaa2a77790447f2e6388f689ffd96d72d0a5f6b54fe0626d9eb0dafefe53"
+  },
+  {
+    "accession": "SRX1737864",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737864",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737864.xml",
+    "bytes": 2517,
+    "sha256": "28d04e556b5efa5b4b142c255efa07481f77b09f83beb51f94d4ec890718b7bb"
+  },
+  {
+    "accession": "GSM2138674",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138674&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138674.soft",
+    "bytes": 8734,
+    "sha256": "5ccb7013fe27bfaf33092da2fbf3a67743edcc72d6db580c37496b46b4204076"
+  },
+  {
+    "accession": "SRX1737865",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737865",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737865.xml",
+    "bytes": 2517,
+    "sha256": "586772b884e12d2cd52a5eb5300c33ae845fb648fcbc7b291aef427bc4954633"
+  },
+  {
+    "accession": "GSM2138675",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138675&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138675.soft",
+    "bytes": 8734,
+    "sha256": "5e84a666c0dd0cdb36f96bb7f40afc32d2464f51ff04a91c1370d7ffe60ab3e4"
+  },
+  {
+    "accession": "SRX1737874",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737874",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737874.xml",
+    "bytes": 2517,
+    "sha256": "1d9f3d3f5800e227a38c83f025869ee81db5fff8283056a8b06d2f4c387b428c"
+  },
+  {
+    "accession": "GSM2138708",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138708&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138708.soft",
+    "bytes": 8734,
+    "sha256": "7ac946f6e40bc48404680114fbf999d5aa4225f668c73d00abd8a13e48fe3d4b"
+  },
+  {
+    "accession": "SRX1737875",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737875",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737875.xml",
+    "bytes": 2517,
+    "sha256": "bbf0802d254239f052e86dc8d1175cac249d16a198d005a1dc2cea24e336f130"
+  },
+  {
+    "accession": "GSM2138709",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138709&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138709.soft",
+    "bytes": 8734,
+    "sha256": "e5aa2061ed053496dcc466cb583b159f967dacde0186e2737c94461646b8d61e"
+  },
+  {
+    "accession": "SRX1737900",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737900",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737900.xml",
+    "bytes": 2516,
+    "sha256": "fc9ce90427fcf3086aacf80cf2ce920737bd68dd2ec1989a2e2573e574b160a1"
+  },
+  {
+    "accession": "GSM2138714",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138714&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138714.soft",
+    "bytes": 8714,
+    "sha256": "13e0a1441cf816933dc18a294e4d24d53644666477d9569f6f8ecddfaf866b31"
+  },
+  {
+    "accession": "SRX1737901",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737901",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737901.xml",
+    "bytes": 2516,
+    "sha256": "0ea7984619714a242dffb143f18137449243b2045e450afcbce9daffc4321728"
+  },
+  {
+    "accession": "GSM2138715",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138715&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138715.soft",
+    "bytes": 8714,
+    "sha256": "9f2219760f6ae7f038bb976bb32c22122bea30286ebfb9212090b3fa23edbf0a"
+  },
+  {
+    "accession": "SRX1737958",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737958",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737958.xml",
+    "bytes": 2516,
+    "sha256": "d725112a8b128f9ab8a8d3fcfa2a12e006e4b2c5ae4090d883f21a8bd6d94ef7"
+  },
+  {
+    "accession": "GSM2138776",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138776&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138776.soft",
+    "bytes": 8715,
+    "sha256": "748d545e3bff48b2f62450167e338176b468b7fa03eac378ec42b6cc46716a64"
+  },
+  {
+    "accession": "SRX1737959",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737959",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737959.xml",
+    "bytes": 2516,
+    "sha256": "5f5129969e46ce2de4abf472722d2741a3a993f7048a3d265918957fc59dbd60"
+  },
+  {
+    "accession": "GSM2138777",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138777&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138777.soft",
+    "bytes": 8715,
+    "sha256": "bdcad2612374a6006962ae371bf527ae065a289b970466d19b8ebf3b3fec1a39"
+  },
+  {
+    "accession": "SRX1737964",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737964",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737964.xml",
+    "bytes": 2517,
+    "sha256": "14dd7095639677670cc2b98bac2057b2e3a1300d00d3f24a77d569cc84ceb226"
+  },
+  {
+    "accession": "GSM2138782",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138782&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138782.soft",
+    "bytes": 8697,
+    "sha256": "862ad94675d5ec4e8eb17455d75647f39ece02afab8612fadc9852d2d259905c"
+  },
+  {
+    "accession": "SRX1737965",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737965",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737965.xml",
+    "bytes": 2517,
+    "sha256": "e7c9dc3014bab969b390ff6e44f38eff02b3e3808ed0151294b536597914e0fd"
+  },
+  {
+    "accession": "GSM2138783",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138783&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138783.soft",
+    "bytes": 8697,
+    "sha256": "6e505126385d61a9fab22bbfc765ba87b56238c2dc194e3f85c984a92bd79fd5"
+  },
+  {
+    "accession": "SRX1737998",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737998",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737998.xml",
+    "bytes": 2517,
+    "sha256": "3f557da0347663256de78741fa7bcc5bf963ff1365f91b5bd49b1651bb60d48e"
+  },
+  {
+    "accession": "GSM2138814",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138814&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138814.soft",
+    "bytes": 8707,
+    "sha256": "94389b4c526f8cb698c9b3b56ad9be8bfee1a36c2c69363282b6ca5e42559182"
+  },
+  {
+    "accession": "SRX1737999",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1737999",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1737999.xml",
+    "bytes": 2517,
+    "sha256": "ac81fc02e899c7693a11e9ac98e1050cf555ec1a02097783bc057969ec58641c"
+  },
+  {
+    "accession": "GSM2138815",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138815&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138815.soft",
+    "bytes": 8707,
+    "sha256": "6180bb0ca43c610eac08262a606afd9e50389d1198ebc8852e94ee833644ba45"
+  },
+  {
+    "accession": "SRX1738058",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1738058",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1738058.xml",
+    "bytes": 2516,
+    "sha256": "b7b5320a7692061c5b6aff23e4a00197af44b44feb742ffebc419af232c51c9a"
+  },
+  {
+    "accession": "GSM2138872",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138872&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138872.soft",
+    "bytes": 8739,
+    "sha256": "210cf9d85ab89bbc4f8e55f1ab0c119b7610cadc8f9c940d7afb562bff8e9ac2"
+  },
+  {
+    "accession": "SRX1738059",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX1738059",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX1738059.xml",
+    "bytes": 2516,
+    "sha256": "a9d505e8133c5e2837c149bc73f3c5f341621e8b161c38b6b83fe965d6868d0e"
+  },
+  {
+    "accession": "GSM2138873",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2138873&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2138873.soft",
+    "bytes": 8739,
+    "sha256": "c04f7190e74e4927979111582286b260fe3f17e04bfd869f682bf223400f2c2e"
+  },
+  {
+    "accession": "SRX2243864",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2243864",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2243864.xml",
+    "bytes": 2712,
+    "sha256": "52cbd95e2eb9fbf70a008e7e1cf3b7b9dbfb33313dfb5421a490d86d9e540c30"
+  },
+  {
+    "accession": "GSM2343490",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343490&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343490.soft",
+    "bytes": 8581,
+    "sha256": "a24815632f6d0837545aa2167d331b85bec4849459fceeb87e758f268c70f6a6"
+  },
+  {
+    "accession": "SRX2243865",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2243865",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2243865.xml",
+    "bytes": 2712,
+    "sha256": "354fa536c9687e1208ec61b081a6d0a8d8e5b92ebbf1c91966103e92449ef0bf"
+  },
+  {
+    "accession": "GSM2343491",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343491&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343491.soft",
+    "bytes": 8581,
+    "sha256": "4ce20bfcdc2b5bdbbdb5d761518f4dd1b485212ce5f3ab7d8048abba2552b761"
+  },
+  {
+    "accession": "SRX2244012",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244012",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244012.xml",
+    "bytes": 2716,
+    "sha256": "ebc931ad5fc78224ec03d6acad99307028e3075934402b08a8f21106760ba6e7"
+  },
+  {
+    "accession": "GSM2343628",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343628&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343628.soft",
+    "bytes": 8619,
+    "sha256": "c8b340e1d5bfec6e071e272158403680e11f3f8096209e7bddc265e506121496"
+  },
+  {
+    "accession": "SRX2244013",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244013",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244013.xml",
+    "bytes": 2716,
+    "sha256": "7d75ddaaab43bb579b25ea85394179d66314c8d419d1d0b63ba8fc6bd18401c4"
+  },
+  {
+    "accession": "GSM2343629",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343629&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343629.soft",
+    "bytes": 8619,
+    "sha256": "090c03b9d003b2b92ee4ea66009cfee3e26d61463067eb98bc0d7a1ec823781a"
+  },
+  {
+    "accession": "SRX2244095",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244095",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244095.xml",
+    "bytes": 2716,
+    "sha256": "3a2a2c0e7839bad76e9655c374c7821e135c1d4341665e6e7060f1da56d85564"
+  },
+  {
+    "accession": "GSM2343709",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343709&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343709.soft",
+    "bytes": 8734,
+    "sha256": "9b607d282f2f1db9d90ce114bc3e237cd908943156eb610b2c0a347aa65663d1"
+  },
+  {
+    "accession": "SRX2244096",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244096",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244096.xml",
+    "bytes": 2750,
+    "sha256": "b81c6322cc44f369ace3f010234b76abb62fafe7ed8a47e49ed55ca285cf73eb"
+  },
+  {
+    "accession": "GSM2343710",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343710&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343710.soft",
+    "bytes": 8768,
+    "sha256": "ab10e4f822d39b65fec9c7972ce9ba7437a20fd143f12f500973ae9e2d2eccbc"
+  },
+  {
+    "accession": "SRX2244538",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244538",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244538.xml",
+    "bytes": 2716,
+    "sha256": "236d0a5573e36548b162979f811d4564d1994769e9e025aa35c50be8e7b49228"
+  },
+  {
+    "accession": "GSM2344143",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2344143&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2344143.soft",
+    "bytes": 8724,
+    "sha256": "5098703082592d6d28c01ec1ae0acc44ec6a488fa48182b3d4569ff45c0cee25"
+  },
+  {
+    "accession": "SRX2244539",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244539",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244539.xml",
+    "bytes": 2716,
+    "sha256": "7c0c96ac798798277f0b64806186d065c9b165a5f41095f5868b122cfb06ab9f"
+  },
+  {
+    "accession": "GSM2344144",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2344144&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2344144.soft",
+    "bytes": 8724,
+    "sha256": "168eb13eb31ef54f95fc2a92fc2df7e31da148ee6bdc1583151222d7afde7e38"
+  },
+  {
+    "accession": "SRX2244885",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244885",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244885.xml",
+    "bytes": 2720,
+    "sha256": "3b4ffdeb98395db63ce1bcac6b3de6b6fcb6c6ac9009d70c4e56e4c7158c084d"
+  },
+  {
+    "accession": "GSM2343139",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343139&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343139.soft",
+    "bytes": 8723,
+    "sha256": "6b22147cda2e84dbdf56e0c808f45e6c283f5b5861c5072a6a1bde155bccd575"
+  },
+  {
+    "accession": "SRX2244886",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX2244886",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/SRX2244886.xml",
+    "bytes": 2720,
+    "sha256": "8ba9294379fbc083bc8c7198464b20fd8c9abdb53313008310acd372a3507312"
+  },
+  {
+    "accession": "GSM2343140",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2343140&targ=self&form=text&view=full",
+    "path": "/Users/zhi/train/docs/multisource_20261108/genetic_expansion_02/evidence/GSM2343140.soft",
+    "bytes": 8723,
+    "sha256": "651c6af9b05e3113b40922ef91cff8380c6a0fe6bad3f6fa482d430d92d16267"
+  }
+]

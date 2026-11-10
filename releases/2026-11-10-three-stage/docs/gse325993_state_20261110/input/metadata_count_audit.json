@@ -1,0 +1,154 @@
+{
+  "scope": "Public metadata and count QC only. Raw Seurat meta.data exact join; no assay conversion, outcome effects or model.",
+  "author_raw_metadata_sha256": "a4a3c7792d0a2e851403ef0ec1b3c02d6392c7d63834e7782aac52fb66831f4b",
+  "public_guide_files": 64,
+  "public_guide_rows": 36517,
+  "author_demux_matched_rows": 36517,
+  "author_demux_absent_rows": 0,
+  "line_mapping": {
+    "bv": "63Ab2.2-02",
+    "cz": "29B5-39s",
+    "QC-14K16S07": "82A3-05s",
+    "QC-16K16S07": "56B1-01s"
+  },
+  "counts_exp1": {
+    "human": {
+      "file": "GSM9618462_HSapiens_exp1_chip1_lane1_count_matrix.h5ad",
+      "cells": 311,
+      "genes": 36606,
+      "nnz": 1547859,
+      "stored_dtype": "float32",
+      "count_values_integer_nonnegative": true,
+      "obs_columns": [],
+      "layers": [],
+      "has_raw": false,
+      "var_columns": [
+        "gene_ids",
+        "feature_types",
+        "genome",
+        "pattern",
+        "read",
+        "sequence",
+        "target_gene_id",
+        "target_gene_name"
+      ],
+      "genomes": {
+        "GRCh38_withdCas9": 36606
+      },
+      "feature_types": {
+        "Gene Expression": 36606
+      },
+      "gene_ids_start_ENSG": 36601,
+      "guide_exact_barcode_match": true,
+      "author_demux_matched": 311,
+      "library_min_median_max": [
+        2903.0,
+        20034.0,
+        76695.0
+      ],
+      "sha256": "4934a51bfb10676c3914772f09a1c4103e0b0d2c01b962665bc85edefe56ee86"
+    },
+    "cynomolgus": {
+      "file": "GSM9618464_MFascicularis_exp1_chip1_lane1_count_matrix.h5ad",
+      "cells": 571,
+      "genes": 34256,
+      "nnz": 2607750,
+      "stored_dtype": "float32",
+      "count_values_integer_nonnegative": true,
+      "obs_columns": [],
+      "layers": [],
+      "has_raw": false,
+      "var_columns": [
+        "gene_ids",
+        "feature_types",
+        "genome",
+        "pattern",
+        "read",
+        "sequence",
+        "target_gene_id",
+        "target_gene_name"
+      ],
+      "genomes": {
+        "macFas6_withdCas9": 34256
+      },
+      "feature_types": {
+        "Gene Expression": 34256
+      },
+      "gene_ids_start_ENSG": 34251,
+      "guide_exact_barcode_match": true,
+      "author_demux_matched": 571,
+      "library_min_median_max": [
+        2642.0,
+        16780.0,
+        53843.0
+      ],
+      "sha256": "0a350e4b68a0075af39ff3619a2e4e6b400c8d78edeabca03fee153b404dad91"
+    }
+  },
+  "largest_cross_capture_barcode_overlaps": [
+    {
+      "capture1": "human|exp2_chip1_lane2",
+      "capture2": "human|exp3_chip1_lane1",
+      "shared_bare_barcodes": 5,
+      "jaccard": 0.003837298541826554
+    },
+    {
+      "capture1": "human|exp3_chip3_lane5",
+      "capture2": "human|exp3_chip3_lane7",
+      "shared_bare_barcodes": 3,
+      "jaccard": 0.0025906735751295338
+    },
+    {
+      "capture1": "cynomolgus|exp3_chip1_lane1",
+      "capture2": "cynomolgus|exp3_chip2_lane5",
+      "shared_bare_barcodes": 3,
+      "jaccard": 0.002577319587628866
+    },
+    {
+      "capture1": "cynomolgus|exp3_chip2_lane5",
+      "capture2": "cynomolgus|exp3_chip3_lane5",
+      "shared_bare_barcodes": 3,
+      "jaccard": 0.0024896265560165973
+    },
+    {
+      "capture1": "cynomolgus|exp3_chip1_lane3",
+      "capture2": "cynomolgus|exp3_chip1_lane4",
+      "shared_bare_barcodes": 3,
+      "jaccard": 0.0023273855702094647
+    },
+    {
+      "capture1": "cynomolgus|exp3_chip1_lane8",
+      "capture2": "cynomolgus|exp3_chip3_lane5",
+      "shared_bare_barcodes": 3,
+      "jaccard": 0.0022865853658536584
+    },
+    {
+      "capture1": "human|exp2_chip1_lane4",
+      "capture2": "human|exp3_chip3_lane4",
+      "shared_bare_barcodes": 3,
+      "jaccard": 0.0022156573116691287
+    },
+    {
+      "capture1": "cynomolgus|exp2_chip1_lane8",
+      "capture2": "cynomolgus|exp3_chip2_lane7",
+      "shared_bare_barcodes": 2,
+      "jaccard": 0.0021691973969631237
+    },
+    {
+      "capture1": "human|exp3_chip2_lane6",
+      "capture2": "human|exp3_chip2_lane7",
+      "shared_bare_barcodes": 2,
+      "jaccard": 0.002103049421661409
+    },
+    {
+      "capture1": "cynomolgus|exp1_chip1_lane1",
+      "capture2": "cynomolgus|exp2_chip1_lane3",
+      "shared_bare_barcodes": 2,
+      "jaccard": 0.0020512820512820513
+    }
+  ],
+  "cell_identity_rule": "species+experiment+chip+lane+barcode; bare 10x barcodes may recur across independent captures",
+  "condition_rule": "maximum UMI guide name; preserve guide-QC flags and unresolved assignments. Author's additional cross-species guide-pair rescue requires its reference mapping; it is not guessed.",
+  "gene_coordinate_rule": "Macaque native counts use author's human-ID Liftoff GTF on macFas6. Keep deposited IDs; do not apply a second macaque-Ensembl orthology conversion.",
+  "frozen_exp1_counts_unchanged": true
+}

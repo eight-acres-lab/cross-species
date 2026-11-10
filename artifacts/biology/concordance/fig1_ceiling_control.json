@@ -1,0 +1,60 @@
+{
+ "raw": {
+  "Bos taurus": 0.34497104088465375,
+  "Macaca": 0.5336310035652585,
+  "Mus musculus": 0.2282918377055062,
+  "Oryctolagus cuniculus": 0.33437589804331463,
+  "Ovis aries": 0.2780208835999171,
+  "Pan troglodytes": 0.6755519972907172,
+  "Papio anubis": 0.5066175560156504,
+  "Rattus norvegicus": 0.20609555559025872,
+  "Sus scrofa": 0.26548615760273403
+ },
+ "own_reliability": {
+  "Bos taurus": 0.8406622474062518,
+  "Homo sapiens": 0.862105795926393,
+  "Macaca": 0.8729071616630635,
+  "Mus musculus": 0.8075145195855579,
+  "Oryctolagus cuniculus": 0.8690035233372152,
+  "Ovis aries": 0.7479690505158696,
+  "Pan troglodytes": 0.8617152902916034,
+  "Papio anubis": 0.7699905279775803,
+  "Rattus norvegicus": 0.7807616804682604,
+  "Sus scrofa": 0.6591925388599795
+ },
+ "ceiling_normalised": {
+  "Bos taurus": 0.4052206645286448,
+  "Macaca": 0.6151439302415719,
+  "Mus musculus": 0.27361186836873946,
+  "Oryctolagus cuniculus": 0.3863170843853552,
+  "Ovis aries": 0.34622252777926144,
+  "Pan troglodytes": 0.7837843730138662,
+  "Papio anubis": 0.6218093694028871,
+  "Rattus norvegicus": 0.251205474031667,
+  "Sus scrofa": 0.35217251433262114
+ },
+ "n_subjects": {
+  "Bos taurus": 5,
+  "Homo sapiens": 5,
+  "Macaca": 5,
+  "Mus musculus": 4,
+  "Oryctolagus cuniculus": 5,
+  "Ovis aries": 4,
+  "Pan troglodytes": 4,
+  "Papio anubis": 4,
+  "Rattus norvegicus": 4,
+  "Sus scrofa": 4
+ },
+ "group": {
+  "Papio anubis": "R",
+  "Pan troglodytes": "S",
+  "Bos taurus": "S",
+  "Homo sapiens": "S",
+  "Mus musculus": "R",
+  "Sus scrofa": "S",
+  "Rattus norvegicus": "R",
+  "Oryctolagus cuniculus": "S",
+  "Macaca": "R",
+  "Ovis aries": "S"
+ }
+}
