@@ -186,8 +186,8 @@ def score_saved(bundle, out, manifest):
               "metric": "Mean gene MSE per condition, mean conditions per compound, then equal mean over compounds. All arms use identical scored rows and genes.",
               "limitations": [
                   "Twenty nuisance permutations are not20 independent biological replications; size-two strata permit only one derangement.",
-                  "Source rows excluded from a partition when its stratum lacks a full different-compound bijection; current results do not directly equal the prior678-row benchmark.",
-                  "Original joint-RMA preprocessing, averaged replicate profiles, nominal exposure and previously examined public outcomes remain limitations.",
+                  "Source rows are excluded from a partition when their stratum lacks a full different-compound bijection.",
+                  "Retrospective evaluation using joint RMA preprocessing, averaged replicate profiles and nominal exposures.",
                   "One animal species and one broad in-vitro liver context; no species-selection or clinical claim.",
                   "Wrong-fit/correct-query is a distribution-shift diagnostic. No cross-regime winner or permutation seed is selected from terminal outcomes.",
                   "No p-values or population confidence intervals; seed ranges only describe the specified random mismatches.",

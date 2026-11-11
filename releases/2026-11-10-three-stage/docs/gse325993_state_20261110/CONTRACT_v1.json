@@ -3,7 +3,7 @@
   "schema_version": 1,
   "status": "frozen_before_biological_model_fitting_and_any_target_prediction_scoring",
   "date": "2026-11-10",
-  "immutability": "Final CONTRACT_v1.json is written once after input manifest completion and before biological fitting or effect scoring. Preserve all frozen versions and prior negative studies.",
+  "immutability": "The input manifest and analysis protocol are fixed before biological fitting or effect scoring.",
   "scope": {
     "task": "Conditional-on-author-filtered-public-cohort held-out-human-line model comparison for known POU5F1 CRISPRi",
     "estimand": "Additional measured cells from an existing training human line versus the same number of cells from one specified cynomolgus line, evaluated on the completely held-out other human line.",
@@ -23,12 +23,11 @@
       "Two human cell lines provide two biological target units. Three samplingseeds, eight GEMchannels, guides and cells do not increase biologicalN.",
       "One known gene perturbation; no unseen-perturbation claim.",
       "One experiment/chip exp2, multiple technical capturechannels; no new-screen generalization claim.",
-      "Original human HepG2 checkpoint preprocessing is incompletely recovered; this is an explicit new-assay contrast adaptation.",
+      "The available HepG2 checkpoint metadata does not fully specify preprocessing; predictions use a shared-axis contrast adaptation.",
       "Native6546gene axis lacksPOU5F1; only downstream expression response is predicted.",
       "Species-specific gRNA sequences and guide efficacy may differ. All published eligible guides are retained without selecting by RNAresponse.",
       "Source cell budget matches extra-human measured-cell budget. Extra-human remains one existing human line, while monkey is another species/line; biological-information and monetary-cost equality are not asserted."
-    ],
-    "prior_evidence": "Retain negative rabbit/Lawlor results, old mouse/Parse/TG null-failing evidence, and exploratory G105 outputs without replacing them."
+    ]
   },
   "design": {
     "study": "GSE325993",

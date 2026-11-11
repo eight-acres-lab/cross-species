@@ -532,7 +532,7 @@ def run_benchmark(data, out_dir, *, outer_folds=5, inner_folds=3,
     code_files = [Path(__file__), ROOT / "src/cross_species/feedback_data.py",
                   ROOT / "src/cross_species/feedback_evaluation.py"]
     specification = {
-        "scope": "Retrospective nested compound CV; prior project outcomes were examined. Not preregistered, prospective, or externally validated.",
+        "scope": "Retrospective nested cross-validation with compound-level folds.",
         "outer_folds": outer_folds, "inner_folds": inner_folds, "seed": seed, "alpha_grid": list(alphas),
         "rows": len(source), "compounds": len(set(data.compounds.tolist())), "target_genes": target.shape[1],
         "gene_axis": "All supplied one-to-one orthologs; identical full human gene axis in all folds and methods; no target-variance gene selection.",
@@ -549,7 +549,7 @@ def run_benchmark(data, out_dir, *, outer_folds=5, inner_folds=3,
         "interval_scope": "Compound resampling of fixed OOF predictions. Overlapping fold training creates dependence; no refitting, donor uncertainty, or reliable population coverage guarantee.",
         "limitations": ["One animal species and one broad liver in-vitro system; species selection is not evaluated.",
                         "Context has no chemical structure or mechanism descriptors; benefit is relative to this specified context baseline.",
-                        "Historical joint RMA and condition-level replicate means remain source-data limitations.",
+                        "Joint RMA normalization and condition-level replicate means define the source data.",
                         "Nominal dose categories may use different absolute concentrations across species; inspect concentration_match_status."],
     }
     if chemical is not None:

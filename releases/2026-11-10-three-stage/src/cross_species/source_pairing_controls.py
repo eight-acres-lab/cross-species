@@ -169,7 +169,7 @@ def prepare_partition(source, context, fingerprints, descriptors, train, query, 
 
 
 class TorchRidge:
-    """Float64 dual ridge with the unchanged legacy numerical-null rule."""
+    """Float64 dual ridge with the fixed numerical-null rule."""
 
     def __init__(self, train_kernel, target_train):
         self.target_train = torch.as_tensor(target_train, device=train_kernel.device, dtype=torch.float64)
@@ -262,7 +262,7 @@ def _select(losses, compounds, alphas):
 
 
 def legacy_permutation_check(bundle, partition, train, query, fit_permutation, query_permutation, alpha, *, tolerance=1e-8):
-    """Actually rebuild permuted inputs and solve with the independent legacy CPU path."""
+    """Rebuild permuted inputs and solve with the independent CPU path."""
     source, context = bundle["source"], bundle["context"]
     p, q = np.asarray(fit_permutation), np.asarray(query_permutation)
     inputs = legacy.ChemicalKernelInputs(source[train[p]], context[train], bundle["fingerprints"][train], bundle["descriptors"][train])
@@ -277,7 +277,7 @@ def legacy_permutation_check(bundle, partition, train, query, fit_permutation, q
     prediction_delta = float(np.max(np.abs(cpu.predict(query_kernel, alpha) - _numpy(gpu.predict(actual_query, alpha)))))
     loss_delta = float(np.max(np.abs(cpu.row_losses(query_kernel, bundle["target"][query], [alpha]) - gpu.row_losses(actual_query, bundle["target"][query], [alpha]))))
     if max(kernel_delta, prediction_delta, loss_delta) > tolerance:
-        raise AssertionError("Legacy permutation equivalence failed")
+        raise AssertionError("CPU permutation equivalence failed")
     return {"kernel_max_abs_difference": kernel_delta, "prediction_max_abs_difference": prediction_delta,
             "row_loss_max_abs_difference": loss_delta, "tolerance": tolerance, "passed": True}
 

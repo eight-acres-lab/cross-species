@@ -145,7 +145,7 @@
     "ensembl_to_entrez_release_recorded": null,
     "new_orthology_retrieved_utc": "2026-11-08T04:17:44.789081+00:00",
     "new_orthology_release": 116,
-    "inference": "Old ID-mapping release was not saved; frozen bytes reproduce the bridge. New homology relation is independently required to agree with the old high-confidence relation."
+    "inference": "The deposited mapping tables define the gene bridge; homology relations are checked independently against the high-confidence orthology table."
   },
   "selection": "Only exact IDs, bidirectional cardinality, orthology consistency and identifier-axis presence; no global/multi-species masks, gene symbol/alias inference or response-magnitude selection.",
   "expression_values_read": false,
@@ -163,5 +163,5 @@
     "GSE330151_bridge.tsv": "a9eedb4a7f8bc7ce894d45d64e6d8cf04d6fed6d049eabb4c067262e70e5d747",
     "GSE300171_bridge.tsv": "598fe1455af19297b9c7f7827e0b1e1f43f30fb0519a14177de486db19612b11"
   },
-  "script_sha256": "1fb588db5668a13c9258282053c34f98c6aa8d91fdbefd8697b61b76a71fd055"
+  "script_sha256": "190a84c0d8941c8172c4bb3184f736e4b3454ab7b975b7b10a7a6f923a863a18"
 }

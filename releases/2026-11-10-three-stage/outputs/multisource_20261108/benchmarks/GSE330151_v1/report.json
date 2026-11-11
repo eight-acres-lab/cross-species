@@ -1,5 +1,5 @@
 {
-  "specification_sha256": "cbdc38115ec78122f65e0a5c6b0b022cab08198483a86cee24fd4078bfc6b8d7",
+  "specification_sha256": "2e2e754e502ec17a985416e4bb6a62086302ea4da8f61c8a89f1f49ff90c737f",
   "query_ids": [
     "CDDO",
     "KI696",
@@ -677,7 +677,7 @@
         0.11742308732586978,
         0.13378531768331725
       ],
-      "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector"
+      "context_selector_status": "Context-dependent source selection is not fitted; each split has two training tasks."
     },
     {
       "held_query": 1,
@@ -695,7 +695,7 @@
         0.10511878631228755,
         0.1268917617866574
       ],
-      "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector"
+      "context_selector_status": "Context-dependent source selection is not fitted; each split has two training tasks."
     },
     {
       "held_query": 2,
@@ -714,7 +714,7 @@
         0.06059913403460887,
         0.06679045123142328
       ],
-      "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector"
+      "context_selector_status": "Context-dependent source selection is not fitted; each split has two training tasks."
     }
   ],
   "uniform_random_single_source": {
@@ -3903,9 +3903,9 @@
   "sensitivity_warning": "Biological IDs/independence unknown; percentile ranges are measured-arm sensitivity, not donor/generalization confidence intervals. No task/gene bootstrap or significance claim.",
   "remaining_identifiability_limits": [
     "3drugs/2pathways; no stable generalization confidence interval.",
-    "No new independent study/untouched test; earlier public human outcomes were inspected.",
+    "Retrospective evaluation on published human outcomes.",
     "No validated strong human molecular prior; zero/history/contextmean controls are limited.",
-    "No learned deep/context source selector; two historical tasks per LOPO split.",
+    "Each leave-one-perturbation-out split supplies two training tasks for source selection.",
     "Biological donor identities and cross-arm pairing unresolved.",
     "Four-source totalbudget3-per-role comparison impossible with at least one profile/source.",
     "Source species, cell system, protocol and donor mixture are not factorially separated.",

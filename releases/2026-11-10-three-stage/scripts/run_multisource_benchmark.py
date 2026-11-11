@@ -35,7 +35,7 @@ def save(path,value):
 def array_contract(panel):
     species=[str(v) for v in panel.species_order]
     if species[0]!="human" or len(species)!=5:
-        raise ValueError("This frozen pilot requires human then four ordered source species")
+        raise ValueError("Expected human followed by four ordered source species")
     tasks=sorted({r["perturbation"] for r in panel.contrast_metadata})
     lookup={(r["species"],r["perturbation"]):r for r in panel.contrast_metadata}
     if len(lookup)!=len(species)*len(tasks):
@@ -50,7 +50,7 @@ def array_contract(panel):
             record=lookup[s,task];cid=record["contrast_id"]
             rows=[panel.arm_indices(cid,role) for role in ["treated","vehicle"]]
             if any(len(r)!=3 for r in rows):
-                raise ValueError("This fixed profile-budget pilot requires three records per arm")
+                raise ValueError("The fixed profile budget requires three records per arm")
             values.append(np.stack([panel.arm_logcpm[r][:,mask] for r in rows]))
             records.append({"perturbation":task,"species":s,"contrast_id":cid,"treated_rows":rows[0].tolist(),"vehicle_rows":rows[1].tolist(),
                             "time_h":record["time_h"],"dose_value":record["dose_value"],"dose_unit":record["dose_unit"]})
@@ -77,7 +77,7 @@ def main():
     panel=load_curated_panel(args.panel)
     arms,tasks,species,records,genes=array_contract(panel)
     if tasks!=["CDDO","KI696","THAP"]:
-        raise ValueError("This first frozen GSE330151 pilot expects its three documented drugs")
+        raise ValueError("The GSE330151 analysis expects three documented drugs")
     source_ids=species[1:];subsets=source_subsets(source_ids)
     contexts=["NRF2_24h","NRF2_24h","UPR_8h"]
     spec={"schema":"multisource_baseline_v1","frozen_utc":datetime.now(timezone.utc).isoformat(),"dataset":"GSE330151",
@@ -87,9 +87,9 @@ def main():
         "input_manifest_sha256":file_hash(args.panel/"manifest.json"),"panel_sha256":file_hash(args.panel/"panel.npz"),
         "training":"For each held perturbation, only other2 perturbations' human/source means fit scalar simplex weights and bestfixedsource. No intercept/gene-specific parameters.",
         "simplex_ridge":1.,"simplex_penalty":"Mean_task,gene MSE +1*||w-uniform||², nonnegative sum1. Fixed without terminal tuning.",
-        "source_selection_visibility":"Bestfixedsource chooses using only historical source-copy losses before acquiring held source response. Heldhuman and unpurchased heldsource responses do not select its identity.",
-        "context_rule":{"fixed_known_categories":contexts,"human_baseline":"Mean human history in exact known pathway/time category; if absent use all available history.","limitation":"Only3drugs with pathway/time confounding. This is not a validated strong molecular/context prior or causal factor attribution."},
-        "context_selector":"Not estimated: outer history has2 tasks; deep/context-dependent source recommendation unsupported. Bestfixedhistory is a limited explicit before-measurement rule.",
+        "source_selection_visibility":"Bestfixedsource selects its source using training-task source-copy losses before acquiring the held-out source response. Held-out human and source responses are excluded from source selection.",
+        "context_rule":{"fixed_known_categories":contexts,"human_baseline":"Mean human response among training tasks in the same pathway/time category; if none are available, the mean across all training tasks is used.","limitation":"Only3drugs with pathway/time confounding. This is not a validated strong molecular/context prior or causal factor attribution."},
+        "context_selector":"Bestfixedhistory selects a source using the two training tasks before held-out source measurement; context-dependent selection is not fitted.",
         "added_source_budget":"Each acquired source uses all3treated+3vehicle profiles. More sources therefore add nominal measured-profile budget.",
         "fixed_total_budget":"Exact finite-record expected MSE for3treated+3vehicle profiles total across sources, independent without-replacement draws within each arm, balanced allocations, equal source weights. Four sources cannot satisfy this6-profile budget and are marked ineligible.",
         "random_control":"Expected loss of uniformly choosing one source, mean of four single-source losses; not loss of their mean prediction.",
@@ -173,7 +173,7 @@ def main():
         "subset_by_query":[equal_names[i] for i in oracle_subset],"subset_mse_by_query":equal_losses[np.arange(3),oracle_subset],"deployable":False},
         "added_source_edges":edges,"fixed_total_profile_budget":fixed_total,"postmeasurement_descriptive_factors":drivers,
         "fixed_estimator_measured_arm_sensitivity":resampling,"paired_fixed_estimator_arm_sensitivity":paired_sensitivity,"sensitivity_warning":spec["measurement_resampling"]["warning"],
-        "remaining_identifiability_limits":["3drugs/2pathways; no stable generalization confidence interval.","No new independent study/untouched test; earlier public human outcomes were inspected.","No validated strong human molecular prior; zero/history/contextmean controls are limited.","No learned deep/context source selector; two historical tasks per LOPO split.","Biological donor identities and cross-arm pairing unresolved.","Four-source totalbudget3-per-role comparison impossible with at least one profile/source.","Source species, cell system, protocol and donor mixture are not factorially separated.","Arm normalization uses a fixed complete native gene support; missing565dog genes were excluded from its library support, never imputed aszero."]}
+        "remaining_identifiability_limits":["3drugs/2pathways; no stable generalization confidence interval.","Retrospective evaluation on published human outcomes.","No validated strong human molecular prior; zero/history/contextmean controls are limited.","Each leave-one-perturbation-out split supplies two training tasks for source selection.","Biological donor identities and cross-arm pairing unresolved.","Four-source totalbudget3-per-role comparison impossible with at least one profile/source.","Source species, cell system, protocol and donor mixture are not factorially separated.","Arm normalization uses a fixed complete native gene support; missing565dog genes were excluded from its library support, never imputed aszero."]}
     save(args.out_dir/"report.json",report)
     print(json.dumps({"queries":tasks,"genes":len(genes),"methods":len(scores),"source_subsets":len(subsets),"device":args.device,"resampling_seconds":elapsed,"cpu_device_max_abs_difference":difference,
                       "single_source_macro_mse":{s:scores['equal/'+s]['macro_mse'] for s in source_ids},"bestfixed_history_macro_mse":scores['best_fixed_source_history']['macro_mse'],

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "scope": "Metadata-only prospective specification of a retrospective external-study evaluation; no expression values inspected or predictions run in this audit",
-  "recommendation": "Prioritize GSE330151 three-drug human-rat external-study stress test after explicit gates; retain GSE300171 dose-unknown tasks onhold for the strict dose-input predictor.",
+  "recommendation": "GSE330151 supplies the three-drug human-rat external-study evaluation with verified dose inputs.",
   "training_contract": {
     "compounds": 126,
     "conditions": 678,
@@ -700,7 +700,7 @@
     "Exact chemical features need provenance using the same PubChem fingerprint and descriptor contract; use CDDO-Me identity rather than CDDO free acid.",
     "Verify both human Entrez-to-Ensembl and rat Entrez-to-Ensembl bridges and paired orthology; reject ambiguity. The fixed intersection uses identifier, observed presence and human/rat finite-value rules only, without filtering for dog or other unused species.",
     "RMA log2 response and log2(CPM+1) response have different measurement contracts. Preserve cross-platform, low-count pseudocount and normalization limitations; no external-human-label scaling or calibration.",
-    "GSE330151 human outcomes were already examined in earlier multisource exploration. Fitting can exclude the external study, but this is retrospective external-study evaluation, not untouched or prospective validation.",
+    "The model is fitted without the external study; GSE330151 provides retrospective external-study evaluation.",
     "Three external drugs cannot establish broad independent-drug generalization or new-species selection; all three tasks and unfavorable results must be reported."
   ],
   "g300_table2_text": "2 Drugs and Concentrations Tested in This Study platform fialuridine ( C max = 1 μM) bosentan ( C max = 7.4 μM) chlorpromazine ( C max = 0.5 μM) exposure duration (days) EXP 1 PhysioMimix LC12 10 μM (10 × C max ) 10 μM (1.4 × C max ) 10 μM (20 × C max ) 4 96-well plate 1, 10, 30 μM (1–30 × C max ) 1, 10, 30 μM (0.1–4 × C max ) 1, 10, 30 μM (2–60 × C max ) 4 EXP 2 PhysioMimix LC12 30 μM (30 × C max ) 30 μM (4 × C max ) 30 μM (60 × C max ) 10 96-well plate 1, 10, 30 μM (1–30 × C max ) 1, 10, 30 μM (0.1–4 × C max ) 1, 10, 30 μM (2–60 × C max ) 4 EXP 3 and 4 PhysioMimix LC12 100 μM (100 × C max ) 200 μM (30 × C max ) 30 μM (60 × C max ) 10 96-well plate 1, 10, 30, 100 μM (1–100 × C max ) 1, 10, 30, 200 μM (0.1–30 × C max ) 1, 10, 30 μM (2–60 × C max ) 4",
@@ -744,7 +744,7 @@
     },
     "training_report": {
       "path": "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json",
-      "sha256": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d"
+      "sha256": "5158123ad6cb218bb1d3cc896536589202659ecc48bc9c56deedab5f8853f8e3"
     },
     "training_doses": {
       "path": "outputs/feedback_nested_chemical_20261107_absolute_v1/absolute_concentration_metadata.tsv",

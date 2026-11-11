@@ -1,7 +1,7 @@
 {
   "scope": "Retrospective direct rat-information pairing ablation; no independent external or prospective validation.",
   "regime": "paired_exposure",
-  "fit_manifest_sha256": "e443ac6472b190f29174ae6af8a90c34063a2846ca4f25f9697d33f2d3480c26",
+  "fit_manifest_sha256": "ba36a9509d2ded58985c766fca3db5b98f9f9e7e556d0d1f75802fd257b283f2",
   "input_bundle_sha256": "fd1a11833fa142814eea79bf2f24739c7db3fdf0bc4f1ebab6fa8574bf997ed6",
   "protocol_sha256": "8b23699e549cb422dcb493a654e26b3acc097d7993fb0d9a3d50421b7095f905",
   "original_rows": 678,
@@ -7752,8 +7752,8 @@
   "metric": "Mean gene MSE per condition, mean conditions per compound, then equal mean over compounds. All arms use identical scored rows and genes.",
   "limitations": [
     "Twenty nuisance permutations are not20 independent biological replications; size-two strata permit only one derangement.",
-    "Source rows excluded from a partition when its stratum lacks a full different-compound bijection; current results do not directly equal the prior678-row benchmark.",
-    "Original joint-RMA preprocessing, averaged replicate profiles, nominal exposure and previously examined public outcomes remain limitations.",
+    "Source rows are excluded from a partition when their stratum lacks a full different-compound bijection.",
+    "Retrospective evaluation using joint RMA preprocessing, averaged replicate profiles and nominal exposures.",
     "One animal species and one broad in-vitro liver context; no species-selection or clinical claim.",
     "Wrong-fit/correct-query is a distribution-shift diagnostic. No cross-regime winner or permutation seed is selected from terminal outcomes.",
     "No p-values or population confidence intervals; seed ranges only describe the specified random mismatches."

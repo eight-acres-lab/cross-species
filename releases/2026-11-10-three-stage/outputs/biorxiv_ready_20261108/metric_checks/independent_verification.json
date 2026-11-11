@@ -46,7 +46,7 @@
   ],
   "all27_held_record_combinations_verified": true,
   "production_functions_imported": false,
-  "metric_manifest_sha256": "33a9b37f94528ad6aa10b7a20274ed01ec583e3c621fc6feca15951d5a17e887",
+  "metric_manifest_sha256": "f0bf37c9ecc34154ded16d2f6704e92a61669da6ef8deb3122b3594e79d7cce0",
   "auditor_sha256": "f24b6aec7f667f789e3ef0787a217a5028ce5339c6b6e1f70f1fd713f26c292a",
   "elapsed_seconds": 42.868449142202735,
   "interpretation": [

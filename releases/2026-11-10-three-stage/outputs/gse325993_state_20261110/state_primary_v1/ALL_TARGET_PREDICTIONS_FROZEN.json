@@ -39,8 +39,8 @@
   },
   "fits": 36,
   "target_units": 2,
-  "fits_selected_sha256": "2054f2b34e5c2fc5c5e6fcb0adc66a58491ea457f2bba4f23875d8ecfbab47a4",
+  "fits_selected_sha256": "f2d05b411272743402445d13790c36f8af8641e01f01b62f12f5b2a68e46d06c",
   "target_outcomes_scored": false,
-  "contract_sha256": "b408ae27a57482fa9207242484b87ea491a6f9278744156213df1e4041d78df5",
+  "contract_sha256": "f69e4a440bd35d1ea66b727e5f41fa02e7e412c3b5986b1a6331a883dfc5e9fd",
   "unix_time": 1794277996.0108624
 }

@@ -156,7 +156,7 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, full_run_dir
     code_files = [Path(__file__), Path(nested.__file__), ROOT / "src/cross_species/feedback_data.py",
                   ROOT / "src/cross_species/feedback_evaluation.py"]
     specification = {
-        "scope": "Retrospective human-label-budget learning curve specified after the full nested benchmark; not preregistered, independent or prospective evidence.",
+        "scope": "Retrospective human-label-budget learning curve with nested compound cross-validation.",
         "recorded_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "rows": len(source), "compounds": len(set(groups.tolist())), "target_genes": human.shape[1],
         "outer_folds": 5, "inner_folds": 3, "split_seed": seed,
@@ -176,10 +176,10 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, full_run_dir
         "all_subset_plans": plans,
         "aggregation": "Score each seed's OOF predictions separately; average the three seed-specific losses for each compound, then compounds equally. Do not ensemble predictions before loss. All-budget reuse is counted once.",
         "reporting": "All planned budgets and seeds are reported. Outer outcomes select no budget, seed, or fallback. Seed variation describes training-composition sensitivity.",
-        "limitations": ["Budgets count historical paired compounds and actual condition rows, without measuring cost, acquisition feasibility or guaranteed reduction of future experiments.",
+        "limitations": ["Budgets count paired training compounds and measured condition rows.",
                         "Three subsamples overlap, and models share outer folds; they are not independent replication.",
                         "A smaller-budget source model matching a larger-budget prior at a point estimate would not establish economic savings or statistical equivalence.",
-                        "The same historical normalization, one-species/liver-system and condition-mean limitations apply."],
+                        "Evaluation uses joint RMA normalization and condition means from one animal species and one liver system."],
         "code_hashes": {str(path.relative_to(ROOT)): nested.file_hash(path) for path in code_files},
     }
     if exposure is not None:

@@ -360,17 +360,17 @@
   "training": "For each held perturbation, only other2 perturbations' human/source means fit scalar simplex weights and bestfixedsource. No intercept/gene-specific parameters.",
   "simplex_ridge": 1.0,
   "simplex_penalty": "Mean_task,gene MSE +1*||w-uniform||\u00b2, nonnegative sum1. Fixed without terminal tuning.",
-  "source_selection_visibility": "Bestfixedsource chooses using only historical source-copy losses before acquiring held source response. Heldhuman and unpurchased heldsource responses do not select its identity.",
+  "source_selection_visibility": "Bestfixedsource selects its source using training-task source-copy losses before acquiring the held-out source response. Held-out human and source responses are excluded from source selection.",
   "context_rule": {
     "fixed_known_categories": [
       "NRF2_24h",
       "NRF2_24h",
       "UPR_8h"
     ],
-    "human_baseline": "Mean human history in exact known pathway/time category; if absent use all available history.",
+    "human_baseline": "Mean human response among training tasks in the same pathway/time category; if none are available, the mean across all training tasks is used.",
     "limitation": "Only3drugs with pathway/time confounding. This is not a validated strong molecular/context prior or causal factor attribution."
   },
-  "context_selector": "Not estimated: outer history has2 tasks; deep/context-dependent source recommendation unsupported. Bestfixedhistory is a limited explicit before-measurement rule.",
+  "context_selector": "Bestfixedhistory selects a source using the two training tasks before held-out source measurement; context-dependent selection is not fitted.",
   "added_source_budget": "Each acquired source uses all3treated+3vehicle profiles. More sources therefore add nominal measured-profile budget.",
   "fixed_total_budget": "Exact finite-record expected MSE for3treated+3vehicle profiles total across sources, independent without-replacement draws within each arm, balanced allocations, equal source weights. Four sources cannot satisfy this6-profile budget and are marked ineligible.",
   "random_control": "Expected loss of uniformly choosing one source, mean of four single-source losses; not loss of their mean prediction.",
@@ -391,8 +391,8 @@
   "device_requested": "cuda",
   "precision": "Torch float64 batched resampling, CPU same-count first4draws allmethods parity guard rtol1e-10/atol1e-10.",
   "code_sha256": {
-    "scripts/run_multisource_benchmark.py": "4fc8421804a98c0afd471e5169f397fd708b0b36ba63d68fd45266904e67d2c6",
-    "src/cross_species/multisource_models.py": "8b6f352056a49f431b9110988d1438c0c64ca1428ab183e675289d44106c3ca3",
+    "scripts/run_multisource_benchmark.py": "b1d403c8abe4a545846ac3682f7d99ef3f6edae74c799fa844b68fcd548bfb8e",
+    "src/cross_species/multisource_models.py": "d7c5984b367b31ec219e226a18857597c8887f3998dd1310218fb0a828ea3593",
     "src/cross_species/multisource_data.py": "0a8b577b2391e9f6867262c7967730afc061f2a69736e8694bd7d81f96f15874"
   }
 }

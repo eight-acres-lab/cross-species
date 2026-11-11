@@ -20,7 +20,7 @@ LEARNED = (BASELINE, AUGMENTED)
 
 
 def training_context_means(truth, strata, folds):
-    """Reproduce the stored float32 context-mean convention of the earlier scorer."""
+    """Reproduce the float32 context-mean scoring convention."""
     truth, strata, folds = np.asarray(truth, dtype=float), np.asarray(strata), np.asarray(folds)
     mean = np.empty_like(truth, dtype=np.float32)
     fallbacks = 0
@@ -109,13 +109,13 @@ def run_audit(run_dir):
         sample_ids, genes = payload["sample_ids"].copy(), payload["human_gene_ids"].copy()
         groups, strata, folds = [payload[name].copy() for name in ["compounds", "strata", "outer_fold"]]
     specification = {
-        "scope": "Secondary terminal evaluation of frozen joint OOF predictions after joint MSE inspection. Identification rules were fixed in the earlier specificity analysis; no model refitting or test-based gene selection.",
+        "scope": "Post-hoc identification analysis of fixed joint out-of-fold predictions using the specified retrieval rules and complete gene axis.",
         "source_rule_file": str(rule_path.relative_to(ROOT)), "source_rule_sha256": file_hash(rule_path),
         "inherited_rules": rules,
         "model_intersection": "Common-defined queries for the two frozen joint procedures; report each model's full coverage separately.",
         "model_context_inputs": model_report["context_inputs"],
         "candidate_exposure_scope": "Candidates share outer fold and nominal time/dose level. Their planned absolute rat and human concentrations can differ; this is not a candidate pool matched for full exposure context. The training human context mean uses these same nominal strata.",
-        "human_context_mean": "For each outer test fold, row-weighted human mean by time/nominal-dose from all other folds, with global training mean fallback. Store float32 then score float64, matching the earlier scorer's convention.",
+        "human_context_mean": "For each outer test fold, the human context mean is calculated by time and nominal dose using row weights from all training folds, with the global training mean as fallback. Values are stored in float32 and scored in float64.",
         "gene_axis": "Every supplied human target gene, unchanged; no test-based selection or weighting.",
         "models": list(LEARNED), "references": ["zero_response", "training_human_context_mean"],
         "rows": len(truth), "compounds": len(set(groups.tolist())), "target_genes": truth.shape[1],

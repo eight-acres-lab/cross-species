@@ -1,4 +1,4 @@
-"""Historical TG-GATEs condition-mean inputs for a retrospective feedback pilot.
+"""TG-GATEs condition-mean inputs for retrospective cross-species prediction.
 
 Role assignment and filtering use metadata only. Target responses are returned for
 training/calibration and final diagnostic scoring; callers must respect ``roles``
@@ -27,8 +27,8 @@ CONTEXT_FEATURES = (
 )
 LIMITATIONS = (
     "Condition-level replicate means do not retain single-cell distributions or replicate variance (Zenodo 20204514).",
-    "Historical RMA jointly normalized all available arrays per species before splitting; this pilot remains exploratory and retrospective (source 41a_rma_brainarray.R).",
-    "Historical test outcomes have been examined in prior repository analyses; diagnostic_test is not a prospective or untouched test set (artifacts/tg_gates_rat_human_v1/report.md).",
+    "RMA jointly normalizes all available arrays within each species before splitting (source 41a_rma_brainarray.R).",
+    "The diagnostic_test subset supports retrospective evaluation on published outcomes.",
 )
 ARRAY_FIELDS = (
     "source_delta", "target_delta", "context", "context_feature_ids", "sample_ids",
@@ -280,7 +280,7 @@ def load_feedback_data(
     """Load aligned deltas; cache only in explicitly supplied ``out_dir``.
 
     Human Entrez IDs define the numerically sorted common axis. Calibration is a
-    seeded compound subset of legacy training treatments; all legacy test compounds
+    seeded compound subset of designated training treatments; all designated test compounds
     retain the diagnostic role. Explicit infection metadata excludes a compound.
     LPS is marked as a noninfectious stimulus and retained unless disabled.
     """
@@ -315,9 +315,9 @@ def load_feedback_data(
     for i, row in enumerate(metadata):
         compound, split = row["compound"], row["split"]
         if not compound or split not in {"train", "test"}:
-            raise ValueError(f"Invalid compound or legacy split: {row['pair_id']}")
+            raise ValueError(f"Invalid compound or supplied split: {row['pair_id']}")
         if compound in compound_split and compound_split[compound] != split:
-            raise ValueError(f"Compound crosses legacy splits: {compound}")
+            raise ValueError(f"Compound crosses supplied splits: {compound}")
         compound_split[compound] = split
         times.append(_number(row["time_h"], "time_h"))
         for species in ["rat", "human"]:
@@ -362,7 +362,7 @@ def load_feedback_data(
     train_compounds = sorted({metadata[i]["compound"] for i in eligible_indices if metadata[i]["split"] == "train"})
     n_calib = math.ceil(len(train_compounds) * calibration_fraction)
     if not 0 < n_calib < len(train_compounds):
-        raise ValueError("At least two retained legacy training compounds are required for train/calib roles")
+        raise ValueError("At least two retained training compounds are required for train/calib roles")
     calibration = set(np.random.default_rng(seed).permutation(train_compounds)[:n_calib])
     controls = [control[(metadata[i]["compound"], times[i])] for i in treatment_indices]
     source_delta = rat[treatment_indices] - rat[controls]

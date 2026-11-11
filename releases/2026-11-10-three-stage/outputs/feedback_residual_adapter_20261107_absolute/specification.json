@@ -29,7 +29,7 @@
     "fixed gamma0.5 vs bias_only"
   ],
   "direct_reference": "/Users/zhi/train/outputs/feedback_nested_chemical_20261107_absolute_v1",
-  "direct_report_sha256": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d",
+  "direct_report_sha256": "5158123ad6cb218bb1d3cc896536589202659ecc48bc9c56deedab5f8853f8e3",
   "input_hashes": {
     "pairs_metadata.tsv": "b0a56758d0802db8d12260af4e60f15fd47cbc598641088f6eba04335641786f",
     "pairs_splits.tsv": "b100c061d39834d2d3026731283ed9d87858fe397c6a5e780ed6f15e46a4b17e",
@@ -1107,22 +1107,22 @@
   ],
   "data_warnings": [
     "Condition-level replicate means do not retain single-cell distributions or replicate variance (Zenodo 20204514).",
-    "Historical RMA jointly normalized all available arrays per species before splitting; this pilot remains exploratory and retrospective (source 41a_rma_brainarray.R).",
-    "Historical test outcomes have been examined in prior repository analyses; diagnostic_test is not a prospective or untouched test set (artifacts/tg_gates_rat_human_v1/report.md).",
+    "RMA jointly normalizes all available arrays within each species before splitting (source 41a_rma_brainarray.R).",
+    "The diagnostic_test subset supports retrospective evaluation on published outcomes.",
     "Before absolute-concentration filtering: Dose units are missing for retained conditions; equal dose labels or numeric values do not establish concentration matching.",
     "Before absolute-concentration filtering: Nominal concentration comparison is unknown for 100 retained conditions; unsupported units are not concentration matched.",
     "Absolute-concentration retained cohort has zero unknown/ambiguous units; both arms receive planned nominal molar concentrations."
   ],
   "code_hashes": {
-    "scripts/run_feedback_residual_adapter.py": "fb8c22ccd9389b2374c6e2390562ef8452c85ff1d989669583a9d5d0836dd014",
-    "scripts/run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-    "src/cross_species/feedback_data.py": "7294cb723374ab959f369a73a8287307675abaf73789bf6b1c60dec3397d5232",
-    "src/cross_species/feedback_evaluation.py": "0220078de6b8a171ced7a07aa8bd0174cb12f05e6799c9ef68043c93244aba3c"
+    "scripts/run_feedback_residual_adapter.py": "d8d1bcd803e38ea9b5367c8b36ec1d7bfeabfbb6da8f826a805b84f20bd551c7",
+    "scripts/run_feedback_nested_benchmark.py": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+    "src/cross_species/feedback_data.py": "3f0f17e866471819eb38d2cf0e07070f8d27f92c6dc91c2d1f61ef3facf083e6",
+    "src/cross_species/feedback_evaluation.py": "d9c068d3050ff3e0c3bcf469ecb187428e386f9093f97dfd2e4e417b5f216ccf"
   },
   "interval_scope": "Compound bootstrap of frozen OOF predictions; overlapping outer/reference training induces dependence, without model refitting or donor uncertainty. Percentile population coverage is not established.",
   "limitations": [
     "OOF nuisance priors use two thirds of outer training compounds, whereas deployment priors use all outer training compounds; innovation/error distributions may shift.",
-    "One animal species, one broad liver system, historical joint RMA and averaged profiles remain applicable.",
+    "Evaluation covers one animal species and one broad liver system, with joint RMA normalization and averaged profiles.",
     "The method is classical residual ridge. A runnable update chain does not establish a new optimization method or guarantee positive transfer."
   ],
   "absolute_concentrations": {

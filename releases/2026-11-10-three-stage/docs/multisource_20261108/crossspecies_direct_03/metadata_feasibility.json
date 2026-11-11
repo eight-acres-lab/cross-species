@@ -15,8 +15,8 @@
       "bytes": 27528
     },
     "outputs/feedback_nested_chemical_20261107_absolute_v1/report.json": {
-      "sha256": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d",
-      "bytes": 660509
+      "sha256": "5158123ad6cb218bb1d3cc896536589202659ecc48bc9c56deedab5f8853f8e3",
+      "bytes": 660293
     }
   },
   "concentration_key": "Exact Decimal(raw dose_value) times a declared SI molar conversion; source_exposure uses time and ratM; paired_exposure additionally uses donor-record humanM. No approximate rounding or unit inference.",
@@ -1694,6 +1694,6 @@
     "212 primary eligible test rows belong to two-member strata; these rows admit only one wrong donor. Save duplicate-map diagnostics.",
     "Rowwise exchanges do not preserve a fixed donor-compound mapping across a query compound entire time/dose trajectory.",
     "Chemical structure and animal-response conditional distribution is intentionally broken by this negative control; causal or formal-exchangeability claims are not established.",
-    "New eligible-cohort performance must not be conflated with the older678-row4.97% comparison."
+    "Performance is evaluated on the metadata-eligible cohort defined for each partition."
   ]
 }

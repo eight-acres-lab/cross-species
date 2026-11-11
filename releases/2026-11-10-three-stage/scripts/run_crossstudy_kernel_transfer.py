@@ -140,7 +140,7 @@ def cpu_reference(train_kernel, query_kernel, y_train, y_valid, gpu_model, gpu_q
     new_losses = gpu_model.row_losses(gpu_query, y_valid, ALPHAS)
     loss_gap = float(np.max(np.abs(old_losses - new_losses)))
     if max(prediction_gap, loss_gap) > 1e-8:
-        raise ValueError("Legacy CPU and portable GPU kernel prediction mismatch")
+        raise ValueError("CPU and GPU kernel prediction mismatch")
     return {"prediction_max_abs_difference": prediction_gap, "row_loss_max_abs_difference": loss_gap,
             "tolerance": 1e-8, "passed": True}
 
@@ -219,7 +219,7 @@ def fit_training(train, external, device="cpu"):
         cpu = reference.predict(external_kernels[kernel_name], alpha)
         gap = float(np.max(np.abs(cpu - predictions[name])))
         if gap > 1e-8:
-            raise ValueError("Final external prediction differs from legacy CPU reference")
+            raise ValueError("Final external prediction differs from CPU reference")
         validation.append({"stage": "final_external_prediction", "arm": name,
                            "max_abs_difference": gap, "tolerance": 1e-8, "passed": True})
         if name == "source_plus_context":
@@ -229,7 +229,7 @@ def fit_training(train, external, device="cpu"):
                 cpu_wrong = reference.predict(query, alpha)
                 wrong_gap = float(np.max(np.abs(cpu_wrong - predictions[rule])))
                 if wrong_gap > 1e-8:
-                    raise ValueError("Wrong-source external prediction differs from legacy CPU")
+                    raise ValueError("Wrong-source external prediction differs from CPU reference")
                 validation.append({"stage": "external_cross_condition_diagnostic", "arm": rule,
                                    "donor_indices": donor, "max_abs_difference": wrong_gap,
                                    "tolerance": 1e-8, "passed": True})
@@ -316,8 +316,8 @@ def score_saved(out, input_dir, manifest):
               "internal_portable_model": manifest["internal_portable_model"],
               "external_support": manifest["external_support"], "runtime": manifest["runtime"],
               "interpretation_limits": [
-                  "Study identity is external but these public outcomes were previously inspected by this project; not a new blind or prospective test.",
-                  "Portable model removes TG-GATEs-specific Low/Middle/High indicators and refits on an ID/presence-only common gene axis; it is not an unchanged historical seven-context model checkpoint.",
+                  "Retrospective evaluation on published outcomes from an external study.",
+                  "The portable model is fitted on an ID/presence-only common gene axis with TG-GATEs-specific Low/Middle/High indicators excluded.",
                   "Only three chemicals from two stress pathways; no reliable population uncertainty or source-selection claim.",
                   "TG-GATEs uses joint-RMA microarray condition means; external RNA-seq logCPM responses differ in measurement and preprocessing. No external human scale correction is fitted.",
                   "CDDO-Me100nM is below the TG-GATEs1uM minimum source and target concentration; retain this predeclared extrapolation task.",

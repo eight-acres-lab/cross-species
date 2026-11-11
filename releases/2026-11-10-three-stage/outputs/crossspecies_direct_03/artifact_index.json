@@ -6,17 +6,17 @@
   "human_only_model_training_performed": false,
   "summary": "docs/multisource_20261108/crossspecies_direct_03/FINDINGS.zh.md",
   "local_reports": {
-    "effect_heterogeneity.json": "65cb8f5383f0f6a0584246905186a339d51dce07a59fc17a12215c9c0c257ab6",
-    "execution_freeze.json": "0af6727a04b30861772fe91f6850c87b63219787fa837805c3e7373c74e40b0a",
-    "independent_cpu_audit.json": "0a140115e7370b483f59be6641369e2a33e42e7205ee2428df9ea9426eefc2b9",
-    "independent_scoring_version_audit.json": "0a4570f4643f156de50dcea6a18bccb8a0e113e7b3b371f341208f8ca18d6e7d",
-    "input_manifest.json": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6",
-    "paired_exposure_v1/fit_manifest.json": "e443ac6472b190f29174ae6af8a90c34063a2846ca4f25f9697d33f2d3480c26",
-    "paired_exposure_v1/report.json": "8f56ad9c0915d308c65cf09fa26c9fa28098a7b7c9ccbdee0941004206cce614",
-    "remote_test_verification.json": "9e5e98f872b9d03684ed717d7d9bc8ee949f120c03f1e8208f93ce44eb933c8e",
-    "scoring_code_version.json": "ea1167aeb785f7bab714960def9e1467aa96116714b99927e85bebe084628488",
-    "source_exposure_v1/fit_manifest.json": "2aefb2f129eeb5cf96de13166753f6ccfa69ad71ef88faa3801f17bd8e8c9681",
-    "source_exposure_v1/report.json": "abc8a0063ae0f8d277ca18a890115c7d16cd05cba717394df2fc804a2636213c"
+    "effect_heterogeneity.json": "d0b3ebd55fa4e13e7160ad8b960f225e2d4b2e3cd61c6595a3ecafb3ebb66cbf",
+    "execution_freeze.json": "cb98404e010283be875ee09c91ca63f7573f718f544ef59de9685587393f8248",
+    "independent_cpu_audit.json": "cc2e75303f79ea61e450dbd78e7131927591d9771c36264e4b8724bb2fb4bc78",
+    "independent_scoring_version_audit.json": "5e05ff7cff148cfaa425324921bd4f668feb3ef02673baf8af5a99cf2fa86924",
+    "input_manifest.json": "e1eb3373d776aae239a11dd40b78ddeb95fb09f1ea6d4dd2625179136b6b397a",
+    "paired_exposure_v1/fit_manifest.json": "ba36a9509d2ded58985c766fca3db5b98f9f9e7e556d0d1f75802fd257b283f2",
+    "paired_exposure_v1/report.json": "3ff0a37fc79ce4339832654c8a3922477c6802096f1bb0527fc098c8401fcba2",
+    "remote_test_verification.json": "16babd13d5d62832b6f9ec6f220d4463876d9b95dbe5cb8f218448ec2fd0f3d5",
+    "scoring_code_version.json": "8d6c4ad2e4f4d34813bac8dc2cf0be14a680cfe324d490d4175d83cee0102a83",
+    "source_exposure_v1/fit_manifest.json": "4f4986d9ffaadfa7cab97900e9657e31b5a23f5e320e31b87c7e2d89d7b6aecb",
+    "source_exposure_v1/report.json": "ed6d2e9e35d5d18a46ddb8aa1b6ef7da458965bb8363d630d3a44695b156809e"
   },
   "unfinished_remote_jobs": []
 }

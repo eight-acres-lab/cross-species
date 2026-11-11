@@ -1,16 +1,16 @@
 {
-  "contract_sha256": "c0e51cbe559ed22e483d0323f344adfa211b2294acf606b01b37a1386c8058ef",
-  "scorer_sha256": "8215f718e1060a7d1e8f9c14631a14a0538346d271139c3d0e1dd1c327c7f137",
+  "contract_sha256": "2df7139c3eabf54c0b40a6d3c251d9a912859753d1a3b04a8e56583f092dd791",
+  "scorer_sha256": "e29717a797b7dd599509cd58439c2612edc0b138f8702baca5c6bb61934c41f0",
   "models": 36,
   "biological_target_N": 2,
   "score_rows": 96,
-  "new_global_freeze_sha256": "b25f31bc7405abdd3eca92986cb8c6b8bebd5f37286e39e6d90d65f8e89d0153",
+  "new_global_freeze_sha256": "fb87b4771cbf2b86cc960abcd231de81e2a8f8e59699fe7b4b49c5bbbbc05321",
   "outputs": {
     "line_seed_scores.csv": "ba973586227b259bbdb26b172b16a1cb5458fb5100929a208b8182298545eb76",
     "line_mean_scores.csv": "9c2130c361aa140a4e2e5972ddf9158681d96c9809238fb0d43ee7308cd7ad90",
     "paired_line_seed_differences.csv": "336eea5cca0f65af4633d7931f73d644bbfc6656b34b3fa5bc896f1ac5ff8c4e",
-    "summary.json": "6a99c63c631c55c3eddcf02d8dc67fff92c7a485b88f81bc564820fe8ca249e8",
-    "audit_provenance.json": "c4c22d058633e271d596bff894feaadd9fc9e8e69f8e0a7dde940489b22d7368"
+    "summary.json": "7c275f8023105fe6cc60feaa1345990c202757076a006d405c533020504432cb",
+    "audit_provenance.json": "49054f6df4a8b276f703040ad6f8482574505307268fa1512b675e77b1b445ca"
   },
   "unix_time": 1794292516.2740667
 }

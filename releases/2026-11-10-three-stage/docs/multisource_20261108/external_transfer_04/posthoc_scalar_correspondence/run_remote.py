@@ -105,7 +105,7 @@ def main():
     after = {name: sha(ORIGINAL / name) for name in before}
     if before != after:
         raise ValueError('Original frozen run changed during diagnostic')
-    report = {'scope': 'Posthoc descriptive fixed-scalar drug-correspondence diagnostic after inspection of the external main report.',
+    report = {'scope': 'Post-hoc descriptive drug-correspondence diagnostic with a fixed scalar.',
               'new_model_fitting': False, 'new_hyperparameter_selection': False, 'original_run_unchanged': True,
               'beta': beta, 'independent_training_formula_beta': check_beta, 'fixed_genes': x.shape[1],
               'task_order': source['task_ids'].tolist(), 'rows': rows, 'mse_query_by_donor': mse.tolist(),

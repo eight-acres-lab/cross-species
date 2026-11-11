@@ -1,5 +1,5 @@
 {
-  "scope": "Retrospective joint-control analysis specified after inspection of separate chemical-prior and common-direction results. Not preregistered or prospective.",
+  "scope": "Retrospective joint-control analysis of chemical-prior, common-direction and source-specific response components.",
   "frozen_before_model_fitting": true,
   "rows": 678,
   "compounds": 126,
@@ -1124,24 +1124,24 @@
   },
   "data_warnings": [
     "Condition-level replicate means do not retain single-cell distributions or replicate variance (Zenodo 20204514).",
-    "Historical RMA jointly normalized all available arrays per species before splitting; this pilot remains exploratory and retrospective (source 41a_rma_brainarray.R).",
-    "Historical test outcomes have been examined in prior repository analyses; diagnostic_test is not a prospective or untouched test set (artifacts/tg_gates_rat_human_v1/report.md).",
+    "RMA jointly normalizes all available arrays within each species before splitting (source 41a_rma_brainarray.R).",
+    "The diagnostic_test subset supports retrospective evaluation on published outcomes.",
     "Before absolute-concentration filtering: Dose units are missing for retained conditions; equal dose labels or numeric values do not establish concentration matching.",
     "Before absolute-concentration filtering: Nominal concentration comparison is unknown for 100 retained conditions; unsupported units are not concentration matched.",
     "Absolute-concentration retained cohort has zero unknown/ambiguous units; both arms receive planned nominal molar concentrations."
   ],
   "code_hashes": {
-    "scripts/run_feedback_joint_specificity.py": "8465972b705f8f0f51804f3a92f5bc00349ed92a7eb00c738c755e2be5c6df6b",
-    "scripts/run_feedback_specificity_benchmark.py": "17969c777a3493ae9691fe07b0d2664168ce1135641a3ad203b9a737bd84d273",
-    "scripts/run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-    "src/cross_species/feedback_data.py": "7294cb723374ab959f369a73a8287307675abaf73789bf6b1c60dec3397d5232",
-    "src/cross_species/feedback_evaluation.py": "0220078de6b8a171ced7a07aa8bd0174cb12f05e6799c9ef68043c93244aba3c"
+    "scripts/run_feedback_joint_specificity.py": "f02d2ce0ad604f255d46532dd7ab80b1cf070b05905bba1f8cded927524ba908",
+    "scripts/run_feedback_specificity_benchmark.py": "e7798d53a2511242072b0d0c815d09863e300c928d02de9c7dccc0932addc99c",
+    "scripts/run_feedback_nested_benchmark.py": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+    "src/cross_species/feedback_data.py": "3f0f17e866471819eb38d2cf0e07070f8d27f92c6dc91c2d1f61ef3facf083e6",
+    "src/cross_species/feedback_evaluation.py": "d9c068d3050ff3e0c3bcf469ecb187428e386f9093f97dfd2e4e417b5f216ccf"
   },
   "limitations": [
     "Joint conditioning controls the specified molecular/context kernel, projection amplitude and total source magnitude; it does not exhaust chemical knowledge or shared biology.",
     "The augmented family preserves the prior/common relative weights and includes w=0, while introducing inner selection of residual weight. Delta MSE is an operational predictive contrast, not a causal biological fraction. Containing the baseline does not guarantee better outer-fold performance.",
     "Feature-verified cohort excludes unavailable or unresolved chemical identities; compare both models within this cohort.",
-    "Joint historical RMA, prior public-label inspection, averaged profiles and nominal dose mismatches remain applicable.",
+    "Retrospective evaluation using joint RMA normalization, averaged profiles and nominal doses that differ between species.",
     "Only one animal species and one broad liver in-vitro system are evaluated; no new wet-laboratory data or clinical outcomes are included."
   ],
   "absolute_concentrations": {

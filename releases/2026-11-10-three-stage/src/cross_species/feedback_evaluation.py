@@ -1,8 +1,7 @@
-"""Terminal, compound-macro evaluation for the feedback pilot (NumPy only).
+"""Compound-macro evaluation for cross-species predictions (NumPy only).
 
-These functions consume already frozen predictions. Bootstrap intervals condition on
-the fitted models and resample compounds, without refitting or pretending that genes,
-cells, or candidates are independent test tasks.
+These functions consume frozen predictions. Bootstrap intervals condition on
+the fitted models and resample compounds. The resampling unit is the compound.
 """
 import numpy as np
 

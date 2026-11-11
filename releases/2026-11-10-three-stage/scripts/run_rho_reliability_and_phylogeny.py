@@ -1,38 +1,20 @@
 #!/usr/bin/env python3
-"""Explore species-pair matrix agreement and sensitivity to taxonomy.
+"""Measure species-pair matrix agreement, split-half reliability and taxonomy sensitivity.
 
-Interpretation audit (2026-11-06): unrestricted species-label permutations do not
-preserve phylogenetic covariance. Partial Mantel p-values are exploratory and do not
-establish independence conditional on phylogeny. Holm adjustment cannot repair an
-uncalibrated null. See Guillot & Rousset (2013), doi:10.1111/2041-210X.12018.
+The blood panel uses a no-LPS control matched to each subject and timepoint.
+Its three timepoints provide separate control sets across ten species: 45 species
+pairs, including 35 pairs from different taxonomic orders. Dose arms at the same
+timepoint share controls and are evaluated within that timepoint.
 
-The original rationale for the archived calculation follows:
+Split-half estimates partition subjects within each context to measure reliability.
+Cross-context agreement is reported alongside this within-context precision.
+Taxonomy sensitivity restricts comparisons to different orders (taxonomic distance
+at least 4) and computes partial correlations controlling for graded distance.
 
-The business case rests on rho being a measurable property of a context. An earlier check
-found the matrix measured in one context predicts another at Spearman +0.55 and +0.60, but
-restricting to species pairs in different taxonomic orders left six and four pairs, at which
-nothing could be concluded. This widens that test.
-
-Two things make it possible. First, the blood panel subtracts a no-LPS control matched to
-each (subject, time), verified by reading the preparation script, so its three timepoints are
-control-disjoint and can serve as three contexts over the full ten-species set -- 45 pairs, 35
-of them across taxonomic orders. Its dose arms at one timepoint share a control and are never
-used as separate contexts.
-
-Second, rho has a measurement error of its own, and until now it has been compared against
-nothing. Splitting subjects within one context and measuring rho twice gives that reliability,
-so cross-context agreement can be reported as a fraction of what rho's own precision permits,
-in the same currency as everything else in this project.
-
-Phylogeny enters two ways: as a hard restriction to pairs in different orders, and as a graded
-taxonomic distance partialled out of both sides.
-
-Two corrections after review. The restriction now starts at a taxonomic distance of 4, which
-is where different orders begin; an earlier threshold of 3 re-admitted six same-order pairs,
-four of them primate-primate and the highest-rho points in the panel. And significance is
-assessed by relabelling species rather than by shuffling pair values, because the entries of a
-species-by-species matrix are not exchangeable and shuffling them yields a null that is too
-narrow.
+Species-label permutations retain each matrix's internal dependence. They do not
+preserve its relationship to phylogeny, so partial Mantel p-values describe an
+exploratory permutation analysis. Holm adjustment addresses multiplicity within
+that analysis. See Guillot & Rousset (2013), doi:10.1111/2041-210X.12018.
 """
 import argparse, csv, itertools, json, math
 from pathlib import Path
@@ -183,9 +165,7 @@ def compare(m1, m2, label, rng, n_perm=20000):
     y = np.array([m2[p] for p in pairs])
     td = np.array([taxdist(*p) for p in pairs], dtype=float)
     # td is 1 same genus, 2 same family, 3 same ORDER, 4 same superorder, 5 beyond.
-    # An earlier version used td >= 3, which re-admitted the six same-order pairs --
-    # four of them primate-primate, the highest-rho points in the panel -- while calling
-    # them cross-order. Different order starts at 4.
+    # Different taxonomic orders have distance at least 4.
     cross = td >= 4
     res = {'label': label, 'n_pairs': len(pairs), 'n_cross_order': int(cross.sum())}
 
@@ -312,11 +292,8 @@ def main():
                 p2[x] = j
         i1 = np.array([p1[x] for x in shared]); i2 = np.array([p2[x] for x in shared])
         print(f'\n=== blood vs {name} ({len(shared):,} shared genes) ===')
-        # Two estimators of the same quantity, reported together because they disagree and
-        # the earlier run used the second one. "pooled" correlates the condition-averaged
-        # vectors; "per-condition" averages the correlation computed inside each condition,
-        # which keeps each condition's own structure instead of letting the across-condition
-        # consensus dominate.
+        # "Pooled" correlates condition-averaged vectors. "Per-condition" averages
+        # the correlations computed within individual conditions.
         mb = rho_matrix(species_vectors(rows, data, lambda r: True), i1)
         mo = rho_matrix(species_vectors(rows2, d2, lambda r: True), i2)
         r = compare(mb, mo, f'blood vs {name} [pooled]', rng)

@@ -1,9 +1,9 @@
 {
-  "contract_sha256": "b408ae27a57482fa9207242484b87ea491a6f9278744156213df1e4041d78df5",
-  "global_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
-  "selected_fits_sha256": "2054f2b34e5c2fc5c5e6fcb0adc66a58491ea457f2bba4f23875d8ecfbab47a4",
-  "specification_sha256": "02d3bf4da5b1c4c7c1d267314422b6a612374019d18a065aa7cd2409fb501064",
-  "split_manifest_sha256": "432e887e7dc539d0275e2b1498fb8d643355a31a04ccd59aa62f7313a2a2bf70",
+  "contract_sha256": "f69e4a440bd35d1ea66b727e5f41fa02e7e412c3b5986b1a6331a883dfc5e9fd",
+  "global_freeze_sha256": "25f88bed76ef7fbb84056658424ece4c0f4f5283c387b02533bf1f111474ca33",
+  "selected_fits_sha256": "f2d05b411272743402445d13790c36f8af8641e01f01b62f12f5b2a68e46d06c",
+  "specification_sha256": "cefed6002669c7355b5aab53d3e85487bf0ca282d046556faf077b5fe02c0b65",
+  "split_manifest_sha256": "08f5c1377dc1d0bbc00d8f9e15f71c04d888a83b25f96070b0cbeb992dc34685",
   "splits_sha256": "ea1356a590a9b05ae68be33b366232c56482c0857d077ca969c1f9a1db8537b3",
   "input_files": {
     "manifest.json": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
@@ -24,7 +24,7 @@
   "code_snapshot_root": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/code_snapshot_v1",
   "actual_code_snapshot_files_verified": 3,
   "split_runner_hash_matches_training_runner": true,
-  "scorer_sha256": "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3",
+  "scorer_sha256": "4753fd159f06684e24d0954d3ffeb3321ad766ea1c0a4f8aa124d9b00ce0cc69",
   "energy": {
     "library": "GeomLoss0.3.1",
     "source_hashes": {

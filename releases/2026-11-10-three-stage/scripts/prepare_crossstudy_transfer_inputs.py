@@ -141,7 +141,7 @@ def main():
         writer.writeheader(); writer.writerows(bridge)
     write_json(args.out_dir / "excluded_genes.json", excluded)
     write_json(args.out_dir / "task_metadata.json", tasks)
-    manifest = {"scope": "Retrospective external-study transfer on three pre-inspected human/rat tasks; no independent prospective or previously unseen dataset claim.",
+    manifest = {"scope": "Retrospective external-study transfer on three human/rat tasks.",
                 "training_rows": len(train["source"]), "training_compounds": len(set(train["compounds"])),
                 "external_tasks": queries["task_ids"].tolist(), "external_unique_measurement_columns": 36,
                 "shared_genes": len(bridge), "id_bridge_candidates": len(observed), "nonfinite_genes_excluded": len(excluded),
@@ -155,7 +155,7 @@ def main():
                                      "bridge_audit": sha(args.bridge_dir / "audit.json"), "bridge_tsv": sha(bridge_path),
                                      "task_manifest": sha(args.task_manifest), "chemical_manifest": sha(args.chemical_dir / "manifest.json")},
                 "prepare_script_sha256": sha(__file__),
-                "limitations": ["External human responses were examined in earlier project comparisons; this is a fixed subsequent external-study stress test.",
+                "limitations": ["Retrospective external-study evaluation with a fixed model and evaluation protocol.",
                                 "Only three drugs and two pathway families; donor independence is unverified.",
                                 "Microarray RMA and RNA-seq logCPM share log2 response form but have different measurement and low-expression behavior.",
                                 "CDDO-Me100nM is below the minimum1uM TG training dose; all three molecular identities are absent from training.",

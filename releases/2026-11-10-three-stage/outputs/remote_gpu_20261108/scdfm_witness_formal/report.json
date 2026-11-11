@@ -5089,7 +5089,7 @@
       "perturbation_function": "drug"
     }
   },
-  "specification_sha256": "0aad7ea40e8c4eb65a95141b3b2dd81582d14d5f07e846e74017aeccdb75d33f",
+  "specification_sha256": "dac6ee5f2681b7709dd20e1f8d03b9b957b66d213ace617cb31d9c361ed3bb9b",
   "cuda": {
     "device": "NVIDIA A800 80GB PCIe",
     "peak_allocated_bytes": 76306307072,

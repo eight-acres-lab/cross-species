@@ -9,7 +9,7 @@
       ],
       "all_fit_and_selection_functions_identical_AST": true,
       "frozen_fit_module_sha256": "ad8b23a9e0982814eb838a8075a9da49c930d8cc1d63d3a78081e6df3b187065",
-      "live_scoring_module_sha256": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+      "live_scoring_module_sha256": "f434adbf5fe0b70bae835e12eb72ef4927de99eb0d75cc5e5eb08ecee892fdce",
       "report_manifest_linkage_verified": true
     },
     {
@@ -19,7 +19,7 @@
       ],
       "all_fit_and_selection_functions_identical_AST": true,
       "frozen_fit_module_sha256": "ad8b23a9e0982814eb838a8075a9da49c930d8cc1d63d3a78081e6df3b187065",
-      "live_scoring_module_sha256": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+      "live_scoring_module_sha256": "f434adbf5fe0b70bae835e12eb72ef4927de99eb0d75cc5e5eb08ecee892fdce",
       "report_manifest_linkage_verified": true
     }
   ]

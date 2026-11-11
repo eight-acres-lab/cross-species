@@ -1,16 +1,16 @@
 {
-  "contract_sha256": "b408ae27a57482fa9207242484b87ea491a6f9278744156213df1e4041d78df5",
-  "scorer_sha256": "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3",
+  "contract_sha256": "f69e4a440bd35d1ea66b727e5f41fa02e7e412c3b5986b1a6331a883dfc5e9fd",
+  "scorer_sha256": "4753fd159f06684e24d0954d3ffeb3321ad766ea1c0a4f8aa124d9b00ce0cc69",
   "outputs": {
     "line_seed_scores.csv": "d26171b9acaf26ea7450b5190453ac7a6d6e4e29bb6cb0eb3ca12a30266c38fa",
     "line_mean_scores.csv": "0b5409db23abbad32160a3d9530808b3cef11be19b41ff98a3b8fb1fef71d933",
     "paired_line_seed_differences.csv": "c05e5a11bc19f7cda460d94c06bd7404f16c549316f09d32fe19fd33deb7514d",
-    "summary.json": "a09532a3530f767515ea6eb6ba9aa53899e2b51dca5b1f4b280164cedbe7197a",
-    "audit_provenance.json": "55e995620b9156c7a0147f8d582be704d8fc87d562c12b2067d308d09ca91b6a"
+    "summary.json": "63043f64fd15a741c731972f3668ad0687d4d8aae4feae44cb5ba07547f3a664",
+    "audit_provenance.json": "2fd273e80573bdf6c72d1e9d5863ffdbf468e2d8beff811d35cc9fbcc605f2fd"
   },
   "fits": 36,
   "line_seed_variant_rows": 96,
   "biological_target_N": 2,
-  "global_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
+  "global_freeze_sha256": "25f88bed76ef7fbb84056658424ece4c0f4f5283c387b02533bf1f111474ca33",
   "unix_time": 1794278169.9685223
 }

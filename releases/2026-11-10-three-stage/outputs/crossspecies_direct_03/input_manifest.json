@@ -956,14 +956,14 @@
   },
   "raw_rebuild_equals_existing_input_arrays": true,
   "outer_and_inner_assignments_match_saved_original": true,
-  "reference_report_sha256": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d",
+  "reference_report_sha256": "5158123ad6cb218bb1d3cc896536589202659ecc48bc9c56deedab5f8853f8e3",
   "reference_predictions_sha256": "863d7a41d1984e7d0fcfd023a4cf30ea0ffe67d2dd6b7eda436eedfb24370432",
   "prepare_script_sha256": "222911fed6716cdf4d8c7c63117a52b32b345343f7698a2afb3d2171d9c14a88",
-  "legacy_kernel_script_sha256": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
+  "legacy_kernel_script_sha256": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
   "warnings": [
     "Condition-level replicate means do not retain single-cell distributions or replicate variance (Zenodo 20204514).",
-    "Historical RMA jointly normalized all available arrays per species before splitting; this pilot remains exploratory and retrospective (source 41a_rma_brainarray.R).",
-    "Historical test outcomes have been examined in prior repository analyses; diagnostic_test is not a prospective or untouched test set (artifacts/tg_gates_rat_human_v1/report.md).",
+    "RMA jointly normalizes all available arrays within each species before splitting (source 41a_rma_brainarray.R).",
+    "The diagnostic_test subset supports retrospective evaluation on published outcomes.",
     "Before absolute-concentration filtering: Dose units are missing for retained conditions; equal dose labels or numeric values do not establish concentration matching.",
     "Before absolute-concentration filtering: Nominal concentration comparison is unknown for 100 retained conditions; unsupported units are not concentration matched.",
     "Absolute-concentration retained cohort has zero unknown/ambiguous units; both arms receive planned nominal molar concentrations."

@@ -2,7 +2,7 @@
   "scope": "Witness-only sensitivity aligned with PerturbCellRL v2 Appendix C velocity objective, on the released scDFM architecture and weights. No expression-support/pathway terms; no complete reproduction claim.",
   "source_paper": "https://arxiv.org/html/2606.27752v2#SSc0.SS3",
   "post_hoc": true,
-  "design_timing": "Designed after previous custom population-NFT and native-FM test scores were viewed. New outcomes are not used to alter this recipe.",
+  "design_timing": "Post-hoc sensitivity analysis with a fixed evaluation recipe.",
   "roles": {
     "train": [
       "Alvespimycin+Pirarubicin",
@@ -46158,11 +46158,11 @@
     "manifest": "dc52a115c51f636dad7fc33ce99043fccc21d931ba81c4f3c207405d42c9ab1a"
   },
   "code_hashes": {
-    "scripts/run_scdfm_witness_sensitivity.py": "7be019916afa3ac07163d769eadd289e9433f9b3392013b85dc159b2053e3305",
+    "scripts/run_scdfm_witness_sensitivity.py": "2254eada7df3742676daa295a1a385ea41d4c5223ca20e86889a203cc3310a38",
     "src/cross_species/scdfm_witness.py": "f2f5efd6ea0069eff260480083359131acb6935ac611731a927d0833cb849b09",
     "src/cross_species/official_scdfm.py": "279b53a408f6ddf80cad7ac49c2abdaa06b3aede8673fe9df42fa74a084a3c50",
     "src/cross_species/scdfm_feedback.py": "4261cae22e1a6d1273b3b52c9e7fd315b846d6746dfa7b5ec0db494f83c97bea",
-    "scripts/run_scdfm_nft_benchmark.py": "6073f36840979f6b7e1361429c9f5004cd6a38e93d83466307a2139a1c44b666",
+    "scripts/run_scdfm_nft_benchmark.py": "8076b434ab4ccdafab8080d2b4f1e7b5caaf04b2b4d3127a6d1507e910bc7371",
     "scripts/run_official_state_benchmark.py": "9656d96baabc8ab7e368ca859ef6d81b5834671fd71a037724586b5474ccaf93"
   }
 }

@@ -17,7 +17,7 @@ import time
 
 import numpy as np
 
-CONTRACT_SHA = "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9"
+CONTRACT_SHA = "b0675040fde2a096770303591984689058f8d30cba1bc5af20c0cf9dff89f885"
 ARMS = ("H", "H+Rabbit", "H+Hextra", "H+RabbitA0")
 BOOTSTRAP_SEED = 20261110
 BOOTSTRAP_REPLICATES = 10000
@@ -416,7 +416,7 @@ def main():
     if args.verify_only:
         print(json.dumps(provenance, indent=2))
         return
-    require(not args.out.exists(), "Use a new audit output directory; preserve prior audit artifacts")
+    require(not args.out.exists(), "Use an empty audit output directory")
     energy = NativeEnergy(args.device)
     # No assay expression has been opened before this line.
     data = load_npz(args.prepared / "lps_primary_arrays.npz")
@@ -425,8 +425,7 @@ def main():
     summary, paired_rows = summarize(records, fits)
     provenance.update({"scorer_sha256": sha256(__file__), "audit_started_after_full_freeze": True,
                        "native_energy": energy.metadata, "numpy_version": np.__version__,
-                       "fit_audit": fit_audit, "limitations": contract["interpretation"]["limitations"],
-                       "historical_evidence_preserved": contract["scope"]["historical_negative_evidence"]})
+                       "fit_audit": fit_audit, "limitations": contract["interpretation"]["limitations"]})
     args.out.mkdir(parents=True)
     write_csv(args.out / "donor_scores.csv", records)
     write_csv(args.out / "paired_donor_differences.csv", paired_rows)

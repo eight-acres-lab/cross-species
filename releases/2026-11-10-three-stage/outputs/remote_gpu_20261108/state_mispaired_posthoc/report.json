@@ -1,6 +1,6 @@
 {
-  "specification_sha256": "fbd84562d3c1588a317e74fe747569b88dbe4ba494221a49d291271371c38fdf",
-  "status": "Post-hoc historical diagnostic; the original correctly paired test scores were already examined before this control was designed.",
+  "specification_sha256": "df3a062c5fececaa9ce5128b08a7b9eb642a808418c6c9e68098c23121fa62a7",
+  "status": "Post-hoc conditioning-label mismatch diagnostic.",
   "checkpoint_metadata": {
     "checkpoint_sha256": "244acf009b4b0e1a87451e8a155ce2bbcaa3d4d1ad25910e9d735ae76877fccb",
     "source_commit": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",

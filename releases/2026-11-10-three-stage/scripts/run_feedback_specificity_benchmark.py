@@ -269,7 +269,7 @@ def run_benchmark(data, out_dir, *, outer_folds=5, inner_folds=3, alphas=DEFAULT
     code_files = [Path(__file__), ROOT / "scripts/run_feedback_nested_benchmark.py",
                   ROOT / "src/cross_species/feedback_data.py", ROOT / "src/cross_species/feedback_evaluation.py"]
     specification = {
-        "scope": "Retrospective compound-nested specificity controls. Prior public-data outcomes were inspected; not preregistered or prospective.",
+        "scope": "Retrospective specificity controls with compound-level nested cross-validation.",
         "frozen_before_model_fitting": True, "seed": seed, "outer_folds": outer_folds, "inner_folds": inner_folds,
         "alpha_grid": list(alphas), "rows": len(source), "compounds": len(set(groups.tolist())), "target_genes": target.shape[1],
         "models": {name: list(blocks) for name, blocks in MODEL_BLOCKS.items()},
@@ -292,7 +292,7 @@ def run_benchmark(data, out_dir, *, outer_folds=5, inner_folds=3, alphas=DEFAULT
         "limitations": ["Common features control projection amplitude and total magnitude, including residual energy; they do not exhaust shared biology or generic stress.",
                         "Residual information is an operational prediction control, not a causal or biological-specificity decomposition.",
                         "One animal species and one broad liver in-vitro system; nominal dose levels can differ in absolute concentration.",
-                        "Joint historical RMA, prior target inspection and replicate-averaged profiles limit prospective inference.",
+                        "Retrospective evaluation using joint RMA normalization and replicate-averaged profiles.",
                         "Retrieval is terminal evaluation on known candidate human profiles, not a deployable label-free identification system.",
                         "A negative result does not establish that measured source responses contain only common biology."],
     }

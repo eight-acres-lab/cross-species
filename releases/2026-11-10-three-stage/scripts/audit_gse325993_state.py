@@ -14,7 +14,7 @@ from pathlib import Path
 import time
 import numpy as np
 
-CONTRACT_SHA = "b408ae27a57482fa9207242484b87ea491a6f9278744156213df1e4041d78df5"
+CONTRACT_SHA = "f69e4a440bd35d1ea66b727e5f41fa02e7e412c3b5986b1a6331a883dfc5e9fd"
 ARMS = ("H", "Hextra_cells", "Monkey56", "Monkey56A0", "Monkey82", "Monkey82A0")
 SEEDS = (20261110, 20261111, 20261112)
 SOURCES = ("Monkey56", "Monkey82")

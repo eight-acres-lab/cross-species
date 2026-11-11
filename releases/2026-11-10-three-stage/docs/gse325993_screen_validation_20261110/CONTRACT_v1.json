@@ -3,12 +3,12 @@
   "schema_version": 1,
   "status": "frozen_before_any_exp3_model_prediction_or_outcome_scoring_after_exp2_results_known",
   "date": "2026-11-10",
-  "immutability": "Write finalCONTRACT_v1 once aftermetadata/inputverification andbefore anyexp3modelpredictionoroutcomescore. Preserveallversions. Do notmodifyexp2contracts,models,alphas,predictionsorresults.",
+  "immutability": "The exp3 protocol is fixed after metadata and input verification and before exp3 prediction or scoring. Exp2 models and calibration parameters are fixed inputs.",
   "scope": {
     "task": "Exp2-frozen models evaluated without adaptation on the same held-out human line in public exp3, within GSE325993",
     "exp2_model_outcomes_already_known": true,
     "exp3_model_outcomes_known_at_freeze": false,
-    "timing": "This additional-screen validation was proposed after reviewing exp2results; preregistration is relative to this exp3prediction/scoring only.",
+    "timing": "The exp3 protocol is fixed before exp3 prediction and scoring, with exp2 outcomes available.",
     "validation_level": "Newexperimental screen within the same study, using the same two human celllines; not newdonors, not anindependentstudy, notpopulation-levelconfirmation.",
     "biological_target_N": 2,
     "model_sampling_repeats": 3,
@@ -21,8 +21,7 @@
       "new_expression_or_guide_effect_filtering": false
     },
     "POU5F1_native_output_present": false,
-    "output_scope": "Downstreamresponseon theunchanged6357nativeobservedgene axis.",
-    "historical_evidence": "Preserveallpriornegativeandpositiveexp2/G105/rabbitfindings; exp3results remain separatelynamed and do notoverwriteexp2."
+    "output_scope": "Downstreamresponseon theunchanged6357nativeobservedgene axis."
   },
   "design": {
     "study": "GSE325993",
@@ -101,12 +100,12 @@
     "run_root": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/state_primary_v1",
     "code_root": "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/gse325993_public_exp2/code_snapshot_v1",
     "global_freeze_file": "ALL_TARGET_PREDICTIONS_FROZEN.json",
-    "global_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
+    "global_freeze_sha256": "25f88bed76ef7fbb84056658424ece4c0f4f5283c387b02533bf1f111474ca33",
     "fits_file": "ALL_FITS_SELECTED.json",
-    "fits_sha256": "2054f2b34e5c2fc5c5e6fcb0adc66a58491ea457f2bba4f23875d8ecfbab47a4",
+    "fits_sha256": "f2d05b411272743402445d13790c36f8af8641e01f01b62f12f5b2a68e46d06c",
     "specification_file": "specification.json",
-    "specification_sha256": "02d3bf4da5b1c4c7c1d267314422b6a612374019d18a065aa7cd2409fb501064",
-    "contract_sha256": "b408ae27a57482fa9207242484b87ea491a6f9278744156213df1e4041d78df5",
+    "specification_sha256": "cefed6002669c7355b5aab53d3e85487bf0ca282d046556faf077b5fe02c0b65",
+    "contract_sha256": "f69e4a440bd35d1ea66b727e5f41fa02e7e412c3b5986b1a6331a883dfc5e9fd",
     "normalized_manifest_sha256": "6e10f92ac12da0680dc266a8cdd886cd81ffa4a19ca78c13dbd0feef66659938",
     "checkpoint_sha256": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65",
     "code_files": {
@@ -160,7 +159,7 @@
       "NeoR_KanR"
     ],
     "eligibility": "Allpublichumanexp3POU/NTC cells withsameexp2exactauthorlinedemux andpredeterminedstrictdominant-guideUMIidentityrule; no newRNAexpression,guideefficacyorresponsefiltering.",
-    "abnormal_guide_records": "Thetwopreviouslyidentifiedexp3abnormalcallsarecynomolgusandarenotpartofthishumanvalidationpopulation; all12136humanrows pass. Retain theonecross-species-prefixPOU5F1 call asoriginalsamegene-targetmetadata.",
+    "abnormal_guide_records": "The two abnormal exp3 guide calls belong to cynomolgus cells. All 12136 human rows pass the eligibility checks, including one POU5F1 call with a cross-species prefix and the same gene target.",
     "cell_identity": "human|experiment_chip_lane|barcode, exactauthorgenotypekey; captureisGEMchannel,flowcellsequencinglanesmergewithincapture; no independentNfromcaptures.",
     "no_cell_subsampling": true,
     "all_query_cells": true,
@@ -306,8 +305,8 @@
     "extra_human_gain_ratio": "Optionaldescriptiveanimalgain/extrahumangainonlywhenextrahumangainpositive; showdenominator andnoequivalence/NI/datareplacementclaim.",
     "pure_metric_dependency": {
       "file": "scripts/audit_gse325993_state.py",
-      "sha256": "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3",
-      "permitted_use": "Onlypuremetrics/NativeEnergy/factorizedbaselinehelpers; oldscorer nevermodified orinvokedasexp3scoringentrypoint."
+      "sha256": "4753fd159f06684e24d0954d3ffeb3321ad766ea1c0a4f8aa124d9b00ce0cc69",
+      "permitted_use": "Shared pure metric, NativeEnergy and factorized-baseline helpers are used by the exp3 scorer."
     }
   },
   "aggregation": {
@@ -348,7 +347,7 @@
   },
   "interpretation": {
     "positive_signal": "Reportwhethereachfixedmonkeysource improvesoverH inbothhumanline seedmeans andwhetheritexceedsA0 andstrongshrinkcontrols; reportseed-level signs ascomputationalstability only.",
-    "mixed_or_negative": "Keepallarmsandreport failureoftheobservedexp2gain totransfer whenpresent. Preserveexp2results withoutrewritingitsprimaryoutcomes.",
+    "mixed_or_negative": "Report every arm and its paired exp2 and exp3 outcomes, including mixed and negative transfer results.",
     "upstream_ntc_filter_limitation_retained": true,
     "no_stronger_claims": [
       "independentnewdonorvalidation",

@@ -2,7 +2,7 @@
   "reports": [
     {
       "regime": "source_exposure",
-      "frozen_fit_manifest_sha256": "2aefb2f129eeb5cf96de13166753f6ccfa69ad71ef88faa3801f17bd8e8c9681",
+      "frozen_fit_manifest_sha256": "4f4986d9ffaadfa7cab97900e9657e31b5a23f5e320e31b87c7e2d89d7b6aecb",
       "common_defined_conditions": 467,
       "undefined_conditions": 0,
       "candidate_counts": [
@@ -929,7 +929,7 @@
     },
     {
       "regime": "paired_exposure",
-      "frozen_fit_manifest_sha256": "e443ac6472b190f29174ae6af8a90c34063a2846ca4f25f9697d33f2d3480c26",
+      "frozen_fit_manifest_sha256": "ba36a9509d2ded58985c766fca3db5b98f9f9e7e556d0d1f75802fd257b283f2",
       "common_defined_conditions": 208,
       "undefined_conditions": 0,
       "candidate_counts": [

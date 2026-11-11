@@ -22,7 +22,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/state_mispaired_posthoc/report.json",
-      "source_sha256": "49af5c193024cf0fc7d9e8a213a2d6c42662ac473cce5ff6f2fb6a6239842c80",
+      "source_sha256": "15184617da669d84cdb4726c71e5755ffc62d16a03825aee939f629d9d1ade89",
       "pointer": "/mismatched_test/macro/native_energy",
       "actual": 0.34225564201672876,
       "displayed_value": 0.34225564,
@@ -58,7 +58,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/released_checkpoint/macro/energy_u",
       "actual": 0.38620847708330325,
       "displayed_value": 0.38620848,
@@ -67,7 +67,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/released_checkpoint/macro/mean_mse",
       "actual": 0.004138985191405352,
       "displayed_value": 0.00413899,
@@ -76,7 +76,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/native_fm/macro/energy_u",
       "actual": 0.27721207386575214,
       "displayed_value": 0.27721207,
@@ -85,7 +85,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/native_fm/macro/mean_mse",
       "actual": 0.0032218186617163675,
       "displayed_value": 0.00322182,
@@ -94,7 +94,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/nft/macro/energy_u",
       "actual": 0.6429087028248485,
       "displayed_value": 0.6429087,
@@ -103,7 +103,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/nft/macro/mean_mse",
       "actual": 0.00701502973346838,
       "displayed_value": 0.00701503,
@@ -112,7 +112,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/terminal_gradient/macro/energy_u",
       "actual": 0.21882564934422158,
       "displayed_value": 0.21882565,
@@ -121,7 +121,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_nft_formal/report_audited.json",
-      "source_sha256": "8cd609df5e470cd725b56549e039a3f0d35c75749de8b83264952c6c38ae551f",
+      "source_sha256": "2a35806d228c08c60c5d35d119642d2f8a389463d92d76ee80906fe064c5a8c5",
       "pointer": "/test/terminal_gradient/macro/mean_mse",
       "actual": 0.0029716303813204703,
       "displayed_value": 0.00297163,
@@ -130,7 +130,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_witness_formal/evaluation_float64.json",
-      "source_sha256": "ba4b8331fcfc1354801e674445706d64c1cd8b789132ba70a36a7d5dc718c5b2",
+      "source_sha256": "f2ce699e0c3d5a784f18fbf1f1071b8471cfdc6586639fb33fb0115a5a75da2e",
       "pointer": "/evaluation/released_checkpoint/macro/energy_v",
       "actual": 0.5889541511654394,
       "displayed_value": 0.58895415,
@@ -139,7 +139,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_witness_formal/evaluation_float64.json",
-      "source_sha256": "ba4b8331fcfc1354801e674445706d64c1cd8b789132ba70a36a7d5dc718c5b2",
+      "source_sha256": "f2ce699e0c3d5a784f18fbf1f1071b8471cfdc6586639fb33fb0115a5a75da2e",
       "pointer": "/evaluation/released_checkpoint/macro/mean_mse",
       "actual": 0.0034183869790233618,
       "displayed_value": 0.00341839,
@@ -148,7 +148,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_witness_formal/evaluation_float64.json",
-      "source_sha256": "ba4b8331fcfc1354801e674445706d64c1cd8b789132ba70a36a7d5dc718c5b2",
+      "source_sha256": "f2ce699e0c3d5a784f18fbf1f1071b8471cfdc6586639fb33fb0115a5a75da2e",
       "pointer": "/evaluation/witness/macro/energy_v",
       "actual": 0.4965619540382222,
       "displayed_value": 0.49656195,
@@ -157,7 +157,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_witness_formal/evaluation_float64.json",
-      "source_sha256": "ba4b8331fcfc1354801e674445706d64c1cd8b789132ba70a36a7d5dc718c5b2",
+      "source_sha256": "f2ce699e0c3d5a784f18fbf1f1071b8471cfdc6586639fb33fb0115a5a75da2e",
       "pointer": "/evaluation/witness/macro/mean_mse",
       "actual": 0.003036695566007234,
       "displayed_value": 0.0030367,
@@ -166,7 +166,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_witness_formal/evaluation_float64.json",
-      "source_sha256": "ba4b8331fcfc1354801e674445706d64c1cd8b789132ba70a36a7d5dc718c5b2",
+      "source_sha256": "f2ce699e0c3d5a784f18fbf1f1071b8471cfdc6586639fb33fb0115a5a75da2e",
       "pointer": "/evaluation/native_fm/macro/energy_v",
       "actual": 0.4906085763470221,
       "displayed_value": 0.49060858,
@@ -175,7 +175,7 @@
     },
     {
       "file": "outputs/remote_gpu_20261108/scdfm_witness_formal/evaluation_float64.json",
-      "source_sha256": "ba4b8331fcfc1354801e674445706d64c1cd8b789132ba70a36a7d5dc718c5b2",
+      "source_sha256": "f2ce699e0c3d5a784f18fbf1f1071b8471cfdc6586639fb33fb0115a5a75da2e",
       "pointer": "/evaluation/native_fm/macro/mean_mse",
       "actual": 0.002762831779577209,
       "displayed_value": 0.00276283,
@@ -268,6 +268,6 @@
     "state2026",
     "walther2016"
   ],
-  "scope": "Selected supplementary table and key legacy values match authoritative saved reports; no biological claim validated solely by matching numbers.",
+  "scope": "Supplementary table values match the deposited reports.",
   "prose_revision_note": "Removed a rhetorical contrast; source numbers and audit checks unchanged."
 }

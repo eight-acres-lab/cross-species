@@ -95,7 +95,7 @@ def main():
     token_ids = np.load(args.processed_dir/"gene_token_ids.npy", allow_pickle=False)
     lookup = {str(g):i for i,g in enumerate(all_genes)}
     columns = np.array([lookup[str(g)] for g in genes])
-    roles = make_roles(frame, 20261108)  # Preserve previously frozen original-seven-test allocation.
+    roles = make_roles(frame, 20261108)  # Use the seven-condition test allocation.
     pools, full_schedule = build_schedule(frame, roles)
     schedule = full_schedule[:1] if args.probe else full_schedule
     controls = np.flatnonzero(frame.condition.eq("control").to_numpy())
@@ -110,7 +110,7 @@ def main():
             "drug_ids": frame.loc[rows[0],["drug_id_1","drug_id_2"]].to_numpy(dtype="int64"), "noise_seed": seed}
     spec = {"scope": "Witness-only sensitivity aligned with PerturbCellRL v2 Appendix C velocity objective, on the released scDFM architecture and weights. No expression-support/pathway terms; no complete reproduction claim.",
         "source_paper": "https://arxiv.org/html/2606.27752v2#SSc0.SS3", "post_hoc": True,
-        "design_timing": "Designed after previous custom population-NFT and native-FM test scores were viewed. New outcomes are not used to alter this recipe.",
+        "design_timing": "Post-hoc sensitivity analysis with a fixed evaluation recipe.",
         "roles": roles, "role_allocation_seed": 20261108, "training_and_noise_seed": 0,
         "fixed_real_reference_pools": pools, "reference_pool_M_per_condition":64,
         "actual_unique_measured_fitting_cells":len(np.unique(np.concatenate(list(pools.values())))),

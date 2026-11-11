@@ -1,5 +1,5 @@
 {
-  "scope": "Exact historical compatibility: NA fill0, float32log2, all388responses, per-timepoint available-unit sorted split; primary corrected pipeline unchanged.",
+  "scope": "Sensitivity analysis with NA values filled with zero, float32 log2 transformation, all 388 responses, and available units sorted separately at each timepoint for split assignment.",
   "per_time": [
     {
       "time_h": "2",
@@ -199,6 +199,6 @@
     }
   ],
   "mean_split_half": 0.9,
-  "difference_from_primary_split_design": "Historical splits derive unit lists separately at each time; corrected main split assignment is common over all times/conditions. Missing unit-time combinations can change historical half assignment.",
-  "legacy_script_sha256": "c94f3434518f0a31bc8cdce191c1ee97352fe9199fefa61245d5d69d33d450d7"
+  "difference_from_primary_split_design": "The sensitivity analysis assigns units separately at each timepoint; the primary analysis uses a common assignment across times and conditions. Missing unit-time combinations can change half assignments.",
+  "legacy_script_sha256": "a915615483fd9f1c6241536fa32b2dc8d477f1099d00adee500727986983b229"
 }

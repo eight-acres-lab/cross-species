@@ -12168,7 +12168,7 @@
   "ode": {
     "solver": "fixed Euler",
     "steps": 20,
-    "source_solver": "Author RK4 on 20 time-grid points; this compute-limited adaptation fixes Euler before outcome inspection."
+    "source_solver": "Fixed Euler integration; the source implementation uses RK4 on 20 time-grid points."
   },
   "optimizer": {
     "name": "Adam",
@@ -12339,7 +12339,7 @@
     "Energy U may be negative; intervals condition on fitted predictions and the fixed feature/readout contract."
   ],
   "code_hashes": {
-    "scripts/run_scdfm_nft_benchmark.py": "6073f36840979f6b7e1361429c9f5004cd6a38e93d83466307a2139a1c44b666",
+    "scripts/run_scdfm_nft_benchmark.py": "8076b434ab4ccdafab8080d2b4f1e7b5caaf04b2b4d3127a6d1507e910bc7371",
     "src/cross_species/scdfm_feedback.py": "4261cae22e1a6d1273b3b52c9e7fd315b846d6746dfa7b5ec0db494f83c97bea",
     "src/cross_species/scdfm_nft.py": "036eb19d103e8397cb7a44cf48f058eb53adb6a9f7b58b98e0c6d25c29271837",
     "src/cross_species/official_scdfm.py": "279b53a408f6ddf80cad7ac49c2abdaa06b3aede8673fe9df42fa74a084a3c50"

@@ -1,17 +1,17 @@
 {
-  "contract_sha256": "c0e51cbe559ed22e483d0323f344adfa211b2294acf606b01b37a1386c8058ef",
-  "old_exp2_global_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
-  "new_global_freeze_sha256": "76544665f224393b89db348731a0fab9001b09fc1eb8e0248cfb98ddbac88129",
+  "contract_sha256": "2df7139c3eabf54c0b40a6d3c251d9a912859753d1a3b04a8e56583f092dd791",
+  "old_exp2_global_freeze_sha256": "25f88bed76ef7fbb84056658424ece4c0f4f5283c387b02533bf1f111474ca33",
+  "new_global_freeze_sha256": "3800ccb3217db91d1524c14048b57708bcc48de997a5058f7617614d5c23920c",
   "old_models_verified": 36,
   "old_factor_archives_verified": 36,
   "new_artifacts_verified": 108,
   "actual_old_and_new_code_verified": true,
   "exp3_expression_loaded_during_hash_gate": false,
-  "metric_helper_sha256": "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3",
+  "metric_helper_sha256": "4753fd159f06684e24d0954d3ffeb3321ad766ea1c0a4f8aa124d9b00ce0cc69",
   "verification_unix_time": 1794280824.4609601,
   "source_weight_and_alpha_updates": 0,
   "full_to_query_and_415_target_mapping_verified_before_target_expression": true,
-  "scorer_sha256": "8215f718e1060a7d1e8f9c14631a14a0538346d271139c3d0e1dd1c327c7f137",
+  "scorer_sha256": "e29717a797b7dd599509cd58439c2612edc0b138f8702baca5c6bb61934c41f0",
   "energy": {
     "library": "GeomLoss0.3.1",
     "source_hashes": {

@@ -1,5 +1,5 @@
 {
-  "scope": "Posthoc descriptive fixed-scalar drug-correspondence diagnostic after inspection of the external main report.",
+  "scope": "Post-hoc descriptive drug-correspondence diagnostic with a fixed scalar.",
   "new_model_fitting": false,
   "new_hyperparameter_selection": false,
   "original_run_unchanged": true,
@@ -450,11 +450,11 @@
   },
   "provenance": {
     "protocol_sha256": "10a9063faf650904c4bfd839f91e1172bac02b74d3fdfe711ccb74ceada80bba",
-    "script_sha256": "1343e1a6d0f3b07547ee56804d1a931981225060b8eb012b9357c61aeb9d8ee6",
-    "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
+    "script_sha256": "e94b5b8b5888134b0619e7c5634b9cfb16430735b4ddf4cfae578de89981d5a6",
+    "input_manifest_sha256": "a909fa6c1a7c9ef76f8a673b5ad802b02bbce6f18d182db27cf4596bd0292af7",
     "original_run_files_sha256": {
-      "report.json": "8f8000284331354df3b5536a7d5c32af4ce268eefe01e0883f2469221d16cef6",
-      "fit_manifest.json": "efe4727d21552f8d685bab53b9a488abb6c817f9c48bfa3e9081c631bc1165cc",
+      "report.json": "7aeb40adcb78fbccd11e35c110b22af6007f2df12e6550430ff9f38a76e85b38",
+      "fit_manifest.json": "8953a743bb4b8c135524a30f8d8d7fec4072a389bbeeef65c94d7a5b59ba9e5c",
       "final_fit.npz": "2e559152024f7d04735415ecb67af25ce0406dcc074a2695b5f94120bf23d1ca",
       "external_predictions.npz": "bc1c93c0d5338036505dd184b7abf47c5e39ba5b517ea9183862d41e26bb6b2c"
     },

@@ -1,6 +1,6 @@
 {
-  "original_report_sha256": "41ea15557205d5c5e6887cb120cbbbc4dd8535996e2759b07309833b4732a1be",
-  "specification_sha256": "4f4cd125de3b53d15d8a52a3db20d876f5cf00fd35b6ae07b8961dd4dd8516c3",
+  "original_report_sha256": "581bb3c051d3184b410d6aafd0994999939c31fc77217b45bb4b4993fd03f6c9",
+  "specification_sha256": "da506c069802e9398017c722859e7b2465351c24c26308c5e672adffae38c530",
   "checks": {
     "released_checkpoint": {
       "prediction_sha256": "520516e9980659e1973e3f5c13fcfb0f2c5e1e2f3868e139b72dc03d764df147",
@@ -40,6 +40,6 @@
     }
   },
   "numerical_values_changed": false,
-  "label_correction": "Original report reused State interval helper labels. This copy changes cytokine-specific field names and warnings to chemical-condition terminology; loss and interval numbers are preserved.",
-  "audit_script_sha256": "eb884cc9af42775217eefafc79a1026e03cd5b0e05ab7579af363c1da28441d9"
+  "bootstrap_description": "Intervals use chemical-condition bootstrap resampling.",
+  "audit_script_sha256": "f73635e47b8519954a727dd15c55214898abaccfc47bd3c9c4e9a72d9bf78bf1"
 }

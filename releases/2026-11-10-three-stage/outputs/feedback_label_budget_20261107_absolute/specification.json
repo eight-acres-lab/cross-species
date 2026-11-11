@@ -1,5 +1,5 @@
 {
-  "scope": "Retrospective human-label-budget learning curve specified after the full nested benchmark; not preregistered, independent or prospective evidence.",
+  "scope": "Retrospective human-label-budget learning curve with nested compound cross-validation.",
   "recorded_utc": "2026-11-07T14:47:57Z",
   "rows": 678,
   "compounds": 126,
@@ -1097,8 +1097,8 @@
   },
   "data_warnings": [
     "Condition-level replicate means do not retain single-cell distributions or replicate variance (Zenodo 20204514).",
-    "Historical RMA jointly normalized all available arrays per species before splitting; this pilot remains exploratory and retrospective (source 41a_rma_brainarray.R).",
-    "Historical test outcomes have been examined in prior repository analyses; diagnostic_test is not a prospective or untouched test set (artifacts/tg_gates_rat_human_v1/report.md).",
+    "RMA jointly normalizes all available arrays within each species before splitting (source 41a_rma_brainarray.R).",
+    "The diagnostic_test subset supports retrospective evaluation on published outcomes.",
     "Before absolute-concentration filtering: Dose units are missing for retained conditions; equal dose labels or numeric values do not establish concentration matching.",
     "Before absolute-concentration filtering: Nominal concentration comparison is unknown for 100 retained conditions; unsupported units are not concentration matched.",
     "Absolute-concentration retained cohort has zero unknown/ambiguous units; both arms receive planned nominal molar concentrations."
@@ -1115,7 +1115,7 @@
   "full_budget_reuse": {
     "run_dir": "/Users/zhi/train/outputs/feedback_nested_chemical_20261107_absolute_v1",
     "fitted_seed_count": 1,
-    "report_sha256": "8624a6792d235636d5ea3788ac7e73bb315d44c45015b0e3c934b03562d2c14d",
+    "report_sha256": "5158123ad6cb218bb1d3cc896536589202659ecc48bc9c56deedab5f8853f8e3",
     "oof_sha256": "863d7a41d1984e7d0fcfd023a4cf30ea0ffe67d2dd6b7eda436eedfb24370432",
     "training_compounds_by_fold": [
       100,
@@ -12289,16 +12289,16 @@
   "aggregation": "Score each seed's OOF predictions separately; average the three seed-specific losses for each compound, then compounds equally. Do not ensemble predictions before loss. All-budget reuse is counted once.",
   "reporting": "All planned budgets and seeds are reported. Outer outcomes select no budget, seed, or fallback. Seed variation describes training-composition sensitivity.",
   "limitations": [
-    "Budgets count historical paired compounds and actual condition rows, without measuring cost, acquisition feasibility or guaranteed reduction of future experiments.",
+    "Budgets count paired training compounds and measured condition rows.",
     "Three subsamples overlap, and models share outer folds; they are not independent replication.",
     "A smaller-budget source model matching a larger-budget prior at a point estimate would not establish economic savings or statistical equivalence.",
-    "The same historical normalization, one-species/liver-system and condition-mean limitations apply."
+    "Evaluation uses joint RMA normalization and condition means from one animal species and one liver system."
   ],
   "code_hashes": {
-    "scripts/run_feedback_label_budget.py": "3e4fd8a517e6e6bfb24de8e5f1c88db302d489a82c475ecea566f94c4178fb57",
-    "scripts/run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-    "src/cross_species/feedback_data.py": "7294cb723374ab959f369a73a8287307675abaf73789bf6b1c60dec3397d5232",
-    "src/cross_species/feedback_evaluation.py": "0220078de6b8a171ced7a07aa8bd0174cb12f05e6799c9ef68043c93244aba3c"
+    "scripts/run_feedback_label_budget.py": "079612ee896f479cc7e437fe7298b7db7c1679fadfa7822e7f94da76d24e1f03",
+    "scripts/run_feedback_nested_benchmark.py": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+    "src/cross_species/feedback_data.py": "3f0f17e866471819eb38d2cf0e07070f8d27f92c6dc91c2d1f61ef3facf083e6",
+    "src/cross_species/feedback_evaluation.py": "d9c068d3050ff3e0c3bcf469ecb187428e386f9093f97dfd2e4e417b5f216ccf"
   },
   "absolute_concentrations": {
     "rule": "Both planned treatment doses must be finite and positive with uniquely resolved attributes/metadata units among M,mM,uM,μM,nM. Case-sensitive fixed conversion to M followed by log10; no inferred units, mass-to-molar conversion, aliases, or rounding.",

@@ -41,7 +41,7 @@
     "fold_4_H_RabbitA0/target_0.npz": "6a65b5b7d87444ac1e5867d91b66a9c221c4fa3476842dd4b3a46d96382ae790",
     "fold_4_H_RabbitA0/target_1.npz": "1f47d8c7c7c8949ba434cfff200eb08cf4c525616c21b2aabe23836b0554bc70"
   },
-  "fits_selected_sha256": "7626dde773fa4473060b9062cc4dc518084d287b8e0d9ea5c9c2e868dfdf4071",
+  "fits_selected_sha256": "2f58122fd37f1fe269494a4f4551e30dfc016ec94ac3725407c42aa9abc4dc2f",
   "target_outcomes_scored": false,
   "unix_time": 1794257530.4246638
 }

@@ -4,9 +4,9 @@
   "checks_failed": 0,
   "numeric_values_compared": 11808244,
   "max_abs_difference": 1.0658141036401503e-14,
-  "legacy_script_sha256": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-  "auditor_sha256": "ebdd2f435ef284c3b21f558e59e550d355d7af1117373abcd6f8811321459ee7",
-  "bundle_manifest_sha256": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6",
+  "legacy_script_sha256": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+  "auditor_sha256": "317b7557c5e86f81c610d13a9f77dfee0727360fe396097708a8f2740be834bd",
+  "bundle_manifest_sha256": "e1eb3373d776aae239a11dd40b78ddeb95fb09f1ea6d4dd2625179136b6b397a",
   "elapsed_seconds": 36.544167323969305,
   "regimes": [
     {
@@ -30,8 +30,8 @@
         }
       ],
       "all_folds_all_seeds_all_condition_compound_losses_recomputed": true,
-      "fit_manifest_sha256": "2aefb2f129eeb5cf96de13166753f6ccfa69ad71ef88faa3801f17bd8e8c9681",
-      "report_sha256": "abc8a0063ae0f8d277ca18a890115c7d16cd05cba717394df2fc804a2636213c"
+      "fit_manifest_sha256": "4f4986d9ffaadfa7cab97900e9657e31b5a23f5e320e31b87c7e2d89d7b6aecb",
+      "report_sha256": "ed6d2e9e35d5d18a46ddb8aa1b6ef7da458965bb8363d630d3a44695b156809e"
     },
     {
       "regime": "paired_exposure",
@@ -54,11 +54,11 @@
         }
       ],
       "all_folds_all_seeds_all_condition_compound_losses_recomputed": true,
-      "fit_manifest_sha256": "e443ac6472b190f29174ae6af8a90c34063a2846ca4f25f9697d33f2d3480c26",
-      "report_sha256": "8f56ad9c0915d308c65cf09fa26c9fa28098a7b7c9ccbdee0941004206cce614"
+      "fit_manifest_sha256": "ba36a9509d2ded58985c766fca3db5b98f9f9e7e556d0d1f75802fd257b283f2",
+      "report_sha256": "3ff0a37fc79ce4339832654c8a3922477c6802096f1bb0527fc098c8401fcba2"
     }
   ],
-  "method": "Legacy NumPy ChemicalKernelInputs/SpectralRidge reconstructed directly from permuted raw animal input rows; new GPU pairing module never imported.",
+  "method": "Independent NumPy ChemicalKernelInputs/SpectralRidge calculations use permuted raw animal input rows without importing the GPU pairing module.",
   "limitations": [
     "Numerical/control verification does not establish biological generalization.",
     "CPU full refits sample outer0 and first/last permutation seed in each regime; all saved maps and all loss arrays are checked.",

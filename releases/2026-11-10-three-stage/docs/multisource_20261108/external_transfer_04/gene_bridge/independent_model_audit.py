@@ -1,8 +1,8 @@
-"""Independent legacy-CPU reconstruction of frozen external-study predictions.
+"""Independent CPU reconstruction of frozen external-study predictions.
 
-No functions from the new transfer runner or Torch pairing implementation are
-imported. The legacy kernel/Ridge implementation serves as the numerical model
-reference; scoring and fold aggregation are written independently below.
+The NumPy kernel/Ridge implementation serves as the numerical model reference.
+Scoring and fold aggregation are implemented independently. Transfer-runner and
+Torch pairing functions are excluded from this audit.
 """
 from __future__ import annotations
 
@@ -104,7 +104,7 @@ def main():
     input_manifest = document(inputs / "manifest.json")
     a.require(fit["stage"] == "external_predictions_frozen_without_external_human_endpoint_access", "fit stage")
     a.require(fit["external_human_endpoint_read"] is False and report["external_human_labels_used_in_fit"] is False, "declared external-label isolation")
-    a.require(sha(legacy.__file__) == fit["code_sha256"]["run_feedback_nested_benchmark.py"], "legacy model source version")
+    a.require(sha(legacy.__file__) == fit["code_sha256"]["run_feedback_nested_benchmark.py"], "NumPy model source hash")
     for filename, expected in fit["output_files"].items():
         a.require(sha(run / filename) == expected, "frozen fit hash " + filename)
     for filename, expected in input_manifest["files"].items():
@@ -269,8 +269,8 @@ def main():
               "legacy_source_sha256": sha(legacy.__file__), "input_manifest_sha256": sha(inputs / "manifest.json"),
               "fit_manifest_sha256": sha(run / "fit_manifest.json"), "report_sha256": sha(run / "report.json"),
               "auditor_sha256": sha(__file__), "elapsed_seconds": time.monotonic() - start,
-              "limitations": ["This verifies numeric reproducibility and declared task linkage, not external-blindness or generalization beyond these three previously inspected drugs.",
-                              "Independent CPU reference shares the legacy kernel definition used by production; no new-runner or Torch fit functions are imported.",
+              "limitations": ["Numerical reproducibility and task linkage are verified for the three evaluated drugs.",
+                              "The independent CPU reference uses the same kernel definition as production and imports no runner or Torch fitting functions.",
                               "Human-truth file-access isolation is tested separately; this audit reads the terminal truth only to verify frozen predictions."]}
     output = args.output or root / "verification/independent_model_verification.json"
     output.parent.mkdir(parents=True, exist_ok=True)

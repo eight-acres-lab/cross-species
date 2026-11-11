@@ -5,7 +5,7 @@
     "score_predictions"
   ],
   "frozen_fit_module_sha256": "ad8b23a9e0982814eb838a8075a9da49c930d8cc1d63d3a78081e6df3b187065",
-  "scoring_module_sha256": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+  "scoring_module_sha256": "f434adbf5fe0b70bae835e12eb72ef4927de99eb0d75cc5e5eb08ecee892fdce",
   "frozen_fit_outputs_preserved": true,
   "first_attempt_generated_scoring_outputs": false
 }

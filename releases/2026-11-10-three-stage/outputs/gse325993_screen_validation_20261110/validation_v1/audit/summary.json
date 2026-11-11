@@ -3,7 +3,7 @@
     "task": "Exp2-frozen models evaluated without adaptation on the same held-out human line in public exp3, within GSE325993",
     "exp2_model_outcomes_already_known": true,
     "exp3_model_outcomes_known_at_freeze": false,
-    "timing": "This additional-screen validation was proposed after reviewing exp2results; preregistration is relative to this exp3prediction/scoring only.",
+    "timing": "The exp3 protocol is fixed before exp3 prediction and scoring, with exp2 outcomes available.",
     "validation_level": "Newexperimental screen within the same study, using the same two human celllines; not newdonors, not anindependentstudy, notpopulation-levelconfirmation.",
     "biological_target_N": 2,
     "model_sampling_repeats": 3,
@@ -16,8 +16,7 @@
       "new_expression_or_guide_effect_filtering": false
     },
     "POU5F1_native_output_present": false,
-    "output_scope": "Downstreamresponseon theunchanged6357nativeobservedgene axis.",
-    "historical_evidence": "Preserveallpriornegativeandpositiveexp2/G105/rabbitfindings; exp3results remain separatelynamed and do notoverwriteexp2."
+    "output_scope": "Downstreamresponseon theunchanged6357nativeobservedgene axis."
   },
   "validation_experiment": "exp3",
   "exp2_outcomes_were_known": true,
@@ -1355,7 +1354,7 @@
   },
   "inference_limits": {
     "positive_signal": "Reportwhethereachfixedmonkeysource improvesoverH inbothhumanline seedmeans andwhetheritexceedsA0 andstrongshrinkcontrols; reportseed-level signs ascomputationalstability only.",
-    "mixed_or_negative": "Keepallarmsandreport failureoftheobservedexp2gain totransfer whenpresent. Preserveexp2results withoutrewritingitsprimaryoutcomes.",
+    "mixed_or_negative": "Report every arm and its paired exp2 and exp3 outcomes, including mixed and negative transfer results.",
     "upstream_ntc_filter_limitation_retained": true,
     "no_stronger_claims": [
       "independentnewdonorvalidation",

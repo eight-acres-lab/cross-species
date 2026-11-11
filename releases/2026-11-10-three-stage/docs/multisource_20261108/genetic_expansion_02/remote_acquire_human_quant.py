@@ -40,7 +40,7 @@ def acquire(entry,out,batch_end):
  result={**entry,'started_unix':time.time(),'raw_file':str(path),'status':'started','max_bytes':100000000,'max_active_seconds':300}
  try:
   if not path.exists():
-   if partial.exists():raise ValueError('Prior partial exists; choose a fresh directory to avoid ambiguous resume')
+   if partial.exists():raise ValueError('A partial download exists; choose an empty output directory')
    with urlopen(Request(entry['url'],headers={'User-Agent':'Auditable-genetic-data-curation/1.0'}),timeout=20) as response:
     expected=int(response.headers.get('Content-Length') or 0)
     if expected>100000000:raise ValueError('100MB per file cap')
@@ -75,7 +75,7 @@ def main():
  for r in success:
   with np.load(r['audit']['native_file'],allow_pickle=False) as f:sets.append(set(f['gene_ids'].tolist()))
  axes={'files_complete':len(success),'files_requested':len(entries),'complete_shared_native_ids':len(set.intersection(*sets)) if sets else 0,'native_gene_order_identical':len({r['audit']['gene_id_order_sha256'] for r in success})==1,'all_raw_gene_ids_unique':all(r['audit']['raw_gene_id_duplicates']==0 for r in success),'version_stripped_collisions_total':sum(r['audit']['version_stripped_id_collisions'] for r in success)}
- report={'selection_sha256':digest(args.selection),'script_sha256':digest(__file__),'location_policy':'Raw data and arrays only on remote /hy-tmp','batch_total_active_seconds_cap':1200,'workers':4,'files':results,'axes':axes,'native_e0_ready':len(success)==26 and axes['all_raw_gene_ids_unique'],'normalization_applied':False,'response_computed':False,'model_training_ready':False,'limitations':['RSEM expected_count is an estimated gene count; native TPM retained separately.','Current values are a separate ENCODE processing version; do not merge with portal or P19 gene-count units.','Preserve all primary/supplement/sensitivity sample selections and declared control relations.','No cross-species mapping, normalization or inference performed.']}
+ report={'selection_sha256':digest(args.selection),'script_sha256':digest(__file__),'location_policy':'Raw data and arrays only on remote /hy-tmp','batch_total_active_seconds_cap':1200,'workers':4,'files':results,'axes':axes,'native_e0_ready':len(success)==26 and axes['all_raw_gene_ids_unique'],'normalization_applied':False,'response_computed':False,'model_training_ready':False,'limitations':['RSEM expected_count is an estimated gene count; native TPM retained separately.','ENCODE values retain their processing-specific units; portal and P19 gene-count values use different quantifiers.','Primary, supplementary and sensitivity samples use the specified selections and control relationships.','No cross-species mapping, normalization or inference performed.']}
  write(args.out/'batch_audit.json',report);print(json.dumps(axes),flush=True)
  if len(success)!=26:raise SystemExit(2)
 if __name__=='__main__':main()

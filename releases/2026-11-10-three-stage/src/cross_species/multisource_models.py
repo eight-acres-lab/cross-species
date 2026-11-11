@@ -154,7 +154,7 @@ def fit_lopo_predictions(sources, human, source_ids, *, ridge=1., known_context=
         provenance.append({"held_query": held, "training_queries": train.tolist(), "context_reference_queries": same.tolist(),
                            "selected_source_before_measurement": str(source_ids[rule.choose()]),
                            "source_training_losses": rule.training_losses.tolist(),
-                           "context_selector_status": "Not fitted: two historical tasks cannot identify or validate a context-dependent selector" if len(train)<4 else "Not fitted in this fixed baseline protocol"})
+                           "context_selector_status": "Context-dependent source selection is not fitted; each split has two training tasks." if len(train)<4 else "Not fitted in this fixed baseline protocol"})
     return predictions, weights, provenance
 
 

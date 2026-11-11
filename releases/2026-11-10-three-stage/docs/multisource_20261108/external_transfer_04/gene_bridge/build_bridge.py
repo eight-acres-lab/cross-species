@@ -221,7 +221,7 @@ def main():
                           "ensembl_to_entrez_release_recorded": None,
                           "new_orthology_retrieved_utc": new_manifest["retrieved_utc"],
                           "new_orthology_release": new_manifest["biomart_gene_release"],
-                          "inference": "Old ID-mapping release was not saved; frozen bytes reproduce the bridge. New homology relation is independently required to agree with the old high-confidence relation."},
+                          "inference": "The deposited mapping tables define the gene bridge; homology relations are checked independently against the high-confidence orthology table."},
         "selection": "Only exact IDs, bidirectional cardinality, orthology consistency and identifier-axis presence; no global/multi-species masks, gene symbol/alias inference or response-magnitude selection.",
         "expression_values_read": False, "network_fetch_performed": False,
         "limitations": [

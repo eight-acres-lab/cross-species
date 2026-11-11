@@ -1,4 +1,4 @@
-"""Small, explicit models for a cross-species feedback pilot.
+"""Models for cross-species response prediction.
 
 No function reads files, chooses a split, constructs test labels, or loads pretrained
 weights. Callers supply train/calibration arrays and generate reference candidates

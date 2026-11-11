@@ -92,12 +92,12 @@ def main():
         contrast['warning']='Descriptive fixed-prediction interval over seven chemical conditions; shared controls, shared drug components, one A549 context and one optimization seed. No biological-replicate or population-coverage inference.'
     audit={'original_report_sha256':sha256_file(original_path),'specification_sha256':sha256_file(args.run_dir/'specification.json'),
            'checks':checks,'numerical_values_changed':False,
-           'label_correction':'Original report reused State interval helper labels. This copy changes cytokine-specific field names and warnings to chemical-condition terminology; loss and interval numbers are preserved.',
+           'bootstrap_description':'Intervals use chemical-condition bootstrap resampling.',
            'audit_script_sha256':sha256_file(__file__)}
     audited['output_audit']=audit
     for name,value in [('output_audit.json',audit),('report_audited.json',audited)]:
         path=args.run_dir/name
-        if path.exists():raise FileExistsError('Preserve prior audit: '+str(path))
+        if path.exists():raise FileExistsError('Output already exists: '+str(path))
         path.write_text(json.dumps(value,indent=2,allow_nan=False)+'\n')
     print(json.dumps(audit,indent=2),flush=True)
 

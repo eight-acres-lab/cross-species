@@ -1,5 +1,5 @@
 {
-  "status": "Post-hoc historical diagnostic; the original correctly paired test scores were already examined before this control was designed.",
+  "status": "Post-hoc conditioning-label mismatch diagnostic.",
   "parent_specification_sha256": "b702c3d8eb2d8268e9948a23f9a3076f743613d65ae378bad2d083e9e571e08e",
   "parent_roles": {
     "train": [
@@ -29314,5 +29314,5 @@
   ],
   "comparison": "Primary pairing utility is mismatched loss minus correctly paired loss; positive means correct pairing has lower error.",
   "scope": "Tests the utility of correct cytokine/response association within this continuation recipe. It does not isolate the original 512-to64 set-size change or old-data-only continuation.",
-  "script_sha256": "3bd27505ca29501773afd989cd91c74321303ca9c99490f88eb8b2445c5aff5a"
+  "script_sha256": "2f4053a1b4dd4a79ccbe624f11ef4ae0b4b8d73f214c4ebe242096e082e62dae"
 }

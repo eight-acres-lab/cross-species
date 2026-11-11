@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Independent CPU audit for the frozen rat-to-human pairing experiment.
 
-This auditor imports the previously established NumPy ChemicalKernelInputs and
-SpectralRidge only. It never imports the new torch pairing-control module.
+This auditor imports NumPy ChemicalKernelInputs and SpectralRidge. The Torch
+pairing-control module is excluded from the independent CPU calculation.
 Large arrays and all calculations must be kept on the remote research host.
 """
 from __future__ import annotations
@@ -336,7 +336,7 @@ def main():
               "legacy_script_sha256": sha(args.legacy_script), "auditor_sha256": sha(__file__),
               "bundle_manifest_sha256": sha(args.bundle_dir / "manifest.json"),
               "elapsed_seconds": time.monotonic() - started, "regimes": result_records,
-              "method": "Legacy NumPy ChemicalKernelInputs/SpectralRidge reconstructed directly from permuted raw animal input rows; new GPU pairing module never imported.",
+              "method": "Independent NumPy ChemicalKernelInputs/SpectralRidge calculations use permuted raw animal input rows without importing the GPU pairing module.",
               "limitations": ["Numerical/control verification does not establish biological generalization.",
                               "CPU full refits sample outer0 and first/last permutation seed in each regime; all saved maps and all loss arrays are checked.",
                               "Existing retrospective, shared preprocessing and fixed-condition-mean limitations remain."]}

@@ -344,6 +344,6 @@
   "out_of_support_note": "CDDO-Me source and target dose 100nM is below TG-GATEs rat minimum1uM; its24h and THAP8h lie in the training time set.",
   "evaluation_design": "Retrospective study transfer using published human responses.",
   "source_task_manifest_sha256": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe",
-  "source_audit_sha256": "5da4f39ecb40378ec337149c85698de7fe73d3dd53ee9a436b10e5adbdc2ecdb",
+  "source_audit_sha256": "7197783a1f096a1227433f1a91ea871abf0f5014cfb7886076588953528efd58",
   "g300_excluded_from_current_run": true
 }

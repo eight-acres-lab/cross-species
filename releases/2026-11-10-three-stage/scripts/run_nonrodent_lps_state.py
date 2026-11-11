@@ -21,7 +21,7 @@ sys.path.insert(0,str(ROOT/'src'))
 from cross_species.named_gene_state import load_named_gene_state,extend_named_model,predict_contrast,sha256_file
 
 ARMS=('H','H+Rabbit','H+Hextra','H+RabbitA0')
-CONTRACT_SHA='77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9'
+CONTRACT_SHA='b0675040fde2a096770303591984689058f8d30cba1bc5af20c0cf9dff89f885'
 
 
 def plain(x):

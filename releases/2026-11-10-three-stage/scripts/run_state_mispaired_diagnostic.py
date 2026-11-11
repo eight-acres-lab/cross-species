@@ -91,7 +91,7 @@ def main():
         "controls": np.array([lookup[value] for value in record["control_cell_ids"]]),
         "targets": np.array([lookup[value] for value in record["target_cell_ids"]])} for record in parent["cell_populations"]}
     args.out_dir.mkdir(parents=True, exist_ok=True)
-    specification = {"status": "Post-hoc historical diagnostic; the original correctly paired test scores were already examined before this control was designed.",
+    specification = {"status": "Post-hoc conditioning-label mismatch diagnostic.",
         "parent_specification_sha256": sha256_file(parent_path), "parent_roles": parent["roles"],
         "mispairing": "Metadata-hash-tied minimum-cost bijection of schedule entries within each donor; every assigned target cytokine differs from its conditioning label.",
         "retained": "Identical conditioning-label/PBS sequence, exact target-cell observation multiset, 200 updates, native loss, original checkpoint, original FP32 settings, AdamW hyperparameters and seed.",

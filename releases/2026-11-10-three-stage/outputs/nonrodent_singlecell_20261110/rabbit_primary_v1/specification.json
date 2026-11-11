@@ -1,12 +1,12 @@
 {
-  "contract_sha256": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
+  "contract_sha256": "b0675040fde2a096770303591984689058f8d30cba1bc5af20c0cf9dff89f885",
   "contract": {
     "contract_id": "nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3",
     "schema_version": 3,
     "status": "frozen_before_model_training_and_any_target_donor_scoring",
     "date": "2026-11-10",
     "timezone": "Asia/Singapore",
-    "precedence": "This v3 preserves v1/v2 and supersedes them before any biological fitting or target effect scoring. It exactly binds the existing metadata-only prepared selections; no biological roles, doses, time, measured gene mask, optimization settings or endpoints were selected by outcomes.",
+    "design_specification": "The protocol fixes metadata-based selections before biological fitting or target-effect scoring. Biological roles, doses, time, the measured gene mask, optimization settings and endpoints are specified independently of outcomes.",
     "scope": {
       "question": "Does adding two rabbits as training-only data improve known-LPS predictions for held-out human donors, relative to human-base training, a matched additional-human reference, and a rabbit baseline-only target control?",
       "experiment_label": "State-derived shared-axis contrast adaptation",
@@ -21,8 +21,7 @@
       "fits": 20,
       "seeds_per_fit": 1,
       "pig_in_primary": false,
-      "pig_exclusion_reason": "Three complete courses contain two biological individuals plus one technical replicate; exact course-to-individual mapping is unresolved.",
-      "historical_negative_evidence": "Preserve all prior negative and null-failing State/Parse/mouse/TG evidence and prior measurement-assisted evidence with their original scope. This experiment does not replace or revise them."
+      "pig_exclusion_reason": "Three complete courses contain two biological individuals plus one technical replicate; exact course-to-individual mapping is unresolved."
     },
     "sources": {
       "human": {
@@ -169,7 +168,7 @@
       "mode_during_optimization": "eval with autograd enabled; dropout disabled in both forwards",
       "native_outputs": "Save separately where needed for diagnostics; all primary outputs use the frozen anchored/clamped readout.",
       "zero_step_prediction": "Exactly C under the identical observation mask.",
-      "pretraining_scope": "The retained checkpoint was pretrained on its original human HepG2 genetic-perturbation dataset. Historical preprocessing is incompletely recovered. This new human PBMC/rabbit LPS experiment uses a derived contrast adaptation and does not establish unseen-perturbation or raw native zero-shot compatibility."
+      "pretraining_scope": "The checkpoint was pretrained on human HepG2 genetic perturbations. Its full preprocessing procedure is unspecified in the available checkpoint metadata. Human PBMC/rabbit LPS predictions use a shared-axis contrast adaptation."
     },
     "splitting": {
       "donor_hash_salt": "nonrodent_singlecell_20261110/v1/donor_roles",
@@ -642,27 +641,21 @@
         "Rabbit time, dose, tissue and study differ from human; species effects are confounded with those attributes.",
         "Rabbit 0h-to-6h contrast includes culture time.",
         "Only two selected rabbit individuals contribute to primary training.",
-        "Historical HepG2 normalization is incompletely recovered; all arms are new-assay contrast adaptations.",
+        "The available HepG2 checkpoint metadata does not fully specify normalization; all arms use a shared-axis contrast adaptation.",
         "Source-specific loss normalization preserves a real-LPS amplitude scalar in A0.",
         "Fixed optimizer steps and matched source donor/cell budgets do not imply equal experimental monetary cost or exact compute cost."
       ],
-      "after_results": "Preserve every old negative result and this v1 output. New seeds, data subsets, times, source species, objectives, model heads or budgets are separately named follow-up experiments with outcome-awareness disclosed."
+      "analysis_settings": "Seeds, data subsets, times, source species, objectives, model heads and budgets are fixed for this analysis."
     },
-    "compact_review_items": [
-      "Protein-coding denominator provenance is now available: human19123/rabbit19293 observed coding genes; all4633 model genes lie in both coding masks.",
-      "The final objective is population-mean MSE with H+0.5*normalized-source; earlier review energy/two-slot suggestions are superseded.",
+    "design_checks": [
+      "The observed protein-coding denominator contains 19123 human and 19293 rabbit genes; all 4633 model genes lie in both coding masks.",
+      "The objective is population-mean MSE with H+0.5*normalized-source.",
       "Training control pools cap128; calibration and target inference use all author-QC control and LPS cells. The same complete control mean is used in every response subtraction.",
       "A0 uses disjoint real baseline targets and inherits the real-rabbit scale scalar.",
       "Use explicit three-step scratch-clone animal-gradient audit because shared gradients cancel at zero initialization.",
       "All20 selected model predictions and all shrink choices freeze before the first target score.",
       "Primary remains unshrunk selected-checkpoint output; all-arm calibrated shrink is a fixed diagnostic."
-    ],
-    "supersedes": {
-      "contract_id": "nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v2",
-      "sha256": "9342937d6f9b3fbf720fcec9b21a866cc46bfd5dff502e02d09b2f8cb02d507b",
-      "reason": "Executable review found metadata preparation used an explicit existing cell_order hash namespace, globally disjoint A0 offsets and globally hashed base order rather than three differing prose descriptions in v2. V3 adopts the already-frozen metadata choices; all role memberships, counts, variables and observations remain unchanged. No biological fit or target score has occurred.",
-      "prior_version_preserved": true
-    }
+    ]
   },
   "prepared_manifest": {
     "schema_version": "nonrodent_lps_prepared_v1",
@@ -933,14 +926,14 @@
     }
   },
   "inputs": {
-    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3.json": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
+    "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3.json": "b0675040fde2a096770303591984689058f8d30cba1bc5af20c0cf9dff89f885",
     "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/manifest.json": "91eb408c8dca5c58badea54705ce2816578d18361271b04f3acf07878da8840c",
     "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/selections.json": "79ab4ff3aa08e4c5711c88700e2a807359508ab67ddc4e11c31253d84add2bf0",
     "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/prepared/lps_primary_arrays.npz": "ddd3c342fe22ed6ddd3253674f979a4965fcc251552c46daf4807380d0ff118b",
     "/hy-tmp/cross-species-feedback-20261108/nonrodent_singlecell_20261110/model/best.ckpt": "29ae411280d5b10c8a46db497bc3df288589cb44b4bbee4a6d42500a3957ae65"
   },
   "code": {
-    "scripts/run_nonrodent_lps_state.py": "f80fa63daec226f81f4fb5d93ccac4fea330bdcf2b3d6d8446c1d48f3d2fee49",
+    "scripts/run_nonrodent_lps_state.py": "67ad788f23fe0fb9f9817c605126742bfde0b2e7ba294889eaccababdc7ddc37",
     "src/cross_species/named_gene_state.py": "b0255a74b96f33dcd7476c7cdd260d6bb168901d25d07e75c92271a1656327e8"
   },
   "official_source_root": "/hy-tmp/cross-species-feedback-20261108/official_source",

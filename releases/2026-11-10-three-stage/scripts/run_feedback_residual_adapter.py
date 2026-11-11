@@ -256,7 +256,7 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, direct_run_d
     code_files = [Path(__file__), Path(nested.__file__), ROOT / "src/cross_species/feedback_data.py",
                   ROOT / "src/cross_species/feedback_evaluation.py"]
     specification = {
-        "scope": "Retrospective classical cross-fitted residual-ridge measurement update; specified after prior diagnostics, not a new theory, preregistration, prospective or independent validation.",
+        "scope": "Cross-fitted residual-ridge prediction of rat-to-human response differences, evaluated retrospectively.",
         "rows": len(source), "compounds": len(set(groups.tolist())), "target_genes": human.shape[1],
         "seed": seed, "outer_folds": 5, "reference_folds": 3, "reference_selection_folds": 2,
         "final_prior_selection_folds": 3, "prior_alpha_grid": list(alphas), "adapter_alpha": 1.,
@@ -272,7 +272,7 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, direct_run_d
         "data_warnings": list(data.warnings), "code_hashes": {str(path.relative_to(ROOT)): nested.file_hash(path) for path in code_files},
         "interval_scope": "Compound bootstrap of frozen OOF predictions; overlapping outer/reference training induces dependence, without model refitting or donor uncertainty. Percentile population coverage is not established.",
         "limitations": ["OOF nuisance priors use two thirds of outer training compounds, whereas deployment priors use all outer training compounds; innovation/error distributions may shift.",
-                        "One animal species, one broad liver system, historical joint RMA and averaged profiles remain applicable.",
+                        "Evaluation covers one animal species and one broad liver system, with joint RMA normalization and averaged profiles.",
                         "The method is classical residual ridge. A runnable update chain does not establish a new optimization method or guarantee positive transfer."],
     }
     if exposure is not None:
@@ -343,7 +343,7 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, direct_run_d
         comparisons[name] = gain
     report = {**specification, "metrics": metrics, "comparisons": comparisons,
               "fold_records": records, "elapsed_seconds": time.monotonic() - started,
-              "final_prior_reproduces_previous_nested_prior_with_float_tolerance": True,
+              "final_prior_matches_nested_reference_with_float_tolerance": True,
               "prior_reconstruction_checks": prior_reconstruction}
     nested.save_json(out_dir / "report.json", report)
     with (out_dir / "compound_metrics.tsv").open("w", newline="") as handle:

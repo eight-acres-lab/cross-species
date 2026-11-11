@@ -1,5 +1,5 @@
 {
-  "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
+  "input_manifest_sha256": "a909fa6c1a7c9ef76f8a673b5ad802b02bbce6f18d182db27cf4596bd0292af7",
   "protocol_sha256": "f8b7206f305c4649e47b9cdcbf06081a98d12659a2dd1142023d20664e0efdec",
   "stage": "external_predictions_frozen_without_external_human_endpoint_access",
   "input_dir": "/hy-tmp/cross-species-feedback-20261108/external_transfer_04/inputs_v1",
@@ -2246,9 +2246,9 @@
     "scope": "Nested TG-GATEs internal OOF diagnostic; final all-training alpha is selected separately on all five TG-GATEs validation folds."
   },
   "code_sha256": {
-    "run_crossstudy_kernel_transfer.py": "c53b14245f810b90405e7aa16182a67cf36cd7ed8b6b11d0da39684397e749ab",
-    "run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-    "source_pairing_controls.py": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac"
+    "run_crossstudy_kernel_transfer.py": "06e87458f1cb2e404705cfd61a3b1e932c7b57499546d26be188c8e57b53cfde",
+    "run_feedback_nested_benchmark.py": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+    "source_pairing_controls.py": "f434adbf5fe0b70bae835e12eb72ef4927de99eb0d75cc5e5eb08ecee892fdce"
   },
   "runtime": {
     "device": "cuda",
@@ -2262,9 +2262,9 @@
   },
   "output_files": {
     "PROTOCOL.md": "f8b7206f305c4649e47b9cdcbf06081a98d12659a2dd1142023d20664e0efdec",
-    "code_snapshot/run_crossstudy_kernel_transfer.py": "c53b14245f810b90405e7aa16182a67cf36cd7ed8b6b11d0da39684397e749ab",
-    "code_snapshot/run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-    "code_snapshot/source_pairing_controls.py": "7c147f78d81c6301b9888554ab07bcebbe36e7e2a471219fd214b3dff08c9fac",
+    "code_snapshot/run_crossstudy_kernel_transfer.py": "06e87458f1cb2e404705cfd61a3b1e932c7b57499546d26be188c8e57b53cfde",
+    "code_snapshot/run_feedback_nested_benchmark.py": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+    "code_snapshot/source_pairing_controls.py": "f434adbf5fe0b70bae835e12eb72ef4927de99eb0d75cc5e5eb08ecee892fdce",
     "cpu_reference_validation.json": "e9db30319c0bd9d7fb919c4825d3c744652627188c4c0ae634f9b748274fb3da",
     "external_predictions.npz": "bc1c93c0d5338036505dd184b7abf47c5e39ba5b517ea9183862d41e26bb6b2c",
     "final_fit.npz": "2e559152024f7d04735415ecb67af25ce0406dcc074a2695b5f94120bf23d1ca",

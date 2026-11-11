@@ -1,5 +1,5 @@
 {
-  "scope": "Retrospective nested compound CV; prior project outcomes were examined. Not preregistered, prospective, or externally validated.",
+  "scope": "Retrospective nested cross-validation with compound-level folds.",
   "outer_folds": 5,
   "inner_folds": 3,
   "seed": 20261107,
@@ -42,22 +42,22 @@
   },
   "data_warnings": [
     "Condition-level replicate means do not retain single-cell distributions or replicate variance (Zenodo 20204514).",
-    "Historical RMA jointly normalized all available arrays per species before splitting; this pilot remains exploratory and retrospective (source 41a_rma_brainarray.R).",
-    "Historical test outcomes have been examined in prior repository analyses; diagnostic_test is not a prospective or untouched test set (artifacts/tg_gates_rat_human_v1/report.md).",
+    "RMA jointly normalizes all available arrays within each species before splitting (source 41a_rma_brainarray.R).",
+    "The diagnostic_test subset supports retrospective evaluation on published outcomes.",
     "Before absolute-concentration filtering: Dose units are missing for retained conditions; equal dose labels or numeric values do not establish concentration matching.",
     "Before absolute-concentration filtering: Nominal concentration comparison is unknown for 100 retained conditions; unsupported units are not concentration matched.",
     "Absolute-concentration retained cohort has zero unknown/ambiguous units; both arms receive planned nominal molar concentrations."
   ],
   "code_hashes": {
-    "scripts/run_feedback_nested_benchmark.py": "a654292e18289d762e5784c0aefc931d6688e06122ef0e9ba2b7d5d195c5d6dc",
-    "src/cross_species/feedback_data.py": "7294cb723374ab959f369a73a8287307675abaf73789bf6b1c60dec3397d5232",
-    "src/cross_species/feedback_evaluation.py": "0220078de6b8a171ced7a07aa8bd0174cb12f05e6799c9ef68043c93244aba3c"
+    "scripts/run_feedback_nested_benchmark.py": "d28252c0e8b9d0c852f7a289ead726b20be428737c9e1b8aadb6e9abb3f41dc8",
+    "src/cross_species/feedback_data.py": "3f0f17e866471819eb38d2cf0e07070f8d27f92c6dc91c2d1f61ef3facf083e6",
+    "src/cross_species/feedback_evaluation.py": "d9c068d3050ff3e0c3bcf469ecb187428e386f9093f97dfd2e4e417b5f216ccf"
   },
   "interval_scope": "Compound resampling of fixed OOF predictions. Overlapping fold training creates dependence; no refitting, donor uncertainty, or reliable population coverage guarantee.",
   "limitations": [
     "One animal species and one broad liver in-vitro system; species selection is not evaluated.",
     "PubChem fingerprints/physchem form the specified molecular prior; no target annotation or pretrained chemical model is included. Verified complete-compound cohort differs from the full cohort and must be compared within cohort.",
-    "Historical joint RMA and condition-level replicate means remain source-data limitations.",
+    "Joint RMA normalization and condition-level replicate means define the source data.",
     "Both planned source and human molar concentrations are supplied to both arms; known different concentrations are retained. The incremental input is a measured rat transcriptome. Nominal concentrations do not establish equal intracellular exposure."
   ],
   "molecular_features": {

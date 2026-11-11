@@ -18,8 +18,8 @@
   "independent_cpu_literal_vs_saved_gpu_max_abs_difference": 1.1102230246251565e-16,
   "human_held_values_not_used_in_source_identity_selection": true,
   "all_shared_human_axes_verified": true,
-  "report_sha256": "d3adbc3ff979a811c875ec962191ed941b34637c9c92d33757f2fbd4c31d8e14",
-  "specification_sha256": "cbdc38115ec78122f65e0a5c6b0b022cab08198483a86cee24fd4078bfc6b8d7",
+  "report_sha256": "7b07cda99e65b9405c7824ba088e4a9f4435d8d82bf634908eb4397ce66690d6",
+  "specification_sha256": "2e2e754e502ec17a985416e4bb6a62086302ea4da8f61c8a89f1f49ff90c737f",
   "device_verification": {
     "requested_device": "cuda",
     "actual_device": "NVIDIA A800 80GB PCIe",
@@ -30,6 +30,6 @@
     "cpu_device_max_abs_difference": 1.1102230246251565e-16,
     "peak_cuda_allocated_bytes": 418126848
   },
-  "test_fact": "12 tests passed in0.94s:8model and4G330data tests before laterG130 additions; scopes must not be combined with earlier235-suite count.",
+  "test_fact": "12 tests passed in 0.94 s: 8 model tests and 4 GSE330151 data tests.",
   "scientific_scope": "Retrospective3-perturbation/2-pathway descriptive and measured-arm sensitivity; no donor/generalization CI or independent externalvalidation claim."
 }

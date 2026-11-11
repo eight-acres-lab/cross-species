@@ -199,7 +199,7 @@ def main():
               "prepared_manifest_sha256": sha(prepared / "manifest.json"),
               "auditor_sha256": sha(__file__),
               "limitations": ["This is an input-contract verification, not performance or biological-generalization evidence.",
-                              "Cross-platform expression units and prior inspection of external labels remain as declared in the frozen protocol.",
+                              "Retrospective evaluation across platforms with different expression units.",
                               "Source-input finiteness can use human observation presence; it does not use human response magnitude or predictions."]}
     output = args.output or root / "verification/independent_input_verification.json"
     output.parent.mkdir(parents=True, exist_ok=True)

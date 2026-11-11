@@ -1,11 +1,11 @@
 {
   "date": "2026-11-08",
   "status": "descriptive_summary_of_frozen_outputs",
-  "scope": "Post-report read-only effect heterogeneity description. No new model, hypothesis threshold, outcome-based cohort, gene selection or exclusion is introduced. All previously specified results remain intact.",
+  "scope": "Post-hoc compound-level effect heterogeneity under the specified cohort, gene selection, model and evaluation procedure.",
   "regimes": {
     "source_exposure_v1": {
       "input_report": "/Users/zhi/train/outputs/crossspecies_direct_03/source_exposure_v1/report.json",
-      "input_report_sha256": "abc8a0063ae0f8d277ca18a890115c7d16cd05cba717394df2fc804a2636213c",
+      "input_report_sha256": "ed6d2e9e35d5d18a46ddb8aa1b6ef7da458965bb8363d630d3a44695b156809e",
       "rows": 467,
       "compounds": 107,
       "genes": 10358,
@@ -186,7 +186,7 @@
     },
     "paired_exposure_v1": {
       "input_report": "/Users/zhi/train/outputs/crossspecies_direct_03/paired_exposure_v1/report.json",
-      "input_report_sha256": "8f56ad9c0915d308c65cf09fa26c9fa28098a7b7c9ccbdee0941004206cce614",
+      "input_report_sha256": "3ff0a37fc79ce4339832654c8a3922477c6802096f1bb0527fc098c8401fcba2",
       "rows": 208,
       "compounds": 49,
       "genes": 10358,
@@ -373,7 +373,7 @@
     "The chemical/context query features remain fixed during animal mismatch. The substituted rat profile belongs to a different compound, so molecular/source compatibility is intentionally broken; this is a predictive negative control, not an exact causal or conditional-randomization intervention.",
     "Rowwise same-time/same-rat-molar exchanges do not preserve a single donor-compound trajectory across a query compound time/dose sequence.",
     "The paired-exposure sensitivity changes both training and evaluation support. Its lower absolute MSE and smaller cohort cannot be treated as a controlled effect of tighter matching alone.",
-    "Historical joint RMA, prior outcome inspection, condition-level replicate averaging, one animal species and one broad liver context remain limitations.",
+    "Retrospective evaluation in one animal species and one broad liver context, using joint RMA normalization and condition-level replicate averages.",
     "Correct pairing outperforms all tested mismatched seed runs in both regimes. In the stricter regime, wrong-fit/correct-query still modestly outperforms the specified prior; pairing loss must not be described as universally removing all animal-associated gain."
   ]
 }

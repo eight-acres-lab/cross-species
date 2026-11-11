@@ -11,7 +11,7 @@
   "original_run_hashes_unchanged": true,
   "no_model_fitting_performed": true,
   "method": "Read fixed original beta and external source/truth; recompute9MSE with independent math.fsum; separately score both wrong donors before averaging; check zero/history, original diagonal, all arrays and hashes.",
-  "report_sha256": "06ce656d08c59065f8f5bac1eb95b40728b3592647feb2ba81f4ac312a0e316f",
+  "report_sha256": "911c2bda0592fa47bf70fd692c68df756a641ac23321bef2753079cf3b8042ab",
   "auditor_sha256": "9528c64f39eb3be4e5c8cd0d49e9cee88b528fec4386b83edb4192e7e02a5010",
   "limitations": [
     "Posthoc three-task cross-condition mismatch; it changes dose/time with identity and is not a pure identity-specificity or prospective validation.",

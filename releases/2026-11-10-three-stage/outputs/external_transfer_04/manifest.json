@@ -1,5 +1,5 @@
 {
-  "scope": "Retrospective external-study transfer on three pre-inspected human/rat tasks; no independent prospective or previously unseen dataset claim.",
+  "scope": "Retrospective external-study transfer on three human/rat tasks.",
   "training_rows": 678,
   "training_compounds": 126,
   "external_tasks": [
@@ -148,16 +148,16 @@
     }
   ],
   "input_provenance": {
-    "training_manifest": "48f9210aee90b38ee22310277969014c9329a956fe5b4862c81ca91ff0b55fc6",
+    "training_manifest": "e1eb3373d776aae239a11dd40b78ddeb95fb09f1ea6d4dd2625179136b6b397a",
     "panel_manifest": "99310f3332dee7a9479d826a92858174f8a79512fbb890cca82c2bdef457ecf0",
-    "bridge_audit": "c93ec6c52c0e1e46f8f2ef197fb79a015788f7d5b2e6c87379b1c50faa7f6982",
+    "bridge_audit": "3c8d5bed2504c0d694aaa335b71f8292b9517dfcd628ced8795c62f7813ed201",
     "bridge_tsv": "a9eedb4a7f8bc7ce894d45d64e6d8cf04d6fed6d049eabb4c067262e70e5d747",
     "task_manifest": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe",
-    "chemical_manifest": "07b842de295155086a3164ee19fde94b2a9366dc1a84d7914961a523ce47d4eb"
+    "chemical_manifest": "d29b2361552700bd88a69527609c38773616b70869022f31cb08cadcff183712"
   },
-  "prepare_script_sha256": "af52378035b6cfd2dc64382852de6ca772c68636879a24e2721df51ece388d7a",
+  "prepare_script_sha256": "073b16a93fa6b9032c97ba4278290ed1902601304a44ff4144c3e07b64acb223",
   "limitations": [
-    "External human responses were examined in earlier project comparisons; this is a fixed subsequent external-study stress test.",
+    "Retrospective external-study evaluation with a fixed model and evaluation protocol.",
     "Only three drugs and two pathway families; donor independence is unverified.",
     "Microarray RMA and RNA-seq logCPM share log2 response form but have different measurement and low-expression behavior.",
     "CDDO-Me100nM is below the minimum1uM TG training dose; all three molecular identities are absent from training.",

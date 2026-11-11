@@ -214,10 +214,10 @@
     }
   },
   "arithmetic": "Independent SciPy float64 Euclidean distances and means from identical frozen saved predicted/measured values; self-distances zero; no model/prediction/selection change.",
-  "original_report_sha256": "4a61082fa82dc4be941b46c68621a9440075fa1a1bbaad050d2d953ec1beb324",
-  "specification_sha256": "0aad7ea40e8c4eb65a95141b3b2dd81582d14d5f07e846e74017aeccdb75d33f",
+  "original_report_sha256": "db70ec5b6d3bf91d2f219ebcfe64197f357dc53ee57da3ee98cf61faaba97998",
+  "specification_sha256": "dac6ee5f2681b7709dd20e1f8d03b9b957b66d213ace617cb31d9c361ed3bb9b",
   "audit_script_sha256": "e00d8a951718835228b7cf91f2879f59d622cf029c38e5a59a5bd2972554f1e8",
-  "precision_amendment_sha256": "6f2cd4251f26012b7ea722980d0d8090e4e50fdd4a2566a582bacd1791709466",
+  "precision_amendment_sha256": "94cd8caf52760ee06d8dec1c1449ba8b7276ca84b3b052a71c92f8fbecc96606",
   "float64_minus_fp32": {
     "released_checkpoint": {
       "by_condition": {

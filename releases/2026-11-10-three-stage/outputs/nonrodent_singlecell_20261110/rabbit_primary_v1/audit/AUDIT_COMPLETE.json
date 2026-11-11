@@ -1,12 +1,12 @@
 {
-  "contract_sha256": "77d6afe4ea55a8b0fc98507faa1f87aacb01caf46505397a8d85fa67f20433c9",
-  "global_prediction_freeze_sha256": "b4b1052e5088de4cb6e2d30017a0d3b889a0dc1c9e7bb5d6899f89eca8dd28dc",
-  "scorer_sha256": "cf9e1ed79253ad859ce7b2e76241196a377879ce2b8512688d39f549fa75545d",
+  "contract_sha256": "b0675040fde2a096770303591984689058f8d30cba1bc5af20c0cf9dff89f885",
+  "global_prediction_freeze_sha256": "f7dd7cc8f4c9baa63e292aebe401c823b132dfb2caf298116ddaa6319251fbda",
+  "scorer_sha256": "473dfbdf7eee13bbb0d6b5d7b6104f8095736aa29c170eef6aa21f767807a705",
   "outputs": {
     "donor_scores.csv": "5b6c3b6934381b98da7acac193119920ed358188bbc7e8403ed3f9e1194a262a",
     "paired_donor_differences.csv": "02448b395a339916169e40a5e8d68bd8a55b8dd021ea01912079a5a092bd19eb",
     "summary.json": "8dd846951ecc901b5ccfb7eb62d2adcf80cea8f6ba135d50f14c2f62351754dd",
-    "audit_provenance.json": "8046f5579edd20fc25e058e92c5235d08f4bfd78ef2f1789aa6a914a012233e4"
+    "audit_provenance.json": "1cfb2a93bb78bf1b9974eedaa4e4de89d446e3e4b99d98847dc064396a6de445"
   },
   "unix_time": 1794257634.2256987,
   "donors": 10,

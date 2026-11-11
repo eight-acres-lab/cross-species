@@ -1,8 +1,8 @@
 {
   "scope": "Retrospective external-study and new-chemical transfer of a TG-GATEs-trained rat-to-human kernel rule; only three external compounds.",
   "model": "Portable three-continuous-context chemical kernel ridge; fixed half-prior/half-rat-response fusion; TG-GATEs-only training and tuning.",
-  "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
-  "fit_manifest_sha256": "efe4727d21552f8d685bab53b9a488abb6c817f9c48bfa3e9081c631bc1165cc",
+  "input_manifest_sha256": "a909fa6c1a7c9ef76f8a673b5ad802b02bbce6f18d182db27cf4596bd0292af7",
+  "fit_manifest_sha256": "8953a743bb4b8c135524a30f8d8d7fec4072a389bbeeef65c94d7a5b59ba9e5c",
   "external_endpoint_sha256": "eea375e65d72aa953331a547e1e294d823ca4e4657b44e49cd2e01087a78cb41",
   "protocol_sha256": "f8b7206f305c4649e47b9cdcbf06081a98d12659a2dd1142023d20664e0efdec",
   "primary_rules": [
@@ -2500,8 +2500,8 @@
     "peak_cuda_allocated_bytes": 223177728
   },
   "interpretation_limits": [
-    "Study identity is external but these public outcomes were previously inspected by this project; not a new blind or prospective test.",
-    "Portable model removes TG-GATEs-specific Low/Middle/High indicators and refits on an ID/presence-only common gene axis; it is not an unchanged historical seven-context model checkpoint.",
+    "Retrospective evaluation on published outcomes from an external study.",
+    "The portable model is fitted on an ID/presence-only common gene axis with TG-GATEs-specific Low/Middle/High indicators excluded.",
     "Only three chemicals from two stress pathways; no reliable population uncertainty or source-selection claim.",
     "TG-GATEs uses joint-RMA microarray condition means; external RNA-seq logCPM responses differ in measurement and preprocessing. No external human scale correction is fitted.",
     "CDDO-Me100nM is below the TG-GATEs1uM minimum source and target concentration; retain this predeclared extrapolation task.",

@@ -8,6 +8,6 @@
   "runtime_seconds": 1.832,
   "test_file": "/Users/zhi/train/tests/test_crossstudy_kernel_transfer.py",
   "test_sha256": "c209d3bbc7f3a11759e7f05850ea67e7d30ada690dc977507610821461cdfc1d",
-  "tested_script_sha256": "c53b14245f810b90405e7aa16182a67cf36cd7ed8b6b11d0da39684397e749ab",
+  "tested_script_sha256": "06e87458f1cb2e404705cfd61a3b1e932c7b57499546d26be188c8e57b53cfde",
   "scope": "Synthetic information-visibility, frozen-fit/terminal-scoring separation, strict input axes, whole-compound folds and independent legacy prediction equivalence; no biological performance claim."
 }

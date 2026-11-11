@@ -16,8 +16,8 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import audit_gse325993_state as metric_helpers
 
-SCREEN_CONTRACT_SHA = "c0e51cbe559ed22e483d0323f344adfa211b2294acf606b01b37a1386c8058ef"
-METRIC_HELPER_SHA = "8ebdcc1cd681eb0a701de22622ff89c952ae6ccf329d5fe2166dd114f14e36e3"
+SCREEN_CONTRACT_SHA = "2df7139c3eabf54c0b40a6d3c251d9a912859753d1a3b04a8e56583f092dd791"
+METRIC_HELPER_SHA = "4753fd159f06684e24d0954d3ffeb3321ad766ea1c0a4f8aa124d9b00ce0cc69"
 ARMS = ("H", "Hextra_cells", "Monkey56", "Monkey56A0", "Monkey82", "Monkey82A0")
 SEEDS = (20261110, 20261111, 20261112)
 SOURCES = ("Monkey56", "Monkey82")

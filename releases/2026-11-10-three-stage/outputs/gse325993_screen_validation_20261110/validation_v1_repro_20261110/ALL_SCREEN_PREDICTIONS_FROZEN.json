@@ -111,10 +111,10 @@
     "fold_1_seed_20261112_Monkey82A0/metadata.npz": "3db002331882c805406d24effb8629e0fbda4c695921690d4d6b277ab92234de",
     "fold_1_seed_20261112_Monkey82A0/record.json": "a6b5e297b38b901b5958a6205cd637b5d99ea8813459d7062820a2258a388000"
   },
-  "contract_sha256": "c0e51cbe559ed22e483d0323f344adfa211b2294acf606b01b37a1386c8058ef",
-  "specification_sha256": "f30bbcd7c49801be2bfff591129bf0954138b4f31d2966fbdf1df24b38ac9f08",
+  "contract_sha256": "2df7139c3eabf54c0b40a6d3c251d9a912859753d1a3b04a8e56583f092dd791",
+  "specification_sha256": "b81df865a319afc5232f33d91a05f8c0281a2d791e3c4e9304f922f0b3cf7ef0",
   "records_sha256": "de4fbfd9807083e88f027dc7cf17981f32fcc4eed4bd3b32aaba7addff50b324",
-  "original_exp2_freeze_sha256": "0c168e5f24ff1a253759eadf6c78c058ee6229a6b62b9c1bc7840e70bcf7199e",
+  "original_exp2_freeze_sha256": "25f88bed76ef7fbb84056658424ece4c0f4f5283c387b02533bf1f111474ca33",
   "target_expression_arrays_opened": false,
   "target_outcomes_scored": false,
   "parameter_updates": 0,

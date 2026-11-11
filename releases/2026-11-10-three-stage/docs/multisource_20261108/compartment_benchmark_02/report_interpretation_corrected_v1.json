@@ -1,7 +1,7 @@
 {
   "evidence_level": "E1_exploratory_source_measurement_compartment",
   "protocol_sha256": "4fc0c007a914074c588cca4881ed8cfc50aa1a6ebfb31128cfbf2bfe77daeeaf",
-  "script_sha256": "48eea2fb0856cbc594878de9ebd8ed2f632fddd91815b83174ea48a0b37c45f2",
+  "script_sha256": "237337170140b95c6554aaf6cd1883a88a115dbb1cbd0f8909cee8ce33828b4f",
   "input_freeze_sha256": "50231e477205132fbb99abc54d44165f5d585cc9d9b65be5fe765200801d2455",
   "input_metadata": {
     "date": "2026-11-08",
@@ -3248,7 +3248,7 @@
     "P19 whole/cyto fractions derive from the same sample design; A/B labels do not establish new independent donors. Shared GFP controls and overlapping LOTO training sets limit independence.",
     "P19 raw versus scaled estimated-count export field unresolved; positive library-wide scaling cancels from this composition, but gene-specific quantifier and length effects do not.",
     "Only three related primary SRSF targets. SRSF3 and alternative SRSF5 are supplementary, not a broad independent confirmation.",
-    "Historical source choice is reported as an E1 exploratory rule; no validated new-target recommendation, p-values or population confidence intervals."
+    "Source choice is evaluated descriptively on the observed tasks."
   ],
   "runtime": {
     "device_name": "NVIDIA A800 80GB PCIe",
@@ -3279,7 +3279,7 @@
     "date": "2026-11-08",
     "source": "interpretation_amendment.md",
     "source_sha256": "21a9a24e9eb032528f4b8b63980a2c4caca2fbf1f883a4a175ef088ecbebae10",
-    "original_report_sha256": "cf907f515715896404bc594262bb5406c999d7a5ebb18fa70b88b3445d12f765",
+    "original_report_sha256": "ec1a2e874e6d0a6d55a23e3ce3a6b873816c36fc9f10e3b0cc57e83b217b99de",
     "numbers_and_case_selection_unchanged": true,
     "legacy_group_name": "K562_without_lowKD_SRSF5 means the predeclared SRSF5-exclusion branch; efficacy interpretation withdrawn"
   }

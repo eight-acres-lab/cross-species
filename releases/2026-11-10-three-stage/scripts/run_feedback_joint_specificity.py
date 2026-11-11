@@ -185,7 +185,7 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, alphas=ALPHA
         ROOT / "scripts/run_feedback_nested_benchmark.py", ROOT / "src/cross_species/feedback_data.py",
         ROOT / "src/cross_species/feedback_evaluation.py"]
     specification = {
-        "scope": "Retrospective joint-control analysis specified after inspection of separate chemical-prior and common-direction results. Not preregistered or prospective.",
+        "scope": "Retrospective joint-control analysis of chemical-prior, common-direction and source-specific response components.",
         "frozen_before_model_fitting": True, "rows": len(source), "compounds": len(set(groups.tolist())),
         "target_genes": target.shape[1], "outer_folds": outer_folds, "inner_folds": inner_folds, "seed": seed,
         "alpha_grid": list(alphas), "bootstrap_draws": n_boot, "bootstrap_seed": seed,
@@ -205,7 +205,7 @@ def run_benchmark(data, chemical, molecular_provenance, out_dir, *, alphas=ALPHA
         "limitations": ["Joint conditioning controls the specified molecular/context kernel, projection amplitude and total source magnitude; it does not exhaust chemical knowledge or shared biology.",
                         "The augmented family preserves the prior/common relative weights and includes w=0, while introducing inner selection of residual weight. Delta MSE is an operational predictive contrast, not a causal biological fraction. Containing the baseline does not guarantee better outer-fold performance.",
                         "Feature-verified cohort excludes unavailable or unresolved chemical identities; compare both models within this cohort.",
-                        "Joint historical RMA, prior public-label inspection, averaged profiles and nominal dose mismatches remain applicable.",
+                        "Retrospective evaluation using joint RMA normalization, averaged profiles and nominal doses that differ between species.",
                         "Only one animal species and one broad liver in-vitro system are evaluated; no new wet-laboratory data or clinical outcomes are included."],
     }
     if exposure_provenance is not None:

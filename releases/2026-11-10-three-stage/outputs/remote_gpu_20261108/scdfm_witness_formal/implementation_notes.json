@@ -1,5 +1,5 @@
 {
-  "formal_specification_sha256": "0aad7ea40e8c4eb65a95141b3b2dd81582d14d5f07e846e74017aeccdb75d33f",
+  "formal_specification_sha256": "dac6ee5f2681b7709dd20e1f8d03b9b957b66d213ace617cb31d9c361ed3bb9b",
   "modes": "All live, old, original-reference and evaluation-EMA modules use eval mode; live autograd remains enabled. This disables released0.1 dropout to preserve initial branch cancellation.",
   "frozen_field_compatibility": "Detached require-grad parameter views with functional_call select the same forward CUDA kernels; old/reference original parameters remain frozen, outputs detach immediately.",
   "loss_accumulation": "Two mean32-cell losses divided by2 then accumulated; native one-step MMD is computed within each microbatch32, matching the specified microbatch recipe.",

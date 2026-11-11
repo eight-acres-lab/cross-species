@@ -1,7 +1,7 @@
 {
   "scope": "Descriptive held arm-record reference; donor identity unknown; overlapping nine splits per drug do not establish biological replication or population confidence intervals.",
-  "input_manifest_sha256": "9c3aa38b3dc16d8b63ee04943819e56ae4b0b6d12585acf25aa6fc541f7d37ca",
-  "fit_manifest_sha256": "efe4727d21552f8d685bab53b9a488abb6c817f9c48bfa3e9081c631bc1165cc",
+  "input_manifest_sha256": "a909fa6c1a7c9ef76f8a673b5ad802b02bbce6f18d182db27cf4596bd0292af7",
+  "fit_manifest_sha256": "8953a743bb4b8c135524a30f8d8d7fec4072a389bbeeef65c94d7a5b59ba9e5c",
   "tasks": [
     {
       "task_id": "CDDO",
