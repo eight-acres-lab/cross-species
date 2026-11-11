@@ -1,0 +1,59 @@
+{
+  "title": "How animal data can improve models of human perturbation responses",
+  "figures": {
+    "Fig1_method": {
+      "number": 1,
+      "pdf_sha256": "3b568ae099211ba8b26baf8989493e3aedf86d0bb02b27644cd12a4c99b4c6d4",
+      "png_size": [
+        3189,
+        2835
+      ],
+      "png_pixels_sha256": "ce01b4ed96cb23903842a47899695f955aaaf06ddfe3b88093d42a0f10521739"
+    },
+    "Fig2_information": {
+      "number": 2,
+      "pdf_sha256": "0b6f4005f045c686f5690dfdf557747dc15480c79fc55cdf4ff783b35eba961f",
+      "png_size": [
+        1700,
+        1370
+      ],
+      "png_pixels_sha256": "4f439626111f4f3e89102aeccad12c87b49a620f4919e641bcdcd208b9fb0a23"
+    },
+    "Fig3_correspondence_transport": {
+      "number": 3,
+      "pdf_sha256": "f9914405f8f5679bf1bb06594de1138c93b019813ab677993e4f866560452434",
+      "png_size": [
+        3188,
+        2622
+      ],
+      "png_pixels_sha256": "efe0e362f37cf5db48ebde5006d5f78b336b4c8d1e824b908ba5db756f8eaea4"
+    },
+    "Fig4_adaptation": {
+      "number": 4,
+      "pdf_sha256": "344761b0e779360ffb8a7d67e1d96f4459b753620dc6e22946ba42f5bbdb7aba",
+      "png_size": [
+        4251,
+        3354
+      ],
+      "png_pixels_sha256": "9553df25852596d3230fd5e2f387cad452225ff12a8554a50e37b3f9f9f4faf9"
+    },
+    "Fig5_augmentation_design": {
+      "number": 5,
+      "pdf_sha256": "83d6eedaa1ac7c08ac82e7a285257a4ad05e011e8ef1a8df2dd3c61f693de24b",
+      "png_size": [
+        3188,
+        2250
+      ],
+      "png_pixels_sha256": "84a68eb68e8ca90a882460211f0acb6a99e838655d96375443f88b5339cbbbe5"
+    },
+    "Fig6_augmentation_results": {
+      "number": 6,
+      "pdf_sha256": "39bf5ca28b5da58d55dc67d06005621b7ae2bcc0271ba4d35caff2705a67b7c1",
+      "png_size": [
+        4251,
+        3566
+      ],
+      "png_pixels_sha256": "edb669c35198c623987f5f54c8904c0cc65543bd90758006f06f7c65c4df7ded"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+panel,condition,method,metric,value
+a,IFN-lambda2,Released,native_energy,0.3820846875508626
+a,IFN-lambda2,Paired,native_energy,0.32426031430562335
+a,IFN-lambda2,Mispaired,native_energy,0.32714176177978516
+a,IFN-lambda3,Released,native_energy,0.3287806510925293
+a,IFN-lambda3,Paired,native_energy,0.29100871086120605
+a,IFN-lambda3,Mispaired,native_energy,0.29456551869710285
+a,IL-11,Released,native_energy,0.38129552205403644
+a,IL-11,Paired,native_energy,0.3252081076304118
+a,IL-11,Mispaired,native_energy,0.3299187819163005
+a,IL-16,Released,native_energy,0.3837471803029378
+a,IL-16,Paired,native_energy,0.3286422888437907
+a,IL-16,Mispaired,native_energy,0.3346227804819743
+a,IL-3,Released,native_energy,0.39372626940409344
+a,IL-3,Paired,native_energy,0.35031644503275555
+a,IL-3,Mispaired,native_energy,0.35226917266845703
+a,IL-36-alpha,Released,native_energy,0.382204532623291
+a,IL-36-alpha,Paired,native_energy,0.3224244912465413
+a,IL-36-alpha,Mispaired,native_energy,0.326679786046346
+a,IL-4,Released,native_energy,0.4376665751139323
+a,IL-4,Paired,native_energy,0.41399415334065753
+a,IL-4,Mispaired,native_energy,0.41492271423339844
+a,TL1A,Released,native_energy,0.41004260381062824
+a,TL1A,Paired,native_energy,0.35460615158081055
+a,TL1A,Mispaired,native_energy,0.3579246203104655
+b,IFN-lambda2,Zero update,expected_native_energy,0.38219545284907025
+b,IFN-lambda2,Pathwise,expected_native_energy,0.3677883545557658
+b,IFN-lambda2,REINFORCE,expected_native_energy,0.38209954897562665
+b,IFN-lambda3,Zero update,expected_native_energy,0.32871673504511517
+b,IFN-lambda3,Pathwise,expected_native_energy,0.3192784786224365
+b,IFN-lambda3,REINFORCE,expected_native_energy,0.32858328024546307
+b,IL-11,Zero update,expected_native_energy,0.38121994336446124
+b,IL-11,Pathwise,expected_native_energy,0.36618147293726605
+b,IL-11,REINFORCE,expected_native_energy,0.3811386823654175
+b,IL-16,Zero update,expected_native_energy,0.3837728103001912
+b,IL-16,Pathwise,expected_native_energy,0.36930861075719196
+b,IL-16,REINFORCE,expected_native_energy,0.3837473392486572
+b,IL-3,Zero update,expected_native_energy,0.3936450084050496
+b,IL-3,Pathwise,expected_native_energy,0.3825684388478597
+b,IL-3,REINFORCE,expected_native_energy,0.3935504158337911
+b,IL-36-alpha,Zero update,expected_native_energy,0.38213568925857544
+b,IL-36-alpha,Pathwise,expected_native_energy,0.36698665221532184
+b,IL-36-alpha,REINFORCE,expected_native_energy,0.38198284308115643
+b,IL-4,Zero update,expected_native_energy,0.43747878074645996
+b,IL-4,Pathwise,expected_native_energy,0.4321157733599345
+b,IL-4,REINFORCE,expected_native_energy,0.4374528129895528
+b,TL1A,Zero update,expected_native_energy,0.4100139339764913
+b,TL1A,Pathwise,expected_native_energy,0.3963993390401204
+b,TL1A,REINFORCE,expected_native_energy,0.4099960724512736
+c,Panobinostat+Crizotinib,Released,energy_u,0.38448206061961177
+c,Panobinostat+Crizotinib,Supervised,energy_u,0.2875143786315246
+c,Panobinostat+Crizotinib,Reward update,energy_u,0.7041713607226301
+c,Panobinostat+Crizotinib,Direct gradient,energy_u,0.2994775339361402
+c,Panobinostat+Curcumin,Released,energy_u,0.2036142839027706
+c,Panobinostat+Curcumin,Supervised,energy_u,0.1207783751388507
+c,Panobinostat+Curcumin,Reward update,energy_u,0.4906464718600234
+c,Panobinostat+Curcumin,Direct gradient,energy_u,0.06965433023774548
+c,Panobinostat+SRT1720,Released,energy_u,0.38370528100477497
+c,Panobinostat+SRT1720,Supervised,energy_u,0.3200165219355844
+c,Panobinostat+SRT1720,Reward update,energy_u,0.5444654091012455
+c,Panobinostat+SRT1720,Direct gradient,energy_u,0.1262399020805196
+c,Panobinostat+Sorafenib,Released,energy_u,0.2085093185928093
+c,Panobinostat+Sorafenib,Supervised,energy_u,0.1484865195409557
+c,Panobinostat+Sorafenib,Reward update,energy_u,0.5149915877176077
+c,Panobinostat+Sorafenib,Direct gradient,energy_u,0.17087596723972798
+c,SRT2104+Alvespimycin,Released,energy_u,0.35895914481852254
+c,SRT2104+Alvespimycin,Supervised,energy_u,0.2394285871520494
+c,SRT2104+Alvespimycin,Reward update,energy_u,0.6489738290511191
+c,SRT2104+Alvespimycin,Direct gradient,energy_u,0.22990169341478284
+c,control+Alvespimycin,Released,energy_u,0.5495169517640464
+c,control+Alvespimycin,Supervised,energy_u,0.44469464667940617
+c,control+Alvespimycin,Reward update,energy_u,0.7031157962877987
+c,control+Alvespimycin,Direct gradient,energy_u,0.3062177483647113
+c,control+Dacinostat,Released,energy_u,0.614672298880587
+c,control+Dacinostat,Supervised,energy_u,0.37956548798189393
+c,control+Dacinostat,Reward update,energy_u,0.8939964650335148
+c,control+Dacinostat,Direct gradient,energy_u,0.3294123701359237
+d,Panobinostat+Crizotinib,Released,energy_v,0.515669659137842
+d,Panobinostat+Crizotinib,Witness,energy_v,0.4455426377116165
+d,Panobinostat+Crizotinib,Matched supervision,energy_v,0.432934015012723
+d,Panobinostat+Curcumin,Released,energy_v,0.34116420768571487
+d,Panobinostat+Curcumin,Witness,energy_v,0.2638440206491044
+d,Panobinostat+Curcumin,Matched supervision,energy_v,0.26605434113426973
+d,Panobinostat+SRT1720,Released,energy_v,0.7311117498099371
+d,Panobinostat+SRT1720,Witness,energy_v,0.5969781307365079
+d,Panobinostat+SRT1720,Matched supervision,energy_v,0.6446523240456123
+d,Panobinostat+Sorafenib,Released,energy_v,0.514273320615084
+d,Panobinostat+Sorafenib,Witness,energy_v,0.41689396091788744
+d,Panobinostat+Sorafenib,Matched supervision,energy_v,0.4315578236522519
+d,SRT2104+Alvespimycin,Released,energy_v,0.48563146162917725
+d,SRT2104+Alvespimycin,Witness,energy_v,0.41742133467157316
+d,SRT2104+Alvespimycin,Matched supervision,energy_v,0.3973905527538193
+d,control+Alvespimycin,Released,energy_v,0.7848719985511572
+d,control+Alvespimycin,Witness,energy_v,0.710312552446748
+d,control+Alvespimycin,Matched supervision,energy_v,0.6722432174230821
+d,control+Dacinostat,Released,energy_v,0.749956660729163
+d,control+Dacinostat,Witness,energy_v,0.6249410411341181
+d,control+Dacinostat,Matched supervision,energy_v,0.5894277604073963

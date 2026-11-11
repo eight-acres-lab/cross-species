@@ -1,0 +1,6 @@
+task,species,cells,biological_source_units
+iPSC exp2,human,6169,2
+iPSC exp2,cynomolgus,3563,2
+iPSC exp3,human,12136,2
+LPS,human,1644,10
+LPS,rabbit incl A0,638,2

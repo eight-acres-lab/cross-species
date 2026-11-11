@@ -1,6 +1,1 @@
-# Figure rendering dependencies. Install core numerical dependencies separately.
-matplotlib==3.9.4
-CairoSVG==2.8.2
-Pillow==11.3.0
-# System dependencies: Cairo, Poppler (pdftoppm), Pandoc, and XeLaTeX with TeX Gyre fonts.
-# Arial is requested by the plotters; fonts are not redistributed in this package.
+-r ../../../requirements-figures.txt

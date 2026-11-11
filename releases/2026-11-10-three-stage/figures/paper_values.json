@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "title": "How animal data can improve models of human perturbation responses",
+  "abstract_percentages": {
+    "exp2_M56_gain_pct": "11.90",
+    "exp3_M56_gain_pct": "11.30",
+    "exp3_M82_gain_pct": "0.85",
+    "exp3_human_gain_pct": "9.75",
+    "rabbit_gain_pct": "-13.35",
+    "rabbit_human_gain_pct": "6.26",
+    "TG_GATEs_gain_pct": "4.97"
+  },
+  "supplementary_tables": {
+    "1": {
+      "columns": [
+        "Prediction rule",
+        "CDDO-Me",
+        "KI696",
+        "Thapsigargin",
+        "Mean MSE"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Zero response"
+          ],
+          "values": [
+            "0.031126",
+            "0.045618",
+            "0.211443",
+            "0.096062"
+          ]
+        },
+        {
+          "labels": [
+            "TG human response mean"
+          ],
+          "values": [
+            "0.034113",
+            "0.050245",
+            "0.197113",
+            "0.093824"
+          ]
+        },
+        {
+          "labels": [
+            "Raw rat response"
+          ],
+          "values": [
+            "0.134498",
+            "0.131806",
+            "0.282276",
+            "0.182860"
+          ]
+        },
+        {
+          "labels": [
+            "TG-fitted scalar"
+          ],
+          "values": [
+            "0.029876",
+            "0.042969",
+            "0.194238",
+            "0.089028"
+          ]
+        },
+        {
+          "labels": [
+            "Chemical and exposure prior"
+          ],
+          "values": [
+            "0.036972",
+            "0.054162",
+            "0.201165",
+            "0.097433"
+          ]
+        },
+        {
+          "labels": [
+            "Prior/source kernel fusion"
+          ],
+          "values": [
+            "0.046770",
+            "0.061689",
+            "0.168369",
+            "0.092276"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "columns": [
+        "Procedure",
+        "Test native population energy"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Released checkpoint"
+          ],
+          "values": [
+            "0.38744350"
+          ]
+        },
+        {
+          "labels": [
+            "Correctly paired supervised continuation"
+          ],
+          "values": [
+            "0.33880758"
+          ]
+        },
+        {
+          "labels": [
+            "Donor-preserving mismatched continuation"
+          ],
+          "values": [
+            "0.34225564"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "columns": [
+        "Procedure",
+        "Energy U",
+        "Mean-expression MSE"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Released checkpoint"
+          ],
+          "values": [
+            "0.38620848",
+            "0.00413899"
+          ]
+        },
+        {
+          "labels": [
+            "Supervised flow matching plus MMD"
+          ],
+          "values": [
+            "0.27721207",
+            "0.00322182"
+          ]
+        },
+        {
+          "labels": [
+            "Population-reward NFT adaptation"
+          ],
+          "values": [
+            "0.64290870",
+            "0.00701503"
+          ]
+        },
+        {
+          "labels": [
+            "Direct terminal differentiation"
+          ],
+          "values": [
+            "0.21882565",
+            "0.00297163"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "columns": [
+        "Procedure",
+        "Energy V",
+        "Mean-expression MSE"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Released checkpoint"
+          ],
+          "values": [
+            "0.58895415",
+            "0.00341839"
+          ]
+        },
+        {
+          "labels": [
+            "Witness-only continuation"
+          ],
+          "values": [
+            "0.49656195",
+            "0.00303670"
+          ]
+        },
+        {
+          "labels": [
+            "Matched reference-regularized supervised continuation"
+          ],
+          "values": [
+            "0.49060858",
+            "0.00276283"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "columns": [
+        "Training group",
+        "Exp2 MSE",
+        "Reduction (%)",
+        "Exp3 MSE",
+        "Reduction (%)"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Human reference H"
+          ],
+          "values": [
+            "0.003470193",
+            "+0.00",
+            "0.008472848",
+            "+0.00"
+          ]
+        },
+        {
+          "labels": [
+            "H + human cells"
+          ],
+          "values": [
+            "0.002933772",
+            "+15.46",
+            "0.007646779",
+            "+9.75"
+          ]
+        },
+        {
+          "labels": [
+            "H + M56"
+          ],
+          "values": [
+            "0.003057354",
+            "+11.90",
+            "0.007515096",
+            "+11.30"
+          ]
+        },
+        {
+          "labels": [
+            "H + M56 A0"
+          ],
+          "values": [
+            "0.003289362",
+            "+5.21",
+            "0.009015293",
+            "-6.40"
+          ]
+        },
+        {
+          "labels": [
+            "H + M82"
+          ],
+          "values": [
+            "0.003158140",
+            "+8.99",
+            "0.008401156",
+            "+0.85"
+          ]
+        },
+        {
+          "labels": [
+            "H + M82 A0"
+          ],
+          "values": [
+            "0.003627666",
+            "-4.54",
+            "0.008796568",
+            "-3.82"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "columns": [
+        "Screen",
+        "Target human line",
+        "H",
+        "+Human",
+        "+M56",
+        "+M82"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "exp2",
+            "63Ab2.2-02"
+          ],
+          "values": [
+            "0.002482588",
+            "0.001969566",
+            "0.002303302",
+            "0.002128738"
+          ]
+        },
+        {
+          "labels": [
+            "exp2",
+            "29B5-39s"
+          ],
+          "values": [
+            "0.004457797",
+            "0.003897978",
+            "0.003811407",
+            "0.004187542"
+          ]
+        },
+        {
+          "labels": [
+            "exp3",
+            "63Ab2.2-02"
+          ],
+          "values": [
+            "0.004857951",
+            "0.004232382",
+            "0.004735405",
+            "0.004815524"
+          ]
+        },
+        {
+          "labels": [
+            "exp3",
+            "29B5-39s"
+          ],
+          "values": [
+            "0.012087744",
+            "0.011061176",
+            "0.010294787",
+            "0.011986787"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "columns": [
+        "Prediction rule",
+        "Exp2 MSE",
+        "Exp3 MSE"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Zero response"
+          ],
+          "values": [
+            "0.005209820",
+            "0.012385104"
+          ]
+        },
+        {
+          "labels": [
+            "Training-human mean response"
+          ],
+          "values": [
+            "0.003667735",
+            "0.008277735"
+          ]
+        },
+        {
+          "labels": [
+            "0.5H response"
+          ],
+          "values": [
+            "0.003227207",
+            "0.009334136"
+          ]
+        },
+        {
+          "labels": [
+            "0.75H response"
+          ],
+          "values": [
+            "0.003070500",
+            "0.008629782"
+          ]
+        },
+        {
+          "labels": [
+            "Human reference H (calibrated)"
+          ],
+          "values": [
+            "0.003181307",
+            "0.008661156"
+          ]
+        },
+        {
+          "labels": [
+            "H + human cells (calibrated)"
+          ],
+          "values": [
+            "0.002869665",
+            "0.007916305"
+          ]
+        },
+        {
+          "labels": [
+            "H + M56 (calibrated)"
+          ],
+          "values": [
+            "0.002688688",
+            "0.007819012"
+          ]
+        },
+        {
+          "labels": [
+            "H + M56 A0 (calibrated)"
+          ],
+          "values": [
+            "0.003295882",
+            "0.009051587"
+          ]
+        },
+        {
+          "labels": [
+            "H + M82 (calibrated)"
+          ],
+          "values": [
+            "0.003100007",
+            "0.008637388"
+          ]
+        },
+        {
+          "labels": [
+            "H + M82 A0 (calibrated)"
+          ],
+          "values": [
+            "0.003586303",
+            "0.008937899"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "columns": [
+        "Training group or fixed rule",
+        "Response MSE",
+        "Reduction relative to H (%)"
+      ],
+      "rows": [
+        {
+          "labels": [
+            "Human reference H"
+          ],
+          "values": [
+            "0.008684375",
+            "0.00"
+          ]
+        },
+        {
+          "labels": [
+            "H + additional human donors"
+          ],
+          "values": [
+            "0.008141122",
+            "+6.26"
+          ]
+        },
+        {
+          "labels": [
+            "H + rabbit"
+          ],
+          "values": [
+            "0.009843768",
+            "-13.35"
+          ]
+        },
+        {
+          "labels": [
+            "H + rabbit A0"
+          ],
+          "values": [
+            "0.008791903",
+            "-1.24"
+          ]
+        },
+        {
+          "labels": [
+            "Training-human mean response"
+          ],
+          "values": [
+            "0.010464676",
+            "-20.50"
+          ]
+        },
+        {
+          "labels": [
+            "Zero response"
+          ],
+          "values": [
+            "0.022803901",
+            "-162.59"
+          ]
+        }
+      ]
+    }
+  }
+}

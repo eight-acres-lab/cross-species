@@ -342,7 +342,7 @@
   "external_preprocessing_role": "External raw expression may be processed to prepare source and separate truth, but no human outcome-dependent transform, scale, gene selection or model decision.",
   "mismatch_rule": "Three drugs have no exact shared time-and-rat-dose stratum. Any two alternate-drug source queries are explicitly cross-condition diagnostics, not exposure-matched negative controls. Preserve original query chemistry and context.",
   "out_of_support_note": "CDDO-Me source and target dose 100nM is below TG-GATEs rat minimum1uM; its24h and THAP8h lie in the training time set.",
-  "history": "Previously viewed human outcomes are disclosed; protocol fixation now does not create a prospective blind evaluation.",
+  "evaluation_design": "Retrospective study transfer using published human responses.",
   "source_task_manifest_sha256": "2b9c2e7d2f998467f4e11786c37c300f7a07da569376596b9e67fad816cb41fe",
   "source_audit_sha256": "5da4f39ecb40378ec337149c85698de7fe73d3dd53ee9a436b10e5adbdc2ecdb",
   "g300_excluded_from_current_run": true

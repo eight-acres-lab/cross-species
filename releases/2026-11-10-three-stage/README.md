@@ -1,12 +1,12 @@
 # How animal data can improve models of human perturbation responses
 
-This directory contains the code and processed analysis data for the manuscript by **Zihui Zhang, Wei Wang, Ziyan Zhou, Zhi Wang and Chen Peng**. It is the directory cited in the manuscript's Data Availability and Code Availability statements.
+Analysis code, processed results and figure source data accompanying the manuscript by **Zihui Zhang, Wei Wang, Ziyan Zhou, Zhi Wang and Chen Peng**.
 
-The analyses examine two uses of animal data: providing a measured animal response at prediction time, and adding animal observations during training. Human-only adaptation controls and matched additional-human comparisons help attribute the observed changes in prediction error. The macaque experiment includes frozen evaluation in a second screen of the same study; the rabbit experiment evaluates a larger change in biological and experimental context.
+The analyses evaluate measured animal responses as prediction inputs and animal observations as training supervision. Human-only adaptation controls and matched additional-human comparisons measure each source's contribution to prediction. The macaque experiment evaluates trained models in a second screen of the same study; the rabbit experiment tests transfer across cell sources and stimulation protocols.
 
 ## Start here
 
-Run commands from this directory:
+From the repository root:
 
 ```bash
 cd releases/2026-11-10-three-stage
@@ -14,7 +14,27 @@ python3 scripts/verify_deposit.py
 python3 scripts/verify_three_stage_evidence.py
 ```
 
-Both checks use the Python standard library. `verify_deposit.py` validates every entry in [DATA_MANIFEST.json](DATA_MANIFEST.json). `verify_three_stage_evidence.py` makes 186 numerical comparisons between deposited figure source data and frozen score records, including per-line, per-seed and per-donor aggregation.
+Both checks use the Python standard library. `verify_deposit.py` validates every entry in [DATA_MANIFEST.json](DATA_MANIFEST.json). `verify_three_stage_evidence.py` verifies 186 numerical comparisons, including aggregation by cell line, seed and donor.
+
+## Recompute results and generate figures
+
+Use Python 3.12 with the Arial font and the system Cairo library:
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-figures.txt
+python scripts/verify_paper_results.py --out figures/generated/paper_results.json
+python scripts/reproduce_paper_figures.py --compare
+```
+
+On macOS with Cairo installed through Homebrew, set `DYLD_FALLBACK_LIBRARY_PATH` to its library directory if CairoSVG cannot locate the library.
+
+`verify_paper_results.py` recalculates the deposited line–seed, donor and compound summaries, including 10,000 donor-bootstrap samples and 5,000 compound-bootstrap samples. It checks seven abstract percentages and 113 numeric cells across Supplementary Tables 1–8 against [paper_values.json](figures/paper_values.json).
+
+`reproduce_paper_figures.py` draws the quantitative panels from the result records and renders the two study schematics from editable artwork and layout code. It exports PDF, SVG, PNG and source-data files to `figures/generated/`. The `--compare` option renders each generated PDF and its manuscript counterpart at 144 dpi and compares every pixel.
+
+**[Figure gallery](figures/README.md)** · **[Six-figure PDF](figures/generated/paper_figures.pdf)** · **[Result verification](figures/generated/paper_results.json)** · **[Figure verification](figures/generated/figure_verification.json)**
 
 | Directory | Contents |
 | --- | --- |
@@ -24,19 +44,20 @@ Both checks use the Python standard library. `verify_deposit.py` validates every
 | [outputs/](outputs/) | Analysis reports, scores, selections and fitted-run metadata |
 | [artifacts/](artifacts/) | Supporting annotations, source mappings and compound-feature provenance |
 | [reproduction/](reproduction/) | Source-data acquisition records and prepared-input checksums |
+| [figures/](figures/) | Figures 1–6, editable artwork, captions, source data and verification reports |
 
 ## Find the results behind the figures
 
-Figure numbers in this table follow the submitted manuscript. Deposited filenames retain their original identifiers so that existing references and verification scripts continue to resolve.
+The table maps Figures 1–6 to their source data and analysis code.
 
 | Manuscript figure | Data and implementation |
 | --- | --- |
 | Figure 1: hepatocyte prediction design | [Nested benchmark](scripts/run_feedback_nested_benchmark.py), [correspondence benchmark](scripts/run_crossspecies_pairing_benchmark.py) and [frozen comparison configuration](outputs/feedback_nested_chemical_20261107_absolute_v1/specification.json) |
-| Figure 2: predictive information in rat responses | [Figure source data](docs/biorxiv_ready_20261108/figures/results/Fig5_information_source_data.json), [primary results](outputs/feedback_nested_chemical_20261107_absolute_v1/), [response-profile controls](outputs/feedback_joint_specificity_20261107_absolute/) and [reference-budget comparisons](outputs/feedback_label_budget_20261107_absolute/) |
-| Figure 3: correspondence and study transfer | [Correspondence source data](docs/biorxiv_ready_20261108/figures/results/Fig6_correspondence_source_data.json), [study-transfer source data](docs/biorxiv_ready_20261108/figures/results/Fig7_transport_source_data.json), [paired-response results](outputs/crossspecies_direct_03/) and [external-transfer results](outputs/external_transfer_04/) |
-| Figure 4: human-only adaptation | [Source data](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig5_adaptation.csv) and [State/scDFM result records](outputs/remote_gpu_20261108/) |
-| Figure 5: animal-training design | [Cohort counts](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig6_cohorts.csv), [matched cell budgets](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig6_budgets.csv) and [gene axes](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig6_gene_axes.csv) |
-| Figure 6: animal-training results | [Macaque line means](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig7_macaque_line_means.csv), [M56 versus additional-human comparisons](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig7_m56_human_paired.csv) and [paired rabbit comparisons](docs/manuscript_rewrite_20261109/figures/three_stage/source_data/Fig7_rabbit_paired.csv) |
+| Figure 2: predictive information in rat responses | [Figure source data](figures/generated/source_data/Fig2_information.json), [primary results](outputs/feedback_nested_chemical_20261107_absolute_v1/), [response-profile controls](outputs/feedback_joint_specificity_20261107_absolute/) and [reference-budget comparisons](outputs/feedback_label_budget_20261107_absolute/) |
+| Figure 3: correspondence and study transfer | [Figure source data](figures/generated/source_data/Fig3_correspondence_transport.json), [paired-response results](outputs/crossspecies_direct_03/) and [external-transfer results](outputs/external_transfer_04/) |
+| Figure 4: human-only adaptation | [Figure source data](figures/generated/source_data/Fig4_adaptation.csv) and [State/scDFM result records](outputs/remote_gpu_20261108/) |
+| Figure 5: animal-training design | [Cohort counts](figures/generated/source_data/Fig5_cohorts.csv), [matched cell budgets](figures/generated/source_data/Fig5_budgets.csv) and [gene axes](figures/generated/source_data/Fig5_gene_axes.csv) |
+| Figure 6: animal-training results | [Macaque line means](figures/generated/source_data/Fig6_macaque_line_means.csv), [M56 versus additional-human comparisons](figures/generated/source_data/Fig6_m56_human_paired.csv) and [paired rabbit comparisons](figures/generated/source_data/Fig6_rabbit_paired.csv) |
 
 ## Supplementary Information
 
@@ -60,15 +81,15 @@ Figure numbers in this table follow the submitted manuscript. Deposited filename
 | Macaque–human POU5F1 response | [GSE325993](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325993) | [Exp2 configuration](docs/gse325993_state_20261110/CONTRACT_v1.json), [exp2 input records](docs/gse325993_state_20261110/input/), [exp3 configuration](docs/gse325993_screen_validation_20261110/CONTRACT_v1.json) and [exp3 input records](docs/gse325993_screen_validation_20261110/input/) |
 | Rabbit–human LPS response | [Hagai et al.](https://doi.org/10.1038/s41586-018-0657-2), [E-MTAB-6754](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6754) and [Lawlor et al.](https://doi.org/10.3389/fimmu.2021.636720) | [Frozen configuration](docs/nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3.json), [source metadata](docs/nonrodent_singlecell_20261110/) and [prepared-input definitions](docs/nonrodent_singlecell_20261110/prepared/) |
 
-Additional source accessions, sample selections and checksums are recorded alongside the corresponding results in `docs/`, `artifacts/` and `outputs/`. Source datasets and pretrained models retain their original terms and attribution requirements.
+Source accessions, sample selections and checksums accompany the results in `docs/`, `artifacts/` and `outputs/`. Dataset and model reuse follows the source providers' terms.
 
 ## Running the analyses
 
-The deposited results and source-data checks can be inspected directly after cloning. A full rerun requires the original expression data, prepared arrays and the upstream State or scDFM model files appropriate to each experiment. The acquisition records and prepared-input manifests specify their identities and checksums; large expression matrices and model checkpoints are obtained separately.
+To rerun an analysis, obtain its expression data, prepared arrays and State or scDFM model files using the acquisition records and input manifests. These records specify source locations and checksums. Expression matrices and model checkpoints are downloaded separately.
 
-The numerical dependency versions are recorded in [requirements-core.txt](requirements-core.txt). The executed model-training environment used Python 3.11.10, PyTorch 2.7.1 and CUDA 11.8. Upstream model repositories supply additional model-specific dependencies. The [package configuration](pyproject.toml) defines the shared `cross_species` Python package.
+Numerical dependencies are listed in [requirements-core.txt](requirements-core.txt). The training environment uses Python 3.11.10, PyTorch 2.7.1 and CUDA 11.8, plus the dependencies of the upstream State or scDFM model. The [package configuration](pyproject.toml) defines the shared `cross_species` Python package.
 
-These entry points describe the inputs for each analysis:
+Run these commands from this release directory to list each analysis's inputs:
 
 ```bash
 python scripts/run_feedback_nested_benchmark.py --help
@@ -79,6 +100,6 @@ python scripts/predict_gse325993_screen.py predict --help
 python scripts/run_nonrodent_lps_state.py --help
 ```
 
-The macaque runners enforce the paths and artifact hashes in their frozen configurations, including the original exp2 model records used for exp3 prediction. Replay requires the contract-bound Linux environment and the recorded inputs. Use a separate output directory for new runs so the deposited scores remain available for comparison.
+The macaque runners require Linux and verify input paths and hashes against their configurations. Exp3 prediction loads the exp2 model records and selected weights. Write new runs to a separate output directory for comparison with the deposited scores.
 
 For preparation and scoring, see the `prepare_*`, `audit_*` and `verify_*` scripts in [scripts/](scripts/). The [shared State interface](src/cross_species/state_assay_adapter.py) and [named-gene model adapter](src/cross_species/named_gene_state.py) implement the animal-training readout described in Methods.

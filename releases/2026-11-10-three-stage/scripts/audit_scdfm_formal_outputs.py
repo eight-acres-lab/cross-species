@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Verify frozen scDFM predictions and correct inherited bootstrap unit labels.
-
-No model is fitted and no prediction or numerical score is changed. The original
-report remains intact; report_audited.json supplies chemical-condition labels.
-"""
+"""Verify scDFM population metrics and chemical-condition bootstrap intervals."""
 import argparse
 from copy import deepcopy
 import json

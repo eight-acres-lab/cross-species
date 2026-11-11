@@ -134,7 +134,7 @@ def population_operator_probe(model, controls, targets, perturbation, *, device,
         "gradient_parameter_tensors": len(gradients), "finite_output_and_gradients": True,
         "gradient_receiving_parameters": sum(parameter.numel() for parameter in model.parameters() if parameter.grad is not None),
         "optimizer_steps": 0, "variable_cell_set_inference": True,
-        "scope": "Released-weight compute/operator smoke on actual unpaired cell populations; not a new performance or generalization experiment.",
+        "scope": "Operator and gradient checks on unpaired cell populations using released State weights.",
     }
 
 

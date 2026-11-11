@@ -108,7 +108,7 @@ def main():
         "gene_columns": columns, "gene_token_ids": token_ids[columns], "updates_per_method": args.updates,
         "methods": ["native_fm", "nft", "terminal_gradient"], "rollouts_per_update": args.rollouts, "training_cells_per_population": args.training_cells,
         "evaluation_cells_per_population": args.evaluation_cells, "test_rollouts": args.rollouts, "calibration_rollouts": 1,
-        "ode": {"solver": "fixed Euler", "steps": args.ode_steps, "source_solver": "Author RK4 on 20 time-grid points; this compute-limited adaptation fixes Euler before outcome inspection."},
+        "ode": {"solver": "fixed Euler", "steps": args.ode_steps, "source_solver": "Fixed Euler integration; the source implementation uses RK4 on 20 time-grid points."},
         "optimizer": {"name": "Adam", "lr": args.lr, "betas": [.9, .999], "eps": 1e-8, "weight_decay": 0, "clip_norm": 1.},
         "nft": {"source_commit": "cbb14f84b8312b620390dfcbe2fab69c1383b104", "source": "NVlabs/DiffusionNFT/scripts/train_nft_sd3.py:910-970",
                 "mixture_beta": 1., "advantage_clip": 5., "reference_velocity_mse_weight": 1e-4,

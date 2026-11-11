@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "name": "rabbit",
+      "url": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-3.0/Animals/Servier/rabbit-brown.svg",
+      "sha256": "32f1d779abdf84fe3ac6e6c9d8fde33ee70233365de548b296ad31ec2fcf9344",
+      "creator": "Servier",
+      "license": "CC BY 3.0",
+      "modification": "Uniform scaling and placement; original geometry and colors retained.",
+      "files": {
+        "svg": "32f1d779abdf84fe3ac6e6c9d8fde33ee70233365de548b296ad31ec2fcf9344",
+        "png": "a329f7d17b870342fa8e4364ed05713c0f3831b93e40b2cb82823107437fd9ab"
+      }
+    },
+    {
+      "name": "macaque_dbcls",
+      "url": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-by-4.0/Animals/DBCLS/Rhesus_monkey.svg",
+      "sha256": "48e3fedc1925879910b774fa6fb1003376928a4046906b1c3ee05f1fe2aea780",
+      "creator": "DBCLS",
+      "license": "CC BY 4.0",
+      "modification": "Uniform scaling; used as a generic macaque symbol. The artwork depicts rhesus, whereas the experimental lines are cynomolgus.",
+      "files": {
+        "svg": "48e3fedc1925879910b774fa6fb1003376928a4046906b1c3ee05f1fe2aea780",
+        "png": "06a34ee56652dbb0583705949dbee0e863091d419ba3aa6cc6d9be3cf193148d"
+      }
+    }
+  ],
+  "schematic": {
+    "file": "Fig1_method.svg",
+    "creator": "Zihui Zhang, Wei Wang, Ziyan Zhou, Zhi Wang and Chen Peng",
+    "embedded_artwork_creator": "Servier Medical Art",
+    "embedded_artwork_license": "CC BY 3.0",
+    "source": "https://smart.servier.com/",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "modification": "Rat, culture-dish and cell artwork scaled and recolored within the method schematic."
+  }
+}

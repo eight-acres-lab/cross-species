@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "input_level": "deposited score records",
+  "animal_summary_recomputations": {
+    "exp2": {
+      "input_score_rows": 96,
+      "variants": 16,
+      "numeric_comparisons": 1039,
+      "max_absolute_difference": 0.0
+    },
+    "exp3": {
+      "input_score_rows": 96,
+      "variants": 16,
+      "numeric_comparisons": 732,
+      "max_absolute_difference": 0.0
+    },
+    "rabbit": {
+      "input_score_rows": 110,
+      "variants": 11,
+      "numeric_comparisons": 369,
+      "max_absolute_difference": 0.0,
+      "bootstrap_replicates": 10000
+    }
+  },
+  "compound_recomputations": {
+    "feedback_nested_chemical_20261107_absolute_v1": {
+      "compounds": 126,
+      "model_means": {
+        "chemical_context": 0.037338669787836475,
+        "source_plus_chemical_context": 0.03548287284101354,
+        "source_copy": 0.089735284602025,
+        "calibrated_source": 0.038757810678945154
+      },
+      "numeric_comparisons": 508,
+      "gain_pct": 4.970174238578497,
+      "positive_compounds": 85,
+      "bootstrap_replicates": 5000,
+      "delta_ci95": [
+        0.0009309456251097324,
+        0.0028908171722683766
+      ],
+      "bootstrap_numeric_comparisons": 3
+    },
+    "feedback_joint_specificity_20261107_absolute": {
+      "compounds": 126,
+      "model_means": {
+        "chemical_context_plus_common": 0.03699947079692124,
+        "chemical_context_plus_common_residual": 0.035657569006497324
+      },
+      "numeric_comparisons": 254
+    },
+    "feedback_residual_adapter_20261107_absolute": {
+      "compounds": 126,
+      "model_means": {
+        "human_prior": 0.037338669787836475,
+        "bias_only": 0.037343855910529446,
+        "residual_gamma1": 0.035483118714184775,
+        "residual_gamma05": 0.03503485199417258,
+        "direct_source_prior_fusion": 0.03548287284101354
+      },
+      "numeric_comparisons": 635
+    }
+  },
+  "external_transfer": {
+    "drug_rows": 3,
+    "means": {
+      "zero": 0.09606208194745675,
+      "human_mean": 0.09382360279116408,
+      "rat_copy": 0.1828602535144129,
+      "scalar_nointercept": 0.0890278153123607,
+      "chemical_context": 0.09743282343539299,
+      "source_plus_context": 0.0922760721306477,
+      "fused_wrong_source_120": 0.10241068325908124,
+      "fused_wrong_source_201": 0.10216411069927837
+    },
+    "numeric_comparisons": 8,
+    "fusion_gain_pct": 5.292622263137732,
+    "scalar_gain_vs_zero_pct": 7.322625631769659
+  },
+  "human_only_macro_means_recomputed": 66,
+  "manuscript_comparison": {
+    "abstract_percentages": {
+      "exp2_M56_gain_pct": 11.896700257271878,
+      "exp3_M56_gain_pct": 11.303776350898003,
+      "exp3_M82_gain_pct": 0.8461377952046769,
+      "exp3_human_gain_pct": 9.749598656045881,
+      "rabbit_gain_pct": -13.350338564044844,
+      "rabbit_human_gain_pct": 6.255523791425064,
+      "TG_GATEs_gain_pct": 4.970174238578497
+    },
+    "abstract_percentage_checks": 7,
+    "supplementary_tables": [
+      {
+        "table": 1,
+        "numeric_cells_checked": 24
+      },
+      {
+        "table": 2,
+        "numeric_cells_checked": 3
+      },
+      {
+        "table": 3,
+        "numeric_cells_checked": 8
+      },
+      {
+        "table": 4,
+        "numeric_cells_checked": 6
+      },
+      {
+        "table": 5,
+        "numeric_cells_checked": 24
+      },
+      {
+        "table": 6,
+        "numeric_cells_checked": 16
+      },
+      {
+        "table": 7,
+        "numeric_cells_checked": 20
+      },
+      {
+        "table": 8,
+        "numeric_cells_checked": 12
+      }
+    ],
+    "supplementary_numeric_cells_checked": 113
+  },
+  "numpy_version": "2.5.4"
+}
