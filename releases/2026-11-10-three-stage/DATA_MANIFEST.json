@@ -1,6 +1,8 @@
 {
   "version": "2026-11-10-three-stage",
+  "title": "How animal data can improve models of human perturbation responses",
   "repository": "https://github.com/eight-acres-lab/cross-species",
+  "scope": "Code, configurations and processed analysis data for the manuscript and Supplementary Information.",
   "files": [
     {
       "path": ".gitattributes",
@@ -13,49 +15,14 @@
       "sha256": "ff686eb3a470d2d65d0864041e546cf95a4766464a016d8dd800520764c9f9d9"
     },
     {
-      "path": "artifacts/biology/dili/system_vs_species.json",
-      "bytes": 401547,
-      "sha256": "c08b5b9f86bc5f84f5f45e4605e9a4c564263f1a0290d55381181dde4f7c910a"
-    },
-    {
-      "path": "artifacts/biology/replicate_normalisation_audit.json",
-      "bytes": 11835,
-      "sha256": "6b775335cd44fdbf07b9c55dd1f1b1370276f6a183ab7a5c96774b1643399844"
+      "path": "README.md",
+      "bytes": 9819,
+      "sha256": "8ce68ebc1a99b765bbbfe80882db17f1c7b2f1b62cb0f06a7d02bf40f1959973"
     },
     {
       "path": "artifacts/feedback_compound_features_20261107/manifest.json",
       "bytes": 30957,
       "sha256": "762702d7dde6102dc1b4d063a92d8376078dd5442172ef232f7a617b2e9c7905"
-    },
-    {
-      "path": "artifacts/gse249010_v1/protein_kernel/gse249010/results.json",
-      "bytes": 9024,
-      "sha256": "c804931dfbb981437edeab37f0e57391e989bf8c0f3d97ab15ff4e1141402f6d"
-    },
-    {
-      "path": "artifacts/lincs_scale/scale_test.json",
-      "bytes": 5357,
-      "sha256": "bf3736cc31432b8f7ec904a24c437ba959db1b54060134aa0c573567fddd2541"
-    },
-    {
-      "path": "artifacts/rhaister_benchmark/all.json",
-      "bytes": 5116,
-      "sha256": "b2bac9182587ecda9b05fe2c7d2a44379b6a72f6848d8be5cdeefa1ce5d830c4"
-    },
-    {
-      "path": "artifacts/rhaister_benchmark/ceiling_saturation.json",
-      "bytes": 1832,
-      "sha256": "f03410ef1b4aa5bf51cb2688115253eec15ca34e754a9e980d22cbef4001e250"
-    },
-    {
-      "path": "artifacts/rhaister_benchmark/depth_vs_ceiling.json",
-      "bytes": 224992,
-      "sha256": "771a80c179bae96485cb7e9f8e6956e469ac934219182d6151679a119a8ed211"
-    },
-    {
-      "path": "artifacts/rhaister_benchmark/donor_ceiling.json",
-      "bytes": 128668,
-      "sha256": "f9090a7d76f2a954e4144817cee924a4c36ea76c32d46f3b5607d76304e01171"
     },
     {
       "path": "artifacts/tg_gates_rat_human_v1/metadata/open_tggates_cel_file_attribute.csv",
@@ -66,16 +33,6 @@
       "path": "artifacts/tg_gates_rat_human_v1/ortholog_map/rat_to_human_one2one.tsv",
       "bytes": 140075,
       "sha256": "837c12e141fb5578ecbb90d6c39f8357563c5b7b7d25e0f691b6b1d499aa9e56"
-    },
-    {
-      "path": "docs/biorxiv_ready_20261108/figures/concept/source_data.json",
-      "bytes": 1189,
-      "sha256": "2bee698503de7bff224d31fcb5fa2493ad462752b784e6cb4e1a0a5e5650ca05"
-    },
-    {
-      "path": "docs/biorxiv_ready_20261108/figures/foundation/Fig3_data_source_data.json",
-      "bytes": 5926,
-      "sha256": "b55755407725ad8d524b2cfd4a18aab1ba69d1b4f852a43e7fdf17d9fd6f7298"
     },
     {
       "path": "docs/biorxiv_ready_20261108/figures/foundation/Fig4_foundation_source_data.json",
@@ -99,13 +56,8 @@
     },
     {
       "path": "docs/biorxiv_ready_20261108/figures/results/Fig8_scope_source_data.json",
-      "bytes": 343043,
-      "sha256": "c8df8ae499673b0570b6405cd3608eec50b00f0620615d1557d3cff557bccf4e"
-    },
-    {
-      "path": "docs/biorxiv_ready_20261108/integration/legacy_registry_check.json",
-      "bytes": 45034,
-      "sha256": "2175a4f6166c8bbd422144e1e17b6041b8efd6ad3098b504051586d5e864790d"
+      "bytes": 342728,
+      "sha256": "65436e95f9cbfcd0a8c6c144755a1f3761eed3230a92560419501e718f94304c"
     },
     {
       "path": "docs/biorxiv_ready_20261108/legacy_blood_audit/independent_verification.json",
@@ -186,11 +138,6 @@
       "path": "docs/biorxiv_ready_20261108/reproducibility/requirements-figures.txt",
       "bytes": 304,
       "sha256": "a36207b76bc300b64fb8f051dfc683b58b8c55ff15f10dd22847a532e2c10779"
-    },
-    {
-      "path": "docs/biorxiv_ready_20261108/reproducibility/run_core.py",
-      "bytes": 9665,
-      "sha256": "2cf1dcfd97dabc3d5f0af39ff472f1575143d14fb9e75700cc3c93d961bb00a5"
     },
     {
       "path": "docs/biorxiv_ready_20261108/reproducibility/supplement_number_audit.json",
@@ -518,116 +465,6 @@
       "sha256": "8c9f853fd77d083e3ca24d7c2df247ec8fe4f2b8661e504d0ba7088e680df92b"
     },
     {
-      "path": "docs/multisource_20261108/e5919_recovery_02/E1_report_v1.json",
-      "bytes": 18805,
-      "sha256": "036379cf5cd1ef831ad1a7db792abb8e0569cccec13ee2a70078e71170231d84"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/POSTHOC_SCALAR_report_v1.json",
-      "bytes": 4780,
-      "sha256": "9df2911980849cc61d99addbcd5b66825ccb956e84e7a9e2f4fa92ad86f58263"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/audit_processed_remote.py",
-      "bytes": 7889,
-      "sha256": "4697d619d43dd1c5a6fa9d53e0ea4298c1c2bf964451672709ff042172a884c2"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/balanced_three_donors_four_species_polyIC.tsv",
-      "bytes": 27780,
-      "sha256": "de02253d03636f6c35be4fbefcbf7dff1ed533707350e0eb20ce65e70be5bbc0"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/balanced_three_donors_four_species_two_families.tsv",
-      "bytes": 54978,
-      "sha256": "8c72805bf6e447fce4ff51dd12a231b44dc085e5a5b2cdc530697ebbbdc960ad"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/execution_audit.json",
-      "bytes": 690,
-      "sha256": "b04c3ccd5ce1bb15e53f86f7f5af6ac9bb8bf2b1c2af572d6de1747182abd7cb"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/full_four_species_polyIC.tsv",
-      "bytes": 39030,
-      "sha256": "29870ddfff50854b2336a46df3c1d07ae27199431d350add7873f32bd5af77d6"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/new_author_evidence/EdgeR/info_tables/small_metaData_Hagai_homo_vs_mus.txt",
-      "bytes": 2849,
-      "sha256": "488cc22717b8df788bfbc72f5367040ebcf38de4c5f42516e8e751e91bed8877"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/new_author_repo_tree.json",
-      "bytes": 24222,
-      "sha256": "6f410986db2b0b3d1fc9c6b198e1eb00e9b791abc97c2fe7f8ab5cf95a826ddb"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/new_author_sources.json",
-      "bytes": 2083,
-      "sha256": "0dbaeda8c37cacc023f2506dac9b4ba243e021ee2120bd4af3e49126c16e4dcc"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/one_pair_per_species_polyIC.tsv",
-      "bytes": 9735,
-      "sha256": "7898d8327532dc05d9391cd4f6f8b34ce351e39ff972bf3889eb9ef594070499"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/paper_source.json",
-      "bytes": 454,
-      "sha256": "d109c11078a1607abc8c787284a4620273dd8e875538c258f0f45163113cbd3e"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/processed_e0/audit.json",
-      "bytes": 5159,
-      "sha256": "27205c0924256c0aa97885c0979ed0408267cdd4fad420befa06d70705f880cb"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/processed_e0/contrast_specification.json",
-      "bytes": 6392,
-      "sha256": "1ed86e1a934724c22a1547998f6463ea1544dd7aed06cf5692d6c814da2295f0"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/processed_e0/sample_metadata.json",
-      "bytes": 22439,
-      "sha256": "0705f8e7c31ac1d2e9241126d86b4389070f69c7b4cede43e5f921e80577ba9e"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/processed_relay_manifest.json",
-      "bytes": 3116,
-      "sha256": "a80433fe784424401a4fea280352b8d12d0769717610ae124b90fcd35d87350b"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/remote_acquisition_probe.json",
-      "bytes": 2429,
-      "sha256": "4330f2655fb355ef0ad8fb90328fb603cfb279ff93aacaa1d7315e6aef3b8dad"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/remote_probe.py",
-      "bytes": 2930,
-      "sha256": "2b4e5969f09e47be1ab774d99378c35686dd5679662fc98b618976489632cf82"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/run_e1_remote.py",
-      "bytes": 8975,
-      "sha256": "38fcca43022b5e34f40ca293073afc03e18b4a44832b81c2027da5e1d9066d1c"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/run_posthoc_scalar_remote.py",
-      "bytes": 4668,
-      "sha256": "c6d668ccce82284ad55e5406686a7f0d7d581ff519fe0c42ffde25dba2fdeeaf"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/subset_designs.json",
-      "bytes": 7183,
-      "sha256": "db295c3d9f01440c8e8c32ed86157df7cc9e136dc18a44a7d59ce2055ca755a3"
-    },
-    {
-      "path": "docs/multisource_20261108/e5919_recovery_02/technical_pilot_human_rhesus_polyIC.tsv",
-      "bytes": 5217,
-      "sha256": "5d17bd98465ae14ab9fb0d27b471b411a40f4a5bb4f2d031cf2006cc4051e971"
-    },
-    {
       "path": "docs/multisource_20261108/external_transfer_04/chemical_features/build_features.py",
       "bytes": 8506,
       "sha256": "c34601c608a6869ffad2e1c2d1446d9878524e5939b96f45f28f6e2ebc5f1e77"
@@ -816,11 +653,6 @@
       "path": "docs/multisource_20261108/genetic_expansion_02/human_sample_sources.json",
       "bytes": 3758,
       "sha256": "a52695679050a923a5098252e8a08baae623aa3166db73221c953ee85a7fe7a3"
-    },
-    {
-      "path": "docs/multisource_20261108/genetic_expansion_02/independent_e5919_audit.py",
-      "bytes": 14707,
-      "sha256": "cb17629212dd0a37ac5a8182f3c0afcfe0a777427c22ce444793b1bca19f6ab7"
     },
     {
       "path": "docs/multisource_20261108/genetic_expansion_02/original_expression_sources.json",
@@ -2583,186 +2415,6 @@
       "sha256": "cbdc38115ec78122f65e0a5c6b0b022cab08198483a86cee24fd4078bfc6b8d7"
     },
     {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/GSE330151_LOPO/device.json",
-      "bytes": 397,
-      "sha256": "e91d18a16da94b475122d1cd6f443d31d665b5751760df5f043c12544f8847ae"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/GSE330151_LOPO/historical_fits.json",
-      "bytes": 7556796,
-      "sha256": "bfcf09c6d6f976c90f3ff22950fbc1251631c4bd767f4a7e083e023a8fe55f47"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/GSE330151_LOPO/measured_arm_sensitivity.json",
-      "bytes": 50508,
-      "sha256": "2a191c71553d81077275804d7d4d61cd978a409b87ac952bcc263ac8619af238"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/GSE330151_LOPO/scores.json",
-      "bytes": 33731,
-      "sha256": "05ff501f2911fb3d27f8acbe34565f6c8b1554adc9669d7f1b40f708f1bb28ea"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/GSE330151_LOPO/terminal_error_geometry.json",
-      "bytes": 7818,
-      "sha256": "a604fa72e9f1a1ab3e6b35879a65ec98216551e46707ca04c2e4611bee9ee328"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/all_method_losses.csv",
-      "bytes": 25506,
-      "sha256": "969db28cd5ce712a53fc23c9cd0a61f03e1612966e4de329c4902ad87ffdf689"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/descriptive_audit.json",
-      "bytes": 37281,
-      "sha256": "12662fdbda1d0dafa19f2225b26764df7eb2056267dac59af722bc85665f8098"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/report.json",
-      "bytes": 64063,
-      "sha256": "9b0cdd957a71a981f8d996eeacfe5f3a90290c46e8b2e2015c5508100ea3f454"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/GSE330151_amplitude_v1/specification.json",
-      "bytes": 3111,
-      "sha256": "324cb12e2953956187a2ce53184481d735d444fcb219847e7c7f6f1c9c194b55"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_LOPO/device.json",
-      "bytes": 406,
-      "sha256": "3332ec42835d88ee284a287cc1b740c9537f3e9c67d996bb85592d3dff21ba6e"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_LOPO/historical_fits.json",
-      "bytes": 5519778,
-      "sha256": "f7b925892e43d07128ca57f6ccdb8a45503240ff64c89a6f7861eab64f650033"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_LOPO/measured_arm_sensitivity.json",
-      "bytes": 25070,
-      "sha256": "14063a0b8ddd86c55f481892ce813a0887186f0e3b78d91d761ebfd0d768a56d"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_LOPO/scores.json",
-      "bytes": 16776,
-      "sha256": "3bfb55b2558e1788e7753e7daf968ea5e36c322e42e5ad428355b4f96faf8852"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_LOPO/terminal_error_geometry.json",
-      "bytes": 5223,
-      "sha256": "f06e161ca9b7db024b14c13e4a97f056b57e260755291c3d4166c22f31f4d62f"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_TO_GSE330151/device.json",
-      "bytes": 397,
-      "sha256": "ccaba3e32576731684976ddce0b8c8f8a99f5df0293723959f1757b3ae945afb"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_TO_GSE330151/historical_fits.json",
-      "bytes": 5535360,
-      "sha256": "3c10b013a24d2c4201f1abc4bc0d775822c85e1fb95b9204584704721d05b617"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_TO_GSE330151/measured_arm_sensitivity.json",
-      "bytes": 25506,
-      "sha256": "9bf1f7c2b4c61e111bae8358f13b2794695cdc37b889716ce192636691f876e4"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_TO_GSE330151/scores.json",
-      "bytes": 16976,
-      "sha256": "88482823cd2e31c0ae128818d9260b6d5346b2957ad7514eb8f255cd0178972a"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_TO_GSE330151/terminal_error_geometry.json",
-      "bytes": 5331,
-      "sha256": "0c4cb28f1edd65d79303e62cb7da6ad82ea047a6ae0763a9ec6800603afc5250"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE300171_input_manifest_used.json",
-      "bytes": 14153,
-      "sha256": "851a24516a7fc7eb17aebc5a08452e2352cea9c55f83efd5b25391870c2d3279"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_LOPO/device.json",
-      "bytes": 395,
-      "sha256": "3a89cd17f8c8d64e0f60b037e4c6b65a9104495ae792e07ee17643db4c2cd82b"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_LOPO/historical_fits.json",
-      "bytes": 5514517,
-      "sha256": "36b56a6423768353749d0235d38382b1eb2765f57073fdcab14ce94b6a9cab18"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_LOPO/measured_arm_sensitivity.json",
-      "bytes": 25639,
-      "sha256": "ad56872df008d40bd98b0edc75b0c88c77eb01ef3b6e1d0722f2664f58ef087a"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_LOPO/scores.json",
-      "bytes": 17029,
-      "sha256": "e724565c6ff54863b5de8dcc63d45c0171a5e34ec6426569f87df0da510f07d2"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_LOPO/terminal_error_geometry.json",
-      "bytes": 5377,
-      "sha256": "a2b57371e8064644ed4b934eabbc3c9e79001f1706f99b0746a5489af532e69e"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_TO_GSE300171/device.json",
-      "bytes": 405,
-      "sha256": "ec4d556cea719afaa91b1f5627ef4dfeb520166243d02945d192971e39d6a0a6"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_TO_GSE300171/historical_fits.json",
-      "bytes": 5540001,
-      "sha256": "7ab31c8ac06bbb26e719007b9611995705e3789c3ae93932e56c22d1edc06755"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_TO_GSE300171/measured_arm_sensitivity.json",
-      "bytes": 25123,
-      "sha256": "8a5f3d70c49d12708d8e5f735234a216479b9cd8acfb244c12a9e0408ae2064e"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_TO_GSE300171/scores.json",
-      "bytes": 16814,
-      "sha256": "70d900480df79e7d981af960a63838dc2d737e655602f52b40ffda598ce713b1"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/GSE330151_TO_GSE300171/terminal_error_geometry.json",
-      "bytes": 5234,
-      "sha256": "3420994620986ac47308bd4f3c4a5840b116b57260e5aafb4b934d5e6585a7de"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/all_method_losses.csv",
-      "bytes": 51933,
-      "sha256": "9d5dc0c88883ac027f5ebcc74fae1d65fc669f64f8b9a4137c386b96e2c70f95"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/descriptive_audit.json",
-      "bytes": 50831,
-      "sha256": "5b23385b2b4f6276c797d4110d1686512bdc293413844e5d5fa3dfc87b8cc537"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/input_documentation_amendment.json",
-      "bytes": 2608,
-      "sha256": "d578b85489d7981e6f11061b016902257cf4a1c98ee77578baad293213799ab0"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/report.json",
-      "bytes": 157242,
-      "sha256": "1dc9299e40a8844e7e774f1e2fa81fbb54e178391f78f472c695fe6e2d014d32"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/two_hepatocyte_studies/specification.json",
-      "bytes": 3441,
-      "sha256": "f8e9b51bd50979a3b53b01bb6a550c3580856425bcae6f9902dc4d451f7fbbd1"
-    },
-    {
-      "path": "outputs/multisource_20261108/benchmarks/multistudy_v1/verification.json",
-      "bytes": 811,
-      "sha256": "ab8f0f5802aa258390e5112d37a90d54cd277e9fa58192a1faffc232041a8875"
-    },
-    {
       "path": "outputs/multisource_20261108/curated_panels/GSE105160/coverage.json",
       "bytes": 3669,
       "sha256": "adcf978ab030877e7645e0adbd870170af7b7a586f55f5978723b41f4d65e1bb"
@@ -2831,11 +2483,6 @@
       "path": "outputs/multisource_20261108/curated_panels/GSE105160_orthology/squirrel_monkey.tsv",
       "bytes": 2416681,
       "sha256": "99d59b83ad581f93b220f5c0f28b80b4a882719053b5fdf45fe8fa7334c626ef"
-    },
-    {
-      "path": "outputs/multisource_20261108/curated_panels/GSE300171/coverage.json",
-      "bytes": 6424,
-      "sha256": "59f6af6fdb0d71c93a7a9d1493512e28116ea563156eb1614f57afddeeba02b9"
     },
     {
       "path": "outputs/multisource_20261108/curated_panels/GSE330151/coverage.json",
@@ -3364,8 +3011,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 434,
-      "sha256": "4a5ca6f25a2a23433f19c34f22233755e08e55e921bb4a48ada4bf35ba908c0d"
+      "bytes": 447,
+      "sha256": "4647d80083475ff9dc9188194b557f5fc88f6f8bc63b12fc6b35b3b1e018f9e6"
     },
     {
       "path": "reproduction/data_acquisition.json",
@@ -3413,11 +3060,6 @@
       "sha256": "cf9e1ed79253ad859ce7b2e76241196a377879ce2b8512688d39f549fa75545d"
     },
     {
-      "path": "scripts/audit_replicate_normalisation.py",
-      "bytes": 5653,
-      "sha256": "90935c31b209d0e13c8bafcee166aacdd8f94105f4b1f518b00d871c66a1fe43"
-    },
-    {
       "path": "scripts/audit_scdfm_formal_outputs.py",
       "bytes": 7142,
       "sha256": "eb884cc9af42775217eefafc79a1026e03cd5b0e05ab7579af363c1da28441d9"
@@ -3436,11 +3078,6 @@
       "path": "scripts/fetch_feedback_compound_features.py",
       "bytes": 7457,
       "sha256": "50e2ce812c69eb51b6415bc603da45380bd0bbe1a3f60c474a5122501e706619"
-    },
-    {
-      "path": "scripts/make_integrated_results_figures.py",
-      "bytes": 19236,
-      "sha256": "f28fd794e308dc92e58706da480779944e7469b7c519f3630efcfc708003d22b"
     },
     {
       "path": "scripts/predict_gse325993_screen.py",
@@ -3481,11 +3118,6 @@
       "path": "scripts/prepare_hagai_nonrodent_lps.py",
       "bytes": 14714,
       "sha256": "baff57312f84068793eea1a872d8e562ac89b2ddd2695f19c955dca34edb0b68"
-    },
-    {
-      "path": "scripts/prepare_hepatocyte_multistudy.py",
-      "bytes": 19891,
-      "sha256": "b6b2388ee51fe6c571eb8297780791e18e094c3ad2bac22baf81835f71095e23"
     },
     {
       "path": "scripts/prepare_multisource_panels.py",
@@ -3548,11 +3180,6 @@
       "sha256": "4fc8421804a98c0afd471e5169f397fd708b0b36ba63d68fd45266904e67d2c6"
     },
     {
-      "path": "scripts/run_multistudy_source_validation.py",
-      "bytes": 18241,
-      "sha256": "bdcae9eaeb248007081ae6c202d79e2dafc94bfb0c7d0d953140e421be3e118e"
-    },
-    {
       "path": "scripts/run_nonrodent_lps_state.py",
       "bytes": 18388,
       "sha256": "f80fa63daec226f81f4fb5d93ccac4fea330bdcf2b3d6d8446c1d48f3d2fee49"
@@ -3588,11 +3215,6 @@
       "sha256": "3bd27505ca29501773afd989cd91c74321303ca9c99490f88eb8b2445c5aff5a"
     },
     {
-      "path": "scripts/run_system_vs_species.py",
-      "bytes": 9666,
-      "sha256": "9a16ade09cf593f55b0cc4ec09d1ab3baf5603e80ed303839fda51cecde3205d"
-    },
-    {
       "path": "scripts/run_ten_species_source_audit.py",
       "bytes": 12742,
       "sha256": "6d2725793673f8b12c4233c083ea6f9158a05004af2c631b877cdb177e8ea1f9"
@@ -3619,18 +3241,8 @@
     },
     {
       "path": "src/cross_species/__init__.py",
-      "bytes": 210,
-      "sha256": "4b7775bf71b391754c4f290a20b474d0b6a2b3cc2b3c6b97e58315094e4e94c8"
-    },
-    {
-      "path": "src/cross_species/data.py",
-      "bytes": 4385,
-      "sha256": "96c9c8882f63be24de54918ddbeb9dd1baa59054b7119a685a27aea664695064"
-    },
-    {
-      "path": "src/cross_species/experiment.py",
-      "bytes": 2974,
-      "sha256": "c5edc6af889d6b13490cd1945790e43bee0cca23ea0009f48a5fd3c268f01d03"
+      "bytes": 80,
+      "sha256": "f332d6c14ef84d9b10dbad845079331220ffca2e7310aaef9da2913bfe241c91"
     },
     {
       "path": "src/cross_species/feedback_data.py",
@@ -3653,16 +3265,6 @@
       "sha256": "431e71ead6a8a409c0f48140eda4a49b9a154b969520cc12f23b1a0be973a65a"
     },
     {
-      "path": "src/cross_species/metrics.py",
-      "bytes": 6867,
-      "sha256": "541577a94fa7041f10bd368a6597cb11c1b807ed3ef12eaafc95eb33c5cce148"
-    },
-    {
-      "path": "src/cross_species/models.py",
-      "bytes": 5950,
-      "sha256": "3e25aaa009491135630fa76a77c0b21881b8cf8313d0df7297f30da360bb9582"
-    },
-    {
       "path": "src/cross_species/multisource_data.py",
       "bytes": 22108,
       "sha256": "d35d7c0ef4d703076e46b241c6271adf57a3cdfdc4ea2c54435b325ccb308540"
@@ -3671,11 +3273,6 @@
       "path": "src/cross_species/multisource_models.py",
       "bytes": 13037,
       "sha256": "8b6f352056a49f431b9110988d1438c0c64ca1428ab183e675289d44106c3ca3"
-    },
-    {
-      "path": "src/cross_species/multistudy_source_models.py",
-      "bytes": 10900,
-      "sha256": "2e7c3c7c278126dbe34a9e4ce419fba3dbb6dff1296c63469bb9759de434a404"
     },
     {
       "path": "src/cross_species/named_gene_state.py",
@@ -3726,11 +3323,6 @@
       "path": "src/cross_species/state_policy.py",
       "bytes": 13935,
       "sha256": "9cc540ab757c9ac0928274001f0a4b8ecb92a570c2ba9ee8ccce9d3177c5388e"
-    },
-    {
-      "path": "src/cross_species/synthetic.py",
-      "bytes": 942,
-      "sha256": "a91a10a4991db89af3a5f53187b3eec45cc264159a3df9fe32bd38688eec8122"
     }
   ]
 }

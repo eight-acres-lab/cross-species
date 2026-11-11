@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cross-species-response-pilot"
+name = "cross-species-perturbation-response"
 version = "0.1.0"
-description = "Auditable design-stage pilots for cross-species perturbation response transfer"
+description = "Analysis code for How animal data can improve models of human perturbation responses"
 requires-python = ">=3.9"
 dependencies = ["numpy>=1.24"]
 

@@ -1,8 +1,0 @@
-# Optional readers for analyses that require external raw datasets.
--r requirements.txt
-pandas>=2
-h5py>=3
-pyarrow>=14
-polars>=1
-openpyxl>=3.1
-statsmodels>=0.14
