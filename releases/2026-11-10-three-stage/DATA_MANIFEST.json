@@ -15,9 +15,24 @@
       "sha256": "ff686eb3a470d2d65d0864041e546cf95a4766464a016d8dd800520764c9f9d9"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1083,
+      "sha256": "f07fa446830fe86fb81921be84db2f444e087e01578a8e09abbfafdc197099fa"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
       "path": "README.md",
-      "bytes": 10315,
-      "sha256": "95f559b67c21e9a459f6117ed1a87b8ffaaa1220d8e6a5a1fa9efcb7e1677d45"
+      "bytes": 10502,
+      "sha256": "18e21731ba0001af43b33e90e4a0b039ba4c49e4514d7c8b18d015472f5c39d8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1587,
+      "sha256": "d570a238e939e6587324656c9ab8e548289076c2cf1d7896e7b23e5f6b8ae144"
     },
     {
       "path": "artifacts/feedback_compound_features_20261107/manifest.json",
@@ -3276,8 +3291,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 447,
-      "sha256": "4647d80083475ff9dc9188194b557f5fc88f6f8bc63b12fc6b35b3b1e018f9e6"
+      "bytes": 567,
+      "sha256": "ba2597018b9f1c931cb21ce55a3c8ff5a3941b954aa6537dae573a209b65d7c0"
     },
     {
       "path": "reproduction/data_acquisition.json",

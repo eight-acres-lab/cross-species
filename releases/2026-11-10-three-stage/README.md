@@ -1,6 +1,6 @@
 # How animal data can improve models of human perturbation responses
 
-Analysis code, processed results and figure source data accompanying the manuscript by **Zihui Zhang, Wei Wang, Ziyan Zhou, Zhi Wang and Chen Peng**.
+Analysis code, processed results and figure source data accompanying the manuscript.
 
 The analyses evaluate measured animal responses as prediction inputs and animal observations as training supervision. Human-only adaptation controls and matched additional-human comparisons measure each source's contribution to prediction. The macaque experiment evaluates trained models in a second screen of the same study; the rabbit experiment tests transfer across cell sources and stimulation protocols.
 
@@ -82,6 +82,10 @@ The table maps Figures 1–6 to their source data and analysis code.
 | Rabbit–human LPS response | [Hagai et al.](https://doi.org/10.1038/s41586-018-0657-2), [E-MTAB-6754](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-6754) and [Lawlor et al.](https://doi.org/10.3389/fimmu.2021.636720) | [Frozen configuration](docs/nonrodent_singlecell_20261110/EVALUATION_CONTRACT_v3.json), [source metadata](docs/nonrodent_singlecell_20261110/) and [prepared-input definitions](docs/nonrodent_singlecell_20261110/prepared/) |
 
 Source accessions, sample selections and checksums accompany the results in `docs/`, `artifacts/` and `outputs/`. Dataset and model reuse follows the source providers' terms.
+
+## License
+
+Original software and software documentation are available under the [MIT License](LICENSE). Third-party components, datasets, model weights and artwork retain their respective terms; see the [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Running the analyses
 

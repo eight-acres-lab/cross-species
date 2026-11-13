@@ -1,6 +1,6 @@
 # How animal data can improve models of human perturbation responses
 
-Code and processed analysis data accompanying the manuscript by **Zihui Zhang, Wei Wang, Ziyan Zhou, Zhi Wang and Chen Peng**.
+Code and processed analysis data accompanying the manuscript.
 
 The study tests animal measurements as prediction inputs and as training supervision for models of human cellular responses. Matched comparisons measure prediction gains, performance relative to additional human observations, and transfer across experimental settings.
 
@@ -45,8 +45,6 @@ The result check covers the seven percentages in the abstract and all 113 numeri
 
 The repository-level [file inventory](DATA_MANIFEST.json) records file sizes and SHA-256 hashes. The paper directory also has its own [inventory](releases/2026-11-10-three-stage/DATA_MANIFEST.json).
 
-## Correspondence
+## License
 
-Zhi Wang: [witwang@pointeight.ai](mailto:witwang@pointeight.ai)
-
-Chen Peng: [pengchenea@cau.edu.cn](mailto:pengchenea@cau.edu.cn)
+Original software and software documentation are available under the [MIT License](LICENSE). Third-party components, datasets, model weights and artwork retain their respective terms; see the [third-party notices](releases/2026-11-10-three-stage/THIRD_PARTY_NOTICES.md).

@@ -6,11 +6,15 @@ build-backend = "setuptools.build_meta"
 name = "cross-species-perturbation-response"
 version = "0.1.0"
 description = "Analysis code for How animal data can improve models of human perturbation responses"
+license = {file = "LICENSE"}
 requires-python = ">=3.9"
 dependencies = ["numpy>=1.24"]
 
 [project.optional-dependencies]
 feedback = ["torch>=2.7,<3", "matplotlib>=3.7"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
